@@ -187,5 +187,9 @@ Commits inside an ordinary PR branch and plain sync merges (`Merge branch 'main'
 ## Repos not covered
 
 These have no GitHub releases, so there is nothing to break down per release: artcraft-services (the largest repo by history, ~15,000 commits), craft-libs, craft-repo-status-app, craft-common-actions, craft-launcher-assets, craft-fonts, photocraft-corpus, artcraftx, cloud-worker, github-media, storyteller-ml, storyteller-bevy, fakeyou-recast, and about 30 older, archived or forked repos (Unreal/Unity plugins, ML experiments, forks such as spark and winprint.rs).
+
+## Licence
+
+[MIT](LICENSE).
 """
 open(f"{ROOT}/README.md", "w").write(readme)
