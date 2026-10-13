@@ -1,12 +1,12 @@
 <script lang="ts">
 	import { AreaChart } from 'layerchart';
 	import { scaleUtc } from 'd3-scale';
-	import { SERIES, formatDate, type ChartRow } from '#lib/stats.ts';
+	import { formatDate, type ChartRow, type SeriesDef } from '#lib/stats.ts';
 	import { timeAxis } from '#lib/time-axis.ts';
 
-	let { rows }: { rows: ChartRow[] } = $props();
+	let { rows, series: defs }: { rows: ChartRow[]; series: readonly SeriesDef[] } = $props();
 
-	const series = SERIES.map(({ key, label, color }) => ({ key, label, color }));
+	const series = $derived(defs.map(({ key, label, color }) => ({ key, label, color })));
 	const byTime = $derived(new Map(rows.map((r) => [r.date.getTime(), r])));
 
 	const axis = $derived(timeAxis(rows.map((r) => r.date)));

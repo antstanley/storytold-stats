@@ -68,7 +68,7 @@ A further 1153 changes are on `main` but not yet in a release (209 features, 783
 | [lightcraft](reports/lightcraft.md) | 114 | 721 | 91% | 263 | Claude, OpenAI Codex / ChatGPT, DeepSeek, opencode, GitHub Copilot | · |
 | [effectcraft](reports/effectcraft.md) | 66 | 696 | 89% | 123 | Claude, OpenAI Codex / ChatGPT | · |
 | [wordcraft](reports/wordcraft.md) | 75 | 356 | 88% | · | Claude, OpenAI Codex / ChatGPT, Cursor, Devin, GitHub Copilot, Unnamed agent | · |
-| [artcraft](reports/artcraft.md) | 8 | 6 | 0% | · | Claude | 1 |
+| [artcraft](reports/artcraft.md) | 8 | 6 | <1% | · | Claude | 1 |
 | **All** | **712** | **6112** | 66% | **409** | 14 agents | 1 |
 
 A human is counted once per repo here, and once in the **All** row even if they contributed to several repos.
@@ -162,14 +162,15 @@ Commits inside an ordinary PR branch and plain sync merges (`Merge branch 'main'
 
 ## Files
 
-- `reports/<repo>.md` — per-release tables for one repo: by category, and by how changes landed
+- `reports/<repo>.md` — one repo's charts, a short plain-English commentary on its trends, and per-release tables: by change type, by how changes landed, and by contributor
 - `csv/release_stats.csv` — the same numbers, one row per repo and release
 - `csv/changes.csv` — every change with its release, category, basis, landing type, PR number, contributors (human, co-authors, agents, bots) and title
 - `csv/contributors.csv` — every human, agent and bot with their change counts, per repo and across the org (`repo` = `(all)`)
 - `web/` — SvelteKit + LayerChart app with a stacked line chart and a stacked bar chart per repo, flat or isometric (`cd web && pnpm install && pnpm dev`)
-- `charts/dark/` — PNG exports of each repo's stacked line chart
+- `charts/light/`, `charts/dark/` — PNG exports of the four charts on each repo's page, embedded in the reports
 - `data/` — inputs and per-change output: PR metadata (`prs/`, `prs_extra/`), release lists (`releases_api/`), LLM labels (`review_labels.jsonl`, batches in `review/`), and every classified change (`classified.jsonl`)
-- `scripts/` — the pipeline; `.agents/skills/compile-stats/SKILL.md` walks through running it to refresh the stats
+- `scripts/` — the pipeline
+- `.agents/skills/` — instructions for an AI agent: `compile-stats` refreshes the stats from GitHub, `create-reports` generates the reports, their charts and their commentary
 
 ## Repos not covered
 

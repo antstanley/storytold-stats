@@ -60,6 +60,26 @@ export const SERIES = [
 }[];
 export type SeriesKey = (typeof SERIES)[number]['key'];
 
+/** What a chart needs to know about a series. */
+export type SeriesDef = { key: string; label: string; color: string };
+
+/** Unique contributors in a release, by kind. */
+export const CONTRIBUTOR_SERIES: SeriesDef[] = [
+	{ key: 'returning', label: 'Returning humans', color: 'var(--series-1)' },
+	{ key: 'new', label: 'New humans', color: 'var(--series-2)' },
+	{ key: 'agents', label: 'Disclosed agents', color: 'var(--series-3)' },
+	{ key: 'bots', label: 'Bots', color: 'var(--series-4)' }
+];
+
+/** A release's changes, by whether an AI agent is disclosed on them. */
+export const DISCLOSURE_SERIES: SeriesDef[] = [
+	// Not `none`: LayerChart reads a style value that names a data field as that field, so a
+	// field called `none` hijacks every `stroke="none"` and breaks the areas apart
+	{ key: 'undisclosed', label: 'No agent disclosed', color: 'var(--series-1)' },
+	{ key: 'coauthored', label: 'Agent co-authored', color: 'var(--series-2)' },
+	{ key: 'authored', label: 'Agent is git author', color: 'var(--series-3)' }
+];
+
 export type Release = {
 	key: string;
 	label: string;
@@ -71,8 +91,26 @@ export type Release = {
 	commits: number;
 	changes: number;
 	counts: Record<Category, number>;
+	contributors: {
+		humans: number;
+		newHumans: number;
+		agents: string[];
+		bots: number;
+		agentDisclosed: number;
+		agentAuthored: number;
+	};
 };
-export type Repo = { name: string; releases: Release[] };
+export type Repo = {
+	name: string;
+	/** Unique contributors over the repo's released changes */
+	people: {
+		humans: number;
+		agents: { name: string; changes: number }[];
+		bots: number;
+		top: { name: string; changes: number }[];
+	};
+	releases: Release[];
+};
 
 export const generated: string = raw.generated;
 export const repos: Repo[] = raw.repos;
@@ -83,8 +121,8 @@ export function getRepo(name: string): Repo | undefined {
 
 /** One chart row per release: its date plus a count for each series. */
 export type ChartRow = { key: string; label: string; date: Date; total: number } & Record<
-	SeriesKey,
-	number
+	string,
+	number | string | Date
 >;
 
 export function chartRows(releases: Release[]): ChartRow[] {
@@ -94,6 +132,39 @@ export function chartRows(releases: Release[]): ChartRow[] {
 			row[s.key] = s.categories.reduce((n: number, c: Category) => n + r.counts[c], 0);
 		}
 		return row;
+	});
+}
+
+/** Unique contributors per release: humans split into new and returning, plus agents and bots. */
+export function contributorRows(releases: Release[]): ChartRow[] {
+	return releases.map((r) => {
+		const c = r.contributors;
+		return {
+			key: r.key,
+			label: r.label,
+			date: new Date(r.date),
+			total: c.humans + c.agents.length + c.bots,
+			returning: c.humans - c.newHumans,
+			new: c.newHumans,
+			agents: c.agents.length,
+			bots: c.bots
+		};
+	});
+}
+
+/** Changes per release by agent disclosure. */
+export function disclosureRows(releases: Release[]): ChartRow[] {
+	return releases.map((r) => {
+		const c = r.contributors;
+		return {
+			key: r.key,
+			label: r.label,
+			date: new Date(r.date),
+			total: r.changes,
+			undisclosed: r.changes - c.agentDisclosed,
+			coauthored: c.agentDisclosed - c.agentAuthored,
+			authored: c.agentAuthored
+		};
 	});
 }
 
@@ -109,17 +180,23 @@ export type LongRow = {
 	row: string;
 };
 
-export function longRows(rows: ChartRow[], { zeros = false } = {}): LongRow[] {
+export function longRows(
+	rows: ChartRow[],
+	series: readonly SeriesDef[],
+	{ zeros = false } = {}
+): LongRow[] {
 	return rows.flatMap((r) =>
-		SERIES.filter((s) => zeros || r[s.key] > 0).map((s) => ({
-			key: r.key,
-			label: r.label,
-			date: r.date,
-			series: s.label,
-			color: s.color,
-			value: r[s.key],
-			row: 'Changes'
-		}))
+		series
+			.filter((s) => zeros || (r[s.key] as number) > 0)
+			.map((s) => ({
+				key: r.key,
+				label: r.label,
+				date: r.date,
+				series: s.label,
+				color: s.color,
+				value: r[s.key] as number,
+				row: 'Total'
+			}))
 	);
 }
 

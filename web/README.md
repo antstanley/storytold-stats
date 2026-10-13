@@ -7,6 +7,8 @@ For every repo there is a page with two charts, both with the release date on th
 - a stacked line (area) chart
 - a stacked bar chart, one bar per release
 
+Below them, a Contributors section charts unique contributors per release (returning humans, new humans, disclosed agents, bots) and changes per release by agent disclosure, and lists the agents disclosed and the most active humans.
+
 A Flat / Isometric toggle on each repo page swaps both charts for LayerChart's isometric view: a curtain per change type for the line chart, and stacked 3D columns for the bar chart. Drag either one to rotate it.
 
 ```sh

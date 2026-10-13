@@ -105,16 +105,19 @@ cd web
 pnpm install
 pnpm check && pnpm build
 pnpm preview --port 4173 &          # start it after the build, see below
-node scripts/export-charts.mjs http://localhost:4173 dark
+node scripts/export-charts.mjs http://localhost:4173
 ```
 
-`export-charts.mjs` writes each repo's stacked line chart to `charts/dark/<repo>-stacked-line.png` (pass `light` for the other theme). Look at a few of the PNGs, including the repo with the fewest releases and the one with the most, for overlapping or repeated axis labels. Stop the preview server when you are done.
+The reports embed chart images from `charts/`, so export them on every refresh or the charts will not match the tables beside them. Stop the preview server when you are done.
+
+The [create-reports](../create-reports/SKILL.md) skill covers this step and the previous one in more detail: what to look for in the charts, how to check the generated commentary, and how to change either.
 
 ### 8. Check the result
 
 - **Existing releases should not move.** Run `git diff --stat csv/release_stats.csv` and read the diff: rows for releases that existed before should be unchanged, with new rows for new releases and a changed `(unreleased)` row. If an old row changed, find out why before going further. Legitimate causes are a repo whose history was rewritten upstream, a tag that moved, or labels you changed on purpose.
 - **The run is repeatable.** `build_changes.py` followed by `classify.py` gives a byte-identical `data/classified.jsonl` every time.
 - **Contributor counts are plausible.** In the README's "Disclosed agents" table, a new agent row should be an agent you recognise, and the number of humans should grow roughly with the new history. A sudden jump in humans identified by name only (the README says how many) means identities stopped resolving to logins; the evidence used is described at the top of `scripts/contributors.py`.
+- **The reports read true.** Read two or three of the regenerated reports as the create-reports skill describes: commentary against tables, commentary against charts.
 - **The headline table still makes sense.** Compare the shares in the README's headline table with the previous version; a large swing in a repo's feature/fix split with little new history points at a labelling problem.
 
 ## Things that go wrong

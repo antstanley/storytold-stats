@@ -1,8 +1,29 @@
 # lightcraft — changes per release
 
-8 releases, 2026-10-02 → 2026-10-12. Each row counts the changes that landed between the previous release tag and this one; the first row is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised.
+8 releases, 2026-10-02 → 2026-10-12. Each release is counted as the changes that landed between the previous release tag and its own; the first one is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised. The charts cover released changes; the commentary under them is generated from the same numbers.
 
-## By category
+## Changes by type
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/lightcraft-changes-line.png">
+  <img alt="lightcraft: changes per release, stacked by type, as lines" src="../charts/light/lightcraft-changes-line.png">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/lightcraft-changes-bar.png">
+  <img alt="lightcraft: changes per release, stacked by type, as bars" src="../charts/light/lightcraft-changes-bar.png">
+</picture>
+
+**What this shows**
+
+- lightcraft has had 8 releases with 788 changes in total, over 10 days.
+- The biggest release was v0.5.0 (10 Oct) with 171 changes, which is 22% of everything released so far.
+- Releases are getting bigger: the first 4 releases averaged 75 changes each and the last 4 releases averaged 122.
+- Overall, features make up 35% of changes and fixes 34%.
+- The work has shifted from building new things to fixing: features went from 49% of changes in the first 4 releases to 27% in the last 4 releases, and fixes from 24% to 41%.
+- Performance work is 5% of changes (42), most of it in v0.1.0 (2 Oct), which had 23.
+- After features and fixes, the next biggest group is documentation at 7%.
+- Since the last release, 116 more changes have landed on main and not been released yet: 21 features and 71 fixes among them.
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -19,7 +40,14 @@
 
 Share of released changes: feature 35%, fix 34%, perf 5%, i18n 3%, docs 7%, test 3%, build/ci 3%, release 2%, refactor 3%, other 4%.
 
-## By how it landed
+## How changes landed
+
+**What this shows**
+
+- 58% of changes came in through pull requests; the rest were committed directly.
+- That has grown: pull requests were 27% of changes in the first 4 releases and 77% in the last 4 releases.
+- Of the 459 pull requests, 75% came from people outside the core team.
+- Outside contributions have gone up: 23% of pull requests in the first 4 releases, 86% in the last 4 releases.
 
 | Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -37,6 +65,28 @@ Share of released changes: feature 35%, fix 34%, perf 5%, i18n 3%, docs 7%, test
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
 
 ## Contributors
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/lightcraft-contributors.png">
+  <img alt="lightcraft: unique contributors per release (returning humans, new humans, disclosed agents, bots)" src="../charts/light/lightcraft-contributors.png">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/lightcraft-agent-disclosure.png">
+  <img alt="lightcraft: changes per release by agent disclosure" src="../charts/light/lightcraft-agent-disclosure.png">
+</picture>
+
+**What this shows**
+
+- 114 people have contributed to released changes.
+- The first release had 1 person and the latest had 49.
+- In the latest release, 33 of the 49 people were contributing for the first time.
+- The most active person, @echelon, authored 41% of all changes, and the three most active authored 53% between them.
+- 91% of changes say an AI agent was involved (721 of 788).
+- That share has gone down: 99% in the first 4 releases and 87% in the last 4 releases.
+- Claude accounts for nearly all of the changes that name an agent; 4 other agents are named on 39 changes between them.
+- In 263 changes the agent is the commit author itself, not only a co-author.
+- These figures only count changes that say so, so the real share may be higher.
 
 | Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
 |---|--:|--:|--:|--:|--:|---|--:|

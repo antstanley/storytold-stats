@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { scaleBand, scaleOrdinal } from 'd3-scale';
 	import { Axis, Bars, Chart, Frame, Grid, Highlight, isometric, Layer, Legend, Tooltip } from 'layerchart';
-	import { SERIES, formatDay, formatDate, longRows, type ChartRow } from '#lib/stats.ts';
+	import { formatDay, formatDate, longRows, type ChartRow, type SeriesDef } from '#lib/stats.ts';
 
-	let { rows }: { rows: ChartRow[] } = $props();
+	let { rows, series: defs }: { rows: ChartRow[]; series: readonly SeriesDef[] } = $props();
 
-	const data = $derived(longRows(rows));
+	const data = $derived(longRows(rows, defs));
 	const byKey = $derived(new Map(rows.map((r) => [r.key, r])));
 	// Label every release until the dates would run into each other, then every second or third
 	const ticks = $derived.by(() => {
@@ -34,8 +34,8 @@
 		zRange={({ width }: { width: number }) => [0, width * 0.42]}
 		c="series"
 		cScale={scaleOrdinal()}
-		cDomain={SERIES.map((s) => s.label)}
-		cRange={SERIES.map((s) => s.color)}
+		cDomain={defs.map((s) => s.label)}
+		cRange={defs.map((s) => s.color)}
 		view={isometric({ rotate: -22, tilt: 68, aspect: Math.max(4, rows.length * 0.7) })}
 		transform={{ mode: 'canvas', drag: 'rotate' }}
 		tooltipContext={{ mode: 'manual' }}

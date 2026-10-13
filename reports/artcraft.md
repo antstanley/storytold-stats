@@ -1,8 +1,30 @@
 # artcraft — changes per release
 
-23 releases, 2025-07-14 → 2026-09-26. Each row counts the changes that landed between the previous release tag and this one; the first row is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised.
+23 releases, 2025-07-14 → 2026-09-26. Each release is counted as the changes that landed between the previous release tag and its own; the first one is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised. The charts cover released changes; the commentary under them is generated from the same numbers.
 
-## By category
+## Changes by type
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/artcraft-changes-line.png">
+  <img alt="artcraft: changes per release, stacked by type, as lines" src="../charts/light/artcraft-changes-line.png">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/artcraft-changes-bar.png">
+  <img alt="artcraft: changes per release, stacked by type, as bars" src="../charts/light/artcraft-changes-bar.png">
+</picture>
+
+**What this shows**
+
+- artcraft has had 22 releases with 1,522 changes in total, over 253 days.
+- The first release, v0.0.1 (14 Jul), is left out of everything below: its 10,033 changes of older history were counted but not sorted into types.
+- The biggest release was v0.37.0 (11 Sep) with 447 changes, which is 29% of everything released so far.
+- Release size has stayed fairly steady: the first 11 releases averaged 63 changes each and the last 11 releases averaged 75.
+- Overall, features make up 47% of changes and fixes 20%.
+- The balance between features and fixes has not changed much: features went from 43% of changes in the first 11 releases to 50% in the last 11 releases, and fixes from 19% to 22%.
+- Performance work is rare: 14 changes.
+- After features and fixes, the next biggest group is clean-up at 10%.
+- Since the last release, 15 more changes have landed on main and not been released yet: 7 features and 3 fixes among them.
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -36,7 +58,13 @@
 
 Share of released changes: feature 47%, fix 20%, perf 1%, docs 3%, test 1%, build/ci 5%, release 4%, refactor 10%, deps 1%, revert 1%, other 7%.
 
-## By how it landed
+## How changes landed
+
+**What this shows**
+
+- 66% of changes came in through pull requests; the rest were committed directly.
+- That has grown: pull requests were 52% of changes in the first 11 releases and 78% in the last 11 releases.
+- Of the 1,007 pull requests, 5% came from people outside the core team.
 
 | Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -70,6 +98,27 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 ## Contributors
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/artcraft-contributors.png">
+  <img alt="artcraft: unique contributors per release (returning humans, new humans, disclosed agents, bots)" src="../charts/light/artcraft-contributors.png">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/artcraft-agent-disclosure.png">
+  <img alt="artcraft: changes per release by agent disclosure" src="../charts/light/artcraft-agent-disclosure.png">
+</picture>
+
+**What this shows**
+
+- 8 people have contributed to released changes.
+- The first release had 4 people and the latest had 1; the most in one release was 5, in v0.37.0 (11 Sep).
+- Nobody in the latest release was a first-time contributor.
+- The most active person, @echelon, authored 60% of all changes, and the three most active authored 97% between them.
+- Under 1% of changes say an AI agent was involved (6 of 1,522).
+- That share has stayed about the same over time (0% in the first 11 releases, 1% in the last 11 releases).
+- Claude accounts for all of the changes that name an agent.
+- These figures only count changes that say so, so the real share may be higher.
+
 | Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
 |---|--:|--:|--:|--:|--:|---|--:|
 | [artcraft-v0.0.1 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.0.1) | 34 | 34 | · | 0% | · | · | 1 |
@@ -92,11 +141,11 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [artcraft-v0.27.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.27.0) | 4 | 1 | 1 | 4% | · | Claude | · |
 | [artcraft-v0.28.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.28.0) | 3 | · | · | 0% | · | · | · |
 | [artcraft-v0.29.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.29.0) | 3 | · | · | 0% | · | · | · |
-| [artcraft-v0.32.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.32.0) | 3 | · | 1 | 1% | · | Claude | · |
-| [artcraft-v0.37.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.37.0) | 5 | 2 | 3 | 1% | · | Claude | · |
+| [artcraft-v0.32.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.32.0) | 3 | · | 1 | <1% | · | Claude | · |
+| [artcraft-v0.37.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.37.0) | 5 | 2 | 3 | <1% | · | Claude | · |
 | [artcraft-v0.41.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.41.0) | 1 | · | · | 0% | · | · | · |
 | _unreleased (main)_ | 4 | 1 | 4 | 27% | · | Claude | · |
-| **Released total** | **8** |  | **6** | 0% | **0** | Claude | 1 |
+| **Released total** | **8** |  | **6** | <1% | **0** | Claude | 1 |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 

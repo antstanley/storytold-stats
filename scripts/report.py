@@ -1,5 +1,8 @@
 """Write README.md, reports/<repo>.md, csv/release_stats.csv and csv/changes.csv from data/classified.jsonl."""
-import json, os, csv, collections, datetime
+import json, os, re, csv, collections, datetime
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import commentary
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 CATS = ["feature", "fix", "perf", "i18n", "docs", "test", "build-ci", "release", "refactor", "deps", "security", "revert", "other"]
 HEAD = {"feature": "Feature", "fix": "Fix", "perf": "Perf", "i18n": "i18n", "docs": "Docs", "test": "Test", "build-ci": "Build/CI",
@@ -112,18 +115,28 @@ def label(s):
     t = s["tags"] if len(s["tags"]) < 40 else s["release_tag"] + " (+win)"
     return f"[{t}]({s['url']})" if s["url"] else t
 
+def picture(repo, chart, alt):
+    """A chart PNG from charts/, in the reader's light or dark theme (written by web/scripts/export-charts.mjs)."""
+    return (f'<picture>\n  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/{repo}-{chart}.png">\n'
+            f'  <img alt="{alt}" src="../charts/light/{repo}-{chart}.png">\n</picture>')
+def bullets(sentences): return ["**What this shows**", ""] + [f"- {x}" for x in sentences] + [""]
+
 for repo in repos:
     ss = [s for s in S if s["repo"] == repo]
     tagged = [s for s in ss if s["release_tag"] != "(unreleased)"]
+    cs = [s for s in tagged if not s["uncategorised"]]
+    unreleased = next((s for s in ss if s["release_tag"] == "(unreleased)"), None)
     out = [f"# {repo} — changes per release", "",
-           f"{len(tagged)} releases, {tagged[0]['published']} → {tagged[-1]['published']}. Each row counts the changes that landed between the previous release tag and this one; the first row is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised.", ""]
-    out += ["## By category", ""]
+           f"{len(tagged)} releases, {tagged[0]['published']} → {tagged[-1]['published']}. Each release is counted as the changes that landed between the previous release tag and its own; the first one is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised. The charts cover released changes; the commentary under them is generated from the same numbers.", ""]
+    out += ["## Changes by type", "",
+            picture(repo, "changes-line", f"{repo}: changes per release, stacked by type, as lines"), "",
+            picture(repo, "changes-bar", f"{repo}: changes per release, stacked by type, as bars"), ""]
+    out += bullets(commentary.types(repo, cs, unreleased, [x for x in tagged if x["uncategorised"]]))
     lines = []
     for s in ss:
         if s["uncategorised"]:
             lines.append([label(s), s["published"], n(s["changes"])] + ["–"] * len(CATS)); continue
         lines.append([label(s), s["published"], n(s["changes"])] + [n(s[c]) for c in CATS])
-    cs = [s for s in tagged if not s["uncategorised"]]
     t = total(cs, ["changes"] + CATS)
     lines.append(["**Released total**", "", f"**{t['changes']}**"] + [f"**{t[c]}**" if t[c] else "·" for c in CATS])
     out += [table(["Release", "Published", "Changes"] + [HEAD[c] for c in CATS], lines), ""]
@@ -131,14 +144,18 @@ for repo in repos:
         out += ["`–` = not categorised: the first ArtCraft release sits on top of ~13,400 commits of earlier monorepo history (2015–2025), which is counted but not labelled.", ""]
     if t["changes"]:
         out += ["Share of released changes: " + ", ".join(f"{HEAD[c].lower()} {100 * t[c] / t['changes']:.0f}%" for c in CATS if t[c] / t["changes"] >= 0.005) + ".", ""]
-    out += ["## By how it landed", ""]
+    out += ["## How changes landed", ""]
+    out += bullets(commentary.landing(cs))
     lines = [[label(s), n(s["commits"]), n(s["pr-merge"]), n(s["squash"]), n(s["direct"]), n(s["batch-commit"]), n(s["folded_pr_commits"]), n(s["sync_merges"]), n(s["community_prs"]), n(s["team_prs"])] for s in ss]
     t = total(tagged, ["commits", "pr-merge", "squash", "direct", "batch-commit", "folded_pr_commits", "sync_merges", "community_prs", "team_prs"])
     lines.append(["**Released total**"] + [f"**{t[k]}**" for k in ["commits", "pr-merge", "squash", "direct", "batch-commit", "folded_pr_commits", "sync_merges", "community_prs", "team_prs"]])
     out += [table(["Release", "Commits", "PR merges", "Squash merges", "Direct commits", "Batch commits", "Commits inside PRs", "Sync merges", "Community PRs", "Team PRs"], lines), ""]
     out += ["Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.", ""]
-    out += ["## Contributors", ""]
-    pct = lambda a, b: f"{100 * a / b:.0f}%" if b else "·"
+    out += ["## Contributors", "",
+            picture(repo, "contributors", f"{repo}: unique contributors per release (returning humans, new humans, disclosed agents, bots)"), "",
+            picture(repo, "agent-disclosure", f"{repo}: changes per release by agent disclosure"), ""]
+    out += bullets(commentary.contributors(cs, C_REPO[repo], sum(x["changes"] for x in cs)))
+    pct = lambda a, b: "·" if not b else "<1%" if 0 < a < b / 100 else f"{100 * a / b:.0f}%"
     lines = [[label(s), n(s["humans"]), n(s["new_humans"]), n(s["changes_agent_disclosed"]), pct(s["changes_agent_disclosed"], s["changes"]),
               n(s["changes_agent_authored"]), s["agent_names"] or "·", n(s["bots"])] for s in ss]
     cr = C_REPO[repo]; kinds_n = collections.Counter(d["kind"] for d in cr)
@@ -151,6 +168,8 @@ for repo in repos:
     if top:
         out += ["Most active humans in released changes: " + ", ".join(f"{d['contributor']} ({d['changes_authored'] + d['changes_coauthored']})" for d in top) + ".", ""]
     open(f"{ROOT}/reports/{repo}.md", "w").write("\n".join(out))
+    for ref in re.findall(r'(?:srcset|src)="([^"]+)"', "\n".join(out)):
+        if not os.path.exists(os.path.join(ROOT, "reports", ref)): print(f"missing chart: reports/{repo}.md embeds {ref}", file=sys.stderr)
 
 # README
 cs = [s for s in S if s["release_tag"] != "(unreleased)" and not s["uncategorised"]]
@@ -177,7 +196,7 @@ print(summary); print(); print(allcat); print(); print(basis_t); print(dict(kind
 
 # ---- README ----
 # Contributors
-pct = lambda a, b: f"{100 * a / b:.0f}%" if b else "·"
+pct = lambda a, b: "·" if not b else "<1%" if 0 < a < b / 100 else f"{100 * a / b:.0f}%"
 kinds_all = collections.Counter(d["kind"] for d in C_ALL)
 n_disclosed = sum(1 for r in released if agents(r))
 n_agent_author = sum(1 for r in released if r["agents_author"])
@@ -302,14 +321,15 @@ Commits inside an ordinary PR branch and plain sync merges (`Merge branch 'main'
 
 ## Files
 
-- `reports/<repo>.md` — per-release tables for one repo: by category, and by how changes landed
+- `reports/<repo>.md` — one repo's charts, a short plain-English commentary on its trends, and per-release tables: by change type, by how changes landed, and by contributor
 - `csv/release_stats.csv` — the same numbers, one row per repo and release
 - `csv/changes.csv` — every change with its release, category, basis, landing type, PR number, contributors (human, co-authors, agents, bots) and title
 - `csv/contributors.csv` — every human, agent and bot with their change counts, per repo and across the org (`repo` = `(all)`)
 - `web/` — SvelteKit + LayerChart app with a stacked line chart and a stacked bar chart per repo, flat or isometric (`cd web && pnpm install && pnpm dev`)
-- `charts/dark/` — PNG exports of each repo's stacked line chart
+- `charts/light/`, `charts/dark/` — PNG exports of the four charts on each repo's page, embedded in the reports
 - `data/` — inputs and per-change output: PR metadata (`prs/`, `prs_extra/`), release lists (`releases_api/`), LLM labels (`review_labels.jsonl`, batches in `review/`), and every classified change (`classified.jsonl`)
-- `scripts/` — the pipeline; `.agents/skills/compile-stats/SKILL.md` walks through running it to refresh the stats
+- `scripts/` — the pipeline
+- `.agents/skills/` — instructions for an AI agent: `compile-stats` refreshes the stats from GitHub, `create-reports` generates the reports, their charts and their commentary
 
 ## Repos not covered
 

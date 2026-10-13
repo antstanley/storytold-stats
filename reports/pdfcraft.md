@@ -1,8 +1,29 @@
 # pdfcraft — changes per release
 
-8 releases, 2026-10-02 → 2026-10-12. Each row counts the changes that landed between the previous release tag and this one; the first row is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised.
+8 releases, 2026-10-02 → 2026-10-12. Each release is counted as the changes that landed between the previous release tag and its own; the first one is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised. The charts cover released changes; the commentary under them is generated from the same numbers.
 
-## By category
+## Changes by type
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/pdfcraft-changes-line.png">
+  <img alt="pdfcraft: changes per release, stacked by type, as lines" src="../charts/light/pdfcraft-changes-line.png">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/pdfcraft-changes-bar.png">
+  <img alt="pdfcraft: changes per release, stacked by type, as bars" src="../charts/light/pdfcraft-changes-bar.png">
+</picture>
+
+**What this shows**
+
+- pdfcraft has had 8 releases with 827 changes in total, over 10 days.
+- The biggest release was v0.7.1 (12 Oct) with 221 changes, which is 27% of everything released so far.
+- Releases are getting bigger: the first 4 releases averaged 54 changes each and the last 4 releases averaged 153.
+- Overall, fixes make up 47% of changes and features 28%.
+- The work has shifted from building new things to fixing: features went from 48% of changes in the first 4 releases to 21% in the last 4 releases, and fixes from 18% to 57%.
+- Performance work is 3% of changes (26), most of it in v0.5.0 (10 Oct), which had 11.
+- After features and fixes, the next biggest group is documentation at 5%.
+- Since the last release, 65 more changes have landed on main and not been released yet: 7 features and 51 fixes among them.
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -19,7 +40,14 @@
 
 Share of released changes: feature 28%, fix 47%, perf 3%, i18n 4%, docs 5%, test 4%, build/ci 4%, release 2%, refactor 1%, security 1%, other 1%.
 
-## By how it landed
+## How changes landed
+
+**What this shows**
+
+- 80% of changes came in through pull requests; the rest were committed directly.
+- That has grown: pull requests were 26% of changes in the first 4 releases and 99% in the last 4 releases.
+- Of the 660 pull requests, 86% came from people outside the core team.
+- Outside contributions have gone up: 20% of pull requests in the first 4 releases, 92% in the last 4 releases.
 
 | Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -37,6 +65,27 @@ Share of released changes: feature 28%, fix 47%, perf 3%, i18n 4%, docs 5%, test
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
 
 ## Contributors
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/pdfcraft-contributors.png">
+  <img alt="pdfcraft: unique contributors per release (returning humans, new humans, disclosed agents, bots)" src="../charts/light/pdfcraft-contributors.png">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/pdfcraft-agent-disclosure.png">
+  <img alt="pdfcraft: changes per release by agent disclosure" src="../charts/light/pdfcraft-agent-disclosure.png">
+</picture>
+
+**What this shows**
+
+- 178 people have contributed to released changes.
+- The first release had 1 person and the latest had 103.
+- In the latest release, 72 of the 103 people were contributing for the first time.
+- The most active person, @echelon, authored 30% of all changes, and the three most active authored 42% between them.
+- 74% of changes say an AI agent was involved (616 of 827).
+- That share has gone down: 97% in the first 4 releases and 67% in the last 4 releases.
+- The agents named most are Claude (566 changes) and OpenAI Codex / ChatGPT (67).
+- These figures only count changes that say so, so the real share may be higher.
 
 | Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
 |---|--:|--:|--:|--:|--:|---|--:|

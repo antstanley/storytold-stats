@@ -1,15 +1,15 @@
 <script lang="ts">
 	import { scaleBand, scaleOrdinal, scaleUtc } from 'd3-scale';
 	import { Area, Axis, Chart, Frame, Grid, Highlight, isometric, Layer, Legend, Tooltip } from 'layerchart';
-	import { SERIES, formatDate, longRows, type ChartRow } from '#lib/stats.ts';
+	import { formatDate, longRows, type ChartRow, type SeriesDef } from '#lib/stats.ts';
 	import { timeAxis } from '#lib/time-axis.ts';
 
-	let { rows }: { rows: ChartRow[] } = $props();
+	let { rows, series: defs }: { rows: ChartRow[]; series: readonly SeriesDef[] } = $props();
 
 	// Every release for every series, zeros included, so each curtain runs the whole floor
-	const data = $derived(longRows(rows, { zeros: true }));
+	const data = $derived(longRows(rows, defs, { zeros: true }));
 	const axis = $derived(timeAxis(rows.map((r) => r.date)));
-	const names = SERIES.map((s) => s.label);
+	const names = $derived(defs.map((s) => s.label));
 </script>
 
 <!-- Each change type a curtain standing in its own row, as tall as its count at each release -->
@@ -27,7 +27,7 @@
 		c="series"
 		cScale={scaleOrdinal()}
 		cDomain={names}
-		cRange={SERIES.map((s) => s.color)}
+		cRange={defs.map((s) => s.color)}
 		view={isometric({ rotate: -40, tilt: 65, aspect: 2.2 })}
 		transform={{ mode: 'canvas', drag: 'rotate' }}
 		tooltipContext={{ mode: 'quadtree' }}
@@ -49,7 +49,7 @@
 				<Axis placement="back" format="integer" />
 
 				<!-- Back to front: each curtain lies in its own row, so the farther rows go first -->
-				{#each [...SERIES].sort( (a, b) => (m ? m.d * (context.yScale(a.label) - context.yScale(b.label)) : 0) ) as s (s.key)}
+				{#each [...defs].sort( (a, b) => (m ? m.d * (context.yScale(a.label) - context.yScale(b.label)) : 0) ) as s (s.key)}
 					<Area
 						data={data.filter((d) => d.series === s.label)}
 						fill={s.color}

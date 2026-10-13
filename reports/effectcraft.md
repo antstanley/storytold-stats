@@ -1,8 +1,28 @@
 # effectcraft — changes per release
 
-10 releases, 2026-10-02 → 2026-10-12. Each row counts the changes that landed between the previous release tag and this one; the first row is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised.
+10 releases, 2026-10-02 → 2026-10-12. Each release is counted as the changes that landed between the previous release tag and its own; the first one is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised. The charts cover released changes; the commentary under them is generated from the same numbers.
 
-## By category
+## Changes by type
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/effectcraft-changes-line.png">
+  <img alt="effectcraft: changes per release, stacked by type, as lines" src="../charts/light/effectcraft-changes-line.png">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/effectcraft-changes-bar.png">
+  <img alt="effectcraft: changes per release, stacked by type, as bars" src="../charts/light/effectcraft-changes-bar.png">
+</picture>
+
+**What this shows**
+
+- effectcraft has had 10 releases with 779 changes in total, over 10 days.
+- The biggest release was v0.9.2 (12 Oct) with 140 changes, which is 18% of everything released so far.
+- Release size has stayed fairly steady: the first 5 releases averaged 75 changes each and the last 5 releases averaged 81.
+- Overall, fixes make up 35% of changes and features 34%.
+- The work has shifted from building new things to fixing: features went from 53% of changes in the first 5 releases to 17% in the last 5 releases, and fixes from 13% to 56%.
+- Performance work is 6% of changes (48), most of it in v0.2.0 (5 Oct), which had 21.
+- After features and fixes, the next biggest group is documentation at 8%.
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -20,7 +40,14 @@
 
 Share of released changes: feature 34%, fix 35%, perf 6%, i18n 3%, docs 8%, test 4%, build/ci 2%, release 2%, refactor 2%, security 1%, other 1%.
 
-## By how it landed
+## How changes landed
+
+**What this shows**
+
+- 52% of changes came in through pull requests; the rest were committed directly.
+- That has grown: pull requests were 19% of changes in the first 5 releases and 82% in the last 5 releases.
+- Of the 404 pull requests, 61% came from people outside the core team.
+- Outside contributions have gone up: 11% of pull requests in the first 5 releases, 71% in the last 5 releases.
 
 | Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -39,6 +66,28 @@ Share of released changes: feature 34%, fix 35%, perf 6%, i18n 3%, docs 8%, test
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
 
 ## Contributors
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/effectcraft-contributors.png">
+  <img alt="effectcraft: unique contributors per release (returning humans, new humans, disclosed agents, bots)" src="../charts/light/effectcraft-contributors.png">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/effectcraft-agent-disclosure.png">
+  <img alt="effectcraft: changes per release by agent disclosure" src="../charts/light/effectcraft-agent-disclosure.png">
+</picture>
+
+**What this shows**
+
+- 66 people have contributed to released changes.
+- The first release had 1 person and the latest had 27; the most in one release was 33, in v0.8.0 (11 Oct).
+- In the latest release, 13 of the 27 people were contributing for the first time.
+- The most active person, @echelon, authored 49% of all changes, and the three most active authored 70% between them.
+- 89% of changes say an AI agent was involved (696 of 779).
+- That share has gone down: 98% in the first 5 releases and 81% in the last 5 releases.
+- Claude accounts for nearly all of the changes that name an agent; 1 other agent is named on 14 changes between them.
+- In 123 changes the agent is the commit author itself, not only a co-author.
+- These figures only count changes that say so, so the real share may be higher.
 
 | Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
 |---|--:|--:|--:|--:|--:|---|--:|

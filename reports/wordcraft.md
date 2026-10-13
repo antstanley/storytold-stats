@@ -1,8 +1,29 @@
 # wordcraft — changes per release
 
-5 releases, 2026-10-07 → 2026-10-12. Each row counts the changes that landed between the previous release tag and this one; the first row is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised.
+5 releases, 2026-10-07 → 2026-10-12. Each release is counted as the changes that landed between the previous release tag and its own; the first one is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised. The charts cover released changes; the commentary under them is generated from the same numbers.
 
-## By category
+## Changes by type
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/wordcraft-changes-line.png">
+  <img alt="wordcraft: changes per release, stacked by type, as lines" src="../charts/light/wordcraft-changes-line.png">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/wordcraft-changes-bar.png">
+  <img alt="wordcraft: changes per release, stacked by type, as bars" src="../charts/light/wordcraft-changes-bar.png">
+</picture>
+
+**What this shows**
+
+- wordcraft has had 5 releases with 405 changes in total, over 5 days.
+- The biggest release was v0.6.1 (12 Oct) with 223 changes, which is 55% of everything released so far.
+- Releases are getting bigger: the first 2 releases averaged 15 changes each and the last 2 releases averaged 180.
+- Overall, fixes make up 48% of changes and features 36%.
+- The work has shifted from building new things to fixing: features went from 47% of changes in the first 2 releases to 35% in the last 2 releases, and fixes from 7% to 51%.
+- Performance work is rare: 3 changes.
+- After features and fixes, the next biggest group is translations at 5%.
+- Since the last release, 15 more changes have landed on main and not been released yet: 2 features and 9 fixes among them.
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -16,7 +37,14 @@
 
 Share of released changes: feature 36%, fix 48%, perf 1%, i18n 5%, docs 2%, test 2%, build/ci 1%, release 3%, refactor 1%, security 1%.
 
-## By how it landed
+## How changes landed
+
+**What this shows**
+
+- 92% of changes came in through pull requests; the rest were committed directly.
+- That has grown: pull requests were 20% of changes in the first 2 releases and 98% in the last 2 releases.
+- Of the 374 pull requests, 90% came from people outside the core team.
+- Outside contributions have gone up: 33% of pull requests in the first 2 releases, 90% in the last 2 releases.
 
 | Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -31,6 +59,27 @@ Share of released changes: feature 36%, fix 48%, perf 1%, i18n 5%, docs 2%, test
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
 
 ## Contributors
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/wordcraft-contributors.png">
+  <img alt="wordcraft: unique contributors per release (returning humans, new humans, disclosed agents, bots)" src="../charts/light/wordcraft-contributors.png">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/wordcraft-agent-disclosure.png">
+  <img alt="wordcraft: changes per release by agent disclosure" src="../charts/light/wordcraft-agent-disclosure.png">
+</picture>
+
+**What this shows**
+
+- 75 people have contributed to released changes.
+- The first release had 2 people and the latest had 49.
+- In the latest release, 41 of the 49 people were contributing for the first time.
+- The most active person, @echelon, authored 17% of all changes, and the three most active authored 59% between them.
+- 88% of changes say an AI agent was involved (356 of 405).
+- That share has stayed about the same over time (90% in the first 2 releases, 89% in the last 2 releases).
+- Claude accounts for nearly all of the changes that name an agent; 5 other agents are named on 9 changes between them.
+- These figures only count changes that say so, so the real share may be higher.
 
 | Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
 |---|--:|--:|--:|--:|--:|---|--:|

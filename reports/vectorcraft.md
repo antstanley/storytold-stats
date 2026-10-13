@@ -1,8 +1,28 @@
 # vectorcraft — changes per release
 
-12 releases, 2026-10-02 → 2026-10-12. Each row counts the changes that landed between the previous release tag and this one; the first row is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised.
+12 releases, 2026-10-02 → 2026-10-12. Each release is counted as the changes that landed between the previous release tag and its own; the first one is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised. The charts cover released changes; the commentary under them is generated from the same numbers.
 
-## By category
+## Changes by type
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/vectorcraft-changes-line.png">
+  <img alt="vectorcraft: changes per release, stacked by type, as lines" src="../charts/light/vectorcraft-changes-line.png">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/vectorcraft-changes-bar.png">
+  <img alt="vectorcraft: changes per release, stacked by type, as bars" src="../charts/light/vectorcraft-changes-bar.png">
+</picture>
+
+**What this shows**
+
+- vectorcraft has had 12 releases with 885 changes in total, over 10 days.
+- The biggest release was v0.10.0 (12 Oct) with 191 changes, which is 22% of everything released so far.
+- Releases are getting bigger: the first 6 releases averaged 49 changes each and the last 6 releases averaged 98.
+- Overall, fixes make up 49% of changes and features 33%.
+- The work has shifted from building new things to fixing: features went from 49% of changes in the first 6 releases to 25% in the last 6 releases, and fixes from 28% to 59%.
+- Performance work is 2% of changes (18), most of it in v0.1.0 (2 Oct), which had 7.
+- Since the last release, 139 more changes have landed on main and not been released yet: 29 features and 90 fixes among them.
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -23,7 +43,13 @@
 
 Share of released changes: feature 33%, fix 49%, perf 2%, i18n 3%, docs 5%, test 2%, build/ci 2%, release 2%, refactor 1%, other 1%.
 
-## By how it landed
+## How changes landed
+
+**What this shows**
+
+- 83% of changes came in through pull requests; the rest were committed directly.
+- Of the 737 pull requests, 44% came from people outside the core team.
+- Outside contributions have gone up: 20% of pull requests in the first 6 releases, 53% in the last 6 releases.
 
 | Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -45,6 +71,28 @@ Share of released changes: feature 33%, fix 49%, perf 2%, i18n 3%, docs 5%, test
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
 
 ## Contributors
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/vectorcraft-contributors.png">
+  <img alt="vectorcraft: unique contributors per release (returning humans, new humans, disclosed agents, bots)" src="../charts/light/vectorcraft-contributors.png">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../charts/dark/vectorcraft-agent-disclosure.png">
+  <img alt="vectorcraft: changes per release by agent disclosure" src="../charts/light/vectorcraft-agent-disclosure.png">
+</picture>
+
+**What this shows**
+
+- 102 people have contributed to released changes.
+- The first release had 2 people and the latest had 44.
+- In the latest release, 29 of the 44 people were contributing for the first time.
+- The most active person, @bflatastic, authored 48% of all changes, and the three most active authored 67% between them.
+- 85% of changes say an AI agent was involved (751 of 885).
+- That share has gone down: 96% in the first 6 releases and 79% in the last 6 releases.
+- Claude accounts for nearly all of the changes that name an agent; 2 other agents are named on 7 changes between them.
+- In 1 change the agent is the commit author itself, not only a co-author.
+- These figures only count changes that say so, so the real share may be higher.
 
 | Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
 |---|--:|--:|--:|--:|--:|---|--:|

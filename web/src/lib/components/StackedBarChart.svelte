@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { BarChart } from 'layerchart';
-	import { SERIES, formatDay, formatDate, type ChartRow } from '#lib/stats.ts';
+	import { formatDay, formatDate, type ChartRow, type SeriesDef } from '#lib/stats.ts';
 
-	let { rows }: { rows: ChartRow[] } = $props();
+	let { rows, series: defs }: { rows: ChartRow[]; series: readonly SeriesDef[] } = $props();
 
-	const series = SERIES.map(({ key, label, color }) => ({ key, label, color }));
+	const series = $derived(defs.map(({ key, label, color }) => ({ key, label, color })));
 	const byKey = $derived(new Map(rows.map((r) => [r.key, r])));
 
 	// Keep bars thin: widen the gaps instead of letting a few bars fill the plot
