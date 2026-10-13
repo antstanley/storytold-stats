@@ -20,16 +20,34 @@ Share of released changes: feature 33%, fix 36%, i18n 5%, docs 6%, test 2%, buil
 
 ## By how it landed
 
-| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs | Authors |
-|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| [v0.1.0](https://github.com/storytold/craft-launcher/releases/tag/v0.1.0) | 15 | · | 1 | 14 | · | · | · | 1 | · | 2 |
-| [v0.1.1](https://github.com/storytold/craft-launcher/releases/tag/v0.1.1) | 5 | · | 1 | 4 | · | · | · | · | 1 | 2 |
-| [v0.1.2](https://github.com/storytold/craft-launcher/releases/tag/v0.1.2) | 1 | · | 1 | · | · | · | · | · | 1 | 1 |
-| [v0.1.3](https://github.com/storytold/craft-launcher/releases/tag/v0.1.3) | 5 | · | 1 | 4 | · | · | · | · | 1 | 2 |
-| [v0.2.0](https://github.com/storytold/craft-launcher/releases/tag/v0.2.0) | 11 | · | 9 | 2 | · | · | · | 9 | · | 6 |
-| [v0.2.1](https://github.com/storytold/craft-launcher/releases/tag/v0.2.1) | 24 | · | 21 | 3 | · | · | · | 20 | 1 | 12 |
-| [v0.3.2](https://github.com/storytold/craft-launcher/releases/tag/v0.3.2) | 5 | · | 5 | · | · | · | · | 2 | 3 | 2 |
-| _unreleased (main)_ | 33 | · | 33 | · | · | · | · | 30 | 3 | 22 |
-| **Released total** | **66** | **0** | **39** | **27** | **0** | **0** | **0** | **32** | **7** |  |
+| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| [v0.1.0](https://github.com/storytold/craft-launcher/releases/tag/v0.1.0) | 15 | · | 1 | 14 | · | · | · | 1 | · |
+| [v0.1.1](https://github.com/storytold/craft-launcher/releases/tag/v0.1.1) | 5 | · | 1 | 4 | · | · | · | · | 1 |
+| [v0.1.2](https://github.com/storytold/craft-launcher/releases/tag/v0.1.2) | 1 | · | 1 | · | · | · | · | · | 1 |
+| [v0.1.3](https://github.com/storytold/craft-launcher/releases/tag/v0.1.3) | 5 | · | 1 | 4 | · | · | · | · | 1 |
+| [v0.2.0](https://github.com/storytold/craft-launcher/releases/tag/v0.2.0) | 11 | · | 9 | 2 | · | · | · | 9 | · |
+| [v0.2.1](https://github.com/storytold/craft-launcher/releases/tag/v0.2.1) | 24 | · | 21 | 3 | · | · | · | 20 | 1 |
+| [v0.3.2](https://github.com/storytold/craft-launcher/releases/tag/v0.3.2) | 5 | · | 5 | · | · | · | · | 2 | 3 |
+| _unreleased (main)_ | 33 | · | 33 | · | · | · | · | 30 | 3 |
+| **Released total** | **66** | **0** | **39** | **27** | **0** | **0** | **0** | **32** | **7** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
+
+## Contributors
+
+| Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
+|---|--:|--:|--:|--:|--:|---|--:|
+| [v0.1.0](https://github.com/storytold/craft-launcher/releases/tag/v0.1.0) | 2 | 2 | 12 | 80% | · | Claude | · |
+| [v0.1.1](https://github.com/storytold/craft-launcher/releases/tag/v0.1.1) | 2 | 1 | 5 | 100% | · | Claude | · |
+| [v0.1.2](https://github.com/storytold/craft-launcher/releases/tag/v0.1.2) | 1 | · | 1 | 100% | · | Claude | · |
+| [v0.1.3](https://github.com/storytold/craft-launcher/releases/tag/v0.1.3) | 1 | · | 5 | 100% | · | Claude | · |
+| [v0.2.0](https://github.com/storytold/craft-launcher/releases/tag/v0.2.0) | 6 | 5 | 11 | 100% | · | Claude | · |
+| [v0.2.1](https://github.com/storytold/craft-launcher/releases/tag/v0.2.1) | 13 | 10 | 19 | 79% | · | Claude | · |
+| [v0.3.2](https://github.com/storytold/craft-launcher/releases/tag/v0.3.2) | 2 | · | 3 | 60% | · | Claude | · |
+| _unreleased (main)_ | 24 | 18 | 19 | 58% | · | Claude | · |
+| **Released total** | **18** |  | **56** | 85% | **0** | Claude | · |
+
+Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
+
+Most active humans in released changes: @echelon (41), @itrycodinganditsbad (8), @dylanmtaylor (7), @Nael-Nathanael (5), @bflatastic (3), @AlastorIRL (1), @Benziza (1), @Byxis (1), @Flowershangfromthebranches (1), @JeremyYao (1).

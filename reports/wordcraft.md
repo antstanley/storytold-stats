@@ -18,14 +18,30 @@ Share of released changes: feature 36%, fix 48%, perf 1%, i18n 5%, docs 2%, test
 
 ## By how it landed
 
-| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs | Authors |
-|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| [v0.1.0](https://github.com/storytold/wordcraft/releases/tag/v0.1.0) | 23 | · | 3 | 20 | · | · | · | 2 | 1 | 3 |
-| [v0.3.0](https://github.com/storytold/wordcraft/releases/tag/v0.3.0) | 7 | · | 3 | 4 | · | · | · | · | 3 | 2 |
-| [v0.4.0](https://github.com/storytold/wordcraft/releases/tag/v0.4.0) | 16 | · | 15 | 1 | · | · | · | 15 | · | 8 |
-| [v0.5.0](https://github.com/storytold/wordcraft/releases/tag/v0.5.0) | 136 | · | 132 | 4 | · | · | · | 126 | 6 | 28 |
-| [v0.6.1](https://github.com/storytold/wordcraft/releases/tag/v0.6.1) | 223 | · | 221 | 2 | · | · | · | 193 | 28 | 48 |
-| _unreleased (main)_ | 22 | 1 | 14 | · | · | 2 | 5 | 14 | 1 | 9 |
-| **Released total** | **405** | **0** | **374** | **31** | **0** | **0** | **0** | **336** | **38** |  |
+| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| [v0.1.0](https://github.com/storytold/wordcraft/releases/tag/v0.1.0) | 23 | · | 3 | 20 | · | · | · | 2 | 1 |
+| [v0.3.0](https://github.com/storytold/wordcraft/releases/tag/v0.3.0) | 7 | · | 3 | 4 | · | · | · | · | 3 |
+| [v0.4.0](https://github.com/storytold/wordcraft/releases/tag/v0.4.0) | 16 | · | 15 | 1 | · | · | · | 15 | · |
+| [v0.5.0](https://github.com/storytold/wordcraft/releases/tag/v0.5.0) | 136 | · | 132 | 4 | · | · | · | 126 | 6 |
+| [v0.6.1](https://github.com/storytold/wordcraft/releases/tag/v0.6.1) | 223 | · | 221 | 2 | · | · | · | 193 | 28 |
+| _unreleased (main)_ | 22 | 1 | 14 | · | · | 2 | 5 | 14 | 1 |
+| **Released total** | **405** | **0** | **374** | **31** | **0** | **0** | **0** | **336** | **38** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
+
+## Contributors
+
+| Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
+|---|--:|--:|--:|--:|--:|---|--:|
+| [v0.1.0](https://github.com/storytold/wordcraft/releases/tag/v0.1.0) | 2 | 2 | 20 | 87% | · | Claude | · |
+| [v0.3.0](https://github.com/storytold/wordcraft/releases/tag/v0.3.0) | 2 | 1 | 7 | 100% | · | Claude | · |
+| [v0.4.0](https://github.com/storytold/wordcraft/releases/tag/v0.4.0) | 9 | 7 | 9 | 56% | · | Claude | · |
+| [v0.5.0](https://github.com/storytold/wordcraft/releases/tag/v0.5.0) | 29 | 24 | 126 | 93% | · | Claude, OpenAI Codex / ChatGPT, Unnamed agent | · |
+| [v0.6.1](https://github.com/storytold/wordcraft/releases/tag/v0.6.1) | 49 | 41 | 194 | 87% | · | Claude, Cursor, OpenAI Codex / ChatGPT, GitHub Copilot, Devin | · |
+| _unreleased (main)_ | 12 | 8 | 5 | 33% | · | Claude | · |
+| **Released total** | **75** |  | **356** | 88% | **0** | Claude, OpenAI Codex / ChatGPT, Cursor, Devin, GitHub Copilot, Unnamed agent | · |
+
+Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
+
+Most active humans in released changes: @echelon (326), @vangel76 (127), @dkhlapov (51), @MarekSpodBiedry (25), @naxvog (12), @goldsbd (10), @h-a-n-a-s-h-i (9), @LloydNicholson (8), @rabis7575 (7), @edurbs (6).

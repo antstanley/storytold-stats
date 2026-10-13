@@ -21,17 +21,36 @@ Share of released changes: feature 35%, fix 34%, perf 5%, i18n 3%, docs 7%, test
 
 ## By how it landed
 
-| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs | Authors |
-|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| [v0.1.0](https://github.com/storytold/lightcraft/releases/tag/v0.1.0) | 206 | · | · | 170 | · | · | 36 | · | · | 1 |
-| [v0.1.1](https://github.com/storytold/lightcraft/releases/tag/v0.1.1) | 48 | · | · | 48 | · | · | · | · | · | 1 |
-| [v0.2.0](https://github.com/storytold/lightcraft/releases/tag/v0.2.0) | 121 | 48 | · | 1 | · | 63 | 9 | 15 | 33 | 5 |
-| [v0.2.1](https://github.com/storytold/lightcraft/releases/tag/v0.2.1) | 113 | 32 | 1 | · | · | 41 | 39 | 4 | 29 | 4 |
-| [v0.4.0](https://github.com/storytold/lightcraft/releases/tag/v0.4.0) | 169 | 40 | 5 | 23 | · | 79 | 22 | 33 | 12 | 26 |
-| [v0.5.0](https://github.com/storytold/lightcraft/releases/tag/v0.5.0) | 461 | 132 | · | 1 | 38 | 260 | 30 | 98 | 34 | 39 |
-| [v0.6.0](https://github.com/storytold/lightcraft/releases/tag/v0.6.0) | 436 | 77 | 3 | 1 | 8 | 326 | 21 | 75 | 5 | 29 |
-| [v0.7.1](https://github.com/storytold/lightcraft/releases/tag/v0.7.1) | 386 | 121 | · | 2 | 37 | 184 | 42 | 118 | 3 | 46 |
-| _unreleased (main)_ | 256 | 106 | 1 | 1 | 8 | 132 | 8 | 105 | 2 | 39 |
-| **Released total** | **1940** | **450** | **9** | **246** | **83** | **953** | **199** | **343** | **116** |  |
+| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| [v0.1.0](https://github.com/storytold/lightcraft/releases/tag/v0.1.0) | 206 | · | · | 170 | · | · | 36 | · | · |
+| [v0.1.1](https://github.com/storytold/lightcraft/releases/tag/v0.1.1) | 48 | · | · | 48 | · | · | · | · | · |
+| [v0.2.0](https://github.com/storytold/lightcraft/releases/tag/v0.2.0) | 121 | 48 | · | 1 | · | 63 | 9 | 15 | 33 |
+| [v0.2.1](https://github.com/storytold/lightcraft/releases/tag/v0.2.1) | 113 | 32 | 1 | · | · | 41 | 39 | 4 | 29 |
+| [v0.4.0](https://github.com/storytold/lightcraft/releases/tag/v0.4.0) | 169 | 40 | 5 | 23 | · | 79 | 22 | 33 | 12 |
+| [v0.5.0](https://github.com/storytold/lightcraft/releases/tag/v0.5.0) | 461 | 132 | · | 1 | 38 | 260 | 30 | 98 | 34 |
+| [v0.6.0](https://github.com/storytold/lightcraft/releases/tag/v0.6.0) | 436 | 77 | 3 | 1 | 8 | 326 | 21 | 75 | 5 |
+| [v0.7.1](https://github.com/storytold/lightcraft/releases/tag/v0.7.1) | 386 | 121 | · | 2 | 37 | 184 | 42 | 118 | 3 |
+| _unreleased (main)_ | 256 | 106 | 1 | 1 | 8 | 132 | 8 | 105 | 2 |
+| **Released total** | **1940** | **450** | **9** | **246** | **83** | **953** | **199** | **343** | **116** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
+
+## Contributors
+
+| Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
+|---|--:|--:|--:|--:|--:|---|--:|
+| [v0.1.0](https://github.com/storytold/lightcraft/releases/tag/v0.1.0) | 1 | 1 | 168 | 99% | · | Claude | · |
+| [v0.1.1](https://github.com/storytold/lightcraft/releases/tag/v0.1.1) | 1 | · | 48 | 100% | · | Claude | · |
+| [v0.2.0](https://github.com/storytold/lightcraft/releases/tag/v0.2.0) | 4 | 3 | 49 | 100% | · | Claude | · |
+| [v0.2.1](https://github.com/storytold/lightcraft/releases/tag/v0.2.1) | 4 | 2 | 33 | 100% | · | Claude, OpenAI Codex / ChatGPT | · |
+| [v0.4.0](https://github.com/storytold/lightcraft/releases/tag/v0.4.0) | 27 | 25 | 59 | 87% | 1 | Claude, OpenAI Codex / ChatGPT, opencode, GitHub Copilot, DeepSeek | · |
+| [v0.5.0](https://github.com/storytold/lightcraft/releases/tag/v0.5.0) | 42 | 32 | 140 | 82% | 109 | Claude, OpenAI Codex / ChatGPT, opencode | · |
+| [v0.6.0](https://github.com/storytold/lightcraft/releases/tag/v0.6.0) | 30 | 18 | 70 | 79% | 1 | Claude, OpenAI Codex / ChatGPT | · |
+| [v0.7.1](https://github.com/storytold/lightcraft/releases/tag/v0.7.1) | 49 | 33 | 154 | 96% | 152 | Claude, OpenAI Codex / ChatGPT, DeepSeek | · |
+| _unreleased (main)_ | 40 | 21 | 63 | 54% | · | Claude, OpenAI Codex / ChatGPT, DeepSeek | · |
+| **Released total** | **114** |  | **721** | 91% | **263** | Claude, OpenAI Codex / ChatGPT, DeepSeek, opencode, GitHub Copilot | · |
+
+Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
+
+Most active humans in released changes: @echelon (491), @radialmonster (68), @bflatastic (28), @bitshiftza (22), @nledford (20), @AlexChambers (18), @emmertex (12), @MarekSpodBiedry (11), @Exalted5373 (9), @GlemNL (9).

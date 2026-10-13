@@ -21,17 +21,36 @@ Share of released changes: feature 27%, fix 47%, perf 6%, i18n 2%, docs 6%, test
 
 ## By how it landed
 
-| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs | Authors |
-|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| [v0.1.0](https://github.com/storytold/filmcraft/releases/tag/v0.1.0) | 235 | · | · | 188 | · | · | 47 | · | · | 1 |
-| [v0.1.1](https://github.com/storytold/filmcraft/releases/tag/v0.1.1) | 53 | · | · | 39 | · | · | 14 | · | · | 1 |
-| [v0.2.0](https://github.com/storytold/filmcraft/releases/tag/v0.2.0) | 90 | 26 | · | 23 | · | 31 | 10 | 8 | 18 | 3 |
-| [v0.2.1](https://github.com/storytold/filmcraft/releases/tag/v0.2.1) | 27 | 10 | 1 | · | · | 16 | · | 3 | 8 | 2 |
-| [v0.4.0](https://github.com/storytold/filmcraft/releases/tag/v0.4.0) | 245 | 84 | 9 | 4 | · | 132 | 16 | 76 | 17 | 18 |
-| [v0.5.0](https://github.com/storytold/filmcraft/releases/tag/v0.5.0) | 192 | 61 | 1 | 1 | · | 95 | 34 | 57 | 5 | 27 |
-| [v0.6.0](https://github.com/storytold/filmcraft/releases/tag/v0.6.0) | 536 | 186 | 2 | 12 | · | 265 | 71 | 186 | 2 | 48 |
-| [v0.7.2](https://github.com/storytold/filmcraft/releases/tag/v0.7.2) | 382 | 135 | 4 | 17 | · | 178 | 48 | 138 | 1 | 34 |
-| _unreleased (main)_ | 186 | 71 | 1 | 2 | 2 | 91 | 19 | 72 | · | 30 |
-| **Released total** | **1760** | **502** | **17** | **284** | **0** | **717** | **240** | **468** | **51** |  |
+| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| [v0.1.0](https://github.com/storytold/filmcraft/releases/tag/v0.1.0) | 235 | · | · | 188 | · | · | 47 | · | · |
+| [v0.1.1](https://github.com/storytold/filmcraft/releases/tag/v0.1.1) | 53 | · | · | 39 | · | · | 14 | · | · |
+| [v0.2.0](https://github.com/storytold/filmcraft/releases/tag/v0.2.0) | 90 | 26 | · | 23 | · | 31 | 10 | 8 | 18 |
+| [v0.2.1](https://github.com/storytold/filmcraft/releases/tag/v0.2.1) | 27 | 10 | 1 | · | · | 16 | · | 3 | 8 |
+| [v0.4.0](https://github.com/storytold/filmcraft/releases/tag/v0.4.0) | 245 | 84 | 9 | 4 | · | 132 | 16 | 76 | 17 |
+| [v0.5.0](https://github.com/storytold/filmcraft/releases/tag/v0.5.0) | 192 | 61 | 1 | 1 | · | 95 | 34 | 57 | 5 |
+| [v0.6.0](https://github.com/storytold/filmcraft/releases/tag/v0.6.0) | 536 | 186 | 2 | 12 | · | 265 | 71 | 186 | 2 |
+| [v0.7.2](https://github.com/storytold/filmcraft/releases/tag/v0.7.2) | 382 | 135 | 4 | 17 | · | 178 | 48 | 138 | 1 |
+| _unreleased (main)_ | 186 | 71 | 1 | 2 | 2 | 91 | 19 | 72 | · |
+| **Released total** | **1760** | **502** | **17** | **284** | **0** | **717** | **240** | **468** | **51** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
+
+## Contributors
+
+| Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
+|---|--:|--:|--:|--:|--:|---|--:|
+| [v0.1.0](https://github.com/storytold/filmcraft/releases/tag/v0.1.0) | 1 | 1 | 184 | 98% | · | Claude | · |
+| [v0.1.1](https://github.com/storytold/filmcraft/releases/tag/v0.1.1) | 1 | · | 39 | 100% | · | Claude | · |
+| [v0.2.0](https://github.com/storytold/filmcraft/releases/tag/v0.2.0) | 2 | 1 | 49 | 100% | · | Claude | · |
+| [v0.2.1](https://github.com/storytold/filmcraft/releases/tag/v0.2.1) | 2 | · | 11 | 100% | · | Claude, OpenAI Codex / ChatGPT | · |
+| [v0.4.0](https://github.com/storytold/filmcraft/releases/tag/v0.4.0) | 19 | 18 | 92 | 95% | · | Claude, OpenAI Codex / ChatGPT | · |
+| [v0.5.0](https://github.com/storytold/filmcraft/releases/tag/v0.5.0) | 29 | 21 | 52 | 83% | 1 | Claude, OpenAI Codex / ChatGPT | · |
+| [v0.6.0](https://github.com/storytold/filmcraft/releases/tag/v0.6.0) | 50 | 38 | 127 | 64% | · | Claude, OpenAI Codex / ChatGPT, Kimi, Xiaomi MiMo | · |
+| [v0.7.2](https://github.com/storytold/filmcraft/releases/tag/v0.7.2) | 33 | 17 | 87 | 56% | 1 | Claude, OpenAI Codex / ChatGPT | · |
+| _unreleased (main)_ | 31 | 13 | 47 | 62% | 1 | Claude, OpenAI Codex / ChatGPT, GitHub Copilot | · |
+| **Released total** | **96** |  | **641** | 80% | **2** | Claude, OpenAI Codex / ChatGPT, Kimi, Xiaomi MiMo | · |
+
+Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
+
+Most active humans in released changes: @echelon (791), @vangel76 (76), @MarekSpodBiedry (42), @vbasky (42), @punkhop (26), @ReReddo (25), @carlitosteso3 (18), @haranishi (17), @Ni-zav (15), @storybored379 (15).

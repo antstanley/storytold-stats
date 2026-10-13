@@ -21,17 +21,36 @@ Share of released changes: feature 28%, fix 47%, perf 3%, i18n 4%, docs 5%, test
 
 ## By how it landed
 
-| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs | Authors |
-|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| [v0.1.0](https://github.com/storytold/pdfcraft/releases/tag/v0.1.0) | 126 | · | · | 126 | · | · | · | · | · | 1 |
-| [v0.1.1](https://github.com/storytold/pdfcraft/releases/tag/v0.1.1) | 24 | · | · | 24 | · | · | · | · | · | 1 |
-| [v0.2.0](https://github.com/storytold/pdfcraft/releases/tag/v0.2.0) | 64 | 17 | 14 | 4 | · | 29 | · | 7 | 24 | 3 |
-| [v0.2.1](https://github.com/storytold/pdfcraft/releases/tag/v0.2.1) | 33 | 2 | 23 | 4 | · | 4 | · | 4 | 21 | 5 |
-| [v0.4.0](https://github.com/storytold/pdfcraft/releases/tag/v0.4.0) | 110 | 12 | 73 | 5 | · | 20 | · | 62 | 23 | 34 |
-| [v0.5.0](https://github.com/storytold/pdfcraft/releases/tag/v0.5.0) | 180 | 1 | 175 | 2 | · | 1 | 1 | 154 | 22 | 57 |
-| [v0.6.0](https://github.com/storytold/pdfcraft/releases/tag/v0.6.0) | 124 | · | 124 | · | · | · | · | 122 | 2 | 35 |
-| [v0.7.1](https://github.com/storytold/pdfcraft/releases/tag/v0.7.1) | 230 | 2 | 217 | 2 | · | 3 | 6 | 217 | 2 | 100 |
-| _unreleased (main)_ | 65 | · | 61 | 4 | · | · | · | 59 | 2 | 27 |
-| **Released total** | **891** | **34** | **626** | **167** | **0** | **57** | **7** | **566** | **94** |  |
+| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| [v0.1.0](https://github.com/storytold/pdfcraft/releases/tag/v0.1.0) | 126 | · | · | 126 | · | · | · | · | · |
+| [v0.1.1](https://github.com/storytold/pdfcraft/releases/tag/v0.1.1) | 24 | · | · | 24 | · | · | · | · | · |
+| [v0.2.0](https://github.com/storytold/pdfcraft/releases/tag/v0.2.0) | 64 | 17 | 14 | 4 | · | 29 | · | 7 | 24 |
+| [v0.2.1](https://github.com/storytold/pdfcraft/releases/tag/v0.2.1) | 33 | 2 | 23 | 4 | · | 4 | · | 4 | 21 |
+| [v0.4.0](https://github.com/storytold/pdfcraft/releases/tag/v0.4.0) | 110 | 12 | 73 | 5 | · | 20 | · | 62 | 23 |
+| [v0.5.0](https://github.com/storytold/pdfcraft/releases/tag/v0.5.0) | 180 | 1 | 175 | 2 | · | 1 | 1 | 154 | 22 |
+| [v0.6.0](https://github.com/storytold/pdfcraft/releases/tag/v0.6.0) | 124 | · | 124 | · | · | · | · | 122 | 2 |
+| [v0.7.1](https://github.com/storytold/pdfcraft/releases/tag/v0.7.1) | 230 | 2 | 217 | 2 | · | 3 | 6 | 217 | 2 |
+| _unreleased (main)_ | 65 | · | 61 | 4 | · | · | · | 59 | 2 |
+| **Released total** | **891** | **34** | **626** | **167** | **0** | **57** | **7** | **566** | **94** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
+
+## Contributors
+
+| Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
+|---|--:|--:|--:|--:|--:|---|--:|
+| [v0.1.0](https://github.com/storytold/pdfcraft/releases/tag/v0.1.0) | 1 | 1 | 120 | 95% | · | Claude | · |
+| [v0.1.1](https://github.com/storytold/pdfcraft/releases/tag/v0.1.1) | 1 | · | 24 | 100% | · | Claude | · |
+| [v0.2.0](https://github.com/storytold/pdfcraft/releases/tag/v0.2.0) | 2 | 1 | 35 | 100% | · | Claude | · |
+| [v0.2.1](https://github.com/storytold/pdfcraft/releases/tag/v0.2.1) | 4 | 2 | 28 | 97% | · | Claude, OpenAI Codex / ChatGPT, GLM (Z.ai) | · |
+| [v0.4.0](https://github.com/storytold/pdfcraft/releases/tag/v0.4.0) | 35 | 32 | 76 | 84% | · | Claude, OpenAI Codex / ChatGPT | · |
+| [v0.5.0](https://github.com/storytold/pdfcraft/releases/tag/v0.5.0) | 62 | 48 | 150 | 84% | · | Claude, OpenAI Codex / ChatGPT, GLM (Z.ai), GitHub Copilot, Cursor | · |
+| [v0.6.0](https://github.com/storytold/pdfcraft/releases/tag/v0.6.0) | 37 | 22 | 81 | 65% | · | Claude, opencode, OpenAI Codex / ChatGPT, GLM (Z.ai) | · |
+| [v0.7.1](https://github.com/storytold/pdfcraft/releases/tag/v0.7.1) | 103 | 72 | 102 | 46% | · | Claude, OpenAI Codex / ChatGPT, Muse Spark (Meta), GitHub Copilot | · |
+| _unreleased (main)_ | 28 | 8 | 24 | 37% | · | Claude, OpenAI Codex / ChatGPT | · |
+| **Released total** | **178** |  | **616** | 74% | **0** | Claude, OpenAI Codex / ChatGPT, opencode, GLM (Z.ai), GitHub Copilot, Muse Spark (Meta), Cursor | · |
+
+Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
+
+Most active humans in released changes: @echelon (598), @cyfung1031 (87), @jcl-bit (23), @MarekSpodBiedry (21), @earlvanze (20), @DWAA1660 (19), @Streetblock (19), @marcoarnulfo (18), @LloydNicholson (17), @bartalos86 (16).

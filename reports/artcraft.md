@@ -6,7 +6,7 @@
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| [artcraft-v0.0.1 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.0.1) | 2025-07-14 | 10034 | – | – | – | – | – | – | – | – | – | – | – | – | – |
+| [artcraft-v0.0.1 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.0.1) | 2025-07-14 | 10033 | – | – | – | – | – | – | – | – | – | – | – | – | – |
 | [artcraft-v0.2.0 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.2.0) | 2026-01-16 | 414 | 189 | 84 | 4 | · | 11 | 1 | 30 | 18 | 42 | 5 | · | 1 | 29 |
 | [artcraft-v0.3.0 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.3.0) | 2026-01-20 | 11 | 5 | · | · | · | 1 | · | · | 1 | 2 | 1 | · | · | 1 |
 | [artcraft-v0.4.0 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.4.0) | 2026-01-21 | 8 | 2 | 2 | · | · | · | · | 1 | 2 | 1 | · | · | · | · |
@@ -38,32 +38,66 @@ Share of released changes: feature 47%, fix 20%, perf 1%, docs 3%, test 1%, buil
 
 ## By how it landed
 
-| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs | Authors |
-|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| [artcraft-v0.0.1 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.0.1) | 13463 | 977 | 776 | 8074 | 207 | 2979 | 450 | 731 | 934 | 31 |
-| [artcraft-v0.2.0 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.2.0) | 414 | · | 238 | 176 | · | · | · | · | 238 | 6 |
-| [artcraft-v0.3.0 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.3.0) | 11 | · | 6 | 5 | · | · | · | · | 6 | 3 |
-| [artcraft-v0.4.0 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.4.0) | 8 | · | 4 | 4 | · | · | · | · | 4 | 3 |
-| [artcraft-v0.5.0 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.5.0) | 4 | · | 1 | 3 | · | · | · | · | 1 | 2 |
-| [artcraft-v0.7.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.7.0) | 107 | · | 36 | 71 | · | · | · | 3 | 33 | 5 |
-| [artcraft-v0.8.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.8.0) | 7 | · | 4 | 3 | · | · | · | · | 4 | 3 |
-| [artcraft-v0.10.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.10.0) | 16 | · | 10 | 6 | · | · | · | · | 10 | 3 |
-| [artcraft-v0.11.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.11.0) | 14 | · | 5 | 9 | · | · | · | · | 5 | 3 |
-| [artcraft-v0.12.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.12.0) | 22 | · | 11 | 11 | · | · | · | · | 11 | 4 |
-| [artcraft-v0.14.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.14.0) | 53 | · | 32 | 20 | · | · | 1 | 1 | 31 | 4 |
-| [artcraft-v0.15.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.15.0) | 43 | · | 19 | 24 | · | · | · | · | 19 | 5 |
-| [artcraft-v0.19.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.19.0) | 51 | · | 37 | 14 | · | · | · | · | 37 | 5 |
-| [artcraft-v0.20.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.20.0) | 8 | · | 6 | 2 | · | · | · | · | 6 | 3 |
-| [artcraft-v0.22.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.22.0) | 75 | · | 58 | 17 | · | · | · | · | 58 | 5 |
-| [artcraft-v0.23.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.23.0) | 9 | · | 4 | 4 | · | · | 1 | · | 4 | 4 |
-| [artcraft-v0.24.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.24.0) | 9 | · | 6 | 3 | · | · | · | · | 6 | 3 |
-| [artcraft-v0.27.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.27.0) | 27 | · | 23 | 4 | · | · | · | 1 | 22 | 5 |
-| [artcraft-v0.28.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.28.0) | 23 | · | 21 | 2 | · | · | · | · | 21 | 4 |
-| [artcraft-v0.29.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.29.0) | 58 | · | 47 | 11 | · | · | · | · | 47 | 5 |
-| [artcraft-v0.32.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.32.0) | 107 | · | 69 | 38 | · | · | · | · | 69 | 5 |
-| [artcraft-v0.37.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.37.0) | 447 | · | 360 | 87 | · | · | · | 43 | 317 | 8 |
-| [artcraft-v0.41.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.41.0) | 11 | · | 10 | 1 | · | · | · | · | 10 | 2 |
-| _unreleased (main)_ | 15 | · | 15 | · | · | · | · | · | 15 | 3 |
-| **Released total** | **14987** | **977** | **1783** | **8589** | **207** | **2979** | **452** | **779** | **1893** |  |
+| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| [artcraft-v0.0.1 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.0.1) | 13463 | 977 | 776 | 8074 | 206 | 2980 | 450 | 731 | 934 |
+| [artcraft-v0.2.0 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.2.0) | 414 | · | 238 | 176 | · | · | · | · | 238 |
+| [artcraft-v0.3.0 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.3.0) | 11 | · | 6 | 5 | · | · | · | · | 6 |
+| [artcraft-v0.4.0 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.4.0) | 8 | · | 4 | 4 | · | · | · | · | 4 |
+| [artcraft-v0.5.0 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.5.0) | 4 | · | 1 | 3 | · | · | · | · | 1 |
+| [artcraft-v0.7.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.7.0) | 107 | · | 36 | 71 | · | · | · | 3 | 33 |
+| [artcraft-v0.8.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.8.0) | 7 | · | 4 | 3 | · | · | · | · | 4 |
+| [artcraft-v0.10.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.10.0) | 16 | · | 10 | 6 | · | · | · | · | 10 |
+| [artcraft-v0.11.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.11.0) | 14 | · | 5 | 9 | · | · | · | · | 5 |
+| [artcraft-v0.12.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.12.0) | 22 | · | 11 | 11 | · | · | · | · | 11 |
+| [artcraft-v0.14.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.14.0) | 53 | · | 32 | 20 | · | · | 1 | 1 | 31 |
+| [artcraft-v0.15.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.15.0) | 43 | · | 19 | 24 | · | · | · | · | 19 |
+| [artcraft-v0.19.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.19.0) | 51 | · | 37 | 14 | · | · | · | · | 37 |
+| [artcraft-v0.20.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.20.0) | 8 | · | 6 | 2 | · | · | · | · | 6 |
+| [artcraft-v0.22.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.22.0) | 75 | · | 58 | 17 | · | · | · | · | 58 |
+| [artcraft-v0.23.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.23.0) | 9 | · | 4 | 4 | · | · | 1 | · | 4 |
+| [artcraft-v0.24.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.24.0) | 9 | · | 6 | 3 | · | · | · | · | 6 |
+| [artcraft-v0.27.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.27.0) | 27 | · | 23 | 4 | · | · | · | 1 | 22 |
+| [artcraft-v0.28.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.28.0) | 23 | · | 21 | 2 | · | · | · | · | 21 |
+| [artcraft-v0.29.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.29.0) | 58 | · | 47 | 11 | · | · | · | · | 47 |
+| [artcraft-v0.32.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.32.0) | 107 | · | 69 | 38 | · | · | · | · | 69 |
+| [artcraft-v0.37.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.37.0) | 447 | · | 360 | 87 | · | · | · | 43 | 317 |
+| [artcraft-v0.41.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.41.0) | 11 | · | 10 | 1 | · | · | · | · | 10 |
+| _unreleased (main)_ | 15 | · | 15 | · | · | · | · | · | 15 |
+| **Released total** | **14987** | **977** | **1783** | **8589** | **206** | **2980** | **452** | **779** | **1893** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
+
+## Contributors
+
+| Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
+|---|--:|--:|--:|--:|--:|---|--:|
+| [artcraft-v0.0.1 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.0.1) | 34 | 34 | · | 0% | · | · | 1 |
+| [artcraft-v0.2.0 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.2.0) | 4 | · | · | 0% | · | · | · |
+| [artcraft-v0.3.0 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.3.0) | 2 | · | · | 0% | · | · | · |
+| [artcraft-v0.4.0 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.4.0) | 2 | · | · | 0% | · | · | · |
+| [artcraft-v0.5.0 (+win)](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.5.0) | 1 | · | · | 0% | · | · | · |
+| [artcraft-v0.7.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.7.0) | 3 | · | · | 0% | · | · | 1 |
+| [artcraft-v0.8.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.8.0) | 2 | · | · | 0% | · | · | · |
+| [artcraft-v0.10.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.10.0) | 2 | · | 1 | 6% | · | Claude | · |
+| [artcraft-v0.11.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.11.0) | 2 | · | · | 0% | · | · | · |
+| [artcraft-v0.12.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.12.0) | 2 | · | · | 0% | · | · | · |
+| [artcraft-v0.14.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.14.0) | 3 | 1 | · | 0% | · | · | · |
+| [artcraft-v0.15.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.15.0) | 3 | · | · | 0% | · | · | · |
+| [artcraft-v0.19.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.19.0) | 3 | · | · | 0% | · | · | · |
+| [artcraft-v0.20.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.20.0) | 2 | · | · | 0% | · | · | · |
+| [artcraft-v0.22.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.22.0) | 3 | · | · | 0% | · | · | · |
+| [artcraft-v0.23.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.23.0) | 3 | · | · | 0% | · | · | · |
+| [artcraft-v0.24.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.24.0) | 2 | · | · | 0% | · | · | · |
+| [artcraft-v0.27.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.27.0) | 4 | 1 | 1 | 4% | · | Claude | · |
+| [artcraft-v0.28.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.28.0) | 3 | · | · | 0% | · | · | · |
+| [artcraft-v0.29.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.29.0) | 3 | · | · | 0% | · | · | · |
+| [artcraft-v0.32.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.32.0) | 3 | · | 1 | 1% | · | Claude | · |
+| [artcraft-v0.37.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.37.0) | 5 | 2 | 3 | 1% | · | Claude | · |
+| [artcraft-v0.41.0](https://github.com/storytold/artcraft/releases/tag/artcraft-v0.41.0) | 1 | · | · | 0% | · | · | · |
+| _unreleased (main)_ | 4 | 1 | 4 | 27% | · | Claude | · |
+| **Released total** | **8** |  | **6** | 0% | **0** | Claude | 1 |
+
+Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
+
+Most active humans in released changes: @echelon (924), @bflatastic (496), @tanish2k09 (72), @h-a-n-a-s-h-i (46), @kasisnu (2), @amitkojha05 (1), @frankywashere (1), @jtoy (1).

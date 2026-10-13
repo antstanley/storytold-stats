@@ -2,7 +2,7 @@
 
 Generated 2026-10-13 from the public repos at https://github.com/storytold.
 
-The org has 59 repos; 15 of them publish GitHub releases, and those are the ones covered here. Their 128 GitHub releases make 122 distinct release points (ArtCraft tags macOS and Windows builds of one version separately, and one PhotoCraft release candidate shares a commit with v0.1.0).
+The org has 60 repos; 15 of them publish GitHub releases, and those are the ones covered here. Their 128 GitHub releases make 122 distinct release points (ArtCraft tags macOS and Windows builds of one version separately, and one PhotoCraft release candidate shares a commit with v0.1.0).
 Every change that landed in a release is put in one category (feature, fix, perf, …) and one landing type (PR merge, squash merge, direct commit, batch commit).
 
 ## Headline numbers (released changes only)
@@ -48,6 +48,54 @@ A further 1153 changes are on `main` but not yet in a release (209 features, 783
 | Revert | 18 | 0.2% |
 | Other | 183 | 2.0% |
 
+## Contributors: humans, agents and bots
+
+712 humans contributed to the released changes (656 as the author of at least one change, the rest only as co-authors), alongside 14 disclosed AI agents and 1 bot. 6112 of the 9228 changes (66%) disclose an agent, and 526 of the humans authored at least one change that does.
+
+| Repo | Humans | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
+|---|--:|--:|--:|--:|---|--:|
+| [cadcraft](reports/cadcraft.md) | 35 | 319 | 86% | · | Claude | · |
+| [soundcraft](reports/soundcraft.md) | 22 | 110 | 78% | · | Claude | · |
+| [craft-launcher](reports/craft-launcher.md) | 18 | 56 | 85% | · | Claude | · |
+| [deckcraft](reports/deckcraft.md) | 17 | 57 | 89% | · | Claude | · |
+| [gridcraft](reports/gridcraft.md) | 44 | 164 | 64% | · | Claude, OpenAI Codex / ChatGPT | · |
+| [vectorcraft](reports/vectorcraft.md) | 102 | 751 | 85% | 1 | Claude, OpenAI Codex / ChatGPT, Cursor | · |
+| [photocraft](reports/photocraft.md) | 255 | 1149 | 68% | 20 | Claude, GitHub Copilot, OpenAI Codex / ChatGPT, Unnamed agent, Cursor, Devin, Qwen | · |
+| [pdfcraft](reports/pdfcraft.md) | 178 | 616 | 74% | · | Claude, OpenAI Codex / ChatGPT, opencode, GLM (Z.ai), GitHub Copilot, Muse Spark (Meta), Cursor | · |
+| [designcraft](reports/designcraft.md) | 34 | 334 | 82% | · | Claude, OpenAI Codex / ChatGPT, Codebuff | · |
+| [filmcraft](reports/filmcraft.md) | 96 | 641 | 80% | 2 | Claude, OpenAI Codex / ChatGPT, Kimi, Xiaomi MiMo | · |
+| [figcraft](reports/figcraft.md) | 2 | 136 | 64% | · | Claude | · |
+| [lightcraft](reports/lightcraft.md) | 114 | 721 | 91% | 263 | Claude, OpenAI Codex / ChatGPT, DeepSeek, opencode, GitHub Copilot | · |
+| [effectcraft](reports/effectcraft.md) | 66 | 696 | 89% | 123 | Claude, OpenAI Codex / ChatGPT | · |
+| [wordcraft](reports/wordcraft.md) | 75 | 356 | 88% | · | Claude, OpenAI Codex / ChatGPT, Cursor, Devin, GitHub Copilot, Unnamed agent | · |
+| [artcraft](reports/artcraft.md) | 8 | 6 | 0% | · | Claude | 1 |
+| **All** | **712** | **6112** | 66% | **409** | 14 agents | 1 |
+
+A human is counted once per repo here, and once in the **All** row even if they contributed to several repos.
+
+### Disclosed agents
+
+| Agent | Changes | As git author | As co-author | Humans authoring those changes | Repos |
+|---|--:|--:|--:|--:|--:|
+| Claude | 5982 | 409 | 5573 | 509 | 15 |
+| OpenAI Codex / ChatGPT | 158 | · | 158 | 47 | 9 |
+| GitHub Copilot | 35 | · | 35 | 4 | 4 |
+| opencode | 11 | · | 11 | 4 | 2 |
+| Cursor | 6 | · | 6 | 5 | 4 |
+| Unnamed agent | 4 | · | 4 | 2 | 2 |
+| Codebuff | 3 | · | 3 | 1 | 1 |
+| GLM (Z.ai) | 3 | · | 3 | 2 | 1 |
+| DeepSeek | 2 | · | 2 | 1 | 1 |
+| Devin | 2 | · | 2 | 2 | 2 |
+| Kimi | 2 | · | 2 | 1 | 1 |
+| Muse Spark (Meta) | 2 | · | 2 | 1 | 1 |
+| Qwen | 1 | · | 1 | 1 | 1 |
+| Xiaomi MiMo | 1 | · | 1 | 1 | 1 |
+
+"As git author" means the commit's author is the agent itself; "as co-author" means a human is the author and the agent is named in a `Co-authored-by` trailer or a "Generated with" line. A change that discloses two agents counts for both. 100 changes have an agent as git author and no human named at all. The model names seen most often: Claude Opus 5.5 (5571), Claude (451), Codex (113), Claude Sonnet 5.5 (112), Claude Fable 5.1 (72), Claude Opus 4.8 (63), Copilot (33), OpenAI Codex (30).
+
+`csv/contributors.csv` lists every human, agent and bot per repo and across the org.
+
 ## How the numbers are produced
 
 **Release ranges.** For each repo the release tags are ordered by version. A release's changes are the commits reachable from its tag but not from any earlier release tag; the first release gets everything before it.
@@ -62,6 +110,12 @@ A further 1153 changes are on `main` but not yet in a release (209 features, 783
 | Batch commit | 122 | a commit made directly on an integration-batch PR branch (follow-up fixes, formatting, conflict clean-up after merging a batch of contributor PRs). |
 
 Commits inside an ordinary PR branch and plain sync merges (`Merge branch 'main' into …`) are not changes; they are reported separately in each repo's "By how it landed" table. Counts are counts of changes, not of lines or effort: a one-line fix and a whole new subsystem each count once.
+
+**Contributors.** The contributors of a change are read from its commits (for a PR merge, every commit in the PR branch) and its PR:
+
+- **Human:** the PR's author, or the commit's git author when there is no PR, plus anyone named in a `Co-authored-by` trailer and anyone else who authored a commit in the PR branch. Each is resolved to a GitHub login where the history gives one (a GitHub noreply address, a squash-merge commit authored by the PR's author, or being the main committer in a PR that login opened) and otherwise kept as the git name.
+- **Agent (disclosed):** a known AI agent identity appearing as a commit's git author (for example `Claude <noreply@anthropic.com>`), in a `Co-authored-by` trailer (`Claude Opus 5.5`, `Codex`, `Copilot`, …), or in a "Generated with …" line. Model variants are grouped under one agent: every Claude model is "Claude". The table of recognised agents is in `scripts/contributors.py`.
+- **Bot:** a non-AI automation account, such as `dependabot[bot]`.
 
 **Categories.**
 
@@ -88,13 +142,16 @@ Commits inside an ordinary PR branch and plain sync merges (`Merge branch 'main'
 | Title read and labelled by an LLM (Claude Haiku), for titles with no prefix, branch or label signal | 4875 | 47.0% |
 | PR branch name (`fix/…`, `feat/…`, `perf/…`, `docs/…`) | 3890 | 37.5% |
 | Conventional-commit prefix on the title (`fix(...)`, `feat:`, `perf:` …) | 1395 | 13.4% |
-| Unambiguous title wording: version bumps / release prep and reverts | 181 | 1.7% |
+| Keyword rules on the title: version bumps, release prep and reverts, plus any title not yet read by the LLM | 181 | 1.7% |
 | Integration-batch PR that only bundles other PRs (counted as Other) | 37 | 0.4% |
 | `bug` / `enhancement` label on the PR or the issue it closes | 3 | 0.0% |
 
 ## Things to know before quoting these
 
 - **The feature/fix split is partly a judgment call.** Roughly half of the changes have no prefix, branch name or label saying what they are; those were labelled from their title alone by an LLM (Claude Haiku, in 8 batches). The labels were spot-checked against the titles and checked for row alignment; one run of 53 shifted labels was found and repaired. No human has reviewed them one by one. Titles in these repos often just state the new behaviour ("Layers: the active layer falls back to the top layer when it is removed"), which reads as a fix but could be argued either way. Treat the split as indicative, not exact.
+- **Agent figures are a floor.** They count what the history discloses. A change written with an agent but committed without a trailer looks human-only, and squash merges keep trailers only if the person merging left them in.
+- **"Human" means "not a recognised agent or bot".** An account that is run by an agent but does not say so, or an agent whose name is not in the table yet, is counted as a human.
+- **A few people may be counted twice.** 52 of the 712 humans could not be tied to a GitHub login and are identified by git name only; some of them may be the same person as a login.
 - **GitHub labels were of no use.** Only a handful of PRs or linked issues carry `bug`/`enhancement` labels.
 - **"fixes #123" is not treated as a bug-fix signal.** It is GitHub's issue-closing keyword and is used on feature PRs too.
 - **ArtCraft's first release (`artcraft-v0.0.1`) is not categorised.** It sits on about 13,400 commits of earlier monorepo history going back to 2015. It is counted, not labelled, and is left out of every total above.
@@ -107,17 +164,12 @@ Commits inside an ordinary PR branch and plain sync merges (`Merge branch 'main'
 
 - `reports/<repo>.md` — per-release tables for one repo: by category, and by how changes landed
 - `csv/release_stats.csv` — the same numbers, one row per repo and release
-- `csv/changes.csv` — every change with its release, category, basis, landing type, PR number, author and title
+- `csv/changes.csv` — every change with its release, category, basis, landing type, PR number, contributors (human, co-authors, agents, bots) and title
+- `csv/contributors.csv` — every human, agent and bot with their change counts, per repo and across the org (`repo` = `(all)`)
 - `web/` — SvelteKit + LayerChart app with a stacked line chart and a stacked bar chart per repo, flat or isometric (`cd web && pnpm install && pnpm dev`)
 - `charts/dark/` — PNG exports of each repo's stacked line chart
-- `data/` — inputs and per-change output: PR metadata (`prs/`), release lists (`releases_api/`), LLM labels (`review/`), and every classified change (`classified.jsonl`)
-- `scripts/` — the pipeline, in order:
-  1. `clone_repos.sh` — bare clones of the 15 repos into `repos/` (not committed)
-  2. `fetch_prs.sh <repo>` — merged-PR metadata for one repo (needs the `gh` CLI)
-  3. `build_changes.py` — splits each release range into changes
-  4. `classify.py` — assigns categories (`ingest_review.py` merges LLM labels first; a change without a label falls back to keyword rules)
-  5. `report.py` — writes this README, `reports/` and `csv/`
-  6. `export_web.py` — refreshes the web app's data
+- `data/` — inputs and per-change output: PR metadata (`prs/`, `prs_extra/`), release lists (`releases_api/`), LLM labels (`review_labels.jsonl`, batches in `review/`), and every classified change (`classified.jsonl`)
+- `scripts/` — the pipeline; `.agents/skills/compile-stats/SKILL.md` walks through running it to refresh the stats
 
 ## Repos not covered
 

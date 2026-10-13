@@ -25,21 +25,44 @@ Share of released changes: feature 33%, fix 49%, perf 2%, i18n 3%, docs 5%, test
 
 ## By how it landed
 
-| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs | Authors |
-|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| [v0.1.0](https://github.com/storytold/vectorcraft/releases/tag/v0.1.0) | 89 | 1 | · | 84 | · | 4 | · | · | 1 | 2 |
-| [v0.1.1](https://github.com/storytold/vectorcraft/releases/tag/v0.1.1) | 1 | · | · | 1 | · | · | · | · | · | 1 |
-| [v0.2.0](https://github.com/storytold/vectorcraft/releases/tag/v0.2.0) | 309 | 77 | · | 1 | · | 213 | 18 | 7 | 70 | 4 |
-| [v0.3.0](https://github.com/storytold/vectorcraft/releases/tag/v0.3.0) | 117 | 50 | 1 | · | · | 66 | · | 2 | 49 | 3 |
-| [v0.3.1](https://github.com/storytold/vectorcraft/releases/tag/v0.3.1) | 85 | 29 | · | · | · | 55 | 1 | 4 | 25 | 4 |
-| [v0.4.0](https://github.com/storytold/vectorcraft/releases/tag/v0.4.0) | 116 | 51 | · | · | · | 60 | 5 | 29 | 22 | 11 |
-| [v0.5.0](https://github.com/storytold/vectorcraft/releases/tag/v0.5.0) | 301 | 111 | 2 | 13 | · | 173 | 2 | 59 | 54 | 23 |
-| [v0.6.0](https://github.com/storytold/vectorcraft/releases/tag/v0.6.0) | 24 | 9 | 2 | 1 | · | 12 | · | 4 | 7 | 5 |
-| [v0.7.0](https://github.com/storytold/vectorcraft/releases/tag/v0.7.0) | 56 | 15 | · | · | · | 31 | 10 | 1 | 14 | 2 |
-| [v0.8.0](https://github.com/storytold/vectorcraft/releases/tag/v0.8.0) | 355 | 84 | · | 47 | · | 142 | 82 | 35 | 49 | 27 |
-| [v0.9.0](https://github.com/storytold/vectorcraft/releases/tag/v0.9.0) | 324 | 112 | 3 | · | · | 208 | 1 | 44 | 71 | 24 |
-| [v0.10.0](https://github.com/storytold/vectorcraft/releases/tag/v0.10.0) | 480 | 190 | · | 1 | · | 287 | 2 | 139 | 51 | 42 |
-| _unreleased (main)_ | 310 | 139 | · | · | · | 170 | 1 | 74 | 65 | 22 |
-| **Released total** | **2257** | **729** | **8** | **148** | **0** | **1251** | **121** | **324** | **413** |  |
+| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| [v0.1.0](https://github.com/storytold/vectorcraft/releases/tag/v0.1.0) | 89 | 1 | · | 84 | · | 4 | · | · | 1 |
+| [v0.1.1](https://github.com/storytold/vectorcraft/releases/tag/v0.1.1) | 1 | · | · | 1 | · | · | · | · | · |
+| [v0.2.0](https://github.com/storytold/vectorcraft/releases/tag/v0.2.0) | 309 | 77 | · | 1 | · | 213 | 18 | 7 | 70 |
+| [v0.3.0](https://github.com/storytold/vectorcraft/releases/tag/v0.3.0) | 117 | 50 | 1 | · | · | 66 | · | 2 | 49 |
+| [v0.3.1](https://github.com/storytold/vectorcraft/releases/tag/v0.3.1) | 85 | 29 | · | · | · | 55 | 1 | 4 | 25 |
+| [v0.4.0](https://github.com/storytold/vectorcraft/releases/tag/v0.4.0) | 116 | 51 | · | · | · | 60 | 5 | 29 | 22 |
+| [v0.5.0](https://github.com/storytold/vectorcraft/releases/tag/v0.5.0) | 301 | 111 | 2 | 13 | · | 173 | 2 | 59 | 54 |
+| [v0.6.0](https://github.com/storytold/vectorcraft/releases/tag/v0.6.0) | 24 | 9 | 2 | 1 | · | 12 | · | 4 | 7 |
+| [v0.7.0](https://github.com/storytold/vectorcraft/releases/tag/v0.7.0) | 56 | 15 | · | · | · | 31 | 10 | 1 | 14 |
+| [v0.8.0](https://github.com/storytold/vectorcraft/releases/tag/v0.8.0) | 355 | 84 | · | 47 | · | 142 | 82 | 35 | 49 |
+| [v0.9.0](https://github.com/storytold/vectorcraft/releases/tag/v0.9.0) | 324 | 112 | 3 | · | · | 208 | 1 | 44 | 71 |
+| [v0.10.0](https://github.com/storytold/vectorcraft/releases/tag/v0.10.0) | 480 | 190 | · | 1 | · | 287 | 2 | 139 | 51 |
+| _unreleased (main)_ | 310 | 139 | · | · | · | 170 | 1 | 74 | 65 |
+| **Released total** | **2257** | **729** | **8** | **148** | **0** | **1251** | **121** | **324** | **413** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
+
+## Contributors
+
+| Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
+|---|--:|--:|--:|--:|--:|---|--:|
+| [v0.1.0](https://github.com/storytold/vectorcraft/releases/tag/v0.1.0) | 2 | 2 | 76 | 89% | · | Claude | · |
+| [v0.1.1](https://github.com/storytold/vectorcraft/releases/tag/v0.1.1) | 1 | · | 1 | 100% | · | Claude | · |
+| [v0.2.0](https://github.com/storytold/vectorcraft/releases/tag/v0.2.0) | 3 | 1 | 76 | 97% | · | Claude | · |
+| [v0.3.0](https://github.com/storytold/vectorcraft/releases/tag/v0.3.0) | 3 | 1 | 51 | 100% | · | Claude | · |
+| [v0.3.1](https://github.com/storytold/vectorcraft/releases/tag/v0.3.1) | 4 | 1 | 29 | 100% | · | Claude | · |
+| [v0.4.0](https://github.com/storytold/vectorcraft/releases/tag/v0.4.0) | 11 | 8 | 49 | 96% | · | Claude | · |
+| [v0.5.0](https://github.com/storytold/vectorcraft/releases/tag/v0.5.0) | 27 | 20 | 121 | 96% | · | Claude | · |
+| [v0.6.0](https://github.com/storytold/vectorcraft/releases/tag/v0.6.0) | 5 | 1 | 12 | 100% | · | Claude | · |
+| [v0.7.0](https://github.com/storytold/vectorcraft/releases/tag/v0.7.0) | 7 | 4 | 15 | 100% | · | Claude | · |
+| [v0.8.0](https://github.com/storytold/vectorcraft/releases/tag/v0.8.0) | 28 | 21 | 109 | 83% | 1 | Claude, OpenAI Codex / ChatGPT, Cursor | · |
+| [v0.9.0](https://github.com/storytold/vectorcraft/releases/tag/v0.9.0) | 24 | 14 | 109 | 95% | · | Claude | · |
+| [v0.10.0](https://github.com/storytold/vectorcraft/releases/tag/v0.10.0) | 44 | 29 | 103 | 54% | · | Claude, OpenAI Codex / ChatGPT | · |
+| _unreleased (main)_ | 26 | 12 | 9 | 6% | · | Claude | · |
+| **Released total** | **102** |  | **751** | 85% | **1** | Claude, OpenAI Codex / ChatGPT, Cursor | · |
+
+Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
+
+Most active humans in released changes: @bflatastic (712), @echelon (153), @dotCooCoo (47), @theironchef (39), @imachus (23), @Ni-zav (21), @haranishi (20), @IHAGI-c (12), @Haven-King (9), @p0lyg0n (8).

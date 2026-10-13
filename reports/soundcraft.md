@@ -17,13 +17,28 @@ Share of released changes: feature 36%, fix 36%, perf 2%, docs 6%, test 2%, buil
 
 ## By how it landed
 
-| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs | Authors |
-|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| [v0.3.0](https://github.com/storytold/soundcraft/releases/tag/v0.3.0) | 57 | · | 4 | 53 | · | · | · | · | 4 | 2 |
-| [v0.4.0](https://github.com/storytold/soundcraft/releases/tag/v0.4.0) | 80 | 25 | 1 | 1 | · | 40 | 13 | 25 | 1 | 13 |
-| [v0.5.0](https://github.com/storytold/soundcraft/releases/tag/v0.5.0) | 31 | 11 | 2 | · | · | 11 | 7 | 11 | 2 | 5 |
-| [v0.6.1](https://github.com/storytold/soundcraft/releases/tag/v0.6.1) | 139 | 41 | 1 | 2 | · | 67 | 28 | 39 | 3 | 13 |
-| _unreleased (main)_ | 174 | 66 | · | · | · | 100 | 8 | 65 | 1 | 15 |
-| **Released total** | **307** | **77** | **8** | **56** | **0** | **118** | **48** | **75** | **10** |  |
+| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| [v0.3.0](https://github.com/storytold/soundcraft/releases/tag/v0.3.0) | 57 | · | 4 | 53 | · | · | · | · | 4 |
+| [v0.4.0](https://github.com/storytold/soundcraft/releases/tag/v0.4.0) | 80 | 25 | 1 | 1 | · | 40 | 13 | 25 | 1 |
+| [v0.5.0](https://github.com/storytold/soundcraft/releases/tag/v0.5.0) | 31 | 11 | 2 | · | · | 11 | 7 | 11 | 2 |
+| [v0.6.1](https://github.com/storytold/soundcraft/releases/tag/v0.6.1) | 139 | 41 | 1 | 2 | · | 67 | 28 | 39 | 3 |
+| _unreleased (main)_ | 174 | 66 | · | · | · | 100 | 8 | 65 | 1 |
+| **Released total** | **307** | **77** | **8** | **56** | **0** | **118** | **48** | **75** | **10** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
+
+## Contributors
+
+| Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
+|---|--:|--:|--:|--:|--:|---|--:|
+| [v0.3.0](https://github.com/storytold/soundcraft/releases/tag/v0.3.0) | 2 | 2 | 55 | 96% | · | Claude | · |
+| [v0.4.0](https://github.com/storytold/soundcraft/releases/tag/v0.4.0) | 13 | 12 | 24 | 89% | · | Claude | · |
+| [v0.5.0](https://github.com/storytold/soundcraft/releases/tag/v0.5.0) | 5 | 1 | 4 | 31% | · | Claude | · |
+| [v0.6.1](https://github.com/storytold/soundcraft/releases/tag/v0.6.1) | 12 | 7 | 27 | 61% | · | Claude | · |
+| _unreleased (main)_ | 15 | 11 | 11 | 17% | · | Claude | · |
+| **Released total** | **22** |  | **110** | 78% | **0** | Claude | · |
+
+Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
+
+Most active humans in released changes: @echelon (136), @vbasky (23), @grovebit (15), t (7), @MarekSpodBiedry (6), @h-a-n-a-s-h-i (5), @reoniazx (5), @Garygunn94 (4), @Jafz2001 (4), @salignatmoandal (3).

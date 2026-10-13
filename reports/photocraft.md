@@ -22,18 +22,38 @@ Share of released changes: feature 21%, fix 62%, perf 5%, i18n 2%, docs 3%, test
 
 ## By how it landed
 
-| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs | Authors |
-|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| [v0.1.0, v0.1.1-rc.4](https://github.com/storytold/photocraft/releases/tag/v0.1.0) | 14 | · | · | 14 | · | · | · | · | · | 1 |
-| [v0.1.1-rc.5](https://github.com/storytold/photocraft/releases/tag/v0.1.1-rc.5) | 18 | · | · | 18 | · | · | · | · | · | 1 |
-| [v0.1.1](https://github.com/storytold/photocraft/releases/tag/v0.1.1) | 29 | · | · | 29 | · | · | · | · | · | 1 |
-| [v0.2.0](https://github.com/storytold/photocraft/releases/tag/v0.2.0) | 70 | 2 | 50 | 12 | · | 6 | · | 17 | 35 | 7 |
-| [v0.3.0](https://github.com/storytold/photocraft/releases/tag/v0.3.0) | 187 | · | 187 | · | · | · | · | 77 | 110 | 34 |
-| [v0.5.0](https://github.com/storytold/photocraft/releases/tag/v0.5.0) | 205 | · | 200 | 5 | · | · | · | 145 | 55 | 48 |
-| [v0.6.0](https://github.com/storytold/photocraft/releases/tag/v0.6.0) | 566 | 7 | 489 | 25 | · | 30 | 15 | 406 | 90 | 119 |
-| [v0.7.0](https://github.com/storytold/photocraft/releases/tag/v0.7.0) | 244 | · | 244 | · | · | · | · | 235 | 9 | 71 |
-| [v0.8.2](https://github.com/storytold/photocraft/releases/tag/v0.8.2) | 422 | 1 | 412 | 4 | · | 2 | 3 | 399 | 14 | 106 |
-| _unreleased (main)_ | 286 | 1 | 258 | · | · | 22 | 5 | 255 | 4 | 74 |
-| **Released total** | **1755** | **10** | **1582** | **107** | **0** | **38** | **18** | **1279** | **313** |  |
+| Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| [v0.1.0, v0.1.1-rc.4](https://github.com/storytold/photocraft/releases/tag/v0.1.0) | 14 | · | · | 14 | · | · | · | · | · |
+| [v0.1.1-rc.5](https://github.com/storytold/photocraft/releases/tag/v0.1.1-rc.5) | 18 | · | · | 18 | · | · | · | · | · |
+| [v0.1.1](https://github.com/storytold/photocraft/releases/tag/v0.1.1) | 29 | · | · | 29 | · | · | · | · | · |
+| [v0.2.0](https://github.com/storytold/photocraft/releases/tag/v0.2.0) | 70 | 2 | 50 | 12 | · | 6 | · | 17 | 35 |
+| [v0.3.0](https://github.com/storytold/photocraft/releases/tag/v0.3.0) | 187 | · | 187 | · | · | · | · | 77 | 110 |
+| [v0.5.0](https://github.com/storytold/photocraft/releases/tag/v0.5.0) | 205 | · | 200 | 5 | · | · | · | 145 | 55 |
+| [v0.6.0](https://github.com/storytold/photocraft/releases/tag/v0.6.0) | 566 | 7 | 489 | 25 | · | 30 | 15 | 406 | 90 |
+| [v0.7.0](https://github.com/storytold/photocraft/releases/tag/v0.7.0) | 244 | · | 244 | · | · | · | · | 235 | 9 |
+| [v0.8.2](https://github.com/storytold/photocraft/releases/tag/v0.8.2) | 422 | 1 | 412 | 4 | · | 2 | 3 | 399 | 14 |
+| _unreleased (main)_ | 286 | 1 | 258 | · | · | 22 | 5 | 255 | 4 |
+| **Released total** | **1755** | **10** | **1582** | **107** | **0** | **38** | **18** | **1279** | **313** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
+
+## Contributors
+
+| Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
+|---|--:|--:|--:|--:|--:|---|--:|
+| [v0.1.0, v0.1.1-rc.4](https://github.com/storytold/photocraft/releases/tag/v0.1.0) | 1 | 1 | 4 | 29% | · | Claude | · |
+| [v0.1.1-rc.5](https://github.com/storytold/photocraft/releases/tag/v0.1.1-rc.5) | 1 | · | 13 | 72% | · | Claude | · |
+| [v0.1.1](https://github.com/storytold/photocraft/releases/tag/v0.1.1) | 1 | · | 29 | 100% | · | Claude | · |
+| [v0.2.0](https://github.com/storytold/photocraft/releases/tag/v0.2.0) | 6 | 5 | 60 | 94% | · | Claude | · |
+| [v0.3.0](https://github.com/storytold/photocraft/releases/tag/v0.3.0) | 35 | 30 | 72 | 39% | · | Claude, GitHub Copilot, Devin | · |
+| [v0.5.0](https://github.com/storytold/photocraft/releases/tag/v0.5.0) | 51 | 36 | 154 | 75% | · | Claude, GitHub Copilot, Qwen | · |
+| [v0.6.0](https://github.com/storytold/photocraft/releases/tag/v0.6.0) | 120 | 93 | 371 | 71% | 19 | Claude, OpenAI Codex / ChatGPT, Cursor, GitHub Copilot | · |
+| [v0.7.0](https://github.com/storytold/photocraft/releases/tag/v0.7.0) | 75 | 35 | 149 | 61% | · | Claude | · |
+| [v0.8.2](https://github.com/storytold/photocraft/releases/tag/v0.8.2) | 108 | 55 | 297 | 71% | 1 | Claude, OpenAI Codex / ChatGPT, Unnamed agent, Cursor | · |
+| _unreleased (main)_ | 74 | 30 | 162 | 63% | · | Claude, OpenAI Codex / ChatGPT | · |
+| **Released total** | **255** |  | **1149** | 68% | **20** | Claude, GitHub Copilot, OpenAI Codex / ChatGPT, Unnamed agent, Cursor, Devin, Qwen | · |
+
+Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
+
+Most active humans in released changes: @echelon (680), @vangel76 (131), @bflatastic (118), @Ni-zav (105), @davidmann4 (67), @Elvis33LE (42), @MarekSpodBiedry (40), @kayrockscreenprinting (39), @itrycodinganditsbad (33), @agorevski (32).
