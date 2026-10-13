@@ -1,0 +1,3866 @@
+{
+ "generated": "2026-10-13",
+ "repos": [
+  {
+   "name": "cadcraft",
+   "releases": [
+    {
+     "key": "v0.1.0",
+     "label": "v0.1.0",
+     "tags": [
+      "v0.1.0"
+     ],
+     "date": "2026-10-08T03:07:48Z",
+     "url": "https://github.com/storytold/cadcraft/releases/tag/v0.1.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 23,
+     "changes": 21,
+     "counts": {
+      "feature": 12,
+      "fix": 0,
+      "perf": 1,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 0,
+      "release": 4,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 2
+     }
+    },
+    {
+     "key": "v0.3.0",
+     "label": "v0.3.0",
+     "tags": [
+      "v0.3.0"
+     ],
+     "date": "2026-10-08T14:41:49Z",
+     "url": "https://github.com/storytold/cadcraft/releases/tag/v0.3.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 4,
+     "changes": 4,
+     "counts": {
+      "feature": 0,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 0,
+      "release": 3,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.4.0",
+     "label": "v0.4.0",
+     "tags": [
+      "v0.4.0"
+     ],
+     "date": "2026-10-10T02:51:15Z",
+     "url": "https://github.com/storytold/cadcraft/releases/tag/v0.4.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 3,
+     "changes": 2,
+     "counts": {
+      "feature": 0,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.5.0",
+     "label": "v0.5.0",
+     "tags": [
+      "v0.5.0"
+     ],
+     "date": "2026-10-11T00:11:33Z",
+     "url": "https://github.com/storytold/cadcraft/releases/tag/v0.5.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 188,
+     "changes": 188,
+     "counts": {
+      "feature": 18,
+      "fix": 160,
+      "perf": 0,
+      "i18n": 1,
+      "docs": 2,
+      "test": 3,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 3,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.6.2",
+     "label": "v0.6.2",
+     "tags": [
+      "v0.6.2"
+     ],
+     "date": "2026-10-12T16:40:01Z",
+     "url": "https://github.com/storytold/cadcraft/releases/tag/v0.6.2",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 160,
+     "changes": 156,
+     "counts": {
+      "feature": 83,
+      "fix": 55,
+      "perf": 5,
+      "i18n": 7,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 1,
+      "release": 4,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-13T09:16:44Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 73,
+     "changes": 73,
+     "counts": {
+      "feature": 9,
+      "fix": 54,
+      "perf": 2,
+      "i18n": 2,
+      "docs": 3,
+      "test": 2,
+      "build-ci": 0,
+      "release": 0,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "soundcraft",
+   "releases": [
+    {
+     "key": "v0.3.0",
+     "label": "v0.3.0",
+     "tags": [
+      "v0.3.0"
+     ],
+     "date": "2026-10-08T14:41:51Z",
+     "url": "https://github.com/storytold/soundcraft/releases/tag/v0.3.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 57,
+     "changes": 57,
+     "counts": {
+      "feature": 33,
+      "fix": 2,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 7,
+      "test": 3,
+      "build-ci": 1,
+      "release": 6,
+      "refactor": 4,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    },
+    {
+     "key": "v0.4.0",
+     "label": "v0.4.0",
+     "tags": [
+      "v0.4.0"
+     ],
+     "date": "2026-10-10T02:51:45Z",
+     "url": "https://github.com/storytold/soundcraft/releases/tag/v0.4.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 80,
+     "changes": 27,
+     "counts": {
+      "feature": 9,
+      "fix": 15,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 2,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.5.0",
+     "label": "v0.5.0",
+     "tags": [
+      "v0.5.0"
+     ],
+     "date": "2026-10-11T00:39:19Z",
+     "url": "https://github.com/storytold/soundcraft/releases/tag/v0.5.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 31,
+     "changes": 13,
+     "counts": {
+      "feature": 1,
+      "fix": 10,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.6.1",
+     "label": "v0.6.1",
+     "tags": [
+      "v0.6.1"
+     ],
+     "date": "2026-10-12T15:57:05Z",
+     "url": "https://github.com/storytold/soundcraft/releases/tag/v0.6.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 139,
+     "changes": 44,
+     "counts": {
+      "feature": 8,
+      "fix": 24,
+      "perf": 3,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 4,
+      "release": 3,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-13T08:49:40Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 174,
+     "changes": 66,
+     "counts": {
+      "feature": 12,
+      "fix": 49,
+      "perf": 1,
+      "i18n": 0,
+      "docs": 3,
+      "test": 0,
+      "build-ci": 0,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 1,
+      "revert": 0,
+      "other": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "craft-launcher",
+   "releases": [
+    {
+     "key": "v0.1.0",
+     "label": "v0.1.0",
+     "tags": [
+      "v0.1.0"
+     ],
+     "date": "2026-10-10T04:00:18Z",
+     "url": "https://github.com/storytold/craft-launcher/releases/tag/v0.1.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 15,
+     "changes": 15,
+     "counts": {
+      "feature": 7,
+      "fix": 1,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 4,
+      "test": 0,
+      "build-ci": 1,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 2
+     }
+    },
+    {
+     "key": "v0.1.1",
+     "label": "v0.1.1",
+     "tags": [
+      "v0.1.1"
+     ],
+     "date": "2026-10-10T11:02:03Z",
+     "url": "https://github.com/storytold/craft-launcher/releases/tag/v0.1.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 5,
+     "changes": 5,
+     "counts": {
+      "feature": 2,
+      "fix": 2,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.1.2",
+     "label": "v0.1.2",
+     "tags": [
+      "v0.1.2"
+     ],
+     "date": "2026-10-10T11:45:22Z",
+     "url": "https://github.com/storytold/craft-launcher/releases/tag/v0.1.2",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 1,
+     "changes": 1,
+     "counts": {
+      "feature": 1,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 0,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.1.3",
+     "label": "v0.1.3",
+     "tags": [
+      "v0.1.3"
+     ],
+     "date": "2026-10-10T15:28:59Z",
+     "url": "https://github.com/storytold/craft-launcher/releases/tag/v0.1.3",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 5,
+     "changes": 5,
+     "counts": {
+      "feature": 4,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.2.0",
+     "label": "v0.2.0",
+     "tags": [
+      "v0.2.0"
+     ],
+     "date": "2026-10-10T18:42:06Z",
+     "url": "https://github.com/storytold/craft-launcher/releases/tag/v0.2.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 11,
+     "changes": 11,
+     "counts": {
+      "feature": 1,
+      "fix": 7,
+      "perf": 0,
+      "i18n": 1,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 0,
+      "release": 2,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.2.1",
+     "label": "v0.2.1",
+     "tags": [
+      "v0.2.1"
+     ],
+     "date": "2026-10-11T14:17:00Z",
+     "url": "https://github.com/storytold/craft-launcher/releases/tag/v0.2.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 24,
+     "changes": 24,
+     "counts": {
+      "feature": 7,
+      "fix": 13,
+      "perf": 0,
+      "i18n": 2,
+      "docs": 0,
+      "test": 1,
+      "build-ci": 0,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 1,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.3.2",
+     "label": "v0.3.2",
+     "tags": [
+      "v0.3.2"
+     ],
+     "date": "2026-10-11T21:28:13Z",
+     "url": "https://github.com/storytold/craft-launcher/releases/tag/v0.3.2",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 5,
+     "changes": 5,
+     "counts": {
+      "feature": 0,
+      "fix": 1,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 1,
+      "release": 3,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-12T09:41:18Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 33,
+     "changes": 33,
+     "counts": {
+      "feature": 6,
+      "fix": 15,
+      "perf": 0,
+      "i18n": 6,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 5,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "deckcraft",
+   "releases": [
+    {
+     "key": "v0.1.0",
+     "label": "v0.1.0",
+     "tags": [
+      "v0.1.0"
+     ],
+     "date": "2026-10-08T00:23:17Z",
+     "url": "https://github.com/storytold/deckcraft/releases/tag/v0.1.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 20,
+     "changes": 20,
+     "counts": {
+      "feature": 11,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 2,
+      "release": 2,
+      "refactor": 2,
+      "deps": 1,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    },
+    {
+     "key": "v0.3.0",
+     "label": "v0.3.0",
+     "tags": [
+      "v0.3.0"
+     ],
+     "date": "2026-10-08T14:41:56Z",
+     "url": "https://github.com/storytold/deckcraft/releases/tag/v0.3.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 9,
+     "changes": 9,
+     "counts": {
+      "feature": 1,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 0,
+      "release": 6,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.4.0",
+     "label": "v0.4.0",
+     "tags": [
+      "v0.4.0"
+     ],
+     "date": "2026-10-10T02:51:18Z",
+     "url": "https://github.com/storytold/deckcraft/releases/tag/v0.4.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 14,
+     "changes": 13,
+     "counts": {
+      "feature": 3,
+      "fix": 6,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 2,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.5.0",
+     "label": "v0.5.0",
+     "tags": [
+      "v0.5.0"
+     ],
+     "date": "2026-10-11T01:17:33Z",
+     "url": "https://github.com/storytold/deckcraft/releases/tag/v0.5.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 18,
+     "changes": 18,
+     "counts": {
+      "feature": 4,
+      "fix": 8,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 2,
+      "test": 1,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.6.1",
+     "label": "v0.6.1",
+     "tags": [
+      "v0.6.1"
+     ],
+     "date": "2026-10-12T18:22:34Z",
+     "url": "https://github.com/storytold/deckcraft/releases/tag/v0.6.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 4,
+     "changes": 4,
+     "counts": {
+      "feature": 0,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 1,
+      "release": 3,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-13T08:30:41Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 53,
+     "changes": 53,
+     "counts": {
+      "feature": 16,
+      "fix": 32,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 3,
+      "test": 1,
+      "build-ci": 0,
+      "release": 0,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "gridcraft",
+   "releases": [
+    {
+     "key": "v0.1.0",
+     "label": "v0.1.0",
+     "tags": [
+      "v0.1.0"
+     ],
+     "date": "2026-10-08T00:47:18Z",
+     "url": "https://github.com/storytold/gridcraft/releases/tag/v0.1.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 16,
+     "changes": 16,
+     "counts": {
+      "feature": 9,
+      "fix": 1,
+      "perf": 1,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 1,
+      "release": 0,
+      "refactor": 2,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    },
+    {
+     "key": "v0.3.0",
+     "label": "v0.3.0",
+     "tags": [
+      "v0.3.0"
+     ],
+     "date": "2026-10-08T14:41:54Z",
+     "url": "https://github.com/storytold/gridcraft/releases/tag/v0.3.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 7,
+     "changes": 7,
+     "counts": {
+      "feature": 1,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 0,
+      "release": 5,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.4.0",
+     "label": "v0.4.0",
+     "tags": [
+      "v0.4.0"
+     ],
+     "date": "2026-10-10T02:51:32Z",
+     "url": "https://github.com/storytold/gridcraft/releases/tag/v0.4.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 3,
+     "changes": 2,
+     "counts": {
+      "feature": 0,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.5.0",
+     "label": "v0.5.0",
+     "tags": [
+      "v0.5.0"
+     ],
+     "date": "2026-10-10T23:50:05Z",
+     "url": "https://github.com/storytold/gridcraft/releases/tag/v0.5.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 222,
+     "changes": 86,
+     "counts": {
+      "feature": 12,
+      "fix": 59,
+      "perf": 0,
+      "i18n": 3,
+      "docs": 1,
+      "test": 1,
+      "build-ci": 3,
+      "release": 2,
+      "refactor": 5,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.6.1",
+     "label": "v0.6.1",
+     "tags": [
+      "v0.6.1"
+     ],
+     "date": "2026-10-12T17:07:30Z",
+     "url": "https://github.com/storytold/gridcraft/releases/tag/v0.6.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 358,
+     "changes": 145,
+     "counts": {
+      "feature": 33,
+      "fix": 83,
+      "perf": 0,
+      "i18n": 7,
+      "docs": 8,
+      "test": 3,
+      "build-ci": 5,
+      "release": 3,
+      "refactor": 2,
+      "deps": 0,
+      "security": 1,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-13T06:04:03Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 407,
+     "changes": 162,
+     "counts": {
+      "feature": 13,
+      "fix": 129,
+      "perf": 1,
+      "i18n": 4,
+      "docs": 1,
+      "test": 8,
+      "build-ci": 2,
+      "release": 0,
+      "refactor": 3,
+      "deps": 0,
+      "security": 1,
+      "revert": 0,
+      "other": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "vectorcraft",
+   "releases": [
+    {
+     "key": "v0.1.0",
+     "label": "v0.1.0",
+     "tags": [
+      "v0.1.0"
+     ],
+     "date": "2026-10-02T22:31:32Z",
+     "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.1.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 89,
+     "changes": 85,
+     "counts": {
+      "feature": 47,
+      "fix": 6,
+      "perf": 7,
+      "i18n": 0,
+      "docs": 11,
+      "test": 0,
+      "build-ci": 4,
+      "release": 0,
+      "refactor": 3,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 7
+     }
+    },
+    {
+     "key": "v0.1.1",
+     "label": "v0.1.1",
+     "tags": [
+      "v0.1.1"
+     ],
+     "date": "2026-10-03T14:24:17Z",
+     "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.1.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 1,
+     "changes": 1,
+     "counts": {
+      "feature": 0,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.2.0",
+     "label": "v0.2.0",
+     "tags": [
+      "v0.2.0"
+     ],
+     "date": "2026-10-05T07:04:13Z",
+     "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.2.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 309,
+     "changes": 78,
+     "counts": {
+      "feature": 58,
+      "fix": 7,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 6,
+      "test": 4,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 1,
+      "deps": 0,
+      "security": 1,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.3.0",
+     "label": "v0.3.0",
+     "tags": [
+      "v0.3.0"
+     ],
+     "date": "2026-10-06T01:34:54Z",
+     "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.3.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 117,
+     "changes": 51,
+     "counts": {
+      "feature": 19,
+      "fix": 26,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 2,
+      "test": 1,
+      "build-ci": 2,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.3.1",
+     "label": "v0.3.1",
+     "tags": [
+      "v0.3.1"
+     ],
+     "date": "2026-10-06T12:37:09Z",
+     "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.3.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 85,
+     "changes": 29,
+     "counts": {
+      "feature": 18,
+      "fix": 8,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 1,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.4.0",
+     "label": "v0.4.0",
+     "tags": [
+      "v0.4.0"
+     ],
+     "date": "2026-10-07T10:00:42Z",
+     "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.4.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 116,
+     "changes": 51,
+     "counts": {
+      "feature": 4,
+      "fix": 35,
+      "perf": 0,
+      "i18n": 4,
+      "docs": 2,
+      "test": 2,
+      "build-ci": 3,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.5.0",
+     "label": "v0.5.0",
+     "tags": [
+      "v0.5.0"
+     ],
+     "date": "2026-10-08T13:03:59Z",
+     "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.5.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 301,
+     "changes": 126,
+     "counts": {
+      "feature": 24,
+      "fix": 80,
+      "perf": 3,
+      "i18n": 6,
+      "docs": 4,
+      "test": 1,
+      "build-ci": 1,
+      "release": 3,
+      "refactor": 3,
+      "deps": 0,
+      "security": 0,
+      "revert": 1,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.6.0",
+     "label": "v0.6.0",
+     "tags": [
+      "v0.6.0"
+     ],
+     "date": "2026-10-08T14:41:38Z",
+     "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.6.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 24,
+     "changes": 12,
+     "counts": {
+      "feature": 4,
+      "fix": 4,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 1,
+      "release": 2,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.7.0",
+     "label": "v0.7.0",
+     "tags": [
+      "v0.7.0"
+     ],
+     "date": "2026-10-08T18:43:46Z",
+     "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.7.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 56,
+     "changes": 15,
+     "counts": {
+      "feature": 1,
+      "fix": 7,
+      "perf": 1,
+      "i18n": 1,
+      "docs": 1,
+      "test": 1,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 2
+     }
+    },
+    {
+     "key": "v0.8.0",
+     "label": "v0.8.0",
+     "tags": [
+      "v0.8.0"
+     ],
+     "date": "2026-10-10T02:51:48Z",
+     "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.8.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 355,
+     "changes": 131,
+     "counts": {
+      "feature": 37,
+      "fix": 69,
+      "perf": 2,
+      "i18n": 12,
+      "docs": 2,
+      "test": 5,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 2,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.9.0",
+     "label": "v0.9.0",
+     "tags": [
+      "v0.9.0"
+     ],
+     "date": "2026-10-11T00:56:53Z",
+     "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.9.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 324,
+     "changes": 115,
+     "counts": {
+      "feature": 25,
+      "fix": 83,
+      "perf": 0,
+      "i18n": 1,
+      "docs": 5,
+      "test": 0,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.10.0",
+     "label": "v0.10.0",
+     "tags": [
+      "v0.10.0"
+     ],
+     "date": "2026-10-12T15:56:13Z",
+     "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.10.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 480,
+     "changes": 191,
+     "counts": {
+      "feature": 56,
+      "fix": 106,
+      "perf": 5,
+      "i18n": 6,
+      "docs": 6,
+      "test": 6,
+      "build-ci": 2,
+      "release": 2,
+      "refactor": 1,
+      "deps": 0,
+      "security": 1,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-13T07:05:51Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 310,
+     "changes": 139,
+     "counts": {
+      "feature": 29,
+      "fix": 90,
+      "perf": 4,
+      "i18n": 5,
+      "docs": 10,
+      "test": 1,
+      "build-ci": 0,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "photocraft",
+   "releases": [
+    {
+     "key": "v0.1.0",
+     "label": "v0.1.0",
+     "tags": [
+      "v0.1.0",
+      "v0.1.1-rc.4"
+     ],
+     "date": "2026-10-02T00:09:14Z",
+     "url": "https://github.com/storytold/photocraft/releases/tag/v0.1.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 14,
+     "changes": 14,
+     "counts": {
+      "feature": 0,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 3,
+      "release": 2,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 9
+     }
+    },
+    {
+     "key": "v0.1.1-rc.5",
+     "label": "v0.1.1-rc.5",
+     "tags": [
+      "v0.1.1-rc.5"
+     ],
+     "date": "2026-10-02T22:30:31Z",
+     "url": "https://github.com/storytold/photocraft/releases/tag/v0.1.1-rc.5",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 18,
+     "changes": 18,
+     "counts": {
+      "feature": 6,
+      "fix": 0,
+      "perf": 1,
+      "i18n": 0,
+      "docs": 8,
+      "test": 0,
+      "build-ci": 2,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    },
+    {
+     "key": "v0.1.1",
+     "label": "v0.1.1",
+     "tags": [
+      "v0.1.1"
+     ],
+     "date": "2026-10-03T14:24:16Z",
+     "url": "https://github.com/storytold/photocraft/releases/tag/v0.1.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 29,
+     "changes": 29,
+     "counts": {
+      "feature": 17,
+      "fix": 1,
+      "perf": 6,
+      "i18n": 0,
+      "docs": 2,
+      "test": 0,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.2.0",
+     "label": "v0.2.0",
+     "tags": [
+      "v0.2.0"
+     ],
+     "date": "2026-10-05T04:42:21Z",
+     "url": "https://github.com/storytold/photocraft/releases/tag/v0.2.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 70,
+     "changes": 64,
+     "counts": {
+      "feature": 21,
+      "fix": 31,
+      "perf": 2,
+      "i18n": 0,
+      "docs": 3,
+      "test": 3,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 2,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.3.0",
+     "label": "v0.3.0",
+     "tags": [
+      "v0.3.0"
+     ],
+     "date": "2026-10-07T10:33:19Z",
+     "url": "https://github.com/storytold/photocraft/releases/tag/v0.3.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 187,
+     "changes": 187,
+     "counts": {
+      "feature": 35,
+      "fix": 119,
+      "perf": 12,
+      "i18n": 4,
+      "docs": 7,
+      "test": 0,
+      "build-ci": 7,
+      "release": 1,
+      "refactor": 1,
+      "deps": 0,
+      "security": 1,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.5.0",
+     "label": "v0.5.0",
+     "tags": [
+      "v0.5.0"
+     ],
+     "date": "2026-10-08T14:52:50Z",
+     "url": "https://github.com/storytold/photocraft/releases/tag/v0.5.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 205,
+     "changes": 205,
+     "counts": {
+      "feature": 53,
+      "fix": 116,
+      "perf": 7,
+      "i18n": 8,
+      "docs": 6,
+      "test": 1,
+      "build-ci": 4,
+      "release": 5,
+      "refactor": 4,
+      "deps": 0,
+      "security": 1,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.6.0",
+     "label": "v0.6.0",
+     "tags": [
+      "v0.6.0"
+     ],
+     "date": "2026-10-10T02:51:42Z",
+     "url": "https://github.com/storytold/photocraft/releases/tag/v0.6.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 566,
+     "changes": 521,
+     "counts": {
+      "feature": 106,
+      "fix": 322,
+      "perf": 25,
+      "i18n": 17,
+      "docs": 17,
+      "test": 13,
+      "build-ci": 7,
+      "release": 1,
+      "refactor": 10,
+      "deps": 0,
+      "security": 3,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.7.0",
+     "label": "v0.7.0",
+     "tags": [
+      "v0.7.0"
+     ],
+     "date": "2026-10-11T02:12:31Z",
+     "url": "https://github.com/storytold/photocraft/releases/tag/v0.7.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 244,
+     "changes": 244,
+     "counts": {
+      "feature": 42,
+      "fix": 184,
+      "perf": 5,
+      "i18n": 3,
+      "docs": 6,
+      "test": 3,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.8.2",
+     "label": "v0.8.2",
+     "tags": [
+      "v0.8.2"
+     ],
+     "date": "2026-10-12T21:22:47Z",
+     "url": "https://github.com/storytold/photocraft/releases/tag/v0.8.2",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 422,
+     "changes": 417,
+     "counts": {
+      "feature": 80,
+      "fix": 272,
+      "perf": 26,
+      "i18n": 9,
+      "docs": 4,
+      "test": 11,
+      "build-ci": 5,
+      "release": 4,
+      "refactor": 2,
+      "deps": 1,
+      "security": 3,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-13T07:06:34Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 286,
+     "changes": 259,
+     "counts": {
+      "feature": 48,
+      "fix": 178,
+      "perf": 19,
+      "i18n": 8,
+      "docs": 2,
+      "test": 3,
+      "build-ci": 0,
+      "release": 0,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "pdfcraft",
+   "releases": [
+    {
+     "key": "v0.1.0",
+     "label": "v0.1.0",
+     "tags": [
+      "v0.1.0"
+     ],
+     "date": "2026-10-02T22:31:36Z",
+     "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.1.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 126,
+     "changes": 126,
+     "counts": {
+      "feature": 77,
+      "fix": 10,
+      "perf": 2,
+      "i18n": 0,
+      "docs": 24,
+      "test": 5,
+      "build-ci": 3,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 5
+     }
+    },
+    {
+     "key": "v0.1.1",
+     "label": "v0.1.1",
+     "tags": [
+      "v0.1.1"
+     ],
+     "date": "2026-10-03T14:24:20Z",
+     "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.1.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 24,
+     "changes": 24,
+     "counts": {
+      "feature": 16,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 3,
+      "test": 2,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.2.0",
+     "label": "v0.2.0",
+     "tags": [
+      "v0.2.0"
+     ],
+     "date": "2026-10-05T07:03:10Z",
+     "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.2.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 64,
+     "changes": 35,
+     "counts": {
+      "feature": 1,
+      "fix": 22,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 1,
+      "test": 4,
+      "build-ci": 6,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.2.1",
+     "label": "v0.2.1",
+     "tags": [
+      "v0.2.1"
+     ],
+     "date": "2026-10-06T12:37:41Z",
+     "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.2.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 33,
+     "changes": 29,
+     "counts": {
+      "feature": 9,
+      "fix": 7,
+      "perf": 2,
+      "i18n": 0,
+      "docs": 3,
+      "test": 3,
+      "build-ci": 4,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.4.0",
+     "label": "v0.4.0",
+     "tags": [
+      "v0.4.0"
+     ],
+     "date": "2026-10-08T14:41:34Z",
+     "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.4.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 110,
+     "changes": 90,
+     "counts": {
+      "feature": 16,
+      "fix": 48,
+      "perf": 0,
+      "i18n": 6,
+      "docs": 6,
+      "test": 1,
+      "build-ci": 4,
+      "release": 5,
+      "refactor": 2,
+      "deps": 0,
+      "security": 2,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.5.0",
+     "label": "v0.5.0",
+     "tags": [
+      "v0.5.0"
+     ],
+     "date": "2026-10-10T02:51:38Z",
+     "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.5.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 180,
+     "changes": 178,
+     "counts": {
+      "feature": 35,
+      "fix": 101,
+      "perf": 11,
+      "i18n": 13,
+      "docs": 1,
+      "test": 3,
+      "build-ci": 4,
+      "release": 3,
+      "refactor": 4,
+      "deps": 0,
+      "security": 3,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.6.0",
+     "label": "v0.6.0",
+     "tags": [
+      "v0.6.0"
+     ],
+     "date": "2026-10-11T01:34:01Z",
+     "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.6.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 124,
+     "changes": 124,
+     "counts": {
+      "feature": 19,
+      "fix": 84,
+      "perf": 2,
+      "i18n": 2,
+      "docs": 2,
+      "test": 9,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 3,
+      "deps": 0,
+      "security": 1,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.7.1",
+     "label": "v0.7.1",
+     "tags": [
+      "v0.7.1"
+     ],
+     "date": "2026-10-12T15:55:32Z",
+     "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.7.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 230,
+     "changes": 221,
+     "counts": {
+      "feature": 58,
+      "fix": 116,
+      "perf": 9,
+      "i18n": 9,
+      "docs": 5,
+      "test": 7,
+      "build-ci": 8,
+      "release": 3,
+      "refactor": 2,
+      "deps": 0,
+      "security": 4,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-13T07:04:13Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 65,
+     "changes": 65,
+     "counts": {
+      "feature": 7,
+      "fix": 51,
+      "perf": 1,
+      "i18n": 0,
+      "docs": 3,
+      "test": 0,
+      "build-ci": 1,
+      "release": 0,
+      "refactor": 1,
+      "deps": 0,
+      "security": 1,
+      "revert": 0,
+      "other": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "designcraft",
+   "releases": [
+    {
+     "key": "v0.1.0",
+     "label": "v0.1.0",
+     "tags": [
+      "v0.1.0"
+     ],
+     "date": "2026-10-02T22:31:38Z",
+     "url": "https://github.com/storytold/designcraft/releases/tag/v0.1.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 95,
+     "changes": 85,
+     "counts": {
+      "feature": 58,
+      "fix": 2,
+      "perf": 4,
+      "i18n": 0,
+      "docs": 8,
+      "test": 0,
+      "build-ci": 2,
+      "release": 0,
+      "refactor": 7,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 4
+     }
+    },
+    {
+     "key": "v0.1.1",
+     "label": "v0.1.1",
+     "tags": [
+      "v0.1.1"
+     ],
+     "date": "2026-10-03T14:24:21Z",
+     "url": "https://github.com/storytold/designcraft/releases/tag/v0.1.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 117,
+     "changes": 117,
+     "counts": {
+      "feature": 108,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 1,
+      "docs": 7,
+      "test": 0,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.2.0",
+     "label": "v0.2.0",
+     "tags": [
+      "v0.2.0"
+     ],
+     "date": "2026-10-05T06:55:53Z",
+     "url": "https://github.com/storytold/designcraft/releases/tag/v0.2.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 55,
+     "changes": 44,
+     "counts": {
+      "feature": 26,
+      "fix": 14,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 2,
+      "test": 0,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.2.1",
+     "label": "v0.2.1",
+     "tags": [
+      "v0.2.1"
+     ],
+     "date": "2026-10-06T12:15:04Z",
+     "url": "https://github.com/storytold/designcraft/releases/tag/v0.2.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 14,
+     "changes": 9,
+     "counts": {
+      "feature": 0,
+      "fix": 3,
+      "perf": 0,
+      "i18n": 1,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 3,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.4.0",
+     "label": "v0.4.0",
+     "tags": [
+      "v0.4.0"
+     ],
+     "date": "2026-10-08T14:41:43Z",
+     "url": "https://github.com/storytold/designcraft/releases/tag/v0.4.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 117,
+     "changes": 61,
+     "counts": {
+      "feature": 21,
+      "fix": 22,
+      "perf": 0,
+      "i18n": 5,
+      "docs": 3,
+      "test": 0,
+      "build-ci": 3,
+      "release": 5,
+      "refactor": 2,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.5.0",
+     "label": "v0.5.0",
+     "tags": [
+      "v0.5.0"
+     ],
+     "date": "2026-10-10T02:51:21Z",
+     "url": "https://github.com/storytold/designcraft/releases/tag/v0.5.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 3,
+     "changes": 2,
+     "counts": {
+      "feature": 0,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.6.0",
+     "label": "v0.6.0",
+     "tags": [
+      "v0.6.0"
+     ],
+     "date": "2026-10-11T00:51:50Z",
+     "url": "https://github.com/storytold/designcraft/releases/tag/v0.6.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 71,
+     "changes": 71,
+     "counts": {
+      "feature": 12,
+      "fix": 42,
+      "perf": 1,
+      "i18n": 5,
+      "docs": 3,
+      "test": 1,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 2,
+      "deps": 0,
+      "security": 4,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.7.1",
+     "label": "v0.7.1",
+     "tags": [
+      "v0.7.1"
+     ],
+     "date": "2026-10-12T21:22:52Z",
+     "url": "https://github.com/storytold/designcraft/releases/tag/v0.7.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 25,
+     "changes": 19,
+     "counts": {
+      "feature": 3,
+      "fix": 11,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 1,
+      "release": 3,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-13T06:28:50Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 88,
+     "changes": 56,
+     "counts": {
+      "feature": 16,
+      "fix": 38,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 1,
+      "test": 1,
+      "build-ci": 0,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "filmcraft",
+   "releases": [
+    {
+     "key": "v0.1.0",
+     "label": "v0.1.0",
+     "tags": [
+      "v0.1.0"
+     ],
+     "date": "2026-10-02T22:31:33Z",
+     "url": "https://github.com/storytold/filmcraft/releases/tag/v0.1.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 235,
+     "changes": 188,
+     "counts": {
+      "feature": 104,
+      "fix": 13,
+      "perf": 12,
+      "i18n": 0,
+      "docs": 26,
+      "test": 19,
+      "build-ci": 6,
+      "release": 1,
+      "refactor": 5,
+      "deps": 1,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    },
+    {
+     "key": "v0.1.1",
+     "label": "v0.1.1",
+     "tags": [
+      "v0.1.1"
+     ],
+     "date": "2026-10-03T14:24:18Z",
+     "url": "https://github.com/storytold/filmcraft/releases/tag/v0.1.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 53,
+     "changes": 39,
+     "counts": {
+      "feature": 16,
+      "fix": 1,
+      "perf": 6,
+      "i18n": 0,
+      "docs": 9,
+      "test": 4,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 2,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.2.0",
+     "label": "v0.2.0",
+     "tags": [
+      "v0.2.0"
+     ],
+     "date": "2026-10-05T07:02:01Z",
+     "url": "https://github.com/storytold/filmcraft/releases/tag/v0.2.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 90,
+     "changes": 49,
+     "counts": {
+      "feature": 9,
+      "fix": 25,
+      "perf": 4,
+      "i18n": 0,
+      "docs": 5,
+      "test": 2,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 1,
+      "deps": 2,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.2.1",
+     "label": "v0.2.1",
+     "tags": [
+      "v0.2.1"
+     ],
+     "date": "2026-10-06T12:18:26Z",
+     "url": "https://github.com/storytold/filmcraft/releases/tag/v0.2.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 27,
+     "changes": 11,
+     "counts": {
+      "feature": 1,
+      "fix": 3,
+      "perf": 3,
+      "i18n": 0,
+      "docs": 2,
+      "test": 0,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.4.0",
+     "label": "v0.4.0",
+     "tags": [
+      "v0.4.0"
+     ],
+     "date": "2026-10-08T14:41:28Z",
+     "url": "https://github.com/storytold/filmcraft/releases/tag/v0.4.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 245,
+     "changes": 97,
+     "counts": {
+      "feature": 15,
+      "fix": 60,
+      "perf": 2,
+      "i18n": 3,
+      "docs": 4,
+      "test": 3,
+      "build-ci": 4,
+      "release": 5,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.5.0",
+     "label": "v0.5.0",
+     "tags": [
+      "v0.5.0"
+     ],
+     "date": "2026-10-10T02:51:29Z",
+     "url": "https://github.com/storytold/filmcraft/releases/tag/v0.5.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 192,
+     "changes": 63,
+     "counts": {
+      "feature": 12,
+      "fix": 37,
+      "perf": 7,
+      "i18n": 1,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 3,
+      "release": 1,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.6.0",
+     "label": "v0.6.0",
+     "tags": [
+      "v0.6.0"
+     ],
+     "date": "2026-10-11T00:28:54Z",
+     "url": "https://github.com/storytold/filmcraft/releases/tag/v0.6.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 536,
+     "changes": 200,
+     "counts": {
+      "feature": 36,
+      "fix": 135,
+      "perf": 5,
+      "i18n": 6,
+      "docs": 3,
+      "test": 2,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 5,
+      "deps": 0,
+      "security": 0,
+      "revert": 6,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.7.2",
+     "label": "v0.7.2",
+     "tags": [
+      "v0.7.2"
+     ],
+     "date": "2026-10-12T21:22:57Z",
+     "url": "https://github.com/storytold/filmcraft/releases/tag/v0.7.2",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 382,
+     "changes": 156,
+     "counts": {
+      "feature": 24,
+      "fix": 106,
+      "perf": 7,
+      "i18n": 5,
+      "docs": 1,
+      "test": 2,
+      "build-ci": 3,
+      "release": 4,
+      "refactor": 4,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-13T07:00:25Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 186,
+     "changes": 76,
+     "counts": {
+      "feature": 5,
+      "fix": 61,
+      "perf": 0,
+      "i18n": 5,
+      "docs": 0,
+      "test": 1,
+      "build-ci": 1,
+      "release": 0,
+      "refactor": 2,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    }
+   ]
+  },
+  {
+   "name": "figcraft",
+   "releases": [
+    {
+     "key": "v0.2.0",
+     "label": "v0.2.0",
+     "tags": [
+      "v0.2.0"
+     ],
+     "date": "2026-10-10T02:51:26Z",
+     "url": "https://github.com/storytold/figcraft/releases/tag/v0.2.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 86,
+     "changes": 86,
+     "counts": {
+      "feature": 65,
+      "fix": 5,
+      "perf": 3,
+      "i18n": 0,
+      "docs": 7,
+      "test": 0,
+      "build-ci": 2,
+      "release": 1,
+      "refactor": 2,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    },
+    {
+     "key": "v0.3.1",
+     "label": "v0.3.1",
+     "tags": [
+      "v0.3.1"
+     ],
+     "date": "2026-10-11T02:04:36Z",
+     "url": "https://github.com/storytold/figcraft/releases/tag/v0.3.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 48,
+     "changes": 48,
+     "counts": {
+      "feature": 33,
+      "fix": 7,
+      "perf": 1,
+      "i18n": 0,
+      "docs": 5,
+      "test": 0,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.4.0",
+     "label": "v0.4.0",
+     "tags": [
+      "v0.4.0"
+     ],
+     "date": "2026-10-12T05:39:52Z",
+     "url": "https://github.com/storytold/figcraft/releases/tag/v0.4.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 66,
+     "changes": 66,
+     "counts": {
+      "feature": 37,
+      "fix": 14,
+      "perf": 1,
+      "i18n": 5,
+      "docs": 3,
+      "test": 1,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 3,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.5.0",
+     "label": "v0.5.0",
+     "tags": [
+      "v0.5.0"
+     ],
+     "date": "2026-10-12T13:07:53Z",
+     "url": "https://github.com/storytold/figcraft/releases/tag/v0.5.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 5,
+     "changes": 5,
+     "counts": {
+      "feature": 0,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 3,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.5.1",
+     "label": "v0.5.1",
+     "tags": [
+      "v0.5.1"
+     ],
+     "date": "2026-10-12T15:51:49Z",
+     "url": "https://github.com/storytold/figcraft/releases/tag/v0.5.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 9,
+     "changes": 9,
+     "counts": {
+      "feature": 5,
+      "fix": 2,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 0,
+      "release": 2,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-13T06:36:54Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 25,
+     "changes": 25,
+     "counts": {
+      "feature": 18,
+      "fix": 3,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 4,
+      "test": 0,
+      "build-ci": 0,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "lightcraft",
+   "releases": [
+    {
+     "key": "v0.1.0",
+     "label": "v0.1.0",
+     "tags": [
+      "v0.1.0"
+     ],
+     "date": "2026-10-02T22:31:34Z",
+     "url": "https://github.com/storytold/lightcraft/releases/tag/v0.1.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 206,
+     "changes": 170,
+     "counts": {
+      "feature": 99,
+      "fix": 10,
+      "perf": 23,
+      "i18n": 0,
+      "docs": 26,
+      "test": 3,
+      "build-ci": 4,
+      "release": 1,
+      "refactor": 3,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    },
+    {
+     "key": "v0.1.1",
+     "label": "v0.1.1",
+     "tags": [
+      "v0.1.1"
+     ],
+     "date": "2026-10-03T14:24:19Z",
+     "url": "https://github.com/storytold/lightcraft/releases/tag/v0.1.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 48,
+     "changes": 48,
+     "counts": {
+      "feature": 40,
+      "fix": 1,
+      "perf": 4,
+      "i18n": 0,
+      "docs": 2,
+      "test": 0,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.2.0",
+     "label": "v0.2.0",
+     "tags": [
+      "v0.2.0"
+     ],
+     "date": "2026-10-05T06:49:58Z",
+     "url": "https://github.com/storytold/lightcraft/releases/tag/v0.2.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 121,
+     "changes": 49,
+     "counts": {
+      "feature": 7,
+      "fix": 37,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 2,
+      "release": 1,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.2.1",
+     "label": "v0.2.1",
+     "tags": [
+      "v0.2.1"
+     ],
+     "date": "2026-10-06T12:10:48Z",
+     "url": "https://github.com/storytold/lightcraft/releases/tag/v0.2.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 113,
+     "changes": 33,
+     "counts": {
+      "feature": 2,
+      "fix": 23,
+      "perf": 0,
+      "i18n": 1,
+      "docs": 2,
+      "test": 0,
+      "build-ci": 3,
+      "release": 1,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.4.0",
+     "label": "v0.4.0",
+     "tags": [
+      "v0.4.0"
+     ],
+     "date": "2026-10-08T14:41:31Z",
+     "url": "https://github.com/storytold/lightcraft/releases/tag/v0.4.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 169,
+     "changes": 68,
+     "counts": {
+      "feature": 13,
+      "fix": 19,
+      "perf": 4,
+      "i18n": 4,
+      "docs": 3,
+      "test": 9,
+      "build-ci": 7,
+      "release": 5,
+      "refactor": 3,
+      "deps": 0,
+      "security": 1,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.5.0",
+     "label": "v0.5.0",
+     "tags": [
+      "v0.5.0"
+     ],
+     "date": "2026-10-10T02:51:35Z",
+     "url": "https://github.com/storytold/lightcraft/releases/tag/v0.5.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 461,
+     "changes": 171,
+     "counts": {
+      "feature": 39,
+      "fix": 73,
+      "perf": 5,
+      "i18n": 10,
+      "docs": 7,
+      "test": 5,
+      "build-ci": 3,
+      "release": 1,
+      "refactor": 7,
+      "deps": 0,
+      "security": 1,
+      "revert": 0,
+      "other": 20
+     }
+    },
+    {
+     "key": "v0.6.0",
+     "label": "v0.6.0",
+     "tags": [
+      "v0.6.0"
+     ],
+     "date": "2026-10-11T00:54:31Z",
+     "url": "https://github.com/storytold/lightcraft/releases/tag/v0.6.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 436,
+     "changes": 89,
+     "counts": {
+      "feature": 29,
+      "fix": 40,
+      "perf": 1,
+      "i18n": 3,
+      "docs": 5,
+      "test": 2,
+      "build-ci": 2,
+      "release": 1,
+      "refactor": 2,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 4
+     }
+    },
+    {
+     "key": "v0.7.1",
+     "label": "v0.7.1",
+     "tags": [
+      "v0.7.1"
+     ],
+     "date": "2026-10-12T21:22:50Z",
+     "url": "https://github.com/storytold/lightcraft/releases/tag/v0.7.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 386,
+     "changes": 160,
+     "counts": {
+      "feature": 49,
+      "fix": 66,
+      "perf": 5,
+      "i18n": 5,
+      "docs": 11,
+      "test": 8,
+      "build-ci": 1,
+      "release": 2,
+      "refactor": 8,
+      "deps": 1,
+      "security": 0,
+      "revert": 0,
+      "other": 4
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-13T06:18:34Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 256,
+     "changes": 116,
+     "counts": {
+      "feature": 21,
+      "fix": 71,
+      "perf": 7,
+      "i18n": 2,
+      "docs": 2,
+      "test": 3,
+      "build-ci": 1,
+      "release": 0,
+      "refactor": 5,
+      "deps": 1,
+      "security": 0,
+      "revert": 1,
+      "other": 2
+     }
+    }
+   ]
+  },
+  {
+   "name": "effectcraft",
+   "releases": [
+    {
+     "key": "v0.1.0",
+     "label": "v0.1.0",
+     "tags": [
+      "v0.1.0"
+     ],
+     "date": "2026-10-02T22:31:37Z",
+     "url": "https://github.com/storytold/effectcraft/releases/tag/v0.1.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 119,
+     "changes": 89,
+     "counts": {
+      "feature": 65,
+      "fix": 3,
+      "perf": 2,
+      "i18n": 0,
+      "docs": 10,
+      "test": 1,
+      "build-ci": 3,
+      "release": 1,
+      "refactor": 2,
+      "deps": 1,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    },
+    {
+     "key": "v0.1.1",
+     "label": "v0.1.1",
+     "tags": [
+      "v0.1.1"
+     ],
+     "date": "2026-10-03T14:24:20Z",
+     "url": "https://github.com/storytold/effectcraft/releases/tag/v0.1.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 217,
+     "changes": 135,
+     "counts": {
+      "feature": 87,
+      "fix": 2,
+      "perf": 19,
+      "i18n": 0,
+      "docs": 15,
+      "test": 4,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 6,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.2.0",
+     "label": "v0.2.0",
+     "tags": [
+      "v0.2.0"
+     ],
+     "date": "2026-10-05T07:11:27Z",
+     "url": "https://github.com/storytold/effectcraft/releases/tag/v0.2.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 250,
+     "changes": 123,
+     "counts": {
+      "feature": 37,
+      "fix": 32,
+      "perf": 21,
+      "i18n": 0,
+      "docs": 16,
+      "test": 11,
+      "build-ci": 2,
+      "release": 1,
+      "refactor": 1,
+      "deps": 0,
+      "security": 2,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.3.0",
+     "label": "v0.3.0",
+     "tags": [
+      "v0.3.0"
+     ],
+     "date": "2026-10-06T02:03:48Z",
+     "url": "https://github.com/storytold/effectcraft/releases/tag/v0.3.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 45,
+     "changes": 22,
+     "counts": {
+      "feature": 7,
+      "fix": 8,
+      "perf": 1,
+      "i18n": 0,
+      "docs": 3,
+      "test": 0,
+      "build-ci": 1,
+      "release": 2,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.3.1",
+     "label": "v0.3.1",
+     "tags": [
+      "v0.3.1"
+     ],
+     "date": "2026-10-06T12:37:20Z",
+     "url": "https://github.com/storytold/effectcraft/releases/tag/v0.3.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 13,
+     "changes": 6,
+     "counts": {
+      "feature": 2,
+      "fix": 2,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.4.0",
+     "label": "v0.4.0",
+     "tags": [
+      "v0.4.0"
+     ],
+     "date": "2026-10-07T09:30:16Z",
+     "url": "https://github.com/storytold/effectcraft/releases/tag/v0.4.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 96,
+     "changes": 38,
+     "counts": {
+      "feature": 7,
+      "fix": 17,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 6,
+      "test": 0,
+      "build-ci": 3,
+      "release": 1,
+      "refactor": 2,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 2
+     }
+    },
+    {
+     "key": "v0.6.0",
+     "label": "v0.6.0",
+     "tags": [
+      "v0.6.0"
+     ],
+     "date": "2026-10-08T14:41:40Z",
+     "url": "https://github.com/storytold/effectcraft/releases/tag/v0.6.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 92,
+     "changes": 36,
+     "counts": {
+      "feature": 3,
+      "fix": 22,
+      "perf": 0,
+      "i18n": 1,
+      "docs": 4,
+      "test": 0,
+      "build-ci": 0,
+      "release": 5,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.7.0",
+     "label": "v0.7.0",
+     "tags": [
+      "v0.7.0"
+     ],
+     "date": "2026-10-10T02:51:24Z",
+     "url": "https://github.com/storytold/effectcraft/releases/tag/v0.7.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 170,
+     "changes": 66,
+     "counts": {
+      "feature": 4,
+      "fix": 42,
+      "perf": 0,
+      "i18n": 9,
+      "docs": 5,
+      "test": 2,
+      "build-ci": 2,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 1,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.8.0",
+     "label": "v0.8.0",
+     "tags": [
+      "v0.8.0"
+     ],
+     "date": "2026-10-11T02:10:32Z",
+     "url": "https://github.com/storytold/effectcraft/releases/tag/v0.8.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 300,
+     "changes": 124,
+     "counts": {
+      "feature": 16,
+      "fix": 74,
+      "perf": 4,
+      "i18n": 9,
+      "docs": 2,
+      "test": 5,
+      "build-ci": 2,
+      "release": 1,
+      "refactor": 4,
+      "deps": 1,
+      "security": 0,
+      "revert": 0,
+      "other": 6
+     }
+    },
+    {
+     "key": "v0.9.2",
+     "label": "v0.9.2",
+     "tags": [
+      "v0.9.2"
+     ],
+     "date": "2026-10-12T21:22:55Z",
+     "url": "https://github.com/storytold/effectcraft/releases/tag/v0.9.2",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 284,
+     "changes": 140,
+     "counts": {
+      "feature": 40,
+      "fix": 73,
+      "perf": 1,
+      "i18n": 6,
+      "docs": 2,
+      "test": 6,
+      "build-ci": 2,
+      "release": 4,
+      "refactor": 3,
+      "deps": 0,
+      "security": 3,
+      "revert": 0,
+      "other": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "wordcraft",
+   "releases": [
+    {
+     "key": "v0.1.0",
+     "label": "v0.1.0",
+     "tags": [
+      "v0.1.0"
+     ],
+     "date": "2026-10-07T22:35:41Z",
+     "url": "https://github.com/storytold/wordcraft/releases/tag/v0.1.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 23,
+     "changes": 23,
+     "counts": {
+      "feature": 13,
+      "fix": 2,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 2,
+      "release": 2,
+      "refactor": 2,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    },
+    {
+     "key": "v0.3.0",
+     "label": "v0.3.0",
+     "tags": [
+      "v0.3.0"
+     ],
+     "date": "2026-10-08T14:41:46Z",
+     "url": "https://github.com/storytold/wordcraft/releases/tag/v0.3.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 7,
+     "changes": 7,
+     "counts": {
+      "feature": 1,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 0,
+      "release": 5,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.4.0",
+     "label": "v0.4.0",
+     "tags": [
+      "v0.4.0"
+     ],
+     "date": "2026-10-10T02:51:51Z",
+     "url": "https://github.com/storytold/wordcraft/releases/tag/v0.4.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 16,
+     "changes": 16,
+     "counts": {
+      "feature": 5,
+      "fix": 9,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.5.0",
+     "label": "v0.5.0",
+     "tags": [
+      "v0.5.0"
+     ],
+     "date": "2026-10-11T00:36:07Z",
+     "url": "https://github.com/storytold/wordcraft/releases/tag/v0.5.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 136,
+     "changes": 136,
+     "counts": {
+      "feature": 45,
+      "fix": 70,
+      "perf": 1,
+      "i18n": 8,
+      "docs": 1,
+      "test": 6,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 2,
+      "deps": 0,
+      "security": 2,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "v0.6.1",
+     "label": "v0.6.1",
+     "tags": [
+      "v0.6.1"
+     ],
+     "date": "2026-10-12T16:22:15Z",
+     "url": "https://github.com/storytold/wordcraft/releases/tag/v0.6.1",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 223,
+     "changes": 223,
+     "counts": {
+      "feature": 81,
+      "fix": 113,
+      "perf": 2,
+      "i18n": 13,
+      "docs": 6,
+      "test": 1,
+      "build-ci": 2,
+      "release": 3,
+      "refactor": 0,
+      "deps": 0,
+      "security": 2,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-12T16:08:57Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 22,
+     "changes": 15,
+     "counts": {
+      "feature": 2,
+      "fix": 9,
+      "perf": 1,
+      "i18n": 2,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 0,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "artcraft",
+   "releases": [
+    {
+     "key": "artcraft-v0.0.1",
+     "label": "v0.0.1",
+     "tags": [
+      "artcraft-v0.0.1",
+      "artcraft-windows-v0.0.1"
+     ],
+     "date": "2025-07-14T15:41:14Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.0.1",
+     "unreleased": false,
+     "uncategorised": true,
+     "commits": 13463,
+     "changes": 10034,
+     "counts": {
+      "feature": 0,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 0,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "artcraft-v0.2.0",
+     "label": "v0.2.0",
+     "tags": [
+      "artcraft-v0.2.0",
+      "artcraft-windows-v0.2.0"
+     ],
+     "date": "2026-01-16T21:16:56Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.2.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 414,
+     "changes": 414,
+     "counts": {
+      "feature": 189,
+      "fix": 84,
+      "perf": 4,
+      "i18n": 0,
+      "docs": 11,
+      "test": 1,
+      "build-ci": 30,
+      "release": 18,
+      "refactor": 42,
+      "deps": 5,
+      "security": 0,
+      "revert": 1,
+      "other": 29
+     }
+    },
+    {
+     "key": "artcraft-v0.3.0",
+     "label": "v0.3.0",
+     "tags": [
+      "artcraft-v0.3.0",
+      "artcraft-windows-v0.3.0"
+     ],
+     "date": "2026-01-20T16:15:58Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.3.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 11,
+     "changes": 11,
+     "counts": {
+      "feature": 5,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 2,
+      "deps": 1,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    },
+    {
+     "key": "artcraft-v0.4.0",
+     "label": "v0.4.0",
+     "tags": [
+      "artcraft-v0.4.0",
+      "artcraft-windows-v0.4.0"
+     ],
+     "date": "2026-01-21T19:53:18Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.4.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 8,
+     "changes": 8,
+     "counts": {
+      "feature": 2,
+      "fix": 2,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 1,
+      "release": 2,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "artcraft-v0.5.0",
+     "label": "v0.5.0",
+     "tags": [
+      "artcraft-v0.5.0",
+      "artcraft-windows-v0.5.0"
+     ],
+     "date": "2026-01-23T18:32:03Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.5.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 4,
+     "changes": 4,
+     "counts": {
+      "feature": 0,
+      "fix": 0,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 1,
+      "release": 2,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    },
+    {
+     "key": "artcraft-v0.7.0",
+     "label": "v0.7.0",
+     "tags": [
+      "artcraft-v0.7.0"
+     ],
+     "date": "2026-02-22T06:22:46Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.7.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 107,
+     "changes": 107,
+     "counts": {
+      "feature": 30,
+      "fix": 11,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 9,
+      "test": 0,
+      "build-ci": 10,
+      "release": 3,
+      "refactor": 7,
+      "deps": 7,
+      "security": 0,
+      "revert": 4,
+      "other": 26
+     }
+    },
+    {
+     "key": "artcraft-v0.8.0",
+     "label": "v0.8.0",
+     "tags": [
+      "artcraft-v0.8.0"
+     ],
+     "date": "2026-02-25T00:00:55Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.8.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 7,
+     "changes": 7,
+     "counts": {
+      "feature": 3,
+      "fix": 1,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 0,
+      "release": 2,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    },
+    {
+     "key": "artcraft-v0.10.0",
+     "label": "v0.10.0",
+     "tags": [
+      "artcraft-v0.10.0"
+     ],
+     "date": "2026-03-01T07:50:40Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.10.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 16,
+     "changes": 16,
+     "counts": {
+      "feature": 6,
+      "fix": 6,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 0,
+      "release": 2,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 2
+     }
+    },
+    {
+     "key": "artcraft-v0.11.0",
+     "label": "v0.11.0",
+     "tags": [
+      "artcraft-v0.11.0"
+     ],
+     "date": "2026-03-02T15:56:39Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.11.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 14,
+     "changes": 14,
+     "counts": {
+      "feature": 5,
+      "fix": 3,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 3,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 2
+     }
+    },
+    {
+     "key": "artcraft-v0.12.0",
+     "label": "v0.12.0",
+     "tags": [
+      "artcraft-v0.12.0"
+     ],
+     "date": "2026-03-04T17:19:02Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.12.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 22,
+     "changes": 22,
+     "counts": {
+      "feature": 11,
+      "fix": 6,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 1,
+      "build-ci": 0,
+      "release": 3,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "artcraft-v0.14.0",
+     "label": "v0.14.0",
+     "tags": [
+      "artcraft-v0.14.0"
+     ],
+     "date": "2026-03-10T18:43:44Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.14.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 53,
+     "changes": 52,
+     "counts": {
+      "feature": 29,
+      "fix": 8,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 2,
+      "test": 0,
+      "build-ci": 0,
+      "release": 2,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 10
+     }
+    },
+    {
+     "key": "artcraft-v0.15.0",
+     "label": "v0.15.0",
+     "tags": [
+      "artcraft-v0.15.0"
+     ],
+     "date": "2026-03-16T18:49:28Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.15.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 43,
+     "changes": 43,
+     "counts": {
+      "feature": 20,
+      "fix": 9,
+      "perf": 1,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 7,
+      "release": 1,
+      "refactor": 1,
+      "deps": 1,
+      "security": 0,
+      "revert": 1,
+      "other": 1
+     }
+    },
+    {
+     "key": "artcraft-v0.19.0",
+     "label": "v0.19.0",
+     "tags": [
+      "artcraft-v0.19.0"
+     ],
+     "date": "2026-03-24T08:21:50Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.19.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 51,
+     "changes": 51,
+     "counts": {
+      "feature": 20,
+      "fix": 7,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 2,
+      "test": 1,
+      "build-ci": 4,
+      "release": 4,
+      "refactor": 10,
+      "deps": 3,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "artcraft-v0.20.0",
+     "label": "v0.20.0",
+     "tags": [
+      "artcraft-v0.20.0"
+     ],
+     "date": "2026-03-25T03:44:26Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.20.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 8,
+     "changes": 8,
+     "counts": {
+      "feature": 6,
+      "fix": 1,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "artcraft-v0.22.0",
+     "label": "v0.22.0",
+     "tags": [
+      "artcraft-v0.22.0"
+     ],
+     "date": "2026-04-03T16:18:25Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.22.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 75,
+     "changes": 75,
+     "counts": {
+      "feature": 39,
+      "fix": 14,
+      "perf": 1,
+      "i18n": 0,
+      "docs": 6,
+      "test": 1,
+      "build-ci": 2,
+      "release": 3,
+      "refactor": 8,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    },
+    {
+     "key": "artcraft-v0.23.0",
+     "label": "v0.23.0",
+     "tags": [
+      "artcraft-v0.23.0"
+     ],
+     "date": "2026-04-03T23:11:47Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.23.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 9,
+     "changes": 8,
+     "counts": {
+      "feature": 5,
+      "fix": 2,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "artcraft-v0.24.0",
+     "label": "v0.24.0",
+     "tags": [
+      "artcraft-v0.24.0"
+     ],
+     "date": "2026-04-07T21:13:15Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.24.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 9,
+     "changes": 9,
+     "counts": {
+      "feature": 2,
+      "fix": 3,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 0,
+      "release": 2,
+      "refactor": 2,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    },
+    {
+     "key": "artcraft-v0.27.0",
+     "label": "v0.27.0",
+     "tags": [
+      "artcraft-v0.27.0"
+     ],
+     "date": "2026-04-12T09:37:53Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.27.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 27,
+     "changes": 27,
+     "counts": {
+      "feature": 9,
+      "fix": 10,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 2,
+      "build-ci": 0,
+      "release": 3,
+      "refactor": 2,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    },
+    {
+     "key": "artcraft-v0.28.0",
+     "label": "v0.28.0",
+     "tags": [
+      "artcraft-v0.28.0"
+     ],
+     "date": "2026-04-14T16:59:04Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.28.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 23,
+     "changes": 23,
+     "counts": {
+      "feature": 12,
+      "fix": 6,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 0,
+      "release": 1,
+      "refactor": 2,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    },
+    {
+     "key": "artcraft-v0.29.0",
+     "label": "v0.29.0",
+     "tags": [
+      "artcraft-v0.29.0"
+     ],
+     "date": "2026-04-23T02:24:34Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.29.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 58,
+     "changes": 58,
+     "counts": {
+      "feature": 31,
+      "fix": 12,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 2,
+      "release": 1,
+      "refactor": 9,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 3
+     }
+    },
+    {
+     "key": "artcraft-v0.32.0",
+     "label": "v0.32.0",
+     "tags": [
+      "artcraft-v0.32.0"
+     ],
+     "date": "2026-05-14T17:05:23Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.32.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 107,
+     "changes": 107,
+     "counts": {
+      "feature": 56,
+      "fix": 22,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 6,
+      "release": 3,
+      "refactor": 9,
+      "deps": 0,
+      "security": 1,
+      "revert": 0,
+      "other": 9
+     }
+    },
+    {
+     "key": "artcraft-v0.37.0",
+     "label": "v0.37.0",
+     "tags": [
+      "artcraft-v0.37.0"
+     ],
+     "date": "2026-09-11T05:41:04Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.37.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 447,
+     "changes": 447,
+     "counts": {
+      "feature": 227,
+      "fix": 101,
+      "perf": 8,
+      "i18n": 0,
+      "docs": 5,
+      "test": 7,
+      "build-ci": 17,
+      "release": 6,
+      "refactor": 51,
+      "deps": 2,
+      "security": 1,
+      "revert": 4,
+      "other": 18
+     }
+    },
+    {
+     "key": "artcraft-v0.41.0",
+     "label": "v0.41.0",
+     "tags": [
+      "artcraft-v0.41.0"
+     ],
+     "date": "2026-09-26T11:14:22Z",
+     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.41.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 11,
+     "changes": 11,
+     "counts": {
+      "feature": 2,
+      "fix": 2,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 2,
+      "test": 0,
+      "build-ci": 0,
+      "release": 4,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 1
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-11T13:47:59Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 15,
+     "changes": 15,
+     "counts": {
+      "feature": 7,
+      "fix": 3,
+      "perf": 2,
+      "i18n": 0,
+      "docs": 1,
+      "test": 0,
+      "build-ci": 1,
+      "release": 1,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     }
+    }
+   ]
+  }
+ ]
+}

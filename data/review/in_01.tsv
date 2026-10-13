@@ -1,0 +1,610 @@
+10000	artcraft	Fal + OpenAI gpt-image-1 + preference routing (#700)
+10001	artcraft	handle changes to storyteller API and let tauri inform the frontend (#701)
+10002	artcraft	batch get shouldn't require public visibility + error verbosity
+10003	artcraft	enqueue 3d using the new endpoint
+10004	artcraft	gpt-image-1 fixes: context images, working on 2d/3d, working with sora/artcraft (#703)
+10005	artcraft	background removal command (work in progress) (#707)
+10006	artcraft	fix fal webhook video metadata
+10007	artcraft	tokens + enums - make sqlx optional (#708)
+10008	artcraft	cleanup sqlx derive macros (#709)
+10009	artcraft	shape as outline icons instead of solid
+10010	artcraft	added shape color change
+10011	artcraft	rearrange button
+10012	artcraft	node sizing fix
+10013	artcraft	multiselect and line node resizing/moving fix
+10014	artcraft	introduce sqlite with Tauri; task tracking database (#712)
+10015	artcraft	Kasisnu's artcraft release changes (#713)
+10016	artcraft	rename and retitle macos build action, add additional branch (#715)
+10017	artcraft	fix sqlx sqlite build for dev and CI (#716)
+10018	artcraft	video thumbnails from fal (#717)
+10019	artcraft	windows dev script sqlx offline
+10020	artcraft	update artcraft download links (#718)
+10021	artcraft	remove "secrets" (not ours) that Netlify is complaining about (#719)
+10022	artcraft	remove unnecessary javascript package files (#720)
+10023	artcraft	upgrade nx (seems to be blocking netflify) (#721)
+10024	artcraft	fix aspect ratio controls on image gen (first pass) (#723)
+10025	artcraft	enable text prompts for videos (#724)
+10026	artcraft	refactor job api types for later reuse in http client (#725)
+10027	artcraft	artcraft task polling (#727)
+10028	artcraft	consolidate cloudflare handling code (#728)
+10029	artcraft	3d model upload fix, upload button, modal block propagation of keyboard events
+10030	artcraft	debugging, resizing improvements; cleanup + refactor (#729)
+10031	artcraft	bump nx version
+10032	artcraft	add model type to tasks db (#730)
+10033	artcraft	fix thumbnails in gallery and jobs, fix veo2 args, add hunyuan args, etc. (#731)
+10034	artcraft	marketing updates for the website (#722)
+10035	artcraft	update download links (#732)
+10036	artcraft	removed download link from completed card
+10037	artcraft	inference job query reaper (#735)
+10038	artcraft	load glb assets without cors (#736)
+10039	artcraft	add microsoft clarity (#738)
+10040	artcraft	Google Analytics package and events (#739)
+10041	artcraft	more GA instrumentation (#740)
+10042	artcraft	Bt prompts schema (#741)
+10043	artcraft	more migrations (#742)
+10044	artcraft	prompts code (#743)
+10045	artcraft	codegen db
+10046	artcraft	lightbox prompt fetching
+10047	artcraft	lightbox and download button fixes
+10048	artcraft	record prompts on all generate/* andpoints (#744)
+10049	artcraft	insert prompt images, serve additional metadata (#745)
+10050	artcraft	only serve image references for prompts (future proofing)
+10051	artcraft	include prompt details in api docs
+10052	artcraft	roll forward with new build (07.28)
+10053	artcraft	unlikely we'll need old frontend configuration "editor2d_studio_OAI"
+10054	artcraft	stop double alerting on events
+10055	artcraft	expandable lightbox to fullscreen
+10056	artcraft	enqueue multiple images (#749)
+10057	artcraft	nearly end-to-end Flux Kontext and Flux Inpainting (#750)
+10058	artcraft	flux inpaint + kontext in tauri, kontext end-to-end in UI (#751)
+10059	artcraft	reposition outliner above model selector
+10060	artcraft	modal/popover conflict fix - using radix dialog instead
+10061	artcraft	wire up flux inpainting (#753)
+10062	artcraft	cleanup
+10063	artcraft	background removal with event plumbing (#755)
+10064	artcraft	track seconds elapsed since server startup
+10065	artcraft	mark intermediate files
+10066	artcraft	stop app from crashing from schema migration (#757)
+10067	artcraft	add midjourney support (#761)
+10068	artcraft	cleanup sqlite build script
+10069	artcraft	fix builds ssl (#762)
+10070	artcraft	send event on midjourney login
+10071	artcraft	midjourney fixes and improvements (#763)
+10072	artcraft	updated build.rs file for windows
+10073	artcraft	nx build stuff and npx config update
+10074	artcraft	midjourney fixes 3 (#764)
+10075	artcraft	account provider setup modal (#766)
+10076	artcraft	move events to their own package (#767)
+10077	artcraft	clean up model metadata and plumbing (#770)
+10078	artcraft	add flux juggernaut inpainting (just for testing - it's not SOTA) (#771)
+10079	artcraft	eventing to support generation batches + inpainting results (#772)
+10080	artcraft	Send text to image events (#774)
+10081	artcraft	midjourney events (#776)
+10082	artcraft	codegen db
+10083	artcraft	update artcraft binrary links on website
+10084	artcraft	roll back mac version on website
+10085	artcraft	try using mac conf
+10086	artcraft	fix tauri build for mac
+10087	artcraft	separate tauri mac json config for build
+10088	artcraft	new release for mac
+10089	artcraft	tauri 2.4 -> 2.8 upgrade (#778)
+10090	artcraft	patch clarity CSP
+10091	artcraft	remove unused tauri config files
+10092	artcraft	macOS title bar (might create temporary regressions) (#779)
+10093	artcraft	cleanup titlebar setup (#780)
+10094	artcraft	remove lots of old code (#781)
+10095	artcraft	more fal models (fal API bindings only) (#786)
+10096	artcraft	bypass sec-fetch-mode: no-cors for 3d (#787)
+10097	artcraft	video end frame support (#791)
+10098	artcraft	more typesafe classes for models
+10099	artcraft	cleanup model metadata for prompt box (#792)
+10100	artcraft	fix environmental cdn issues with dev (#793)
+10101	artcraft	reorder the tabs
+10102	artcraft	swap order of history stack
+10103	artcraft	support flux pro kontext as an "inpainting" model
+10104	artcraft	cleanup enum
+10105	artcraft	adjust enums, disable kontext on text-to-image (for now) (#795)
+10106	artcraft	fix the model list, wrong tauri ids, new feature predicate (#798)
+10107	artcraft	start work on consolidating internal errors in http server
+10108	artcraft	generating animated canvas border, history stack sticky icon top, lock further generation (will need to persist states for page changes)
+10109	artcraft	remove unused animated line css
+10110	artcraft	bug fix: inpainting clear button to reset generating state too so it doesn't get stuck
+10111	artcraft	more fal models (#802)
+10112	artcraft	fix broken transaction
+10113	artcraft	prevent loading gigabytes of images when opening the gallery
+10114	artcraft	trigger payments events in tauri/artcraft from the server (#805)
+10115	artcraft	history items to only show after enqueue succeeds
+10116	artcraft	icon change, metadata change (#813)
+10117	artcraft	console errors and log spams fixed
+10118	artcraft	Add an image removal button in history stack
+10119	artcraft	fixed title disappearing on generate
+10120	artcraft	nx workspace sync
+10121	artcraft	added artcraft icon and updated provider priority to use model icons
+10122	artcraft	stripe payments and subscriptions (#829)
+10123	artcraft	codegen db
+10124	artcraft	updated download links
+10125	artcraft	MS clarity script CSP
+10126	artcraft	remove storybook (#830)
+10127	artcraft	cleanup deps
+10128	artcraft	roll back dmg
+10129	artcraft	roll back build links
+10130	artcraft	misc: clarity csp, handle billing errors, notes (#831)
+10131	artcraft	clean dist modules
+10132	artcraft	temp fix for main poduction builds (zustand state commented out) (#832)
+10133	artcraft	Restore zustand (#833)
+10134	artcraft	increase upload limit
+10135	artcraft	fix file size
+10136	artcraft	fix windows tauri build in CI -
+10137	artcraft	clarity in CSP connect source
+10138	artcraft	fix production issues from minification / instanceof (#838)
+10139	artcraft	change model orders (#839)
+10140	artcraft	script to push release branch
+10141	artcraft	update artcraft website links
+10142	artcraft	rename debug log
+10143	artcraft	server route cleanup (#840)
+10144	artcraft	longer delay between IP ban polls (we use cloudflare now anyway)
+10145	artcraft	record signup source from artcraft (#843)
+10146	artcraft	website analytics + meta + title (#846)
+10147	artcraft	artcraft activity analytics (#848)
+10148	artcraft	log OS version (#849)
+10149	artcraft	app info in settings (#850)
+10150	artcraft	codegen db
+10151	artcraft	new binary version on website
+10152	artcraft	reuse app version config
+10153	artcraft	fix nx singleton mangling (#851)
+10154	artcraft	script to build javascript
+10155	artcraft	purge artcraft credentials command (#853)
+10156	artcraft	refactor endpoint calls in storyteller_client (#854)
+10157	artcraft	analytics enhancements - track individual sessions (#855)
+10158	artcraft	Veo 3 / Veo 3 Fast (#856)
+10159	artcraft	codegen db
+10160	artcraft	remove gpu loading error (#857)
+10161	artcraft	bump version of binaries on website
+10162	artcraft	netlify redirects for tutorial page
+10163	artcraft	plans text change
+10164	artcraft	plan text update 2
+10165	artcraft	github link (#860)
+10166	artcraft	fix delete by calling tauri instead (#861)
+10167	artcraft	refactor client package organization
+10168	artcraft	cleanup sora client (#863)
+10169	artcraft	first class provider selector next to model selector
+10170	artcraft	popover hover bug fix to prevent “first stays stuck open” when moving to the next
+10171	artcraft	landing page text change
+10172	artcraft	sora implementation (#865)
+10173	artcraft	bump toolchain
+10174	artcraft	fix release script
+10175	artcraft	fix broken builds
+10176	artcraft	remove service selector (#867)
+10177	artcraft	update version on website
+10178	artcraft	3d editor faq post update
+10179	artcraft	update 2 faq 3d
+10180	artcraft	navbar, faq, tutorial page link fixes
+10181	artcraft	footer link fixes
+10182	artcraft	page title for landing
+10183	artcraft	artcraft task queue 2 (#869)
+10184	artcraft	forgot to commit these changes
+10185	artcraft	rename model to "Nano Banana"
+10186	artcraft	rename Nano Banana, change metadata, change predicates
+10187	artcraft	fix inpainting thumbnails (#870)
+10188	artcraft	config+script to debug production builds (#871)
+10189	artcraft	nx fix vite build (#872)
+10190	artcraft	fix job builds (#873)
+10191	artcraft	Remove FAL from desktop app (for now) - build speed issue (#875)
+10192	artcraft	debugging for inference-job loop
+10193	artcraft	task queue api - thumbnails, tokens, etc. (#878)
+10194	artcraft	fix docs compile errors
+10195	artcraft	promptbox clickthrough fix 3d
+10196	artcraft	fixup sora sentinel tokens (#879)
+10197	artcraft	minor cleanup
+10198	artcraft	add metadata to sora uploads
+10199	artcraft	midjourney task completion data
+10200	artcraft	grok client (not yet integrated) (#891)
+10201	artcraft	artcraft grok video integration (#892)
+10202	artcraft	grok video enums
+10203	artcraft	error categorization
+10204	artcraft	notify frontend of Grok 429
+10205	artcraft	persist user details to disk
+10206	artcraft	grok logout, settings panel info
+10207	artcraft	added grok icon
+10208	artcraft	grok images (#893)
+10209	artcraft	fix legacy grok metadata
+10210	artcraft	update web cors for artcraft website
+10211	artcraft	dont load videos as blobs
+10212	artcraft	Script to build modules - see note about warning
+10213	artcraft	remove openssl / native-tls in favor of rustls -- this lets Artcraft run on Linux! (#907)
+10214	artcraft	add "frontend_subscriber_id" to image-to-object (#909)
+10215	artcraft	frontend subscriber id on image-to-video (#910)
+10216	artcraft	plumb through "generate audio" (only veo supports this??) (#911)
+10217	artcraft	notify frontend of video and object events (#912)
+10218	artcraft	turn on decorations on linux
+10219	artcraft	rename field
+10220	artcraft	preserve the URL of broken thumbnails in a data- attribute for debugging (#913)
+10221	artcraft	default to only artcraft provider and add sora/chatgpt provider selection for GPT image 1
+10222	artcraft	repair grok (#914)
+10223	artcraft	grok aspect ratios (#915)
+10224	artcraft	grok retry (#916)
+10225	artcraft	More grok fixes for the xsid script, more semantic error messages (#917)
+10226	artcraft	update website installer links
+10227	artcraft	remove midjourney text
+10228	artcraft	Fal: more models (plumbing not yet done) (#919)
+10229	artcraft	fix rust/grok bug, package.lock change
+10230	artcraft	fix js build files
+10231	artcraft	rebuild package-lock.json from scratch (#921)
+10232	artcraft	CSP fixes + nix per-frame logging
+10233	artcraft	nano banana pro (#922)
+10234	artcraft	tailscale dev change, remove billing test on flux dev
+10235	artcraft	nano banana pro in tauri (#923)
+10236	artcraft	vite config settings modal
+10237	artcraft	spz file uploads (#924)
+10238	artcraft	store more metadata on spz uploads (#925)
+10239	artcraft	remove background ui styling center update
+10240	artcraft	worldlabs client library (#931)
+10241	artcraft	worldlabs tauri (#933)
+10242	artcraft	worldlabs improvements - login modal, refresh, etc. (#934)
+10243	artcraft	refresh access token (#935)
+10244	artcraft	website links
+10245	artcraft	more models (again) - partial impl of gpt-image-1.5, seedream4/.5 (#936)
+10246	artcraft	tauri hooks for gpt-image-1.5 and seedream4/4.5 (#937)
+10247	artcraft	worldlabs icon and mapping
+10248	artcraft	duplicated topbar on miniapps index page fix
+10249	artcraft	lightbox 3d world button, nano banana name mappings with icon and fixed column width
+10250	artcraft	fix required rust never type behavior (#939)
+10251	artcraft	more video models (fal, server, client) - kling2.6/2.6, veo3.1, sora2 (#940)
+10252	artcraft	kling 2.5/2.6, veo3.1, sora2 in tauri + javascript (#941)
+10253	artcraft	spz file flip in editor, 3d viewer above grid and no event clickthrough
+10254	artcraft	grid fixes, toast z-index on 3d world page, smaller onboarding helper and moved to above promptbox
+10255	artcraft	task queue buttons
+10256	artcraft	tauri command cleanup (#943)
+10257	artcraft	select provider in frontend (#944)
+10258	artcraft	model selector to show provider submenu only when there's more than one, and commented out provider priority from settings modal
+10259	artcraft	begin charging for video generations (#945)
+10260	artcraft	remove spurious billing tests
+10261	artcraft	fix stupid bug
+10262	artcraft	add assets for discord that will be deployed with website
+10263	artcraft	random discord app icon
+10264	artcraft	reverse capability for pre-ES2023
+10265	artcraft	nano banana frontend options, unified nano banana endpoint, new aspect ratio controls (#947)
+10266	artcraft	artcraft spin animation for discord
+10267	artcraft	animated discord icon
+10268	artcraft	more model controls (#948)
+10269	artcraft	flux and seedance aspect ratio options (#949)
+10270	artcraft	sort model selectors, default models (#950)
+10271	artcraft	rename nx module editor3d -> artcraft (#951)
+10272	artcraft	generation count options (#952)
+10273	artcraft	fix builds
+10274	artcraft	nuke dead tasks and dismiss them from view (#953)
+10275	artcraft	worldlabs api url updates (#954)
+10276	artcraft	local "production build" dev script, fix sound singleton bug, soften language (#955)
+10277	artcraft	download command, path, configs, opener, etc. (#956)
+10278	artcraft	more production stripe products
+10279	artcraft	billing tiers in frontend
+10280	artcraft	help-menu import cleanup
+10281	artcraft	cleanup
+10282	artcraft	friendly language
+10283	artcraft	cleanup
+10284	artcraft	Readme, license, roadmap
+10285	artcraft	add video
+10286	artcraft	Add image to README for visual enhancement
+10287	artcraft	login modal intro video update
+10288	artcraft	feedback: less dramatic?
+10289	artcraft	formatting, small revisions
+10290	artcraft	update wording
+10291	artcraft	remove video
+10292	artcraft	social links
+10293	artcraft	download links, fix gif for local readme
+10294	artcraft	website link for downloads
+10295	artcraft	add providers and models to readme
+10296	artcraft	tables with feature previews
+10297	artcraft	readme updates with more webp videos
+10298	artcraft	try for free cta
+10299	artcraft	website: github open source section description update
+10300	artcraft	growth effectiveness tracking
+10301	artcraft	website youtube video updates and github contribution cta
+10302	artcraft	website github footer link update
+10303	artcraft	fix redirect
+10304	artcraft	website: media page update
+10305	artcraft	website: remove media page feature/resolution info rows
+10306	artcraft	website: added media page author
+10307	artcraft	website: landing page to use GSAP animations, features updated and section swap
+10308	artcraft	website: added ownership comparison section
+10309	artcraft	website: animation performance updates
+10310	artcraft	website: mobile optimization
+10311	artcraft	website: updated features section to use webm videos
+10312	artcraft	website: features section updated mixed asset crafting video
+10313	artcraft	log startup status
+10314	artcraft	get rid of r2d2_redis crate and replace with modern redis client (#982)
+10315	artcraft	redis rate limiter to async (#983)
+10316	artcraft	correct lockfile
+10317	artcraft	discord link in index controller
+10318	artcraft	flags to disable fakeyou routes (#984)
+10319	artcraft	Hunyuan 3D v3.0 support (#986)
+10320	artcraft	hunyuan3dv3 - tauri + webhook (#987)
+10321	artcraft	More gif previews in the README
+10322	artcraft	artcraft 0.2.0 -> 0.3.0
+10323	artcraft	fix webhook thumbnails
+10324	artcraft	website download links
+10325	artcraft	fix delete (and add second button) (#995)
+10326	artcraft	add Vite configurations for artcraft-website and markdown-content libraries
+10327	artcraft	cleanup root directory (#996)
+10328	artcraft	analytics tables (#997)
+10329	artcraft	new logging endpoint (#999)
+10330	artcraft	useful script
+10331	artcraft	new releases on website: 0.2.0 -> 0.4.0
+10332	artcraft	fix the production build issues (#1001)
+10333	artcraft	artcraft version 0.4.0 -> 0.5.0
+10334	artcraft	update models
+10335	artcraft	sound for delete (#1004)
+10336	artcraft	update website links
+10337	artcraft	hero video update
+10338	artcraft	free users nano banana limits (#1005)
+10339	artcraft	remove old, irrelevant tools
+10340	artcraft	cleanup container binary includes (#1006)
+10341	artcraft	cleanup dead shared_service_components crate
+10342	artcraft	add video to readme
+10343	artcraft	github link for video
+10344	artcraft	video tag
+10345	artcraft	Change video source in README.md
+10346	artcraft	Enhance README with video and badges
+10347	artcraft	Update social media links in README
+10348	artcraft	nano banana text-to-image pane fixes (#1010)
+10349	artcraft	dedicated spz upload handler (#1011)
+10350	artcraft	generation count tooltip for non subbed users
+10351	artcraft	fix how spz files are manually uploaded in tauri (#1014)
+10352	artcraft	rename 2d and 3d pages; change icon (#1015)
+10353	artcraft	press kit - more videos (#1016)
+10354	artcraft	website copy improvements (#1017)
+10355	artcraft	"what year is it?!"
+10356	artcraft	missing routes
+10357	artcraft	fix routes
+10358	artcraft	fix routes
+10359	artcraft	fix various pricing page language
+10360	artcraft	routes
+10361	artcraft	website: added discord cta on cancel and success pages, pricing footnote cleanup
+10362	artcraft	Remove Google Auth (for now) - this will be difficult for the app (#1019)
+10363	artcraft	website: news blog md file video support
+10364	artcraft	website: news blog md file image and gif support with sizing, also to work in-app
+10365	artcraft	blog post draft (#1020)
+10366	artcraft	image to 3d model selector toggle
+10367	artcraft	blog post update (#1021)
+10368	artcraft	blog post 3 (#1022)
+10369	artcraft	more copy
+10370	artcraft	update copy
+10371	artcraft	website: media reference image href links to source media file
+10372	artcraft	website: media reference image thumbnail will open its corresponding media page
+10373	artcraft	pricing table is placeholder
+10374	artcraft	pricing update
+10375	artcraft	better title (going to try posting to HN)
+10376	artcraft	machinima bit
+10377	artcraft	checkout flow with account creation; endpoints to support (#1025)
+10378	artcraft	update signup source
+10379	artcraft	website: update onboarding flow
+10380	artcraft	image pricing (#1028)
+10381	artcraft	already logged in subscription update
+10382	artcraft	development documentation
+10383	artcraft	Vendor symphonia (#1036)
+10384	artcraft	versions and windows instructions
+10385	artcraft	update landing cta texts
+10386	artcraft	setup instructions
+10387	artcraft	password reset api
+10388	artcraft	password update flow
+10389	artcraft	fix password reset (backend) (#1037)
+10390	artcraft	codegen db
+10391	artcraft	inactive ci workflows
+10392	artcraft	write artcraft desktop artifacts to same package
+10393	artcraft	website password reset redirect
+10394	artcraft	fix reset password link
+10395	artcraft	verify reset end flow update
+10396	artcraft	database migration tool (primarily record deletion) (#1039)
+10397	artcraft	verify reset end flow update 2
+10398	artcraft	db migration tools
+10399	artcraft	single quotes in db migrations
+10400	artcraft	ignore directory
+10401	artcraft	seedance API #1 (#1043)
+10402	artcraft	seedance 2.0 generation endpoint (#1044)
+10403	artcraft	seedance job - download seedance results and upload to storage (#1045)
+10404	artcraft	db codegen
+10405	artcraft	bump rust docker version
+10406	artcraft	artcraft seedance (tauri app) (#1046)
+10407	artcraft	debug failing build
+10408	artcraft	clang packages
+10409	artcraft	this could have introduced the issue
+10410	artcraft	consolidate reqwest usage
+10411	artcraft	reqwest issues
+10412	artcraft	reqwest augh
+10413	artcraft	build verbosely
+10414	artcraft	seedance2pro cargo.toml dep
+10415	artcraft	remove seedance job for now
+10416	artcraft	replace reqwest with wreq in web
+10417	artcraft	upgrade boringssl, wreq, etc.
+10418	artcraft	clang
+10419	artcraft	run docker builds on "test" branch
+10420	artcraft	fix openssl build issues (again) (#1049)
+10421	artcraft	job
+10422	artcraft	artcraft 0.7.0
+10423	artcraft	fix wreq compression (#1050)
+10424	artcraft	seedance
+10425	artcraft	bump github download links on website (#1051)
+10426	artcraft	model router (#1054)
+10427	artcraft	log hostnames
+10428	artcraft	Bt fix seedance api (#1055)
+10429	artcraft	fix seedance api break (#1056)
+10430	artcraft	fix seedance api (#1057)
+10431	artcraft	pricing text update and social icons bug fix
+10432	artcraft	bulk select thumbnails fixes
+10433	artcraft	Refund failed Seedance 2 Pro generations, Fix Seedance 2 client (#1061)
+10434	artcraft	cost estimator endpoint (#1065)
+10435	artcraft	pricing updates
+10436	artcraft	tauri controller for cost estimation (#1067)
+10437	artcraft	label as 0.9.x
+10438	artcraft	bump artcraft version -> 0.10.0
+10439	artcraft	rename storyteller_client -> artcraft_client
+10440	artcraft	move package
+10441	artcraft	refactor how router plans are built
+10442	artcraft	image model router with nano banana pro (#1073)
+10443	artcraft	credits icon update, buy credits modal restyled
+10444	artcraft	pricing page update
+10445	artcraft	model router: fal nbp (#1074)
+10446	artcraft	update tp pricing
+10447	artcraft	fix compile error
+10448	artcraft	NBP via artcraft_router in Tauri; image cost estimates in tauri (#1075)
+10449	artcraft	show NBP cost estimates in artcraft (#1076)
+10450	artcraft	script for handling oncall scenarios where the user has duplicate accounts (#1078)
+10451	artcraft	bump website links
+10452	artcraft	bump website link (fix)
+10453	artcraft	added model name mappings and generation count cost estimate
+10454	artcraft	lightbox modal next/prev video not changing bug fix
+10455	artcraft	3d pages button center fix
+10456	artcraft	simulate job failures with a test prompt to flux-1 dev (#1081)
+10457	artcraft	handle tauri jobs failure; frontend events (#1083)
+10458	artcraft	gallery loading skeleton gap fix
+10459	artcraft	add prompt context items (video references) to Seedance 2.0
+10460	artcraft	add seedream 4/4.5 to artcraft_router (#1085)
+10461	artcraft	port gpt-image-1.5 and nano banana to artcraft_router (#1086)
+10462	artcraft	port the flux models to the artcraft router (via artcraft API) (#1087)
+10463	artcraft	fix pricing data handler
+10464	artcraft	Add new models: Seedream 5 Lite, Nano Banana 2 (#1088)
+10465	artcraft	fix compile error - forgot enum values
+10466	artcraft	Add Nano Banana 2 and Seedream 5 Lite to the app (#1089)
+10467	artcraft	credits and subscription states to show properly after login/logout
+10468	artcraft	bug fix: aspect ratio picker options stuck
+10469	artcraft	reduce credits modal padding
+10470	artcraft	add missing api docs (#1093)
+10471	artcraft	moderator user lookup (#1094)
+10472	artcraft	admin dashboard cors (#1095)
+10473	artcraft	more moderator handlers (#1096)
+10474	artcraft	moderator list user jobs handler (for oncall support) (#1097)
+10475	artcraft	list user wallets for support (#1098)
+10476	artcraft	list wallet ledger entries for support (#1099)
+10477	artcraft	rename pool acquire variant to be better (#1100)
+10478	artcraft	Bt modify mod user lookup (#1101)
+10479	artcraft	support endpoints for looking up payments entities (#1102)
+10480	artcraft	support handler to add balances to accounts (#1103)
+10481	artcraft	schema change: find out how users find us (#1104)
+10482	artcraft	user signup referrer (#1105)
+10483	artcraft	one more alter statement for tracking (this is to thwart abuse) (#1106)
+10484	artcraft	find out if marketing is effective (#1107)
+10485	artcraft	widen fields (#1108)
+10486	artcraft	viewer 3d fixed on artcraft-website media page
+10487	artcraft	referrer url on signup
+10488	artcraft	referral to fire only once
+10489	artcraft	remove google login for now
+10490	artcraft	download page update
+10491	artcraft	footer update and seedance text
+10492	artcraft	consistent gradients across pages,news page footer fix
+10493	artcraft	stylings fixes
+10494	artcraft	Add LandingSD2 page at /seedance-2 for Seedance marketing (#1109)
+10495	artcraft	Scope Get Now button text to SD2 page only via prop (#1111)
+10496	artcraft	de-vendor fal sora; fix "auto" bug (#1113)
+10497	artcraft	gitignore
+10498	artcraft	Add Seedance 1.5 to ArtCraft (#1114)
+10499	artcraft	REAMDE update
+10500	artcraft	Kling 3.0 Standard and Pro support (#1115)
+10501	artcraft	generate with sound boolean (+ negative prompts plumbing) (#1116)
+10502	artcraft	enterprise column in pricing page
+10503	artcraft	remove arrow icon
+10504	artcraft	Official WorldLabs API (instead of browser integration) (#1117)
+10505	artcraft	Worldlabs api improvements (#1118)
+10506	artcraft	Add native support for WorldLabs Marble (#1120)
+10507	artcraft	Tauri can now generate Marble natively (#1122)
+10508	artcraft	splat cost estimate infrastructure (#1123)
+10509	artcraft	fix build error
+10510	artcraft	angle edit models (fal, handlers, routing) (#1124)
+10511	artcraft	cost estimates for splats in frontend ui
+10512	artcraft	WorldLabs download job (#1125)
+10513	artcraft	bump artcraft version
+10514	artcraft	bump linkst
+10515	artcraft	CLI tool for support issues (#1128)
+10516	artcraft	add robust job failure reasons to seedance (#1129)
+10517	artcraft	angles fixed and history stack
+10518	artcraft	added angles models name mapping
+10519	artcraft	bug fixes
+10520	artcraft	tauri task failure reasons (#1130)
+10521	artcraft	fixed angles history persistence, non blocking generations
+10522	artcraft	moderation: create wallet (#1131)
+10523	artcraft	update oncall script
+10524	artcraft	api docs
+10525	artcraft	"Make 3D" button to not enqueue directly but go to 3D object page
+10526	artcraft	failure reason in task queue
+10527	artcraft	add models with missing name mapping
+10528	artcraft	netlify build command for genhub
+10529	artcraft	netlify build file for genhub
+10530	artcraft	genhub netlify redirects
+10531	artcraft	fix react version mismatch genhub
+10532	artcraft	build fix
+10533	artcraft	build fix 2
+10534	artcraft	long lived url tech debt hurting local dev (#1139)
+10535	artcraft	build fix 3
+10536	artcraft	seedance 2.0 temporary alerts
+10537	artcraft	removed generation count blocker (image)
+10538	artcraft	make job statuses forward- and backwards- compatible (#1140)
+10539	artcraft	performance fix - thumbnails to load smaller images not full size
+10540	artcraft	add failure messages to backend + tauri (#1141)
+10541	artcraft	Show both enum failure reason and dynamic failure message in task queue
+10542	artcraft	website and app font update
+10543	artcraft	body font updates and fixed title font in app
+10544	artcraft	seedance omni video (#1148)
+10545	artcraft	plumb references to seedance (#1150)
+10546	artcraft	Use muapi as backup (#1152)
+10547	artcraft	angles local upload thumbnails not showing and get rid of double toast
+10548	artcraft	angles history stack base thumbnail to use cdn image instead of blob
+10549	artcraft	artcraft router: seedance (#1153)
+10550	artcraft	fix compile error
+10551	artcraft	alter media_files to include thumbnail information (#1154)
+10552	artcraft	hide website image and video gen for now (it's slightly broken) (#1155)
+10553	artcraft	thumbnail job (#1157)
+10554	artcraft	popover/dropdown to support scroll on smaller screen height
+10555	artcraft	updated to duration slider
+10556	artcraft	failed to upload toast for video ref
+10557	artcraft	please upload mp4 file toast - video ref
+10558	artcraft	add thumbnail job sharding and logging (#1158)
+10559	artcraft	grab bag of refactoring, cleanup, etc. (#1160)
+10560	artcraft	google ads broken link
+10561	artcraft	more redirects
+10562	artcraft	still broken in google ads
+10563	artcraft	rename both worldlabs crates (#1161)
+10564	artcraft	bump misc dep versions (#1162)
+10565	artcraft	cleanup refactor #2 (#1164)
+10566	artcraft	refactor testing crates (#1166)
+10567	artcraft	fix windows builds (#1167)
+10568	artcraft	centralized dependency configuration (#1169)
+10569	artcraft	organize root cargo.toml
+10570	artcraft	update builds to trigger only on relevant changes (#1170)
+10571	artcraft	update utoipa and swagger doc gen (#1171)
+10572	artcraft	seedance2pro -> kinovi domain name migration (#1181)
+10573	artcraft	remove fal.rs and move everything into fal_client (#1183)
+10574	artcraft	angles update
+10575	artcraft	resiable image and video prompt boxes
+10576	artcraft	enums split - but just the enums (#1188)
+10577	artcraft	enums helper methods, cleanup (#1190)
+10578	artcraft	all_variants enum methods (#1191)
+10579	artcraft	remove unused enum imports (#1192)
+10580	artcraft	Root CLAUDE.md
+10581	artcraft	More notes on repo
+10582	artcraft	remove enums crates (#1195)
+10583	artcraft	prompts: new database columns (#1196)
+10584	artcraft	enrich prompts (#1197)
+10585	artcraft	include class of model in prompt info
+10586	artcraft	record prompt info (#1200)
+10587	artcraft	fix windows via anstyle-wincon downgrade (#1202)
+10588	artcraft	alter prompts table durations (#1204)
+10589	artcraft	plumb prompt duration for video models (#1205)
+10590	artcraft	richer errors for password reset failures (#1206)
+10591	artcraft	mod user signup list (#1207)
+10592	artcraft	.gitignore
+10593	artcraft	simplify seedance 2.0 handler flow
+10594	artcraft	seedance whitelist for faster generations (#1213)
+10595	artcraft	password reset fail message
+10596	artcraft	Batched Seedance 2.0 Job Polling (#1214)
+10597	artcraft	remove confusing system prompt toggle
+10598	artcraft	seedance 2 fast (#1215)
+10599	artcraft	update website download links
+10600	artcraft	Move character ordering and AI Trump category in 3D presets (#1217)
+10601	artcraft	rootly client (#1225)
+10602	artcraft	pager subsystem (#1226)
+10603	artcraft	add paging to enqueue failures (oncall support) (#1228)
+10604	artcraft	no-op pager (#1229)
+10605	artcraft	alerting middleware (#1234)
+10606	artcraft	kinovi uses the old hostname for static assets (#1236)
+10607	artcraft	add hostnames to pages (#1237)
+10608	artcraft	add more support debugging info (#1238)
+10609	artcraft	more common enums (#1239)

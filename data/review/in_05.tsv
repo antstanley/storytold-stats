@@ -1,0 +1,610 @@
+50000	filmcraft	Community links: header Discord button, Help menu (Discord, ArtCraft website, FilmCraft app page, GitHub, Report an Issue), Discord in the macOS app menu, About dialog wi
+50001	filmcraft	M9.7: AV1 hot loops: vectorisable MC, CDEF, transforms; faster deblocking and entropy decoding
+50002	filmcraft	M13.1: wasm groundwork: range readers, pending reads, cooperative frames, stepped export
+50003	filmcraft	M13.2: FilmCraft web app (apps/filmcraft-web) with Blob media, OPFS recovery, WebAudio, WebCodecs
+50004	filmcraft	ArtCraft brand marks: docs/brand logos with sidecars (ArtCraft trademark, all rights reserved, used with permission), AGENTS.md §1.8 first-party exception, wordmark in th
+50005	filmcraft	M12.4: agent-friendly CLI: exec/describe/inspect/import/export, run from stdin with JSON lines and --keep-going, --save/--save-as, --bridge to the live app, exit codes; t
+50006	filmcraft	M9.7: AV1 tile, frame and post-filter threading
+50007	filmcraft	M4.7: View menu and monitor view options: Paused Resolution, 1/16, High Quality Playback, Display Mode (alpha/RGB channels, comparison, multi-camera, source audio wavefor
+50008	filmcraft	M10.6: Graphics and Titles menu: New Layer (Vertical Text, Rectangle, Ellipse, Polygon, From file), Align to Video Frame / as Group / to Selection, Distribute (centres an
+50009	filmcraft	M3.9: Sequence and Markers menu long tail
+50010	filmcraft	M10.5: Text-based editing / transcripts
+50011	filmcraft	M3.10: Edit/Clip/File menu commands — labels, Paste/Remove Attributes, subclips, frame holds, time interpolation, audio options, Replace With Clip
+50012	filmcraft	ROADMAP: menu long tail, transcripts, AV1 threading, CLI; 1095 tests
+50013	filmcraft	ROADMAP: measured parity scorecard (~62%) and Opus 5.5 hours estimate to parity
+50014	filmcraft	M4.8: benchmark suite (cargo xtask bench)
+50015	filmcraft	app icon: owl with ear tufts (owner's ArtCraft drawing), Dock/taskbar/launcher wiring, palette docs
+50016	filmcraft	M5.11: Effects panel Legacy bin and alphabetical folders, Text param editing, vfx goldens and docs
+50017	filmcraft	M5.11: Premiere 26 video effects catalogue (93 in 16 folders, Legacy, obsolete) with CPU implementations and FxEnv for temporal/track effects
+50018	filmcraft	M7.7: ui: Clip/Track Fx Editor windows (Parametric EQ, Graphic EQ 10/20/30, Multiband Compressor, Dynamics), folder submenus
+50019	filmcraft	M7.7: project/render/engine: 53 Premiere audio effects in folders, DSP mappings, clip and track application
+50020	filmcraft	M7.7: audio-dsp: Premiere audio effect set (EQs, scientific/FFT filters, dynamics, multiband, modulation, delays, convolution/surround reverb, click remover, special/ster
+50021	filmcraft	M3.11: remaining Premiere menu items — Scene Edit Detection, Normalize Mix Track, Simplify Sequence, Find / search bins, Automate to Sequence, Project Settings, ALE expor
+50022	filmcraft	M12.5: Settings dialog with every Premiere category, wired to real behaviour
+50023	filmcraft	M5.10: Premiere 26 video transitions (84 in 10 folders + 21 Legacy)
+50024	filmcraft	Integration: effects.list test checks folder (leaf) and path
+50025	filmcraft	Integration: Mosaic keeps the original tile boundaries (fixes mask_inverted golden)
+50026	filmcraft	M3.11: fix menu-order / shortcut tests (Save as Template position, bindable Edit Original), UI search-bin assertion
+50027	filmcraft	Signed release pipeline (macOS/Windows/Linux/Web); README community note
+50028	filmcraft	xtask/version.rs: rustfmt
+50029	filmcraft	xtask: wire `cargo xtask version` (root() helper, run via $CARGO) so xtask builds again
+50030	filmcraft	ROADMAP: ~72% parity after effects/transitions/settings/menus; 1258 tests; updated estimate
+50031	filmcraft	M4.8: HEVC transform/SAO speed-up, catch-up decoding, perf.stats
+50032	filmcraft	M4.8: rename FrameServer::cache_entries (main added cache_usage)
+50033	filmcraft	ROADMAP: performance results (M4.8), 1270 tests
+50034	filmcraft	M8.9 + M12.6: Lumetri Scopes complete; Metadata, Timecode, Events, Progress, Reference Monitor panels
+50035	filmcraft	ROADMAP: ~74% after scopes and panels; 1297 tests
+50036	filmcraft	M9.14: MXF (OP1a/OP-Atom) and Ogg demuxers, image sequences, BWF timecode
+50037	filmcraft	M6.5: export parity — presets, Export mode settings, queue, Quick Export, image sequences
+50038	filmcraft	M6.5: proxies test uses Premiere-style image sequence names
+50039	filmcraft	ROADMAP: ~77% after export presets/queue and MXF/Ogg/image-sequence import; 1373 tests
+50040	filmcraft	M7.8: audio parity — 5.1 multichannel, voice-over record, Remix, Clip Mixer automation
+50041	filmcraft	M3.12: Premiere default keyboard parity
+50042	filmcraft	M10.7: graphics templates (.fcgt), rolls/crawls, responsive design, per-character styles, MCC/STL/TTML/DFXP captions
+50043	filmcraft	M4.9: H.264 vectorised deblocking edge filters and branch-free CABAC bins
+50044	filmcraft	M4.9: H.264 draft mode (no deblocking of non-reference pictures, off by default)
+50045	filmcraft	M4.9: draft decoding for reduced-resolution playback (opt-in preference)
+50046	filmcraft	M4.9: H.264 inverse transforms reconstruct across columns at once
+50047	filmcraft	ROADMAP: ~81% after keyboard parity and 5.1/voice-over/Remix; 1432 tests
+50048	filmcraft	M4.9: H.264 deblocking skips edges whose alpha or beta is 0
+50049	filmcraft	M4.9: performance docs, h264 README and roadmap for 4K H.264 playback
+50050	filmcraft	M10.7: Essential Graphics Browse/Edit UI, template/font dialogs, golden scenes
+50051	filmcraft	M12.7: Project panel and Media Browser parity
+50052	filmcraft	ROADMAP: ~83% after graphics templates, rolls/crawls and caption formats; 1479 tests
+50053	filmcraft	M9.15: MPEG-1/2 video decoder crate (frame/field pictures, 4:2:2, IEEE 1180 IDCT) with ffmpeg oracle tests
+50054	filmcraft	M9.15: MPEG-2 synthetic-stream oracle (field pictures, 16x8, dual prime, concealment), reference-decoder vector wrap and skip semantics
+50055	filmcraft	M9.15: mpeg2v 1080i decode benchmark test
+50056	filmcraft	M9.15: MPEG-2 Systems demuxer crate (TS 188/192/204, PS/VOB, PSI, PES, access-unit index)
+50057	filmcraft	M9.15: MPEG TS/PS/ES media source (MPEG-2, H.264, HEVC; MP2, AAC ADTS/LATM, LPCM) with ffmpeg oracle tests
+50058	filmcraft	M11.4: filmcraft-cfb, a Compound File Binary ([MS-CFB]) reader and writer
+50059	filmcraft	M9.15: MPEG-2 video in MXF (D-10/IMX, XDCAM HD/HD422) decodes; open-GOP leading pictures seek from the previous GOP
+50060	filmcraft	M12.7: Media Browser thumbnails use exact (non-draft) frames after merging M4.9
+50061	filmcraft	M9.15: filmcraft-cli probe reports MPEG TS/PS programs, streams and access units
+50062	filmcraft	M9.15: MPEG-2 in QuickTime (XDCAM/IMX/HDV), MP4 (mp4v) and Matroska (V_MPEG2); MP2 in Matroska; fixture generators
+50063	filmcraft	M9.15: AC-3 decoder from ATSC A/52 (all modes, coupling, rematrixing, block switching), wired into TS/PS/MP4/MKV
+50064	filmcraft	M9.15: READMEs for mpeg2v / mpegts / ac3 (specs, accuracy, benchmark); architecture and testing docs
+50065	filmcraft	M9.15: import .vob/.mod/.tod/.m2t/.m2v/.m1v/.mpv video and standalone .mp2 audio
+50066	filmcraft	M11.4: AAF (Edit Protocol) and OMF 2.0 import/export in filmcraft-interchange
+50067	filmcraft	M11.4: file.exportAaf / file.exportOmf / file.importAaf engine commands
+50068	filmcraft	M6.6: MXF OP1a / OP-Atom writer and MXF export formats
+50069	filmcraft	M11.4: AAF / OMF export settings dialogs (File ▸ Export), AAF/OMF in File ▸ Import
+50070	filmcraft	M11.4: document AAF / OMF interchange and the cfb crate
+50071	filmcraft	ROADMAP: ~85% after Project panel and Media Browser parity; 1513 tests
+50072	filmcraft	M11.4: Cargo.lock for the ui-egui interchange dev-dependency
+50073	filmcraft	M4.10: VP9 frame threading (band-published references, per-frame post stage) and draft mode
+50074	filmcraft	M9.15: MPEG-2 decoded frames carry the draft flag introduced on main
+50075	filmcraft	M6.6: fix the architecture crate table after merging the MXF writer
+50076	filmcraft	M4.10: VP9 vectorised loop filter, column-parallel transforms, 16-bit 8-bit MC
+50077	filmcraft	M11.4: AAF consolidated audio as OP-Atom MXF (audioFormat mxf) using the MXF writer
+50078	filmcraft	M4.10: HEVC vectorised MC, SAO and output, batched bypass bins, draft mode
+50079	filmcraft	M4.10: AV1 fixed-width MC passes, recycled planes, lean mode info, draft mode; media-stack draft test
+50080	filmcraft	ROADMAP: ~86% after MPEG-2, TS/PS and AC-3; 1562 tests
+50081	filmcraft	M3.13: multicam paging beyond 16 angles, view options, Edit Cameras thumbnails; subclip trim limits and Source monitor
+50082	filmcraft	M3.13: headless test of a subclip in the Source monitor and the Project panel subclip menu
+50083	filmcraft	M8.10: HDR-aware Lumetri, mastering metadata tone-map peak, HSL Refine, Lumetri Presets grid, Comparison View match
+50084	filmcraft	M4.10: before / after results in docs/performance.md, crate READMEs and ROADMAP
+50085	filmcraft	Cargo.lock: filmcraft-cfb at 0.1.1 after merging the release bump
+50086	filmcraft	ROADMAP: ~87% after AAF/OMF and MXF export; 1605 tests
+50087	filmcraft	M8.10: HDR metadata field in the AAF test media info from main
+50088	filmcraft	Crash and blank-screen fixes (desktop + web)
+50089	filmcraft	Sequences: refuse a zero or negative frame rate instead of panicking
+50090	filmcraft	Media: apply the container's display rotation (portrait phone video)
+50091	filmcraft	Timeline: fit a new empty sequence again when its first clip arrives
+50092	filmcraft	Control: screenshots and ui.elements wait for the UI to settle
+50093	filmcraft	Rules: never panic — Result<T, E> everywhere, no unchecked indexing / zero division on untrusted input, background threads catch panics, fuzz parsers (AGENTS.md §3.1, CLA
+50094	filmcraft	Licensing: standard LICENSE files, NOTICE, ArtCraft brand terms
+50095	filmcraft	Media: AIFF files import (enable symphonia's aiff reader)
+50096	filmcraft	Export: start/end times without a range mean a custom range
+50097	filmcraft	Timeline: transitions stay on their cuts after ripple trim, roll, slide and ripple speed
+50098	filmcraft	Timeline: Slide moves linked audio with the video
+50099	filmcraft	Rules: never crash (AGENTS.md §0, clippy.toml, forbid unsafe)
+50100	filmcraft	Clippy 1.99: fix new lints so `cargo xtask ci` is green again
+50101	filmcraft	time: never crash (zero rates and timebases, huge timecodes)
+50102	filmcraft	vp9: never crash (no unwrap/expect/panic, deny them)
+50103	filmcraft	h264: never crash (no unwrap/expect, deny the panicking lints)
+50104	filmcraft	hevc: never crash (no unwrap/expect, deny the panicking lints)
+50105	filmcraft	av1: never crash (no expect, deny the panicking lints)
+50106	filmcraft	Containers: never crash (mpegts, ogg, mxf, matroska)
+50107	filmcraft	Codecs: never crash (ac3, audio-dsp, opus, mpeg2v, prores, dnx)
+50108	filmcraft	codecs: never crash (damaged MP4/TS headers; no expect/unreachable)
+50109	filmcraft	Importers: never crash (interchange, captions, project, text, automation)
+50110	filmcraft	h264enc: never crash (encode returns Result; no unwrap/expect/unreachable)
+50111	filmcraft	render, gpu, cli: never crash (no expect/unreachable, deny the panicking lints)
+50112	filmcraft	engine, edit: never crash (commands without expect/unwrap/panic)
+50113	filmcraft	engine: last-resort guard around commands and background jobs
+50114	filmcraft	ui-egui: never crash (panels without expect/unreachable)
+50115	filmcraft	Never crash: deny the panicking lints in the already-clean crates and apps
+50116	filmcraft	GPU1: blend modes on the GPU compositor (#30)
+50117	filmcraft	HW1: platform crate + VideoToolbox H.264/HEVC hardware decode (#30)
+50118	filmcraft	GPU2: standard effects on the GPU compositor (#30)
+50119	filmcraft	Export: same file on every machine (fixed mux interleave, H.264 slices by frame size)
+50120	filmcraft	MCP: tool annotations, core tools, resources, export progress and cancellation
+50121	filmcraft	Windows packaging: Start Menu/Add-Remove icon, no console window, correct description
+50122	filmcraft	Never crash: filmcraft-export without expect()/unreachable!()
+50123	filmcraft	Windows on ARM64: release builds, PE header check, install test on ARM64 hardware
+50124	filmcraft	MEM1–MEM4 + HW1: clip memory on a timeline from 12 GB to 1.9 GB; hardware decode actually on
+50125	filmcraft	Fonts: use craft-fonts as an optional build input (Japanese UI and title fallback)
+50126	filmcraft	NEST8: Multi-Camera submenu in the clip context menu
+50127	filmcraft	NEST11: the frame plan draws a plain nest's layers itself; a nest's sound clip gets a waveform
+50128	filmcraft	NEST13: the panel menu closes on a click elsewhere and on Escape
+50129	filmcraft	gpu: upload and composite the alpha plane of Y'CbCr frames
+50130	filmcraft	graphics: all eight layer handles scale towards the pointer
+50131	filmcraft	Timeline: the wheel scrolls as in Premiere, and the view cannot be lost
+50132	filmcraft	Sequence: Add Tracks… opens Premiere's dialog (amount, placement, track type)
+50133	filmcraft	Nested sequences: interchange (AAF compositions, OMF rendered sound, EDL reel AX)
+50134	filmcraft	Rename PrintCraft to PdfCraft (storytold/pdfcraft) (#177)
+50135	filmcraft	Graphics: point text and paragraph text, as Premiere has them
+50136	filmcraft	Graphics: only selected layers have a box, and a hidden layer has none
+50137	filmcraft	export: show the estimated time left of a render next to its percentage
+50138	filmcraft	render: composite only what overlays cover, and reuse the float images
+50139	filmcraft	platform: opt-in hardware H.264 encoding with VideoToolbox
+50140	filmcraft	platform: H.265 (HEVC) export with VideoToolbox
+50141	filmcraft	README Downloads: where to get it first, then builds with Windows before macOS (#271)
+50142	filmcraft	#379: preset export and import go through the host, so the web build no longer traps
+50143	filmcraft	macOS DMG: branded window background and icon layout
+50144	filmcraft	HW5: Linux VA-API hardware decoding for H.264 and HEVC (Main / Main 10)
+50145	filmcraft	Desktop: write log records to standard error and a rotating log file
+50146	filmcraft	Issue #139: portable.txt next to the exe keeps the data directory beside it
+50147	filmcraft	Program monitor: the picture follows a value that is dragged
+50148	filmcraft	Decode caches: navigation bursts no longer keep every clip's decoder and frames (#55)
+50149	filmcraft	Thumbnails decode with small decoders that are not kept (#55)
+50150	filmcraft	Embedding: set_context on the web app, header and status bar flags, status bar colour token
+50151	filmcraft	Windows: export paths expand ~, accept trailing \ and verbatim paths
+50152	filmcraft	Windows: platform modifier names in status-bar and mask hints
+50153	filmcraft	platform: ask for the hardware HEVC encoder in the background at startup
+50154	filmcraft	Sequence ▸ Sequence Settings… opens Premiere's dialog (#172, #287)
+50155	filmcraft	Windows: NVENC H.265 (HEVC) Main hardware encoding for Export
+50156	filmcraft	export: free the frame pool when an export ends
+50157	filmcraft	LINUX.VALIDATION: honor preset shortcuts and retain every MPEG oracle timestamp
+50158	filmcraft	GPU.EFFECT_SOURCE: preserve exact texel centers for effect inputs
+50159	filmcraft	WINCI: Fix Windows paths and portable validation (#337 by @cshapiro)
+50160	filmcraft	Windows: NVENC H.265 Main 10 HDR (PQ / HLG) export
+50161	filmcraft	Export: stage timings in perf.stats, and render the next batch while encoding
+50162	filmcraft	M3.12: Source playback, clip dragging and monitor range editing (#338 by @cshapiro)
+50163	filmcraft	M3.12: Export frames from Source and Program monitors (#353 by @cshapiro)
+50164	filmcraft	CLI: a closed stderr no longer panics with exit 101 (#537)
+50165	filmcraft	CLI export: forward a lone --start or --end so the engine reports the missing bound (#538)
+50166	filmcraft	Roll: reversed clips take the cut from the opposite source end (#526)
+50167	filmcraft	Trim: extend each selected edit point to the playhead by its own distance (#528)
+50168	filmcraft	Linked slip: clamp to one shared delta so picture and sound stay aligned (#529)
+50169	filmcraft	Frame-held Regular In trim stops at the previous clip instead of overlapping it (#530)
+50170	filmcraft	Export settings: accept camelCase for nested snake_case fields (#531)
+50171	filmcraft	Queue move: saturate a huge relative offset instead of overflowing (#532)
+50172	filmcraft	Forced relink and Replace Footage keep the new file's properties (#534)
+50173	filmcraft	Project Manager: keep every parent of a nested subclip when collecting (#535)
+50174	filmcraft	Parametric Equalizer: use the full EQ so master gain, bands 1/2/4/5 and pass filters reach the audio (#540)
+50175	filmcraft	Audio Gain: measure the peak of the audio stream each clip plays (#541)
+50176	filmcraft	masks.addVertex: clamp oversized index on animated paths, reject empty paths instead of panicking (#543)
+50177	filmcraft	MCC export: end each ancillary packet with its checksum byte so FFmpeg reads the captions (#544)
+50178	filmcraft	Text panel: word navigation ignores a selection the transcript no longer has (#546)
+50179	filmcraft	Slide: keep reversed neighbours' source ranges correct (#548)
+50180	filmcraft	Keep selected audio streams distinct in AAF/OMF exports
+50181	filmcraft	MCP render_frame: max_side 0 means no limit (#459)
+50182	filmcraft	Keep frame navigation precise and time arithmetic bounded
+50183	filmcraft	ui: add an eyedropper to colour parameters (Ultra Key, Color Key...)
+50184	filmcraft	graphics: shape commands document `seconds` / `track` / `time`, and placement errors name the command that asked
+50185	filmcraft	Implement scrollable areas for media dialog
+50186	filmcraft	M-HW: NVENC takes the export's RGBA and converts it on the GPU (#30)
+50187	filmcraft	Windows: skip AV1 oracle tests when ffmpeg lacks libsvtav1/libdav1d
+50188	filmcraft	CLI render: report the real reason for an invalid scale instead of no sequence (#539)
+50189	filmcraft	Format: rustfmt the clip_ops tests that landed with #561
+50190	filmcraft	main: green again after the batch merges
+50191	filmcraft	chrome_ui test: the menu bar's automation ids (menu.*, from #454) sit in the header
+50192	filmcraft	Linux: NVDEC hardware decoding for H.264 and HEVC
+50193	filmcraft	Add Simplified Chinese (zh) translation
+50194	filmcraft	FCP7 XML: keep the source channel of split mono audio tracks (#463)
+50195	filmcraft	Start scalar graph drags at the pointer press position
+50196	filmcraft	effects.setParam: choices by name, a `keyframe` option, and the keyframe count in the result
+50197	filmcraft	#430, #224: select, edit, delete and resize transitions
+50198	filmcraft	cli: make --help print usage successfully
+50199	filmcraft	Text to Speech narrations: panel, natural voices (Kokoro-82M in pure Rust), click-to-edit
+50200	filmcraft	GPU export rendering (on by default) and Vignette, Video Limiter, Lumetri Color on the GPU compositor
+50201	filmcraft	Progress docs: target-app parity, gaps, alpha gate, readiness by audience (#700)
+50202	filmcraft	Keyboard slip: clamp linked clips by one shared delta (#529)
+50203	filmcraft	Reject unknown mcp options instead of silently ignoring them (#476)
+50204	filmcraft	Audio Clip Mixer: click the dB readout to type a volume (#481)
+50205	filmcraft	Let a bin be cleared from its context menu, the trash button, the panel menu and Delete (#587)
+50206	filmcraft	Space out browser downloads so image-sequence exports are not dropped (#378)
+50207	filmcraft	MP4: read the start timecode from a Sony rtmd track when there is no tmcd
+50208	filmcraft	Restore green after the community batch: rustfmt, clippy as_chunks_mut in webm_alpha, zh-cn caption-track and es shutter-angle rows
+50209	filmcraft	Captions: a TTML frame count that saturates the clock is rejected, not read as the end of time (#705 follow-up)
+50210	filmcraft	HW5: AV1 sequence headers compare by picture format, so SVT-AV1 files stay on hardware
+50211	filmcraft	media: importable tests after the items (clippy items_after_test_module, #677 follow-up)
+50212	filmcraft	GPU export: a frame planned as one CPU image skips the renderer pool (Auto was slower than Off)
+50213	filmcraft	GPU export: a CLI built on its own exports on the CPU instead of failing
+50214	filmcraft	Media: Automatically refresh growing files works (and catches re-renders)
+50215	filmcraft	HW6: AV1 export format, enabled where a hardware encoder registers one
+50216	filmcraft	text: the CJK system-font search no longer keeps every probed font file in memory (#769)
+50217	filmcraft	Timeline: draw each audio track's own waveform, not track 1's (#770)
+50218	filmcraft	Linux: H.265 export through NVENC
+50219	filmcraft	#781: cargo xtask parity measures menu coverage
+50220	filmcraft	#424: Render In to Out renders only the frames between In and Out
+50221	filmcraft	#647: decode E-AC-3 (Dolby Digital Plus) audio
+50222	filmcraft	#779: export JPEG, Targa and DPX image sequences
+50223	filmcraft	#780: Optical Flow time interpolation synthesises motion-compensated frames
+50224	filmcraft	#577: Effect Controls shows a selected transition's own timeline
+50225	filmcraft	#498: French (fr) interface translation
+50226	filmcraft	#800: MP2 audio in MP4 and MOV decodes instead of playing silent
+50227	filmcraft	#805: Morph Cut morphs along optical flow instead of cross-dissolving
+50228	filmcraft	#806: export OpenEXR image sequences
+50229	filmcraft	#813: masks round their corners (rounded rectangle masks)
+50230	filmcraft	#821: import Targa and DPX stills and image sequences
+50231	filmcraft	#814: AAC Audio export (audio-only .m4a, or ADTS .aac)
+50232	filmcraft	Share docking transactions and preserve FilmCraft panel behavior
+50233	filmcraft	#853: Shift constrains pen mask segments to 45° steps
+50234	filmcraft	#980: VP9 decode loop-filters a frame as a superblock-row wavefront
+50235	filmcraft	#790: Matroska AAC / MP3 / AC-3 trims the exact CodecDelay
+50236	filmcraft	Timeline: keep continuous thumbnails fixed while the view zooms (#1094)
+50237	filmcraft	Engine: list edge, params and reverse in the sequence.applyAudioTransition schema (#1100)
+50238	filmcraft	Timeline: a press on the ruler moves the playhead at once (#1090)
+50239	filmcraft	Hot-text number fields select the whole value when clicked (#1126)
+50240	filmcraft	#820: fall back to DX12, then a software adapter, when the graphics start fails
+50241	filmcraft	#844: on-monitor corner-roundness handle for masks
+50242	filmcraft	#847: AV1 decode runs deblocking, CDEF and loop restoration in parallel row bands
+50243	filmcraft	#867: Indonesian (id) interface translation
+50244	filmcraft	#841: import packed 10/12-bit and Y'CbCr DPX stills
+50245	filmcraft	#840: restart an audio stream the device drops instead of playing silent
+50246	filmcraft	Reject non-finite numbers and empty LUT input ranges in .cube import (#998)
+50247	filmcraft	Timeline: dragging a clip above the top track or below the last one adds a new track (#1104)
+50248	filmcraft	#395: Arabic and Hebrew in the interface: fallback fonts, captions in reading order
+50249	filmcraft	Trim mode rolls each selected edit point once (fixes the #870 regression)
+50250	filmcraft	Lumetri panel: truncate a long clip name in the header so the control rows stay in view (#997)
+50251	filmcraft	#831: cargo xtask parity measures effects and transitions (--area)
+50252	filmcraft	Add OmaStore manifest
+50253	filmcraft	#835: workflow acceptance tests through the MCP server, checked by ffprobe
+50254	filmcraft	Text editing on the Program monitor: double-click and Ctrl/Cmd+A select all the text (#1102)
+50255	filmcraft	Count VideoToolbox sessions, frames and declined requests in perf.stats (#981)
+50256	filmcraft	Keep the voice-over start point when recording past the end of the timeline (#960)
+50257	filmcraft	masks_ui: Shift-clicks carry their modifiers in the gesture
+50258	filmcraft	export: rustfmt settings tests after merging #1113
+50259	filmcraft	#809: own MPEG audio Layer I / II decoder plays MP2 at ffmpeg's default bit rates
+50260	filmcraft	Type text committed by an input method into text layers on the monitor (#1083)
+50261	filmcraft	#859: complete the Brazilian Portuguese (pt-br) interface translation
+50262	filmcraft	rustfmt after merging #834
+50263	filmcraft	rustfmt after merging #1043 and #972
+50264	filmcraft	#850: launch files open whatever the extension's case, with absolute paths
+50265	filmcraft	#874: compressed (RLE / ZIPS / ZIP) OpenEXR export
+50266	filmcraft	timeline: Escape during a box selection restores the selection it began with (#608 + #1028 regression)
+50267	filmcraft	ui: stopping playback also closes the scrub stream (#1109 + #1031 regression)
+50268	filmcraft	masks: the pen tool no longer deadlocks egui when a drag places a point (#667 regression)
+50269	filmcraft	ui-egui: the hot-number click test clears its font texture upload (#1166)
+50270	filmcraft	tts-text: fractions take operands of up to three digits (#954 regression)
+50271	filmcraft	#828: import OpenEXR stills and image sequences
+50272	filmcraft	Trim MP3 encoder delay when decoding audio files (#1137)
+50273	filmcraft	gpu: devices whose effect pipelines fail validation fall back to CPU effects (from #37)
+50274	filmcraft	ui: reduce sequence copying and cache transcript redraw data
+50275	filmcraft	Sequences: refuse a zero or negative frame rate instead of panicking
+50276	filmcraft	Adjustment layers: a transition fades their effects in and out instead of cutting them in after it
+50277	filmcraft	#1402: import MP1 (A_MPEG/L1) audio from Matroska
+50278	filmcraft	#1407: import Radiance HDR stills and image sequences
+50279	filmcraft	ingest: preserve same-named camera takes during ingest
+50280	filmcraft	Effects panel: keep the whole name of a folder that contains a slash
+50281	filmcraft	captions: preserve speaker names in TTML metadata
+50282	filmcraft	export: clip caption sidecars to the exported range
+50283	filmcraft	ui: keep Metadata and Info on the selected source item
+50284	filmcraft	Export: as_chunks in the float-audio oracle test (clippy manual_chunks)
+50285	filmcraft	#1389: Italian rows for strings added on main since (Open Recent, 32-bit audio, Help hints)
+50286	filmcraft	#828: import PXR24-compressed OpenEXR
+50287	filmcraft	#1389: Italian Ripple Delete Head Frame
+50288	gridcraft	initial commit
+50289	gridcraft	M0: foundation — core, numfmt, formula, functions (478), model, calc, xlsx/csv, engine
+50290	gridcraft	M1: Excel-style egui UI, desktop app, chart renderer, MCP server, CLI, release packaging
+50291	gridcraft	M13: web app (WASM via trunk), async file open, ROADMAP with parity estimates, parity report, xtask alias
+50292	gridcraft	M1.5: README with screenshots, display scale matching desktop density, validation dropdowns, note popups, trace arrows, header menus, hyperlink clicks
+50293	gridcraft	M4–M10: PivotTables, PDF export & printing, what-if analysis, spelling, more commands
+50294	gridcraft	M3: column AutoComplete, spelling dialog, Page Break Preview, icons gallery
+50295	gridcraft	M8: Draw tab — pen, highlighter, eraser, ink strokes and Ink to Shape
+50296	gridcraft	M7/M8: task panes — Format Chart, Comments (threaded replies, resolve), Watch Window, Selection
+50297	gridcraft	M4: PivotTable XLSX round-trip — cache definitions/records, date grouping, pivotTable parts, reader with warnings
+50298	gridcraft	Rename SheetCraft to GridCraft everywhere (crates, apps, bundle ids, packaging, docs)
+50299	gridcraft	Roadmap: alpha and parity estimates; README gallery with PivotTable, Format Chart and Page Break Preview screenshots
+50300	gridcraft	Rename PrintCraft to PdfCraft (storytold/pdfcraft) (#1)
+50301	gridcraft	README Downloads: where to get it first, then builds with Windows before macOS (#15)
+50302	gridcraft	macOS DMG: branded window background and icon layout
+50303	gridcraft	Recommend supported recovery steps after a screenshot timeout
+50304	gridcraft	Fix Enter navigation returning to the last clicked cell
+50305	gridcraft	Add a visible File menu to the shared ribbon
+50306	gridcraft	Preserve quick selection drags and clarify the fill handle
+50307	gridcraft	XLSX: cache #SPILL! and #CALC! as #VALUE! so Excel can open the file
+50308	gridcraft	XLSX: write _xlpm. prefix on LET/LAMBDA parameter names, strip it on read (#63)
+50309	gridcraft	ROUND: keep 15 significant digits when asked for 15+ digits, so ROUND(0.1+0.2,15) is 0.3 (#58)
+50310	gridcraft	Issue #51: General numbers fit by the cell's own font, not 11pt
+50311	gridcraft	Issue #48: rotated text with Wrap Text draws upright (grid and print)
+50312	gridcraft	Add System appearance alongside Light and Dark themes
+50313	gridcraft	Preview border presets and fix shared-edge removal
+50314	gridcraft	Desktop: write log records to standard error and a rotating log file
+50315	gridcraft	Fix header double-click AutoFit for selected columns and rows (#42)
+50316	gridcraft	Fix worksheet popups staying open after outside clicks (#41)
+50317	gridcraft	Fix disappearing text when editing merged cells (#40)
+50318	gridcraft	Import worksheet data and cached results from XLSB workbooks
+50319	gridcraft	Import worksheet data and cached values from ODS files
+50320	gridcraft	Fix clippy on main: allow the clock read in native-only import tests
+50321	gridcraft	Add initial Alt ribbon keytips and legacy shortcuts (#33)
+50322	gridcraft	Allow editing and selecting text inside worksheet text boxes
+50323	gridcraft	Progress docs: target-app parity, gaps, alpha gate, readiness by audience (#189)
+50324	gridcraft	Offer an optional desktop shortcut in the Windows installer
+50325	gridcraft	Maintainer fix-up: leave English formula display untouched, match engine formula detection
+50326	gridcraft	Support common Spanish formula names and semicolon arguments
+50327	gridcraft	Preserve array evaluation for non-spilling XLSX formulas
+50328	gridcraft	Add static pictures inside cells with XLSX roundtrip
+50329	gridcraft	Clamp table style number to 1 so zero-numbered styles don't underflow (#130)
+50330	gridcraft	Rename sheet-qualified defined names with their sheet (#134)
+50331	gridcraft	Keep the untouched part of a data validation range when clearing or replacing part of it (#129)
+50332	gridcraft	Keep comma when a semicolon or tab is missing from some CSV lines (#127)
+50333	gridcraft	Deliver Export as PDF as a browser download (#141)
+50334	gridcraft	Shrink 3-D sheet spans when an end sheet is deleted (#140)
+50335	gridcraft	Report an error when file commands get no file in MCP and CLI (#135)
+50336	gridcraft	Honor search in the desktop engine.commands handler so connected list_commands filters (#136)
+50337	gridcraft	Compare numbers at 15 significant digits like Excel (#57)
+50338	gridcraft	Fix-up: move the #179 table-style test module to the end of tables.rs after merging #149
+50339	gridcraft	Write comment and hyperlink maps with A1 keys so JSON save works (#126)
+50340	gridcraft	Preserve formula references when cutting cells across sheets
+50341	gridcraft	macOS: open documents from Finder, the Dock and `open -a` (#69)
+50342	gridcraft	Fix-up: chartex frames use the (open, close) anchor tags after merging #161 onto the move-only anchor change
+50343	gridcraft	Fix-up: #83's array-export test expects #156's legacy-array read (cached values refilled on recalc)
+50344	gridcraft	Add vangel76 to the contributor names
+50345	gridcraft	Add MacJedi42 to the contributor names
+50346	gridcraft	Do not draw the selection over the frozen pane when it lies only in the scrolling pane (#198)
+50347	gridcraft	Resize charts from the corner handle and the Size fields, keep typed chart and table names (#190)
+50348	gridcraft	Add German (de) interface language
+50349	gridcraft	Fix-up: Spanish and German strings for Interface size (#294 met #242/#271); rustfmt after merges
+50350	gridcraft	Fix-up: Backstage options read the formula bar from engine prefs (#331 after #295)
+50351	gridcraft	Fix-up: Spanish, German and Czech strings for the features merged alongside them; theme test goes through Backstage Options (#318 after #331)
+50352	gridcraft	Fix-up: theme test picks System from Backstage Options' Display theme combo (#318 after #331)
+50353	gridcraft	Read the browser clock for NOW(), TODAY() and year-less dates on wasm (#202)
+50354	gridcraft	Glide the selection outline to a new selection; View ▸ Animations turns it off
+50355	gridcraft	Edit date cells as dates, not serial numbers (#362)
+50356	gridcraft	Ctrl+click on an already selected header or cell deselects it (#359)
+50357	gridcraft	Fix-up: Insert Copied Cells target and PivotChart anchor use #206's checked cell_param
+50358	gridcraft	web: print straight to the system print dialog, not just export
+50359	gridcraft	Linux: the display theme asks the desktop, not winit
+50360	gridcraft	Add arcanii to the contributor names
+50361	gridcraft	Scatter charts of two unlabelled columns plot the first as X for one series (#428)
+50362	gridcraft	Rotated text follows the cell's alignment
+50363	gridcraft	CSV: saving keeps the separator the file was opened with (#426)
+50364	gridcraft	Keytips: full Excel sequential Alt table — 364 sequences, badges on every control, generated tests (fixes #33, #49)
+50365	gridcraft	Fix-up: #423's table-name round-trip test sets #433's Table.filter
+50366	gridcraft	Keytips: keytips.json source + xtask generator (issues #33, #49)
+50367	gridcraft	Print: select printers and submit jobs through craft-print
+50368	gridcraft	Return #VALUE! when a LAMBDA call has too few argument positions (#557)
+50369	gridcraft	SUBTOTAL 109-111 leave out nested subtotals like 1-11 (#556)
+50370	gridcraft	Refuse XLSX export of sheet names XLSX cannot hold (#552)
+50371	gridcraft	Fix data.filterBy inside a table installing the sheet AutoFilter instead of toggling the table button (#547)
+50372	gridcraft	Fix histogram counts disagreeing with interval labels on bin boundaries (#546)
+50373	gridcraft	Draw data labels on area and stacked area charts (#545)
+50374	gridcraft	Fix chart rasterizer panic on negative rectangle extents (#542)
+50375	gridcraft	Return #VALUE! from FIND and SEARCH when the start is past the text end (#541)
+50376	gridcraft	Return zero from ROUNDDOWN and TRUNC at precisions beyond the number range (#540)
+50377	gridcraft	Return #NUM! from PROB for zero probabilities (#539)
+50378	gridcraft	Reject oversized TEXTSPLIT results before building the padded grid (#538)
+50379	gridcraft	Check the full PIVOTBY layout size before building column headers (#537)
+50380	gridcraft	HSTACK checks its padded output size before building it (#536)
+50381	gridcraft	Return an error when a weekday fill runs past the supported dates (#535)
+50382	gridcraft	Column sort rejects a zero row key with a parameter error instead of panicking (#534)
+50383	gridcraft	Refuse Total Row on a table that ends on the last worksheet row (#533)
+50384	gridcraft	Spelling: skip suggestions for words longer than 64 characters (#532)
+50385	gridcraft	Reject row/column insert counts past the worksheet and clamp delete counts instead of overflowing (#531)
+50386	gridcraft	Formula: print flat operator chains iteratively so deep trees cannot overflow the stack (#527)
+50387	gridcraft	Page Setup opens on the sheet's saved margins (#524)
+50388	gridcraft	Data Validation dialog opens on the active cell's current rule (#522)
+50389	gridcraft	Zoom dialog: a Magnification choice sets the percentage to store (#521)
+50390	gridcraft	Fix ribbon checkboxes sending the pre-click value (#520)
+50391	gridcraft	Keep a literal chart category with a comma or semicolon as one point on save (#519)
+50392	gridcraft	Read omitted val on chart smooth and showVal as on (#518)
+50393	gridcraft	Reject row/column insert counts past the worksheet and clamp delete counts instead of overflowing (#531)
+50394	gridcraft	Return zero from ROUNDDOWN and TRUNC at precisions beyond the number range (#540)
+50395	gridcraft	Fix-up: rustfmt the area-chart label condition after merging the chart PRs
+50396	gridcraft	Add OmaStore manifest
+50397	gridcraft	Web: opt-in embedding bridge for host pages (?host=parent)
+50398	gridcraft	Data: Solver Evolutionary method, and Answer and Limits reports
+50399	gridcraft	Convert TODAY and NOW to the workbook date system in 1904 workbooks (#578)
+50400	gridcraft	Restore frozen panes when showing a custom view (#577)
+50401	gridcraft	Tables: names with a hyphen or other operator characters are rejected (#576)
+50402	gridcraft	Reject table.resize to a range that does not overlap the table (#575)
+50403	gridcraft	Keep a defined name that shares a table's name when the table is renamed (#574)
+50404	gridcraft	Return #VALUE! for AGGREGATE without a data argument (#572)
+50405	gridcraft	Open files by their content, not a mismatched extension (#569)
+50406	gridcraft	Parse an intersection whose operand became #REF! (#568)
+50407	gridcraft	Parse two-digit years in spaced month-name dates (#566)
+50408	gridcraft	Treat serials past 9999-12-31 as out of range in the 1904 date system (#565)
+50409	gridcraft	Paste Special: copy the validation rule with the Validation and All options (#562)
+50410	gridcraft	MCP: reject invalid format_range borders as invalid params (#560)
+50411	gridcraft	Make gridcraft-cli check compare conditional-format rule contents, not just their count (#559)
+50412	gridcraft	Fix-up: rustfmt check.rs after merging the check PRs
+50413	gridcraft	Tables: names with a hyphen or other operator characters are rejected (#576)
+50414	gridcraft	Fix saving a custom view or script when the stored list is not a JSON object (#517)
+50415	gridcraft	Treat non-object params as empty in themeColors, background and drawBorder (#516)
+50416	gridcraft	Refuse a PivotTable that cannot fit before aggregating all column groups (#515)
+50417	gridcraft	Fail Web Page export on sheets taller than its row limit instead of dropping cells (#514)
+50418	gridcraft	xlsx: warn when hyperlinks past the 10,000-cell cap are dropped on read (#513)
+50419	gridcraft	Keep every range of a conditional format or validation sqref (#512)
+50420	gridcraft	Save a table that has only a header row and a totals row (#511)
+50421	gridcraft	Keep a long outline group's bracket once its first 4096 lines scroll away (#510)
+50422	gridcraft	Keep manually hidden and collapsed rows when removing an AutoFilter (#508)
+50423	gridcraft	Run the fill-handle double-click fill before the handle press returns (#507)
+50424	gridcraft	File: Export as PDF in the File menu, and the palette asks for a path (#407)
+50425	gridcraft	Fix-up: rustfmt extra.rs after merging
+50426	gridcraft	Chart: color pie, doughnut, treemap and sunburst points from the workbook theme (#579)
+50427	gridcraft	Quote sheet names when printing sheet-qualified defined names (#567)
+50428	gridcraft	Keep a solid data bar solid across an XLSX save and reopen (#550)
+50429	gridcraft	Funnel chart: hide value labels when data labels are off (#544)
+50430	gridcraft	Honour the gridlines flag on box-and-whisker and stock charts (#543)
+50431	gridcraft	Fix-up: repair test files after merging the conflicting PRs
+50432	gridcraft	Reject out-of-range numeric filterBy columns instead of overflowing (#573)
+50433	gridcraft	Fix SEARCH position when text contains a char with multi-char lowercase (#571)
+50434	gridcraft	Center Across Selection: center text over the empty cells to its right (#479)
+50435	gridcraft	View: Ctrl+wheel zoom steps along a ladder that never skips 100% (#689)
+50436	gridcraft	Read date text in the workbook date system in arithmetic and VALUE (#564)
+50437	gridcraft	View ribbon: lay out the Show group's checkboxes in two columns
+50438	gridcraft	Fix-up: close the CSV history-name test the merge left open
+50439	gridcraft	Fix-up: close the Save As link test the merge left open
+50440	gridcraft	Tab bar: the scrollbar-reachable test checks #849's scrollbar track; drop the unused Color32 import
+50441	gridcraft	Fix-up: close the passthrough tests the merges left open; rustfmt
+50442	gridcraft	File view: the recent list tells when each workbook was last changed
+50443	gridcraft	Rows auto-fit oversized fonts on open and on row formatting (#833)
+50444	gridcraft	File view: the recent list tells when each workbook was last changed
+50445	lightcraft	M0.1/M0.2: workspace, xtask (layers/wasm/ci/stats), geom, color, raster
+50446	lightcraft	M3.1: lightcraft-tiff reader/writer
+50447	lightcraft	M0.3/M0.5: develop settings model + control specs + presets; procedural demo scenes
+50448	lightcraft	M3.1: lightcraft-meta EXIF/XMP/IPTC
+50449	lightcraft	Asset rules: no Adobe assets ever; every asset open-licensed with an entry in assets/ATTRIBUTION.md
+50450	lightcraft	M0.4: develop pipeline v0 (framing, WB, exposure, guided-filter local tone, clarity/texture, dehaze, masks, filmic tone map, OkLCh colour tools, gamut map, curves, vignet
+50451	lightcraft	M0.6: catalog v0 (ops with inverses, albums/folders, ratings/flags/labels, search tokens, filter/sort, snapshot + op-log replay)
+50452	lightcraft	catalog: clippy
+50453	lightcraft	M1.1: lightcraft-codecs decode/encode, ICC, sniffing
+50454	lightcraft	M3.2-M3.6: lightcraft-raw DNG, LJ92, demosaic, highlights, DNG colour
+50455	lightcraft	M0.6: engine (Session, ~75 commands: library/photo/album/develop/crop/masks/spots/presets/versions/history/queries; undo via inverse ops; interactions; render jobs; demo 
+50456	lightcraft	M3.7: Canon CR2 decoding + rawinfo/rawrender examples
+50457	lightcraft	Untrack agent worktrees; ignore .claude/
+50458	lightcraft	M3.7: Sony ARW decoding (ARW2 cRAW, uncompressed, LJ92 tiles)
+50459	lightcraft	M1.1: codecs fuzz/corpus/bench tests, thumbnail options, README
+50460	lightcraft	M1.1: codecs MPF preview thumbnail test
+50461	lightcraft	continued work
+50462	lightcraft	M0.7/M0.8: Lightroom-style egui UI (top bar, My Photos, photo/square grid, loupe + filmstrip, Edit panel with histogram/curves/mixer/grading, crop/masking/remove/presets/
+50463	lightcraft	ROADMAP: status update
+50464	lightcraft	M3.7: Nikon NEF uncompressed decoding
+50465	lightcraft	fmt: rustfmt crates/pipeline/src/finish.rs
+50466	lightcraft	M2.2: base profiles (Color/Neutral/Vivid/Landscape/Portrait/Monochrome) with amount
+50467	lightcraft	M8.3: render heal/clone/remove spots (frequency-separation heal, auto source search)
+50468	lightcraft	M7.2: luminance + colour noise reduction (guided filter on log-luminance, chroma blur)
+50469	lightcraft	M0.9: MCP server + lightcraft-cli
+50470	lightcraft	M10.2: export dialog + batch export (JPEG/PNG/TIFF/WebP/AVIF, size, file-size limit, output sharpening, naming, folder)
+50471	lightcraft	M10.2: MCP/CLI export shares the engine encoder (all formats, batch, size limit, sharpening)
+50472	lightcraft	M1.4: crash-safe catalog persistence (op log + snapshot)
+50473	lightcraft	fmt: rustfmt crates/pipeline/src/finish.rs (main was not fmt-clean; needed for cargo xtask ci)
+50474	lightcraft	M11.2: Fujifilm RAF decoding (uncompressed Bayer and X-Trans)
+50475	lightcraft	M10.4: multithreaded AVIF encoding (ravif threading, speed 8): ~4x faster export
+50476	lightcraft	M1.5: thumbnail/preview cache (disk + memory LRU, prioritized job pool)
+50477	lightcraft	M0.1: enforce the asset rule in CI (cargo xtask assets); replace Adobe-published Source Sans 3 with Inter
+50478	lightcraft	M5.1: cache-friendly Gaussian blur (no transposes; in-row horizontal passes, banded running-sum vertical passes) + per-stage pipeline profiling
+50479	lightcraft	M0.11: web build (WASM)
+50480	lightcraft	M10.5: export metadata policy (all / all except camera / copyright / none, remove location) with EXIF + XMP embedding
+50481	lightcraft	M1.3: import (recursive folders, content-hash duplicates, add vs copy)
+50482	lightcraft	M0.4: demo scenes — remove vertical banding in terrain shading (wide slope stencil, smooth light direction, depth warp, aerial perspective)
+50483	lightcraft	M11.3: Panasonic RW2 decoding (packed 12/14-bit)
+50484	lightcraft	M10.6: text watermark on export (Inter, size relative to image, 9 anchors, opacity, shadow)
+50485	lightcraft	M1.4: persistent libraries for headless MCP (lightcraft-cli mcp --library DIR); bump render cache version
+50486	lightcraft	M11.3: Pentax PEF decoding (uncompressed and Huffman)
+50487	lightcraft	M11.3: Olympus ORF decoding (uncompressed)
+50488	lightcraft	M10.8: XMP sidecars — save/read metadata + develop settings, auto-write, crs: interchange
+50489	lightcraft	M3.8: embedded previews for every raw container + engine fallback; raw corpus
+50490	lightcraft	M5.3: stage cache — slider drags redo only the stages the setting feeds; draft quality during drags
+50491	lightcraft	M5.3: faster per-pixel stage and row-parallel guided filter
+50492	lightcraft	M4.2: optics — manual distortion/vignetting, lateral CA (auto + manual), defringe, DNG-embedded profile corrections
+50493	lightcraft	M5.1: full-resolution source level for exports larger than a preview
+50494	lightcraft	M10.8: keep lc:settings JSON readable in sidecars (escape only <, >, & in element content)
+50495	lightcraft	M9.2: preset files — .lcpreset import/export (groups preserved), XMP presets via crs: mapping
+50496	lightcraft	M4.3: geometry — manual transforms as one homography in the geometry frame, Constrain Crop
+50497	lightcraft	M3.8: fix merge — unsupported-raw preview probe carries embedded XMP; AGENTS.md per-agent ports/scratch
+50498	lightcraft	M4.4: Upright — Auto/Level/Vertical/Full from detected lines + Guided upright (up to 4 guides)
+50499	lightcraft	M0.8: lightcraft --help / unknown options no longer launch the GUI
+50500	lightcraft	M0.10: headless UI rendering — CPU rasterizer for egui, ui.screenshot headless + fallback, lightcraft-cli snapshot
+50501	lightcraft	M4.4: Upright Auto no longer skews natural scenes
+50502	lightcraft	M10.2: export dialog uses themed sliders, choice buttons and a label column
+50503	lightcraft	M5.3: compute independent spatial planes side by side
+50504	lightcraft	M5.2: GPU pipeline design note (wgpu compute, CPU oracle, stage-cache mapping)
+50505	lightcraft	M5.2a: lightcraft-gpu crate (wgpu compute) with the per-pixel stage on the GPU
+50506	lightcraft	M5.2b: spatial planes, white balance and noise reduction on the GPU
+50507	lightcraft	M5.2c: mask evaluation on the GPU
+50508	lightcraft	M5.2d: geometry resample on the GPU
+50509	lightcraft	M0.12: web persistence — library, edits and imported originals survive a reload
+50510	lightcraft	M5.2e: renders and exports use the GPU; render_bench GPU column
+50511	lightcraft	M10.4: parallel baseline JPEG encoder (restart-interval bands, AAN DCT)
+50512	lightcraft	M4.4: segmented controls for Upright modes and crop overlays (no awkward wrapping)
+50513	lightcraft	M0.13: web render workers — pipeline renders off the main thread
+50514	lightcraft	M5.4b: faster raw path — bin previews/thumbnails straight from the mosaic
+50515	lightcraft	M0.14: web bundle size — fat LTO, size-optimized glue, precompressed output
+50516	lightcraft	M5.4a: instant first view — cached view render / embedded raw preview, then the full render
+50517	lightcraft	M5.4c: prefetch filmstrip neighbours; GPU device created at startup off the UI thread
+50518	lightcraft	M5.7: cargo xtask bench — render benchmark history + CPU-time regression check
+50519	lightcraft	M10.4: JPEG 4:2:0 chroma straight from 2×2 RGB means (no full-size chroma planes); identical output
+50520	lightcraft	M1.7: a raw with its import settings is not 'edited' (grid badge, edited filter)
+50521	lightcraft	M5.4b: X-Trans previews bin 3× (~2000 px) instead of a full demosaic: 1219 → 136 ms CPU
+50522	lightcraft	M1.13: smart albums — saved filters that update live
+50523	lightcraft	M16.1: shortcuts — Lightroom-desktop secondary bindings, no double-firing keys
+50524	lightcraft	M5.6: preview-source cache holds 4 sources (current + prefetched neighbours) instead of 10 (~300 MB less)
+50525	lightcraft	M1.14: stacks — group, expand/collapse, top of stack, auto-stack by time
+50526	lightcraft	xtask: parity — docs/parity.md reference check (in ci) and summary
+50527	lightcraft	M9.7: virtual copies — new catalog entries sharing the original file
+50528	lightcraft	LR-EDIT-CALIB: Calibration — shadows tint and R/G/B primary hue/saturation
+50529	lightcraft	M1.15: keyboard-first culling — Compare, Survey, Auto Advance
+50530	lightcraft	M13.1: lightcraft-merge crate — HDR merge, panorama stitching core
+50531	lightcraft	LR-EDIT-LIGHT-CURVE-REFINESAT: curve Refine Saturation
+50532	lightcraft	M10.9: Export with Previous (⌥⇧⌘E), export dialog remembers the last options (prefs.json); Show in Finder (⌘R); New Folder… (⇧⌘N)
+50533	lightcraft	M16.1: ⌫ deletes photos again (was bound to forward-delete), and never in the Masking/Remove/Red Eye panels
+50534	lightcraft	M2.11: before/after top/bottom (⌥Y) and split top/bottom (⇧⌥Y)
+50535	lightcraft	M16.1: native macOS menu bar + in-window menus from the command registry
+50536	lightcraft	LR-EDIT-COLOR-POINTCOLOR: Point Color — sampled colours with shift, variance, range and visualize
+50537	lightcraft	LR-EDIT-LIGHT-CURVE-TAT: targeted adjustment tool for the tone curve and the colour mixer
+50538	lightcraft	M5.6a: memory report (library.memory, ui.inspect memory) and opt-in DHAT heap profile
+50539	lightcraft	M4.1: Straighten tool (drag along the horizon or a vertical) + Auto straighten (crop.autoStraighten)
+50540	lightcraft	M13.2: Photo Merge commands, dialog with live preview, CLI
+50541	lightcraft	M1.16: library filter bar (LR-FILT-*) + parity rows
+50542	lightcraft	M2.8: vignette style picker (Highlight / Color priority / Paint overlay)
+50543	lightcraft	LR-EYE-RED: red eye correction with automatic pupil detection
+50544	lightcraft	LR-EYE-PET: pet eye — glow detection, dark pupil, catchlight
+50545	lightcraft	M5.6b: header-only raw probe (lightcraft_raw::probe_info); import no longer decodes pixels
+50546	lightcraft	LR-REM-VISUALIZE: Visualize Spots — high-pass black/white view with threshold
+50547	lightcraft	LR-PROF-CREATIVE: 16 own creative profiles (Film, Cinematic, Muted, B&W) as amount-scaled settings deltas
+50548	lightcraft	M2.11: histogram shows the selected photo in the grid (thumbnail fallback) and never another photo's loupe render
+50549	lightcraft	LR-PROF-DROPDOWN: profile favourites and recent (persisted with the library), grouped profile menu, amount slider
+50550	lightcraft	M5.6c: one memory budget for caches, decode gate and GPU pool; peak RSS 1.9-2.3 GB -> 0.83-0.99 GB
+50551	lightcraft	LR-PROF-BROWSER (infra): variant thumbnail jobs (own cache key, thumbnail-level source), Variant slot LRU and loupe hover preview slot
+50552	lightcraft	LR-EXP-COLORSPACE: export in sRGB, Display P3, Adobe RGB (1998) compatible, ProPhoto RGB or Rec. 2020
+50553	lightcraft	LR-PROF-BROWSER: profile browser (live variant thumbnails per group, favourites star, amount, hover preview in the loupe, click to apply); Browse… in the profile menu; ui
+50554	lightcraft	LR-VIEW-PHOTOGRID: group the photo/square grid by date with day/month/year headers
+50555	lightcraft	LR-PRE-PANEL + LR-PRE-CREATE: preset hover preview in the loupe, optional preset thumbnails, Create Preset group checklist
+50556	lightcraft	LR-MASK-OVERLAY + LR-MASK-PINS: rendered mask overlay (5 views, colour/opacity, O / Shift+O) and draggable pins per component
+50557	lightcraft	LR-LIB-KEYWORD: library-wide keyword rename/delete/merge, left-panel keyword tree, suggestions
+50558	lightcraft	LR-PREF-GENERAL + LR-IMP-RAWDEFAULT + LR-VIEW-FULLSCREEN/NAVIGATOR/INFOOVERLAY: Settings dialog, import defaults, view modes
+50559	lightcraft	LR-LIB-RENAME: batch rename with templates, preview, safe on-disk renames and undo
+50560	lightcraft	LR-EXP-BITDEPTH: 16-bit PNG/TIFF, 32-bit float linear TIFF, 10-bit AVIF
+50561	lightcraft	LR-EXP-COLORSPACE: align ICC tag data on 4-byte boundaries
+50562	lightcraft	LR-MASK-BRUSH + LR-MASK-SLIDERS: Auto Mask brush and local Noise / Moiré / Defringe on CPU and GPU
+50563	lightcraft	LR-LIB-CAPTURETIME: edit capture time (set, shift, time-zone shift) for a selection
+50564	lightcraft	LR-PREF-PERFORMANCE: memory budget in Settings → Performance (app.memoryBudget)
+50565	lightcraft	LR-LIB-LABEL: colour-label menus, Info swatches, grid label dots and editable label names
+50566	lightcraft	LR-REM-SPOT-EDIT + LR-REM-BRUSH-PARAMS: select, move, resize, refresh and delete spots; brush keys
+50567	lightcraft	LR-IMP-ADD-DIALOG + LR-IMP-LOCAL: import review dialog with candidates, destination, album, preset, keywords
+50568	lightcraft	M16.2: community links — Discord, website, app page and GitHub
+50569	lightcraft	logo and readme
+50570	lightcraft	LR-EXP-TYPE + LR-EXP-DIM: export size modes, ppi, Original + XMP and DNG export
+50571	lightcraft	M0.9: lightcraft-cli run — one-shot command chains for agents
+50572	lightcraft	LR-EXP-DIALOG + MENU-FILE-EXPORTPRESETS: export presets, destination policy, TIFF compression
+50573	lightcraft	MENU-EDIT-PASTESELECTED + KEY-SEARCH: paste selected settings, Find, fuller photo context menu
+50574	lightcraft	LR-BEHAV-BG-TASKS: background export with progress and cancel
+50575	lightcraft	M5: highlight reconstruction starts at half resolution (2-2.5x faster, identical output)
+50576	lightcraft	LR-MASK-PANEL: reorder masks, duplicate and invert, list context menu, overlay colour cycle
+50577	lightcraft	MENU-CTX-ALBUM + MENU-CTX-GRID: export / move albums from their menu, set album cover
+50578	lightcraft	MENU-FILE-ADDFOLDER + KEY-QUIT + KEY-ERASE: Add Folder, Quit everywhere, hold ⌥ to erase
+50579	lightcraft	LR-VIEW-BEFOREAFTER: before = import state, set from history / version / current, copy and swap
+50580	lightcraft	docs/parity: mark landed edit features (Point Color, Calibration, targeted adjustment, refine saturation, red/pet eye, visualize spots)
+50581	lightcraft	MENU-EDIT-SELECTBY + LR-PRE-MANAGE: select by flag/rating/label, manage presets and versions
+50582	lightcraft	LR-LIB-BYDATE + LR-META-COPYRIGHT-DEFAULT: By Date day tree, default copyright/creator on import
+50583	lightcraft	LR-CROP-OVERLAY + KEY-CROP-CONSTRAIN: diagonal / triangle / spiral guides, A locks the aspect
+50584	lightcraft	LR-BEHAV-DRAGDROP: drag photos from the grid onto an album
+50585	lightcraft	LR-IMP-DEVICE: import from camera / memory card
+50586	lightcraft	ROADMAP: parity estimate by feature count and by effort; xtask parity prints weighted completion
+50587	lightcraft	LR-META-COPYPASTE + LR-MERGE-HEADLESS: paste from previous, copy/paste metadata, merge with last settings, F1 help
+50588	lightcraft	LR-META-INFO: Info panel in Lightroom's layout with accessibility and place fields
+50589	lightcraft	LR-IMP-LOCAL: browse folders on disk without adding them (Local), failed renders aren't retried
+50590	lightcraft	LRC-LIB-MISSING: find missing originals and relink them
+50591	lightcraft	LR-VER-PANEL: Versions panel with Named/Auto tabs, thumbnails and hover previews
+50592	lightcraft	app icon: lynx (owner's ArtCraft drawing), Dock/taskbar/launcher wiring, palette docs
+50593	lightcraft	Signed release pipeline (macOS/Windows/Linux/Web); README community note
+50594	lightcraft	KEY-SLIDER-NUDGE + KEY-FLAGADVANCE: slider nudges, ⇧Z pick and advance, Missing Photos source
+50595	lightcraft	LRC-LIB-METADATA + LRC-LIB-STACKS: metadata presets, split stack, move within a stack
+50596	lightcraft	LR-EXP-WATERMARK + LR-LIB-RECENT-ADDED: graphic watermarks, Recently Added by import
+50597	lightcraft	LR-FILT-SAVED + KEY-COMMIT: filter presets, Return commits a tool
+50598	lightcraft	LR-EDIT-COLOR-MIXER-BW + LR-FILT-TYPE: Auto B&W mix, HDR / panorama type filters
+50599	lightcraft	docs/mcp: quote bracketed run values for the shell
+50600	lightcraft	LR-IMP-PROFILES: import presets from .lrtemplate, DNG presets, zip bundles and folders
+50601	lightcraft	LR-IMP-PROFILES: carry masks over from presets, .lrtemplate and XMP sidecars
+50602	lightcraft	LRC-DEV-AUTOSYNC + LRC-LIB-LABELS + KEY-STRAIGHTEN: auto sync, label sets, ⌘-drag straighten
+50603	lightcraft	LR-IMP-FORMATS: decode lossy (DCT JPEG) DNG — Smart Previews and lossy DNG exports
+50604	lightcraft	LRC-LIB-IMPORT: copy to any folder, organise by day / month / flat, rename on import, metadata preset
+50605	lightcraft	LRC-LIB-KEYWORDS + KEY-SECTIONS: keyword sets with ⌥1–⌥9, ⌘1–⌘5 edit sections
+50606	lightcraft	LRC-LIB-SMARTCOLL: smart-album rule editor — all / any / none, nested groups, 26 fields
+50607	lightcraft	LRC-LIB-FILTERBAR: colour-label multi-select (any of the chosen labels)
+50608	lightcraft	LRC-LIB-PREVIEWS: build standard-sized / 1:1 previews in the background
+50609	lightcraft	KEY-GUIDEDUPRIGHT + KEY-GRID: ⇧G starts Guided Upright, G toggles Photo / Square Grid

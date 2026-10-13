@@ -1,0 +1,610 @@
+60000	lightcraft	LR-MASK-LUMRANGE: range bar, Smoothness and Show Luminance Map for luminance-range masks
+60001	lightcraft	LR-MASK-COLORRANGE: pick colour-range samples on the photo
+60002	lightcraft	KEY-MASKCOLOR + MENU-FILE-CLOSE: ⇧O cycles the mask colour, native Close Window
+60003	lightcraft	LR-META-EXIF-FULL: All Metadata — every EXIF / GPS / XMP field of the file
+60004	lightcraft	LRC-LIB-COLLECTIONS: Quick Collection and target album (B)
+60005	lightcraft	LRC-LIB-FOLDERS: expandable folder tree in Local
+60006	lightcraft	LR-VER-AUTO, LR-VIEW-SLIDESHOW, LRC-LIB-CONVERT and more: auto versions, slideshow, DNG
+60007	lightcraft	LR-EXP-PSD + KEY-PHOTOSHOP: Edit in External Editor (⇧⌘E)
+60008	lightcraft	LR-EXP-PSD: pick up files saved by the external editor (photo.reload)
+60009	lightcraft	LR-PRE-PREMIUM + KEYC-CATALOG: 41 built-in presets, F2 renames
+60010	lightcraft	LR-IMP-AUTO: watched-folder auto import
+60011	lightcraft	LR-CLOUD-SMARTPREVIEW + LR-LIB-DUPLICATE: smart previews for offline originals, Duplicate
+60012	lightcraft	ROADMAP: evening parity estimate (75.6% by rows; ≈ 270–505 agent-hours / 65–125 h wall clock left)
+60013	lightcraft	LR-VIEW-SECONDWINDOW: Window ▸ Second Window (⌘F11)
+60014	lightcraft	LR-BEHAV-ACCESS: screen-reader names for the custom widgets
+60015	lightcraft	LR-BEHAV-WHATSNEW + MENU-HELP-FEEDBACK: Help ▸ What's New, Send Feedback
+60016	lightcraft	LR-META-LOCATION: edit GPS by hand, Show on Map
+60017	lightcraft	LR-EXP-DNGOPT: DNG export compression (lossless / ZIP / none)
+60018	lightcraft	LRC-LIB-KEYWORDS + LRC-LIB-VIEWS: keyword painter, square-grid captions
+60019	lightcraft	LR-PROF-IMPORT: .cube 3D LUTs as creative profiles
+60020	lightcraft	LRC-LIB-FOLDERS: rename and move folders on disk
+60021	lightcraft	LR-LIB-CULL: assisted culling — focus scores, bursts, best-of-burst
+60022	lightcraft	LR-REM-DUST: Find Dust Spots
+60023	lightcraft	LR-MASK-FEATHER-EDGE: Refine Edges for masks
+60024	lightcraft	LRC-LIB-REFVIEW: Reference view (⇧R)
+60025	lightcraft	LRC-LIB-QUICKDEV, LRC-LIB-VISUALSEARCH, LRC-DEV-MATCHEXP: Quick Develop, Find Similar, Match Exposures
+60026	lightcraft	LRC-DEV-SOFTPROOF, MENU-CTX-MASK: soft proofing with gamut warnings; mask component menu
+60027	lightcraft	LR-IMP-ADD-DIALOG: folder scan follow-ups (Cancel, busy guard, inspect)
+60028	lightcraft	Library: an album source serializes (library.state no longer panics)
+60029	lightcraft	Licensing: MIT OR Apache-2.0 files, NOTICE, ArtCraft brand terms
+60030	lightcraft	MCP: crop returns an error when given no rect, angle or reset instead of a silent no-op
+60031	lightcraft	Never crash: steering rule and clippy.toml
+60032	lightcraft	Never crash: raw and tiff decoders
+60033	lightcraft	Never crash: codecs and catalog
+60034	lightcraft	Never crash: color, geom, raster, develop, scenes, preview, pipeline
+60035	lightcraft	Never crash: gpu and merge
+60036	lightcraft	Never crash: engine (outside export.rs) and mcp
+60037	lightcraft	Never crash: last-resort guard around command execution
+60038	lightcraft	Never crash: ui-egui and the web app
+60039	lightcraft	Never crash: move the one unsafe FFI call into crates/sysmem
+60040	lightcraft	FreeBSD: build and test the workspace in a FreeBSD VM
+60041	lightcraft	FreeBSD CI: match the shared template
+60042	lightcraft	Extend Japanese localization across editing, import and export UI
+60043	lightcraft	Improve Sony ARW starting colour and tone, and preserve decoded source metadata
+60044	lightcraft	Windows packaging: Start Menu/Add-Remove icon, no console window, correct description
+60045	lightcraft	Windows on ARM64: release builds, PE header check, install test on ARM64 hardware
+60046	lightcraft	Fonts: use craft-fonts as an optional build input; move the Japanese fonts out
+60047	lightcraft	Faces: read face regions from XMP, show them in the loupe, and a People view
+60048	lightcraft	M16: add Traditional Chinese UI, menus and stock preset localization
+60049	lightcraft	Rename PrintCraft to PdfCraft (storytold/pdfcraft) (#219)
+60050	lightcraft	Codecs: bound thumbnail fallback decodes and WebP metadata allocations
+60051	lightcraft	GPU: decide warped-geometry edges with a CPU coverage mask
+60052	lightcraft	UI tests: wait for folder listings and keep sidebar fixtures off Home
+60053	lightcraft	Windows: treat separator-only path differences as the same file
+60054	lightcraft	UI tests: wait for the sidebar's file-system checks before clicking
+60055	lightcraft	Thumbnails: don't rebuild raw stand-in jobs every frame
+60056	lightcraft	Thumbnails: keep textures when the disk cache is resized
+60057	lightcraft	UI: don't reveal a hidden Local folder inside Home's tree
+60058	lightcraft	Bench: thumbnail request example
+60059	lightcraft	T0: optimize thumbnail requests and reject obsolete preview work
+60060	lightcraft	Loupe: a draft that finishes after a newer request still replaces older pixels, so a long drag keeps updating
+60061	lightcraft	Rename: drop a redundant from != to (clippy nonminimal_bool)
+60062	lightcraft	M16.1: complete navigation arrowheads
+60063	lightcraft	LR-IMP-FORMATS: Panasonic RW2 / Leica RWL / Panasonic RAW in every raw format, with the RW2 camera look
+60064	lightcraft	Fetch: the model downloader becomes its own crate (no behaviour change)
+60065	lightcraft	Thumbnails: retire the replaced preview cache so its old jobs can't write
+60066	lightcraft	Web: watch the thumbnail cache from worker start so an early clear invalidates
+60067	lightcraft	UI tests: wait for sidebar rows with main's step_until
+60068	lightcraft	GPU tests: drop the edge-pixel tolerance; the coverage mask makes edges match
+60069	lightcraft	GPU: faster warp coverage mask, warp formulas written once (depends on #243)
+60070	lightcraft	README Downloads: where to get it first, then builds with Windows before macOS (#306)
+60071	lightcraft	Correct global Tint direction (compatibility review)
+60072	lightcraft	Preserve embedded preview aspect ratios
+60073	lightcraft	LR-IMP-FORMATS: RW2 format 8: decode each 2×2 cell column by column
+60074	lightcraft	Fix Nikon NEF CropArea and embedded preview colour space
+60075	lightcraft	LR-IMP-FORMATS: ORF colour-filter layout from the file's Exif CFAPattern
+60076	lightcraft	Issue #188: D65 reads as a small positive tint (test from #336)
+60077	lightcraft	UI: the loupe follows a texture's aspect only when it really differs (#280)
+60078	lightcraft	Issue #181: saved presets and Export with Previous drop keys this version doesn't know
+60079	lightcraft	Format: rustfmt the Show in Explorer button (#324)
+60080	lightcraft	Issue #188: Tint sign documented as landed (DNG / Lightroom sign)
+60081	lightcraft	Fix #319: release builds pin craft-fonts with Noto Sans CJK SC
+60082	lightcraft	Crop: stop at image edge, lock aspect on every handle, visible lock + custom ratio (#295)
+60083	lightcraft	Add trackpad image zoom and pan with stable cursors
+60084	lightcraft	Improve library culling shortcuts and color label feedback
+60085	lightcraft	Library: the Photo Grid label footer is translucent; pt-br for "Color label cleared" (#308)
+60086	lightcraft	Fetch: opt-in bearer token, validated file specs, borrowed FileSpec, download_url
+60087	lightcraft	Desktop: write log records to a rotating log file as well as standard error
+60088	lightcraft	macOS DMG: branded window background and icon layout
+60089	lightcraft	LR-PROF-CAMERACOLOR: fit the camera look away from edges when a lens-corrected JPEG misaligns (#232)
+60090	lightcraft	RW2/RWL: apply the distortion correction Panasonic and Leica cameras record in the file
+60091	lightcraft	Desktop: a --memory session writes no log file (#286 with #288)
+60092	lightcraft	Profiles: imported LUT names shown as named, own ids for their folders (#333)
+60093	lightcraft	Fetch: say where the bearer token goes (#259)
+60094	lightcraft	Issue #337: the Import Photos dialog is bigger and resizable; the photo grid fills it
+60095	lightcraft	Import: Shift-click checks or unchecks a range of photos in the review (#338)
+60096	lightcraft	Merge fixes: close the test functions the #307/#325 and #325/#346 merges ran together
+60097	lightcraft	Merge fixes: #333 hover label id, #346's test boxes the import dialog (#325), unused mut
+60098	lightcraft	Format the #333 merge fix
+60099	lightcraft	Added Russian language
+60100	lightcraft	Format the gap-report test
+60101	lightcraft	Issue #234: Windows opens links (Map button) in the browser, not File Explorer
+60102	lightcraft	LR-IMP-CAMERA-COVERAGE: read Canon ColorData stored as bytes, so PowerShot and EOS M CR2s get their as-shot white balance
+60103	lightcraft	Decode Fujifilm compressed RAFs and add guarded camera colour support
+60104	lightcraft	LR-IMP-FORMATS: NEF lossy type 2 curve of version `0x44 0x40` spans a quarter of the sample range
+60105	lightcraft	LR-IMP-ADD-DIALOG: file dialogs match extensions in any letter case on Linux (#342)
+60106	lightcraft	M11.1: add CR3 decoding and measured Canon lens correction
+60107	lightcraft	Merge fixes for #279: CR3 joins RAF in the format lists, render cache version 13
+60108	lightcraft	Editable keyboard shortcuts in Help ▸ Keyboard Shortcuts (⌘/)
+60109	lightcraft	Follow-up to #373: translated keymap editor, contextual keys noted
+60110	lightcraft	Import Lightroom Classic catalogs natively
+60111	lightcraft	Follow-up to #218: Lightroom catalog import translated
+60112	lightcraft	Fix #367: import copies and verifies files on several threads
+60113	lightcraft	Spanish for the keymap editor (#373) and the Lightroom catalog import (#218)
+60114	lightcraft	Parity summary regenerated (cargo xtask parity --write)
+60115	lightcraft	Fix #344: the import review checks or unchecks a file type at once
+60116	lightcraft	Batch fix: the Lightroom catalog dialog filter goes through add_filter_nocase
+60117	lightcraft	Batch fix: the CLI snapshot test settles before its screenshots
+60118	lightcraft	Part of #374: launch imports run off the UI thread; folder walks are bounded and never take a drive root or home implicitly
+60119	lightcraft	LR-IMP-FORMATS: TIFF raws with a thumbnail-only IFD0 import as preview only, not as a tiny image
+60120	lightcraft	LR-IMP-FORMATS: raws we cannot decode import as preview only when any usable JPEG is embedded
+60121	lightcraft	Follow-up to #393: the embedded-JPEG scan shares a work budget
+60122	lightcraft	Part of #367: probes read image headers instead of decoding the pixels
+60123	lightcraft	Batch fix: the header test's RLE PSD fixture uses PackBits runs of at most 128 bytes
+60124	lightcraft	LR-IMP-FORMATS: CR3 C-RAW samples that overshoot the bit depth are clamped, not rejected
+60125	lightcraft	MENU-BAR: pointing at another menu title switches the open menu
+60126	lightcraft	Web: the window wire test allows the CPU/GPU difference
+60127	lightcraft	LR-IMP-FORMATS: 12-bit raws packed in 32-bit little-endian words (Coolpix NRW, FinePix S1 / X-A10 / SL1000) and the NRW black level
+60128	lightcraft	Fix #310: CR2 and PEF raws get the starting look fitted to their camera JPEG
+60129	lightcraft	Fix #189: in-window menus and submenus stay below the menu bar
+60130	lightcraft	Follow-up to #402: the menu scroll arrows' accessibility labels are translated
+60131	lightcraft	Faces: recognition in pure Rust, People view, and the Settings > Faces model manager
+60132	lightcraft	Faces: YuNet face detection and one-click model downloads (nothing bundled)
+60133	lightcraft	Faces: model manifests, an ONNX probe, and Settings ▸ Faces (no runtime yet)
+60134	lightcraft	LR-IMP-FORMATS: HEIC/HEIF decode behind the optional `heif` feature
+60135	lightcraft	Format support from #327: JPEG XL DNG, gain table map (not rendered), semantic mattes, BaselineSharpness, camera-space WB
+60136	lightcraft	Fix #191: commands' file dialogs run off the UI thread
+60137	lightcraft	Russian for two strings the catalog lacked (colour label cleared, slideshow hint)
+60138	lightcraft	Batch 14: one [features] table in apps/lightcraft (faces + heif), parity summary
+60139	lightcraft	LR-IMP-FORMATS: HEIC/HEIF decode behind the optional `heif` feature
+60140	lightcraft	Follow-up to #351: drag drafts without a window stay canvas-sized; de/es/ru hint
+60141	lightcraft	Albums tree: matching tree view, create inside folders, drag to move and order
+60142	lightcraft	Part of #260: Help ▸ Open Log Folder shows the log file in the file manager
+60143	lightcraft	LR-IMP-PROFILES: XMP preset import fixes (bookkeeping, LensProfileEnable, channel curves)
+60144	lightcraft	LR-IMP-FORMATS: no overflow deciding whether to scale a full-size JPEG decode
+60145	lightcraft	PSD: as_chunks in the palette and 16/32-bit plane loops (clippy 1.98)
+60146	lightcraft	AI RAW denoise with opt-in models and pure-Rust CPU/GPU inference
+60147	lightcraft	LR-IMP-FORMATS: read plain packed 12-bit PEF strips tagged as PackBits (older Pentax and Samsung GX-1L)
+60148	lightcraft	LR-IMP-FORMATS: read the PEF colour-filter layout from the Exif CFAPattern for every compression
+60149	lightcraft	LR-IMP-FORMATS: report Sony A200/A230/A350 packed ARW as unsupported (preview fallback)
+60150	lightcraft	LR-IMP-FORMATS: decode Canon sRAW and mRAW CR2 from their data instead of the preview
+60151	lightcraft	LR-IMP-FORMATS: CR3 photos render in the aspect ratio set in the camera
+60152	lightcraft	M11.1: decode EOS R7 C-RAW (odd-height CRX QP map)
+60153	lightcraft	Fix #226: a refused Web Locks request no longer leaves the web app loading
+60154	lightcraft	Web restore: reject originals that don't match their content hash (#227)
+60155	lightcraft	Issue #272: Show in Explorer selects photos whose path has a space
+60156	lightcraft	M6: move radial masks by dragging inside their ellipses
+60157	lightcraft	LR-IMP-CAMERA-COVERAGE: xtask corpus verifies the sha256 of every downloaded corpus file
+60158	lightcraft	LR-IMP-FORMATS: decode Hasselblad 3FR files with uncompressed raw data
+60159	lightcraft	LR-IMP-FORMATS: decode lossy JPEG XL DNG tiles completely and without clipping
+60160	lightcraft	LR-PROF-CAMERACOLOR: fit the starting tone curve by quantile matching (no flat steps), old fit as fallback
+60161	lightcraft	LR-IMP-FORMATS: decode Samsung SRW files with uncompressed raw data
+60162	lightcraft	Camera local tone mapping (ProfileGainTableMap) as a per-photo opt-in
+60163	lightcraft	LR-IMP-FORMATS: name GoPro GPR (VC-5 DNG) in the unsupported-raw error instead of 'TIFF compression 9'
+60164	lightcraft	LR-IMP-CAMERA-COVERAGE: CR2 black level from the masked columns only
+60165	lightcraft	LR-IMP-CAMERA-COVERAGE: Sony ILCE-7CR samples in the corpus
+60166	lightcraft	LR-IMP-FORMATS: read the two-field 12-bit ORF layout of old Olympus compacts
+60167	lightcraft	LR-PROF-CAMERACOLOR: bundled Sony ILCE-7CR camera profile
+60168	lightcraft	LR-BEHAV-BG-TASKS: demo scenes: a rayon worker renders a scene alone, never in parallel (deadlock)
+60169	lightcraft	LRC-LIB-CATALOG-IMPORT: read Lightroom's Custom white balance by its as-shot shift on relative-WB raws (#510)
+60170	lightcraft	LR-PRE-AMOUNT: presets with the Grain group apply at any amount
+60171	lightcraft	Nix: bump craft-fonts pin to fix nix build / nix run
+60172	lightcraft	Use the system clock in the CLI and headless MCP sessions (#554)
+60173	lightcraft	LR-IMP-PROFILES: XMP channel curves only with the master and all three channel curves
+60174	lightcraft	LR-EDIT-OPTICS-PROFILE: Reload from Disk reads a file's lens data and turns the correction on for untouched photos
+60175	lightcraft	LR-IMP-FORMATS: treat DNG samples piled up below the stated white level as clipped (#548)
+60176	lightcraft	LR-EDIT-LIGHT-HIGHLIGHTS: clipped highlights stay neutral when darkened (#523)
+60177	lightcraft	LRC-DEV-PROCESS: process versions, so a look change can ship without changing existing edits (#146)
+60178	lightcraft	LR-PROF-CAMERACOLOR: fit the camera look without clipped sensor pixels
+60179	lightcraft	LR-PROF-CAMERACOLOR: Sony ARWs shot with DRO no longer start with the camera JPEG's lifted shadows (#244)
+60180	lightcraft	LR-PROF-CAMERACOLOR: a partial camera look instead of the dark neutral fallback when the full look misses the gates
+60181	lightcraft	LR-PROF-CAMERACOLOR: Olympus ORF starting look fitted to its own JPEG
+60182	lightcraft	LR-IMP-CAMERA-COVERAGE: Sony ARW white balance and black level from one SR2SubIFD decryptor
+60183	lightcraft	LR-IMP-CAMERA-COVERAGE: Sony 16:9 crop on pre-crop-tag bodies
+60184	lightcraft	Cmd+= / Cmd+- / Cmd+0 zoom the photo, not egui's interface scale (#566)
+60185	lightcraft	LR-IMP-CAMERA-COVERAGE: Sony black levels from the SR2 layout and the lossless M/S pedestal
+60186	lightcraft	LR-PREF-DISPLAY: monitor ICC profiles (display colour management)
+60187	lightcraft	Apply #580's updated head (drops the DSC-R1 SR2 refusal)
+60188	lightcraft	LR-IMP-FORMATS: decode Nikon "lossy after split" NEF
+60189	lightcraft	LR-IMP-FORMATS: HEIC decodes like libheif; release builds include it
+60190	lightcraft	LR-IMP-FORMATS: decode the padded 12.8 bpp Olympus ORF layout (E-300, E-500, E-330; E-M5 II and PEN-F high res)
+60191	lightcraft	Add OmaStore manifest
+60192	lightcraft	LR-IMP-FORMATS: Sony DSC-R1 .SR2 decodes (big-endian 16-bit words in a little-endian TIFF)
+60193	lightcraft	LR-EDIT-AUTO: Lightroom-like Auto, calibrated on Lightroom's Auto results
+60194	lightcraft	LR-IMP-CAMERA-COVERAGE: Sony 16:9 crop on pre-crop-tag bodies
+60195	lightcraft	LR-BEHAV-LOCALIZE: French and Ukrainian for this round's new strings (smart-album rules, keyword list and sets, Synchronize Folder, ratings, crop angle)
+60196	lightcraft	HDR editing and HDR export: gain map JPEG, PQ AVIF, float TIFF
+60197	lightcraft	LR-IMP-FORMATS: render cache version 36 (#609 decodes HEIC colour like libheif)
+60198	lightcraft	Web: no display-profile picker in the browser (#612 added the service)
+60199	lightcraft	LR-EDIT-LIGHT-HIGHLIGHTS: pale partly clipped skies turn white, not teal (#523)
+60200	lightcraft	LR-EDIT-LIGHT-HIGHLIGHTS: clipped highlights stay neutral when darkened (#523)
+60201	lightcraft	Contributors: credit GPT-6 Luna and opencode
+60202	lightcraft	LR-IMP-FORMATS: decode packed 12-bit Sony ARW (DSLR-A900) from its exact 1.5 bytes per pixel strip
+60203	lightcraft	LR-EDIT-OPTICS-PROFILE: apply embedded A7R IVA distortion corrections
+60204	lightcraft	LR-EDIT-LIGHT-HIGHLIGHTS: partly clipped highlights take the colour of bright neighbours; previews clip before averaging (#548)
+60205	lightcraft	Issue #345: activity stack — one progress indicator for long-running tasks
+60206	lightcraft	LR-IMP-FORMATS: decode Hasselblad lossless JPEG with selection value 8 (FFF, H3D/H4D/CFV-50c 3FR)
+60207	lightcraft	M11.4: raws from 52 camera models start from matrices fitted to measured spectral sensitivities
+60208	lightcraft	LR-IMP-FORMATS: #573's centred crop and #498's DefaultCrop helper side by side (merge put the flag on the wrong function)
+60209	lightcraft	LR-CLOUD-SMARTPREVIEW: smart previews record the camera-look fit version and are rebuilt when it is older
+60210	lightcraft	LR-BEHAV-BG-TASKS: the preview-build activity test builds small previews (timed out on a loaded machine)
+60211	lightcraft	Issue #345: activity stack — one progress indicator for long-running tasks
+60212	lightcraft	Progress docs: target-app parity, RAW coverage vs Adobe, gaps, alpha gate, readiness by audience (#788)
+60213	lightcraft	Add shared docking while preserving photo tools and catalog drops
+60214	lightcraft	CR3: decode CRX quantisation step 44 (QP 168), Canon EOS R50 C-RAW
+60215	lightcraft	LR-EDIT-RESET: Reset Edits returns a raw to its import defaults, sharpening and colour NR included
+60216	lightcraft	LR-CROP-STRAIGHTEN: the rotate pointer faces away from its side of the crop box
+60217	lightcraft	LR-HDR-EXPORT: HDR renders keep the camera tone curve in the midtones
+60218	lightcraft	Brush mask: holding the brush still adds no coverage; flow builds up by passes (#518)
+60219	lightcraft	LR-BEHAV-GPU: no indirect-call validation pipeline, which Intel Metal fails to compile (issue #250)
+60220	lightcraft	LR-IMP-CAMERA-COVERAGE: Nikon D4 image area and white level, measured against its camera JPEG
+60221	lightcraft	Return applies the Copy Settings and Paste Selected Settings dialogs (#735)
+60222	lightcraft	LR-IMP-CAMERA-COVERAGE: SRF and DSLR-A100 raws open again (#702)
+60223	lightcraft	web: stop the release zip shipping Cargo build artifacts (#793)
+60224	lightcraft	System Info, All Metadata and What's New end with one Close button, like About (#782)
+60225	lightcraft	LR-IMP-FORMATS: EOS R5 Mark II crop-mode CR3s develop without a black band
+60226	lightcraft	LR-VIEW-COMPARE: a filmstrip click shows the photo in Compare
+60227	lightcraft	Issue #793: the last two mentions of target/web point at target/web-site (from #888)
+60228	lightcraft	LR-META-EXIF-FULL: tags.rs back to LF line endings (#831 mixed in CRLF)
+60229	lightcraft	LR-META-EXIF-FULL: All Metadata shows the raw image's Compression
+60230	lightcraft	Masking: Color Range "Pick" button samples the photo
+60231	lightcraft	Dropping photos with XMP sidecars no longer imports the sidecars as presets (#936)
+60232	lightcraft	Masking: keep mask_overlay's doc comment on mask_overlay (#957 put the eyedropper between them)
+60233	lightcraft	Importing a deleted photo's file again brings it back from Recently Deleted (#706)
+60234	lightcraft	Web: a failed render worker start no longer shifts the other workers' slots (#229)
+60235	lightcraft	Denoise: a running job's picture is Ready only when the job reports, not when its file appears (#719)
+60236	lightcraft	LR-EXP-WATERMARK: rotate the watermark in quarter turns (#827, stacked on #845)
+60237	lightcraft	LR-EXP-WATERMARK: separate horizontal and vertical watermark insets (#827, stacked on #833)
+60238	lightcraft	Brush mask: the live stroke places dabs like the committed one, no gaps on fast strokes (#517)
+60239	lightcraft	LR-PROF-CAMERACOLOR: read an untagged camera JPEG in the colour space the raw's EXIF states (#778)
+60240	lightcraft	Upper-case extensions: #705 is #342, fixed in 0.5.0; import/browse/sidecar coverage for .JPG, .Jpg, .NEF, .XMP
+60241	lightcraft	Batch 26: cargo fmt over the merged PRs
+60242	lightcraft	LRC-LIB-CATALOG-IMPORT: describe raws from their headers without reading pixel data (step 1 of #832)
+60243	lightcraft	View: Lights Out (Shift+L), like Lightroom Classic
+60244	lightcraft	Open Library recognises a Lightroom catalog and offers to import it (#891)
+60245	lightcraft	Export: Remove location info also covers Original and DNG formats
+60246	lightcraft	LR-PROF-CAMERACOLOR: a tone curve from black-and-white camera JPEGs (#577)
+60247	lightcraft	Fix #812: the window's renderer can't kill the start-up (DX12 shader errors)
+60248	lightcraft	Dialogs fit the window: options scroll, the title and Cancel / OK stay visible (#781)
+60249	lightcraft	View: end_frame keeps its doc comment (#945 put lights_out under it)
+60250	lightcraft	Crop angle set through develop.set / MCP / --set now keeps the crop inside the photo, as Straighten does (#742)
+60251	lightcraft	Crop tool: no dark wedges inside the crop box when the crop is rotated (#731)
+60252	lightcraft	NEF: probe compressed files from their first 128 rows, not the whole Huffman stream (#708)
+60253	lightcraft	LR-EXP-WATERMARK: preview the watermark in the Export dialog (#827)
+60254	lightcraft	Hold Shift while dragging a crop handle to keep proportions
+60255	lightcraft	In-window menus: a scrolled menu draws no scrollbar over its shortcut text (#691)
+60256	lightcraft	Settings ▸ Faces: Recognise faces stays off until a recognition model is chosen (#678)
+60257	lightcraft	Sony ILCE-7CM2: #697 reproduced on 0.5.0, fixed on main since 3100cc1a; corpus coverage for its codings
+60258	lightcraft	UI: star rating previews the hovered rating, Info tab and bottom bar (#647)
+60259	lightcraft	Read Lightroom spot removal (crs:RetouchAreas, RetouchInfo) from sidecars and presets
+60260	lightcraft	HDR: HDR button next to B&W in the Edit panel header (as Lightroom)
+60261	lightcraft	HDR: read crs:HDREditMode from XMP into hdr.enabled
+60262	lightcraft	LR-IMP-FORMATS: decode Kodak DCS520C raw TIFF (two-component lossless JPEG with response curve)
+60263	lightcraft	LR-EDIT-OPTICS-PROFILE: keep Sony aspect crops outside validated corrections
+60264	lightcraft	Catalog lock: release the library lock explicitly on drop, not by closing the handle (#680)
+60265	lightcraft	Albums hold library photos: skip Local photos, refuse a Local-only selection, say to Add to My Photos first (#684)
+60266	lightcraft	Batch 28: close the faces-toggle test (the merge of #690 dropped its brace)
+60267	lightcraft	Batch 27: close two tests in tests_masking.rs (the merges of #884 and #766 dropped their braces)
+60268	lightcraft	Right-click ▸ Add to Album offers New Album…, also with no album yet (#676)
+60269	lightcraft	spot.findBlemishes: heal small blemishes on detected faces (classical, no new model)
+60270	lightcraft	LR-PREF-PERFORMANCE: cover every GPU kernel build with the crash marker, catch internal compile errors (#250)
+60271	lightcraft	LR-IMP-CAMERA-COVERAGE: Sony DSC-R1 reads its SR2SubIFD (black, white balance, crop): seed derived from the key
+60272	lightcraft	GPU fallback reason per render; the export fallback test no longer reads process-wide state (#675)
+60273	lightcraft	Headless sessions honour LIGHTCRAFT_SAM3_DIR for the SAM 3 model folder (#619)
+60274	lightcraft	HDR: PNG export as 16-bit Rec. 2020 PQ (cICP, cLLI)
+60275	lightcraft	LR-PREF-PERFORMANCE: preview builds render the larger of view and thumbnail first (a view under 512 px no longer feeds an upscaled thumbnail, follow-up to #927)
+60276	lightcraft	Reverse geocoding: fill City / State / Country from GPS (offline GeoNames)
+60277	lightcraft	Lens profile corrections from a lensfun-format database
+60278	lightcraft	Soft proofing against printer ICC profiles: intent, Simulate Paper & Ink, device gamut warning
+60279	lightcraft	Batch 28: resolve the leftover #685 test conflict in tests_panels.rs (both album tests kept)
+60280	lightcraft	Content-aware Remove: inpaint crate (PatchMatch) and a Fill spot mode
+60281	lightcraft	LR-IMP-FORMATS: decode Canon EOS R5 Mark II C-RAW (CRX QP-map first literal and escape)
+60282	lightcraft	Batch 29: tracker rows for content-aware Fill (#926), printer ICC soft proofing (#928) and the lensfun-format lens database (#930)
+60283	lightcraft	LR-IMP-PROFILES: .cube-only imports report their profiles and failures (#942)
+60284	lightcraft	LR-EDIT-DETAIL-DENOISE: dismissing the model setup turns AI Denoise back off (#922)
+60285	lightcraft	Color Grading: Shift-drag saturation lock, range tabs, per-wheel eye (#737, #559)
+60286	lightcraft	LRC-LIB-CATALOG-IMPORT: find moved root folders relative to the catalog
+60287	lightcraft	LR-BEHAV-LOCALIZE: craft-fonts faces of other scripts are UI fallbacks (#736)
+60288	lightcraft	LR-IMP-FORMATS: Sony ARW6 (Compressed RAW 2) decoder for the ILCE-7RM6
+60289	lightcraft	AI Denoise: run tiles on another computer's graphics card (remote offload)
+60290	lightcraft	LR-EDIT-OPTICS-PROFILE: apply DNG WarpRectilinear2 lens corrections (Pixel DNGs, #635)
+60291	lightcraft	Library switching: New Library…, Open Recent Library, library name in the title
+60292	lightcraft	Sidebar sections: reorder, show/hide, pinned headers, shared section frame
+60293	lightcraft	LRC-LIB-CATALOG-SWITCH: a failed library switch keeps the current library open; library names valid on Windows
+60294	lightcraft	Kelvin white balance for raws whose camera has colour matrices, with a look-preserving migration (#730)
+60295	lightcraft	Library: create folders on disk and move photos between folders
+60296	lightcraft	LR-EDIT-OPTICS-PROFILE: apply embedded Fujifilm RAF distortion and vignetting tables
+60297	lightcraft	Issue #947: compare a cross-volume move's copy in 1 MiB chunks; Move to Folder… uses the shared folder picker
+60298	lightcraft	Remember the last crop aspect as the default
+60299	lightcraft	LR-EDIT-LIGHT-HIGHLIGHTS: keep local contrast under Highlights and Shadows
+60300	lightcraft	LR-EDIT-DETAIL-DENOISE: a remote denoise tile with values that aren't finite fails, and runs on this computer instead (follow-up to #813)
+60301	lightcraft	LR-BEHAV-LOCALIZE: the Latin-only test face has a neutral name (follow-up to #750)
+60302	lightcraft	LR-CLOUD-SMARTPREVIEW: the shard folder name is taken with get(), not a slice (follow-up to #834)
+60303	lightcraft	LR-EXP-PSD: settings path fields use TextField; Windows default editor via Explorer; PackBits encoder without indexing
+60304	lightcraft	LR-PREF-INTERFACE: French and Ukrainian appearance strings (modes, themes)
+60305	lightcraft	LR-PREF-INTERFACE: sort the test module list after merging #950 (rustfmt)
+60306	lightcraft	Batch 30: cargo fmt over the merged PRs
+60307	lightcraft	LRC-LIB-FOLDERS: drop an unused import (#947 follow-up)
+60308	lightcraft	LR-IMP-FORMATS: the R5 Mark II QP-map test is a test again (its #[test] was lost merging #915 next to #829)
+60309	lightcraft	KEY-SLIDER-WHEEL: the wheel-nudge test reads exposure as a number (follow-up to #884)
+60310	lightcraft	Complete Simplified Chinese (zh-hans) catalog
+60311	lightcraft	Updated Russian translation (again)
+60312	lightcraft	LR-EXP-TYPE: JPEG XL export (#247)
+60313	lightcraft	LR-EXP-PSD: Edit In makes a copy of every selected photo and opens them all (#920)
+60314	lightcraft	M-export: pin jixel to =0.3.4
+60315	lightcraft	M-export: bump RENDER_CACHE_VERSION for the XYB JPEG XL decode fix
+60316	lightcraft	LR-EXP-PHOTOS: add exported files to Apple Photos (macOS, #236)
+60317	lightcraft	Batch 30: a selected slider keeps only its arrow keys, so shortcuts work after a slider click (#884); tests follow the merged dialog and panel state
+60318	lightcraft	LR-BEHAV-UNDO: each rename-provenance fixture gets its own folder (#874's tests shared one and failed when run in parallel)
+60319	lightcraft	HDR: HDR histogram for HDR edits (fixed 5-stop scale, Lightroom layout)
+60320	lightcraft	Batch 30: one tracker row each for LR-PREF-DISPLAY / -PERFORMANCE / -PEOPLE (a rename-crossing merge doubled them)
+60321	lightcraft	Batch 30: parity summary refreshed (cargo xtask parity --write)
+60322	lightcraft	M-edit-in: the copies toast is a format string (move it to the -formats catalogs)
+60323	lightcraft	M-edit-in: the many-photos test uses distinct files and edits before the second copy
+60324	lightcraft	LR-EXP-TYPE: the Export dialog is 615 pt wide with JPEG XL in the format row
+60325	lightcraft	LR-VIEW-DETAIL: the loupe says "Rendering…" while what it shows is not the render yet
+60326	lightcraft	Batch 32: rustfmt after merges
+60327	lightcraft	smart previews: store proxies at JPEG quality 97 and version the encoding (#709)
+60328	lightcraft	PERF-PRESETS: libraries with thousands of presets stay responsive
+60329	lightcraft	HEIF: move the heic-rs pin from 0.1.1 to 0.1.4
+60330	lightcraft	Batch 32: rustfmt after merges
+60331	lightcraft	Windows: case-insensitive sidecar/rename fixes; Windows test and toolchain fixes
+60332	lightcraft	LR-IMP-FORMATS: a float raw with NaN or infinite samples no longer panics the demosaic
+60333	lightcraft	LR-BEHAV-BG-TASKS: a render job that panics fails instead of never answering
+60334	lightcraft	Up / Down move through the grid's rows
+60335	lightcraft	M5.6: a slider drag no longer decodes the edited raw again for its filmstrip thumbnail
+60336	lightcraft	UI: targeted adjustment says how to leave it; wheel notch scrolls 100 points
+60337	lightcraft	Sort ties by file name, then id
+60338	lightcraft	Nix: fix the flake at HEAD (git dependency) and load libdbus/libEGL on NixOS
+60339	lightcraft	LR-IMP-CAMERA-COVERAGE: Leica Q3 verified by a recorded check of 38 private DNGs
+60340	lightcraft	LR-META-XMP: Read Metadata from File no longer auto-writes the sidecar it has just read
+60341	lightcraft	LR-PROF-CAMERACOLOR: fit the camera-look toe from dark JPEG tones
+60342	lightcraft	LR-BEHAV-ACCESS: AccessKit tree audit test and fixes
+60343	lightcraft	LR-PREF-DISPLAY: on Linux, previews use the display profile from colord
+60344	lightcraft	LR-VIEW-DETAIL: the loupe says when the render behind a stand-in fails
+60345	lightcraft	M5.6: with a GPU, a slider drag's preview is drawn in the frame of the drag tick
+60346	lightcraft	LR-EDIT-COLOR-TEMP: Kelvin white balance from Sony's white-balance presets
+60347	lightcraft	LR-IMP-FORMATS: EOS R6 Mark III as-shot white balance (ColorData version 66)
+60348	lightcraft	LR-BEHAV-LOCALIZE: strong text is heavier in scripts whose fallback face is a variable font (Arabic)
+60349	lightcraft	Gap 27: CPU-GPU equivalence verified on an AMD Radeon 8060S (Vulkan, Linux)
+60350	lightcraft	LR-PROF-CAMERACOLOR: ILCE-7RM6 camera-JPEG colour fit on full-frame files
+60351	lightcraft	Control channel: give up requests a hidden Wayland window can't answer, never run them late (#718)
+60352	lightcraft	LR-EXP-RENDERDNG: Render to DNG export format
+60353	lightcraft	LR-IMP-CAMERA-COVERAGE: Nikon D90 NEFs drop their filler columns (no pink band)
+60354	lightcraft	Batch 32: cargo fmt
+60355	lightcraft	M5.6: a view slot renders one job at a time, so a drag's renders don't pile up
+60356	lightcraft	LR-BEHAV-GPU: say once when no GPU is found, instead of quietly rendering on the CPU
+60357	lightcraft	LRC-DEV-HISTORY: History cursor — going to a step adds no step
+60358	lightcraft	Show progress and allow cancel while a large Lightroom catalog import reads its photos
+60359	lightcraft	LR-VIEW-COMPARE: Compare and Reference panes say "Rendering…" as the loupe does
+60360	lightcraft	LR-IMP-FORMATS: uncompressed Leaf MOS is a raw, the Hasselblad Lunar decodes as an ARW
+60361	lightcraft	LR-HDR-EXPORT: HLG HDR AVIF export and a tested SDR/HDR display decision
+60362	lightcraft	M5.6: zoomed 64 MP raws stay decoded and on the GPU (every 1:1 pan re-decoded the raw)
+60363	lightcraft	HDR: the HDR histogram follows slider drags live
+60364	lightcraft	Batch 32: close the tests two merges added at one place; cargo fmt
+60365	lightcraft	Batch 32: fixes for PRs merged together (#984 leap-year lint, #1344 ColorData field, #1187 preset panel builds)
+60366	lightcraft	Batch 32: the import tool tests date their fixtures (undated files take the file's date, #1216)
+60367	lightcraft	Batch 32: arrows over a slider nudge it (#1264), the toast area doesn't fade in (#1262), #1282's test runs on Windows
+60368	lightcraft	Batch 32: one tracker row per id (rows two PRs both edited), parity summary refreshed
+60369	pdfcraft	one-shot first ver
+60370	pdfcraft	more progress, roadmap, wip
+60371	pdfcraft	work in progress
+60372	pdfcraft	more work
+60373	pdfcraft	Session 4: M1.6 encryption (crypt crate R2-R6), M4 command registry, combine/extract/split, autosave + crash recovery, asset policy + xtask assets, README screenshots
+60374	pdfcraft	M13.1: printcraft-automation (headless tool set + opt-in MCP server over stdio); M4.8: CLI tools/run/mcp
+60375	pdfcraft	M2.7: text layout follows the dominant text direction (rotated pages read along their lines)
+60376	pdfcraft	M13.1: docs for agent control (README, AGENTS §3, crate README, CLAUDE.md)
+60377	pdfcraft	M0.4/M0.5: deny.toml + xtask deny in ci, GitHub CI workflow; MCP module behind a Cargo feature
+60378	pdfcraft	M13.1: parallel, cached page text for text_extract/text_find (520 pages: find 17.9s -> 3.7s cold, ~20ms warm)
+60379	pdfcraft	M0.9: roadmap update for session 5
+60380	pdfcraft	M3.9: UI control channel (opt-in --control; ui.state/inspect/click/type/key/command/set/open/screenshot over token-authenticated loopback JSON-RPC; printcraft-cli ui)
+60381	pdfcraft	M3.9: transport test (token required, auth handshake, forwarding)
+60382	pdfcraft	continued work
+60383	pdfcraft	M4.5: roadmap update for session 6
+60384	pdfcraft	M1.9: full saves write object streams + xref stream (PNG Up predictor); encrypt-dict closure kept outside; reader authenticates before validating the catalog
+60385	pdfcraft	M2.6: vendor hayro-syntax 0.7.2 with a page-tree cycle guard (stack overflow on /Kids loops in object streams)
+60386	pdfcraft	M1.9: roadmap update
+60387	pdfcraft	fuzzing
+60388	pdfcraft	M1.10: cargo xtask fuzz (stable mutation fuzzer: child processes, crash/hang triage, minimization), check-one --edit, nightly CI fuzz job
+60389	pdfcraft	M3.3: effective_scale floor overrode the size caps (a huge page box rendered 9M px wide); regression tests for the fuzz findings
+60390	pdfcraft	M2.6: hayro-interpret patches from fuzzing: tiling-pattern nesting cap (stack overflow), CID width ranges clamped to 65535 (hang)
+60391	pdfcraft	M1.3: number parser cut a multi-byte token mid-character and panicked (found by fuzzing)
+60392	pdfcraft	M0.8: parity/acrobat-features.toml (826 features) + xtask parity (schema, registry/tool/test cross-checks, tier/area report) in ci; fuzzer skips known-hang seeds
+60393	pdfcraft	M2.6: fuzz findings in the bootstrap renderer: paint-nesting cap now covers Type 3 glyphs (stack overflow), hayro skips images over 2^28 px (hang); regression tests
+60394	pdfcraft	M1.10: roadmap update (fuzzing, parity checklist)
+60395	pdfcraft	M3.3: render watchdog (a page rendering past 20 s is reported and skipped, later requests fail fast, a bounded replacement worker keeps rendering); ui.state reports page 
+60396	pdfcraft	M3.4: view tests (layouts, actual size/fit width/fit page, link clicks, field list jump, field highlighting pixels, fonts tab); parity: 10 features to shipped (P0 35.2%)
+60397	pdfcraft	M4.6: bookmark editing: organize outline API (add/rename/move/delete/set page, surgical relinking, /Count recompute), undoable engine edits, 6 automation tools, Bookmarks
+60398	pdfcraft	M3.9: control channel counts real egui passes (eframe runs logic without a pass while the window is hidden): clicks/keys/screenshots fail after 5 s with a clear message a
+60399	pdfcraft	M4.6: parity: bookmark add/rename/delete/move/set-destination shipped
+60400	pdfcraft	Brand assets: ArtCraft logos attributed as Storyteller-owned (not open source, LicenseRef-Storyteller-Trademark) with a narrow asset-gate exception for docs/brand logos; 
+60401	pdfcraft	M4.4: page labels (Number pages): organize label ranges with Acrobat semantics (later pages keep labels, continuations merged), undoable NumberPages edit, page_number too
+60402	pdfcraft	Community links: Discord button in the title bar, ArtCraft community card on Home, About dialog with ArtCraft mark/wordmark and links, Help menu commands (help.discord/ap
+60403	pdfcraft	M4.4: parity (page labels shipped), roadmap update for session 7
+60404	pdfcraft	M5.1/M5.2: comments engine: new annot crate (L3) with builders and appearance streams for sticky note, highlight, underline, strikeout, squiggly, rectangle, oval, line/ar
+60405	pdfcraft	M5.3/M5.4: commenting UI: quick-bar Comment/Highlight/Draw flyout groups with pin, colour and thickness; sticky note and text box composer; highlight/underline/strikethro
+60406	pdfcraft	M8.1: Protect Using Password: engine Protect/RemoveProtection edits (Acrobat permission levels: printing, changes, copy, screen readers; AES-256/AES-128/RC4 compatibility
+60407	pdfcraft	M6.1/M6.2: form filling: new fonts (L2) and forms (L3) crates; field tree with inheritance, widgets, options; set_value with validation and regenerated appearances (auto-
+60408	pdfcraft	M4.4: page boxes and duplicate: organize set_page_box (crop/trim/bleed/art/media by margins or rect, defaults and inheritance handled, all-or-nothing validation) and dupl
+60409	pdfcraft	M7.6: header & footer, watermark, background: new model (L2: page tree with inheritance, display geometry) and edit (L4) crates; marks drawn in display space on rotated p
+60410	pdfcraft	Roadmap: session 8 progress (M4 88%, M7 6%, overall ≈ 14%)
+60411	pdfcraft	M10.3 (first formats): Export a PDF to images (PNG, 72–600 dpi) and text: engine export module (Exporter over the working file, so unsaved edits and hidden layers apply),
+60412	pdfcraft	M5.7: Fill & Sign: typewriter text, check/cross/dot/line marks (PrintCraft-drawn stamps), today's date (local time), drawn signature (signature pad, saved in settings, pl
+60413	pdfcraft	M10.2/M11.1: Create a PDF (blank, from PNG/JPEG images at their resolution with transparency, from plain text) in a new create crate (L4); opening an image or text file c
+60414	pdfcraft	M5.4: Comment Properties (appearance: colour, opacity, thickness, note icon; general: author, subject; review history) from the canvas and card menus, one undo step; Comm
+60415	pdfcraft	M5.5/M6.7: Flatten comments and form fields: appearances (with /AS states) drawn into page content by Algorithm 8.1, pop-ups and replies removed, flattened widgets pruned
+60416	pdfcraft	Roadmap: session 8 later arcs (≈ 16%)
+60417	pdfcraft	M4.4: Replace pages (Acrobat semantics: page content, resources and boxes replaced; links, comments, fields and bookmarks kept): organize replace_pages, engine ReplacePag
+60418	pdfcraft	M6.6: Prepare a form: add text, date, check box, radio (new group or join the selected one), drop-down, list box, button and signature fields with Acrobat's names (Text1,
+60419	pdfcraft	M8.5/M8.6/M8.7: Redact a PDF: new content crate (L2: content-stream operators with spans, inline images, serializer, matrices) and redact crate (L4): Redact annotations; 
+60420	pdfcraft	M8.4: Remove Hidden Information and Sanitize Document: scan with per-category counts (metadata, attachments, comments, form fields, hidden text in render modes 3/7 or off
+60421	pdfcraft	Roadmap: session 9 (≈ 18%)
+60422	pdfcraft	M10.5: Print: new print crate (L4) imposes the pages to print onto sheets (Fit/Actual/Shrink/Custom, Multiple pages per sheet with order, borders and auto-rotate, Booklet
+60423	pdfcraft	M10.3/M10.4: Create from TIFF (every page; 1-bit scans stay 1-bit; resolution from the file), GIF and BMP; opening those converts them. Export pages as JPEG (quality) and
+60424	pdfcraft	M7.4: Edit a PDF ▸ Add content: text (click and type; standard fonts, size, bold/italic, colour, alignment, wrapping) and images (PNG/JPEG/TIFF/GIF/BMP, centred at natura
+60425	pdfcraft	M3.10: Frame-time budget tests on a 500-page document (scrolling, Comments with 500 cards, Pages thumbnails, Fields)
+60426	pdfcraft	M6.3/M6.6: Form formats, validation and calculation without a JavaScript engine: Acrobat's AF calls (AFNumber/AFPercent/AFDate/AFTime/AFSpecial format and keystroke, AFRa
+60427	pdfcraft	M6.6/M6.8: Field Properties Appearance tab (border/fill colour, thickness, solid/dashed/beveled/inset/underline, text colour, Helvetica/Times/Courier); tab order by rows/
+60428	pdfcraft	M7.5: Edit image for added images: rotate (the box turns around its centre), flip horizontal/vertical, crop each side (clipped), replace the picture keeping box and trans
+60429	pdfcraft	Roadmap: session 9 later arcs (≈ 21%)
+60430	pdfcraft	M3: Viewer conveniences: Close all (asks only for changed documents), Revert with confirmation, Fit to height, previous/next view (⌘[ ⌘]), page box takes page labels, Sel
+60431	pdfcraft	M5.6/M6.7: Comment and form data exchange: new xfdf crate (L4): XFDF (ISO 19444-1) export/import of comments (replies, pop-ups, ink, quads, line ends, flags, colours) and
+60432	pdfcraft	M5: Add a stamp: palette of Dynamic (By author at time, date), Sign Here and Standard Business stamps in PrintCraft's own design (ISO stamp names where defined; foreign s
+60433	pdfcraft	M4: Organize extras: split by top-level bookmarks (named after them) and by file size; Extract options (separate files, delete after extracting); Rotate Pages dialog with
+60434	pdfcraft	M7: Links: Link tool (drag to create; outlines, select, double-click for Link Properties, Delete), Link Properties (visible/invisible, highlight, thickness, style, colour
+60435	pdfcraft	M5: Comment polish: Mark with checkmark (hidden /StateModel /Marked reply; card toggle and menus), Locked comments (Properties ▸ Locked; refuse move/resize/restyle/delete
+60436	pdfcraft	M5: Roadmap and status for session 10 (≈ 23%)
+60437	pdfcraft	M5: Polygon, Connected lines, Cloud (cloudy border appearance), Callout (leader line with arrow, /RD text box, resize re-attaches the leader) and Insert text (caret) comm
+60438	pdfcraft	M5/M10: Comments panel filters by colour (named swatches) and checkmark; Create PDF from clipboard (image at its size, or text)
+60439	pdfcraft	M9.1–M9.3: new sign crate: DER, X.509, CMS SignedData, PKCS #12 (PBES2 and legacy, MAC) on RustCrypto with aws-lc-rs for RSA private keys; PAdES B-B signing (new or exist
+60440	pdfcraft	M9.5: Signatures in the engine and for agents: every document carries its validated signature fields (revalidated on edits and against the session's trusted certificates)
+60441	pdfcraft	M9.6: Use a certificate in the app: Digitally sign / Certify (draw a rectangle, or click an empty signature field) and Certify (invisible); Sign with a Digital ID, Config
+60442	pdfcraft	M9: Roadmap and status (≈ 26%)
+60443	pdfcraft	M9.6: --dialog sign|certify opens Sign with a Digital ID (headless screenshots, control channel)
+60444	pdfcraft	M9 perf: signature revalidation after edits reuses the signed ranges' digests and the parsed signed revision (DigestCache per document) and no longer scans the file for r
+60445	pdfcraft	M11.1: PDF Optimizer: new optimize crate measures each image's effective resolution where pages draw it and resamples (bicubic) and recompresses (JPEG quality steps or ZI
+60446	pdfcraft	M4/M1: Drag page thumbnails to reorder (selection or the grabbed page, insertion bar, one undo step); damaged files say they were repaired, and Document Properties ▸ Adva
+60447	pdfcraft	M6: Field Properties ▸ Options for every field type: text alignment, default value, scroll long text, rich text, password, file selection, spell check, comb of characters
+60448	pdfcraft	M8: Redaction Properties: overlay text font (Helvetica, Times, Courier), size or auto-size, colour, alignment and repeat, written as /DA, /Q and /Repeat and drawn on appl
+60449	pdfcraft	M11: Roadmap and status (≈ 27%)
+60450	pdfcraft	M6: Order tabs manually: the Fields panel lists fields in tab order and, while preparing a form, moves a field earlier or later on its page (widgets reordered in /Annots,
+60451	pdfcraft	M7: Backgrounds and watermarks from a file: an image or a page of a PDF (imported as a form XObject that draws upright, inherited resources included), scaled relative to 
+60452	pdfcraft	M4: Initial View: Document Properties ▸ Initial View (navigation panel, page layout, magnification, open-to page, window and interface options) and Advanced ▸ reading opt
+60453	pdfcraft	M5/M6: Make Current Properties Default for comments (colour, opacity, width become the tool's default); required fields get a red border when fields are highlighted
+60454	pdfcraft	M4: Cut, copy and paste pages in Organize Pages (⌘C/⌘X/⌘V and a thumbnail context menu; paste after the selection, across documents; the last page can't be cut)
+60455	pdfcraft	M3: Marquee zoom (drag to fill the window with an area, click to zoom in) and Take a Snapshot (copies an area at the current zoom to the clipboard as an image)
+60456	pdfcraft	M3/M4: Roadmap log
+60457	pdfcraft	M5: Area highlight (drag the highlighter off text) and Replace Text (strikeout plus a grouped caret holding the replacement; Highlight flyout, comment_add type replace)
+60458	pdfcraft	M5: Attach a file as a comment (push pin, paperclip, graph or tag icon in PrintCraft's own drawings; the file is embedded and listed under Attachments); comment_add type 
+60459	pdfcraft	M5: Eraser for drawings (Draw flyout): rubs out the parts of ink strokes it passes over, splitting strokes and deleting emptied drawings, in one undo step
+60460	pdfcraft	M6: Date picker: date fields show a month calendar while focused; the picked day is written in the field's own format
+60461	pdfcraft	M6: Duplicate a field across pages (right-click ▸ Duplicate…, all pages or a range): widgets of the same field share one value; a field that is its own widget is split in
+60462	pdfcraft	M6: Several fields at once in Prepare a form: Shift/⌘-click to select, then right-click to Align (left, right, top, bottom, centres), Distribute evenly, or Set Fields to 
+60463	pdfcraft	M6: Prepare a form ▸ Preview (fill the form as a reader would; Edit fields goes back) and Field Properties ▸ Locked (annotation Locked flag; properties greyed out until u
+60464	pdfcraft	M3: View ▸ Zoom ▸ Fit visible (⌘3): zoom so the current page's visible content spans the window
+60465	pdfcraft	M3: Tabs and the window title show the document title when Initial View asks for it (DisplayDocTitle); parity for setting the document language
+60466	pdfcraft	M1: List document revisions and open an earlier one (Document Properties ▸ Advanced; doc_revisions, doc_open_revision); PDF version reads 1.7, not 17
+60467	pdfcraft	M10: MCP resources for open documents: information, text, page text and page images (resources/list, templates, read)
+60468	pdfcraft	M10: Export a PDF ▸ Export all images: JPEGs unchanged, other images as PNG with alpha; skipped images reported; doc_export_all_images
+60469	pdfcraft	M12: Accessibility Checker: new a11y crate with Acrobat's 32 rules in 7 categories, HTML report, fixes (language, title, tab order); options dialog and results panel (Fix
+60470	pdfcraft	M12: Roadmap log for session 11
+60471	pdfcraft	M4: Combine files lists the files first: reorder, remove, add more, and choose each file's pages (doc_combine pages)
+60472	pdfcraft	M6: Image fields: Prepare a form ▸ Image field places an icon-only button that asks for a picture when clicked (buttonImportIcon recognised natively); form_set_image
+60473	pdfcraft	M5: Custom stamps: create from a PDF page or an image under a category and name, kept in the stamp library, placed at natural size; stamp_custom tool
+60474	pdfcraft	M12: Heading-nesting findings read naturally ("H3 follows an H1")
+60475	pdfcraft	M12: Add alternate text: figures one by one with a preview, alternate text or Decorative (content becomes an artifact); accessibility_figures / accessibility_set_alt
+60476	pdfcraft	M3: Advanced Search panel (⇧⌘F): every match with its context, by page; click to go; shares the find bar's search
+60477	pdfcraft	M11: PDF Optimizer ▸ Audit space usage: bytes and share of the file per kind of content; doc_audit_space
+60478	pdfcraft	M11: Optimizer Clean Up removes invalid links and bookmark destinations and unreferenced named destinations
+60479	pdfcraft	M1/M4: Hybrid-reference files: /XRefStm entries replace the table's free entries; signed documents refuse edits that would force a full rewrite
+60480	pdfcraft	M8: Applying redactions cleans the tags: elements of changed marked content lose Alt/ActualText/E, empty marked content leaves them
+60481	pdfcraft	M9: Sign with macOS Keychain identities (keys stay in the Keychain): listed in Sign with a Digital ID; sign_keychain_ids, sign_document id keychain:…
+60482	pdfcraft	M9: Roadmap log
+60483	pdfcraft	M9: Certificate Viewer (chain, Summary, Details, Trust; export, trust) from the Signatures panel; dialog button rows no longer stretch dialogs
+60484	pdfcraft	M10: Create PDF from JPEG 2000 images (JP2 or codestream, embedded as JPXDecode); M1: looping /Prev chains test
+60485	pdfcraft	M5: Text boxes write rich text (/RC XHTML and /DS) in step with their text and style
+60486	pdfcraft	app icon: lion (owner's ArtCraft drawing), Dock/taskbar/launcher wiring, palette docs
+60487	pdfcraft	M5: Fill & Sign typed signatures and initials (Type or Draw; script-font outlines drawn as filled paths); fill_sign_add signature/initials
+60488	pdfcraft	M3: About credits Dancing Script (typed signatures)
+60489	pdfcraft	Signed release pipeline (macOS/Windows/Linux/Web); README community note
+60490	pdfcraft	Web: add Trunk.toml so the release zip finds the site in dist/web with relative URLs
+60491	pdfcraft	xtask: make version.rs compile here and register `cargo xtask version`
+60492	pdfcraft	Roadmap: measured parity (45% of features, ≈35% of effort) and revised Opus 5.5 hour estimate (≈600–1,100 h remaining)
+60493	pdfcraft	M7: PDF font tables move to the fonts crate with Unicode decoding/encoding (ToUnicode, WinAnsi/MacRoman/Standard, Differences glyph names, subset glyph checks)
+60494	pdfcraft	M3: frame-budget tests skip (and say so) when the machine is overcommitted
+60495	pdfcraft	xtask: version test uses gates::root (fixes the xtask test build)
+60496	pdfcraft	M7: Edit text: click a line of existing text and retype it in place, reusing its font when it can show the text, else Helvetica; text_lines / text_edit tools
+60497	pdfcraft	M7: Edit text works on paragraphs: detection, in-place editing with rewrap to the box, original spacing, colour and font (or Helvetica); text_paragraphs and text_edit par
+60498	pdfcraft	M7: Edit text & images: select existing page images to move, resize, rotate, flip, replace, save or delete; page_images, image_edit, image_save tools
+60499	pdfcraft	M7: Format existing text: font family, bold/italic, size, colour and alignment for a paragraph (Format text panel live while editing; text_edit formatting arguments); cen
+60500	pdfcraft	M7: Justify, underline, line spacing, character spacing and horizontal scale for existing paragraphs (and justify for added text); Lucide align-justify icon
+60501	pdfcraft	M10: Scan & OCR ▸ Recognize text: ocrs-based recognition (models fetched by cargo xtask models), invisible searchable text layer, Recognize Text dialog with background pr
+60502	pdfcraft	M10: Recognize text in multiple files (ocr.recognize_batch, ocr_recognize_files): searchable copies written to a folder in the background
+60503	pdfcraft	M6: Acrobat JavaScript: sandboxed boa engine with the forms object model (printcraft-js); custom keystroke/validate/calculate/format scripts, button scripts, document Jav
+60504	pdfcraft	M13: ROADMAP: session 12 progress (OCR, JavaScript, in-place editing)
+60505	pdfcraft	M6: Merge data files into spreadsheet (FDF, XFDF, filled PDF forms → CSV); form_merge_data tool
+60506	pdfcraft	M6: Field Properties ▸ Actions tab (six triggers, JavaScript/link/reset/menu/page/show-hide/submit actions); form_actions, form_set_actions tools; signing UI tests get th
+60507	pdfcraft	M6: Prepare a form detects fields (underscore blanks, rules, boxes, check squares) and names them from their labels; form.detect, form_detect_fields
+60508	pdfcraft	M12: Compare files (new compare crate): word-level text differences, Compare panel with shading on the new file, report PDF, differences as comments; doc_compare, doc_com
+60509	pdfcraft	M12: Compare files: visual differences (pages rendered and compared region by region), shaded orange; doc_compare visual option
+60510	pdfcraft	M13: Action Wizard: built-in actions (Prepare for Distribution, Optimize Scanned Documents, page numbers, confidential, sanitize), custom actions with 12 step kinds, back
+60511	pdfcraft	M11: PDF/A (new preflight crate): verify PDF/A-2b/3b structural rules, Save as PDF/A (XMP identification, generated sRGB output intent, forbidden actions, annotation flag
+60512	pdfcraft	M10: Export to Word (.docx), HTML and RTF (new export crate with a small zip writer): paragraphs, headings, bold/italic, images, page breaks; doc_export_office tool
+60513	pdfcraft	M13: ROADMAP: session 12 later progress (compare, actions, PDF/A, Office export, forms)
+60514	pdfcraft	M8: Redaction drops /PCAdded from rewritten content streams so redacted added text does not stay in the file (#1)
+60515	pdfcraft	M4: Deleted pages leave the file even when bookmarks, links or widgets still point at them (#2)
+60516	pdfcraft	Licensing: standard LICENSE files, NOTICE, ArtCraft brand terms
+60517	pdfcraft	Optimizer: Audit space usage counts images PrintCraft added as images (#3)
+60518	pdfcraft	Forms: CSV import keeps values that span lines (#4)
+60519	pdfcraft	Edit text: a paragraph's new colour no longer spills into the text after it (#6)
+60520	pdfcraft	Forms: multi-select list values survive XML, CSV and text import (#5)
+60521	pdfcraft	Edit text: a rewritten paragraph keeps its place in the text object it shares (#7)
+60522	pdfcraft	Never crash: agent rules, clippy.toml, forbid unsafe
+60523	pdfcraft	Never crash: forms scripts can't overflow the stack or the date arithmetic
+60524	pdfcraft	Never crash: hostile form scripts can't overflow the stack
+60525	pdfcraft	Never crash: last-resort guard around edits, opens, saves and UI commands
+60526	pdfcraft	Never crash: crypt has no panic paths
+60527	pdfcraft	Never crash: filters, fonts, js, optimize and a11y deny the panic lints
+60528	pdfcraft	Never crash: sign has no expect/unreachable
+60529	pdfcraft	Never crash: organize has no expect/unreachable
+60530	pdfcraft	Never crash: render has no expect/unreachable
+60531	pdfcraft	Never crash: engine denies the panic lints
+60532	pdfcraft	Never crash: the automation (MCP/script) tools have no expect/unreachable
+60533	pdfcraft	Never crash: UI and app shell have no expect/unreachable
+60534	pdfcraft	Never crash: create has no expect calls
+60535	pdfcraft	Never crash: deny the panic lints in crates that are already clean
+60536	pdfcraft	Never crash: edit and xfdf have no expect calls
+60537	pdfcraft	Fuzz: run the CLI cargo built, refuse to run without it, and cap child memory on Linux
+60538	pdfcraft	Fix text editing layout and preserve source PDF font styles (#36)
+60539	pdfcraft	FreeBSD: build and test the workspace in a FreeBSD VM
+60540	pdfcraft	FreeBSD: release tarball and platform docs
+60541	pdfcraft	FreeBSD: CI builds and tests PrintCraft in a FreeBSD VM
+60542	pdfcraft	Preferences ▸ Identity: the name on new comments, remembered
+60543	pdfcraft	Export tables: linear column lookups, a column cap, RTF spans
+60544	pdfcraft	Export detected tables to office formats
+60545	pdfcraft	Fonts: use craft-fonts as an optional build input; move the Japanese fonts out
+60546	pdfcraft	Rename PrintCraft to PdfCraft (#174)
+60547	pdfcraft	M14: complete Japanese dialogs, panels, shortcuts and diagnostics (#141)
+60548	pdfcraft	M14: expand Traditional Chinese UI, dialogs and language preferences (#140)
+60549	pdfcraft	Signatures: RFC 3161 timestamps, document timestamps, DSS/VRI and revocation verification (non-network half) (#69)
+60550	pdfcraft	Desktop: write log records to standard error and a rotating log file (#239)
+60551	pdfcraft	Desktop: no eprintln! on the log and panic paths (#246)
+60552	pdfcraft	Add Spanish (es) interface catalog (#251)
+60553	pdfcraft	Add my contributor name (viator1969) (#264)
+60554	pdfcraft	README Downloads: where to get it first, then builds with Windows before macOS (#279)
+60555	pdfcraft	M14: Arabic and Hebrew file names render in the tab strip, recent files and Properties (#285)
+60556	pdfcraft	M10: select pages in the Pages panel and print the selection (#296)
+60557	pdfcraft	Issue #159: open .p12 files with trailing whitespace, PEM armour or base64 (#298)
+60558	pdfcraft	M4: Combine files in its own tab, with a sortable table and unlocking of protected files (#321)
+60559	pdfcraft	M14: reject invalid combine page selector types (#329)
+60560	pdfcraft	Issue #124: a long page label no longer overlaps its bookmark title (#328)
+60561	pdfcraft	Issue #290: File ▸ Open Recent lists the recent files (#323)
+60562	pdfcraft	M13: `pdfcraft-cli mcp --compact` lists 12 tools and finds the rest by search (#353)
+60563	pdfcraft	Issue #157: the Windows portable zip keeps settings, logs and recovery beside pdfcraft.exe (#325)
+60564	pdfcraft	M10.2: Create PDF from multiple files, edited as pages in the Organize grid (#361)
+60565	pdfcraft	Add my contributor name (cyfung1031) (#364)
+60566	pdfcraft	M11: Optimize PDF and Reduce File Size run in the background with a progress bar (#370)
+60567	pdfcraft	UI-POLISH: fix toast wrapping and Linux shortcut hint (#376)
+60568	pdfcraft	Home: pin folders and list their newest PDFs (#383)
+60569	pdfcraft	FDF: replies and review status keep their parent comment (fixes #333) (#388)
+60570	pdfcraft	Keyboard shortcut to enter page number to jump to (#393)
+60571	pdfcraft	M7: pick a Japanese fallback face that has every glyph of the edited text (#384) (#472)
+60572	pdfcraft	Export to Word: detect tables of at most 63 columns, Word's limit (#479) (#483)
+60573	pdfcraft	Comments: a new highlight opens its note for typing (#475) (#481)
+60574	pdfcraft	Phone photos follow EXIF orientation; image signatures stay upright on rotated pages (#434) (#485)
+60575	pdfcraft	Keep document view state consistent when closing tabs and reverting (#439)
+60576	pdfcraft	M14: Bulgarian (Български) interface language (#466)
+60577	pdfcraft	macOS DMG: branded window background and icon layout
+60578	pdfcraft	M7: Arabic in added text (shaping, bidi order, searchable Type 3 glyphs) (#403)
+60579	pdfcraft	M14: German interface catalog (de) (#471)
+60580	pdfcraft	Fix #525 (item 4): phone pattern redacts international numbers whole (#543)
+60581	pdfcraft	Refs #347: encode the full WinAnsi 0x80-0x9F range (Š š Ž ž Œ œ Ÿ ...) (#546)
+60582	pdfcraft	Fix #526: keep text colour in Word, HTML and RTF export (#547)
+60583	pdfcraft	Fix #429: pen strokes stay unselected and show no author popup (#549)
+60584	pdfcraft	Fix #273: ↓ / ↑ turn pages in single-page view (#550)
+60585	pdfcraft	Fix #454: dependencies keep only line tables in dev builds (#559)
+60586	pdfcraft	Fix #527: Shift+click extends the text selection (#560)
+60587	pdfcraft	Fix #299: typed and drawn signatures stay upright on rotated pages (#562)
+60588	pdfcraft	Fix #445: prefer the discrete GPU on desktops with a monitor on each GPU (#558)
+60589	pdfcraft	M7: Type 3 fallback glyphs get a well-formed d1, so Acrobat draws them (#548)
+60590	pdfcraft	Issue #537: pdfcraft-cli --help prints the full usage (#540)
+60591	pdfcraft	M14: Hungarian interface catalog (hu) (#545)
+60592	pdfcraft	M7: edit text: Cyrillic/Greek fallback letters are spaced proportionally (#528)
+60593	pdfcraft	Forms: rotate field widgets with /MK /R (#516)
+60594	pdfcraft	M5: draw all ten PDF line-ending styles (#520)
+60595	pdfcraft	M4: zoom the Organize page grid (#468)
+60596	pdfcraft	Flatten Fill & Sign marks when saving (#464)
+60597	pdfcraft	M10: Print ▸ Properties… opens the printer driver's own settings (#482)
+60598	pdfcraft	Reduce large-PDF memory growth (#307) (#419)
+60599	pdfcraft	Preserve alternate appearances and indirect push-button values on redraw (#417)
+60600	pdfcraft	Refs #142: decode outline titles with BOMs and raw UTF-8 consistently (#614)
+60601	pdfcraft	Refs #169: no form bar for push-button-only documents; Screen is not a comment (#615)
+60602	pdfcraft	Fix #155: edit text across content stream pieces (#628)
+60603	pdfcraft	Export to Word/HTML/RTF: read text and images drawn by form XObjects (fixes #314) (#406)
+60604	pdfcraft	M14: correct Hungarian Windows Store and saved-signature labels (#595)
+60605	pdfcraft	Refs #103: ship the OCR models in the desktop release packages (#630)
+60606	pdfcraft	M5: name line endings in the comment properties combo (#582)
+60607	pdfcraft	Fill & Sign: remove white background from imported signature images (#637)
+60608	pdfcraft	Never crash & persist: Make Current Properties Default and page-display choices survive a restart (#340, #266) (#365)
+60609	pdfcraft	View: draw page previews at the resolution they are shown (#529)

@@ -1,0 +1,610 @@
+40000	effectcraft	M6.7: roto brush segmentation + propagation
+40001	effectcraft	UI-8, UI-3: native macOS menu bar; timeline columns, search, reveal-add, UU, CTI snapping
+40002	effectcraft	UI-7: Home screen with recent projects, thumbnails and community links
+40003	effectcraft	M6.7: refine edge + freeze + UI
+40004	effectcraft	OUT-2: WebM export (VP9 intra encoder + alpha, Opus), WAV/AIFF audio-only outputs
+40005	effectcraft	CMP-6: Flowchart panel
+40006	effectcraft	UI-1: every After Effects workspace
+40007	effectcraft	UI-8, UI-3, UI-7, CMP-6, UI-1: parity and control-protocol docs
+40008	effectcraft	CMP-7: Essential Graphics controls, master properties, .ectemplate templates, Responsive Design — Time
+40009	effectcraft	ANM-5: sampleImage, data footage (JSON/CSV/TSV) with footage().sourceData, thisProject, error list, Expression Language menu
+40010	effectcraft	M12.6: 3D Camera Tracker effect + UI
+40011	effectcraft	PRJ-8: proxies — Set Proxy / None / Use Proxy / Create Proxy / Interpret Proxy, Proxy Use; PRJ-3 interpret fields, PAR, alpha guess
+40012	effectcraft	M13.5: stroke taper/wave/multi-dashes, radial gradient highlight, variable-width mask feather, adaptive motion-blur samples
+40013	effectcraft	CMP-7: Essential Graphics panel, expression error bar and Expression Language menu, proxy indicator, Interpret Footage dialog
+40014	effectcraft	CMP-7: document Essential Graphics, templates, responsive time, proxies and expression data
+40015	effectcraft	M13.5: camera iris bokeh depth of field and focus-link commands
+40016	effectcraft	M0.11: parity audit at fa26ad9 (≈93% weighted; 298/298 effects; ≈11–14 h wall clock left)
+40017	effectcraft	M15.2: web app depth (WEB-1): browser storage, Web Audio, worker renders, WebGPU viewer, PWA
+40018	effectcraft	M0.11: parity summary — sampleImage/footage() and proxies landed (CMP-7, ANM-5, PRJ-8)
+40019	effectcraft	M13.5: timeline/project column scrolling, keyframe label groups
+40020	effectcraft	M13.5: vertical Roman, tate-chu-yoko, forced LTR, animated caret, Lottie style runs
+40021	effectcraft	M13.5: Layer Style dialog
+40022	effectcraft	M9.12: effect parameter fidelity – all categories
+40023	effectcraft	M13.5: ROI resize handles, Pan Behind snapping, 3D reference axes
+40024	effectcraft	M13.5: Graph Editor snapping to markers, layer ends and work area
+40025	effectcraft	M13.5: Animate Text > Variable Font Axes
+40026	effectcraft	M13.5: parity notes for the long-tail polish
+40027	effectcraft	M7.7: camera/light rigs and Advanced 3D motion blur, blend modes, track mattes
+40028	effectcraft	M13.5: new StrokeStyle/ShapePath fields in the merged SVG and PSD importers
+40029	effectcraft	M12.7: Classic 3D runs on the GPU (per-pixel depth sort, lights, ray-cast shadows, DOF); Auto sends 3D comps to the GPU
+40030	effectcraft	M9.13: Lumetri (HSL Secondary, hue/sat curves, RGB curves, HDR, looks) + Hue/Sat ranges + Levels/Curves channels + Timewarp optical flow
+40031	effectcraft	M13.6: scopes, content-aware fill (PatchMatch/flow propagation/membrane), cut detection and auto-trace algorithms
+40032	effectcraft	M12.7: adjustment layers on the GPU (effect stacks resident on the device, CPU fallback per non-GPU effect)
+40033	effectcraft	M12.7: GPU effect family modules (colour, distort, generate) scaffolding; clippy fixes
+40034	effectcraft	M7.7: viewer and colour completion
+40035	effectcraft	M12.7: GPU distort/stylize effects (Turbulent Displace, Displacement Map, Wave Warp, Ripple, Twirl, Bulge, CC Lens, Mesh Warp, Mosaic, Find Edges, Emboss)
+40036	effectcraft	M12.7: GPU particles (CC Particle World, CC Particle Systems II, Particle Playground cannon): compute-shader simulation with GPU checkpoints, CPU as the oracle
+40037	effectcraft	M14.5: wire the remaining settings; keyframe assistants and labels; AE menu entries
+40038	effectcraft	M12.7: GPU blur/transition/generate effects (radial, camera lens, CC radial fast, wipes, venetian, cell pattern, checkerboard, grid, 4-color, noise, add grain)
+40039	effectcraft	M12.7: GPU colour effects (Color Balance, Vibrance, Lumetri, Black & White, Tritone, Colorama, Channel Mixer, Selective Color, Linear Color Key, Key Light)
+40040	effectcraft	M7.7: merge fixes (Exposure param path, remaining stubs list, effects doc)
+40041	effectcraft	M9.13: Card Dance / Shatter / Card Wipe camera systems, lighting and material
+40042	effectcraft	M12.7: bench --gpu adds an adjustment-layer comp, speedup and GPU-vs-CPU agreement columns
+40043	effectcraft	M12.7: docs (architecture, parity, gpu crate docs)
+40044	effectcraft	M13.6: Lumetri Scopes, Footage, Media Browser, Metadata, Progress and Content-Aware Fill panels; Content-Aware Fill, Scene Edit Detection, Auto-trace, Align Video to Data
+40045	effectcraft	M9.13: Particle Playground Particle Exploder, Ephemeral Property Mapper, Affects, text and layer particles
+40046	effectcraft	M13.6: panel polish (log-density scopes, narrow-panel layouts) and an offscreen panels snapshot test
+40047	effectcraft	M9.13: Fill masks/feather, Refine mattes Reduce Chatter and motion blur
+40048	effectcraft	M13.2: collapsed precomps project their 3D layers (and environment sky) with the parent comp's view size
+40049	effectcraft	M14.5: fmt after merge
+40050	effectcraft	M9.13: Radio Waves Image Contours / Mask waves, Parameters Are Set At, reflection, profile
+40051	effectcraft	M10.2: VP9 inter frames (motion search, MV prediction, loop filter, forward probability updates, rate control)
+40052	effectcraft	M9.13: Foam flow map, wobble, pop velocity, bubble texture layer, orientation, environment map
+40053	effectcraft	M13.2: OpenType features (stylistic sets, figures, fractions, ordinals, dlig, true small caps / superscripts with faux fallback), Character panel OpenType popup, text.fon
+40054	effectcraft	M9.13: Minimax Don't Shrink Edges, Channel Combiner Saturation Multiplied, 3D Channel Extract anti-alias, Block Dissolve Soft Edges, locked pinning, Optimal Pixels
+40055	effectcraft	M13.1: branching history, puppet pin recording, WebAssembly plug-in API, ScriptUI model and hosts, File ▸ Scripts, deterministic render test
+40056	effectcraft	M13.3: Subspace Warp content-preserving mesh warp, face tracker library
+40057	effectcraft	M13.2: PDF / Illustrator (.ai) / EPS vector footage (effectcraft-pdf): continuous rasterisation, layered composition import, Create Shapes from Vector Layer; SVG render t
+40058	effectcraft	M13.2: PSD smart objects (SoLd/PlLd + lnk2 embedded files) import as placed footage of the embedded document or image
+40059	effectcraft	M13.2: docs (parity, architecture)
+40060	effectcraft	M13.2: Create VR Environment nests the scene as a collapsed 3D precomp in each face comp (lights copied)
+40061	effectcraft	M9.13: Transform shutter-angle motion blur, Glow Operation / Arbitrary Map, Cartoon Edge Enhancement
+40062	effectcraft	M13.1: ScriptUI frontend (dialogs, palettes, dockable panels), script menus, example plug-in, docs
+40063	effectcraft	M13.3: face tracking methods, Face Track Points / Measurements, camera lens distortion, docs
+40064	effectcraft	M13.4: hevcenc / av1enc crate skeletons (API contract, layers)
+40065	effectcraft	M9.13: Camera Lens Blur fringe / blur map, Colorama full controls, Selective Color Details
+40066	effectcraft	M13.1: clippy (history test)
+40067	effectcraft	M13.3: CameraSolve distortion field in UI test after merge
+40068	effectcraft	M10.2: Render Queue completeness (render settings, output module, templates, logs, overflow, notify)
+40069	effectcraft	M9.13: Cell Pattern HQ variants, Advanced Spill Suppressor Ultra controls, Inner/Outer Key masks and cleanup
+40070	effectcraft	M13.4: HEVC / AV1 output modules (MP4 hvc1/av01, WebM AV1), codec + Opus options in engine, UI, CLI
+40071	effectcraft	M13.4: hevcenc I/P encoder (CABAC, RD CU decisions, intra/merge/AMVP), filmcraft + ffmpeg bit-exact round trips
+40072	effectcraft	M13.4: av1enc key and inter frames, bit-exact with libdav1d
+40073	effectcraft	M13.5: extended viewer (custom 3D views / Draft 3D render the pasteboard around the comp frame; view.extendedViewer)
+40074	effectcraft	M13.4: hevcenc deblocking filter (in-loop, bit-exact with ffmpeg), scratch buffers, POC-wrap / high-QP tests
+40075	effectcraft	M9.13: Keylight colour suppression / balancing and source crop methods, Scribble caps / joins / Start-End Apply To
+40076	effectcraft	M13.4: hevcenc sign data hiding, noise / QP 0 tests, README
+40077	effectcraft	M13.4: hevcenc clippy precedence fix
+40078	effectcraft	M9.13: Rolling Shutter Repair Pixel Motion Detail, Reshape correspondence points
+40079	effectcraft	M13.4: HEVC / AV1 export round trips (FilmCraft import + ffprobe/ffmpeg/libdav1d oracles)
+40080	effectcraft	M13.4: hevcenc faster intra mode search, ffprobe stream-info test, tiny sizes
+40081	effectcraft	M13.4: hevcenc README measurements
+40082	effectcraft	M9.13: Advanced Lightning Alpha Obstacle and Expert Settings
+40083	effectcraft	M13.5: Home ▸ Learn tab with interactive tutorials (learn.list/start/step/stop/state, coach card, target highlight)
+40084	effectcraft	M13.4: av1enc sub-sample motion search, deblocking loop filter
+40085	effectcraft	M9.13: Path Text kerning, shear / scale, line spacing, fade time and jitter
+40086	effectcraft	M13.4: av1enc frame-to-frame CDF carry-over, intra mode and transform type RD
+40087	effectcraft	Parity audit at 978e8d7: ≈94% weighted (98% with fractions), 80/12/0, ≈4–5 h wall clock left
+40088	effectcraft	M13.5: UI fidelity pass (compact rows, flat rows with hairlines, switch wells, selected name cells, muted bars, AE ruler/work-area layout, twirl chevrons, timecode size, 
+40089	effectcraft	M13.5: docs (parity: extended viewer, Learn tutorials, UI fidelity)
+40090	effectcraft	M9.13: Add / Match / Remove Grain preview region, presets, channel balance, sampling and temporal filtering
+40091	effectcraft	M13.4: av1enc speedups (vectorisable forward transform, separable sub-sample paths, cheaper loop filter search), more oracle cases
+40092	effectcraft	M9.13: Caustics Sky group and light types, Wave World wireframe controls, ground and dry areas
+40093	effectcraft	M13.7: ScriptUI resource strings, onDraw graphics, live onChanging, Socket
+40094	effectcraft	M13.6: PDF/AI text, images, tiling patterns, blend modes, soft masks, pages; clip groups to masks / Merge Paths
+40095	effectcraft	M13.4: av1enc SATD intra mode ranking, intra benches
+40096	effectcraft	M13.4: av1enc README wording
+40097	effectcraft	M9.13: VR Converter Facebook / EAC cube maps and FullDome fisheye, VR Digital Glitch full controls; PARTIAL list empty
+40098	effectcraft	M13.6: PSD smart objects apply perspective quads and placed-layer warps
+40099	effectcraft	M13.7: Essential Graphics scripting hooks, Font and uniform Scale controls, Open in Essential Graphics
+40100	effectcraft	M13.6: variable font axes in the character style
+40101	effectcraft	M13.8: Preview panel shortcuts and Align panel commands
+40102	effectcraft	M13.6: Classic 3D bokeh depth of field on the GPU (WGSL); 3D-matte GPU check
+40103	effectcraft	M13.8: Advanced 3D iris depth of field, collapsed precomps, extruded strokes
+40104	effectcraft	M13.8: parity notes for Preview panel, Align panel and Advanced 3D
+40105	effectcraft	M13.9: gpu effect family scaffolding (fx_key, fx_stylize, fx_noise)
+40106	effectcraft	M13.7: Save Frame As Photoshop Layers / ProEXR, Watch Folder, Vanishing Point (disabled), Create Nulls From Paths, VR Comp Editor, Help tutorials
+40107	effectcraft	M13.7: parity notes (AUT-2, CMP-7, menu items)
+40108	effectcraft	M13.6: parity notes
+40109	effectcraft	M13.9: gpu keying, matte and channel effects (fx_key)
+40110	effectcraft	M13.9: gpu colour corrections (fx_tone)
+40111	effectcraft	M13.9: gpu noise, blurs and time (median, dust & scratches, remove grain, turbulent / fractal noise modes, noise alpha / HLS, smart / bilateral / channel / compound blur,
+40112	effectcraft	M13.9: gpu stylize and distort (posterize, threshold, CC Threshold / RGB, strobe, CC Vignette, scatter, brush strokes, roughen edges, texturize, motion tile, CC Kaleida, 
+40113	effectcraft	M13.9: gpu Shadow/Highlight, CC Color Neutralizer, Invert HLS / YIQ
+40114	effectcraft	M13.9: gpu Twirl (Legacy), CC Ripple Pulse, CC Power Pin (full perspective), CC Flo Motion
+40115	effectcraft	M13.9: gpu Color Stabilizer apply pass
+40116	effectcraft	M13.10: web frame workers fed by project diffs, offloaded Roto Brush propagation, non-blocking wait jobs, browser Media Browser
+40117	effectcraft	M13.9: gpu Refine Soft / Hard Matte (single-frame refinement)
+40118	effectcraft	M13.9: docs (parity EFF-5, architecture GPU effects)
+40119	effectcraft	M13.12: pdf mesh shadings (types 4-7) and function-based shadings
+40120	effectcraft	M13.12: pdf knockout/isolated transparency groups, group alpha and masks on group results
+40121	effectcraft	M13.12: pdf /W2 and /DW2 vertical metrics, CMap WMode
+40122	effectcraft	M13.12: pdf CCITT G3/G4 images, parser robustness tests and panic fixes
+40123	effectcraft	M13.9: gpu crate docs, tidy GPU_EFFECTS
+40124	effectcraft	M13.10: visual editors for Lumetri curves, Colorama output cycle, Glow colour map, Reshape correspondence points; scrolling Preview, AE-style comp tabs; web docs
+40125	effectcraft	M13.12: EPS text (show variants, charpath, stringwidth, embedded Type 1/CFF, fallback fonts)
+40126	effectcraft	M13.10: clippy (FRAC_1_SQRT_2 in the Colorama test)
+40127	effectcraft	M13.4: opus SILK (NB/MB/WB, mid/side stereo) and hybrid (SWB/FB) modes
+40128	effectcraft	M13.4: WebM Opus uses the module's bitrate and application (SILK / hybrid / CELT), low-bitrate export test
+40129	effectcraft	M13.4: opus extreme-input tests, SILK doc
+40130	effectcraft	M13.12: Create Shapes from Vector Layer keeps images as parented footage layers in paint order
+40131	effectcraft	M13.4: docs (parity, architecture)
+40132	effectcraft	M13.12: Variable Font Axes animators change advances (text re-spaced)
+40133	effectcraft	M13.11: advanced 3d gpu
+40134	effectcraft	M13.11: essential graphics mirrored and linked properties
+40135	effectcraft	M13.12: plug-in ABI hardening (memory limit, manifest length, slider schema) and tests
+40136	effectcraft	M13.4: engine tests after merge (12 formats; templates name the module)
+40137	effectcraft	M13.12: script socket port validation, resource-string trailing commas, parser and socket edge-case tests
+40138	effectcraft	M13.12: docs (pdf README, parity, plug-ins), EPS Type 3 fonts reported
+40139	effectcraft	M13.14: large-project generator, background compact auto-save
+40140	effectcraft	M13.14: agent-interface audit (every command over MCP, control channel and exec --list; automation ids for every widget)
+40141	effectcraft	M13.11: scriptui concave fills, real images, wasm cfg gating
+40142	effectcraft	M13.13: gpu texture pool, Auto per-comp backend choice, warp-family GPU ports
+40143	effectcraft	M13.13: fuse 8/16 bpc quantise into the layer composite; steady-state bench traffic
+40144	effectcraft	M13.11: docs (parity PRV-3, 3D-3, CMP-7, AUT-2; architecture GPU Advanced 3D)
+40145	effectcraft	M13.13: GPU Circle, Ellipse, Iris Wipe, Bevel Alpha, Bevel Edges, Gaussian Blur (Legacy)
+40146	effectcraft	M13.13: docs (parity EFF-5 / PRV-3, architecture GPU section)
+40147	effectcraft	M13.14: lazy project open, non-blocking UI with large projects, bench --ops
+40148	effectcraft	M13.15: qa scenarios 1-4 (kinetic type, shape logo, compositing, tracking) and fixes
+40149	effectcraft	M13.14: performance section with before/after numbers; test tidy
+40150	effectcraft	M13.15: qa essential graphics template via CLI script
+40151	effectcraft	M13.15: qa project lifecycle; Collect Files makes its folder; agents cookbook
+40152	effectcraft	M13.15: qa batch tool and reply affordances
+40153	effectcraft	Parity audit at 58163a2: ≈98% weighted (99.6% with fractions), 87/5/0, ≈2–2.5 h wall clock left
+40154	effectcraft	M13.22: GPU CC light family (CC Light Rays, CC Light Burst 2.5, CC Light Sweep, CC Light Wipe)
+40155	effectcraft	M13.23: GPU 3D Channel effects (aux channels as textures)
+40156	effectcraft	M13.25: project templates engine — eight original built-in templates with Essential Graphics controls and rendered thumbnails; user .ectemplate templates in the config Te
+40157	effectcraft	M13.23: GPU colour management (LUTs, OCIO, Color Profile Converter, Lumetri LUT/look)
+40158	effectcraft	M13.25: View > Simulate Output > My Custom RGB (primaries, white, gamma or an RGB ICC profile; kept in Settings; view.customRgb) and File menu entries for templates
+40159	effectcraft	M13.22: GPU transitions and perspective (Block Dissolve, CC Glass/Grid/Image Wipe, CC Jaws, CC Line Sweep, CC Radial ScaleWipe, CC Scale Wipe, CC Twister, CC WarpoMatic, 
+40160	effectcraft	M13.23: GPU Immersive Video effects
+40161	effectcraft	M13.22: GPU time effects (Time Difference, Time Displacement, CC Force Motion Blur, CC Wide Time, Pixel Motion Blur, Timewarp's frame building; motion vectors and frame f
+40162	effectcraft	M13.25: Home Templates gallery (thumbnails, open, delete, Save Current as Template), Save as Template and My Custom RGB dialogs, form automation ids; parity update
+40163	effectcraft	M13.22: GPU compositing of Advanced 3D runs with blend modes, track mattes (2D and 3D), Preserve Transparency, and environment backgrounds (Classic and Advanced 3D skies)
+40164	effectcraft	M13.22: docs — architecture GPU section (time / text / transition families, Advanced 3D split runs and skies on the GPU), parity (EFF-5, 196 GPU effects)
+40165	effectcraft	M13.24: web app depth (WEB-1) — GPU effects in frame workers, OPFS disk cache, storage manager
+40166	effectcraft	M13.23: GPU simulation render passes
+40167	effectcraft	M13.23: docs — GPU effects part B (parity EFF-5, architecture GPU section, ROADMAP count, gpu crate docs)
+40168	effectcraft	media: WebM VP9 alpha imports as straight alpha (FilmCraft 2c5ba7a)
+40169	effectcraft	M13.23: Shatter wireframe views and Foam's texture / map extras fall back via gpu_supported (no readback attempt)
+40170	effectcraft	M13.26: effectcraft-interchange crate (L3): timeline documents to compositions and back via filmcraft-interchange (FCP7 XML, FCPXML, OTIO, EDL)
+40171	effectcraft	av1enc tests: decode with a single-threaded filmcraft-av1 decoder
+40172	effectcraft	M13.26: Premiere Pro interop commands (file.importTimeline, file.exportTimeline with ProRes 4444 pre-renders), File menu entries, export dialog, docs and pixel round-trip
+40173	effectcraft	Puppet tools: pin editing, rigging to nulls, follow-through; expression runtime fix
+40174	effectcraft	Viewer pan no longer snaps back; drag to reorder layers in the Timeline
+40175	effectcraft	M13.26: import command keeps After Effects' menu label
+40176	effectcraft	M13.27: sim effects golden hashes
+40177	effectcraft	Parity audit at d39c0e8: ≈99% weighted, 89/3/0, every P0 feature done
+40178	effectcraft	M13.29: particle effects golden hashes
+40179	effectcraft	M13.28: golden hashes of the plan-drawn CPU effects (pinned before the GPU refactor)
+40180	effectcraft	Timeline: working rename and twirl arrows, every property shortcut (AA…UU, Alt+Shift keys, Ctrl+`)
+40181	effectcraft	M13.28: GPU pixel ports (fx_pixel2): CC Cross/Radial/Vector Blur, Reduce Interlace Flicker, CC Composite, Color Link, Cineon, HDR Compander/Highlight Compression, Grow Bo
+40182	effectcraft	M13.29: GPU effects part D (particles and remaining fallbacks)
+40183	effectcraft	M13.29: ROADMAP GPU effect count
+40184	effectcraft	M13.28: GPU generators (fx_gen2): Lightning, Advanced Lightning, Beam, Lens Flare, Radio Waves, Vegas, Stroke, Scribble, Write-on, Paint Bucket, Eyedropper Fill, CC Glue 
+40185	effectcraft	M13.28: architecture notes for the part C GPU effects
+40186	effectcraft	M13.30: web depth and polish
+40187	effectcraft	M13.30: Content-Aware Fill in a job worker on its GPU
+40188	effectcraft	M13.32: web main-thread stall: Warp Stabilizer plans solved in job workers
+40189	effectcraft	Licensing: standard LICENSE files, NOTICE, ArtCraft brand terms
+40190	effectcraft	Never crash: steering rules, clippy.toml, forbid unsafe
+40191	effectcraft	Never crash: last-resort guard around command execution, and a logging panic hook
+40192	effectcraft	Never crash: PSD reader bounds overflow and input-sized allocations
+40193	effectcraft	Never crash: SVG path data loop and deep nesting
+40194	effectcraft	Never crash: PDF/EPS close-path, CFF outlines and PostScript radix numbers
+40195	effectcraft	Never crash: Lottie enum values can't overflow
+40196	effectcraft	Never crash: interchange import/export (bad precomp refs, deep XML) without panics
+40197	effectcraft	Never crash: media crate without expect()
+40198	effectcraft	Never crash: project crate without expect()
+40199	effectcraft	Never crash: Tick and timecode arithmetic can't overflow or divide by zero
+40200	effectcraft	Never crash: reject deeply nested expressions instead of overflowing the stack
+40201	effectcraft	Never crash: scripts nested too deeply return an error instead of overflowing the stack
+40202	effectcraft	Never crash: engine without expect() (job polling, commands, menus)
+40203	effectcraft	Never crash: effects crate without expect()
+40204	effectcraft	Never crash: trackers and camera solver without expect()
+40205	effectcraft	Never crash: text layout and font resolution without expect()
+40206	effectcraft	Never crash: raster and path crates without expect()/unwrap()/unreachable!()
+40207	effectcraft	Never crash: render and gpu crates without panic!()
+40208	effectcraft	Never crash: frame-pool panic handler and ui-egui without expect()
+40209	effectcraft	Never crash: AV1 encoder without expect()/unreachable!()
+40210	effectcraft	Never crash: HEVC encoder without expect()/unreachable!()
+40211	effectcraft	Never crash: Opus and VP9 encoders without expect()
+40212	effectcraft	Never crash: deny panic lints in the already-clean crates and apps
+40213	effectcraft	Unsaved changes: ask before closing a modified project; the modified mark follows undo
+40214	effectcraft	Project operations (M3): Layer Settings, lock-aware layer commands, New Comp from Selection, menu fixes, safe project files
+40215	effectcraft	Shortcuts: don't bind macOS-only Ctrl+Cmd shortcuts off macOS
+40216	effectcraft	Previews (M4): RAM preview keys and eviction, Auto resolution while playing, Cache Before Playback that fits, Cache Frames When Idle, purges
+40217	effectcraft	Previews (M4): Preserve frame rate / resolution when nested, nested comps past their end, one motion blur gate
+40218	effectcraft	Fix the periodic freeze on Windows; keyframe drag, copy/paste and Graph Editor behave like After Effects
+40219	effectcraft	M5.15–M5.16: Timeline-visible J/K and Select All, Graph Editor Auto-Select Graph Type, Key Light eyedropper
+40220	effectcraft	GPU on wgpu's OpenGL backend (FreeBSD / Linux without Vulkan)
+40221	effectcraft	FreeBSD: system info reports memory, CPU model and OS version
+40222	effectcraft	M3.15: Timeline tabs per open comp; Project double-click opens; tab drag insertion mark
+40223	effectcraft	Expressions: keep the runtime usable after errors and property reads
+40224	effectcraft	Compositions: reject zero and negative frame rates instead of panicking
+40225	effectcraft	Keyframes: a Hold key no longer eases the motion into it
+40226	effectcraft	Scripting: Property.keyInSpatialTangent / keyOutSpatialTangent under their AE names
+40227	effectcraft	M4.13: motion blur of collapsed precomps and of animated shape / text content
+40228	effectcraft	M13.30–M13.31: ArtCraft logo in the Tools bar; Home screen laid out like After Effects'
+40229	effectcraft	M4.14: content-keyed RAM preview frames (M4 done); proxies in the disk cache key
+40230	effectcraft	M13.32: View ▸ New Viewer — several Composition viewers
+40231	effectcraft	M13.33: nested comp markers on the precomp layer bar
+40232	effectcraft	M13.34: audio scrubbing (Ctrl/Cmd-drag the current time)
+40233	effectcraft	M13.35: Roto Brush trained model — swappable segment module, MobileSAM in pure Rust
+40234	effectcraft	M13.36: face tracking trained model (MediaPipe Face Landmarker, pure Rust)
+40235	effectcraft	Windows packaging: Start Menu/Add-Remove icon, no console window, correct description
+40236	effectcraft	keyframe: never-crash deny lints (craftrules standards/never-crash.md)
+40237	effectcraft	Contribution #95
+40238	effectcraft	audio: allow the deprecated fetch_update while rust-version is 1.95
+40239	effectcraft	Windows on ARM64: release builds, PE header check, install test on ARM64 hardware
+40240	effectcraft	Merge fixes for #95 + #71 on current main
+40241	effectcraft	text: script-aware system font fallback; accept PostScript / full font names
+40242	effectcraft	Puppet: selected pins are filled and ringed, unselected hollow (#96)
+40243	effectcraft	Timeline: selected effect rows highlight (#91, #97)
+40244	effectcraft	Effects: adding an effect brings up Effect Controls (#87)
+40245	effectcraft	Project: opening a comp brings up its Composition panel (#90)
+40246	effectcraft	M3.16: deleting Project items in use asks first (After Effects parity)
+40247	effectcraft	G2: font menus list the installed fonts
+40248	effectcraft	Render Queue: Render Settings templates apply from the menu (#117)
+40249	effectcraft	Contribution #142
+40250	effectcraft	Rename PrintCraft to PdfCraft (storytold/pdfcraft) (#207)
+40251	effectcraft	README Downloads: where to get it first, then builds with Windows before macOS (#291)
+40252	effectcraft	G3: GL adapters pass the WebGL2-limits decline test (FreeBSD CI)
+40253	effectcraft	MCP: add the autosave _meta without IndexMut (#280 follow-up)
+40254	effectcraft	App: only a held lock means another launch is starting (#283 follow-up)
+40255	effectcraft	G3: audio scrub test waits on the clock, not a step count (flaky under load)
+40256	effectcraft	Fix NVIDIA Dust & Scratches threshold rounding (#211)
+40257	effectcraft	Media: checked offset and as_chunks_mut in the stereo interleave (#305 follow-up)
+40258	effectcraft	macOS DMG: branded window background and icon layout
+40259	effectcraft	MCP: describe_command and execute_command accept `id` again (#365 follow-up)
+40260	effectcraft	text, ui: the CJK fallback fonts follow the interface language
+40261	effectcraft	UI: Compact and align effect parameter rows
+40262	effectcraft	GPU: note why Posterize's division correction is an fma (#405 follow-up)
+40263	effectcraft	Format the merged community fixes (#561-#566 follow-up)
+40264	effectcraft	Scripting: Property.selected=false deselects mask and effect groups too (#566 follow-up)
+40265	effectcraft	Import animated GIFs as movies
+40266	effectcraft	Import: Purge frees decoded GIFs; a browser tab keeps less of one GIF (#567 follow-up)
+40267	effectcraft	Reload Footage shows new pixels and keeps Photoshop layers; Reload Footage Changed on Disk
+40268	effectcraft	Add rendered-frame fidelity scoring
+40269	effectcraft	G2: Fix effect self-inputs, CC Composite, and control activation
+40270	effectcraft	Fix live preview freezing during rapid property edits
+40271	effectcraft	Expressions: Add Expression applies to the selected properties (#476)
+40272	effectcraft	EXR: do not double the part name of Blender 5 per-pass parts (#481)
+40273	effectcraft	Viewer: Ctrl/Cmd draws a shape from its centre, as in After Effects (#443 follow-up)
+40274	effectcraft	macOS: projects open from Finder; .pcraft is PhotoCraft's again
+40275	effectcraft	Scripting: importFile(ImportOptions) imports one file unless sequence is set (#475)
+40276	effectcraft	Import: Automatically Reload Footage is Off / Non-Sequence Footage / All Footage, as in After Effects; a reload never shows disk-cached frames from before (#578 follow-up
+40277	effectcraft	QA: frame scores refuse NaN samples and mismatched buffers (#427 follow-up)
+40278	effectcraft	Appearance: zbus follows eframe's version instead of an exact pin (#519 follow-up)
+40279	effectcraft	UI: the drop hint and drop errors go through the interface catalog; the Wayland notice points to the README (#447 follow-up)
+40280	effectcraft	Text: layer.setText's schema accepts discretionaryLigatures and ss01–ss20 under checked execution (#521 follow-up)
+40281	effectcraft	MCP: set_property and add_keyframe take timeBase too (#522 follow-up)
+40282	effectcraft	Progress docs: target-app parity, gaps, alpha gate, readiness by audience (#617)
+40283	effectcraft	Integrate community PRs: relink's params doc and menu rows, pt-BR in the language list, MCP docs, test fixes
+40284	effectcraft	Lint the merged community PRs: no drop of a borrowing closure (#458), json only where drops import (#447)
+40285	effectcraft	Reload Footage shows new pixels and keeps Photoshop layers; Reload Footage Changed on Disk
+40286	effectcraft	Work area: an edit never clamps with crossed bounds (#605 follow-up)
+40287	effectcraft	Support continuous numeric scrubbing across monitor edges
+40288	effectcraft	Add inline font family search in Character and Properties
+40289	effectcraft	UI: an agent's injected drag never warps the real cursor (#592 follow-up)
+40290	effectcraft	Fonts: No matching fonts goes through the interface catalog (#593 follow-up)
+40291	effectcraft	Interface: probe Hangul so Korean text isn't drawn as boxes (#599)
+40292	effectcraft	Convert Expression to Keyframes: sort the keys by layer time on a time-reversed layer (#531)
+40293	effectcraft	Rove Across Time keeps roving keys off the neighbouring fixed keys' times (#532)
+40294	effectcraft	CC Simple Wire Removal: Frame Offset takes the strip from the previous or next frame (#533)
+40295	effectcraft	Effects: CC Power Pin Unstretch reverses the pin mapping (#534)
+40296	effectcraft	Locked viewer: re-convert pixels when the display profile or output simulation changes (#546)
+40297	effectcraft	Viewer: passive Composition viewers apply the monitor color conversion (#547)
+40298	effectcraft	Viewer: the locked viewer shares the main viewer's display key (#619 follow-up)
+40299	effectcraft	Audio: the short preview buffer is Linux-only and within the device's range (#614 follow-up)
+40300	effectcraft	Time: in Frames style a typed number is a frame count (#610 follow-up)
+40301	effectcraft	Fix recording a shortcut: the field no longer types the key too, and Cmd++ parses (#467)
+40302	effectcraft	Reopen panels from the Window menu when the dock is empty (#529)
+40303	effectcraft	Let pan and zoom work while 3D Camera Tracker points are shown (#505)
+40304	effectcraft	Render queue: unsaved project outputs go to ~/Movies or home, not the working directory (#446)
+40305	effectcraft	Format effect.list's parameter metadata (#631 follow-up)
+40306	effectcraft	Project: a single unselected folder or data-file drag still reports why; index math saturates (#634 follow-up)
+40307	effectcraft	Dock: test the empty-dock reopen with the reporter's Minimal workspace (#629 follow-up, test from #630)
+40308	effectcraft	Interface: Hangul is probed after the other scripts, so a catch-all face never draws Arabic (#616 follow-up)
+40309	effectcraft	Share docking transactions and preserve viewer lifecycle
+40310	effectcraft	GPU: render precomp layers resident on the GPU (#640)
+40311	effectcraft	GPU: a declined precomp falls back for that layer only; the decline warning is once per comp and reason (#641 follow-up)
+40312	effectcraft	fonts: extra font folders from EFFECTCRAFT_FONT_DIRS
+40313	effectcraft	Keyframes: auto-Bezier spatial tangents follow After Effects
+40314	effectcraft	Community follow-ups: dedup font files from overlapping folders (#665); empty-Timeline drop also accepts compositions, rustfmt (#662)
+40315	effectcraft	Keyframes: a straight auto-Bezier segment interpolates its chord exactly (#650 follow-up)
+40316	effectcraft	App: a lost graphics device tells the user why the window closes and where the recovery copy is (#591)
+40317	effectcraft	Fix 28 community-reported issues (crash, security, AE parity)
+40318	effectcraft	Fix community-reported issues: multi-layer edits, stacked-panel tabs, 32 bpc blend modes, and more
+40319	effectcraft	Fix community-reported issues: Light theme contrast, macOS Sync with System, Timeline eyedropper, DX12 kernel fallback
+40320	effectcraft	Issue fixes: GPU device loss, motion-path vertex tools, rename focus, macOS sheet dialogs, MCP file confinement, desktop shortcut
+40321	effectcraft	Issue fixes: drag render pile-up, CC Smear/Tiler past text bounds, relative footage paths, GIF playback test
+40322	effectcraft	Add Character fill and stroke eyedroppers
+40323	effectcraft	Contributors: add vangel76 (Valentin Klein)
+40324	effectcraft	#729: import STL 3D models (binary and ASCII)
+40325	effectcraft	#730: Composition ▸ Copy Frame to Clipboard
+40326	effectcraft	#738: Edit ▸ Paste pastes SVG markup as a shape layer
+40327	effectcraft	Graph Editor: Shift constrains Bezier handle drags to one axis (#723)
+40328	effectcraft	#750: float footage follows Working Gamma and is encoded once
+40329	effectcraft	#741: font menu filters to variable fonts
+40330	effectcraft	#758: layers, property groups and properties are callable
+40331	effectcraft	#757: Transitions animation presets in Effects & Presets
+40332	effectcraft	#759: #include / //@include / #includepath in scripts
+40333	effectcraft	#776: Project panel arrow-key navigation and accessible names
+40334	effectcraft	#773: run repeating app.scheduleTask tasks until cancelTask
+40335	effectcraft	Viewer: the empty-state drop highlight paints with its own painter (#709 follow-up)
+40336	effectcraft	fmt: Brightness & Contrast test (#702 follow-up)
+40337	effectcraft	#736: import FBX 3D models (binary and ASCII)
+40338	effectcraft	#315: Front / Bevel / Side / Back Color for extruded shapes and text
+40339	effectcraft	#745: import Targa (.tga) and Radiance HDR (.hdr) stills and sequences
+40340	effectcraft	#756: import DPX and Cineon stills and sequences
+40341	effectcraft	#767: import MXF (OP1a / OP-Atom) footage
+40342	effectcraft	Merge follow-up: model description and gaps row 17 after the import PRs
+40343	effectcraft	#760: $.evalFile and a minimal BridgeTalk host identification
+40344	effectcraft	#770: Proportional Scrubbing of Timeline values (Ctrl+Alt / Cmd+Opt)
+40345	effectcraft	#766: ScriptUI mouse events reach script listeners
+40346	effectcraft	#372: uncompressed QuickTime (raw RGB / ARGB) output module format
+40347	effectcraft	Translate the 95 panel rows Ukrainian was missing
+40348	effectcraft	#779: fuzz File > Open; refuse deeply nested XML projects
+40349	effectcraft	#486: move a panel into its own native window (multiple monitors)
+40350	effectcraft	#788: hold opened projects and size commands to the 30,000 px limits
+40351	effectcraft	Keep footage dropped on the timeline at its full length (#795)
+40352	effectcraft	Automation: a layer or comp id sent as a string resolves as an id (#749)
+40353	effectcraft	#786: fuzz expressions; fix the overflows, hangs and panic it found
+40354	effectcraft	UI: wrap the Footage panel's empty hint in a narrow panel
+40355	effectcraft	Import: stills and movies respect their orientation
+40356	effectcraft	Window: remember the window's size and position between launches
+40357	effectcraft	Shortcuts: Cmd+Left / Cmd+Right Arrow step a frame
+40358	effectcraft	UI: leave no gap between the rows of a menu
+40359	effectcraft	Timeline: U and UU reveal Time Remap
+40360	effectcraft	Media: movies opened in place keep their orientation (#796 × #827)
+40361	effectcraft	Media: Targa/HDR stills keep their Exif orientation; DPX test accepts a stated transfer
+40362	effectcraft	Fix tests after the community merges: GPU Pixel Motion Blur without a host, timeline footage kind, effects doc
+40363	effectcraft	Window menu: show check marks next to visible panels [skip ci]
+40364	effectcraft	UI: draw the ▸ menu-path separator instead of a missing-glyph box
+40365	effectcraft	Timeline: UU reveals modified options and layer styles, without false positives
+40366	effectcraft	Scripting: text range selectors resolve by match name and limit the animator (#837)
+40367	effectcraft	UI: draw concave icons as convex pieces (fixes Selection arrow, Speaker, Sparkle glyphs)
+40368	effectcraft	UI: keyboard shortcuts for dialog answers
+40369	effectcraft	Timeline: Alt-click an A/V feature switches the other layers
+40370	effectcraft	UI: dialogs open with their first text field focused and selected
+40371	effectcraft	Desktop: write log records to standard error and a rotating log file
+40372	effectcraft	Resume an open mask path when the Pen clicks its last vertex (#912)
+40373	effectcraft	Interpret Footage: apply the Loop (times) value sent as a float (#909)
+40374	effectcraft	Cap text animator range selector Start, End and Offset (#908)
+40375	effectcraft	#637: double-clicking a layer's bar acts like its name; text layers edit their text
+40376	effectcraft	Composition Settings: save and delete your own presets
+40377	effectcraft	Timeline: trim all selected layers together
+40378	effectcraft	Dialogs: vertical-only modals (#937) on the modal_fit layout
+40379	effectcraft	Viewer: Fit up to 100% follows the panel size
+40380	effectcraft	Character eyedropper test: a compact layout for the demo snapshot
+40381	effectcraft	Character eyedroppers: the sampling hints go through the catalog
+40382	effectcraft	Integration fixes for the community batch
+40383	effectcraft	clippy: needless borrows at the context_menu calls
+40384	effectcraft	Fix tests and two behaviours after the community batch
+40385	effectcraft	Scale the timeline waveform by the layer's Audio Levels (#974)
+40386	effectcraft	Show the Continuously Rasterize switch on vector footage layers (#957)
+40387	figcraft	first commit
+40388	figcraft	M0.1-M0.3: workspace, licences, geom/color/doc crates
+40389	figcraft	M0.4: text (shaping, layout), pathops (booleans, aligned strokes), render (tiny-skia scene renderer)
+40390	figcraft	M0.5: layout (auto layout + constraints), format, svg, engine (commands, history, tools, components, styles, variables)
+40391	figcraft	M0.6-M0.7: egui UI3 frontend (canvas, toolbar, layers, design/prototype/inspect panels, menus, color picker, presenter), desktop app with control channel, xtask, generate
+40392	figcraft	M0.8: AGENTS.md/CLAUDE.md, ATTRIBUTION.md, parity report, wasm compatibility
+40393	figcraft	M1.3: UI3 fidelity pass (icon rail, panel sublabels, toolbar modes, help), font scan off the lock, ROADMAP
+40394	figcraft	M0.9: MCP server + figcraft-cli, PDF export, web app, release/CI packaging, vector edit mode, workspace lint cleanup
+40395	figcraft	Fixes from agent reports: hex colours everywhere, camelCase in/out, unique variable ids, strict batch, ui.key modifiers, export rounding, Fit images, inner shadows on all
+40396	figcraft	Icon: scalable SVG (hicolor/scalable) generated by xtask icon
+40397	figcraft	On-canvas gradient handles and auto layout padding/gap handles; compact sizing labels
+40398	figcraft	Fix sizing labels and clippy type complexity
+40399	figcraft	Fix sizing labels and clippy type complexity
+40400	figcraft	README in the Crafting Apps style
+40401	figcraft	Image crop mode: on-canvas crop handles (move, proportional corner scale); Crop defaults to the Fill placement
+40402	figcraft	Comments: pins, threads with replies, resolve, comments panel, comment.* commands; real timestamps on web
+40403	figcraft	M4: components depth: component properties (edit/delete/bind), add variant, reset override, restore main, instance structure protection
+40404	figcraft	M2: text depth: OpenType features, small caps, lists, title case across runs, truncation; font picker with previews, type settings; text editing selection and IME
+40405	figcraft	M5: prototyping depth: on-canvas connections with drag-to-connect, interaction editor, flows, smart animate presenter, overlays, scroll behaviour
+40406	figcraft	Roadmap: record landed text, components, prototyping, crop and comments work
+40407	figcraft	M4: components panel UI: instance swap, variant and property controls, properties editor, property binding, per-layer overrides with reset
+40408	figcraft	About: Contributors and Models tabs with full credits; bump version to 0.2.0 (from 0.1.0) for release
+40409	figcraft	Progress docs: target-app parity, gaps, alpha gate, readiness by audience (#100)
+40410	figcraft	Web: size-optimised wasm profile (27.0 → 18.1 MB); bump to 0.3.1 (#109)
+40411	figcraft	M1: frames, groups, sections and masks behaviour suite and fixes
+40412	figcraft	M3: styles and variables behaviour suite and fixes
+40413	figcraft	M5: prototyping behaviour suite and fixes
+40414	figcraft	M3: components behaviour suite and fixes
+40415	figcraft	M1: canvas navigation, guides and grids behaviour suite and fixes
+40416	figcraft	M7: export and inspect behaviour suite and fixes
+40417	figcraft	M6: .fig import: editable vector networks and more layer kinds
+40418	figcraft	M4: shapes and vector behaviour suite and fixes
+40419	figcraft	M3: paint and effects behaviour suite and fixes
+40420	figcraft	M4: text lists, hanging punctuation and decoration styles
+40421	figcraft	M8: comments and version history behaviour suite and fixes
+40422	figcraft	M7: dev resources links
+40423	figcraft	M3: extended collections tail
+40424	figcraft	M8: branch version history and finer list merges
+40425	figcraft	M4: vector multi-edit and edit tail
+40426	figcraft	M8: cursor chat and spotlight in live sessions
+40427	figcraft	M1: layers and assets panels behaviour suite and fixes
+40428	figcraft	M9: French, German and Brazilian Portuguese draft catalogs
+40429	figcraft	M9: Japanese and Korean draft catalogs and CJK UI fonts
+40430	figcraft	M11: plugin widgets and the plugin panel tail
+40431	figcraft	M5: prototyping tail: gamepad triggers, widgets in prototypes, mode lookups
+40432	figcraft	M11: plugin directory on figcraft-server
+40433	figcraft	M9: Simplified Chinese draft catalog
+40434	figcraft	M9: Latin American Spanish overlay
+40435	figcraft	M11: plugin installs saved at once; directory and library requests off the UI thread
+40436	figcraft	M1: keyboard shortcut parity suite and bindings
+40437	figcraft	M6: experimental .fig export
+40438	figcraft	M9: draft catalogs catch up
+40439	figcraft	M1: rotation origin and place-with-Enter shortcuts
+40440	figcraft	M7: headless renders use system fonts
+40441	figcraft	M9: oversized-message test sends only the frame header (no broken pipe on Linux)
+40442	figcraft	M9: open hosting: fair limits for shared addresses
+40443	figcraft	M9: close the remaining open-hosting DoS paths
+40444	figcraft	M9: harden open hosting against resource exhaustion
+40445	figcraft	M9: install.sh, backup timer and docs for a public figcraft-server
+40446	figcraft	M9: open hosting mode for public figcraft-server
+40447	figcraft	App icon: the chameleon, vectorised like the other Crafting Apps (#156)
+40448	figcraft	App mark: the chameleon's curled tail (#157)
+40449	figcraft	App icon: full rounded tile on Windows and Linux (#159)
+40450	figcraft	M3: text metrics: whole-pixel line heights, advances on a 1024-per-em grid, letter spacing between glyphs only
+40451	figcraft	M9: live sessions per document
+40452	figcraft	M7: .fig export that opens and draws in other software
+40453	figcraft	M1: a double-click that enters a text selects all of it
+40454	figcraft	M9: share with a join code: online through the built-in server or on the local network
+40455	figcraft	M1: Hide when publishing from the Assets panel
+40456	figcraft	M1: cursors per tool and modifier, panel widths, outline options, dark pages
+40457	figcraft	M9: online files: the app remembers the files it put online
+40458	figcraft	M11: starter templates: docs and the essentials assessment
+40459	figcraft	M11: starter templates: Templates tab, first-run templates and Getting started card on the home screen
+40460	figcraft	M11: starter templates: eight templates built in code, template.list and file.newFromTemplate, help.gettingStarted
+40461	figcraft	M7: .fig export: one-sided stroke widths as outlines, bound layer fields name their field; docs
+40462	figcraft	M7: .fig export: stroke reach as a share of the weight; docs
+40463	figcraft	M7: .fig export: instance sizes, variables and modes, shared styles, variable-width strokes
+40464	figcraft	M2: auto layout: dragging an automatic gap's handle fixes the gap
+40465	figcraft	M3: variables inside styles
+40466	figcraft	M3: effects on groups: inner shadows and background blur
+40467	figcraft	M1: text made by commands in the app is readable on dark pages
+40468	figcraft	M1: frames and groups: one-step convert
+40469	figcraft	M5: prototyping: delays on mouse triggers, manual overlay offsets
+40470	figcraft	M2: auto layout: wrapped-line alignment
+40471	filmcraft	first commit
+40472	filmcraft	M0.1/M0.2: workspace skeleton, time and bitstream crates
+40473	filmcraft	M1.2: filmcraft-isobmff MP4/MOV demux + mux
+40474	filmcraft	M0.3–M0.8: geom, color, frame, media generators, project model, edit algebra, CPU renderer
+40475	filmcraft	M0.9: engine session, history, media pool, ~110 commands, demo project
+40476	filmcraft	M2.1: H.264 NAL/SPS/PPS/slice header parsing
+40477	filmcraft	M2.2/M2.3: CAVLC macroblock decoding, intra and inter prediction, DPB
+40478	filmcraft	M2.5: H.264 deblocking loop filter
+40479	filmcraft	M2.4: H.264 CABAC entropy decoding
+40480	filmcraft	M0.10/M0.11: egui shell — docking workspaces, header/menus, Project, Source/Program monitors, Timeline with all edit tools, Tools, Effects, Effect Controls, Lumetri, mete
+40481	filmcraft	M0.11: reliable control-channel input on occluded windows; Effect Controls lists fixed effects first and scrolls
+40482	filmcraft	M2 perf: frame-threaded H.264 decoding and hot-path optimisation
+40483	filmcraft	M1.4–M1.8: filmcraft-codecs hub — MP4/MOV sources with GOP-aware seeking and frame cache, MJPEG, PCM, AAC/MP3/FLAC/ALAC/Vorbis (symphonia bootstrap), standalone audio fil
+40484	filmcraft	M2 tests: synthetic I_PCM/long-term/MMCO/gap streams, avcC, robustness, stats
+40485	filmcraft	M4: LUT-based linear conversion and linear-light box decimation for reduced-resolution playback
+40486	filmcraft	M14: MCP server (headless + bridge to live app), filmcraft-cli (probe/commands/render/run/mcp), .mcp.json, control protocol docs
+40487	filmcraft	M2 perf/docs: faster CABAC engine and residual parsing, README
+40488	filmcraft	M2 tests: POC type 1 reordering synthetic stream
+40489	filmcraft	M2 tests: Apple VideoToolbox encoded fixtures (bit-exact)
+40490	filmcraft	M2 perf: skip internal deblocking edges of uniform-motion macroblocks
+40491	filmcraft	M6.5/M6.6: export pipeline (parallel render → MJPEG/PCM MOV, PNG sequence, GIF, WAV) as background engine jobs; Export mode wired; control channel defers requests until e
+40492	filmcraft	M1/M2: wire filmcraft-h264 into the codec hub (MP4/MOV H.264 with B-frames, GOP-aware seeking)
+40493	filmcraft	M9.5: filmcraft-prores decoder + encoder
+40494	filmcraft	Timeline: readable waveforms (clip-gain based, normalised); playback stats in ui.inspect
+40495	filmcraft	M9.5: ProRes decode in the codec hub and ProRes 422 HQ export; decoder colour metadata takes precedence unless the container has an explicit colr
+40496	filmcraft	codecs: drop unused field
+40497	filmcraft	export: assert frame geometry
+40498	filmcraft	M5.8: wgpu compositor — frame plans (render crate), YUV/RGB layer sampling with footprint supersampling in WGSL, linear-light premultiplied compositing, upload cache; Pro
+40499	filmcraft	cli: bench-decode
+40500	filmcraft	M6.2: filmcraft-aac — clean-room AAC-LC encoder and decoder
+40501	filmcraft	UI fidelity pass from the Premiere 26 black-box reference: measured palette and label colours, square panels with 4 pt gutters, tab strips with underline + menu glyph, he
+40502	filmcraft	M6.2: own AAC-LC decoder replaces the symphonia bootstrap for AAC; AAC encoder for MP4 export
+40503	filmcraft	M6.2: own AAC-LC decoder replaces the symphonia bootstrap for AAC; AAC encoder for MP4 export
+40504	filmcraft	M5.1: keyframe editing — add/delete/move/interpolation commands, Effect Controls navigator, draggable keyframes with interpolation context menu, lane scrubbing
+40505	filmcraft	M6.1: filmcraft-h264enc — clean-room H.264 encoder (High/Main/Baseline, CABAC/CAVLC, intra/inter mode decision, deblocking, RC)
+40506	filmcraft	M6.1: filmcraft-h264enc stage 2 — B 16x8/8x16 partitions with per-partition L0/L1/Bi
+40507	filmcraft	M8: Lumetri curves, hue curves, colour wheels, looks, HSL secondary (render + panel UI); Color workspace layout
+40508	filmcraft	M6: H.264 MP4 export (own encoder, High profile, VBR, B-frames with edit list) + AAC
+40509	filmcraft	M0.12: xtask layers/wasm/ci gates (layer table, same-layer allow-list, UI crates barred below L5); cargo alias
+40510	filmcraft	M9.1: filmcraft-hevc — clean-room H.265 decoder (Main / Main 10)
+40511	filmcraft	M9.9: Matroska/WebM demuxer (WIP: EBML reader, metadata, cluster scan, packets, seek)
+40512	filmcraft	M5.1: keyframe value/velocity graphs (drag values, Bezier influence handles), effects.setKeyframe; synthetic pointer input one event per frame so ui.drag produces real dr
+40513	filmcraft	Add ROADMAP.md: parity estimate, milestone status, remaining agent-hours
+40514	filmcraft	M7.1: BS.1770 loudness meter
+40515	filmcraft	M9.2: filmcraft-hevc synthetic streams (tiles, PCM, slices, dependent segments, LTR, list modification), README, example
+40516	filmcraft	M9.9: Matroska/WebM demuxer
+40517	filmcraft	M7.3: audio effects
+40518	filmcraft	M9.3: HEVC (Main/Main 10) wired into codecs — MP4/MOV hvc1/hev1 import and playback
+40519	filmcraft	Cargo.lock: hevc in codecs
+40520	filmcraft	AGENTS.md asset rules (no Adobe iconography/images; open licences only; per-asset .attribution sidecars + ATTRIBUTION.md), cargo xtask assets gate in ci; hevc test fixtur
+40521	filmcraft	ROADMAP: HEVC, Matroska, audio DSP merged; new running agents
+40522	filmcraft	ROADMAP: correct line count
+40523	filmcraft	M9.10: Matroska/WebM import (H.264/HEVC/ProRes/MJPEG video; AAC/FLAC/MP3/Vorbis/PCM audio); GOP random access shared by MP4 and MKV sources (codecs::gop)
+40524	filmcraft	M7.1: BS.1770 loudness in Audio Meters (momentary/short-term/integrated LUFS, true peak) fed with contiguous programme audio; matches ffmpeg ebur128
+40525	filmcraft	M11.3: EDL — filmcraft-interchange crate with CMX 3600 import/export
+40526	filmcraft	M7.3: clip audio effects run on filmcraft-audio-dsp (Amplify, Dynamics, Hard Limiter, Delay, Parametric EQ, High/Low/Bandpass, DeNoise, DeHummer, Studio Reverb, Invert, P
+40527	filmcraft	ROADMAP: MKV import, LUFS meters, audio effects
+40528	filmcraft	M11.4: FCP7 XML — xmeml v4/v5 import/export
+40529	filmcraft	M9.13: Opus decoder (WIP: range decoder, packet parsing, CELT core, SILK tables)
+40530	filmcraft	M9.8: filmcraft-vp9 clean-room VP9 decoder (profiles 0-3, tiles, superframes, scaling) with ffmpeg oracle tests
+40531	filmcraft	M11.5: FCPXML — 1.9–1.11 import/export
+40532	filmcraft	M9.8: VP9 fixture matrix with backward adaptation / alt-ref / tile rows, synthetic scaled-reference, intra-only and show_existing streams, robustness tests
+40533	filmcraft	M11.6: OTIO — OpenTimelineIO JSON import/export
+40534	filmcraft	M11.6: interchange API tests (detect, merge_into, rebase_source_timecode)
+40535	filmcraft	M3.2: trim mode engine — edit point selection (nearest as ripple/roll/trim), Toggle Trim Type (Ctrl+T), Trim Forward/Backward (Alt+arrows, ×5 with Shift), Extend to Playh
+40536	filmcraft	M11: interchange in the engine — file.import detects and merges EDL / FCP7 XML / FCPXML / OTIO (links media on disk, rebases EDL source timecode); File ▸ Export ▸ EDL, Fi
+40537	filmcraft	M9.8: VP9 loop filter speedup (gathered samples, sliding wide filter), perf test, vp9dec example, README
+40538	filmcraft	M9.13: Opus decoder — SILK, hybrid, redundancy/transitions, OpusHead, multistream; all RFC 8251 vectors range-exact
+40539	filmcraft	M9.13: Opus decoder — LS fractional-delay SILK resampler, ffmpeg/libopus oracle tests, vector diagnostics
+40540	filmcraft	AGENTS.md: clean-room codecs are spec-only — no reading reference decoder source even when permissively licensed (libvpx is BSD, not GPL)
+40541	filmcraft	Add LICENSE-MIT and LICENSE-APACHE (the declared MIT OR Apache-2.0 licence had no licence files); README licence section; xtask layer error points at docs/architecture.md
+40542	filmcraft	M9.13: Opus robustness + output-rate oracle tests
+40543	filmcraft	M9.13: Opus in WebM/MKV and MP4 import
+40544	filmcraft	Cargo: codec crates at opt-level 3 in dev builds (RFC/oracle vector tests were ~10 min in debug)
+40545	filmcraft	M10.4: caption tracks in the sequence model (project v2) + filmcraft-captions (SRT/WebVTT/SCC read+write, CEA-608 pop-on/roll-up/paint-on decoder, pop-on encoder with fra
+40546	filmcraft	M4.5: render-bar segments + render previews in the engine — segments cut at every video edit point, 128-bit content hash relative to the segment start (clips, sources, ef
+40547	filmcraft	M11.1: .fcproj schema versioning + migrations, atomic saves
+40548	filmcraft	M10.4: caption UI — caption track rows above the video tracks (select, drag to move/trim, eye/lock headers), Text panel Captions tab (segment list with editable in/out/te
+40549	filmcraft	M10.4: caption commands in the engine (captions.* — tracks, add at playhead, split/merge/trim/move/delete, text/speaker/timing, style, next/previous, show/hide, list), fi
+40550	filmcraft	M4.5: render bar painted from preview segments (green/yellow/red, merged spans, hover text, automation ids timeline.renderBar.N); playback, Program monitor (CPU and GPU p
+40551	filmcraft	M11.2: auto-save ring + crash-recovery journal
+40552	filmcraft	T1: shared ffmpeg/ffprobe discovery in filmcraft-testkit
+40553	filmcraft	T2: cargo xtask fixtures pre-generates the oracle fixture matrix
+40554	filmcraft	M9.8: VP9 decode speedup — lane-parallel loop filter (i16/i32 lanes), banded parallel loop filter, vectorizable MC filters, per-size transform buffers, buffer pools, para
+40555	filmcraft	T3: golden-image tests for the renderer + GPU parity; fix stale GPU uploads
+40556	filmcraft	T4: BS.1770 loudness oracle test against ffmpeg ebur128
+40557	filmcraft	T5: headless scripted UI tests (egui_kittest + control channel)
+40558	filmcraft	M9.8: VP9 wired into codecs — WebM/MKV V_VP9 and MP4 vp09 (+vpcC) import, 8/10/12-bit 4:2:0/4:2:2/4:4:4 (4:4:0 expanded, RGB to RGBA) output, key-frame-checked GOP random
+40559	filmcraft	M4.6: headless playback benchmark (cargo xtask bench-playback) and a correct dropped-frame count
+40560	filmcraft	rust-version 1.95 (egui/eframe 0.36 and egui_kittest require it; 1.90 was never buildable)
+40561	filmcraft	M9.8: VP9 README — benchmark numbers (alternated before/after runs)
+40562	filmcraft	ROADMAP: crash recovery day — VP9, Opus, captions, previews, autosave/recovery, test infra merged; ~40% parity, 724 tests
+40563	filmcraft	M4.5: fix UI hang after preview render (macOS App Nap starved the hidden app; ui.screenshot waits forever)
+40564	filmcraft	M10.1: text engine (crates/text): font database with bundled OFL fonts and system-font discovery, harfrust shaping, bidi, line breaking, paragraph layout, glyph cache and
+40565	filmcraft	M7.2: audio mixer graph, track automation and mixer commands
+40566	filmcraft	M10.2: graphic clips — text and shape layers in the project model, vector renderer (CPU + GPU plan), graphics.* commands
+40567	filmcraft	M4.6: GOP cache: no re-decode from the keyframe during playback; ProRes/MJPEG frames decode in parallel
+40568	filmcraft	M3.2: Trim Monitor + dynamic J/K/L trimming
+40569	filmcraft	M4.6: cancel frame jobs playback no longer needs (stale in-flight jobs, prefetch after Stop)
+40570	filmcraft	M3.11: keyboard shortcuts editor + presets
+40571	filmcraft	M10.2: Type tool with on-monitor text editing, shape and pen tools, layer boxes and handles, graphic editor in Properties / Essential Graphics
+40572	filmcraft	M1.2: MP4 muxer wrote all-empty sample tables as uniform stsz size 0 (= 'table follows'), producing unreadable files; write a table instead (regression test; found by pro
+40573	filmcraft	M4.6: GPU path converts layer texels on the frame workers, not on the UI thread
+40574	filmcraft	M7.2: Audio Track Mixer and Audio Clip Mixer panels, timeline track keyframes, live recording
+40575	filmcraft	M7.5: Audio Gain dialog (set / adjust / normalize max peak / normalize all peaks) and default audio transitions
+40576	filmcraft	M10.1: system font scan holds a lock for the whole scan — concurrent resolve() could see an empty system font list (found by system_scan_finds_fonts under parallel tests)
+40577	filmcraft	M7.4: Essential Sound DSP — DeEsser, DeReverb, Enhance Speech chain, Stereo Width, ducking analysis
+40578	filmcraft	M4.6: playback scheduling: preroll, scrub supersede, real-time frame skipping under CPU overload, hidden-window drops
+40579	filmcraft	M8.8: colour science in filmcraft-color — camera log curves, gamuts, BT.2390 tone mapping, gamut mapping; .cube/.3dl LUTs with tetrahedral interpolation
+40580	filmcraft	M7.4: Essential Sound model and commands — audio types, per-type settings as clip effects, presets, loudness auto-match, ducking keyframes
+40581	filmcraft	M8.2/M8.3: Lumetri Input LUT and Creative Look LUTs, project LUT library, GPU tetrahedral LUT, section bypass switches
+40582	filmcraft	M7.4: Essential Sound panel — Browse/Edit tabs, type buttons, collapsible sections with switches and sliders, presets, Clip Volume/Mute footer; docs
+40583	filmcraft	M7.4: project schema v4 for Essential Sound (older builds refuse instead of silently dropping the settings on save)
+40584	filmcraft	M8.8: colour management — sequence working space (Rec. 709 / Rec. 2100 PQ / HLG, wide gamut), Interpret Footage colour space, log/HDR decode with BT.2390 tone mapping, HD
+40585	filmcraft	M11.7: offline media and relinking
+40586	filmcraft	M4.6: playback benchmark results in docs/testing.md
+40587	filmcraft	M8.5: Colour Match (Lumetri ▸ Color Wheels & Match ▸ Apply Match) with skin-tone protection
+40588	filmcraft	Merge main into M4.6; mixer perf test measures thread CPU time (wall clock failed under machine load)
+40589	filmcraft	M11.9: proxies (create / attach / toggle / reconnect) and ingest settings
+40590	filmcraft	M11.8: Project Manager (collect files, consolidate and transcode)
+40591	filmcraft	M11.9: render previews always use full-resolution media (they're reused with proxies on or off); regression test
+40592	filmcraft	ROADMAP: M4.6 playback, M7.4 Essential Sound, M8 colour management, M11.7–9 merged; ~50% parity, 901 tests
+40593	filmcraft	M5.5: effect masks (ellipse / 4-point polygon / pen Bezier) with keyframable path, feather, opacity, expansion, inverted, modes; opacity masks; WGSL coverage parity; on-m
+40594	filmcraft	M9.6: DNxHD/DNxHR (SMPTE ST 2019-1 VC-3) decoder and DNxHR encoder
+40595	filmcraft	M9.7: AV1 headers, symbol decoder, CDFs, intra decoding, transforms, intra prediction
+40596	filmcraft	M12.1: audio synchronisation (GCC-PHAT-β coarse search on decimated audio, full-rate refinement): sample-accurate offsets between recordings with different gains, microph
+40597	filmcraft	M12.2: multicam and sync — Synchronize (In/Out/timecode ± hours/clip marker/audio), Merge Clips, Create Multi-Camera Source Sequence (camera names, audio camera 1/all/swi
+40598	filmcraft	M5.5: mask tracking (Shi-Tomasi features, pyramidal Lucas-Kanade with forward-backward check, RANSAC similarity/rigid/translation fit) as a background job writing Mask Pa
+40599	filmcraft	M9.7: AV1 loop filter, CDEF, super-resolution upscaling, loop restoration
+40600	filmcraft	M9.7: AV1 import from MP4 (av01/av1C) and Matroska/WebM (V_AV1)
+40601	filmcraft	M5.6: adjustment layers — Motion restricts the adjusted region; tests for below-only application, opacity/blend mix, effect and opacity masks (sequence pixels, any output
+40602	filmcraft	M12.3: Multi-Camera view (angle grid at reduced resolution as one prefetched frame job, click / Ctrl-click to switch, live recording while playing with 1–9, Record toggle
+40603	filmcraft	M5.7: effect presets — save (scale / anchor to in / anchor to out / without keyframes), apply (undoable; intrinsics replaced, geometry scaled to the target frame), built-
+40604	filmcraft	M9.7: AV1 inter prediction, MV prediction, motion field, intra block copy, scalable output
+40605	filmcraft	M9.7: AV1 film grain synthesis; superres and film-grain oracle fixtures
+40606	filmcraft	M9.7: AV1 inter-GOP seek tests in MP4/WebM, decode perf bench, docs and roadmap
+40607	filmcraft	fmt after merge
+40608	filmcraft	ROADMAP: masks/tracking/presets, multicam, DNxHR, AV1, focus fix, new hero; ~55% parity, 988 tests
+40609	filmcraft	M9.7: AV1 decode statistics (per-stage busy time) and perf test with stage breakdown

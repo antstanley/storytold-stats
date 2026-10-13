@@ -1,0 +1,605 @@
+80000	soundcraft	MIDI editor, recording, more windows, Edit-window view columns
+80001	soundcraft	Parallel mixer, Setup windows, clip gain lines, folders, mix-strip sections, docs
+80002	soundcraft	Engine parity batch (76% engine, 90% with UI), comping, fades, universe, automation writing, loop record
+80003	soundcraft	Play back clip effects, trim automation and MIDI real-time properties; Clip Effects window
+80004	soundcraft	Plugin delay compensation and input monitoring
+80005	soundcraft	mix: clippy
+80006	soundcraft	Beat Detective, Tempo/Time/MIDI Operations and MIDI Real-Time Properties windows
+80007	soundcraft	Elastic Audio: pitch-preserving warp on Elastic tracks; Remove Warp restores the original
+80008	soundcraft	Control channel: pace synthetic input one pointer event per frame and mask the real pointer meanwhile
+80009	soundcraft	Punch-in while playing, pre/post-roll takes trimmed to the punch range, autosave and recovery
+80010	soundcraft	CLAP plugin hosting (isolated unsafe crate), stem bouncing
+80011	soundcraft	Roadmap update
+80012	soundcraft	Roadmap: recording status
+80013	soundcraft	Rulers: key, chords, Markers 2-5, Timecode 2; View › Clip options; marker ruler lines; exact demo bar positions
+80014	soundcraft	Tempo editor lane (click to add, Alt-click to remove) and thinned tempo labels
+80015	soundcraft	Commands Keyboard Focus: single-key trims, fades, separate, clipboard, track and clip navigation
+80016	soundcraft	Transport window: counters, expanded pre/post-roll, MIDI controls, output meters
+80017	soundcraft	Plugin presets: factory default and user presets (save/recall), mix.insert_params
+80018	soundcraft	Score Editor: MIDI as notation on a grand staff
+80019	soundcraft	File › Import › Video: import a movie's audio stream onto a new track
+80020	soundcraft	Edit window: drag the name plate to reorder tracks, drag the bottom edge to resize
+80021	soundcraft	Drag whole audio files from the Clip List onto tracks (clip.place_source)
+80022	soundcraft	Groups: create dialog with members and edit/mix options; Groups list context menu
+80023	soundcraft	Memory Locations: inline rename, selection locations with length, type column
+80024	soundcraft	ui: drop unused import
+80025	soundcraft	Clip List: find filter; place audio files on new or selected tracks
+80026	soundcraft	Copy Special › Audio as MIDI: YIN pitch tracking into MIDI notes on the clipboard
+80027	soundcraft	Fix fades outliving trimmed clips; property test of random edit sequences with full undo
+80028	soundcraft	Random-edit property test covers the extended command set (400-case run clean)
+80029	soundcraft	Property test: mutated session files load or fail cleanly and render without panicking
+80030	soundcraft	Property test: every command survives hostile parameters
+80031	soundcraft	Surround mixing, VST3 hosting, and hardening against hostile inputs
+80032	soundcraft	Roadmap: VST3
+80033	soundcraft	Keyboard focus command and the a-z Commands Focus toolbar toggle
+80034	soundcraft	Search: a command palette over every command (Window › Search, Cmd+Ctrl+S)
+80035	soundcraft	fmt
+80036	soundcraft	MIDI Editor: rubber-band selection, Cmd+A, arrow-key transpose and move, header toolbar
+80037	soundcraft	Score export and print, clip group files, Merge Markers, path dialogs for every file command
+80038	soundcraft	Mix window views: Mic Preamps (input gain), Instruments, Object/Bed
+80039	soundcraft	Video track, Audio Unit hosting, plugin state and editors, Renderer and UI Customization
+80040	soundcraft	Roadmap: alpha and parity estimates; README: video, surround and notation screenshots
+80041	soundcraft	Rename PrintCraft to PdfCraft (storytold/pdfcraft) (#1)
+80042	soundcraft	Fix the Windows build of vst3-host; bump version to 0.2.1
+80043	soundcraft	README Downloads: where to get it first, then builds with Windows before macOS (#14)
+80044	soundcraft	macOS DMG: branded window background and icon layout
+80045	soundcraft	Fix keyboard shortcuts on Windows and Linux: Ctrl is the Cmd key (#15)
+80046	soundcraft	Fix tempo change from the tempo ruler not saving
+80047	soundcraft	Fix input monitoring pitch and dropouts when input and session rates differ
+80048	soundcraft	Keep the clip context menu open while moving onto it
+80049	soundcraft	Desktop: write log records to standard error and a rotating log file
+80050	soundcraft	soundcraft-cli --help: stop at the closing code fence, no Rust source lines (#48)
+80051	soundcraft	CLI: run --cmd and app reject malformed JSON instead of using empty params (#50)
+80052	soundcraft	Warn about missing media when opening a session (#57)
+80053	soundcraft	convert and bounce: refuse output extensions the encoder cannot write instead of saving WAV data (#47)
+80054	soundcraft	Show Ctrl instead of Cmd in shortcut text off macOS (#62)
+80055	soundcraft	Change clip gain with Ctrl+Shift+Up/Down and a fader on the clip
+80056	soundcraft	Nudge clip gain with Ctrl+Shift+Up/Down on Windows and Linux too
+80057	soundcraft	Progress docs: target-app parity, gaps, alpha gate, readiness by audience (#155)
+80058	soundcraft	Add shared docking with SoundCraft theme and MIDI sizing
+80059	soundcraft	Credit Vikram Bhaskaran by real name and display name.
+80060	soundcraft	macOS: build the DMG with hdiutil create so the app passes codesign --strict
+80061	soundcraft	Windows: compile DX12 shaders with FXC
+80062	soundcraft	Cmd+= only switches Mix/Edit, and the Interface scale slider drags smoothly
+80063	soundcraft	Cmd+H heals instead of hiding SoundCraft on macOS (#140)
+80064	soundcraft	Keep armed tracks' meters live while stopped; make Clear All Clip Indicators work
+80065	soundcraft	Save safety: never overwrite audio or sessions, sync saves and keep backups
+80066	soundcraft	Record takes straight to disk
+80067	soundcraft	Shift+Cmd+K exports clips as files
+80068	soundcraft	Clear clips and audio files from the Clip List (#4)
+80069	soundcraft	Scroll long plugin windows; reopen the main window at its last size and scale
+80070	soundcraft	rustfmt the mix.send spec
+80071	soundcraft	Fix drag selection and the insertion point in the Edit window
+80072	soundcraft	Trackpad-friendly Edit window: smooth panning, pinch and Cmd+scroll zoom
+80073	soundcraft	Let the desktop app sleep when idle or covered
+80074	soundcraft	Clip > Rename opens its dialog; Undo and Redo name their step; the Window menu's keys work
+80075	soundcraft	Ask before discarding unsaved changes; Save opens Save As for new sessions
+80076	soundcraft	Add a built-in Sampler instrument
+80077	soundcraft	Open .m4b audiobook files like .m4a
+80078	soundcraft	Keep clips in order after Trim to Selection
+80079	soundcraft	Keep the clip gain line where a clip is trimmed or separated
+80080	soundcraft	Keep automation thinning within its tolerance
+80081	soundcraft	Consolidate covers the whole edit selection (#164)
+80082	soundcraft	Pro Tools keys for nudging, Grid and Nudge values, playlists and windows
+80083	soundcraft	Lay out Edit window tracks and plugin slots like Pro Tools
+80084	soundcraft	Fit the section names in narrow Mix strips
+80085	soundcraft	Mark the Tracks panel's edge with a scroll bar
+80086	soundcraft	Draw grid lines over clips in the Edit window
+80087	soundcraft	Right-click a track's name for the track menu, in Edit and Mix
+80088	soundcraft	Keep shortcuts working after Tab
+80089	soundcraft	Refuse renders too long to finish instead of cutting the audio short
+80090	soundcraft	Stop allocating and freeing memory on the audio thread
+80091	soundcraft	Reorder tracks by dragging them in the Tracks list
+80092	soundcraft	Drag or type the tempo in the toolbar
+80093	soundcraft	Rename a marker by double-clicking it in the ruler
+80094	soundcraft	Automation passes replace the automation they play over, in one undo step
+80095	soundcraft	Make the Zoom Preset, Waveform Zoom and Clip Rating keys work; add Commands Focus 1–5 and N
+80096	soundcraft	Say at the Record button why Record did nothing
+80097	soundcraft	Add tracks from the Tracks list and the empty space below the tracks
+80098	soundcraft	Refuse corrupt audio files instead of crashing
+80099	soundcraft	Stop Strip Silence deleting clips late in long selections
+80100	soundcraft	MCP: confine file access with --automation-read-root and --automation-write-root
+80101	vectorcraft	initial commit
+80102	vectorcraft	M0: workspace skeleton — geom, color, doc, render, text, pathops, svg, tools, engine
+80103	vectorcraft	M0.7/M0.8: egui UI (Illustrator layout), control channel, desktop app
+80104	vectorcraft	M0.1/M0.9: xtask (layers, wasm, ci, stats), agent docs, NOTICE, README, control protocol doc
+80105	vectorcraft	M2.8/M6.2/M7.2: smart guides + snapping, Type tool, Pathfinder/path/type commands, web build
+80106	vectorcraft	M1.9: MCP server (stdio JSON-RPC, remote + headless backends) and drawcraft-cli
+80107	vectorcraft	Prepare module hooks for parallel tool/effect work
+80108	vectorcraft	M5.1: background render worker with reprojection; Layers rename + drag reorder
+80109	vectorcraft	M2/M8/M9/M4.4: drawing + transform tools, live effects, PDF export/import, file/batch commands; UI restyled to measured Illustrator metrics (Medium Dark, categorized tool
+80110	vectorcraft	M5.2/M5.4: render geometry cache (Arc identity), opacity folding, LOD, multithreaded rasterizer (20k objects: 187→21 ms); native macOS menu bar; Effect menu + live-previe
+80111	vectorcraft	Vector tool cursors, real egui pointer injection (ui.move/click/drag), xtask bundle (DrawCraft.app with rendered icon)
+80112	vectorcraft	M5: cache text glyph geometry per node (Arc identity)
+80113	vectorcraft	Draw Normal/Behind/Inside modes (Shift+D)
+80114	vectorcraft	Panels to Illustrator parity (19 panels), ~70 menu commands, generic param dialogs, view rotation, property/model-based tests + MCP e2e; fix arrange overflow, compound gr
+80115	vectorcraft	continued progress
+80116	vectorcraft	Export for Screens: artboard thumbnails, fixed dialog height
+80117	vectorcraft	continued work
+80118	vectorcraft	Point agents at ROADMAP.md
+80119	vectorcraft	ROADMAP.md: status, milestones and parity estimates
+80120	vectorcraft	Live Blends/Envelopes/Gradient Mesh, Shape Builder, Live Paint, Image Trace (drawcraft-trace), Recolor Artwork, Export for Screens, Actions panel, prefs persistence, real
+80121	vectorcraft	ROADMAP: update status and estimates
+80122	vectorcraft	tests_build: clippy let_and_return
+80123	vectorcraft	Asset policy: no Adobe iconography/images; per-asset attribution in ASSETS.md enforced by xtask assets (in ci). Offset Path: fix area loss for offsets larger than curvatu
+80124	vectorcraft	continued work; wip
+80125	vectorcraft	wip
+80126	vectorcraft	continued work
+80127	vectorcraft	Distortion tools (Width, Liquify, Puppet Warp, Perspective Grid), Patterns + Repeat, colour management (CMS, proofing, separations), Preferences/Shortcuts/Workspaces; ori
+80128	vectorcraft	M5: drawcraft-cli bench; canvas keyed by per-document uid (no stale frame from another tab); brushed strokes keep brush art under effects
+80129	vectorcraft	M1.9: headless CLI/MCP export PDF/JPG/WebP; app JPEG/WebP export; ui.screenshot errors instead of hanging without a presented frame; docs (roadmap re-estimate, agent guid
+80130	vectorcraft	M3: opacity masks — model (linked transform), luminance mask rendering, transparency.* commands, SVG <mask> export/import, PDF luminosity soft masks, Transparency panel c
+80131	vectorcraft	M5: raster effects render on the multithreaded pipeline (each filter layer offscreen, composited with its blend/opacity; tested equal to single-threaded); fix inner glow 
+80132	vectorcraft	M4.8: system clipboard — copy/cut publish SVG markup, paste adopts SVG from other apps (centred in view); Copy/Cut/Paste events handled off macOS; Place bypasses the clip
+80133	vectorcraft	M4.1: .drawcraft format v2 — default-valued fields omitted, anchors as {p: [x, y], in?, out?, kind?}; large documents saved compact. 50k paths: 56 → 35 MB, open 722 → 244
+80134	vectorcraft	M5.4: drawcraft-cli perf — plan §4 budgets on a synthetic 50k-path document, with a busy-machine warning
+80135	vectorcraft	progress
+80136	vectorcraft	M1.6/M12.5: Magic Wand panel (fill/stroke colour, stroke weight, opacity, blending mode with tolerances; settings in the engine, select.magicWand), Image Trace panel (pre
+80137	vectorcraft	M12.5: Image Trace objects remember their preset and parameters (saved in the file); the panel shows the selected trace's settings; Expand clears them
+80138	vectorcraft	M5: cache expanded stroke outlines across frames (pans reuse them), skip per-frame bounds for solid paints, pointer hasher for render caches (~7% less CPU per frame on th
+80139	vectorcraft	M7.6: Character and Paragraph Styles — partial named styles in the document, apply to objects or a Type tool range, Clear Overrides, override-preserving redefine, duplica
+80140	vectorcraft	M4.1/M11: File → Open Recent Files (persisted, native menu too), Document Info panel (document.info), Object → Make Pixel Perfect; agent guide: control-port clashes
+80141	vectorcraft	M7.3: Area Type Options — rows, columns, gutter, inset, first baseline stored on area type, laid out by the text engine; Type → Area Type Options… dialog prefilled from t
+80142	vectorcraft	M1: fix paste into a compound path when undo made a new object reuse the active layer's id (active layer / isolation must still be a layer / group); regression test
+80143	vectorcraft	M7.3/M7.7: threaded text (Type → Threaded Text: Create/Release Selection/Remove Threading; story re-flows after any edit touching its frames, deleted frames' text flows o
+80144	vectorcraft	M7.5: OpenType as character attributes — per-run features (ligatures, contextual alternates, discretionary ligatures, swash, small caps, ordinals, fractions, figure style
+80145	vectorcraft	M7.7: Type → Find Font… (fonts in document with missing ones flagged, Find, Change, Change All; engine: text.fonts, text.replaceFont, select.font)
+80146	vectorcraft	Rename DrawCraft → VectorCraft: crates (vectorcraft-*), apps, binaries, types, env vars, docs, examples (.vectorcraft); old .drawcraft files and preferences still load. F
+80147	vectorcraft	Community links: Help menu (Discord, ArtCraft website, app page, GitHub), Discord button in the header, links on the About and Home screens; engine help.* commands return
+80148	vectorcraft	readme
+80149	vectorcraft	M6.7: Object → Clipping Mask → Edit Contents / Edit Clipping Path (select the clipped art or the mask of the selected clip groups, also from inside one)
+80150	vectorcraft	M11.4: View → Trim View (artwork clipped to the artboards; RenderOptions::trim)
+80151	vectorcraft	M2.6: Flare tool (centre drag, then click for the rings; click → Flare Tool Options; shape.flare builds centre/halo/rays/rings from radial gradients in Screen mode) and R
+80152	vectorcraft	M9.3: Effect → Pathfinder (Add, Intersect, Exclude, Subtract, Minus Back, Divide, Trim, Merge, Crop, Outline) as live effects on groups/layers; rendered via the live cach
+80153	vectorcraft	M0.9: attribute the ArtCraft brand marks in docs/brand (cargo xtask assets)
+80154	vectorcraft	M4.3: live effects survive SVG, PDF and clipboard export (vectorcraft_effects::bake_document evaluates object, per-fill/stroke and Pathfinder effects on a copy; SVG raste
+80155	vectorcraft	M7.3: Type → Type on a Path effects (Rainbow, Skew, 3D Ribbon, Stair Step, Gravity): TextObject::path_effect, type.pathOptions {effect}, checked menu items
+80156	vectorcraft	M2.6: Flare tool ↑/↓ add or remove rays while drawing
+80157	vectorcraft	M7.4: Object → Text Wrap (Make, Release, Text Wrap Options: offset, invert): area type flows around wrap objects above it in the same layer, re-resolved after every edit
+80158	vectorcraft	M5.2: render perf — drop shadows/outer glows from a cached CPU-blurred raster composited per draw (600 shadows: ~300–1500 ms → 17–70 ms/frame); object blend modes on sing
+80159	vectorcraft	M11.4: View → Hide/Show Corner Widget; Type → Recent Fonts (last 10 applied fonts, persisted)
+80160	vectorcraft	M4.4: File → Export Selection… (selected art cropped to its bounds as PNG/JPG/WebP/SVG/PDF), Save as Template… and New from Template… (templates open as untitled document
+80161	vectorcraft	M12.6: Graphs — the nine graph tools (Column, Stacked Column, Bar, Stacked Bar, Line, Area, Scatter, Pie, Radar), Object → Graph → Type… and Data… (CSV), series groups wi
+80162	vectorcraft	M1.5: commands that default to the current layer validate the remembered id (reused after undo it could name a compound path: Send to Current Layer moved art into it, Del
+80163	vectorcraft	M0.2: hit-test distance exact on cusp-like cubics (nearest-point accuracy 1e-9; proptest regression)
+80164	vectorcraft	M1.9: agent integrations — MCP tools add_text, apply_effect, pathfinder, transform, create_graph, text_wrap, export {selection, outlineText}; CLI convert (IN → OUT, effec
+80165	vectorcraft	Roadmap: parity estimate — ~65% feature parity (weighted over 22 areas), ~50% including fidelity and hardening; ~330–500 h of Opus 5.5 to feature parity and ~440–670 h to
+80166	vectorcraft	M9.4: raster effects in PDF export — shadows/outer glows as images under the untouched vector object, inner glow/feather/blur as images, at the document's resolution; Eff
+80167	vectorcraft	M6.1: a panic inside the curve sweep (rare near-degenerate input) becomes PathOpsError::Degenerate instead of crashing (found by the randomized export test)
+80168	vectorcraft	M11.5: View → New View… / Edit Views… (saved views in the document, up to 25, listed at the bottom of the View menu; view.saved.* commands)
+80169	vectorcraft	M11.3: View → Snap to Pixel (drawing points and moved selections land on whole pixels)
+80170	vectorcraft	M12.7: Object → Create Object Mosaic… (trace::mosaic tile averages; columns/rows, new size, spacing, gray, delete raster; follows the image transform)
+80171	vectorcraft	M3.6: opacity-mask editing mode — click the mask thumbnail to edit the mask art on a temporary isolated layer with any tool; the mask updates live after every edit; the o
+80172	vectorcraft	M11.4: text-thread connectors on selected threaded frames + View → Hide/Show Text Threads, Hide/Show Gradient Annotator, Type → Show Hidden Characters (spaces, ¶, #), Eff
+80173	vectorcraft	M2.9: Shaper tool — rough rectangles, ellipses, triangles/polygons/diamonds and lines become clean live shapes (geom::recognize), squares/circles snap; a scribble deletes
+80174	vectorcraft	M7.4: Text Wrap flows on both sides of an object (lines split into every free span, left to right, sharing the baseline; exact interval intersection across the line band)
+80175	vectorcraft	app icon: regal engraved dragon (owner's ArtCraft drawing), Dock/taskbar/launcher wiring, palette docs
+80176	vectorcraft	M7.6: tab stops and the Tabs panel — left/center/right/decimal stops (align-on character), default stops every ½ inch, text.tabs.set/get/clear, ruler (click adds, drag mo
+80177	vectorcraft	Signed release pipeline (macOS/Windows/Linux/Web); README community note
+80178	vectorcraft	Fix macOS Info.plist: remove document-types block cleanly (route B)
+80179	vectorcraft	Make ported packaging scripts executable (fixes exit 126)
+80180	vectorcraft	Live Corners dragging, transform pivot snapping, middle-mouse pan, save prompt on close
+80181	vectorcraft	Licensing: MIT OR Apache-2.0 files, NOTICE, ArtCraft brand terms
+80182	vectorcraft	xtask: rustfmt version.rs (fmt gate was red on main)
+80183	vectorcraft	MCP: headless open_file reads .pdf and PDF-compatible .ai, as File ▸ Open does
+80184	vectorcraft	SVG import: <textPath> comes back as type on a path
+80185	vectorcraft	Stroke dashes: an invalid dash pattern draws a solid stroke instead of hanging the renderer
+80186	vectorcraft	SVG import: tspan line breaks follow the baseline gap (none on the same baseline, bounded far gaps)
+80187	vectorcraft	Raster export: refuse sizes the renderer can't produce instead of crashing
+80188	vectorcraft	SVG export: area type keeps its wrapped lines and alignment
+80189	vectorcraft	SVG import: root sizes in mm/cm/in/pt open at their physical size
+80190	vectorcraft	M3 stage 1: swatches, colour picker, gradients, strokes, appearance targeting, masks (M3.7–M3.29)
+80191	vectorcraft	M3 stage 2: swatch and gradient panel depth, stroke export parity, dash alignment, appearance editing, knockout, graphic style links (M3.30–M3.48)
+80192	vectorcraft	M3: overprint per fill and stroke, Overprint Black options (M3.49, M3.50)
+80193	vectorcraft	M3: Color Guide rules and options, Edit Colors dialogs, recolouring meshes, images and patterns (M3.53–M3.55)
+80194	vectorcraft	M3: blend accuracy, non-isolated groups, layer clipping masks (M3.73–M3.75)
+80195	vectorcraft	UI: dialogs and menus size to their content
+80196	vectorcraft	M3: group, layer and type appearance with Contents and Characters rows (M3.68)
+80197	vectorcraft	M3: swatch libraries — library panel, generated libraries, save and load, gradient libraries (M3.56–M3.58)
+80198	vectorcraft	M3: stroke on type, Stroke panel units, mixed values and Control bar (M3.40, M3.41)
+80199	vectorcraft	M3: freeform gradients — model, rendering, commands, tool and panel (M3.81, M3.82)
+80200	vectorcraft	M3: Flatten Transparency engine (M3.91)
+80201	vectorcraft	M3: Graphic Styles panel depth, Tile Edge Color, Show Swatch Bounds (M3.71, M3.72)
+80202	vectorcraft	UI: custom title bar on Windows and Linux; the dragon icon as the brand mark
+80203	vectorcraft	M3: Fill/Stroke chip popovers, panel shortcuts, Eyedropper Options and modes (M3.51, M3.52)
+80204	vectorcraft	M3: target circles and full Expand Appearance (M3.69, M3.70)
+80205	vectorcraft	M3: tints of global and spot colours, gradient stops linked to swatches (M3.59, M3.60)
+80206	vectorcraft	M3: Flatten Transparency dialog, flattener presets, Flattener Preview panel (M3.92–M3.94)
+80207	vectorcraft	M3: width profile library, thirty more arrowheads, whole-stroke bounds and hit-testing (M3.61–M3.63)
+80208	vectorcraft	M3: graphic style libraries with .vcstyles save and load (M3.80)
+80209	vectorcraft	M3: view only the mask, lossless SVG mask options, per-document transparency grid, paint on clipping paths (M3.86–M3.89)
+80210	vectorcraft	M3: Object > Expand dialog; gradient fills expand to objects or a mesh (M3.84)
+80211	vectorcraft	Pathops: Booleans keep their corners on almost-horizontal edges; deterministic property tests (M6.10)
+80212	vectorcraft	M3: Attributes panel; Registration colour, trim marks and live Crop Marks (M3.76, M3.77)
+80213	vectorcraft	M3: spot colours defined in Lab, Spot Colors options (M3.85)
+80214	vectorcraft	M3: Scale Strokes & Effects complete, Scale Corners, Use Preview Bounds (M3.66, M3.67)
+80215	vectorcraft	UI: test that no dialog stretches with the screen
+80216	vectorcraft	M3: Recolor Artwork reduction, methods, presets and Edit tab; Edit Color Group (M3.78, M3.79)
+80217	vectorcraft	M3: blend modes and opacity composite inks in CMYK documents (M3.90)
+80218	vectorcraft	M3: Width tool depth and the new-art appearance template (M3.64, M3.65)
+80219	vectorcraft	M3: freeform editing on the canvas; radial extent, aspect and focal point (M3.97, M3.98)
+80220	vectorcraft	M3: Color Guide Limit to Library, Edit or Apply without art, Color Themes panel (M3.95, M3.96)
+80221	vectorcraft	M3: gradient within, along or across a stroke (M3.83)
+80222	vectorcraft	M3: Scale Strokes & Effects is off by default
+80223	vectorcraft	M4: SVG import units and text fidelity (M4.18, M4.19)
+80224	vectorcraft	M4: PDF settings, Save PDF dialog, export warnings and Summary (M4.31, M4.32)
+80225	vectorcraft	Preferences ▸ Units drive every length the UI shows and reads (M14.5)
+80226	vectorcraft	M4: SVG Options, area type and gradients in SVG export, ids and names, SVGZ (M4.26–M4.30)
+80227	vectorcraft	M4: Document Setup depth; New Document with preset categories, details column and More Settings (M4.20, M4.21)
+80228	vectorcraft	M4: Place as an engine command, drag and drop, the loaded place cursor (M4.24, M4.25)
+80229	vectorcraft	FreeBSD: build and test the workspace in a FreeBSD VM
+80230	vectorcraft	M4: SVG symbols as <symbol>/<use>, hidden layers, metadata; Preserve Editing round trip (M4.39, M4.40)
+80231	vectorcraft	M4: Export As with Use Artboards; PNG/JPEG/WebP resolution, background, anti-aliasing (M4.33, M4.34)
+80232	vectorcraft	M4: PDF import pages, Crop To and passwords; CMYK, Gray and spot colours kept (M4.45–M4.47)
+80233	vectorcraft	M4: paste carries resources with a Swatch Conflict dialog; paste placement and Paste Remembers Layers (M4.22, M4.23)
+80234	vectorcraft	FreeBSD CI: match the shared template
+80235	vectorcraft	M4: File Info in SVG, PDF and PNG; Document Raster Effects Settings (M4.55, M4.56)
+80236	vectorcraft	M4: linked images with previews, missing and modified links; Text Import Options (M4.53, M4.54)
+80237	vectorcraft	M4: PDF and .ai reopen editable, Save As .ai; PDF presets and Edit > PDF Presets (M4.43, M4.44)
+80238	vectorcraft	M4: PNG, PDF, SVG and text clipboard formats in and out (M4.57)
+80239	vectorcraft	M4: Save As format chooser, Save keeps its format, Save a Copy, Revert, templates, File menu details (M4.14–M4.17)
+80240	vectorcraft	M4: JPEG Options with CMYK and ICC, PNG-8 and GIF, WebP options, Export As Text, Save for Office (M4.48–M4.50)
+80241	vectorcraft	M4: PDF keeps raster effects everywhere, pattern strokes and freeform gradients; image resampling and compression (M4.58–M4.60)
+80242	vectorcraft	M4: DXF export (R12 to 2018) with DXF Options; DWG and PICT hints (M4.77)
+80243	vectorcraft	M4: SVG import keeps symbols, patterns and filters live; linked images, nested clips, reflected gradients (M4.41, M4.42)
+80244	vectorcraft	M4.35–M4.36: native format v3 and background save
+80245	vectorcraft	M4.63–M4.64: Links panel, Placement Options and Package
+80246	vectorcraft	M4.88–M4.89: slices and the Slice tools
+80247	vectorcraft	M4.61–M4.62: PDF import fidelity and layers
+80248	vectorcraft	M4.71–M4.72: PDF bleed and trim boxes, printer's marks
+80249	vectorcraft	M4.51–M4.52: Export for Screens downloads, zip and options
+80250	vectorcraft	M4.97–M4.98: SVG encoding, Tiny 1.2, font subsets and freeform gradients
+80251	vectorcraft	M4.76: EPS export
+80252	vectorcraft	M14.4: flaky paste fuzz test and batch journaling
+80253	vectorcraft	M4.75: print engine
+80254	vectorcraft	M4.85: PDF security
+80255	vectorcraft	M4.37–M4.38: Data Recovery and native save options
+80256	vectorcraft	M4.93: DXF import
+80257	vectorcraft	M4.94–M4.95: EMF and WMF
+80258	vectorcraft	M4.67–M4.69: TIFF, BMP and Targa export
+80259	vectorcraft	M4.90: Save for Web (Legacy)
+80260	vectorcraft	M4.65–M4.66: Asset Export and Export Selection
+80261	vectorcraft	M4.96: CSS Properties
+80262	vectorcraft	M4.70: PSD export
+80263	vectorcraft	M4.73–M4.74: PDF colour conversion, profiles and real text
+80264	vectorcraft	M4.78–M4.79: Print dialog, system printing and print presets
+80265	vectorcraft	M4.91–M4.92: EPS and PostScript import, print to PostScript
+80266	vectorcraft	M4.84: PDF/X-1a, PDF/X-3 and PDF/X-4
+80267	vectorcraft	M4.80–M4.81: Print Tiling and advanced print options
+80268	vectorcraft	M4.82–M4.83: PDF layers and overprint
+80269	vectorcraft	M4.86–M4.87: PDF thumbnails, fast web view and PDF 1.3 (M4 done)
+80270	vectorcraft	M14.1, M14.3, M14.7: scrolling menus, Home button, Cmd+N opens New Document
+80271	vectorcraft	Windows packaging: Start Menu/Add-Remove icon, no console window, correct description
+80272	vectorcraft	M8.2: tool options last across tool switches and launches
+80273	vectorcraft	M8.1: Delete/Backspace remove the selected width points and Puppet Warp pins
+80274	vectorcraft	M8.8: Define Grid dialog prefilled from the grid, with viewing angle, units, scale, colours and opacity
+80275	vectorcraft	Windows on ARM64: release builds, PE header check, install test on ARM64 hardware
+80276	vectorcraft	M8.15: Envelope dialogs, Reset with Warp/Mesh, full Envelope Options
+80277	vectorcraft	M8.16: Enveloped type exports distorted, run by run, everywhere
+80278	vectorcraft	M8.5: Puppet Warp pins rotate, multi-select and Select All; Control bar and hint
+80279	vectorcraft	M8.3: Liquify Tool Options dialogs, pen pressure and Brush Affects
+80280	vectorcraft	M8.9: Perspective grid presets: built-in views, Save Grid as Preset, presets manager
+80281	vectorcraft	M8.16: Envelope export test ignores the files' time stamps
+80282	vectorcraft	M8.12: Perspective Selection tool scales, copies, moves perpendicular and nudges in perspective
+80283	vectorcraft	M8.18: Blend Options dialog and the Blend tool's anchor targeting
+80284	vectorcraft	M8.19: blend spine and keys editable on the canvas
+80285	vectorcraft	M8.6: Puppet Warp pins appear at once, warp from the rest shape and follow Undo
+80286	vectorcraft	M8.13: Perspective planes move along their normals with widgets, alone, with or copying their objects
+80287	vectorcraft	M8.10: Perspective grid view options: Lock Grid, Lock Station Point, Snap to Grid, Show Rulers
+80288	vectorcraft	M8.4: Liquify keeps going while held, leaves non-paths alone, strokes apply incrementally
+80289	vectorcraft	M8.7: Width tool edits compound-path strokes, shows every subpath's points, own cursors
+80290	vectorcraft	M8.20: blends interpolate strokes, gradients, groups, type and symbols faithfully
+80291	vectorcraft	M8.16: Envelopes bend images, symbols, gradients, patterns and appearance; warps keep their frame
+80292	vectorcraft	M8.14: Type and symbols in perspective are really projected and stay editable; attachments survive copies
+80293	vectorcraft	M8.11: Perspective grid widgets: ground-level points move the grid, separate extents, cell size widget, screen-fixed Plane Switching Widget with 1-4 keys
+80294	vectorcraft	M8.17: Edit envelopes on the canvas (M8 done)
+80295	vectorcraft	Fonts: use craft-fonts as an optional build input; move the Japanese fonts out
+80296	vectorcraft	Type: find fonts by any of their names; say how each one resolved
+80297	vectorcraft	Type: input method composition (Japanese IME) in the Type tool
+80298	vectorcraft	Type: kinsoku, tate-chu-yoko and upright placement for vertical type
+80299	vectorcraft	FreeBSD: release package and a packaging check in CI
+80300	vectorcraft	MCP: prompts, resource templates, completions and logging
+80301	vectorcraft	Rename PrintCraft to PdfCraft (storytold/pdfcraft) (#356)
+80302	vectorcraft	MCP small wins: panel ids, object reads via document.node, stdio sweep
+80303	vectorcraft	Smart Guides: bounding-box resizes snap to the other objects
+80304	vectorcraft	Type: vertical type takes upright glyphs' cells from the font's vertical metrics
+80305	vectorcraft	i18n tests: put MENU_KEEP_AS_IS's doc comment back on it (#317 follow-up)
+80306	vectorcraft	Type: mojikumi — Line-end Punctuation Half Width for Japanese punctuation
+80307	vectorcraft	Type: justified Japanese lines spread between their characters
+80308	vectorcraft	Saved selections: keep Edit Selection linear in the number saved (#318 follow-up)
+80309	vectorcraft	Font menu: keep at most 256 sample textures (#339 follow-up)
+80310	vectorcraft	Type: a font menu with samples, live preview, script and kind filters, styles and favourites
+80311	vectorcraft	Direct Selection: keep the spine, mesh and frame overlays while a handle is dragged (#332 follow-up)
+80312	vectorcraft	Type: rustfmt the merged vertical-glyph rotation (#343 + #350)
+80313	vectorcraft	MCP: a server sends log records only when its own client asked for them
+80314	vectorcraft	PDF/.ai import: Japanese text as live type (CID fonts, vertical columns, missing fonts)
+80315	vectorcraft	PDF import (#337 follow-up): keep missing-font text live, decide each font's face once, Kangxi fix for CID text only
+80316	vectorcraft	Type: mojikumi — a quarter em between Japanese and Latin text
+80317	vectorcraft	Type: the Japanese–Latin quarter em leaves Hangul alone and counts 々 〆 〇 as letters (#370 follow-up)
+80318	vectorcraft	i18n pt-br: drop three Layers strings main no longer shows (#384 follow-up)
+80319	vectorcraft	Path: Smart Remove Anchor Points keeps the curve close
+80320	vectorcraft	Review follow-ups for #343, #350, #317, #339, #328, #318, #331
+80321	vectorcraft	Add automatic Hebrew/Arabic RTL text and paragraph alignment
+80322	vectorcraft	M7: Simplified Chinese, horizontal CJK composition and compact UI fixes
+80323	vectorcraft	Add opt-in Windows 7 SP1 x64 compatibility build
+80324	vectorcraft	Type: Top-to-Top Leading — leading measured from em box top to em box top
+80325	vectorcraft	Type: Character Alignment — where smaller characters line up with a line's largest
+80326	vectorcraft	MCP: Slice summary reads with document.node depth and childLimit
+80327	vectorcraft	Type: no Japanese–Latin space next to Hangul compatibility or half-width jamo
+80328	vectorcraft	Skeleton reads and find for large documents
+80329	vectorcraft	README Downloads: where to get it first, then builds with Windows before macOS (#512)
+80330	vectorcraft	Type: set an opening bracket flush at the start of a wrapped line
+80331	vectorcraft	Stroke: per-unit weight presets so mm/cm/in dropdowns show clean numbers
+80332	vectorcraft	M7: keep ligatures under small tracking
+80333	vectorcraft	M7: area type vertical alignment
+80334	vectorcraft	M7: area type auto size and shrink text to fit
+80335	vectorcraft	M7: per-paragraph paragraph attributes
+80336	vectorcraft	M7: inline symbols in text
+80337	vectorcraft	Desktop: write log records to standard error and a rotating log file
+80338	vectorcraft	Type: burasagari — a Japanese comma or full stop ending a line may hang outside it
+80339	vectorcraft	macOS DMG: branded window background and icon layout
+80340	vectorcraft	Clean-room: never run, automate or observe Adobe software
+80341	vectorcraft	M2.9: add editable Shaper groups and shape orientation steps
+80342	vectorcraft	M2.9: recognize uneven Shaper squares independently of stroke start
+80343	vectorcraft	Linux: check the system clipboard for Paste off the UI thread (#510)
+80344	vectorcraft	M2.9: translate Shaper commands in Russian
+80345	vectorcraft	EPS tests: interpreter programs written from the PostScript Language Reference
+80346	vectorcraft	Add Russian (ru) interface translation
+80347	vectorcraft	Fix RTL shaping across text runs
+80348	vectorcraft	Land #542, #523, #528, #527, #538, #529 with review fixes
+80349	vectorcraft	Fix pasted type losing its layout bounds cache
+80350	vectorcraft	Land #533, #548, #549, #552 with review fixes
+80351	vectorcraft	Fix #525: Image Trace of a large photo no longer crashes the app
+80352	vectorcraft	Add French (fr) interface translation
+80353	vectorcraft	Translate the French strings drawn through translating helpers
+80354	vectorcraft	Order the French code and docs alphabetically by language code
+80355	vectorcraft	Translate the French labels added on main
+80356	vectorcraft	Fix #550: an SVG of chosen artboards holds only their art
+80357	vectorcraft	Fix #555: the font menu scrolls only its list
+80358	vectorcraft	Fix #541: a click on a selected object makes it the key object
+80359	vectorcraft	Fix #563: the font menu's live preview no longer flickers
+80360	vectorcraft	Fix #530: Edit Artboards adds, deletes and leaves artboards from Properties
+80361	vectorcraft	Fix #526: the exports and the CLI write .ai as Save As does
+80362	vectorcraft	Fix #522: SVG round trips keep hidden objects and data-* attributes
+80363	vectorcraft	Fix #577: the gradient stop popover stays open after the click that opens it
+80364	vectorcraft	Russian: H is В (высота), not Ш
+80365	vectorcraft	Type: ligatures drop past -20 or +55 tracking, as Adobe's composers do
+80366	vectorcraft	Fix #578: a drag on the Color panel's spectrum no longer flickers near white
+80367	vectorcraft	Fix #579: fonts activated by font services such as Adobe Fonts are listed on Windows
+80368	vectorcraft	Part of #372: .ai files write layers and sublayers as PDF layers, hidden ones kept
+80369	vectorcraft	Fix #592: file dialogs on Linux no longer stop the window answering
+80370	vectorcraft	Fix #593: anchors and handle ends are easier to grab than the segments through them
+80371	vectorcraft	Fix #597: an image copied in a browser pastes as the picture, not its address
+80372	vectorcraft	Fix #598: the Free Transform widget
+80373	vectorcraft	Fix #585: a two-finger tap undoes, a three-finger tap redoes
+80374	vectorcraft	Part of #579: vectorcraft-cli lists the fonts font services load too
+80375	vectorcraft	Russian: Artboard and Exit for the Properties panel's artboard editing
+80376	vectorcraft	French: ICF Top/Right and ICF Bottom/Left (#631 landed beside the catalog)
+80377	vectorcraft	View › Pixel Preview: show the document pixels the art rasterizes to
+80378	vectorcraft	Part of #372: SVG import keeps wrapped layers and round-trips sublayers
+80379	vectorcraft	Type: the comments on new type's burasagari default state the default only
+80380	vectorcraft	Type: Character Alignment on the ICF top and bottom (ideographic character face)
+80381	vectorcraft	Fix #638: Layers panel lays out only the rows in view and keeps open rows in the file
+80382	vectorcraft	Land #653, #654, #656: Image Trace View modes, Palette and Create Strokes (part of #641)
+80383	vectorcraft	Land #664, #669: Animated Zoom, Large Tabs, Scale Cursor, anti-aliased bitmaps, Spacing Guides (part of #394)
+80384	vectorcraft	Land #674, #676, #677, #678, #679: raster resolution, Crop Image trim, CMYK TIFF alpha, masked CMYK PDF images, direct ICC CMYK to RGB
+80385	vectorcraft	Land #667: native Affinity import with artboards, vectors, text and images
+80386	vectorcraft	Land #694: Radial Blur, Smart Blur and Unsharp Mask
+80387	vectorcraft	Land #698, #699: a saved multi-artboard .ai reopens as its document; FreeBSD hexagon test
+80388	vectorcraft	Affinity README: say which sample set the semantics were fitted on
+80389	vectorcraft	Type: Kinsoku Set — Hard (today's set), Soft and None (#633)
+80390	vectorcraft	Type: an opening bracket at a paragraph's start is set flush too, JIS X 4051's principle (#633)
+80391	vectorcraft	PDF import: slanted type keeps its slant
+80392	vectorcraft	Part of #758: .ai import draws the page once when weighing the layers
+80393	vectorcraft	Fonts: find suitcase fonts, whose font data is in the resource fork
+80394	vectorcraft	Clippy 1.99: use as_chunks for constant-size chunks
+80395	vectorcraft	Fix #813: type can name an installed version of its font
+80396	vectorcraft	Add Stylize > Glowing Edges raster effect
+80397	vectorcraft	Credit vbasky by real and display name
+80398	vectorcraft	Progress docs: target-app parity, gaps, alpha gate, readiness by audience (#994)
+80399	vectorcraft	Adopt shared docking with panel menus and saved return locations
+80400	vectorcraft	 Compact app bar: 32 pt bar, PhotoCraft search icon, no app menu + System title bar option
+80401	vectorcraft	Variables (data merge): text/visibility variables, datasets, panel
+80402	vectorcraft	Add live Revolve effect with artboard rotation and lighting gizmos
+80403	vectorcraft	Links: wake for the first look at a link placed while the app is idle
+80404	vectorcraft	Fix font size and horizontal scale after text/group scaling
+80405	vectorcraft	Type: Proportional Metrics — full-width glyphs on the font's proportional widths, `palt` (#966)
+80406	vectorcraft	Gradient mesh: a fill colour recolours the point last clicked (#1050)
+80407	vectorcraft	Type: Proportional Metrics in vertical type — upright glyphs on the font's proportional heights, `vpal` (#966)
+80408	vectorcraft	MCP: drawing tools describe inherited paint and export text options
+80409	vectorcraft	Reject malformed desktop automation root arguments before startup
+80410	vectorcraft	Review: house header for the root-argument integration test (#1157)
+80411	vectorcraft	PDF export: warn when raster effects render below the requested resolution
+80412	vectorcraft	Type: Digits — Default, Arabic, Hindi and Farsi numeral systems (Character panel menu, Middle Eastern options)
+80413	vectorcraft	Linux: Automatic draws on the GPU the Wayland compositor draws with
+80414	vectorcraft	i18n (cs): Pathfinder Add reads "Sjednotit", plus the remaining looked-up strings
+80415	vectorcraft	Preserve SVG data attributes and validate export artboard ranges
+80416	vectorcraft	Correct Arabic shaping assertions and cover embedded PDF fonts
+80417	vectorcraft	Fix Pen endpoint picking and commit handle previews
+80418	vectorcraft	Preserve placed links in editable exports and honor AI artboard options
+80419	vectorcraft	MCP: lost replies report uncertainty instead of replaying edits
+80420	vectorcraft	Type: Proportional Metrics bring their kerning — `apkn` with `palt`, `vkrn` and `vapk` with `vpal` (#966)
+80421	vectorcraft	i18n (cs): translate labels that bypass the catalog lookup (file filters, diagnostics, credits, gradients, print marks)
+80422	vectorcraft	Image Trace: an image over 64 megapixels is traced scaled down
+80423	vectorcraft	Adopt craft-print for desktop printing, preserving Windows 7
+80424	vectorcraft	Part of #1377: Rectangular Grid and Polar Grid tool options (skew, frame, compound path, fill)
+80425	vectorcraft	A just-opened dialog gives its focus to the first enabled field, not a greyed-out one
+80426	vectorcraft	Fix #1410: an .ai compound path takes its last path's paint, and paths grouped in it stay its paths
+80427	vectorcraft	Fix #1408: the Transform tools and commands act on the anchors selected with Direct Selection
+80428	vectorcraft	Fix #1412: the Transform dialogs preview on the canvas, and arrow keys step their angles and percentages
+80429	vectorcraft	Image Trace: a quality harness and the baseline for every preset
+80430	vectorcraft	Image Trace: edges to a fraction of a pixel in Black and White, Grayscale and Color
+80431	vectorcraft	Fix #1450: the Pathfinder panel works on a group selected alone
+80432	vectorcraft	Fix #1448, #1460: Transform Objects in the Transform dialogs and Transform Each, and Reflect across an angle
+80433	vectorcraft	Part of #1459: the window's surface may be as large as the graphics adapter allows
+80434	vectorcraft	Fix #1442: an unknown parameter key is an error naming it and the nearest accepted key
+80435	vectorcraft	Fix #1457: a focused field follows its value when a slider or preview changes it
+80436	vectorcraft	Image Trace: colour presets trace flat art with its own colours (no shattering, no slivers)
+80437	vectorcraft	Graph Data: the CSV keeps each value exactly, not rounded to two decimals
+80438	vectorcraft	Image Trace: photos trace into smooth tones (smoothing first, stacked layers by lightness)
+80439	vectorcraft	Image Trace: progress docs for the palette and photo changes
+80440	vectorcraft	README.md: add clone instructions to quick start
+80441	vectorcraft	Image Trace: abutting regions share one curve along their edge (no gaps, no overlaps)
+80442	vectorcraft	.ai import: a page's art past its artboard no longer lies over the page before it
+80443	vectorcraft	Image Trace: a 16 megapixel photo is traced in 0.9 GB, not 3.9
+80444	vectorcraft	Image Trace: thin lines in blurred and scanned art keep smooth edges
+80445	vectorcraft	Image Trace: Ignore Color, and the Auto Color and Outline presets
+80446	vectorcraft	Replace linear scan in CSS class dedup with a HashMap lookup
+80447	vectorcraft	Image Trace: Snap Curves To Lines levels lines a degree or two askew
+80448	vectorcraft	Image Trace: stroked centre lines lie in the middle of their ink and are as wide as it
+80449	vectorcraft	Image Trace: Shapes, and corners whose pixel is mostly outside the shape
+80450	vectorcraft	Select Behind: test each object once instead of re-hitting the whole document
+80451	vectorcraft	Palette nearest-colour lookup: branch-and-bound index over the linear scan
+80452	vectorcraft	Image Trace: Auto Grouping
+80453	vectorcraft	Image Trace: Gradients
+80454	vectorcraft	Image Trace: levelling moves no end of a line by more than 1.6 px
+80455	vectorcraft	Image Trace: Flat Logo takes the tones of an unevenly lit colour for one colour
+80456	wordcraft	first commit
+80457	wordcraft	M0.1–M0.6: workspace, geom, document model, fonts, layout, render
+80458	wordcraft	M0.7: engine — session, undo, 200+ commands, Word feature catalog, samples
+80459	wordcraft	M0.8: Word-style egui UI — ribbon (all tabs), page canvas, rulers, panes, dialogs, Backstage, control channel; desktop app
+80460	wordcraft	M0.9–M0.12: CLI, MCP server, xtask (layers/assets/parity/ci), icon placeholder, AGENTS/ATTRIBUTION/NOTICE, protocol docs
+80461	wordcraft	M7.1: proofing — spelling with suggestions, grammar checks, squiggles, F7, right-click menu, thesaurus; web app; hyphenation dictionary
+80462	wordcraft	M6.1: footnotes at page bottom, endnotes at document end, click-to-edit notes
+80463	wordcraft	M1: DOCX read/write (OOXML) wired into open/save; floating objects; picture & shape tools; mail merge, envelopes, labels; contextual spacing; export without proofing mark
+80464	wordcraft	M3/M6/M12: PDF export (krilla), TXT/MD/HTML/RTF/ODT import+export, citations & bibliography, index, table of figures, cross-references, tools (repeat, macros, AutoCorrect
+80465	wordcraft	Clippy/fmt clean workspace, ROADMAP with honest parity estimate; xtask ci green
+80466	wordcraft	README with screenshots, Crafting Apps table, community links; proofing ignores deletions/objects; comment shading; hhea line metrics; watermark tuning
+80467	wordcraft	Layout: text wrap around floating objects, text box contents, page borders (from page edge), column separators, vertical alignment, line numbers; cli run --page/--scale
+80468	wordcraft	Layout: table rows split across pages between lines (cantSplit honoured, header rows repeat)
+80469	wordcraft	Layout: drop caps (dropped letter sized to N lines, text indented beside it)
+80470	wordcraft	Layout: automatic hyphenation (dictionary + patterns, 0.25" zone), soft hyphens show a hyphen at line end
+80471	wordcraft	M7/M14: comment balloons in the margin; ROADMAP alpha and parity estimates; README Review and Layout screenshots; cargo xtask alias
+80472	wordcraft	M14: clean wasm build warnings; macOS CLI zip without AppleDouble files
+80473	wordcraft	M14: .shellcheckrc so packaging lint follows the shared env.sh
+80474	wordcraft	Rename PrintCraft to PdfCraft (storytold/pdfcraft) (#3)
+80475	wordcraft	README Downloads: where to get it first, then builds with Windows before macOS (#26)
+80476	wordcraft	Ctrl+-, Ctrl+= and Ctrl+0 no longer zoom the whole window (#14) (#36)
+80477	wordcraft	Ruler: dragging an indent marker is one undo step (#57) (#62)
+80478	wordcraft	M6: footnotes no longer cite themselves in saved .docx files (#53)
+80479	wordcraft	draw Symbol and Wingdings bullets as Unicode when the font is missing (#29) (#37)
+80480	wordcraft	Options: remember the user name between runs (#32) (#35)
+80481	wordcraft	M6: TOC page numbers, and save the TOC as a field Word can update (#52)
+80482	wordcraft	Desktop: remember the window size and position (#23) (#38)
+80483	wordcraft	macOS DMG: branded window background and icon layout (#21)
+80484	wordcraft	Desktop: write log records to standard error and a rotating log file (#17)
+80485	wordcraft	Typing parity with Word: lists, AutoFormat and AutoCorrect as you type (#204)
+80486	wordcraft	Desktop: keep the off-screen check until the monitor size is known (#23) (#76)
+80487	wordcraft	Format the desktop app's imports with rustfmt (follow-up to #76)
+80488	wordcraft	DOCX: keep a line break written directly in a paragraph (#96) (#101)
+80489	wordcraft	Page break (Ctrl+Enter) survives ODT/TXT/Markdown/HTML export and no longer glues words (#84) (#86)
+80490	wordcraft	HTML import: tables without borders stay borderless in .docx (#99) (#102)
+80491	wordcraft	Import: HTML without </head> keeps its body; RTF pictures inside \shppict are kept (#154)
+80492	wordcraft	M6: TOC follow-ups from #52 review, and a whole TOC heading in LibreOffice (#74)
+80493	wordcraft	View › Switch Modes: dark page with inverted document colours (#194)
+80494	wordcraft	CLI: reject unknown long options before work (#166)
+80495	wordcraft	Zoom the page with Ctrl+scroll and pinch (#139) (#179)
+80496	wordcraft	Find/Replace skips text deleted under Track Changes (#89); a failed command keeps undo history (#153)
+80497	wordcraft	Find and Replace: Replace All now respects Track Changes (#88) (#92)
+80498	wordcraft	#147: wire Picture Format UI for inserted pictures (#150)
+80499	wordcraft	DOCX: keep a .docm's macros and signatures on save; right content types for .docm/.dotx/.dotm (#172)
+80500	wordcraft	Tables: draw style borders when w:tblBorders is empty (#143) (#148)
+80501	wordcraft	Lists: a numbered list after a bulleted list keeps its numbering in ODT, RTF and Markdown (#83) (#87)
+80502	wordcraft	Control port: require a per-window key (split from #54) (#124)
+80503	wordcraft	Add Spanish interface language, and make ribbon overflow visible (#129)
+80504	wordcraft	Character border (Home > Font > Character Border) (#60)
+80505	wordcraft	View: align current page rasters to screen pixels (#165)
+80506	wordcraft	Render: draw on-screen text like macOS, on whole pixels (#110)
+80507	wordcraft	Layout: shrink spaces in justified lines like Word 2013+ (compatibility mode 15) (#109)
+80508	wordcraft	UI: keytips, mini-toolbar, ribbon overflow, macOS typography (#43)
+80509	wordcraft	Fonts: load an installed family's faces all at once, one load at a time
+80510	wordcraft	Desktop and web: ask to save changes before New, Open or Close; AutoSave only files you saved (#151)
+80511	wordcraft	Envelopes, Labels, Finish & Merge: ask to save changes first (depends on #151) (#171)
+80512	wordcraft	Hidden text: no line breaks, hyphens, wrap areas or bookmark text from text that isn't shown (builds on #152) (#173)
+80513	wordcraft	Zotero integration: cite while you write, with a Zotero tab (#189)
+80514	wordcraft	Read Aloud: player with speed control, sentence skipping, skips citations (#190)
+80515	wordcraft	Import Word 97-2003 .doc files (#28) (#145)
+80516	wordcraft	Text boxes and floating objects: editing, drag/resize, wrapping, overflow, footnotes (#46)
+80517	wordcraft	Equations: Word (OMML) import, layout and save, plus an equation editor like Word's (#191)
+80518	wordcraft	Track changes: keep other authors' deletions, credit paragraph splits, exact edit snapshots (split from #54) (#125)
+80519	wordcraft	macOS: open documents from Finder, the Dock and `open -a` (#27) (#223)
+80520	wordcraft	web: print straight to the system print dialog, not just export (#209)
+80521	wordcraft	Progress docs: target-app parity, gaps, alpha gate, readiness by audience (#277)
+80522	wordcraft	Re-land #264, #263, #270, #271, #267, #280: clipboard pane, table styles, Manage Styles, Asian Typography, Group, Shape Effects (#323)
+80523	wordcraft	Add Estonian interface translation (#294)
+80524	wordcraft	Contributors: add my own entry (alexanderalber) (#566)
+80525	wordcraft	IME composition text uses document fallback fonts instead of boxes (#565) (#578)
+80526	wordcraft	Web: a CSV picked as recipients no longer turns the next TXT drop into recipients (#472) (#579)
+80527	wordcraft	Zotero: a pending citation no longer edits a replacement document (#470) (#580)
+80528	wordcraft	Zotero: a note with a picture stays when its citation moves to body text (#469) (#581)
+80529	wordcraft	Pictures in headers/footers can be moved, resized and rotated (#591)
+80530	wordcraft	#665: rustdoc names private items as code, not links (#683)
+80531	wordcraft	#664: brand licence names WordCraft, not DesignCraft (#682)
+80532	wordcraft	Drag after a double/triple-click extends the selection by words/paragraphs (#549) (#649)
+80533	wordcraft	Open playlists and other text files (.m3u, .m3u8, .log, .ini, …) (#569) (#648)
+80534	wordcraft	#611: DOCX diagrams: theme-styled shapes and connectors, VML lines (#671)
+80535	wordcraft	Complex scripts: shape Myanmar, Khmer and Indic text; caret and line breaks respect syllables (#604) (#652)
+80536	wordcraft	More Colors… and a Colors dialog for custom colours (#606) (#666)
+80537	wordcraft	Print Markup: comments in PDF, print, images and text copies (#589) (#667)
+80538	wordcraft	Add fonts at run time: Add Font…, drop a font file, font.add (#582) (#668)
+80539	wordcraft	#661: Table of Authorities buttons labelled, with Update Table (#693)
+80540	wordcraft	#657: input borders reach 3:1 contrast in both themes (#696)
+80541	wordcraft	Pictures: WMF drawings fill their frame like Word plays them (#739)
+80542	wordcraft	Ink: draw the live pen stroke in the dark-page colour while drawing, not only after lifting the pen (#730) (#746)
+80543	wordcraft	Backspace still erases while Shift is held (#707) (#747)
+80544	wordcraft	Dark theme: readable text on the accent (#655) (#704)
+80545	wordcraft	Let dialogs be dragged by their title bar instead of pinning them to the screen centre (#732) (#748)
+80546	wordcraft	Layout: multiple line spacing adds its leading below the text, like Word (#719)
+80547	wordcraft	Track Changes: show deletions in balloons when 'Show revisions in balloons' is on - balloons now work (#734)
+80548	wordcraft	#755: Line Numbers and Hyphenation measure in the Options unit (#795)
+80549	wordcraft	Ribbon and context-menu Paste insert the system clipboard's text (#584) (#593)
+80550	wordcraft	MacOS window close (#539)
+80551	wordcraft	Caret: glide and fade like Word for Windows; File › Options › Advanced › Animation turns it off (#570)
+80552	wordcraft	Accessibility Options: Animation effects setting that follows the system (#791)
+80553	wordcraft	Tables: resize by dragging column borders, row borders and the corner handle (#217) (#600)
+80554	wordcraft	Add German (de) interface language (#574)
+80555	wordcraft	M15: Polish interface, and Polish spelling, grammar and hyphenation (#346)
+80556	wordcraft	Linux: the display theme asks the desktop, not winit (#298)
+80557	wordcraft	M1: preserve independent complex-script DOCX formatting (#366)
+80558	wordcraft	Fix bulleted list toolbar button active state (#651)
+80559	wordcraft	#656: dialog buttons, Discord pill, eraser and search highlight use theme tokens (#705)
+80560	wordcraft	Dark theme: gallery previews no longer bright white (#663) (#706)
+80561	wordcraft	Skip non-English runs in proofing instead of flagging them (#100) (#741)
+80562	wordcraft	Added some fixes to the spanish "Info" Page on Wordcraft (#695)
+80563	wordcraft	#659: one drop-down marker (the dropdown icon) on every ribbon button (#697)
+80564	wordcraft	Menu buttons grey out while their command is disabled (#658) (#698)
+80565	wordcraft	Ribbon: large-button labels end above the group titles (#653) (#699)
+80566	wordcraft	Layout › Paragraph: fields fit above the title and line up (#654) (#703)
+80567	wordcraft	Layout: an inline picture wider than the text keeps its size, like Word (#745)
+80568	wordcraft	MCP: confine file access with --automation-read-root and --automation-write-root (#769) (#798)
+80569	wordcraft	Persist the custom dictionary across sessions (#40) (#796)
+80570	wordcraft	M1: preserve native Word ink through DOCX saves (#592)
+80571	wordcraft	Affix engine: FLAG UTF-8, 128 flag bits, continuation classes, FORBIDDENWORD (#100) (#782)
+80572	wordcraft	Portuguese proofing: pt-BR spelling, suggestions, grammar and hyphenation (#100) (#797)
+80573	wordcraft	Hyphenation: Bulgarian text follows the Bulgarian syllable rules (#826)
+80574	wordcraft	ODT import reads page size, orientation and margins from styles.xml (#810) (#829)
+80575	wordcraft	Paste keeps other programs' formatting; clipboard pictures on Wayland (#687, #833) (#847)
+80576	wordcraft	New documents follow the system region: A4, centimetres and decimal comma outside the US (#838) (#857)
+80577	wordcraft	Comment cards show the time as well as the date (#812) (#828)
+80578	wordcraft	Accept and Reject at the caret cover a tracked change split by a comment (#809) (#830)
+80579	wordcraft	Keep the font table and embedded fonts when saving a .docx (#770) (#831)
+80580	wordcraft	Zoom after One Page keeps one page per row (#768) (#832)
+80581	wordcraft	#819: Alt+Q moves to "Tell me" command search (#849)
+80582	wordcraft	#743: freeforms in groups keep their shape; text boxes keep their margins and Resize to fit (#843)
+80583	wordcraft	Sorting and table numbers follow the text's language (#836, #837) (#844)
+80584	wordcraft	Print: select printers and submit jobs through craft-print
+80585	wordcraft	AutoCorrect: the English replacement list applies only to English text (#835) (#846)
+80586	wordcraft	Start on File › Home when launched with nothing to open (#766) (#853)
+80587	wordcraft	Undo history list beside the Quick Access Toolbar's Undo (#701) (#855)
+80588	wordcraft	Tables: select, insert and move with the mouse; double-click a border to AutoFit (#637)
+80589	wordcraft	Tables: the right-click menu offers the table's commands (#694)
+80590	wordcraft	Tables: drags and Shift+arrows over cells select whole cells (#722)
+80591	wordcraft	Rulers: table column and row markers; indents in a cell measured from it (#710)
+80592	wordcraft	Tables: Ctrl, Alt, left-edge and selected-cells border drags (#720)
+80593	wordcraft	#811: smooth scrolling through a very large table (#891)
+80594	wordcraft	#861: the save prompt answers from the keyboard (#870)
+80595	wordcraft	#852: a section break inserted over a selection keeps the selected text (#875)
+80596	wordcraft	#856: click in the left margin (selection bar) selects lines (#879)
+80597	wordcraft	Font list previews no longer keep every family in memory (#848) (#874)
+80598	wordcraft	Layout: blank pages put sections on the right side, and paragraph spacing is the larger of after and before (#733, rebased) (#964)
+80599	wordcraft	#802: Insert › Picture takes Windows Metafiles and Enhanced Metafiles (#869)
+80600	wordcraft	#776: draw Wingdings, Wingdings 2/3, Webdings and Symbol text as Unicode symbols (#876)
+80601	wordcraft	Fonts: treat Windows charset names as the font itself (#904)
+80602	wordcraft	Open RTF in its code page, and Word/RTF files whose extension is wrong (#896)
+80603	wordcraft	RTF: read page size and margins, lay tables out on their cell edges (#902)
+80604	wordcraft	M15: Polish catalog covers style names, watermarks, paper sizes and the equation gallery (#871)

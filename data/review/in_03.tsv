@@ -1,0 +1,610 @@
+30000	cadcraft	Keep ATTDEF prompt when saving DXF (#81) (#137)
+30001	cadcraft	Write LWPOLYLINE elevation (group 38) to DXF (#77) (#142)
+30002	cadcraft	Keep viewport frozen-layer lists through DXF save and reopen (#98) (#150)
+30003	cadcraft	Keep a free measured origin in place when its source moves (#109) (#152)
+30004	cadcraft	Keep dimension text rotation when saving DXF (#78) (#153)
+30005	cadcraft	ARC: refuse zero-radius arcs instead of adding them (fixes #85) (#123)
+30006	cadcraft	Extents: a wide polyline's bounds follow its drawn band (fixes #90) (#127)
+30007	cadcraft	macOS: the delete key erases the selection, guarded against typing (#64)
+30008	cadcraft	Redraw edits made while a command is still running (fixes #4) (#22)
+30009	cadcraft	Print and Ctrl+P ask where to save the PDF (#5) (#26)
+30010	cadcraft	SCALE: Reference option (#17) (#27)
+30011	cadcraft	Blocks window: click a block to insert it (#8) (#28)
+30012	cadcraft	Scripts: split a line at keyword prompts so POLYGON 6 200,20 I 15 works (#43) (#45)
+30013	cadcraft	ui.render: fit the drawing and return pngBase64 like the headless render (#49, #50) (#52)
+30014	cadcraft	Trackpad pan (#58)
+30015	cadcraft	Keep arc-length dimensions as arc-length through DXF save and reopen (#100) (#140)
+30016	cadcraft	PLINE: Halfwidth is centre-to-edge, and Width answers taper the next segment (fixes #83, #104) (#121)
+30017	cadcraft	Fix the arc-length DWG round-trip test build; cargo fmt
+30018	cadcraft	Write Wipeout entities to DXF so saving keeps them (#79) (#147)
+30019	cadcraft	Press-and-drag selection windows (PICKDRAG = 2) (#63)
+30020	cadcraft	DIMANGULAR: accept a circle (#20)
+30021	cadcraft	Show Ctrl/Shift shortcuts on Windows and Linux, symbols only on macOS (#53) (#54)
+30022	cadcraft	Dynamic Input: pointer input boxes with Tab, comma and relative entry (#60)
+30023	cadcraft	docs/parity.md: recompute after the community PR batch (295 commands)
+30024	cadcraft	Progress docs: target-app parity, gaps, alpha gate, readiness by audience (#205)
+30025	cadcraft	Reject layer.set atomically: a refused call no longer applies other changes (#71) (#188)
+30026	cadcraft	Reject two-line angular constraints over 180 degrees that can never be satisfied (#73) (#190)
+30027	cadcraft	Keep the active drawing when closing an earlier inactive one (#76) (#192)
+30028	cadcraft	Respect locked layers in Clear, Cut, Stretch, Trim, Extend, Fillet, Explode and SplineEdit (#87) (#196)
+30029	cadcraft	Keep viewport layer colour overrides through DXF save and reopen (#99) (#197)
+30030	cadcraft	Layer delete and purge keep layers used by block definitions (#72) (#189)
+30031	cadcraft	Layer rename re-points paper-space and block-definition entities (#75) (#191)
+30032	cadcraft	Linetype rename keeps layer, object and current-linetype references (#74) (#195)
+30033	cadcraft	Clippy (as_chunks) and rustfmt after the community PR batch
+30034	cadcraft	Fix two tests after the community PR batch
+30035	cadcraft	DXF read: map mirrored OCS (extrusion 0,0,-1) of 2D entities to WCS (#277)
+30036	cadcraft	Save As: offer DWG, with the drawing's format first (#198)
+30037	cadcraft	Extents: ignore what draws nothing (rays, missing or empty blocks, hidden block geometry), as ZOOM Extents does (#288)
+30038	cadcraft	Default save format for new drawings (DXF or DWG) (#298)
+30039	cadcraft	Snaps in block references: spend budget per array cell; skip empty blocks
+30040	cadcraft	PURGE test: add the zero-length line directly
+30041	cadcraft	Keep egui on the System theme preference so the OS appearance is followed live (#301) (#363)
+30042	cadcraft	cargo fmt after the community PR batch
+30043	cadcraft	cargo fmt after the community PR batch
+30044	cadcraft	Add shared workspace docking to CADCraft
+30045	cadcraft	Web: opt-in embedding bridge for host pages (?host=parent) (#509)
+30046	cadcraft	CLI: cadcraft-cli exits quietly when stdout is closed early (#568)
+30047	cadcraft	SETVAR accepts point objects for SNAPBASE, LIMMIN, LIMMAX and INSBASE (#485) (#575)
+30048	cadcraft	SETVAR keeps text variables such as CLAYER as text, so a layer named 10 can be selected (#484) (#576)
+30049	cadcraft	Dimension Space asks for the base, the dimensions and the spacing instead of failing (#483) (#577)
+30050	cadcraft	dimstyle.rename and delete: cover dimensions inside block definitions (#482) (#578)
+30051	cadcraft	Properties: changing a block's scale moves and resizes its attributes (#481) (#579)
+30052	cadcraft	Properties: reject a malformed lineweight instead of setting 0.25 mm (#480) (#580)
+30053	cadcraft	Align Text > Angle asks for the angle instead of failing with a missing-parameter error (#478) (#582)
+30054	cadcraft	properties.set rejects a linetype that is not loaded (#476) (#584)
+30055	cadcraft	INSERT with explode records one undo step (#475) (#585)
+30056	cadcraft	layer.delete: clear the deleted layer from viewport freeze and colour overrides (#474) (#586)
+30057	cadcraft	Properties: turn a block reference's attribute text with its Rotation edit (#473) (#587)
+30058	cadcraft	Text style rename: update text inside block definitions (#472) (#588)
+30059	cadcraft	OFFSET: full ellipse copy goes to the side of the picked point (#501) (#591)
+30060	cadcraft	Parameters Manager: keep a pending expression when the window loses focus (#498) (#594)
+30061	cadcraft	Command line keyboard input works while the command line is hidden (#497) (#595)
+30062	cadcraft	Plot: apply an explicit scale to non-fitted layout plots (#490) (#598)
+30063	cadcraft	Include multileader text in its bounds so zoom, window selection and viewports keep the whole text (#488) (#600)
+30064	cadcraft	AREA: refuse an open elliptical arc instead of measuring the whole ellipse (#487) (#601)
+30065	cadcraft	STYLE typed with no arguments opens the Text Style dialog instead of an error (#535) (#590)
+30066	cadcraft	Web: ?cpu selects the CPU canvas instead of installing the GPU canvas (#500) (#592)
+30067	cadcraft	Page Setup: report unsupported layout plot areas as not available yet (#491) (#597)
+30068	cadcraft	Select: pick pattern hatches on their visible strokes (#489) (#599)
+30069	cadcraft	Add German (de) interface language (#573)
+30070	cadcraft	Spanish translation (#610)
+30071	cadcraft	Add PTYPE as an alias of the Point Style command (#622) (#645)
+30072	cadcraft	Keep inter-word spaces in stroke-font MTEXT (#628) (#644)
+30073	cadcraft	Tool Sets: the gear on a category header opens that category's options (#620)
+30074	cadcraft	Linux: Theme > System follows the desktop's light/dark setting (#641)
+30075	cadcraft	Hatches: draw the pattern definition stored in the file; scale library patterns in metric drawings (#643)
+30076	cadcraft	Render: level of detail and view clipping for pattern hatches on screen (fixes #544) (#638)
+30077	cadcraft	Fix fatal wgpu buffer overflow; draw MOVE/COPY/ROTATE/SCALE previews and the selection highlight on the GPU (#642)
+30078	cadcraft	GPU errors and device loss: keep running, autosave at once, tell the user (#652)
+30079	cadcraft	Show block insertion XYZ in Properties Inspector (#682)
+30080	cadcraft	Zoom the canvas by each mouse-wheel notch in the frame it arrives (#692)
+30081	cadcraft	Cache active viewport highlights per zoom band so zoom and pan stay smooth (#687) (#695)
+30082	cadcraft	SCRIPT command: run .scr files from the command line, menus and JSON (gaps.md E2) (#693)
+30083	cadcraft	Add Chinese language support to preferences (#684)
+30084	cadcraft	Plotting: honor model-space center and X/Y offsets (#751)
+30085	cadcraft	cadcraft-cli mcp: --lazy and --launch for clients that start before the app (#756)
+30086	cadcraft	Hatch: a view covering a pattern hatch leaves its lines exactly as they are (#762)
+30087	cadcraft	DXF/DWG: write the Model layout's plot type as extents, not "Layout information" (#765)
+30088	cadcraft	Active viewport highlight: selection on the GPU, hover cached apart, kept inside a clipped outline (#770)
+30089	cadcraft	Keep the ACIS geometry of 3D solids, regions and bodies on save (ACDSDATA) (#781)
+30090	cadcraft	Write an unedited dimension's block as it was read (#782)
+30091	cadcraft	Don't give entities made while reading handles the file still uses (#783)
+30092	cadcraft	Keep the layout tabs inside the status bar (#821)
+30093	cadcraft	Xdata travels with its object: COPY, MIRROR, ARRAY and paste keep it (#890)
+30094	cadcraft	DXF: write viewport frozen layers as group 341 layer handles too (#827)
+30095	cadcraft	STRETCH: polygon and fence selection (#892)
+30096	cadcraft	DXF writer: resolve the #827/#871 merge (W keeps both the layer handles and the hatch reactors)
+30097	cadcraft	Property-based and hostile-input tests for geometry numerics (gaps.md S6) (#733)
+30098	craft-launcher	initial version
+30099	craft-launcher	ArtCraft Launcher: install and update the Craft App Suite
+30100	craft-launcher	Robust downloads: pause, resume, reconnect; fix every download failing
+30101	craft-launcher	Packaging lint: match the LSUIElement key, not the comment explaining it
+30102	craft-launcher	Brand header, sortable table, links to ArtCraft and each app
+30103	craft-launcher	Social links: X, YouTube, TikTok and Instagram icons
+30104	craft-launcher	App icon is the ArtCraft "A"; thank the community launchers
+30105	craft-launcher	README grid + table screenshots; no macOS in CI
+30106	craft-launcher	Awesome launcher!
+30107	craft-launcher	better description
+30108	craft-launcher	Detect AUR installs, read distro versions, rescan installs
+30109	craft-launcher	ArtCraft Launcher updates itself and restarts
+30110	craft-launcher	Self-update: stop restart loops and unsigned-looking macOS copies
+30111	craft-launcher	macOS: show the window on the current desktop
+30112	craft-launcher	Add LinkedIn to the social links
+30113	craft-launcher	Restyle the release feed's notices and alerts for the new theme
+30114	craft-launcher	Rate-limit calls to the ArtCraft API; back off hard on HTTP 429
+30115	craft-launcher	Footer names the services in use; retry the ArtCraft API before GitHub
+30116	craft-launcher	Use ArtCraft's release feed; GitHub only as the fallback
+30117	craft-launcher	Default wgpu to Direct3D 12 on Windows: fixes startup crash on hybrid AMD laptops
+30118	craft-launcher	Restyle to match getartcraft.com, add an installer wizard, blue app icon (#23)
+30119	craft-launcher	Windows installer: choose the install folder, optional desktop shortcut; 0.1.2 (#26)
+30120	craft-launcher	Linux: report undetected-package fallback as a system binary (#99 follow-up)
+30121	craft-launcher	macOS: install only apps signed by the Craft team, at the release's version (#51)
+30122	craft-launcher	Add a German interface (#71)
+30123	craft-launcher	Add a French interface (#85)
+30124	craft-launcher	Quit from the tray even when the window is minimized and gets no frames (#77)
+30125	craft-launcher	Add an option to install Craft apps from local builds instead of GitHub (dev builds only) (#64)
+30126	craft-launcher	macOS: attach disk images one at a time, and retry when the helper is busy
+30127	craft-launcher	UI tests: the title-bar test needs no GPU unless it saves a snapshot
+30128	craft-launcher	macOS: open disk images reliably, and say why when they won't open; 0.2.1 (#135)
+30129	craft-launcher	linux: only run pacman when the pacman database exists, so an unrelated pacman on PATH is not launched (#158) (#180)
+30130	craft-launcher	macOS: set the notification bundle id so no 'Where is use_default?' picker appears (#95) (#116)
+30131	craft-launcher	Linux: name the tray icon instead of showing the process id (#140)
+30132	craft-launcher	Desktop: write log records to standard error and a rotating log file (#178)
+30133	craft-launcher	Add experimental flake.nix for NixOS/Linux development (#72)
+30134	craft-launcher	Fallback apps to install from release tarballs when no usable Flatpak spawn is available (#87)
+30135	craft-launcher	Windows: compile DX12 shaders with FXC (#173)
+30136	craft-launcher	Detect PdfCraft installs made by its PrintCraft-named MSI (#134)
+30137	craft-launcher	Improve indeterminate installer progress bar animation (#163)
+30138	craft-launcher	Add Polish (Polski) as an interface language. (#138)
+30139	craft-launcher	Add Hungarian localization and fix responsive settings layout (#146)
+30140	craft-launcher	Hide Craft apps the user is not interested in. (#185)
+30141	craft-launcher	Linux: draw on the desktop's GPU, not always the discrete one (#164)
+30142	craft-launcher	macOS DMG: branded window and hdiutil create, so the app passes codesign --strict (#169)
+30143	craft-launcher	Add a details drawer for each Craft App (#60)
+30144	craft-launcher	Point the details pictures at storytold/craft-launcher-assets (#221)
+30145	craft-launcher	AGENTS.md: agents never land or approve third-party apps (#213)
+30146	deckcraft	initial commit
+30147	deckcraft	M0: workspace, model, geometry, fonts, text, renderer, engine, MCP and CLI
+30148	deckcraft	M0: PowerPoint-style egui UI, slide show engine, icons, desktop app
+30149	deckcraft	Slide show: by-paragraph text builds render per paragraph, sub-bullets follow their parent
+30150	deckcraft	xtask (ci, assets, layers, wasm, parity, version, ico), PowerPoint parity catalog, ROADMAP
+30151	deckcraft	PDF export: slides, notes pages and handouts with selectable text layer, links and bookmarks; Export dialog PDF options
+30152	deckcraft	Connectors: glue ends to connection sites, reroute on move/resize, shape.connect / shape.sites commands, site feedback on canvas
+30153	deckcraft	PPTX import/export: full OPC package, themes, masters/layouts, shapes, text, pictures, media, tables, charts, transitions, animations, comments; verified opening in Power
+30154	deckcraft	Web build and release CI: slidecraft-web, packaging, release workflow
+30155	deckcraft	Cargo.lock: sync with slidecraft-pptx dependencies (release builds use --locked)
+30156	deckcraft	Freeform, Curve and Scribble drawing tools; shape.freeform command; composite commands are one undo step
+30157	deckcraft	Merge Shapes (union, combine, fragment, intersect, subtract); CI workflow running cargo xtask ci; control protocol and MCP docs
+30158	deckcraft	AutoRecover: unsaved presentations saved to a recovery folder and reopened after a crash; save-changes prompt when quitting
+30159	deckcraft	Gradient editor (type, direction, angle, stops with colour/position/transparency) for shape fill and Format Background; pattern backgrounds; painted dropdown chevrons
+30160	deckcraft	Media playback: module order
+30161	deckcraft	Media playback: slidecraft-media (probe, audio decode, H.264/HEVC/VP9/AV1 video, mixer and clock), cpal output, editor control bar, slide show playback, media.* commands
+30162	deckcraft	Rename SlideCraft to DeckCraft: crates, apps, binaries, app id, file extension (.deckcraft; .slidecraft files still open), packaging, docs; ROADMAP alpha and parity estim
+30163	deckcraft	Rename PrintCraft to PdfCraft (storytold/pdfcraft) (#1)
+30164	deckcraft	ROADMAP: v0.1.0 released (signed, notarized)
+30165	deckcraft	README Downloads: where to get it first, then builds with Windows before macOS (#10)
+30166	deckcraft	macOS DMG: branded window background and icon layout
+30167	deckcraft	Slide show: a click after a long pause plays its step instead of skipping it (#11)
+30168	deckcraft	Start screen: theme tiles that wrap to a new row keep the left inset (#17) (#20)
+30169	deckcraft	Desktop: write log records to standard error and a rotating log file (#7)
+30170	deckcraft	Morph: shapes move, resize and blend; Words and Characters options morph text (#5)
+30171	deckcraft	Tables: rows grow to fit their text, cell text in the PDF text layer (#13) (#14)
+30172	deckcraft	Issue #23: README lists the ALSA headers a Linux build needs (#24)
+30173	deckcraft	Morph test: sort the ids before dedup so it really checks uniqueness (#25)
+30174	deckcraft	App icon: scalable SVG for Linux desktops (#12) (#29)
+30175	deckcraft	Slide show: transitions show the old slide instead of the new one twice (#33) (#46)
+30176	deckcraft	Add OmaStore manifest (#57)
+30177	deckcraft	Morph: a changed geometry morphs its outline (a circle turns into a star) (#27)
+30178	deckcraft	Colour menus: clicking the hex field no longer closes the menu (#32) (#47)
+30179	deckcraft	Home: the title bar's Home button opens the start screen (#17) (#49)
+30180	deckcraft	Links: Insert Hyperlink with a bare caret inserts the address; the show follows links (#31) (#45)
+30181	deckcraft	Progress docs: target-app parity, gaps, alpha gate, readiness by audience (#89)
+30182	deckcraft	Credit Silvertree2010 in the About window
+30183	deckcraft	Render: a group's child-coordinate scale no longer scales line widths (#233)
+30184	deckcraft	rustfmt
+30185	deckcraft	Charts: axis number formats, automatic major unit, hidden axes
+30186	deckcraft	Charts: draw combo charts with columns, lines and a secondary axis
+30187	deckcraft	Chart legend test: a chart with a real namespace and a bar chart, as the reader needs
+30188	deckcraft	Chart legend: honour legendPos and overlay in the renderer (#262)
+30189	designcraft	first commit
+30190	designcraft	first commit
+30191	designcraft	continued work
+30192	designcraft	M0: engine, tools, egui UI, desktop app, CLI, sample document, docs
+30193	designcraft	M1.7/M2: align & distribute, Pen tool, Direct Selection anchor/handle editing
+30194	designcraft	M2.8: snapping and smart guides (page, margins, columns, guides, objects)
+30195	designcraft	M10.1: Find/Change (text + GREP with InDesign metacharacters, formatting on change) + dialog
+30196	designcraft	M2.7: Show Hidden Characters overlay
+30197	designcraft	M2.1: text clipboard (copy/cut/paste) in the Type tool
+30198	designcraft	M3.2: Paragraph Style Options dialog (general, basic character formats, indents & spacing, hyphenation, justification, color)
+30199	designcraft	M7: Story Editor (⌘Y) with style column, overset marker and range-preserving edits
+30200	designcraft	fix clippy in story editor
+30201	designcraft	M8: rotate from selection corners, Rotate/Scale/Shear tools, Eyedropper (match attributes)
+30202	designcraft	M1.9: MCP server (designcraft-mcp) + designcraft-cli mcp
+30203	designcraft	M4: Effects panel (blend mode, opacity, drop shadow settings)
+30204	designcraft	M0.13: web build (trunk, WebGPU/WebGL2)
+30205	designcraft	UI: match measured InDesign 2026 chrome (Medium Dark palette, native macOS menu bar, 43 pt app bar, dock layout, rulers, status bar, tools metrics, hairline guides, handl
+30206	designcraft	M6.4: PDF export (krilla) + file.exportPdf
+30207	designcraft	UI: fix Tools panel layout (negative spacing shifted the panel), InDesign-style proxy column
+30208	designcraft	M9: background canvas rendering with overscan (pan without re-render, scaled preview while zooming)
+30209	designcraft	M6.1: native .designcraft zip format (document.json + raw assets, versioned; legacy JSON still opens)
+30210	designcraft	M5: loaded place cursor (place gun): click = actual size, drag = fit, click frame = place into
+30211	designcraft	M10.3: Preflight (overset, missing fonts/links, low-res graphics, RGB in print, empty frames) + panel + status indicator
+30212	designcraft	fix clippy (preflight)
+30213	designcraft	M6.2: IDML import/export
+30214	designcraft	M2.5: dictionary hyphenation, letter/glyph justification, keeps
+30215	designcraft	compose: column/frame breaks re-flow the rest of the paragraph into the next column/frame; tab tests
+30216	designcraft	Sample: fit cover title, higher-res cover art; refreshed README screenshots and feature list
+30217	designcraft	M7/M12: hyperlinks (frames and text → URL/e-mail/page) and bookmarks; PDF link annotations and outline
+30218	designcraft	M12: EPUB 3 reflowable export (designcraft-epub): reading order, CSS from styles, images, nav
+30219	designcraft	fix clippy in epub
+30220	designcraft	M11: Data Merge (CSV or JSON rows → duplicated template spreads with <<Field>> replacement, one undo step)
+30221	designcraft	M10.2/M11: spell checking (Moby PD word list + user dictionary, suggestions); Step and Repeat (count or grid)
+30222	designcraft	M7: Numbering & Section Options (continue/restart numbering, styles, prefixes), layer reorder, select on layer
+30223	designcraft	fix clippy (sections)
+30224	designcraft	M11: snippets (export selection with stories/styles/images; place into another document); tidy clipboard documents
+30225	designcraft	fix unused import
+30226	designcraft	M4: object styles (create from selection, apply fill/stroke/text frame options/paragraph style)
+30227	designcraft	ROADMAP: hyperlinks, EPUB, data merge, spelling, snippets, object styles
+30228	designcraft	M9: render perf (glyph path cache, culling) + soft drop shadow/feather/glow; perf harness
+30229	designcraft	M7: Table of Contents (generate/update, TOC Title/Level styles, page names via composition); tab leaders in the composer
+30230	designcraft	M4: inner shadow, outer glow, basic feather commands; drop shadow spread/color
+30231	designcraft	M9: parallel composition scales (Copy FaceRef instead of per-glyph Arc clones; BMP coverage bitset; read-locked word cache)
+30232	designcraft	fix clippy (FaceRef is Copy)
+30233	designcraft	fix clippy (pdf FaceRef)
+30234	designcraft	M8: tables
+30235	designcraft	UI: fidelity pass 2 (Properties sections, spinner fields, task bar, inverse text selection, Pages/Layers panels)
+30236	designcraft	continued work
+30237	designcraft	ROADMAP: TOC, text variables, effects, parallel compose, merged tables + UI pass 2
+30238	designcraft	M14: community links — Help menu (Discord, app page, GitHub, issues, website), About splash with ArtCraft mark, start-screen community card, app-bar Discord button, app.l
+30239	designcraft	readme logo
+30240	designcraft	M7: footnotes — Insert Footnote, Document Footnote Options, column-bottom layout, PDF/IDML; generic command dialogs
+30241	designcraft	M7: cross-references and text anchors; menus expose engine features
+30242	designcraft	M7: index — page references, Generate/Update Index, IDML topics
+30243	designcraft	M2: formatted text clipboard, Paste without Formatting, Change Case, special-character menus
+30244	designcraft	M5: anchored objects — inline and above line
+30245	designcraft	M6: anchored objects in IDML (inline / above line), verified in InDesign 2026
+30246	designcraft	M1: ruler guides (drag out/move/delete, Create Guides); fix task-bar deadlock while dragging
+30247	designcraft	M5: Links panel — status vs. file on disk, page, effective PPI; relink, update, embed, go to
+30248	designcraft	M2: Find/Replace Font and missing-font highlighting
+30249	designcraft	M9: damage-region repaint — re-render only changed frames and patch the canvas texture
+30250	designcraft	Agents: command scripts with result references (CLI, MCP, app); parity estimate
+30251	designcraft	R: crash recovery, Revert, Save a Copy
+30252	designcraft	D: Paste Into, Polygon Settings
+30253	designcraft	F: Color panel, Color Picker, unnamed colours
+30254	designcraft	H: place text files — Word (.docx), RTF, plain text; autoflow
+30255	designcraft	D: parent item overrides — override (Cmd+Shift-click, Override All), remove local overrides, detach
+30256	designcraft	H: place PDF — sized by crop box, hayro on screen, vector form XObjects in PDF export
+30257	designcraft	G: Preferences (⌘K), scale strokes, Dimensions Include Stroke Weight, Quick Apply (⌘Return)
+30258	designcraft	app icon: calico cat in a polka-dot scarf (owner's ArtCraft drawing), Dock/taskbar/launcher wiring, palette docs
+30259	designcraft	F: Stroke panel — arrowheads (screen and PDF), cap/join/miter, gap colour
+30260	designcraft	A: Document Setup — pages, start page #, intent, size presets, orientation, bleed and slug
+30261	designcraft	F: Gradient Swatch tool, Gradient panel, unnamed gradients (object.gradient)
+30262	designcraft	D: Add/Delete Anchor Point and Convert Direction Point tools (path.addAnchor/deleteAnchor/convertAnchor)
+30263	designcraft	T: OpenType menu — feature toggles, figure styles, stylistic sets (type.openType, IDML OTF attributes)
+30264	designcraft	V: Display Performance — Fast, Typical, High Quality display
+30265	designcraft	H: place SVG (vector PDF export), PSD, BMP, AI — designcraft-images crate
+30266	designcraft	G: Preferences — Grids, Guides & Pasteboard, Display Performance sections
+30267	designcraft	W: floating panels — tear off, dock back, persisted (window.floatPanel/dockPanel)
+30268	designcraft	Signed release pipeline (macOS/Windows/Linux/Web); README community note
+30269	designcraft	designcraft-cli: support --version (the release packaging smoke tests call it)
+30270	designcraft	D: compound paths, Create Outlines, Scissors tool
+30271	designcraft	O: Transform Again family, Clear Transformations, layer merge/unused/others, Break Link to Style
+30272	designcraft	D: Pathfinder — add, subtract, intersect, exclude overlap, minus back (curves kept)
+30273	designcraft	F: Load/Save Swatches (.ase) — swatch.load, swatch.save, Swatches panel menu
+30274	designcraft	O: File › Package and Copy Links To (file.package, links.copyTo)
+30275	designcraft	L: Relink to Folder / Relink File Extension (links.relinkFolder)
+30276	designcraft	T: Underline / Strikethrough Options — weight, offset, colour, tint
+30277	designcraft	W: UI scaling preference (window.uiScale); title yields to crowded app bar
+30278	designcraft	T: Glyphs panel — font grid rendered in-house, search, click to insert, recently used
+30279	designcraft	A: Primary Text Frame and Smart Text Reflow
+30280	designcraft	W: Keyboard Shortcuts editor (window.setShortcut), macOS modifier order
+30281	designcraft	A: guides on layers — hidden and locked with their layer
+30282	designcraft	D: Pencil tool — freehand strokes to smooth paths
+30283	designcraft	V: scrubby zoom with the Zoom tool
+30284	designcraft	S: style groups (style.group), renames reach table cells and footnotes; Package report preflight fix
+30285	designcraft	S: table and cell styles (style.cell.*, style.table.*), Table panel pickers
+30286	designcraft	T: nested styles and GREP styles (compose overlays, Paragraph Style Options); ui.dialog.open
+30287	designcraft	O: Print dialog (file.print via the system spooler); shortcuts open dialogs, UI commands win ties
+30288	designcraft	Roadmap: parity estimate updated (79% breadth, ~430 h remaining)
+30289	designcraft	A: per-page sizes — Page tool and layout.pageSize
+30290	designcraft	A: spreads of up to 10 pages — add to spread, allow shuffle
+30291	designcraft	C: Appearance of Black on screen (rich black / accurate)
+30292	designcraft	T: Type on a Path — tool, options, screen and PDF
+30293	designcraft	V: Overprint Preview
+30294	designcraft	D: Smooth and Erase tools (path.smooth, path.erase)
+30295	designcraft	I: IDML — nested and GREP styles, cell and table styles, type on a path (TextPath)
+30296	designcraft	T: named lists continuing across stories (list.define, listName/startAt); null clears overrides
+30297	designcraft	H: place a chosen PDF page (Image Import Options)
+30298	designcraft	T: drag and drop text editing (move, Alt copies)
+30299	designcraft	F: Gradient Feather — tool, effect on screen, soft mask in PDF
+30300	designcraft	O: Script Label, alt text, isolate/knockout groups, sort table rows
+30301	designcraft	X: Export Text — Text Only and RTF from a story; EPUB/Text export dialogs
+30302	designcraft	A: tagged PDF — structure tree, figures with alt text, artifacts
+30303	designcraft	F: Global Light and Generate Static Caption
+30304	designcraft	T: scale/rotation/shear fields, absolute transform values, Transformations are Totals
+30305	designcraft	Y: variable fonts — named instances as styles, shaped, drawn and embedded at their axes
+30306	designcraft	O: Select submenu, Convert Shape, split table cells
+30307	designcraft	C: Attributes panel — overprint fill/stroke/gap, nonprinting
+30308	designcraft	P: Page Numbering View (section/absolute) and Go to Page by name
+30309	designcraft	T: Preferences › Advanced Type (super/subscript size and position)
+30310	designcraft	T: Composition highlights — keep and H&J violations, custom tracking/kerning
+30311	designcraft	X: Export HTML — one self-contained page; alt text in EPUB/HTML figures
+30312	designcraft	C: Swatches panel colour groups (+ IDML ColorGroup)
+30313	designcraft	F: Generate QR Code — vector codes for links, text, SMS, email, business cards
+30314	designcraft	T: conditional text — conditions, hide/show in layout and exports, panel, IDML
+30315	designcraft	T: endnotes — numbered references, generated endnote frame, options
+30316	designcraft	Roadmap: correct the parity headline
+30317	designcraft	T: editorial notes — anchored, flagged on screen, never printed; Notes panel
+30318	designcraft	X: Print Booklet — saddle-stitch and 2-up printer spreads as PDF
+30319	designcraft	C: Transparency Blend Space setting (+ IDML)
+30320	designcraft	U: High Contrast interface theme
+30321	designcraft	I: place Excel workbooks as tables
+30322	designcraft	O: Object Library — .dclib files of snippets, Library panel
+30323	designcraft	Roadmap: parity 87%, remaining estimate
+30324	designcraft	C: Ink Manager — spots to process, ink aliases (PDF, IDML)
+30325	designcraft	C: Appearance of Black — output rich black, Overprint [Black] at 100%
+30326	designcraft	U: Hyperlinks and Bookmarks panels; hyperlink edit / go to source, bookmark rename
+30327	designcraft	T: nested line styles (+ dialog, IDML)
+30328	designcraft	T: hyphenation exceptions in the user dictionary
+30329	designcraft	O: Frame Fitting Options — auto-fit on resize, align from, crop (+ dialog, IDML)
+30330	designcraft	T: paragraph borders and shading offsets, per column part (+ panel, IDML)
+30331	designcraft	U: Font menu with search, favourites and previews; persist engine preferences
+30332	designcraft	V: Fit Selection in Window; Find/Change Object
+30333	designcraft	U: custom workspaces (new, delete, reset)
+30334	designcraft	I: Word/RTF import options — style mapping and conflict handling (+ dialog)
+30335	designcraft	T: custom anchored object positions (+ IDML)
+30336	designcraft	Roadmap: parity headline and estimate
+30337	designcraft	Y: variable font axis values (sliders, instances on demand)
+30338	designcraft	H: Image Import Options — crop placed PDFs to trim/bleed/art/media box
+30339	designcraft	F: stroke styles — stripes, wavy, hash drawn (screen + PDF); named custom styles (+ IDML)
+30340	designcraft	D: Primary Text Frame toggle
+30341	designcraft	H: place a page of an IDML/DesignCraft document as a group
+30342	designcraft	X: Articles panel — reading order for EPUB/HTML
+30343	designcraft	O: clipping paths traced from alpha or edges
+30344	designcraft	Q: gridify while drawing frames
+30345	designcraft	Q: Gap tool
+30346	designcraft	X: XML basics — tags, style-to-tag map, structure, export/import, tagged frame markers
+30347	designcraft	D: Adjust Layout — objects follow page size and margin changes
+30348	designcraft	Q: Content Collector and Placer
+30349	designcraft	H: linked stories — Place and Link, out-of-date, update
+30350	designcraft	U: menu customization and Show All Menu Items
+30351	designcraft	V: Separations Preview and ink limit view
+30352	designcraft	L: books — continuous numbering, style sync, merged PDF (+ panel)
+30353	designcraft	T: Track Changes — marked insertions and deletions, accept/reject all
+30354	designcraft	T: move table rows and columns
+30355	designcraft	I: Object States — multi-state objects (+ panel)
+30356	designcraft	I: buttons — page and URL actions as PDF links (+ Buttons and Forms panel)
+30357	designcraft	V: Power Zoom with the Hand tool
+30358	designcraft	T: graphic cells — images in table cells
+30359	designcraft	O: Live Distribute while resizing a selection
+30360	designcraft	L: Liquid Layout — page rules, liquid guides, object pins, alternate layouts (+ panel)
+30361	designcraft	L: roadmap — 94% breadth, ~280 h remaining
+30362	designcraft	V: Split Window and New Window — a second view of the document
+30363	designcraft	E: transparency flattener for PDF export (+ presets)
+30364	designcraft	I: video and sound — media frames, posters, EPUB players (+ Media panel)
+30365	designcraft	T: right-to-left text — bidi shaping and line reordering, paragraph direction
+30366	designcraft	W: interface language — German, French, Spanish, Japanese menus and panels
+30367	designcraft	I: page transitions in interactive PDF (+ panel)
+30368	designcraft	O: PDF/X-4 — output intent with our own CMYK ICC profile, identification, checks
+30369	designcraft	P: place EPS through its preview or a bounding-box placeholder
+30370	designcraft	W: Preferences — Dictionary, Spelling (dynamic spelling), Autocorrect, Notes, Track Changes, Story Editor, File Handling
+30371	designcraft	E: transparency blend space as the PDF page group
+30372	designcraft	C: Color Settings, Proof Setup and Proof Colors
+30373	designcraft	W: Tab hides panels, Cmd+F6 cycles documents
+30374	designcraft	T: accept/reject single changes (+ Track Changes panel)
+30375	designcraft	V: rotate the spread view in quarter turns
+30376	designcraft	L: roadmap — 96% breadth, ~240 h remaining
+30377	designcraft	T: vertical type — Vertical Type tool, upright CJK, CJK line breaking
+30378	designcraft	T: math expressions — LaTeX subset typeset to SVG, inline or framed
+30379	designcraft	P: Object Layer Options for placed PDFs
+30380	designcraft	L: roadmap — every P2 feature at least partial
+30381	designcraft	E: Inner Glow, Bevel and Emboss, Satin; soft effects kept in PDF export
+30382	designcraft	E: Directional Feather
+30383	designcraft	V: Flattener Preview; knockout groups kept in PDF export
+30384	designcraft	E: region-based transparency flattener (the rest stays vector)
+30385	designcraft	V: Power Zoom by press-and-hold with the Hand tool
+30386	designcraft	W: Scripts panel and script.run (one undo step)
+30387	designcraft	I: Object Export Options — artifact, rasterize, alignment, page break
+30388	designcraft	O: interactive PDF view options (full screen, layout, opening view, timing)
+30389	designcraft	I: PDF form fields — text, check box, combo, list, signature
+30390	designcraft	L: roadmap — 98% breadth, ~200 h remaining
+30391	designcraft	X: inline XML tagging and tag markers
+30392	designcraft	O: EPUB cover and fixed-layout EPUB export
+30393	designcraft	A: tagged PDF by paragraph, with headings from Export Tagging
+30394	designcraft	X: Tagged Text export and place
+30395	designcraft	S: style Export Tagging for EPUB/HTML
+30396	designcraft	P: live captions that follow their source's metadata
+30397	designcraft	C: separations from source colours
+30398	designcraft	T: text language — hyphenation, spelling and quotes follow it
+30399	designcraft	W: New Window in its own OS window
+30400	designcraft	L: alternate layouts keep their stories linked to the originals
+30401	designcraft	T: drag selected table rows and columns
+30402	designcraft	V: Rotate Spread per spread — canvas layout through per-spread transforms
+30403	designcraft	T: vertical punctuation forms (vert) in vertical frames
+30404	designcraft	T: tate-chu-yoko in vertical frames
+30405	designcraft	X: DTDs — load, validate the structure, Tags panel
+30406	designcraft	T: Digits (World-Ready) — figures in Arabic-Indic, Persian and native scripts
+30407	designcraft	T: kashida justification for Arabic
+30408	designcraft	T: Insert Kashidas in the paragraph style Justification tab
+30409	designcraft	T: right-to-left carets and selections; Binding: Right to Left
+30410	designcraft	M: video and sound in interactive PDF (screen annotations, renditions)
+30411	designcraft	E: CMYK transparency blend space on screen
+30412	designcraft	T: ruby and kenten
+30413	designcraft	File: file.serialize returns the file's bytes (base64) — web Save wrote corrupt documents
+30414	designcraft	Layers: the active layer falls back to the top layer when it is removed
+30415	designcraft	EPUB: styles whose names slug alike keep their own CSS classes
+30416	designcraft	Licensing: standard LICENSE files, NOTICE, ArtCraft brand terms
+30417	designcraft	Never crash: steering rule, clippy.toml, forbid unsafe
+30418	designcraft	Never crash: importers (text, IDML, fonts, format, EPUB, images)
+30419	designcraft	Never crash: doc and compose
+30420	designcraft	Never crash: render and pdf
+30421	designcraft	Never crash: engine, MCP and tools
+30422	designcraft	Never crash: geom and color
+30423	designcraft	Never crash: UI (ui-egui)
+30424	designcraft	Never crash: apps (desktop, CLI, web)
+30425	designcraft	Never crash: last-resort guard around every command
+30426	designcraft	FreeBSD: CI job and X11 drag-and-drop on every non-Apple Unix
+30427	designcraft	FreeBSD CI: match the shared template
+30428	designcraft	Text: keep selections on UTF-8 character boundaries
+30429	designcraft	Windows packaging: Start Menu/Add-Remove icon, no console window, correct description
+30430	designcraft	Engine: commands given ids run without a selection
+30431	designcraft	PDF: transparency groups blend in CMYK in print exports
+30432	designcraft	Fonts: installed fonts are found by name whatever ran before
+30433	designcraft	Snap: snap preferences as a command, overlay colours from tokens, tidy-up
+30434	designcraft	Snap: visible bounds and constrained gestures
+30435	designcraft	Snap: view commands and guide preferences
+30436	designcraft	Snap: pen and anchor points
+30437	designcraft	Snap: parent rotation is a target
+30438	designcraft	Snap: rotation lands on the other angle
+30439	designcraft	Snap: rotation matches another angle
+30440	designcraft	Snap: equal spacing on moves
+30441	designcraft	Snap: dimension guides follow the final edge
+30442	designcraft	Snap: dimensions on resize and create
+30443	designcraft	Snap: parent items use the stroked edge
+30444	designcraft	Snap: document grid and baseline passes
+30445	designcraft	Snap: Alt-drag skips preview copies and Shift follows the turned view
+30446	designcraft	Snap: Shift and Command on a move
+30447	designcraft	Snap: guides beat object alignment
+30448	designcraft	Snap: carry SnapView on the tool context
+30449	designcraft	Repo: ignore local worktree checkouts
+30450	designcraft	Windows on ARM64: release builds, PE header check, install test on ARM64 hardware
+30451	designcraft	Fonts: use craft-fonts as an optional build input; move the Japanese fonts out
+30452	designcraft	UI: add translation for remained UI
+30453	designcraft	UI: add Chinese and Arabic localization with RTL-safe interface text
+30454	designcraft	Rename PrintCraft to PdfCraft (storytold/pdfcraft) (#95)
+30455	designcraft	Canvas: middle-mouse drag pans the view
+30456	designcraft	Preserve and compose Chinese and Arabic typesetting rules
+30457	designcraft	Complete Arabic translations, refine Chinese terminology, and cache RTL label layouts
+30458	designcraft	Data merge: linked source, placeholders, preview, and tiled merge
+30459	designcraft	README Downloads: where to get it first, then builds with Windows before macOS (#135)
+30460	designcraft	macOS DMG: branded window background and icon layout
+30461	designcraft	Images: PSD decode passes clippy on Rust 1.98 (#136)
+30462	designcraft	browser-correctness: fix print, startup flags, and document MIME (#117)
+30463	designcraft	#61: honor MCP typing, story and page contracts (#118)
+30464	designcraft	#72: preserve typed generic dialog values (#120)
+30465	designcraft	Commands: huge row and column counts can't exhaust memory (#137)
+30466	designcraft	Web: AltGr and other named keys no longer type their names (#134) (#138)
+30467	designcraft	Docs, About: the Illustrator-class sibling is VectorCraft (#59) (#139)
+30468	designcraft	Import: RTF and Tagged Text keep characters past U+FFFF (#149)
+30469	designcraft	Word import: keep tracked moved text (w:moveTo) (#257)
+30470	designcraft	Autoflow: add only the pages breaks ask for (#266)
+30471	designcraft	UI: the Control panel shows its second row (#142)
+30472	designcraft	PDF: a damaged PNG, GIF or WebP is skipped, not fatal (#147)
+30473	designcraft	Desktop: write log records to standard error and a rotating log file (#122)
+30474	designcraft	Add PDF/X-4 validation command (#200)
+30475	designcraft	Preserve browser import intent and document targets (#119)
+30476	designcraft	Hyphenation: Spanish text is hyphenated with Javier Bezos's patterns (#222)
+30477	designcraft	PDF/X-4: RGB images carry sRGB, no image interpolation, pdf:Trapped in XMP (#223)
+30478	designcraft	UI: closing a document with unsaved changes asks first (#141) (#146)
+30479	designcraft	PDF: reuse image conversions and index page objects (#176)
+30480	designcraft	Desktop: pick the graphics backend before the window exists; DirectX 12 on Windows (#297)
+30481	designcraft	Progress docs: target-app parity, gaps, alpha gate, readiness by audience (#355)
+30482	designcraft	Adopt shared panel docking and preserve workspace commands
+30483	designcraft	UI: Return and Escape in the font menu stay in the menu, never reach the dialog under it (#447)
+30484	designcraft	M6: Adopt craft-print and support Windows PDF printing
+30485	designcraft	Place: an image placed into a frame leaves Auto-Fit off (#528)
+30486	designcraft	MCP: reconnect closed sockets before sending the next request
+30487	designcraft	Toolbox: Shift+X, D, X and / shortcuts for the Fill/Stroke proxy
+30488	designcraft	Engine: swap and default fill and stroke in one undo step
+30489	designcraft	Document tabs: long names are shortened so the close button stays visible
+30490	designcraft	PARITY-DATA-SOURCE: honor quoted delimiters and record boundaries
+30491	designcraft	PARITY-CHARACTER-STYLE: capture selected character formatting
+30492	designcraft	PARITY-ARRANGE: step past same-layer siblings in Arrange
+30493	designcraft	PARITY-TAB-LEADERS: draw right-indent tab leaders
+30494	designcraft	PARITY-EPUB-STYLE: match CSS to exported style mappings
+30495	designcraft	PARITY-IDML-INDEX: retain index reference source sort keys
+30496	designcraft	PARITY-TABLE-SPLIT: split each original selected cell once
+30497	designcraft	PARITY-DISTRIBUTE-LOCKS: preserve locked objects during distribution
+30498	designcraft	PARITY-EFFECTIVE-PPI: check transformed image resolution
+30499	effectcraft	first commit
+30500	effectcraft	M0.1–M0.7: workspace, time/geom/color/keyframe/project/raster/path/text/effects/render crates
+30501	effectcraft	M6.2: shape path operators (round corners, offset, twist, zig zag, wiggle, merge paths, gradient stroke)
+30502	effectcraft	M6.8: media import via FilmCraft codecs (probe, frame cache, stills, sequences)
+30503	effectcraft	M0.8: engine session, undo history, ~100 commands, demo project; headless CLI
+30504	effectcraft	Cargo.lock for engine/CLI
+30505	effectcraft	M9.2: effects batch 2 (keying, matte, channel, stylize, noise, perspective, transitions, utility)
+30506	effectcraft	M0.6: content bounds helpers for viewer handles
+30507	effectcraft	M8: expressions engine (boa) with AE object model
+30508	effectcraft	Re-export color/geom from engine; kurbo_path helper
+30509	effectcraft	M0.9–M0.10: egui frontend (AE-style panels, viewer, timeline, effect controls, dialogs), desktop app with control channel, host wiring; cargo fmt
+30510	effectcraft	engine: explicit layer/prop params bypass selection-based enablement
+30511	effectcraft	control: keep channel responsive when window is covered (disable App Nap); fail fast on occluded screenshots
+30512	effectcraft	M0.1: cargo xtask (layers, assets, wasm, ci); attribute ArtCraft brand marks
+30513	effectcraft	M7.1: Classic 3D renderer, cameras, lights, 3D views and camera-tool commands
+30514	effectcraft	M0.9: AE-style Properties panel, context tab titles, AE default workspace; headless UI snapshot tool
+30515	effectcraft	M12.1: render cache + parallel compositing fast paths
+30516	effectcraft	M0.9: Project panel parity — sortable columns (folders mixed by name), Frame Rate column, Size = file size, AE durations
+30517	effectcraft	M14.1: MCP server + agent CLI
+30518	effectcraft	M9.3: effect env (masks, layer params, audio, comp timing), sim cache, polyline helpers; module stubs
+30519	effectcraft	M0.9: Effect Controls parity — sliders behind param twirls with range labels, About... header, no hex; headless snapshot feeds synthetic input
+30520	effectcraft	M5.2–M5.5: keyframe clipboard, easy ease, velocity/interpolation dialogs, roving, time remap/stretch/reverse/freeze, graph editor, separate dimensions, pick-whip
+30521	effectcraft	M5.1: AE timecode/ruler display parity
+30522	effectcraft	M14.1: ship .mcp.json (headless + bridge servers)
+30523	effectcraft	M3.1: AE Composition Settings dialog (Basic/Advanced/3D Renderer, AE presets, pixel aspect, start timecode, resize anchor)
+30524	effectcraft	M3.1: AE Solid Settings dialog (lock aspect, % of comp, frame aspect, Make Comp Size)
+30525	effectcraft	M5.6: inline expression editor, expression pick-whip, parent pick-whip
+30526	effectcraft	M9.3: Perspective + Utility effects (CC Environment, 3D Glasses, HDR Compander)
+30527	effectcraft	M9.3: Distort effects (CC Bender, CC Blobbylize, CC Power Pin, CC Ripple Pulse, CC Slant, CC Smear, CC Split, CC Split 2, Smear, Reshape, Twirl (Legacy), Warp, Detail-pre
+30528	effectcraft	M7.2: 3D viewer — 3D views, camera tools, camera/light wireframes, Camera/Light Settings dialogs
+30529	effectcraft	M0.9: Info panel shows selected layer Duration / In / Out (AE)
+30530	effectcraft	M10: render queue + export
+30531	effectcraft	M9.3: Transition effects (CC Glass Wipe, CC Image Wipe, CC Jaws, CC Line Sweep, CC Twister, CC WarpoMatic)
+30532	effectcraft	M9.3: Stylize effects (CC Block Load, CC Burn Film, CC Glass, CC HexTile, CC Mr. Smoothie, CC Plastic)
+30533	effectcraft	M9.3: Obsolete effects (Basic 3D, Gaussian Blur (Legacy)); move Luma Key, Spill Suppressor, Reduce Interlace Flicker to Obsolete
+30534	effectcraft	M9.3: Color Correction effects (Change Color, Video Limiter, CC Color Neutralizer, PS Arbitrary Map, Lumetri Color)
+30535	effectcraft	M9.3: Noise & Grain effects (Match Grain, Median (Legacy), Curl Noise)
+30536	effectcraft	M9.3: Keying effects (Difference Matte, Inner/Outer Key, Unmult, CC Simple Wire Removal)
+30537	effectcraft	M9.3: Channel effects (Blend, Calculations, CC Composite, Compound Arithmetic)
+30538	effectcraft	M9.1: Character panel parity (V/H scale, baseline shift, stroke order, small caps); layer.setText keys for them
+30539	effectcraft	M9.3: Text effects (Numbers, Timecode) + obsolete Basic Text, Path Text, Lightning
+30540	effectcraft	M9.3: Generate effects (Fractal, Scribble, Stroke, Vegas, Write-on, Paint Bucket, Eyedropper Fill, CC Glue Gun, CC Threads, Audio Spectrum, Audio Waveform)
+30541	effectcraft	M6.4: pen tool masks, mask vertex selection/dragging, tangent handles
+30542	effectcraft	M9.3: Simulation effects (CC Rainfall, CC Snowfall, CC Bubbles, CC Drizzle, CC Star Burst, CC Particle World, CC Particle Systems II, CC Mr. Mercury, CC Ball Action, CC P
+30543	effectcraft	M5.7: frame-aligned layer, comp and keyframe times
+30544	effectcraft	M9.3: render tests for effect masks and layer parameters
+30545	effectcraft	M3.4: After Effects menu-bar parity (engine menu tree, ~190 new commands, menu dialogs)
+30546	effectcraft	M7.3: Auto-Orient (along path, towards camera), Draft 3D, 3D switch off drops Z
+30547	effectcraft	M0.11: ROADMAP, CONTRIBUTING, docs/architecture and docs/testing
+30548	effectcraft	M0.11: README rewrite with headless screenshots (hero, graph editor, effects, 3D, render queue)
+30549	effectcraft	M9.5: time effects (Echo, Posterize Time, Time Difference, Time Displacement, Timewarp, CC Force Motion Blur, CC Wide Time, Pixel Motion Blur)
+30550	effectcraft	M9.4: layer styles render + commands
+30551	effectcraft	M9.4: document layer styles in the render pipeline
+30552	effectcraft	M9.6: text animation depth (selectors, animator properties, per-char 3D, path text, presets)
+30553	effectcraft	M9.6: text animation UI (Animate:/Add: pop-ups, flattened animator rows, path popup, presets, menus)
+30554	effectcraft	M11.2: audio playback + waveforms + audio effects
+30555	effectcraft	M15.1: web build (eframe wasm) + xtask web
+30556	effectcraft	M6.8: fix media pool deadlock (rayon worker blocking on an in-flight decode; prefetch on its own thread)
+30557	effectcraft	M0.11: README/ROADMAP reflect layer styles, time/audio effects, audio playback, web build
+30558	effectcraft	M0.11: ROADMAP — text animation depth landed
+30559	effectcraft	M0.9: AE 2026 stacked panel column (Preview, Properties, Align, Audio, Effects & Presets) via a Stack dock node
+30560	effectcraft	M0.11: parity audit (docs/parity.md) and effort estimate in ROADMAP
+30561	effectcraft	M12.3: tracker core
+30562	effectcraft	M12.3: tracker panel + apply
+30563	effectcraft	M11.4: Lottie export/import
+30564	effectcraft	M9.7: effect controls widgets (EFF-1/EFF-2)
+30565	effectcraft	M9.8: effects & presets panel (favourites, recently used, animation presets, search highlight, contents menu)
+30566	effectcraft	M9.7: rustfmt the Effect Controls UI test
+30567	effectcraft	M12.3: track footage frames without copies; 1080p analysis speed test
+30568	effectcraft	M13.1/M13.2: paint (Brush, Clone Stamp, Eraser) and puppet pins
+30569	effectcraft	M14.2: preferences
+30570	effectcraft	M14.3: keyboard shortcut editor
+30571	effectcraft	M3.7: auto-save + crash recovery
+30572	effectcraft	M3.8: stub burn-down
+30573	effectcraft	M0.11: parity after wave 2 (≈70% weighted) with calibrated time estimate
+30574	effectcraft	app icon: unicorn (owner's ArtCraft drawing), Dock/taskbar/launcher wiring, palette docs
+30575	effectcraft	M2.4: bit depth + linear blending + working space
+30576	effectcraft	M4.3: frame blending
+30577	effectcraft	M4.4: collapse transformations + slip
+30578	effectcraft	M0.13: viewer snapping, rulers, channels, snapshots, ROI
+30579	effectcraft	M5.8: motion paths + graph transform box
+30580	effectcraft	M9.10: on-canvas text editing
+30581	effectcraft	M9.9: text style runs + paragraph settings
+30582	effectcraft	ANM-6, CMP-5, CMP-3: Wiggler/Smoother/Motion Sketch, marker dialog + timeline markers, pre-compose options + comp navigator
+30583	effectcraft	PRJ-2: Project panel folders drag/drop, rename, label picker, optional columns, thumbnails
+30584	effectcraft	M12.2: gpu compositor and gpu effects
+30585	effectcraft	UI-1: drag-to-dock with drop zones, floating panels, maximize, workspaces save floating
+30586	effectcraft	M12.2: viewer on gpu
+30587	effectcraft	M6.6: mask tracking + mask interpolation core (KLT, RANSAC fits, stabilization math)
+30588	effectcraft	M12.4: fast bit-depth quantization
+30589	effectcraft	M0.11: parity at end of day (≈79% weighted), remaining estimate
+30590	effectcraft	Signed release pipeline (macOS/Windows/Linux/Web); README community note
+30591	effectcraft	xtask: fix release-pipeline 'version' task build (helper calls, dispatch), rustfmt
+30592	effectcraft	M12.2: test that the Auto backend keeps 3D comps on the CPU compositor
+30593	effectcraft	M9.11: Audio effects (Compressor, Distortion, Gate)
+30594	effectcraft	M9.11: OCIO transforms, Color Stabilizer and Color Profile Converter
+30595	effectcraft	M9.11: Immersive Video effects (all 12 VR effects)
+30596	effectcraft	M7.4: model import
+30597	effectcraft	M9.11: Blur & Sharpen and Distort effects (CC Radial Blur, Camera-Shake Deblur, CC Flo Motion, Liquify, Rolling Shutter Repair)
+30598	effectcraft	M9.11: Key Light (Keylight 1.2-equivalent keyer) and mocha shape
+30599	effectcraft	M6.6: mask tracking + mask interpolation; M12.5: Warp Stabilizer
+30600	effectcraft	M9.11: Simulation effects (Particle Playground, CC Hair)
+30601	effectcraft	M7.5: advanced 3D renderer
+30602	effectcraft	M9.11: 3D Channel effects on auxiliary channels
+30603	effectcraft	M7.6: extrusion + primitives
+30604	effectcraft	OUT-2: Opus (CELT) encoder (effectcraft-opusenc)
+30605	effectcraft	M12.6: camera tracker solve
+30606	effectcraft	M9.11: parity doc — 296 of 298 After Effects effects
+30607	effectcraft	IO-2/SHP-5/PRV-2: PSD import, SVG import + vector/text conversions, persistent disk cache
+30608	effectcraft	M14.4: scripting with an After Effects-style JavaScript object model
+30609	effectcraft	M14.4: scripting tests for layer/comp settings, import + save, console snapshot; Project.saveAs

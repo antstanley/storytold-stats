@@ -1,0 +1,9 @@
+# Bare clones of the storytold repos: recreate with scripts/clone_repos.sh
+/repos/
+
+# Intermediates that classify.py and report.py rebuild
+/data/changes.jsonl
+/data/_summary.json
+
+__pycache__/
+.DS_Store

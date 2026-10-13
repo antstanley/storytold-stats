@@ -1,0 +1,610 @@
+20000	artcraft	omni gen APIs for image and video (part one) (#1246)
+20001	artcraft	character api (#1250)
+20002	artcraft	characters: part 1 (schema, routes, API) (#1255)
+20003	artcraft	postman collections (#1257)
+20004	artcraft	move postman collections
+20005	artcraft	CLAUDE update
+20006	artcraft	postman configs
+20007	artcraft	oncall: fix paging on users not being logged in (#1258)
+20008	artcraft	pager: event deduplication, more data, and cleanup (#1259)
+20009	artcraft	more pager updates to fix spammy pager (#1260)
+20010	artcraft	increase username randomness to stop pages (#1261)
+20011	artcraft	health check page and health check thread page, mod pages have message + priority (#1262)
+20012	artcraft	fix login paging with sentinel value passwords (#1263)
+20013	artcraft	don't write db if user already has flags
+20014	artcraft	video-thumbnail-job alerts (#1264)
+20015	artcraft	config crates for sharing between services (#1265)
+20016	artcraft	page on seedance jobs (#1266)
+20017	artcraft	fal webhook and seedance job alerting with additonal context (#1267)
+20018	artcraft	fal handle webhook errors (#1272)
+20019	artcraft	2D: Make PageDraw a self-contained lib (#1244)
+20020	artcraft	fix password null bytes paging (#1273)
+20021	artcraft	more claude config files (#1276)
+20022	artcraft	fal webhooks - tested cases for error extraction (#1277)
+20023	artcraft	use tested typesafe fal bindings in webhook (#1278)
+20024	artcraft	no more "free user downgrade" since we're not giving away nano banana… (#1279)
+20025	artcraft	Code cleanup: Delete PageEdit dead code and migrate shared types to ui-pagedraw (#1281)
+20026	artcraft	mysql backup tool
+20027	artcraft	pricing plan description updated
+20028	artcraft	website footer reddit link
+20029	artcraft	show seedance in pricing table
+20030	artcraft	cleaned up pager (#1283)
+20031	artcraft	footnote update pricing apge
+20032	artcraft	categorize seedance credits error (#1285)
+20033	artcraft	advanced http errors (#1287)
+20034	artcraft	rich paging on both fal and seedance webhook handlers (#1289)
+20035	artcraft	fixed issue where duration isn't passed through when clicking on recreate
+20036	artcraft	characters API and schema (#1290)
+20037	artcraft	characters job (#1292)
+20038	artcraft	tauri characters via artcraft_router (#1293)
+20039	artcraft	fixed library arrow keys navigation
+20040	artcraft	fix mac build
+20041	artcraft	fix lightbox carousel not loading on second open
+20042	artcraft	new optional signup params
+20043	artcraft	marketing tracking (#1297)
+20044	artcraft	confirm before deleting character alert dialog
+20045	artcraft	Frontend failure text updates (#1300)
+20046	artcraft	landing videos updates
+20047	artcraft	maybe_landing_url signup params
+20048	artcraft	mention text area small styling fix
+20049	artcraft	character descriptions max length (#1302)
+20050	artcraft	delete public enums crate - old tech debt / cruft (#1304)
+20051	artcraft	more cleanup of deprecated or orphaned code (#1305)
+20052	artcraft	fix builds (#1306)
+20053	artcraft	characters modal bug overflowing on very small screens
+20054	artcraft	omni gen for a few image models (#1308)
+20055	artcraft	stop the session and session jobs alert pages by fixing error handling (#1310)
+20056	artcraft	avt cleanup (fix paging) (#1312)
+20057	artcraft	Bt cleanup web (#1313)
+20058	artcraft	fix inference-job
+20059	artcraft	omni image models (#1314)
+20060	artcraft	Omni Gen Video Models (#1316)
+20061	artcraft	additional context for pages (#1317)
+20062	artcraft	fix tests
+20063	artcraft	comment out web generation access for now
+20064	artcraft	transcode quicktime (#1318)
+20065	artcraft	fix safari mobile api calls/login not working since its third party
+20066	artcraft	Text2Image carousel: cross-set navigation at arrow key boundaries (#1322)
+20067	artcraft	omni image tests (#1329)
+20068	artcraft	omni video handling + tests for seedream 1.5 (rest to follow) (#1330)
+20069	artcraft	rename omni image params before widespread use (#1331)
+20070	artcraft	character tokens in omni api (#1333)
+20071	artcraft	fix billing pages (#1342)
+20072	artcraft	fal webhook error handling (#1343)
+20073	artcraft	tauri cors fix (#1344)
+20074	artcraft	artcraft 0.26 -> 0.27 (#1346)
+20075	artcraft	fal webhook fixes 2 (#1347)
+20076	artcraft	kinovi order polling threshold in hours (#1348)
+20077	artcraft	error messages on failure to download (#1349)
+20078	artcraft	page on image batch failures (#1350)
+20079	artcraft	kinovi jobs - better logging (#1351)
+20080	artcraft	kinovi credits check + alerting (#1352)
+20081	artcraft	observability into more unknown pages (#1354)
+20082	artcraft	error utils (reusable) (#1355)
+20083	artcraft	user impersonation for support inquiries (#1357)
+20084	artcraft	add api docs for impersonation (#1358)
+20085	artcraft	cursors (#1359)
+20086	artcraft	audit impersonation (#1361)
+20087	artcraft	staff audit logs list (#1362)
+20088	artcraft	ban users handler update / modernization (#1363)
+20089	artcraft	more support audit logs while we're at it (#1364)
+20090	artcraft	more omni gen video models, client bindings, tests (#1365)
+20091	artcraft	fix build issue
+20092	artcraft	temporary disable video models (omni / website gens only - app unaffected) (#1369)
+20093	artcraft	text to image to properly use the shared upload media api + delete double toast fix
+20094	artcraft	gallery to clear cache and reset after logout/login with new account
+20095	artcraft	chrome launch script (#1371)
+20096	artcraft	omni seedance 2 (#1372)
+20097	artcraft	more logging (endpoint failing without debugging info) (#1373)
+20098	artcraft	worldlabs fixes for nsfw 500ing (#1377)
+20099	artcraft	worldlabs marble 1.1 client library (#1379)
+20100	artcraft	site video time progress update
+20101	artcraft	loading spinner to wait for video thumbnail to return
+20102	artcraft	omni router seedance 2.0 fast (#1382)
+20103	artcraft	model creator + name metadata for omni endpoints (#1386)
+20104	artcraft	website dynamically targets development in dev mode (#1387)
+20105	artcraft	artcraft_router: simpler interface based on ownership instead of refs (#1388)
+20106	artcraft	website: video thumbnail loading spinner
+20107	artcraft	cleanup seedance 2.0 in omni generation (#1389)
+20108	artcraft	omni character support (#1390)
+20109	artcraft	Experimental Menu: Hidden experimental settings menu via 7x version click (#1393)
+20110	artcraft	Experimental: Storyboard page (#1394)
+20111	artcraft	seedance 1080p (#1395)
+20112	artcraft	seedance 2.0 resolution options (#1396)
+20113	artcraft	refacor kinovi generate_video request (#1397)
+20114	artcraft	rename field (#1398)
+20115	artcraft	simplify artcraft_router (#1399)
+20116	artcraft	1080p support (quick) (#1400)
+20117	artcraft	quick refunds hack for kinovi (#1401)
+20118	artcraft	link website omni video jobs to ledger entries for refunds (#1402)
+20119	artcraft	rename struct
+20120	artcraft	website download link update
+20121	artcraft	rename struct to better enable a state machine flow (#1406)
+20122	artcraft	artcraft router redesign (#1409)
+20123	artcraft	artcraft_router v2 kinovi seedance 2 fast (#1410)
+20124	artcraft	import cleanup
+20125	artcraft	artcraft v2 router for seedance 2.0 (non-fast) (#1411)
+20126	artcraft	gpt image 2 enum (#1412)
+20127	artcraft	fal gpt image 2 (#1413)
+20128	artcraft	omni gpt image 2 (#1414)
+20129	artcraft	fix compile error
+20130	artcraft	desktop frontend support for gpt-image-2 (#1418)
+20131	artcraft	gpt-image-2 desktop support for quality (#1421)
+20132	artcraft	fix media file list pagination (#1423)
+20133	artcraft	add gpt image 2 to name mapping
+20134	artcraft	artcraft desktop gpt-image cost estimates + quality arg (#1425)
+20135	artcraft	tauri: seedance 2.0 fast, seedance 2.0 1080p (#1427)
+20136	artcraft	add seedance fast @ artcraft to artcraft router, update seedance (non-fast): both call omni (#1428)
+20137	artcraft	artcraft 0.29 -> 0.30 (#1429)
+20138	artcraft	move old artcraft_router pipeline (#1430)
+20139	artcraft	fixed quality field name
+20140	artcraft	website fix: mobile remove bottom overlay on error card blocking dismiss button
+20141	artcraft	omni video handler - utilize second pipeline for seedance; various other fixes (#1432)
+20142	artcraft	more logging
+20143	artcraft	kinovi happyhorse (#1433)
+20144	artcraft	fix omni seedance characters (#1434)
+20145	artcraft	add happyhorse behind feature flag (#1435)
+20146	artcraft	moderator feature flags editing (#1436)
+20147	artcraft	website: persist references after navigation
+20148	artcraft	website: image ref selection limit fixed, gallery item active focus outline blinking fixed
+20149	artcraft	happy horse alibaba icon
+20150	artcraft	name mappings for happy horse 1.0
+20151	artcraft	web credits in navbar
+20152	artcraft	retry kinovi polling with backoff (#1441)
+20153	artcraft	happy horse access (#1442)
+20154	artcraft	discrete apis (#1443)
+20155	artcraft	new aspect ratio for seedance (#1444)
+20156	artcraft	website seedance 21:9 (#1445)
+20157	artcraft	website: download on site instead of opening new tab
+20158	artcraft	tauri changes to support artcraft_router v2 (happy horse, seedance 2, etc.) (#1448)
+20159	artcraft	website: full time stamp in lightbox
+20160	artcraft	for loop removed and using video batch in endpoint
+20161	artcraft	website: persist pending video batches to localStorage
+20162	artcraft	jobs prompt tokens (#1456)
+20163	artcraft	batch get prompts endpoint (#1457)
+20164	artcraft	remove field
+20165	artcraft	postman api
+20166	artcraft	add quality field to prompts table (#1459)
+20167	artcraft	incomplete prompt data (#1460)
+20168	artcraft	fix multiple video bug (#1462)
+20169	artcraft	ffffadd multiple job tokens to video gen response (#1463)
+20170	artcraft	batch prompt update
+20171	artcraft	generate cli tool (#1469)
+20172	artcraft	prompting tool for artcraft (#1470)
+20173	artcraft	fix omni image refs
+20174	artcraft	debug logs (#1472)
+20175	artcraft	moderator debug (#1473)
+20176	artcraft	support page and mobile nav fix
+20177	artcraft	website: mobile menu fixes
+20178	artcraft	website: consolidate /session calls into a shared Zustand store
+20179	artcraft	website netlify redirects for support page
+20180	artcraft	fal - no api key or webhook url in args (#1481)
+20181	artcraft	site font update to align with desktop app
+20182	artcraft	website: promptbox body font fix
+20183	artcraft	fal request logging (#1482)
+20184	artcraft	Big tauri refactor: new consolidated commands, deprecate and remove duplication (#1486)
+20185	artcraft	beeble client (#1487)
+20186	artcraft	beeble endpoint (#1488)
+20187	artcraft	remount
+20188	artcraft	beeble webhook (#1489)
+20189	artcraft	fix frontend errors (missing vite config, type errors) (#1490)
+20190	artcraft	add redirects for netlify
+20191	artcraft	frontend api stuff (#1491)
+20192	artcraft	credits in top navbar mobile
+20193	artcraft	website: unified credits chip for mobile and desktop view
+20194	artcraft	beeble improvements, don't 500 on bad input (#1493)
+20195	artcraft	PageDraw: Generate fixes and performance boost (#1494)
+20196	artcraft	website: hide resolution picker, progress timer 5 mins
+20197	artcraft	fal_client refactors ahead of a bigger one (#1496)
+20198	artcraft	new fal client design to handle webhooks + queued requests with same API (#1497)
+20199	artcraft	artcraft router: image pipeline v2 w/ some fal models for testing (#1500)
+20200	artcraft	FAL polling APIs + additional API bindings (#1501)
+20201	artcraft	tauri providers - fal api key support (#1502)
+20202	artcraft	File upload: generation_provider flag (#1506)
+20203	artcraft	include prompts with fal, fix alerts (#1507)
+20204	artcraft	fixed webapp netlify build script
+20205	artcraft	webapp netlify build fix
+20206	artcraft	webapp netlify redirects update
+20207	artcraft	referral program backend (#1509)
+20208	artcraft	signup - use db executor, not pool (#1510)
+20209	artcraft	better user referral program (#1512)
+20210	artcraft	feature flag for referrals (#1513)
+20211	artcraft	moderator endpoints for referrals (#1515)
+20212	artcraft	document types
+20213	artcraft	redirects
+20214	artcraft	debug referral info
+20215	artcraft	cors
+20216	artcraft	set gpt models char limit to infinity
+20217	artcraft	artcraft 0.32 (#1516)
+20218	artcraft	web/webapp: added username referrals query support
+20219	artcraft	web: mobile menu to show referrals link
+20220	artcraft	fal gpt-image implementations using new api (#1518)
+20221	artcraft	gpt image resolution (#1520)
+20222	artcraft	Implement artcraft router and add tests (#1521)
+20223	artcraft	gpt-image-2 with HD options; refactor image omni gen and pricing pipelines (#1523)
+20224	artcraft	gpt pricing; fix test failures (#1524)
+20225	artcraft	web/webapp: fix cors error on file download
+20226	artcraft	web/webapp download fixes
+20227	artcraft	gmicloud (#1526)
+20228	artcraft	seedance global (#1527)
+20229	artcraft	gmicloud job (#1528)
+20230	artcraft	web/webapp: username, email, password change
+20231	artcraft	gmi improvements (#1529)
+20232	artcraft	failures refunded info (#1530)
+20233	artcraft	router seedance global (#1531)
+20234	artcraft	gmi + cli tooling improvements (#1533)
+20235	artcraft	analytics queries (#1534)
+20236	artcraft	analytics
+20237	artcraft	research preview model (#1537)
+20238	artcraft	webapp launch script
+20239	artcraft	webapp: fix "See other demo scenes" promptbox tracking in production builds
+20240	artcraft	webapp: edit-3d page stack "See other demo scenes" and onboarding hint inside the promptbox
+20241	artcraft	rename model
+20242	artcraft	website: readd Image/Video navbar links
+20243	artcraft	website/webapp: flow fixes
+20244	artcraft	seedance plus (#1540)
+20245	artcraft	artcraft router cleanup (#1541)
+20246	artcraft	byteplus enum rename (#1542)
+20247	artcraft	webapp: settings ui fixes
+20248	artcraft	storyteller web initialization cleanup (#1543)
+20249	artcraft	remove old wav2lip code (#1545)
+20250	artcraft	reorganize jobs queries (#1546)
+20251	artcraft	claude event complete notification tool (#1547)
+20252	artcraft	website: add referrals back under profile dropdown
+20253	artcraft	job insert query dedupe (#1549)
+20254	artcraft	show all context items with prompts
+20255	artcraft	fix artcraft desktop (#1550)
+20256	artcraft	write models to jobs (#1551)
+20257	artcraft	cleanup queries
+20258	artcraft	add more (and correct) metadata to media_files records (#1552)
+20259	artcraft	datadog metrics and monitors (#1553)
+20260	artcraft	metrics defs (#1554)
+20261	artcraft	improve metrics and report breakage (#1555)
+20262	artcraft	cleanup server environment (#1556)
+20263	artcraft	metrics creation scripts
+20264	artcraft	modernize github actions (#1557)
+20265	artcraft	datadog api key trimming
+20266	artcraft	more dashboards
+20267	artcraft	grok api client (#1558)
+20268	artcraft	grok costs (#1559)
+20269	artcraft	enqueue grok requests + grok jobs (#1560)
+20270	artcraft	deactivate grok video for now
+20271	artcraft	fix grok artcraft tauri app breakages (#1561)
+20272	artcraft	build grok job
+20273	artcraft	enable grok video
+20274	artcraft	fix latent query bug (#1564)
+20275	artcraft	google sso - better error types, README with setup instructions (#1565)
+20276	artcraft	get rid of "CommonWebError" for "AdvancedCommonWebError" (#1566)
+20277	artcraft	rename Advanced* web error back now that the old variant is gone (#1568)
+20278	artcraft	custom serialize error type (#1569)
+20279	artcraft	use CommonWebError for alert visibility during google SSO (#1570)
+20280	artcraft	clean up and consolidate bespoke error types (#1571)
+20281	artcraft	consolidate more error types (#1572)
+20282	artcraft	webapp: redirect already logged in users back to homepage if they land on login/signup pages
+20283	artcraft	webapp: fix google sso not logging user in on mobile safari
+20284	artcraft	webapp: site title for home page
+20285	artcraft	test fix (#1573)
+20286	artcraft	test fix
+20287	artcraft	artcraft router: video pipeline v2 implementations (#1575)
+20288	artcraft	artcraft router: all video is on "v2"; artcraft desktop: all models on "omni"; storyteller-web: omni on video v2 (#1577)
+20289	artcraft	artcraft router for images - pipeline v2 (#1580)
+20290	artcraft	## Fix: mobile signup modal freeze (defer Google Sign-In)
+20291	artcraft	fix test 3: mobile freeze
+20292	artcraft	fix test 4: revert glass blue styling
+20293	artcraft	webapp: only render background decoration on desktop (not mobile) for performance
+20294	artcraft	website: landing font fix
+20295	artcraft	webapp: revert previous google flow fix - check subscription instead
+20296	artcraft	webapp: create row card styling fixes and copy prompt on failed and in progress rows
+20297	artcraft	remove legacy image pipeline (#1582)
+20298	artcraft	enums renames for less confusion (#1583)
+20299	artcraft	group providers together (#1584)
+20300	artcraft	seedance variant - BytePlus "Ultra" (#1585)
+20301	artcraft	ultra variant backend (#1586)
+20302	artcraft	update model list (#1587)
+20303	artcraft	disable characters
+20304	artcraft	webapp: recreate failed jobs
+20305	artcraft	description fields on video models
+20306	artcraft	fix build
+20307	artcraft	descriptions got switched
+20308	artcraft	add prompt token to GET /v1/media_files/list/user/{username} (#1589)
+20309	artcraft	popover updates for info tooltip
+20310	artcraft	model selector width update
+20311	artcraft	grok imagine video 1.5 preview (#1590)
+20312	artcraft	text_to_video_supported=false on new grok model (#1591)
+20313	artcraft	400 on grok ttv (#1592)
+20314	artcraft	refactor to make intention of request prereq checks clear + reusable
+20315	artcraft	grok max length is 4096
+20316	artcraft	auto aspect ratio for grok
+20317	artcraft	artcraft_router cleanup from old migration (#1594)
+20318	artcraft	move deprecated modules (the bulk of them) (#1595)
+20319	artcraft	kling 1.6 pro, 2.5 turbo pro, 2.6 pro -> web omni api / artcraft_router / fal_client (#1597)
+20320	artcraft	analytics queries (#1598)
+20321	artcraft	midjourney client (#1599)
+20322	artcraft	midjourney images - router, web, jobs, etc. (#1600)
+20323	artcraft	grok failure update (#1603)
+20324	artcraft	admin email changes (#1604)
+20325	artcraft	rename handlers + codegen fix
+20326	artcraft	fix routing
+20327	artcraft	webapp: fixes to mobile sheet component on mobile
+20328	artcraft	updated download links to v0.32.0
+20329	artcraft	folders (#1616)
+20330	artcraft	folders fixes, new endpoint for atomic "move" (#1617)
+20331	artcraft	Webapp: added missing seedance variant name mappings
+20332	artcraft	folders - better media files links, last items, etc. in the API (#1618)
+20333	artcraft	track platform type (#1619)
+20334	artcraft	seedance errors revamp (#1620)
+20335	artcraft	test fixes (#1621)
+20336	artcraft	fix test failures (#1622)
+20337	artcraft	stripe info admin endpoint (#1623)
+20338	artcraft	dashboard links (#1624)
+20339	artcraft	change sorting for media files in folders (#1627)
+20340	artcraft	folders - add video previews / thumbnails (#1628)
+20341	artcraft	comet api (#1629)
+20342	artcraft	new cost tracking fields (#1630)
+20343	artcraft	uncommitted comet api module
+20344	artcraft	webapp: styling updates and package versions
+20345	artcraft	webapp: tailwind config colors update
+20346	artcraft	cost accounting; credits updates (#1632)
+20347	artcraft	artcraft 0.33 (#1633)
+20348	artcraft	webapp: less blurry bg more visible promptbox
+20349	artcraft	webapp: rounder corners and styling updates for mobile
+20350	artcraft	updating pricing tests (#1636)
+20351	artcraft	fix cors with PUT methods (#1637)
+20352	artcraft	actix crates upgrades (#1638)
+20353	artcraft	cleanup session and require_moderator (#1640)
+20354	artcraft	cleanup usage of require_moderator further (#1641)
+20355	artcraft	cleanup require_user_session (#1642)
+20356	artcraft	modernize require_user_session_extended() (#1643)
+20357	artcraft	enhance database connection pooling (#1644)
+20358	artcraft	upgrade tauri 2.8 -> 2.11 (#1645)
+20359	artcraft	api keys (#1646)
+20360	artcraft	codegen database
+20361	artcraft	PageDraw: Port and mount to web app (#1650)
+20362	artcraft	api groundwork (#1648)
+20363	artcraft	omni api image and video (#1652)
+20364	artcraft	omni upload APIs (#1653)
+20365	artcraft	omni api fixes (#1654)
+20366	artcraft	api key feature flag (#1655)
+20367	artcraft	Webapp: API section styling updates
+20368	artcraft	jsonify actix handlers (#1656)
+20369	artcraft	package import
+20370	artcraft	misc cleanup, update claude docs (#1657)
+20371	artcraft	refactor module location
+20372	artcraft	refactor another module location
+20373	artcraft	fixes for frontend build failures (#1658)
+20374	artcraft	more frontend build fixes (#1659)
+20375	artcraft	fixes for frontend build (#1660)
+20376	artcraft	Update SettingsModal.tsx to flip api feature flag
+20377	artcraft	Webapp: rounded corner ui updates for library page
+20378	artcraft	fix float/int credits parsing (#1664)
+20379	artcraft	Restyle manifesto "control" emphasis as a tilted marker highlight
+20380	artcraft	parse video info (#1665)
+20381	artcraft	video info handler (#1666)
+20382	artcraft	video info website (#1667)
+20383	artcraft	uploaded videos - tables, endpoints, frontend (#1668)
+20384	artcraft	netlify configs
+20385	artcraft	bucket client (#1669)
+20386	artcraft	rename legacy bucket client (#1670)
+20387	artcraft	seedance cors (#1671)
+20388	artcraft	handler filename (#1672)
+20389	artcraft	resolution measure (#1673)
+20390	artcraft	seedance bitrate (#1675)
+20391	artcraft	alter prompts add bitrate (#1676)
+20392	artcraft	seedance2pro better polling (#1678)
+20393	artcraft	development ports (#1680)
+20394	artcraft	pagedraw: replace hardcoded chrome colors with semantic tokens (#1651)
+20395	artcraft	fix seedance client again - nullable width/height (#1682)
+20396	artcraft	better job logging per poll iter (#1683)
+20397	artcraft	typo
+20398	artcraft	better logging (#1684)
+20399	artcraft	webapp: hide edit image for now
+20400	artcraft	fix staff logs null column (#1685)
+20401	artcraft	attempt to re-add the dashboard (#1686)
+20402	artcraft	modify netlify configs for dashboard
+20403	artcraft	dashboard netlify build script (#1687)
+20404	artcraft	minor change to test build works
+20405	artcraft	Webapp: Premium motion pass across app (#1662)
+20406	artcraft	Moodboard: Extensive feature support (#1661)
+20407	artcraft	build fix react version nx
+20408	artcraft	temporarily commented out dashboard in tsconfig
+20409	artcraft	omni api url support (#1689)
+20410	artcraft	omni api: status endpoint, api docs, etc (#1690)
+20411	artcraft	seedance 4k (#1691)
+20412	artcraft	video models list refactor (#1692)
+20413	artcraft	router 4k (#1693)
+20414	artcraft	seedance 2.1 -> 2.5 text + uncomment sidebar edit page
+20415	artcraft	seedance mini client (#1695)
+20416	artcraft	mini models in api gateway (#1697)
+20417	artcraft	Fix image refs not attaching when selected from a folder in gallery modal (#1696)
+20418	artcraft	grok fixes (#1702)
+20419	artcraft	block usernames that look like tokens (#1703)
+20420	artcraft	payments informatics (part 1) (#1704)
+20421	artcraft	payment informatics #2 (#1705)
+20422	artcraft	payment informatics 3 (#1706)
+20423	artcraft	payment informatics 4 (#1707)
+20424	artcraft	dashboard - change icon; group sidebar (#1708)
+20425	artcraft	tauri omni client (#1709)
+20426	artcraft	tauri frontend - read from omni api (#1710)
+20427	artcraft	fix midjourney (#1711)
+20428	artcraft	move assets out of build to decrease binary size (#1712)
+20429	artcraft	artcraft 0.34 (#1713)
+20430	artcraft	update pathing
+20431	artcraft	artcraft 0.35 (#1714)
+20432	artcraft	veo (#1715)
+20433	artcraft	vidu (#1716)
+20434	artcraft	shink assets that are way too large (#1717)
+20435	artcraft	seedance text prompt max length (#1721)
+20436	artcraft	debug logs: new field, new queries, new APIs, new dashbord UX (#1722)
+20437	artcraft	debug logs #2 (#1723)
+20438	artcraft	debug logs (#1724)
+20439	artcraft	trace id logging (#1725)
+20440	artcraft	cleanup dead handlers (#1726)
+20441	artcraft	add index to media_files to aid lookups (#1727)
+20442	artcraft	improve media files user list query performance (#1728)
+20443	artcraft	admin dashboard spend (#1729)
+20444	artcraft	fix request logging (#1730)
+20445	artcraft	http header fields on alerts (#1731)
+20446	artcraft	remove deprecated endpoints (#1732)
+20447	artcraft	further cleanup (#1733)
+20448	artcraft	more cleanup (#1734)
+20449	artcraft	characters API support (#1738)
+20450	artcraft	database perf (#1739)
+20451	artcraft	fix redis tx over database tx pooling issues (#1740)
+20452	artcraft	reduce num queries from 3 -> 1 (#1741)
+20453	artcraft	artcraft_router: Vidu and Veo models (#1742)
+20454	artcraft	4k veo (#1743)
+20455	artcraft	suno client (#1744)
+20456	artcraft	seed audio client / (fal) (#1745)
+20457	artcraft	Add omni audio! router, web, etc. - seed audio, suno, etc. (#1747)
+20458	artcraft	mesh and splat omni endpoints (#1752)
+20459	artcraft	fix models (#1753)
+20460	artcraft	user input errors on seedance (#1754)
+20461	artcraft	handle many more mesh models (#1755)
+20462	artcraft	claude instruction
+20463	artcraft	fix validation errors (#1757)
+20464	artcraft	easyenv: add test coverage for typed env var getters (#1749)
+20465	artcraft	media files: stop reading and writing deprecated fields and values (#1758)
+20466	artcraft	remove fields from table (#1759)
+20467	artcraft	new field for media files, splat/mesh split (#1760)
+20468	artcraft	forgot to commit this omg
+20469	artcraft	add metadata to project files; remove legacy 3d editor endpoint (#1761)
+20470	artcraft	stop writing Dimensional for Mesh/Splat types (#1762)
+20471	artcraft	list project media files endpoint (#1763)
+20472	artcraft	triposplat support (#1764)
+20473	artcraft	Remove endpoints for old Rust / Bevy game engine (#1765)
+20474	artcraft	8 new persistence endpoints, 2 for each type (#1766)
+20475	artcraft	remove old tags code (#1767)
+20476	artcraft	drop tags tables (we're going to rebuild them) (#1768)
+20477	artcraft	new tags schemas (#1769)
+20478	artcraft	new tags system (replacing the old one) (#1770)
+20479	artcraft	fal 3d fixes (#1771)
+20480	artcraft	handle audio results (#1772)
+20481	artcraft	backup for cover images when absent
+20482	artcraft	fix pagination cursors (#1776)
+20483	artcraft	misc fixes for storyteller-web (#1777)
+20484	artcraft	view meshes and splats in 3d modal (#1778)
+20485	artcraft	list meshes and splats (#1774)
+20486	artcraft	folderless endpoint (#1779)
+20487	artcraft	cursor behavior fixes (#1780)
+20488	artcraft	unfoldered navigation (frontend) (#1781)
+20489	artcraft	Sort folders (#1782)
+20490	artcraft	seedream5 (#1784)
+20491	artcraft	Frontend: remove dead API client code targeting unregistered endpoints (#1785)
+20492	artcraft	Frontend: mesh/splat classes and handling (#1786)
+20493	artcraft	Frontend: Endpoint migration and cleanup (#1787)
+20494	artcraft	Website: character pose video swap
+20495	artcraft	Update README.md character pose video
+20496	artcraft	Update character posing video link in README
+20497	artcraft	Frontend: video editor persistence (#1792)
+20498	artcraft	Frontend: Moodboard persistence (#1793)
+20499	artcraft	Webapp: copy paste image references into promptbox
+20500	artcraft	grab billing data for reports (#1810)
+20501	artcraft	api keys for everyone (#1811)
+20502	artcraft	seedream 5 plus (#1822)
+20503	artcraft	fixup 3d on admin dash, add databox (#1823)
+20504	artcraft	rename client (#1824)
+20505	artcraft	seedance2p5 (#1825)
+20506	artcraft	create material (#1826)
+20507	artcraft	seedance 2.5 preview in Omni API (#1827)
+20508	artcraft	costs for seedance 2.5 are costing us money (#1831)
+20509	artcraft	we're losing money on seedance in this configuration (need to fix) (#1832)
+20510	artcraft	margins for video references were costing us money, fixing (#1833)
+20511	artcraft	web + API for omni gen endpoints (#1836)
+20512	artcraft	Minimax (#1840)
+20513	artcraft	Flux3 (#1844)
+20514	artcraft	media files - record job token (#1845)
+20515	artcraft	new endpoint for media files by job token (#1846)
+20516	artcraft	minimax turbo (#1852)
+20517	artcraft	3D: Animations support + UI (#1856)
+20518	artcraft	minimax worker endpoints (#1855)
+20519	artcraft	3D: Fix CI/CD deploy (worker vite build issue) (#1858)
+20520	artcraft	3D: Animation clip blending (#1861)
+20521	artcraft	seedance 2.5 bindings (#1862)
+20522	artcraft	fix seedance 2.5 estimates (#1863)
+20523	artcraft	minimax feature (#1865)
+20524	artcraft	Frontend dev exp (#1866)
+20525	artcraft	seedance 2.5 ultra (#1870)
+20526	artcraft	fix billing issue (#1871)
+20527	artcraft	cleanup (#1872)
+20528	artcraft	testing omni gen (#1875)
+20529	artcraft	Merge omni api with omni gen (#1876)
+20530	artcraft	fix codegen + also codegen query cache (#1877)
+20531	artcraft	Cleanup dead enums (#1878)
+20532	artcraft	batch sizes (#1879)
+20533	artcraft	margin fixes (#1881)
+20534	artcraft	move pricing for easier testing (#1895)
+20535	artcraft	fix seedream batches (#1896)
+20536	artcraft	fix veo negative margins (#1897)
+20537	artcraft	fix build error
+20538	artcraft	don't send default resolution anymore (#1899)
+20539	artcraft	no implicit 720p anymore - make this explicit (#1900)
+20540	artcraft	unify pricing for legacy endpoint (#1901)
+20541	artcraft	fix lossy margins (#1903)
+20542	artcraft	rates (#1904)
+20543	artcraft	Seedance 2.5 1080p (#1907)
+20544	artcraft	Keybind settings: New menu and revamped keybind support (#1699)
+20545	artcraft	mcp sessions (#1917)
+20546	artcraft	Fix inflated cost quote after Recreate: measure restored ref durations (#1919)
+20547	artcraft	mitigations to prevent stuck jobs (#1920)
+20548	artcraft	more providers (#1922)
+20549	artcraft	Website: Creator spotlight page 1 update
+20550	artcraft	Webapp auth pages: video update
+20551	artcraft	fix fal client error (#1929)
+20552	artcraft	gpt-image-2.5 (#1937)
+20553	artcraft	rename CLAUDE.md to AGENTS.md (#1940)
+20554	artcraft	fix tauri for omni apis (#1941)
+20555	artcraft	ArtCraft Desktop (fresh start)
+20556	artcraft	remove stale docs and files (#1947)
+20557	artcraft	artcraft 0.39: fix for CI builds (no-OP build) (#1950)
+20558	artcraft	readme update (#1952)
+20559	artcraft	backport midjourney fixes from ArtCraft-X (#1953)
+20560	artcraft	Added new models and modes: GPT Image 2.5, Wan, Output Formats (#1954)
+20561	artcraft	ArtCraft 0.40.0 (#1955)
+20562	artcraft	website based login challenges (#1956)
+20563	artcraft	ArtCraft 0.41 (#1957)
+20564	artcraft	fix login video on desktop (#1958)
+20565	artcraft	performance changes (#1959)
+20566	artcraft	better dev script (#1961)
+20567	artcraft	client identity (origin, user agent) (#1962)
+20568	artcraft	thumbnail speedup (and fix for non-rendering thumbnails) (#1964)
+20569	artcraft	Match desktop app styling to the webapp (#1963)
+20570	artcraft	Use the new ArtCraft icon for the app icon and favicons (#1965)
+20571	artcraft	fix error messages so they're user friendly (#2025)
+20572	artcraft	artcraft 0.42.0 (#2026)
+20573	artcraft	Relicense ArtCraft under MIT OR Apache-2.0 (#2043)
+20574	artcraft	Add artcraft-native: pure Rust (egui) desktop app, starting with Create Image and Create Video (#2067)
+20575	artcraft	artcraft-native: custom title bar and Claude-style layout (#2068)
+20576	artcraft	artcraft-native: Create Audio, in-app playback, animated previews and @Characters (#2079)
+20577	artcraft	artcraft-native: generate with Midjourney or fal (provider choice) (#2115)
+20578	cadcraft	first commit
+20579	cadcraft	M0: CADCraft skeleton and vertical slice
+20580	cadcraft	M4/M5: dimension commands, multileader, hatch boundary detection, blocks
+20581	cadcraft	M7: DWG read/write through the acadrust bridge (crates/dwg)
+20582	cadcraft	M1/M2/M6/M10: draw/modify depth, grips API, layouts/viewports/PLOT to PDF, GPU canvas, R-tree index
+20583	cadcraft	UI: hot grips (click-to-edit, Space cycles stretch/move/rotate/scale/mirror), paper-space sheet display, new-layout buttons
+20584	cadcraft	MSPACE/PSPACE: work in model space through layout viewports
+20585	cadcraft	M4 annotation depth + M9 parametric constraints
+20586	cadcraft	Incremental R-tree: patch only changed store chunks after an edit
+20587	cadcraft	Ignore agent worktrees
+20588	cadcraft	cadcraft-cli sample subcommand; apartment example drawing
+20589	cadcraft	DXF round trip: DIMSTYLE, DSTYLE overrides, DIMASSOC, constraints, tables, text style flags
+20590	cadcraft	Layer Properties Manager, QSELECT + Quick Properties, constraint display, Parameters Manager
+20591	cadcraft	README screenshots, alpha/parity assessment in ROADMAP, MLEADER written to DXF as LEADER + MTEXT
+20592	cadcraft	Roadmap: M3 and constraint display landed
+20593	cadcraft	Rename PrintCraft to PdfCraft (storytold/pdfcraft) (#2)
+20594	cadcraft	README Downloads: where to get it first, then builds with Windows before macOS (#19)
+20595	cadcraft	macOS DMG: branded window background and icon layout
+20596	cadcraft	Keep elevations when EXPLODE splits a 3D polyline (#88) (#138)
+20597	cadcraft	Reject out-of-domain values in PARAMETERS instead of dropping the constraint (#93) (#139)
+20598	cadcraft	Apply DIMOVERRIDE text together with dimension variables (#108) (#141)
+20599	cadcraft	Convert typed ellipse arc angles to ellipse parameters (#82) (#143)
+20600	cadcraft	Fix justified TEXT extents and picking (#89) (#144)
+20601	cadcraft	Reject deleting a dimension that a remaining dimension refers to (#94) (#145)
+20602	cadcraft	MCP bridge: do not resend a mutation whose reply was lost (#102) (#146)
+20603	cadcraft	Keep selected objects outside the joined chain when using JOIN (#86) (#148)
+20604	cadcraft	Fence selection now includes crossed XLINE and RAY objects (#92) (#149)
+20605	cadcraft	HATCHEDIT: clear the gradient when a named pattern is chosen (#107) (#151)
+20606	cadcraft	Reject nonpositive MTEXT height on creation (#84) (#154)
+20607	cadcraft	AREA of a normal hatch no longer counts unfilled islands (#91) (#155)
+20608	cadcraft	Store canonical autoTypes names so accepted spellings take effect (#95) (#156)
+20609	cadcraft	Keep an ordinate dimension's datum fixed when its feature moves (#105) (#157)
