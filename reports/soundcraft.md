@@ -23,7 +23,7 @@
 - The work has shifted from building new things to fixing: features went from 50% of changes in the first 2 releases to 16% in the last 2 releases, and fixes from 20% to 60%.
 - Performance work is 2% of changes (3), most of it in v0.6.1 (12 Oct), which had 3.
 - After features and fixes, the next biggest group is release housekeeping at 8%.
-- Since the last release, 66 more changes have landed on main and not been released yet: 12 features and 49 fixes among them.
+- Since the last release, 100 more changes have landed on main and not been released yet: 33 features and 58 fixes among them.
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -31,7 +31,7 @@
 | [v0.4.0](https://github.com/storytold/soundcraft/releases/tag/v0.4.0) | 2026-10-10 | 27 | 9 | 15 | · | · | · | · | 2 | 1 | · | · | · | · | · |
 | [v0.5.0](https://github.com/storytold/soundcraft/releases/tag/v0.5.0) | 2026-10-11 | 13 | 1 | 10 | · | · | 1 | · | · | 1 | · | · | · | · | · |
 | [v0.6.1](https://github.com/storytold/soundcraft/releases/tag/v0.6.1) | 2026-10-12 | 44 | 8 | 24 | 3 | · | 1 | · | 4 | 3 | 1 | · | · | · | · |
-| _unreleased (main)_ | 2026-10-13 | 66 | 12 | 49 | 1 | · | 3 | · | · | · | · | · | 1 | · | · |
+| _unreleased (main)_ | 2026-10-13 | 100 | 33 | 58 | 3 | · | 3 | · | · | · | · | · | 3 | · | · |
 | **Released total** |  | **141** | **51** | **51** | **3** | · | **9** | **3** | **7** | **11** | **5** | · | · | · | **1** |
 
 Share of released changes: feature 36%, fix 36%, perf 2%, docs 6%, test 2%, build/ci 5%, release 8%, refactor 4%, other 1%.
@@ -50,7 +50,7 @@ Share of released changes: feature 36%, fix 36%, perf 2%, docs 6%, test 2%, buil
 | [v0.4.0](https://github.com/storytold/soundcraft/releases/tag/v0.4.0) | 80 | 25 | 1 | 1 | · | 40 | 13 | 25 | 1 |
 | [v0.5.0](https://github.com/storytold/soundcraft/releases/tag/v0.5.0) | 31 | 11 | 2 | · | · | 11 | 7 | 11 | 2 |
 | [v0.6.1](https://github.com/storytold/soundcraft/releases/tag/v0.6.1) | 139 | 41 | 1 | 2 | · | 67 | 28 | 39 | 3 |
-| _unreleased (main)_ | 174 | 66 | · | · | · | 100 | 8 | 65 | 1 |
+| _unreleased (main)_ | 373 | 98 | 2 | · | · | 189 | 84 | 99 | 1 |
 | **Released total** | **307** | **77** | **8** | **56** | **0** | **118** | **48** | **75** | **10** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
@@ -84,7 +84,7 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.4.0](https://github.com/storytold/soundcraft/releases/tag/v0.4.0) | 13 | 12 | 24 | 89% | · | Claude | · |
 | [v0.5.0](https://github.com/storytold/soundcraft/releases/tag/v0.5.0) | 5 | 1 | 4 | 31% | · | Claude | · |
 | [v0.6.1](https://github.com/storytold/soundcraft/releases/tag/v0.6.1) | 12 | 7 | 27 | 61% | · | Claude | · |
-| _unreleased (main)_ | 15 | 11 | 11 | 17% | · | Claude | · |
+| _unreleased (main)_ | 23 | 15 | 27 | 27% | · | Claude | · |
 | **Released total** | **22** |  | **110** | 78% | **0** | Claude | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.

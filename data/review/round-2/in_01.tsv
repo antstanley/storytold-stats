@@ -1,0 +1,217 @@
+cadcraft@4257674dfa	cadcraft	Fix polyline offset arc bulge after joining moved endpoints (#817) (#825)
+cadcraft@3b16f2d516	cadcraft	Engine: run the post-command passes from one place (#856)
+cadcraft@33fe98a6dc	cadcraft	Update Chinese translations in zh.tsv (#884)
+cadcraft@ef9898d57f	cadcraft	zh: drop two duplicate rows left by merging #870 and #884
+cadcraft@8166e4a809	cadcraft	AutoLISP: load and run .lsp routines (fixes #758) (#855)
+cadcraft@8abc0909f3	cadcraft	MCP: render one area of the drawing, and read its texts (find_text) (#757)
+cadcraft@26179f7428	cadcraft	Draw object transparency on screen, in exports and in plots (#764)
+cadcraft@4a9dd31a58	cadcraft	Context menu test: a block reference offers both the Block Editor and REFEDIT (#818, #824)
+cadcraft@8cd0d46d58	cadcraft	Zoom and pan regenerate in the background instead of freezing the window (#903)
+cadcraft@e707ab4d7c	cadcraft	cargo fmt after the #903 merge
+craft-launcher@cbae640688	craft-launcher	Add FigCraft; release 0.4.1 (#313)
+deckcraft@6912b5df76	deckcraft	Fonts: a letter with combining marks the run's font lacks takes a face that has them all
+deckcraft@f5fef50364	deckcraft	Text: rtlCol puts the first column on the right; just/dist anchoring at the bottom; wordArtVertRtl
+deckcraft@bab3854484	deckcraft	Text: strikethrough at the font's strikeout position and thickness
+deckcraft@3d22ca642d	deckcraft	Fonts: only steer a symbol away from the colour font when that is the face it would get
+deckcraft@30b2daadb6	deckcraft	Text: character spacing leaves kerning on again (only Arial drops it in PowerPoint)
+deckcraft@85a7f0ce3e	deckcraft	Text: a fallback face (emoji, symbols, a missing script) no longer moves the line's baseline
+deckcraft@232501a9f3	deckcraft	Fonts: emoji presentation as PowerPoint draws it; keycaps and text pictographs in a symbol font
+deckcraft@b8a665f0ca	deckcraft	Text: mongolianVert and wordArtVert (stacked) text as PowerPoint draws them
+deckcraft@41d839d931	deckcraft	Text: East Asian vertical text (eaVert) stands ideographs and kana upright
+deckcraft@bc2fc816d4	deckcraft	Text: East Asian, Thai, Hindi, Arabic and Hebrew auto-number schemes
+deckcraft@257e79de27	deckcraft	Text: Japanese line breaking keeps small kana and "ー" off line starts; only commas and stops hang
+deckcraft@d30e4edb45	deckcraft	Text: soft hyphens show a hyphen where a line breaks; no break after zero-width space or before em dash
+deckcraft@fa3db9a777	deckcraft	Text: condensed character spacing keeps pairs kerned
+deckcraft@08bc46c0ea	deckcraft	Text: underline styles (double, heavy, dotted, dashed, wavy) at the font's underline position
+deckcraft@ed562d7305	deckcraft	Text: centre, right and decimal tab stops align the text after them; a tab past the end wraps
+deckcraft@ef313b91b0	deckcraft	Text: transparent text fills are faded once, not twice
+deckcraft@9e2f7b96dc	deckcraft	Text: small capitals draw at their size, and all caps keep characters like "ß"
+deckcraft@f3f959cabf	deckcraft	Text: character spacing of 0.6 pt or more (or -1 pt) switches kerning off for the whole box
+deckcraft@cfd4f25545	deckcraft	Text: bidi resolves spaces, punctuation and digits by the run's language, as PowerPoint does
+deckcraft@8ee082f257	deckcraft	Render: 3-D shapes' faces are lit even without a bevel
+deckcraft@238157d98e	deckcraft	Render: 3-D cameras turn shapes (affine approximation)
+deckcraft@4e2cbaed79	deckcraft	Geom: moon, magnetic disk and drum by the standard
+deckcraft@ee71879f80	deckcraft	Render: pictures reflect their pixels
+deckcraft@7cb62d5197	deckcraft	Pptx/Render: picture fills with rotWithShape=0 stay upright
+deckcraft@c0dcfc1db5	deckcraft	Geom: stars stretched by the standard's hf/vf factors
+deckcraft@9238a915a2	deckcraft	Render: presets PowerPoint mitres by default get sharp corners; miter limit 8
+deckcraft@2e68e54eec	deckcraft	Render: gradients with rotWithShape=0 keep to the slide's axes
+deckcraft@239e41bdf6	deckcraft	Render: a picture's shadow covers the whole picture
+deckcraft@cef6e1a8c8	deckcraft	Render: table borders draw their dashes, compound bands and diagonals
+deckcraft@9d4541b8b4	deckcraft	Render: bevelled shapes lit like PowerPoint's default 3-D light (approximation)
+deckcraft@46dfb23dc5	deckcraft	Render: outline (shape) path gradients from an off-shape focus or a focus box
+deckcraft@675d20417e	deckcraft	Pictures: black and white, inverted alpha, and PowerPoint's grey weights
+deckcraft@754841aaa4	deckcraft	Pptx: a table naming no style reads as the table grid style
+deckcraft@bf877411fb	deckcraft	Render: picture brightness with contrast as PowerPoint combines them
+deckcraft@3b04dd14be	deckcraft	Render: pictures with opposite corrections no longer share decoded pixels
+deckcraft@772abb2154	deckcraft	Render: pattern fills blend neighbouring cells between whole-pixel sizes
+deckcraft@84e6c12543	deckcraft	Render: a group's outer shadow is cast by its children
+deckcraft@aafce0d2ef	deckcraft	Render: gradient lines draw their gradient, heads included
+deckcraft@4773e4ee0f	deckcraft	Render: tiled pictures take their size from the resolution they record
+deckcraft@4012cea0bf	deckcraft	Geom: sun, wave and double wave by the standard's formulas
+deckcraft@2965e69e2f	deckcraft	Geom: equation shapes by the standard's formulas
+deckcraft@ee4712f829	deckcraft	Geom: lightning bolt, explosions, heart, cloud and document flowcharts as the standard defines them
+deckcraft@c2b622a797	deckcraft	Render: tiled picture fills flip, align and size like PowerPoint's
+deckcraft@0cbcbebf68	deckcraft	Render: a 3-D picture's border stays centred on its edge
+deckcraft@0c5ddb5dea	deckcraft	Gradients: read, write and draw a:tileRect
+deckcraft@9a7e7e133e	deckcraft	Geom/Render: brackets and braces fill; arrowheads follow open paths, not brackets
+deckcraft@47dfaaca61	deckcraft	Render: shapes filled with their group's fill (a:grpFill) show it
+deckcraft@7d642e12c9	deckcraft	Render: a picture's border lies outside the picture
+deckcraft@862e2175a7	deckcraft	Render: shadows are cast by what is drawn: no-fill shapes, see-through fills, lines
+deckcraft@b3a980dcb5	deckcraft	Render: perspective shadows scale and skew about their alignment point
+deckcraft@0796325a1f	deckcraft	Render: radial (circle path) gradients end on the circle around the whole box
+deckcraft@90a9933d46	deckcraft	Render: arrowheads as PowerPoint draws them: the line stops inside, one shape, 2 pt minimum
+deckcraft@2fca333cac	deckcraft	Render: dashes with round caps keep their length; square caps only at the line's ends
+deckcraft@39adfcd62a	deckcraft	Render: custom geometry sub-paths fill even-odd, so inner sub-paths cut holes
+designcraft@b30b67dae3	designcraft	Images: EPS shows through its proxy at display time; simple PostScript (QR codes) is drawn
+designcraft@80663cccfd	designcraft	Keep merged-cell selection highlighting and formatting consistent
+effectcraft@59bf40a5da	effectcraft	GPU Information: Enter presses OK
+effectcraft@396231a9f8	effectcraft	Fix #978: keep form choices and buttons inside the dialog
+effectcraft@1b3c88dcc5	effectcraft	Keyboard Shortcuts: OK button in view, Enter is OK, visible scroll bar handles
+effectcraft@d9f300f940	effectcraft	UI: add an Effects submenu to the layer context menu
+effectcraft@c3644e59d4	effectcraft	UI: confirm before deleting a user template or a shortcut preset
+effectcraft@0e424b45f1	effectcraft	Shortcuts: Fast Previews and Show Channel, Default keys, Second keys 
+effectcraft@84f7f80617	effectcraft	Timeline: expression row matches the normal row height
+effectcraft@d5496e50bc	effectcraft	Timeline: expression row takes its property row's background
+effectcraft@c5d2a54507	effectcraft	New comps from footage get a unique name, as Duplicate does
+effectcraft@ce67e02d88	effectcraft	Floating panels: no widget ID clash when dragged past the window edge [skip ci]
+effectcraft@a55af3b235	effectcraft	PSD: share the duplicated decode, placed-transform and writer helpers (#1133)
+effectcraft@ac9d4eb72f	effectcraft	PSD: avoid redundant plane copies, per-pixel mask tests and repeated quad solves (#1136)
+effectcraft@155368e613	effectcraft	Rotation tool: keep counting past a full turn, as in After Effects
+effectcraft@dc3131b339	effectcraft	Shortcuts: keyboard-only commands for navigation, layers and panels
+effectcraft@1ca068c5b1	effectcraft	Marker dialog: Cmd+Enter is OK
+effectcraft@0cfb563764	effectcraft	#473: Cryptomatte: resolve the rank planes once and reduce them on all cores (GPU path ~9.5 s → ~0.2 s per 1440p frame)
+effectcraft@ec86cdb584	effectcraft	text: the Chinese fallback families follow the script the locale asks for
+effectcraft@e248c172e8	effectcraft	Cmd/Alt-click a twirl arrow opens its whole tree
+effectcraft@767f1f6265	effectcraft	Layer sampling toggle, Show Channel grayscale and colorized, Timeline zoom back in
+effectcraft@7197d2fb7e	effectcraft	#879: cap GPU frames in flight during export
+effectcraft@e5e36aa3eb	effectcraft	Viewer eyedropper: stay armed until there is a frame to sample
+effectcraft@4574fb62bc	effectcraft	#783: Object Matte effect from a point / box prompt, tracked
+effectcraft@430c968e52	effectcraft	Project panel: Replace with Precomposition (used N times)
+effectcraft@f9d6457f6a	effectcraft	Timeline: UU reveals an effect's changed parameters only
+effectcraft@9aabb5da4f	effectcraft	GPU: resident effect stacks, in-frame texture reuse, upload-cache budget, stable footprint keys (#687)
+effectcraft@1765dc53df	effectcraft	Tint: Swap Colors (#963) (#1060)
+effectcraft@eb2b734059	effectcraft	PSD: take the integration branch's adapted non-finite test and psd_import formatting (#1149)
+effectcraft@02c412b835	effectcraft	PSD: release_bytes takes the buffer by value (clippy ptr_arg)
+effectcraft@5f4b3aee86	effectcraft	PSD integration test: deep groups + NaN text, damaged layer section, huge header under a small budget, on a 2 MiB stack
+effectcraft@f2d481ce20	effectcraft	Tracker: the 1080p timing test takes the fastest step, so a loaded FreeBSD VM doesn't fail it
+effectcraft@3ac283eee4	effectcraft	Review fixes for the landed batch
+effectcraft@900b921dbf	effectcraft	PSD: the optimisation tests use the reference decoder once #1137 and #1139 land together
+effectcraft@6c799f3c3b	effectcraft	Batch fixes: tests and catalogs that meet each other once the batch lands together
+effectcraft@91ee7bf1b3	effectcraft	cargo fmt
+figcraft@ac65168417	figcraft	Implement centralized transactional fix for command batch failures (#229)
+lightcraft@03b6c8a95d	lightcraft	LR-MERGE-HDR: keep the reference frame's lens corrections in HDR merges
+lightcraft@f0493fa11b	lightcraft	M5.6: Dehaze while zoomed no longer resamples the whole original on every pan and slider step
+lightcraft@c6b2686ba0	lightcraft	LR-IMP-PREVIEW-READ: raw thumbnails and stand-ins decode the smallest embedded JPEG that is big enough
+lightcraft@2ddc147f60	lightcraft	Reject a LeakyRelu alpha that is not a single float instead of reading it as 0 (#1530)
+lightcraft@7942df9dd4	lightcraft	Fetch: refuse a redirect from https to http (#1531)
+lightcraft@0a2b2afb2e	lightcraft	Check the SAM weight shape against the header before reading the tensor (#1529)
+lightcraft@05dc7374d8	lightcraft	Reject PEF streams that end before the pixels do instead of decoding zero padding (#1514)
+lightcraft@9f8a17277e	lightcraft	MCP: do not resend a request whose reply was lost, report an unknown outcome (#1526)
+lightcraft@3b848a2093	lightcraft	Refuse Open/New Library while an import is running (#1509)
+lightcraft@13c32ef1bb	lightcraft	Reject RAW TIFFs with missing or undecodable image chunks (#1513)
+lightcraft@3f9b3b20cb	lightcraft	Preview disk cache: ignore symlinked shard directories (#1504)
+lightcraft@e067581ff3	lightcraft	Recheck file contents before deleting a moved original (#1500)
+lightcraft@cd59698798	lightcraft	PERF-IMPORT: a scan, an import and a sidecar write no longer make a table of the whole library first
+lightcraft@f478b000de	lightcraft	Reserve the name with an exclusive create when hard links are unavailable (#1503)
+lightcraft@b4d5b47617	lightcraft	LR-IMP-CAMERA-COVERAGE: verify Canon EOS RP CR3 pixel for pixel
+lightcraft@07f73c44da	lightcraft	People view: faces cut from the embedded preview, not the raw (#1440)
+lightcraft@9b7d2e6ae2	lightcraft	Batch 35: #1443's face-tile test passes the preview edge #1410 added
+lightcraft@35c4290d14	lightcraft	LRC-LIB-CATALOG-IMPORT: an ARW6 is described from the whole file, not a partial read
+lightcraft@e783f705dc	lightcraft	Raw source: no second copy of a full-size picture after the colour model
+lightcraft@ea7f799607	lightcraft	Before/After button: Show Original (\) does not light it (fixes #1497)
+lightcraft@a5989d6c0d	lightcraft	Batch 35: #1132's cancel test takes the four-part fake import #1412 left
+lightcraft@180d400cdd	lightcraft	Batch 35: one header line per tracker doc, one 2026-10-13 section in What's New, parity summary refreshed, rustfmt after merges
+photocraft@5f2c23e142	photocraft	Filters: Photoshop's Blur More kernel, Find Edges strength and Polar Coordinates direction (#4652)
+photocraft@1e916a4e4a	photocraft	Pen: Ctrl/Cmd edits the path being drawn in place (#4022) (#4526)
+photocraft@911881880d	photocraft	Web: show the brush preset storage banner only while a change is unsaved (#4918)
+photocraft@ca5755f5b0	photocraft	Layer: Duplicate Layer to a new document, as in Photoshop (#4805)
+photocraft@d0fc974aae	photocraft	Wrap Clone Stamp strokes and sampling in Pattern Preview (#4997)
+photocraft@9a4d925b34	photocraft	Brush: remember the last selected brush across restarts (split from #2516) (#3472)
+photocraft@74cb293570	photocraft	Large document: full CPU canvas redraws run in the background, visible part first (#4024) (#5001)
+photocraft@57624bd02e	photocraft	PSD: Backgrounds survive a round trip through PhotoCraft (#3560)
+photocraft@50c4f72af7	photocraft	Speed up large-radius Unsharp Mask with guarded FFT convolution (#2987)
+photocraft@34ce5766d2	photocraft	raw: decode Panasonic RW2 RawFormat 3 and 4 (vendor-compressed) (#3286)
+photocraft@369704ac55	photocraft	Share native Windows driver settings and RGB printing through craft-print
+photocraft@a954194277	photocraft	PSD import: ResolutionInfo stays pixels per inch when the display unit is cm (#5280)
+photocraft@c0cb78090b	photocraft	panic_hunt: count panics that Session::execute contains (#4982) (#5219)
+soundcraft@a47ce1cee5	soundcraft	Waveforms like Pro Tools': exact per-pixel peaks and working view options
+soundcraft@334cf40506	soundcraft	Autosave after every change, on a thread of its own
+soundcraft@65829dbb1c	soundcraft	Keep takes when the input, output or disk fails, or the app crashes
+soundcraft@2a675b7ae4	soundcraft	Bounce Mix: Browse for the file, and start in the session folder
+soundcraft@376e9f03ff	soundcraft	Signal Generator fills the selection with a new clip
+soundcraft@695811ad13	soundcraft	Draw each take in the Edit window while it records
+soundcraft@bbafeb85f6	soundcraft	Give plugins the session's tempo and transport, and play MIDI controllers
+soundcraft@a8594684a1	soundcraft	Stream bounces to disk and keep the app responsive while bouncing
+soundcraft@768629a8ce	soundcraft	Make the Shuffle, Slip, Spot and Grid edit modes work like Pro Tools
+soundcraft@69aea8fad3	soundcraft	Track height: resize live while dragging, Pro Tools modifiers and Ctrl+Up/Down
+soundcraft@d438c753e1	soundcraft	Share the session with the UI instead of copying it every frame
+soundcraft@5b824e46c8	soundcraft	Zoom Toggle: E zooms in on the edit selection and back out, as in Pro Tools
+soundcraft@123ae65e2b	soundcraft	Plugin safety: read plugin state off the audio thread, keep refused settings, contain NaN plugins
+soundcraft@cc1bf5a62d	soundcraft	Create MIDI clips with the Pencil, Consolidate and the MIDI Editor
+soundcraft@430c6a9e4e	soundcraft	Keep corrupt sessions and imports from hanging, crashing or filling memory
+soundcraft@751a5755cb	soundcraft	Type to search as soon as a plugin or bus menu opens
+soundcraft@9176296e96	soundcraft	File › Open Recent: the last 10 sessions, newest first
+soundcraft@13316cf60e	soundcraft	Plugin editor windows on Windows (VST3 and embedded CLAP)
+soundcraft@acbc3411e5	soundcraft	Sampler UI: load samples, waveform with loop points, instrument sliders
+soundcraft@7c9a18878b	soundcraft	Mix in a separate window: Edit and Mix on screen at once
+soundcraft@8e360b336b	soundcraft	Audio device settings (system, devices, rate, buffer) and opt-in ASIO
+soundcraft@a96cf50a3a	soundcraft	Draw faders and meters more like Pro Tools
+soundcraft@87db8f4048	soundcraft	Double-click a MIDI clip with the Grabber to open it in the MIDI Editor
+soundcraft@fe573bb31f	soundcraft	Transient detection: find quiet and legato onsets, place them on the attack
+soundcraft@c2788c50d4	soundcraft	Tab to Transient: every selected track, Alt+Tab back, Shift+Tab extends
+soundcraft@c0cb993408	soundcraft	Drag across checkboxes to check or uncheck several (#399)
+vectorcraft@b374fee789	vectorcraft	Refuse to package over the source document or its linked files (#1696)
+vectorcraft@6f56ad2e7f	vectorcraft	Keep Export for Screens suffix inside the export folder (#1713)
+vectorcraft@1e6c17c54b	vectorcraft	Create the staging file owner-only when replacing a document (#1712)
+vectorcraft@4d0f1dd0f8	vectorcraft	Fix #1698: entries read from memory obey the size limits too, not only streamed ones (#1698)
+vectorcraft@64f875ff34	vectorcraft	Check embedded PNG/JPEG bitmap size from the header before decoding (#1716)
+vectorcraft@4892384168	vectorcraft	Fix scatter X axis ticks looping forever on data near the f64 maximum (#1707)
+vectorcraft@b72ca300ed	vectorcraft	Cap Liquify dabs while expanding a segment, not only before it (#1708)
+vectorcraft@ae6d70ae19	vectorcraft	Search each shared name tree node once when finding the editing file (#1702)
+vectorcraft@0f0380b827	vectorcraft	Stamp File Info dates only after a save succeeds (#1721)
+vectorcraft@7f93a191c7	vectorcraft	Do not journal a failed live preview at commit (#1720)
+vectorcraft@4d54fa27e3	vectorcraft	Linked files: a change during a drag is applied after the drag, not lost (#1722)
+vectorcraft@bb8897a2eb	vectorcraft	Fix numeric fields reverting a typed value when clicking away instead of pressing Enter (#1637)
+vectorcraft@589797adef	vectorcraft	Direct Selection stays inside isolation mode
+vectorcraft@f8396dbc4f	vectorcraft	Pen: drag threshold, Precise Cursors command and tests
+vectorcraft@cd89392ac9	vectorcraft	MCP: reconnect closed control sockets before sending requests
+vectorcraft@5ce38c7b2a	vectorcraft	G1: honor Shift-double-click in Width Point Edit
+vectorcraft@db0c8e93f0	vectorcraft	G1: create width points through Width Point Edit
+vectorcraft@316611374e	vectorcraft	G1: switch new ruler-guide orientation with Alt
+vectorcraft@e1c0d92a5e	vectorcraft	G4: show mixed paragraph alignment without a selected button
+vectorcraft@8d2aef8cd9	vectorcraft	G4: propagate character-style Auto-leading resets
+vectorcraft@a55453d89c	vectorcraft	G4: capture character styles from selected text
+vectorcraft@32950368b3	vectorcraft	G1: keep Artboard deletion consistent across controls
+vectorcraft@f9bdad7ee6	vectorcraft	DXF export: strokes as zero-width centerlines, a 3ds Max preset, and one VPORT view direction
+vectorcraft@dbd2497b82	vectorcraft	G13: offer TIFF in Export for Screens and Asset Export
+vectorcraft@156fbe9912	vectorcraft	Image Trace: Shapes finds rounded rectangles and shapes in aliased, blurred and scanned art
+vectorcraft@b1a5b79d67	vectorcraft	Image Trace: stroked lines get square caps where their ink is cut square
+vectorcraft@9c289db91d	vectorcraft	Image Trace: enhanced versions of the presets
+vectorcraft@8ab574b7de	vectorcraft	Image Trace: gradients grown over noise and soft rims
+vectorcraft@5a120e323b	vectorcraft	xtask: the wasm check compiles the web app; the web's SVG depth cap follows from its stack
+wordcraft@d8cfe59c14	wordcraft	DOCX: keep Word ink placed directly in a run when saving (gap #2) (#1098)
+wordcraft@f322c60bdf	wordcraft	wordcraft-cli text keeps bullet and number labels on list items (#1080) (#1094)
+wordcraft@2689f3c6a3	wordcraft	Italian proofing: it_IT and it_CH spelling, suggestions, grammar and hyphenation (#951) (#1090)
+wordcraft@fd152762b3	wordcraft	Table selection arrow stays visible on dark paper (#1078) (#1095)
+wordcraft@4fe9891572	wordcraft	LaTeX: a "[" after a line break or at the start of a list item stays text (#1099)
+wordcraft@dcef934078	wordcraft	Markdown: list items that start like a block keep their text (#1100)
+wordcraft@927a305943	wordcraft	Layout: a picture after a content control's start stays on its line (regression from #392) (#1102)
+wordcraft@65b66c6216	wordcraft	Export: page images draw headers and footers at full strength (#1106)
+wordcraft@d74ba89483	wordcraft	Canvas: handle keys before laying out, so a keystroke shows in its own frame (#1107)
+wordcraft@1e48e6710f	wordcraft	Tools: cargo xtask visual-diff compares two PDFs of a document page by page (#1112)
+wordcraft@196f828f3f	wordcraft	Expand sample-text formulas on Enter (#1067) (#1101)
+wordcraft@cd5b1a5077	wordcraft	Regression test: DrawingML shapes survive saving a .docx (#886) (#1130)
+wordcraft@408ae56f49	wordcraft	Add Croatian spelling and grammar support (#1114)
+wordcraft@d6723153cc	wordcraft	Drawings: VML text boxes keep their margins, fit and alignment; hidden drawings are kept but not shown (#1118)
+wordcraft@99fa307cf2	wordcraft	Honour Remove personal information / date and time on save (#1062) (#1131)
+wordcraft@c3d45adeab	wordcraft	Comment balloon buttons work, so an empty comment can be deleted (#1085) (#1132)
+wordcraft@bf9b84f10b	wordcraft	Start screen: no blank document behind File › Home (#1129) (#1134)
+wordcraft@9fd3490e4c	wordcraft	Caret contrasts with the page colour, shading or highlight under it (#299) (#1137)
+wordcraft@5b92d61a0c	wordcraft	Clicks on ribbon and status-bar chrome keep typing in the document (#1093) (#1138)
+wordcraft@2dcde62220	wordcraft	A dragged shape anchors in the column it lands in, so that column's text wraps around it (#884) (#1139)
+wordcraft@85a3a53a8e	wordcraft	Keep a paragraph's space after clear of the footnote separator (#1116) (#1140)
+wordcraft@e8482fa964	wordcraft	A chosen interface size is absolute; Auto keeps the display scale (#822) (#1142)
+wordcraft@aa113f0801	wordcraft	Copied equations reach other programs as MathML (#816) (#1147)
+wordcraft@ff15dc451d	wordcraft	Equation pictures share a few atlas textures instead of hundreds (#1002) (#1149)
+wordcraft@04f6f53b8a	wordcraft	Read Aloud starts PowerShell without a console window (#1122) (#1150)

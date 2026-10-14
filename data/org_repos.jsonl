@@ -46,6 +46,7 @@
 {"isArchived":false,"isFork":false,"name":"effectcraft","releases":10}
 {"isArchived":false,"isFork":false,"name":"photocraft-corpus","releases":0}
 {"isArchived":false,"isFork":false,"name":"craft-fonts","releases":0}
+{"isArchived":false,"isFork":false,"name":"indd-utils","releases":0}
 {"isArchived":false,"isFork":false,"name":"gridcraft","releases":5}
 {"isArchived":false,"isFork":false,"name":"cadcraft","releases":5}
 {"isArchived":false,"isFork":false,"name":"deckcraft","releases":5}
@@ -54,7 +55,7 @@
 {"isArchived":false,"isFork":false,"name":"craft-repo-status-app","releases":0}
 {"isArchived":false,"isFork":false,"name":"craft-libs","releases":0}
 {"isArchived":false,"isFork":false,"name":"figcraft","releases":5}
-{"isArchived":false,"isFork":false,"name":"craft-launcher","releases":7}
+{"isArchived":false,"isFork":false,"name":"craft-launcher","releases":9}
 {"isArchived":false,"isFork":false,"name":"craft-common-actions","releases":0}
 {"isArchived":false,"isFork":false,"name":"craft-launcher-assets","releases":0}
 {"isArchived":false,"isFork":true,"name":"winprint.rs","releases":0}

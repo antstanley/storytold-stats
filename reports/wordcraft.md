@@ -23,7 +23,7 @@
 - The work has shifted from building new things to fixing: features went from 47% of changes in the first 2 releases to 35% in the last 2 releases, and fixes from 7% to 51%.
 - Performance work is rare: 3 changes.
 - After features and fixes, the next biggest group is translations at 5%.
-- Since the last release, 15 more changes have landed on main and not been released yet: 2 features and 9 fixes among them.
+- Since the last release, 48 more changes have landed on main and not been released yet: 7 features and 33 fixes among them.
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -32,7 +32,7 @@
 | [v0.4.0](https://github.com/storytold/wordcraft/releases/tag/v0.4.0) | 2026-10-10 | 16 | 5 | 9 | · | · | · | · | 1 | 1 | · | · | · | · | · |
 | [v0.5.0](https://github.com/storytold/wordcraft/releases/tag/v0.5.0) | 2026-10-11 | 136 | 45 | 70 | 1 | 8 | 1 | 6 | · | 1 | 2 | · | 2 | · | · |
 | [v0.6.1](https://github.com/storytold/wordcraft/releases/tag/v0.6.1) | 2026-10-12 | 223 | 81 | 113 | 2 | 13 | 6 | 1 | 2 | 3 | · | · | 2 | · | · |
-| _unreleased (main)_ | 2026-10-12 | 15 | 2 | 9 | 1 | 2 | 1 | · | · | · | · | · | · | · | · |
+| _unreleased (main)_ | 2026-10-14 | 48 | 7 | 33 | 3 | 2 | 1 | 2 | · | · | · | · | · | · | · |
 | **Released total** |  | **405** | **145** | **194** | **3** | **21** | **9** | **7** | **5** | **12** | **4** | · | **4** | · | **1** |
 
 Share of released changes: feature 36%, fix 48%, perf 1%, i18n 5%, docs 2%, test 2%, build/ci 1%, release 3%, refactor 1%, security 1%.
@@ -53,7 +53,7 @@ Share of released changes: feature 36%, fix 48%, perf 1%, i18n 5%, docs 2%, test
 | [v0.4.0](https://github.com/storytold/wordcraft/releases/tag/v0.4.0) | 16 | · | 15 | 1 | · | · | · | 15 | · |
 | [v0.5.0](https://github.com/storytold/wordcraft/releases/tag/v0.5.0) | 136 | · | 132 | 4 | · | · | · | 126 | 6 |
 | [v0.6.1](https://github.com/storytold/wordcraft/releases/tag/v0.6.1) | 223 | · | 221 | 2 | · | · | · | 193 | 28 |
-| _unreleased (main)_ | 22 | 1 | 14 | · | · | 2 | 5 | 14 | 1 |
+| _unreleased (main)_ | 55 | 1 | 47 | · | · | 2 | 5 | 47 | 1 |
 | **Released total** | **405** | **0** | **374** | **31** | **0** | **0** | **0** | **336** | **38** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
@@ -88,7 +88,7 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.4.0](https://github.com/storytold/wordcraft/releases/tag/v0.4.0) | 9 | 7 | 9 | 56% | · | Claude | · |
 | [v0.5.0](https://github.com/storytold/wordcraft/releases/tag/v0.5.0) | 29 | 24 | 126 | 93% | · | Claude, OpenAI Codex / ChatGPT, Unnamed agent | · |
 | [v0.6.1](https://github.com/storytold/wordcraft/releases/tag/v0.6.1) | 49 | 41 | 194 | 87% | · | Claude, Cursor, OpenAI Codex / ChatGPT, GitHub Copilot, Devin | · |
-| _unreleased (main)_ | 12 | 8 | 5 | 33% | · | Claude | · |
+| _unreleased (main)_ | 22 | 14 | 27 | 56% | · | Claude | · |
 | **Released total** | **75** |  | **356** | 88% | **0** | Claude, OpenAI Codex / ChatGPT, Cursor, Devin, GitHub Copilot, Unnamed agent | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.

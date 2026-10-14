@@ -23,7 +23,7 @@
 - The work has shifted from building new things to fixing: features went from 49% of changes in the first 4 releases to 27% in the last 4 releases, and fixes from 24% to 41%.
 - Performance work is 5% of changes (42), most of it in v0.1.0 (2 Oct), which had 23.
 - After features and fixes, the next biggest group is documentation at 7%.
-- Since the last release, 116 more changes have landed on main and not been released yet: 21 features and 71 fixes among them.
+- Since the last release, 183 more changes have landed on main and not been released yet: 27 features and 112 fixes among them.
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -35,7 +35,7 @@
 | [v0.5.0](https://github.com/storytold/lightcraft/releases/tag/v0.5.0) | 2026-10-10 | 171 | 39 | 73 | 5 | 10 | 7 | 5 | 3 | 1 | 7 | · | 1 | · | 20 |
 | [v0.6.0](https://github.com/storytold/lightcraft/releases/tag/v0.6.0) | 2026-10-11 | 89 | 29 | 40 | 1 | 3 | 5 | 2 | 2 | 1 | 2 | · | · | · | 4 |
 | [v0.7.1](https://github.com/storytold/lightcraft/releases/tag/v0.7.1) | 2026-10-12 | 160 | 49 | 66 | 5 | 5 | 11 | 8 | 1 | 2 | 8 | 1 | · | · | 4 |
-| _unreleased (main)_ | 2026-10-13 | 116 | 21 | 71 | 7 | 2 | 2 | 3 | 1 | · | 5 | 1 | · | 1 | 2 |
+| _unreleased (main)_ | 2026-10-14 | 183 | 27 | 112 | 12 | 3 | 4 | 7 | 2 | · | 5 | 1 | 6 | 1 | 3 |
 | **Released total** |  | **788** | **278** | **269** | **42** | **23** | **57** | **27** | **22** | **13** | **25** | **1** | **2** | · | **29** |
 
 Share of released changes: feature 35%, fix 34%, perf 5%, i18n 3%, docs 7%, test 3%, build/ci 3%, release 2%, refactor 3%, other 4%.
@@ -59,7 +59,7 @@ Share of released changes: feature 35%, fix 34%, perf 5%, i18n 3%, docs 7%, test
 | [v0.5.0](https://github.com/storytold/lightcraft/releases/tag/v0.5.0) | 461 | 132 | · | 1 | 38 | 260 | 30 | 98 | 34 |
 | [v0.6.0](https://github.com/storytold/lightcraft/releases/tag/v0.6.0) | 436 | 77 | 3 | 1 | 8 | 326 | 21 | 75 | 5 |
 | [v0.7.1](https://github.com/storytold/lightcraft/releases/tag/v0.7.1) | 386 | 121 | · | 2 | 37 | 184 | 42 | 118 | 3 |
-| _unreleased (main)_ | 256 | 106 | 1 | 1 | 8 | 132 | 8 | 105 | 2 |
+| _unreleased (main)_ | 395 | 170 | 1 | 1 | 11 | 200 | 12 | 168 | 3 |
 | **Released total** | **1940** | **450** | **9** | **246** | **83** | **953** | **199** | **343** | **116** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
@@ -78,9 +78,9 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 114 people have contributed to released changes.
-- The first release had 1 person and the latest had 49.
-- In the latest release, 33 of the 49 people were contributing for the first time.
+- 113 people have contributed to released changes.
+- The first release had 1 person and the latest had 48.
+- In the latest release, 32 of the 48 people were contributing for the first time.
 - The most active person, @echelon, authored 41% of all changes, and the three most active authored 53% between them.
 - 91% of changes say an AI agent was involved (721 of 788).
 - That share has gone down: 99% in the first 4 releases and 87% in the last 4 releases.
@@ -97,9 +97,9 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.4.0](https://github.com/storytold/lightcraft/releases/tag/v0.4.0) | 27 | 25 | 59 | 87% | 1 | Claude, OpenAI Codex / ChatGPT, opencode, GitHub Copilot, DeepSeek | · |
 | [v0.5.0](https://github.com/storytold/lightcraft/releases/tag/v0.5.0) | 42 | 32 | 140 | 82% | 109 | Claude, OpenAI Codex / ChatGPT, opencode | · |
 | [v0.6.0](https://github.com/storytold/lightcraft/releases/tag/v0.6.0) | 30 | 18 | 70 | 79% | 1 | Claude, OpenAI Codex / ChatGPT | · |
-| [v0.7.1](https://github.com/storytold/lightcraft/releases/tag/v0.7.1) | 49 | 33 | 154 | 96% | 152 | Claude, OpenAI Codex / ChatGPT, DeepSeek | · |
-| _unreleased (main)_ | 40 | 21 | 63 | 54% | · | Claude, OpenAI Codex / ChatGPT, DeepSeek | · |
-| **Released total** | **114** |  | **721** | 91% | **263** | Claude, OpenAI Codex / ChatGPT, DeepSeek, opencode, GitHub Copilot | · |
+| [v0.7.1](https://github.com/storytold/lightcraft/releases/tag/v0.7.1) | 48 | 32 | 154 | 96% | 152 | Claude, OpenAI Codex / ChatGPT, DeepSeek | · |
+| _unreleased (main)_ | 51 | 29 | 82 | 45% | 1 | Claude, OpenAI Codex / ChatGPT, GLM (Z.ai), DeepSeek | · |
+| **Released total** | **113** |  | **721** | 91% | **263** | Claude, OpenAI Codex / ChatGPT, DeepSeek, opencode, GitHub Copilot | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 

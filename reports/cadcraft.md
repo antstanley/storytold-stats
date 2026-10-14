@@ -22,7 +22,7 @@
 - Overall, fixes make up 58% of changes and features 30%.
 - The work has shifted from building new things to fixing: features went from 48% of changes in the first 2 releases to 29% in the last 2 releases, and fixes from 0% to 62%.
 - Performance work is rare: 6 changes.
-- Since the last release, 73 more changes have landed on main and not been released yet: 9 features and 54 fixes among them.
+- Since the last release, 109 more changes have landed on main and not been released yet: 25 features and 64 fixes among them.
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -31,7 +31,7 @@
 | [v0.4.0](https://github.com/storytold/cadcraft/releases/tag/v0.4.0) | 2026-10-10 | 2 | · | · | · | · | · | · | 1 | 1 | · | · | · | · | · |
 | [v0.5.0](https://github.com/storytold/cadcraft/releases/tag/v0.5.0) | 2026-10-11 | 188 | 18 | 160 | · | 1 | 2 | 3 | · | 1 | 3 | · | · | · | · |
 | [v0.6.2](https://github.com/storytold/cadcraft/releases/tag/v0.6.2) | 2026-10-12 | 156 | 83 | 55 | 5 | 7 | 1 | · | 1 | 4 | · | · | · | · | · |
-| _unreleased (main)_ | 2026-10-13 | 73 | 9 | 54 | 2 | 2 | 3 | 2 | · | · | 1 | · | · | · | · |
+| _unreleased (main)_ | 2026-10-13 | 109 | 25 | 64 | 3 | 5 | 6 | 3 | · | · | 3 | · | · | · | · |
 | **Released total** |  | **371** | **113** | **215** | **6** | **8** | **5** | **3** | **2** | **13** | **4** | · | · | · | **2** |
 
 Share of released changes: feature 30%, fix 58%, perf 2%, i18n 2%, docs 1%, test 1%, build/ci 1%, release 4%, refactor 1%, other 1%.
@@ -52,7 +52,7 @@ Share of released changes: feature 30%, fix 58%, perf 2%, i18n 2%, docs 1%, test
 | [v0.4.0](https://github.com/storytold/cadcraft/releases/tag/v0.4.0) | 3 | 1 | · | 1 | · | 1 | · | 1 | · |
 | [v0.5.0](https://github.com/storytold/cadcraft/releases/tag/v0.5.0) | 188 | · | 180 | 8 | · | · | · | 178 | 2 |
 | [v0.6.2](https://github.com/storytold/cadcraft/releases/tag/v0.6.2) | 160 | 1 | 152 | 3 | · | 3 | 1 | 151 | 2 |
-| _unreleased (main)_ | 73 | · | 71 | 2 | · | · | · | 71 | · |
+| _unreleased (main)_ | 109 | · | 102 | 7 | · | · | · | 102 | · |
 | **Released total** | **378** | **2** | **336** | **33** | **0** | **4** | **3** | **330** | **8** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
@@ -87,7 +87,7 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.4.0](https://github.com/storytold/cadcraft/releases/tag/v0.4.0) | 2 | 1 | 2 | 100% | · | Claude | · |
 | [v0.5.0](https://github.com/storytold/cadcraft/releases/tag/v0.5.0) | 14 | 13 | 139 | 74% | · | Claude | · |
 | [v0.6.2](https://github.com/storytold/cadcraft/releases/tag/v0.6.2) | 27 | 19 | 154 | 99% | · | Claude | · |
-| _unreleased (main)_ | 24 | 16 | 47 | 64% | · | Claude | · |
+| _unreleased (main)_ | 32 | 22 | 83 | 76% | · | Claude | · |
 | **Released total** | **35** |  | **319** | 86% | **0** | Claude | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.

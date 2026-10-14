@@ -22,7 +22,7 @@
 - Overall, fixes make up 62% of changes and features 21%.
 - The work has shifted from building new things to fixing: features went from 35% of changes in the first 4 releases to 20% in the last 4 releases, and fixes from 26% to 64%.
 - Performance work is 5% of changes (84), most of it in v0.8.2 (12 Oct), which had 26.
-- Since the last release, 259 more changes have landed on main and not been released yet: 48 features and 178 fixes among them.
+- Since the last release, 392 more changes have landed on main and not been released yet: 65 features and 272 fixes among them.
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -35,7 +35,7 @@
 | [v0.6.0](https://github.com/storytold/photocraft/releases/tag/v0.6.0) | 2026-10-10 | 521 | 106 | 322 | 25 | 17 | 17 | 13 | 7 | 1 | 10 | · | 3 | · | · |
 | [v0.7.0](https://github.com/storytold/photocraft/releases/tag/v0.7.0) | 2026-10-11 | 244 | 42 | 184 | 5 | 3 | 6 | 3 | · | 1 | · | · | · | · | · |
 | [v0.8.2](https://github.com/storytold/photocraft/releases/tag/v0.8.2) | 2026-10-12 | 417 | 80 | 272 | 26 | 9 | 4 | 11 | 5 | 4 | 2 | 1 | 3 | · | · |
-| _unreleased (main)_ | 2026-10-13 | 259 | 48 | 178 | 19 | 8 | 2 | 3 | · | · | 1 | · | · | · | · |
+| _unreleased (main)_ | 2026-10-14 | 392 | 65 | 272 | 30 | 10 | 8 | 6 | · | · | 1 | · | · | · | · |
 | **Released total** |  | **1699** | **360** | **1045** | **84** | **41** | **53** | **31** | **30** | **16** | **18** | **1** | **10** | · | **10** |
 
 Share of released changes: feature 21%, fix 62%, perf 5%, i18n 2%, docs 3%, test 2%, build/ci 2%, release 1%, refactor 1%, security 1%, other 1%.
@@ -60,7 +60,7 @@ Share of released changes: feature 21%, fix 62%, perf 5%, i18n 2%, docs 3%, test
 | [v0.6.0](https://github.com/storytold/photocraft/releases/tag/v0.6.0) | 566 | 7 | 489 | 25 | · | 30 | 15 | 406 | 90 |
 | [v0.7.0](https://github.com/storytold/photocraft/releases/tag/v0.7.0) | 244 | · | 244 | · | · | · | · | 235 | 9 |
 | [v0.8.2](https://github.com/storytold/photocraft/releases/tag/v0.8.2) | 422 | 1 | 412 | 4 | · | 2 | 3 | 399 | 14 |
-| _unreleased (main)_ | 286 | 1 | 258 | · | · | 22 | 5 | 255 | 4 |
+| _unreleased (main)_ | 440 | 2 | 390 | · | · | 39 | 9 | 387 | 5 |
 | **Released total** | **1755** | **10** | **1582** | **107** | **0** | **38** | **18** | **1279** | **313** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
@@ -100,7 +100,7 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.6.0](https://github.com/storytold/photocraft/releases/tag/v0.6.0) | 120 | 93 | 371 | 71% | 19 | Claude, OpenAI Codex / ChatGPT, Cursor, GitHub Copilot | · |
 | [v0.7.0](https://github.com/storytold/photocraft/releases/tag/v0.7.0) | 75 | 35 | 149 | 61% | · | Claude | · |
 | [v0.8.2](https://github.com/storytold/photocraft/releases/tag/v0.8.2) | 108 | 55 | 297 | 71% | 1 | Claude, OpenAI Codex / ChatGPT, Unnamed agent, Cursor | · |
-| _unreleased (main)_ | 74 | 30 | 162 | 63% | · | Claude, OpenAI Codex / ChatGPT | · |
+| _unreleased (main)_ | 105 | 43 | 217 | 55% | · | Claude, OpenAI Codex / ChatGPT, Cursor | · |
 | **Released total** | **255** |  | **1149** | 68% | **20** | Claude, GitHub Copilot, OpenAI Codex / ChatGPT, Unnamed agent, Cursor, Devin, Qwen | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.

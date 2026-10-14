@@ -22,7 +22,7 @@
 - Overall, fixes make up 49% of changes and features 33%.
 - The work has shifted from building new things to fixing: features went from 49% of changes in the first 6 releases to 25% in the last 6 releases, and fixes from 28% to 59%.
 - Performance work is 2% of changes (18), most of it in v0.1.0 (2 Oct), which had 7.
-- Since the last release, 139 more changes have landed on main and not been released yet: 29 features and 90 fixes among them.
+- Since the last release, 248 more changes have landed on main and not been released yet: 62 features and 156 fixes among them.
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -38,7 +38,7 @@
 | [v0.8.0](https://github.com/storytold/vectorcraft/releases/tag/v0.8.0) | 2026-10-10 | 131 | 37 | 69 | 2 | 12 | 2 | 5 | 1 | 1 | 2 | · | · | · | · |
 | [v0.9.0](https://github.com/storytold/vectorcraft/releases/tag/v0.9.0) | 2026-10-11 | 115 | 25 | 83 | · | 1 | 5 | · | · | 1 | · | · | · | · | · |
 | [v0.10.0](https://github.com/storytold/vectorcraft/releases/tag/v0.10.0) | 2026-10-12 | 191 | 56 | 106 | 5 | 6 | 6 | 6 | 2 | 2 | 1 | · | 1 | · | · |
-| _unreleased (main)_ | 2026-10-13 | 139 | 29 | 90 | 4 | 5 | 10 | 1 | · | · | · | · | · | · | · |
+| _unreleased (main)_ | 2026-10-14 | 248 | 62 | 156 | 4 | 5 | 14 | 1 | 2 | · | · | · | 4 | · | · |
 | **Released total** |  | **885** | **293** | **431** | **18** | **30** | **40** | **21** | **15** | **15** | **10** | · | **2** | **1** | **9** |
 
 Share of released changes: feature 33%, fix 49%, perf 2%, i18n 3%, docs 5%, test 2%, build/ci 2%, release 2%, refactor 1%, other 1%.
@@ -65,7 +65,7 @@ Share of released changes: feature 33%, fix 49%, perf 2%, i18n 3%, docs 5%, test
 | [v0.8.0](https://github.com/storytold/vectorcraft/releases/tag/v0.8.0) | 355 | 84 | · | 47 | · | 142 | 82 | 35 | 49 |
 | [v0.9.0](https://github.com/storytold/vectorcraft/releases/tag/v0.9.0) | 324 | 112 | 3 | · | · | 208 | 1 | 44 | 71 |
 | [v0.10.0](https://github.com/storytold/vectorcraft/releases/tag/v0.10.0) | 480 | 190 | · | 1 | · | 287 | 2 | 139 | 51 |
-| _unreleased (main)_ | 310 | 139 | · | · | · | 170 | 1 | 74 | 65 |
+| _unreleased (main)_ | 581 | 248 | · | · | · | 332 | 1 | 157 | 91 |
 | **Released total** | **2257** | **729** | **8** | **148** | **0** | **1251** | **121** | **324** | **413** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
@@ -84,9 +84,9 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 102 people have contributed to released changes.
-- The first release had 2 people and the latest had 44.
-- In the latest release, 29 of the 44 people were contributing for the first time.
+- 101 people have contributed to released changes.
+- The first release had 2 people and the latest had 43.
+- In the latest release, 28 of the 43 people were contributing for the first time.
 - The most active person, @bflatastic, authored 48% of all changes, and the three most active authored 67% between them.
 - 85% of changes say an AI agent was involved (751 of 885).
 - That share has gone down: 96% in the first 6 releases and 79% in the last 6 releases.
@@ -107,9 +107,9 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.7.0](https://github.com/storytold/vectorcraft/releases/tag/v0.7.0) | 7 | 4 | 15 | 100% | · | Claude | · |
 | [v0.8.0](https://github.com/storytold/vectorcraft/releases/tag/v0.8.0) | 28 | 21 | 109 | 83% | 1 | Claude, OpenAI Codex / ChatGPT, Cursor | · |
 | [v0.9.0](https://github.com/storytold/vectorcraft/releases/tag/v0.9.0) | 24 | 14 | 109 | 95% | · | Claude | · |
-| [v0.10.0](https://github.com/storytold/vectorcraft/releases/tag/v0.10.0) | 44 | 29 | 103 | 54% | · | Claude, OpenAI Codex / ChatGPT | · |
-| _unreleased (main)_ | 26 | 12 | 9 | 6% | · | Claude | · |
-| **Released total** | **102** |  | **751** | 85% | **1** | Claude, OpenAI Codex / ChatGPT, Cursor | · |
+| [v0.10.0](https://github.com/storytold/vectorcraft/releases/tag/v0.10.0) | 43 | 28 | 103 | 54% | · | Claude, OpenAI Codex / ChatGPT | · |
+| _unreleased (main)_ | 38 | 19 | 21 | 8% | · | Claude, OpenAI Codex / ChatGPT, Cursor | · |
+| **Released total** | **101** |  | **751** | 85% | **1** | Claude, OpenAI Codex / ChatGPT, Cursor | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 
