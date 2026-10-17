@@ -151,7 +151,8 @@ def contributors(releases, people, changes_total):
     used = lambda a: a["changes_authored"] + a["changes_coauthored"]
     if agents:
         if len(agents) == 1 or used(agents[0]) >= 0.9 * sum(used(a) for a in agents):
-            out.append(f"{agents[0]['contributor']} accounts for {'all' if len(agents) == 1 else 'nearly all'} of the changes that name an agent" + (f"; {count(len(agents) - 1, 'other agent')} {'is' if len(agents) == 2 else 'are'} named on {count(sum(used(a) for a in agents[1:]), 'change')} between them." if len(agents) > 1 else "."))
+            out.append(f"{agents[0]['contributor']} accounts for {'all' if len(agents) == 1 else 'nearly all'} of the changes that name an agent" + (f"; {agents[1]['contributor']} is named on {count(used(agents[1]), 'change')}." if len(agents) == 2
+                else f"; {count(len(agents) - 1, 'other agent')} are named on {count(sum(used(a) for a in agents[1:]), 'change')} between them." if len(agents) > 2 else "."))
         else:
             out.append(f"The agents named most are {agents[0]['contributor']} ({used(agents[0]):,} changes) and {agents[1]['contributor']} ({used(agents[1]):,}).")
     authored = total(releases, "changes_agent_authored")

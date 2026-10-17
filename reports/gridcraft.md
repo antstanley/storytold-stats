@@ -79,7 +79,7 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 - The most active person, @echelon, authored 13% of all changes, and the three most active authored 48% between them.
 - 52% of changes say an AI agent was involved (216 of 419).
 - That share has gone down: 96% in the first 3 releases and 49% in the last 3 releases.
-- Claude accounts for nearly all of the changes that name an agent; 1 other agent is named on 3 changes between them.
+- Claude accounts for nearly all of the changes that name an agent; OpenAI Codex / ChatGPT is named on 3 changes.
 - In 1 change the agent is the commit author itself, not only a co-author.
 - These figures only count changes that say so, so the real share may be higher.
 
