@@ -1,6 +1,6 @@
 # figcraft — changes per release
 
-5 releases, 2026-10-10 → 2026-10-12. Each release is counted as the changes that landed between the previous release tag and its own; the first one is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised. The charts cover released changes; the commentary under them is generated from the same numbers.
+6 releases, 2026-10-10 → 2026-10-14. Each release is counted as the changes that landed between the previous release tag and its own; the first one is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised. The charts cover released changes; the commentary under them is generated from the same numbers.
 
 ## Changes by type
 
@@ -16,14 +16,14 @@
 
 **What this shows**
 
-- figcraft has had 5 releases with 214 changes in total, over 2 days.
-- The biggest release was v0.2.0 (10 Oct) with 86 changes, which is 40% of everything released so far.
-- Releases are getting smaller: the first 2 releases averaged 67 changes each and the last 2 releases averaged 7.
-- Overall, features make up 65% of changes and fixes 13%.
-- The mix has changed: features went from 73% of changes in the first 2 releases to 36% in the last 2 releases, and fixes from 9% to 14%.
-- Performance work is 2% of changes (5), most of it in v0.2.0 (10 Oct), which had 3.
-- After features and fixes, the next biggest group is documentation at 7%.
-- Since the last release, 53 more changes have landed on main and not been released yet: 23 features and 23 fixes among them.
+- figcraft has had 6 releases with 268 changes in total, over 4 days.
+- The biggest release was v0.2.0 (10 Oct) with 86 changes, which is 32% of everything released so far.
+- Releases are getting smaller: the first 3 releases averaged 67 changes each and the last 3 releases averaged 23.
+- Overall, features make up 61% of changes and fixes 19%.
+- The work has shifted from building new things to fixing: features went from 68% of changes in the first 3 releases to 41% in the last 3 releases, and fixes from 13% to 37%.
+- Performance work is rare: 5 changes.
+- After features and fixes, the next biggest group is documentation at 8%.
+- Since the last release, 156 more changes have landed on main and not been released yet: 16 features and 77 fixes among them.
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -32,17 +32,19 @@
 | [v0.4.0](https://github.com/storytold/figcraft/releases/tag/v0.4.0) | 2026-10-12 | 66 | 37 | 14 | 1 | 5 | 3 | 1 | 1 | 1 | · | · | 3 | · | · |
 | [v0.5.0](https://github.com/storytold/figcraft/releases/tag/v0.5.0) | 2026-10-12 | 5 | · | · | · | · | 1 | · | 3 | 1 | · | · | · | · | · |
 | [v0.5.1](https://github.com/storytold/figcraft/releases/tag/v0.5.1) | 2026-10-12 | 9 | 5 | 2 | · | · | · | · | · | 2 | · | · | · | · | · |
-| _unreleased (main)_ | 2026-10-14 | 53 | 23 | 23 | · | · | 6 | · | 1 | · | · | · | · | · | · |
-| **Released total** |  | **214** | **140** | **28** | **5** | **5** | **16** | **1** | **7** | **6** | **2** | · | **3** | · | **1** |
+| [v0.6.0](https://github.com/storytold/figcraft/releases/tag/v0.6.0) | 2026-10-14 | 54 | 23 | 23 | · | · | 6 | · | 1 | 1 | · | · | · | · | · |
+| _unreleased (main)_ | 2026-10-17 | 156 | 16 | 77 | 7 | 14 | 14 | 7 | 7 | · | 2 | · | 8 | · | 4 |
+| **Released total** |  | **268** | **163** | **51** | **5** | **5** | **22** | **1** | **8** | **7** | **2** | · | **3** | · | **1** |
 
-Share of released changes: feature 65%, fix 13%, perf 2%, i18n 2%, docs 7%, build/ci 3%, release 3%, refactor 1%, security 1%.
+Share of released changes: feature 61%, fix 19%, perf 2%, i18n 2%, docs 8%, build/ci 3%, release 3%, refactor 1%, security 1%.
 
 ## How changes landed
 
 **What this shows**
 
-- 75% of changes came in through pull requests; the rest were committed directly.
-- Of the 160 pull requests, none came from people outside the core team.
+- 73% of changes came in through pull requests; the rest were committed directly.
+- Of the 196 pull requests, 13% came from people outside the core team.
+- Outside contributions have gone up: 0% of pull requests in the first 3 releases, 56% in the last 3 releases.
 
 | Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -51,8 +53,9 @@ Share of released changes: feature 65%, fix 13%, perf 2%, i18n 2%, docs 7%, buil
 | [v0.4.0](https://github.com/storytold/figcraft/releases/tag/v0.4.0) | 66 | · | 44 | 22 | · | · | · | · | 44 |
 | [v0.5.0](https://github.com/storytold/figcraft/releases/tag/v0.5.0) | 5 | · | 4 | 1 | · | · | · | · | 4 |
 | [v0.5.1](https://github.com/storytold/figcraft/releases/tag/v0.5.1) | 9 | · | 5 | 4 | · | · | · | · | 5 |
-| _unreleased (main)_ | 53 | · | 36 | 17 | · | · | · | 25 | 11 |
-| **Released total** | **214** | **0** | **160** | **54** | **0** | **0** | **0** | **0** | **160** |
+| [v0.6.0](https://github.com/storytold/figcraft/releases/tag/v0.6.0) | 54 | · | 36 | 18 | · | · | · | 25 | 11 |
+| _unreleased (main)_ | 765 | 14 | 14 | 128 | · | 244 | 365 | 7 | 21 |
+| **Released total** | **268** | **0** | **196** | **72** | **0** | **0** | **0** | **25** | **171** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
 
@@ -70,12 +73,12 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 2 people have contributed to released changes.
-- The first release had 2 people and the latest had 1; the most in one release was 2, in v0.2.0 (10 Oct).
-- Nobody in the latest release was a first-time contributor.
-- The most active person, @bflatastic, authored 86% of all changes.
-- 64% of changes say an AI agent was involved (136 of 214).
-- That share has gone down: 99% in the first 2 releases and 7% in the last 2 releases.
+- 13 people have contributed to released changes.
+- The first release had 2 people and the latest had 13.
+- In the latest release, 11 of the 13 people were contributing for the first time.
+- The most active person, @bflatastic, authored 78% of all changes, and the three most active authored 93% between them.
+- 57% of changes say an AI agent was involved (153 of 268).
+- That share has gone down: 68% in the first 3 releases and 26% in the last 3 releases.
 - Claude accounts for all of the changes that name an agent.
 - These figures only count changes that say so, so the real share may be higher.
 
@@ -86,9 +89,10 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.4.0](https://github.com/storytold/figcraft/releases/tag/v0.4.0) | 1 | · | 2 | 3% | · | Claude | · |
 | [v0.5.0](https://github.com/storytold/figcraft/releases/tag/v0.5.0) | 2 | · | 1 | 20% | · | Claude | · |
 | [v0.5.1](https://github.com/storytold/figcraft/releases/tag/v0.5.1) | 1 | · | · | 0% | · | · | · |
-| _unreleased (main)_ | 13 | 11 | 16 | 30% | · | Claude | · |
-| **Released total** | **2** |  | **136** | 64% | **0** | Claude | · |
+| [v0.6.0](https://github.com/storytold/figcraft/releases/tag/v0.6.0) | 13 | 11 | 17 | 31% | · | Claude | · |
+| _unreleased (main)_ | 49 | 45 | 38 | 24% | · | Claude, Codebuff | · |
+| **Released total** | **13** |  | **153** | 57% | **0** | Claude | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 
-Most active humans in released changes: @bflatastic (183), @echelon (31).
+Most active humans in released changes: @bflatastic (218), @echelon (33), @justinjohn0306 (7), @euisuh (4), @nathan-fontenele (3), @JeremyYao (2), @rcoenen (2), @YTwsy (2), @fede9234 (1), @giuseeee88 (1).

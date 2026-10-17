@@ -23,7 +23,7 @@
 - The work has shifted from building new things to fixing: features went from 54% of changes in the first 4 releases to 22% in the last 4 releases, and fixes from 12% to 45%.
 - No change was labelled as performance work.
 - After features and fixes, the next biggest group is translations at 9%.
-- Since the last release, 2 more changes have landed on main and not been released yet: 0 features and 2 fixes among them.
+- Since the last release, 4 more changes have landed on main and not been released yet: 1 feature and 3 fixes among them.
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -36,7 +36,7 @@
 | [v0.3.2](https://github.com/storytold/craft-launcher/releases/tag/v0.3.2) | 2026-10-11 | 5 | · | 1 | · | · | · | · | 1 | 3 | · | · | · | · | · |
 | [v0.4.0](https://github.com/storytold/craft-launcher/releases/tag/v0.4.0) | 2026-10-13 | 34 | 6 | 15 | · | 6 | 1 | · | 5 | 1 | · | · | · | · | · |
 | [v0.4.1](https://github.com/storytold/craft-launcher/releases/tag/v0.4.1) | 2026-10-13 | 1 | 1 | · | · | · | · | · | · | · | · | · | · | · | · |
-| _unreleased (main)_ | 2026-10-13 | 2 | · | 2 | · | · | · | · | · | · | · | · | · | · | · |
+| _unreleased (main)_ | 2026-10-15 | 4 | 1 | 3 | · | · | · | · | · | · | · | · | · | · | · |
 | **Released total** |  | **101** | **29** | **39** | · | **9** | **5** | **1** | **7** | **8** | · | · | **1** | · | **2** |
 
 Share of released changes: feature 29%, fix 39%, i18n 9%, docs 5%, test 1%, build/ci 7%, release 8%, security 1%, other 2%.
@@ -61,7 +61,7 @@ Share of released changes: feature 29%, fix 39%, i18n 9%, docs 5%, test 1%, buil
 | [v0.3.2](https://github.com/storytold/craft-launcher/releases/tag/v0.3.2) | 5 | · | 5 | · | · | · | · | 2 | 3 |
 | [v0.4.0](https://github.com/storytold/craft-launcher/releases/tag/v0.4.0) | 34 | · | 34 | · | · | · | · | 30 | 4 |
 | [v0.4.1](https://github.com/storytold/craft-launcher/releases/tag/v0.4.1) | 1 | · | 1 | · | · | · | · | · | 1 |
-| _unreleased (main)_ | 2 | · | 2 | · | · | · | · | 2 | · |
+| _unreleased (main)_ | 4 | · | 4 | · | · | · | · | 4 | · |
 | **Released total** | **101** | **0** | **74** | **27** | **0** | **0** | **0** | **62** | **12** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
@@ -100,7 +100,7 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.3.2](https://github.com/storytold/craft-launcher/releases/tag/v0.3.2) | 2 | · | 3 | 60% | · | Claude | · |
 | [v0.4.0](https://github.com/storytold/craft-launcher/releases/tag/v0.4.0) | 24 | 18 | 20 | 59% | · | Claude | · |
 | [v0.4.1](https://github.com/storytold/craft-launcher/releases/tag/v0.4.1) | 1 | · | 1 | 100% | · | Claude | · |
-| _unreleased (main)_ | 2 | 2 | · | 0% | · | · | · |
+| _unreleased (main)_ | 4 | 3 | 1 | 25% | · | Claude | · |
 | **Released total** | **36** |  | **77** | 76% | **0** | Claude | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.

@@ -1,0 +1,600 @@
+deckcraft@aeaa3684a8	deckcraft	TEXT-TEST: require actual Symbol character coverage
+deckcraft@c536c6e905	deckcraft	PDFW2: adopt shared PDF writer with explicit embedding errors
+deckcraft@7d5dd85209	deckcraft	UI-FONTS: continue fallback selection past ineligible faces
+deckcraft@42fb6728fa	deckcraft	PDFW2: use fixed-size chunks in PDF text regression
+deckcraft@f1b30485b2	deckcraft	Format scientific number formats (0.00E+00) in chart labels (#419)
+deckcraft@9b94481481	deckcraft	Engine: moving the selection to another text body settles the composition (#421)
+deckcraft@ab2befffa0	deckcraft	Info: keep a property draft when another field or the side menu is clicked (#422)
+deckcraft@ea480ad141	deckcraft	xtask: assets audit no longer panics on Unicode names and reads real paths from git (#424)
+deckcraft@a7ed1767b5	deckcraft	Opus: validate the header in Decoder::from_head (#425)
+deckcraft@e3a654d446	deckcraft	Slide: leading tabs in a new slide's body set the outline level (#370)
+deckcraft@f4ae239725	deckcraft	AV1: reject tile groups that repeat, skip or reorder tiles (#395)
+deckcraft@1d8f460fc5	deckcraft	Matroska: stop following chapter and tag nesting past 32 levels (#396)
+deckcraft@838cef2fec	deckcraft	Bitstream: reject bad NAL length widths, check NAL endpoints and signed Exp-Golomb limits (#397)
+deckcraft@d184eb7927	deckcraft	Table: split and cell fill stay inside the table (#400)
+deckcraft@3046d49e56	deckcraft	Engine: a command that fails after editing puts the presentation back (#405)
+deckcraft@2b20fc3a45	deckcraft	MCP: do not resend a command whose reply was lost (#409)
+deckcraft@ac88cad50b	deckcraft	Pptx: keep the math namespace equations inherit from the slide root or a wrapper (#412)
+deckcraft@9ab6a3a35c	deckcraft	CLI: convert and run refuse output formats DeckCraft can't write (#715)
+deckcraft@194e7fcf1b	deckcraft	UI: notes, alt text and rename drafts no longer carry over to another document (#413)
+deckcraft@24644f3e3b	deckcraft	PPTX: animation rewind survives save and reopen (#77)
+deckcraft@8409c337c1	deckcraft	Command palette: one Export… entry that opens the dialog, no path-only duplicate (#79)
+deckcraft@6ec369aede	deckcraft	Ribbon: transition and animation tiles follow the dark theme (#159)
+deckcraft@d281ba7707	deckcraft	PPTX import: a transition without spd is 0.5 s, not the effect's default (#117)
+deckcraft@888b5d7287	deckcraft	Home: a Selection Pane button that works with nothing selected (#132)
+deckcraft@2ae8fe1839	deckcraft	Slide Size: choose Portrait or Landscape (#198)
+deckcraft@8d8cbeb123	deckcraft	CLI: --help prints usage and unknown render flags are rejected (#163)
+deckcraft@40231d8114	deckcraft	Windows: compile DX12 shaders with FXC
+deckcraft@1256ee1022	deckcraft	Text: draw shrink-on-overflow at the scale the file was saved with
+deckcraft@b6721fe32f	deckcraft	Title bar: Export button next to Save
+deckcraft@b7cb5331d7	deckcraft	SmartArt: text is laid out on its text rectangle (dsp:txXfrm), not in columns
+deckcraft@402c1f4611	deckcraft	Animations: nine PowerPoint exit effects import as themselves (#147)
+deckcraft@a5eae5e9cf	deckcraft	PPTX: a lone guide keeps the name its preset uses, adj1 or adj (#214)
+deckcraft@4dc6e06c41	deckcraft	PPTX: .potx and .ppsx declare a template and slide show main part (#210)
+deckcraft@5b3f4cb521	deckcraft	Text: line spacing reduction comes off the percentage, not the spacing
+deckcraft@97e7164026	deckcraft	Text: exact line spacing ends at the last line's descent
+deckcraft@44f4b037e2	deckcraft	Canvas: right click selects the shape under the pointer
+deckcraft@a837c26eda	deckcraft	Engine: Selection pane select uses the checked shape id param (#97 after main's selection.select)
+deckcraft@50e30dc6ed	deckcraft	Edit: copies remap media, connector ends, animation targets and triggers (#406)
+deckcraft@21c5f8e745	deckcraft	Anim: group animations by sequence in one pass (#410)
+deckcraft@994d9a4b66	deckcraft	Parsers: check hostile numeric fields before arithmetic (#426)
+deckcraft@0950423f08	deckcraft	Recovery: unique uids, per-instance ownership, keep snapshots until replaced (#390)
+deckcraft@163a259db4	deckcraft	Pptx: budget chart points, chart XML size, inflate work and VML lookups (#401)
+deckcraft@215fed001e	deckcraft	Render: cap RGBA conversion and bound the failed-image cache (#402)
+deckcraft@6484091328	deckcraft	Render: budget shape path-gradient work on dense outlines (#404)
+deckcraft@20cf13a801	deckcraft	Fonts: find fonts where Linux and Flatpak keep them; add and rescan commands (#277)
+deckcraft@e1af96d3a6	deckcraft	Designer: layout ideas that rearrange the current slide (#314)
+deckcraft@bce94027ad	deckcraft	Charts: pie and doughnut data labels use the number format (#324)
+deckcraft@ca7140c1ff	deckcraft	Format Shape: line compound, cap, join, arrows and sizes; lock aspect ratio
+deckcraft@06a6b10d83	deckcraft	Print: choose paper size and orientation for notes and handouts
+deckcraft@cc0a2f3dc5	deckcraft	Transitions: choose a transition sound and play it in the show
+deckcraft@f4892fc9e7	deckcraft	Text: set text transparency from Text Fill (#32)
+deckcraft@16138fc03d	deckcraft	Format Shape: shadow, glow and reflection detail controls
+deckcraft@c9e071c355	deckcraft	PPTX: owned corpus round-trip, keep notes-master header and footer
+deckcraft@11e36ed3ac	deckcraft	Transitions: built-in sounds, Stop Previous Sound and Loop Until Next
+deckcraft@aaf1042d64	deckcraft	Shapes: Edit Points — point types, Bézier handles, right-click menu
+deckcraft@02b502b69d	deckcraft	Shapes: Edit Points — drag, add and delete a shape's vertices
+deckcraft@e12f40a05a	deckcraft	UI: WordArt Transform gallery applies a text warp
+deckcraft@c201a62e72	deckcraft	Format: report damaged embedded media and open such files as a repaired copy
+deckcraft@5b26eeb7f7	deckcraft	Morph: the same text moves and resizes instead of cross-fading
+deckcraft@e171e47a81	deckcraft	Animations: add 34 PowerPoint motion path presets
+deckcraft@a67b005ae5	deckcraft	Pictures: Remove Background with a classical matte
+deckcraft@4dea355f02	deckcraft	Pptx: round-trip comments, links, shows, groups and inherited placeholders
+deckcraft@6e294a0eaa	deckcraft	Text: Bullets and Numbering dialog
+deckcraft@99e9774408	deckcraft	Make PDF export ~2.8× faster with byte-identical output
+deckcraft@f4c182795f	deckcraft	Pptx: round-trip text effects, layout, fills, bevels and connectors
+deckcraft@2bd01910dc	deckcraft	Edit: Paste Special (destination theme, keep source, picture, text only)
+deckcraft@15b9ae0267	deckcraft	PPTX: round-trip 3-D models and animation bounce end
+deckcraft@0bab72aff2	deckcraft	PPTX: round-trip chart trendlines
+deckcraft@1080d02dd0	deckcraft	PPTX corpus: themes, masters, effects and links; keep text Mouse Over actions
+deckcraft@d48d66b7f8	deckcraft	render: 3-D light rigs and materials, per-side extrusion shading
+deckcraft@5d4e08733b	deckcraft	Render 3-D extrusions: sides under turned cameras (3-D slice 1)
+deckcraft@2dcfbdaff4	deckcraft	render: 3-D contours
+deckcraft@a87f84526f	deckcraft	Insert: a gallery of Lucide icons as stroked shapes
+deckcraft@2c57da32ad	deckcraft	Shapes: chevron text rectangle per presetShapeDefinitions
+deckcraft@bd8e227596	deckcraft	Shapes: star4/star5 text rectangles as the standard defines them
+deckcraft@9eed1b4532	deckcraft	UI: Size and Position dialog sets geometry in one step
+deckcraft@e7a106fcc3	deckcraft	Render: cap dash count so a tiny dash on a huge shape can't crash on open
+deckcraft@337bd35a31	deckcraft	Render: don't lay out table cell text that lands off the slide
+deckcraft@f0d0e2a93b	deckcraft	Charts: percent axes for 100% stacked; source-linked axis number formats
+deckcraft@facca31f75	deckcraft	Charts: draw axis titles
+deckcraft@a5ce62fe28	deckcraft	Review: previous and next comment
+deckcraft@9ae4d726d4	deckcraft	PPTX: keep table styles the file defines when no table uses them
+deckcraft@62f7075b42	deckcraft	PPTX: normalize literal line ends in XML so runs stay put on save
+deckcraft@8a56ce8340	deckcraft	PPTX: write Color Pulse emphasis as a colour change, not a scale
+deckcraft@edaef792e0	deckcraft	Fix up merged PRs: Edit Points hits select their shape on right click; Hyperlink sound fields in #713's tests
+deckcraft@e80316eb76	deckcraft	Comments: browser-created comments and replies get a creation timestamp (#72)
+deckcraft@ab3b1defbf	deckcraft	Slide show: media set to play in the click sequence starts on Next (#116)
+deckcraft@32a2d9e6bd	deckcraft	UI: View › New Window opens a second window
+deckcraft@0f7dc3d336	deckcraft	File: six original starter decks
+deckcraft@5c0630cba3	deckcraft	UI: sections in the Slide Sorter
+deckcraft@72238c1b6e	deckcraft	Merge Shapes: text merges as its letters, so a picture can fill them
+deckcraft@058890ed87	deckcraft	Pictures: Artistic Effects — apply, change, remove and keep in PPTX
+deckcraft@6af2b0ee21	deckcraft	Text: underline an IME composition in a table cell
+deckcraft@d0fb793954	deckcraft	Pictures: Picture Styles gallery and Picture Border
+deckcraft@534925bdf1	deckcraft	Pictures: Recolor gallery and Set Transparent Color
+deckcraft@5a3bc1e294	deckcraft	PPTX: read Office 2016 charts (waterfall, funnel, treemap…) and keep them
+deckcraft@8da7862348	deckcraft	Text: shrink on overflow gives up at once when even 10% overflows
+deckcraft@84d60009be	deckcraft	SmartArt: Text Pane, add and remove shapes, promote and demote
+deckcraft@20392c955b	deckcraft	PPTX: keep add-in tags on the presentation, slides and shapes
+deckcraft@55993247b4	deckcraft	Slides: Ctrl+A in the slide pane selects every slide (#188)
+deckcraft@a205d665b0	deckcraft	UI: Edit Photo Album reflows the album in one step
+deckcraft@2834166904	deckcraft	UI: Photo Album dialog inserts pictures as slides
+deckcraft@d534343d6e	deckcraft	UI: Create New Theme Colors dialog edits the theme in one step
+deckcraft@175142f1d3	deckcraft	SmartArt: 15 layouts, SmartArt Styles and Change Colors
+deckcraft@eabcf47d09	deckcraft	SmartArt: write the outline to .pptx as a diagram and read it back from the data model
+deckcraft@b4ea3b1df8	deckcraft	PPTX: keep custom XML, the sensitivity label and custom properties
+deckcraft@25eb575146	deckcraft	SmartArt: node pictures from the data model, Brick Scene camera, four more layouts
+deckcraft@a19b199efc	deckcraft	SmartArt: shrink text to fit, picture layouts, 3-D styles and more colours
+deckcraft@5fd7984088	deckcraft	SmartArt: layout gallery thumbnails and hover preview
+deckcraft@fd1b62bded	deckcraft	SmartArt: Convert to SmartArt gallery on Home; Convert to Text keeps the text size
+deckcraft@510fb4b0b7	deckcraft	SmartArt: Name and Title org chart, closer Half Circle, ten more layouts, convert to/from text and shapes
+deckcraft@aa56910de8	deckcraft	SmartArt: organisation charts with assistants, segmented/multidirectional cycles, cycle matrix, segmented pyramid, pie
+deckcraft@981b09da83	deckcraft	SmartArt: six more layouts, clear Venn labels, read back older Picture Accent Process files
+deckcraft@085ba98d47	deckcraft	Pptx: round-trip tables, charts, animation, media, sections and masters
+deckcraft@47cf76f32c	deckcraft	Fix up merged PRs: handout master csld takes tags; corpus test hyperlink gains sound fields
+deckcraft@875df7674c	deckcraft	Add the Handout Master view (stacked on #533)
+deckcraft@f685deef57	deckcraft	Insert: Action Settings dialog and shape.action
+deckcraft@63c32b89b8	deckcraft	Add the Notes Master view (stacked on #572 / #533)
+deckcraft@4c1357b2e6	deckcraft	Fix up merged PRs: shape.action fills main's new Hyperlink sound fields and CustomShow returns
+deckcraft@e0ec02d62c	deckcraft	UI: Hyperlink dialog follows the selection
+deckcraft@4653cb4e18	deckcraft	Fix up merged PRs: Hyperlink dialog tests fill main's new sound fields
+deckcraft@2d8014c706	deckcraft	Notes pages and PDF handouts follow their masters (stacked on #573)
+deckcraft@6f634a9809	deckcraft	Notes Master slide preview; master header/footer text keeps its formatting (stacked on #577)
+deckcraft@18be662a2a	deckcraft	UI: Date and Time dialog inserts a format in one step
+deckcraft@4cd6412a3c	deckcraft	PDF master header/footer text wraps and keeps mixed formatting (stacked on #580)
+deckcraft@76bfc19dfa	deckcraft	Notes Page view draws master text wrapped (stacked on #583)
+deckcraft@7f9b508296	deckcraft	PPTX: keep the notes master's own placeholders and colour map on save
+deckcraft@9b8871c86b	deckcraft	Format: bound total embedded media when opening a .deckcraft
+deckcraft@62fe8571f6	deckcraft	UI: Create New Theme Fonts dialog edits the theme in one step
+deckcraft@d00b01b5a1	deckcraft	Table: borders, cell margins and cell text alignment
+deckcraft@5b017f4590	deckcraft	UI: Alt Text's decorative checkbox follows the selection
+deckcraft@2f6629c4cb	deckcraft	Fix up merged PRs: theme browsing's importer sets vml_previews (#530 after #209-era field)
+deckcraft@9479e3b17c	deckcraft	Charts: draw waterfall, funnel, treemap and sunburst layouts
+deckcraft@0376c0b0e1	deckcraft	Fix up merged PRs: one parity summary, one dialogs gap entry, no duplicated architecture rows
+deckcraft@b5499d7157	deckcraft	Fix up merged PRs: waterfall axis scale uses the running totals
+deckcraft@8d429a23e9	deckcraft	Media: keep playback with the document and the clip (#415)
+deckcraft@7d87b6e668	deckcraft	Fix up merged PRs: transition sounds and media cues pass the document uid
+deckcraft@23ac41f191	deckcraft	Show: render the next slide in the background while the current one rests (#240)
+deckcraft@0a470c3b1f	deckcraft	Fix up merged PRs: prefetch GIF check passes the document uid
+deckcraft@d3ebe57a02	deckcraft	Show: a first animation set to With/After Previous plays when the slide appears
+deckcraft@d6d7e91c47	deckcraft	Show: Show Media Controls hides the playback bar
+deckcraft@32a49e8bf6	deckcraft	Fix up merged PRs: a trendline caption in a tiny chart no longer panics
+deckcraft@8f0640a7b2	deckcraft	Render: draw chart trendlines
+deckcraft@593f55dfa1	deckcraft	Charts: bar widths, column/bar point fills, smoothed lines and chart text colour as the file sets them
+deckcraft@6c605be582	deckcraft	Show: See All Slides and zoom
+deckcraft@266da52dd9	deckcraft	Charts: category axis orientation; horizontal bars list the first category at the bottom
+deckcraft@3e89fbbaa6	deckcraft	Presenter view: pause and reset the timer, and notes size
+deckcraft@e74015490b	deckcraft	Show: play a custom show
+deckcraft@0f28ac96ed	deckcraft	Fix up merged PRs: reversed category axes and trendline forecasts agree
+deckcraft@b61cf33836	deckcraft	Fix up merged PRs: custom-show links carry 'returns'; prefetch follows the show's own order
+deckcraft@bc62c58b17	deckcraft	Show: show the slide number while typing it
+deckcraft@256ad7057c	deckcraft	Charts: scatter and bubble charts get a value x axis
+deckcraft@d2bf428362	deckcraft	Notes and Presenter View: long notes scroll, presenter controls show (#221)
+deckcraft@6902c4bf92	deckcraft	Fix up merged PRs: every presenter-view button uses the light-on-dark style (#221)
+deckcraft@5089d615bf	deckcraft	Fix up merged PRs: scatter trendlines follow the value x axis
+deckcraft@808087e6a5	deckcraft	Charts: value-axis minor gridlines
+deckcraft@6d1b01b73d	deckcraft	Charts: logarithmic value axes
+deckcraft@0ac222a543	deckcraft	Fix up merged PRs: split ribbon buttons carry their label once (#512's label predates main's)
+deckcraft@f9c1000e35	deckcraft	Fix up merged PRs: rustfmt; drop doc rows the union merge left twice
+deckcraft@bb3627f954	deckcraft	Fix up merged PRs: minor gridlines on a logarithmic axis
+deckcraft@5c7e9fc6c3	deckcraft	Format the merged PRs (cargo fmt)
+deckcraft@912598fa46	deckcraft	View: Zoom dialog applies a percent or Fit
+deckcraft@3450180f19	deckcraft	Fix up merged PRs: EMF+ clipping alongside GDI clip regions
+deckcraft@126029db40	deckcraft	Text: honour spcFirstLastPara (space before the first paragraph)
+deckcraft@389c4dd5d0	deckcraft	Fix up merged PRs: #588's polygon clip and nested metafiles with clip regions
+deckcraft@2009242055	deckcraft	Export: a PNG or JPEG slide records 144 dpi at the default 2× size
+deckcraft@7266b30018	deckcraft	UI: Design Effects applies a theme effect scheme
+deckcraft@31e22977f7	deckcraft	Fix up merged PRs: the palette test skips UI commands that need a value (#440 hides them)
+deckcraft@a4fa978903	deckcraft	UI: Slide Master Preserve and Title or Footers placeholders
+deckcraft@0c3f4eee63	deckcraft	Fix up merged PRs: Slide Master Preserve/placeholders know the notes and handout master views
+deckcraft@3a8927e3f3	deckcraft	UI: Trim Media dialog follows the selection
+deckcraft@16355053e1	deckcraft	AV1: reject duplicate film-grain scaling points; a failed job still publishes (#394)
+deckcraft@b2b378a3f0	deckcraft	Fix up merged PRs: dedupe doc rows left by the union merges
+deckcraft@f6661ed15e	deckcraft	UI: customizable Quick Access Toolbar
+deckcraft@a85024558d	deckcraft	Fix up merged PRs: Quick Access Toolbar defaults keep main's Export button and custom-show start
+deckcraft@42b6e8e871	deckcraft	Table: inserting and deleting rows and columns keeps merges consistent (#408)
+deckcraft@fca521ac8c	deckcraft	Control server: bound connections, line length, queue and socket timeouts (#418)
+deckcraft@3335ee0feb	deckcraft	H.264: bound frame_num gap work and reject gaps the SPS forbids (#427)
+deckcraft@31390e5e21	deckcraft	PDF: map each glyph to its shaping cluster's text in ToUnicode (#164)
+deckcraft@71c3848eff	deckcraft	Text: AutoCorrect options, case rules and your own entries
+deckcraft@d498633faf	deckcraft	PPTX: shape text anchors at the top when the file gives no anchor; write ctr for centred shapes
+deckcraft@8fde5f31e7	deckcraft	Pictures: Change Picture replaces the selected picture (#115)
+deckcraft@80d3ad5f24	deckcraft	Canvas: drag the frame of a text box being edited to move it
+deckcraft@0609ca01cb	deckcraft	Fix up merged PRs: right-click on the edited text box's frame selects that box
+deckcraft@be445fb083	deckcraft	UI: Font dialog sets character formatting in one step
+deckcraft@12df77ed19	deckcraft	UI: Paragraph dialog sets alignment, indents and spacing
+deckcraft@8ee597216d	deckcraft	Fix up landed PRs from review
+deckcraft@2dc22843e4	deckcraft	Fix up merged PRs: the missing-recent test reads main's toast, which now carries open errors
+deckcraft@e406e11db2	deckcraft	CLI: render-transition refuses --t values that would share one file name (#423)
+deckcraft@8587be6af9	deckcraft	Design: Variants gallery with four colour variations of the theme
+deckcraft@7acb9faad1	deckcraft	Fix up merged PRs: one format.tabs and one Tabs dialog for #567/#569 and #637
+deckcraft@2d4c4e75d8	deckcraft	UI: Grid Options sets spacing, snap and the on-screen grid
+deckcraft@1659e06565	deckcraft	Fix up merged PRs: Draw Table's table lookup uses the checked shape id param (#544 after #97); its test no longer writes to /tmp
+deckcraft@38e95d8c15	deckcraft	Clipboard: rich text and pictures for Pages and Keynote
+deckcraft@3b28496c36	deckcraft	Fix up merged PRs: main's newer params docs fit describe's grammar; help pages for bench and render-transition
+deckcraft@7dcfe0f989	deckcraft	Fix up merged PRs: a textless shape still copies as the objects marker so Ctrl+V pastes it (#182), not as a picture (#702)
+deckcraft@2173cf9569	deckcraft	Fix up merged PRs: Draw Table and Table Eraser sit in the Table Design tab
+deckcraft@e1a92e37c6	deckcraft	Review: spelling with Hunspell dictionaries, suggestions, Change and Ignore All
+deckcraft@79b3e3693f	deckcraft	UI: preview slide animations on the editor canvas
+deckcraft@b3ec4013e6	deckcraft	Tables: caret in the edited cell, click-to-place, drag borders to resize
+deckcraft@6f38c958b6	deckcraft	Canvas: a two-finger twist rotates the selection
+deckcraft@367b079d64	deckcraft	Fix up #609: spelling language tags can't leave the dictionary folders; long words get no suggestions
+deckcraft@bd607f333a	deckcraft	Canvas: a trackpad swipe turns the page
+deckcraft@4416bc170a	deckcraft	UI: Format Shape fill transparency follows the selection
+deckcraft@740a57ddba	deckcraft	Fix up merged PRs: table borders under a right-click select the table; the cell caret is drawn once
+deckcraft@5fbdb6c79e	deckcraft	Web: keep a picked file on the document and slide that asked for it
+deckcraft@eff4c02efa	deckcraft	Spelling: squiggles while typing, Add to Dictionary, per-run languages, compounds
+deckcraft@526e31d1f7	deckcraft	Fix up merged PRs: a picked file remembers main's Handout and Notes Master views (#479)
+deckcraft@b815568fd7	deckcraft	Spelling: squiggles in table cells and speaker notes; UI-thread checking on the web
+deckcraft@e90e265453	deckcraft	Fix up merged PRs: Grid Options guides follow #559, and its dialog test finds its own Spacing
+deckcraft@748b83a284	deckcraft	Fix up merged PRs: one re-export of the table cell helpers (#618 and #626 both added it)
+deckcraft@560928af94	deckcraft	Fix up merged PRs: cargo fmt
+deckcraft@b267a921cd	deckcraft	UI: WordArt adjust handles drag a text warp
+deckcraft@86c5559f24	deckcraft	Spelling: notes right-click menu, Review > Language (Do Not Check Spelling), repeated words
+deckcraft@e6862f18ae	deckcraft	Fix up merged PRs: WordArt warp handles on main's warp catalog and hover hit list
+deckcraft@69e212e3af	deckcraft	Fix up merged PRs: the IME notes test reads the formatted draft's text; drop an unused import
+deckcraft@143a842d1c	deckcraft	Format Shape: picture or texture fill options
+deckcraft@b2b0e82359	deckcraft	Text: Find and Replace across slides, tables and notes
+deckcraft@ed13dd6158	deckcraft	Fix up merged PRs: GIF export goes through main's export path
+deckcraft@f8949f28cd	deckcraft	UI: Format Background picture fill sets transparency and tiling
+deckcraft@adf273bf4d	deckcraft	Morph: align an outline morph once per transition, not every frame
+deckcraft@0e51b7b1fc	deckcraft	Fix up #67: use get_mut in the outline-morph cache instead of indexing
+deckcraft@afc387cdc5	deckcraft	Media: a failed or stalled audio output hands the clock back to wall time (#417)
+deckcraft@8700a2da92	deckcraft	Export: PNG images (all slides) in the browser downloads every slide (#64)
+deckcraft@95cb3be9e6	deckcraft	UI: keep editor slides on the Retina pixel grid
+deckcraft@a4ea5b66db	deckcraft	Fix up #87: the web PNG/JPEG export path in SlideApp::export_as downloads every slide
+deckcraft@1481c2d3f0	deckcraft	Paste: Ctrl+V pastes an image-only clipboard as a picture (#53)
+deckcraft@330fc16c8c	deckcraft	Fix up merged PRs: zoom anchors on the unsnapped slide rect; zoom tests allow the pixel-grid snap
+deckcraft@1d7ba53cf9	deckcraft	File: save through a unique, exclusively created temporary file (#391)
+deckcraft@320e3a971a	deckcraft	Fix up merged PRs: one Editing group on Home, fmt, docs after the format/canvas/dialog merges
+deckcraft@fc118f1710	deckcraft	Fix up #88: an image paste needs Command/Ctrl held on the V release
+deckcraft@c40b2d53ee	deckcraft	Morph: text boxes without a partner fade in place instead of moving (#119)
+deckcraft@e80d3f4aed	deckcraft	Morph: a picture cropped differently on the next slide morphs its crop (#118)
+deckcraft@c448a3dba9	deckcraft	Fix up merged PRs: progress docs without the rows the union merges duplicated
+deckcraft@bad8e9d1dd	deckcraft	Text: typing goes on after Tab in a text box (#78)
+deckcraft@6d23d5b5b5	deckcraft	Fix up #139: the Tab test turns off AutoCorrect, which main now capitalises with
+deckcraft@a0facd60af	deckcraft	Fix up merged PRs: cargo fmt, and the write_file tests may unwrap
+deckcraft@ac7fa9047b	deckcraft	Charts: a single-series chart without an explicit title shows the series name as its automatic title (#142)
+deckcraft@3d0c19af45	deckcraft	Charts: a missing varyColors varies single-series bar colours by point (#143)
+deckcraft@621efd0290	deckcraft	Charts: error bars
+deckcraft@b9851d9329	deckcraft	Draw: pen pressure scales ink width
+deckcraft@4b6f307ebb	deckcraft	Fix up #169: auto RTL lives only in the engine and right-aligns only unaligned text
+deckcraft@49d215f07f	deckcraft	PPTX: SmartArt and OLE objects we can't draw keep their parts on save (#203)
+deckcraft@708a22c51f	deckcraft	Fix up merged PRs: Opaque shapes in tests carry #209's new parts field
+deckcraft@d66833b7c2	deckcraft	Fix up merged PRs: land-r6's changes fitted to the landing branch
+deckcraft@6b62aff539	deckcraft	Render: an unfilled shape's glow follows its line
+deckcraft@9fc910886c	deckcraft	MCP: confine file access with --automation-read-root and --automation-write-root
+deckcraft@0dfc9ccf6f	deckcraft	Fix up #247: route main's other file access through the checked io layer
+deckcraft@30107bdb31	deckcraft	Fix up #321: drop the empty-body layout_for change main's caret_line already covers
+deckcraft@f403c65c94	deckcraft	Fix up #355: kept chart parts get fresh names; chartex keeps its workbook
+deckcraft@398d34c737	deckcraft	Fix up merged PRs: cargo fmt
+deckcraft@a5a3137e80	deckcraft	Slides: reuse slides from another presentation
+deckcraft@5ef510e57b	deckcraft	Fix up #509: copy media by a typed walk of every reference
+deckcraft@70a9a5b1cd	deckcraft	Pictures: compress pictures to a target resolution
+deckcraft@6050c04ecd	deckcraft	Fix up #513: keep every referenced media; cap picture decoding
+deckcraft@b4be808ba3	deckcraft	Format Shape: 3-D Format and 3-D Rotation controls
+deckcraft@198659a697	deckcraft	Render: an unfilled shape's glow follows its line
+deckcraft@b54ec601d8	deckcraft	Fix up #508: read 3-D settings with the XML parser; keep only known presets
+deckcraft@a7d47dbc1b	deckcraft	Fix up #488: background opens enter the session through file.adopt
+deckcraft@76978b1634	deckcraft	Fix up merged PRs: a background open that fails says why on the start screen
+deckcraft@10eb4866d9	deckcraft	Fix up merged PRs: the media walker counts #209's kept object parts
+deckcraft@5006f4cc84	deckcraft	Fix up merged PRs: slide.reuse's params doc uses commas
+deckcraft@0997d1e4cd	deckcraft	Insert: Summary, Section and Slide Zoom with Return to Zoom
+deckcraft@b1ca1230e6	deckcraft	Engine: text.delete and text.move are registered once (the newer docs win); a test keeps command ids unique
+deckcraft@c79416be4c	deckcraft	Fix up merged PRs: no debug_assert in blank_presentation; more exhaustion coverage
+deckcraft@ea904591a5	deckcraft	Fix flaky test: the missing-Recent test waits for the background open (#291 after #488)
+deckcraft@672d86c0e4	deckcraft	Add an editor screenshot to AppStream metadata
+deckcraft@54d3f19b5b	deckcraft	Fonts: falling back to the default face no longer deadlocks
+deckcraft@561902d0b3	deckcraft	Text: show gray list markers before typing
+deckcraft@a15d93acdd	deckcraft	Fix up #747 and #772 from review: docs keep their status headers (log rows stay), no milestone renaming; the bullet test no longer saves screenshots; clippy's as_chunks i
+designcraft@028106e0f4	designcraft	Kerning survives a colour change (#29)
+designcraft@4a60312b80	designcraft	Opening an InDesign document says to export IDML (#21)
+designcraft@8d56e875eb	designcraft	Compose: fit horizontal text frames by the last baseline
+designcraft@60712dedb2	designcraft	Compose: an empty paragraph takes its mark's character format
+designcraft@593848bf17	designcraft	Compose: an empty paragraph's format comes from its own mark
+designcraft@ed3e8ba8c3	designcraft	UI: text fields take Select All, Copy, Cut, Paste, Undo and Redo from the Mac menu (#30)
+designcraft@acf0059d84	designcraft	UI: toolbars that don't fit the window switch to two columns or scroll (#57)
+designcraft@3a10a749db	designcraft	Text: a missing font's substitute takes fallback fonts across a colour change
+designcraft@124bddaf8b	designcraft	Text: a change of kenten character keeps the kerning across it
+designcraft@8662526736	designcraft	browser-correctness: fix print, startup flags, and document MIME
+designcraft@e9cc4b49ec	designcraft	#61: honor MCP typing, story and page contracts
+designcraft@e3d2312f00	designcraft	#89: preserve browser import context and PDF options
+designcraft@bae5a92dbb	designcraft	#72: preserve typed generic dialog values
+designcraft@637d05e776	designcraft	#91: reject PDF pages before narrowing on Wasm
+designcraft@1ccf4fbfbe	designcraft	File open: an .indd file is an unreadable file like any other
+designcraft@fa22e61f83	designcraft	PDF: PDF/A exports keep placed PNG, JPEG, GIF and WebP images by writing them without interpolation (#71)
+designcraft@3c83f4f477	designcraft	Tables: new tables take their paragraph's direction, and the Table panel sets a table's direction (#100)
+designcraft@0f52f3ba89	designcraft	Text: stories made in a right-to-left-bound document fill their columns from the right (#100)
+designcraft@79f9d56cef	designcraft	MCP: docs name the UI-only commands precisely; app.links works headless (#62)
+designcraft@75aa5356ba	designcraft	MCP: document that text offsets and story lengths are UTF-8 bytes (#68)
+designcraft@b7a1ff8f2b	designcraft	CLI: run rejects an export option with no export after it (#67)
+designcraft@cab09f41eb	designcraft	UI: every font field opens the same searchable font menu, with the search ready for typing and hidden system fonts left out
+designcraft@11585c82fa	designcraft	Styles: editing a character style renames it everywhere it is used, changes its Based On and unsets attributes; [None] can't be edited
+designcraft@ca0ab6e551	designcraft	UI: Character Style Options edits a character style's name, Based On and character formats, opened by double-clicking the style, Edit in its menu, or New Character Style…
+designcraft@8ddd20d95d	designcraft	UI: right-clicking a ruler picks that ruler's units, and the vertical ruler measures in the vertical units (#133)
+designcraft@63a1f03498	designcraft	UI: the Properties panel's Character section sets the text's language, from the same list as the Character panel (#130)
+designcraft@9fec15876a	designcraft	UI: captions in a sideways-scrolled bar stay on one line
+designcraft@7d064f268e	designcraft	UI: the Contextual Task Bar moves by its grip and stays where it is dropped, with Pin Bar Position and Reset Bar Position in its menu
+designcraft@4f25955002	designcraft	Desktop: write log records to standard error and a rotating log file
+designcraft@36255f1697	designcraft	Desktop: no eprintln! on the log and panic paths
+designcraft@412962d9f8	designcraft	Fix #167: default Windows startup to DirectX 12
+designcraft@36000e75f5	designcraft	Compose: don't panic when a hyphenated paragraph starts with a no-break letter
+designcraft@ac4c7e6b8e	designcraft	Images: set SVG text in the shared fonts when the bundled ones lack it
+designcraft@abf9a40dc0	designcraft	PERF-CI: use fixed-size chunks in PSD decoding
+designcraft@27b5c871bd	designcraft	Images: PSD decode passes clippy on Rust 1.98
+designcraft@7c739feb6f	designcraft	Commands: huge row and column counts can't exhaust memory
+designcraft@9ec7858dc9	designcraft	Web: AltGr and other named keys no longer type their names (#134)
+designcraft@e8ee4cffb4	designcraft	Docs, About: the Illustrator-class sibling is VectorCraft (#59)
+designcraft@20422c4725	designcraft	UI: the Control panel shows its second row
+designcraft@c84eb56258	designcraft	UI: closing a document with unsaved changes asks first (#141)
+designcraft@1ed206642f	designcraft	PDF: a damaged PNG, GIF or WebP is skipped, not fatal
+designcraft@c63ca54227	designcraft	Import: RTF and Tagged Text keep characters past U+FFFF
+designcraft@7c10b3ad41	designcraft	IDML1: preserve anchored text frames and footnote artwork
+designcraft@2dbbf98900	designcraft	FONT1: preserve composite font references and unify usage checks
+designcraft@6c18ccdc3b	designcraft	FONT2: resolve inherited fonts during document-wide replacement
+designcraft@4f1aa8773d	designcraft	FONT3: prompt for missing fonts when opening documents
+designcraft@06ed81e547	designcraft	FONT4: resolve composite fonts and fallback for generated note labels
+designcraft@39482d1b8c	designcraft	FONT5: diagnose missing glyphs in generated text with frame locations
+designcraft@f36636b95f	designcraft	FONT6: unify localized font matching and replacement recommendations
+designcraft@af43dd88c9	designcraft	FONT7: validate replacement coverage and reject placeholder font fallbacks
+designcraft@4f8d230d70	designcraft	CJK-BASE: integrate font resolution and special-text preflight branches
+designcraft@e1755c3cbe	designcraft	CJK-MOJI1: resolve Mojikumi tables and preserve IDML references
+designcraft@c66d502c79	designcraft	CJK-MOJI2: apply Mojikumi spacing and kinsoku priorities during composition
+designcraft@d16a7423b8	designcraft	CJK-MOJI3: report only unsupported Mojikumi rules in preflight
+designcraft@14b04cbaf8	designcraft	CJK-MOJI4: implement public preset boundary policies and punctuation classes
+designcraft@a35f03c126	designcraft	CJK-MOJI5: balance spacing priorities and fit discrete compression endpoints
+designcraft@d9f24b6ad5	designcraft	CJK-MOJI6: respect glyph clusters and regional punctuation metrics
+designcraft@bc43965a45	designcraft	CJK-MOJI7: validate spacing data and inspect nested typography rules
+designcraft@1e32767cef	designcraft	CJK-MOJI8: preserve narrow punctuation and manual body compression
+designcraft@20ce4f5ecd	designcraft	CJK-MOJI9: preserve CID preferences and report unsupported glyph classification
+designcraft@9f655739fa	designcraft	CJK-REVERT2: withdraw speculative spacing rules and narrow import rejection
+designcraft@6aa92e70b4	designcraft	PDF/X-4: RGB images carry sRGB, no image interpolation, pdf:Trapped in XMP
+designcraft@658d8e1784	designcraft	M5: rebind embedded image links when opening relocated packages (#235)
+designcraft@c812c83d95	designcraft	Word import: keep tracked moved text (w:moveTo)
+designcraft@ee33fe3c35	designcraft	FID1: prevent mixed gradient color spaces from aborting PDF export
+designcraft@aeaa9f9818	designcraft	Swatch menus: make the whole row (chip included) clickable and show chips in the Contextual Task Bar
+designcraft@a45375c335	designcraft	FID2: preserve decoration color resets, geometry and paint order
+designcraft@7b3afb0b21	designcraft	Autoflow: add only the pages breaks ask for
+designcraft@df03057b70	designcraft	contributors: add emanuelebonaventura (display name insanityxoff)
+designcraft@68feb00f29	designcraft	UI: the Quick Apply shortcut doesn't also run its first entry
+designcraft@07b33edbef	designcraft	UI: keep menus and dialogs reachable at larger scales
+designcraft@bd1618f131	designcraft	UI: Quick Apply rows are left-aligned
+designcraft@699d89c0ce	designcraft	IDML: layers import and export in stacking order
+designcraft@40eaaea9db	designcraft	Fonts: a family named with a format suffix such as (OTF) resolves to the installed family
+designcraft@d5c1755329	designcraft	UI: share viewport-aware scrolling across menus
+designcraft@56a8150709	designcraft	IDML: resolve table styles and shared cell edges
+designcraft@ea4740cbc8	designcraft	Control channel: a failed app.open answers with the error and opens no alert
+designcraft@bb091b924a	designcraft	UK1: add Ukrainian interface translation
+designcraft@7b15baa215	designcraft	Compose: size table cells by baseline and physical bounds
+designcraft@3751d0346c	designcraft	UI: Quick Apply runs its first entry only on a fresh Return
+designcraft@76746924fd	designcraft	Integration: rustfmt the composite note label call in shape_para
+designcraft@66bf8585f9	designcraft	Integration: #177's glyph-cache test reads #230's underline list
+designcraft@92b1a96829	designcraft	Integration: Italian and Ukrainian entries for strings added by the merged PRs
+designcraft@bb8a6a23fa	designcraft	INDD: open .indd files through indd-utils
+designcraft@84be68d9c2	designcraft	Add A6 sheet preset to the welcome page
+designcraft@218dc42e5d	designcraft	Make menu entries selectable across the full row
+designcraft@cbe960ce55	designcraft	Paragraph Rules: dialog for the selected paragraphs and a Paragraph Style Options section
+designcraft@fa13bf24f4	designcraft	Paragraph rules: a partial ruleAbove/ruleBelow edit keeps the other rule fields; Rule Above honours Text width
+designcraft@baa0fa3494	designcraft	Keyboard Shortcuts: the recorder waits for the key pressed with the modifiers
+designcraft@0d491dbdd9	designcraft	Workspaces: Interactive for PDF and Digital Publishing open their own panels
+designcraft@35d011fccd	designcraft	Integration: one "Tint:" entry for #144 and #263
+designcraft@30264ca004	designcraft	Integration: Italian and Ukrainian entries for #263's strings
+designcraft@36d1338fa7	designcraft	Text Frame Options: Column Rules fields; OK changes only edited fields
+designcraft@1efbf0f894	designcraft	Text frames: column rules draw between columns on screen and in PDF
+designcraft@7d0bdbc916	designcraft	Column rules: tint, horizontal offset and top/bottom insets; IDML import and export
+designcraft@88dab50978	designcraft	Compact the Advanced object Control panel into aligned rows
+designcraft@1443c3a8a8	designcraft	Span columns: text after a spanning paragraph flows below it
+designcraft@00cf932892	designcraft	Integration: Control bar tests read #255's object Control groups
+designcraft@35ebbe6f71	designcraft	Integration: test column rules around a spanning paragraph between bands
+designcraft@91fca00abf	designcraft	Integration: Italian and Ukrainian entries for #274's strings
+designcraft@717ddb6070	designcraft	Menus: menus taller than the window scroll
+designcraft@34e1c439a7	designcraft	Integration: the Paragraph section's menu (#263) uses #279's menu_button
+designcraft@53a83139d9	designcraft	Footnotes: the first line wraps at the column edge after the number
+designcraft@54a4f16759	designcraft	Text: the line before a page break is a paragraph's last line
+designcraft@8a8ecb383a	designcraft	Integration: the line breaker measures a tab beside a drop cap from the drop cap
+designcraft@58388e6ec5	designcraft	Text: a justified line with a tab justifies the text after its last tab
+designcraft@f8a7e2ee30	designcraft	Integration: mojikumi justification adjusts only the text after a line's last tab
+designcraft@69f8d0fcdd	designcraft	Text: a column, frame or page break ends its paragraph
+designcraft@9c1637bee4	designcraft	Integration: autoflow counts odd and even page breaks as breaks
+designcraft@aee4de738f	designcraft	Integration: the Paragraph section's menu (#263) uses #281's menu_button
+designcraft@e1cef6ecc1	designcraft	Fonts: the Document Fonts folder is found whatever its case
+designcraft@6aaa4f0b75	designcraft	Distribute selected table rows evenly and keep the edit undoable.
+designcraft@a33e597399	designcraft	Lists: the first line after a bullet or number wraps at the column edge
+designcraft@0647e46751	designcraft	Integration: test list labels in justified paragraphs (#282 with #284)
+designcraft@77ec8bdda3	designcraft	Integration: test #83's default table style fills through #288's style cascade
+designcraft@88eebe48e8	designcraft	Text: a line that exactly fills the measure fits
+designcraft@d85ceb9264	designcraft	Text: a word longer than the line breaks at the column edge
+designcraft@f39897db0b	designcraft	Text: Split Columns sets a paragraph in sub-columns within its column
+designcraft@2a2d20e0c2	designcraft	Lists: numbering formats from IDML (A, B, C; i, ii, iii; 01, 02 …)
+designcraft@107f658f0e	designcraft	Lists: an empty paragraph gets no bullet or number
+designcraft@bd6c12f3d4	designcraft	PDF: a placed image whose file is missing is reported as missing
+designcraft@2b8dc2bdeb	designcraft	IDML: text variables keep their text
+designcraft@bf18909d9d	designcraft	Integration: test warichu on a drop cap paragraph's first line
+designcraft@be7a367050	designcraft	Compose: a tight word-spacing range no longer isolates a word on a justified line
+designcraft@40c3a78e6e	designcraft	Compose: fixed-width spaces keep their width on justified lines
+designcraft@8b940b4bcb	designcraft	Snap: smart guides beat the baseline grid; a box centres between two others
+designcraft@2f15a954bf	designcraft	Integration: deleting a style points every use at its replacement
+designcraft@f4c0b9f378	designcraft	GREP: dialect classes and metacharacters (\l \u \h, ~ codes) in GREP styles and Find/Change
+designcraft@f8be188192	designcraft	Integration: German row for the fill and stroke message as #81/#84 word it
+designcraft@7d39f0061c	designcraft	Integration: #305's reopen tests read legacy JSON as format 1 (#83)
+designcraft@e6428d2111	designcraft	Compose: page numbers take the Digits setting of their text
+designcraft@3692eba3c4	designcraft	Integration: fonts match a face's own style name before other faces' aliases (#126)
+designcraft@4fd3c0fcae	designcraft	UI: CJK features behind a preference that follows the interface language
+designcraft@d1587fc354	designcraft	Integration: German entry for Show CJK Features
+designcraft@0f94bbb1ac	designcraft	Text: commands to add, move, change, delete, clear and repeat tab stops
+designcraft@f15781dafa	designcraft	SVG: a font family named in any case finds the installed font
+designcraft@ea3f11b9b7	designcraft	UI: Tabs section in Paragraph Style Options
+designcraft@2e3d954f5b	designcraft	UI: Tabs panel with a ruler over the text column
+designcraft@c26d0bacbe	designcraft	Integration: Japanese entries for the Tabs strings
+designcraft@944ef17f62	designcraft	Integration: German entries for the Tabs strings
+designcraft@e0019d7005	designcraft	Integration: Japanese entries for the New Document strings
+designcraft@aee7e2e38d	designcraft	Integration: German entries for the New Document strings
+designcraft@1ec2136c84	designcraft	Layout: section start numbers are bounded and page numbering can't overflow
+designcraft@c205b53b10	designcraft	Integration: German and Japanese entries for the Numbering & Section Options strings
+designcraft@d03dd226c5	designcraft	Text: the paragraph mark's size counts in its line's auto leading
+designcraft@a80d21161f	designcraft	IDML: a spread missing from the package is reported, and part names match leniently
+designcraft@7ed9f37d43	designcraft	UI: Paragraph Style Options gains the remaining sections
+designcraft@4f1be4b454	designcraft	Styles: startAt null in a paragraph style continues numbering
+designcraft@3ca0a4374e	designcraft	UI: CJK sections in Paragraph and Character Style Options
+designcraft@209f758727	designcraft	Rulers: a document zero point you can drag, reset and lock
+designcraft@cd23a5fbbf	designcraft	Tabs: tab stops set through paragraph attributes are checked like the Tabs commands
+designcraft@ade9eb6e69	designcraft	Rulers: Spread, Page or Spine origin; Cmd-drag the corner for guides
+designcraft@31a58a8501	designcraft	CJK: kenten settings, shatai, auto tate-chu-yoko, rotate roman, roman word break and grid references
+designcraft@d9bc53d7f8	designcraft	Ruby: placement, spacing, font, size, overhang, scaling and colour settings with JLReq layout and IDML
+designcraft@4c4dedaa93	designcraft	Ruby: clears kenten on the same side, stays with the kana it overhangs, overprints in Overprint Preview
+designcraft@b720ff6147	designcraft	CJK: ICF top and bottom from the font's BASE table for grid and character alignment
+designcraft@29a75b3607	designcraft	UI: every paragraph border, shading, span and list setting in the dialogs
+designcraft@8f93548572	designcraft	Paragraph borders, shading, span space and list levels: model, layout and IDML
+designcraft@30778c14a5	designcraft	CJK: document kenten, shatai, grid, ruby and ICF status
+designcraft@e20183033f	designcraft	Rulers: the two guides from the corner are one undo step
+designcraft@9c935ce50c	designcraft	CJK: leading model space below measures from the em box top, space above from the bottom
+designcraft@55fa985e38	designcraft	Bullets and numbering: the tab position survives IDML
+designcraft@64cc973df8	designcraft	Tabs: style tab lists go through the same check as paragraph tab lists
+designcraft@48de197a2f	designcraft	UI: ruby, kenten, shatai and grid settings in the style dialogs and the Ruby dialog
+designcraft@e090c32f76	designcraft	UI: note the CJK style sections and Ruby dialog panes in the roadmap
+designcraft@4e5e040a79	designcraft	Integration: Numbering & Section Options keeps Enter and Escape for an open popup
+designcraft@f7e17acfd3	designcraft	Tabs: the commands return the tab list as stored
+designcraft@398182347a	designcraft	Integration: drop Ukrainian rows feat/style-sections repeats
+designcraft@c019502806	designcraft	Integration: close typo_ascent in fontdb.rs after the IDML interchange merge
+designcraft@989373114b	designcraft	Tabs: tab lists from files are sanitized like the commands check them
+designcraft@85860d1403	designcraft	Integration: German and Japanese entries for the preset name, PDF crop and zero point strings
+designcraft@a237e6395f	designcraft	Integration: German entries for the paragraph style sections, borders, shading and list strings
+designcraft@9cacd53d1b	designcraft	Integration: German entries for the CJK style section strings
+designcraft@370084909e	designcraft	Integration: collapse the kinsoku set choice's nested if in style_cjk.rs
+designcraft@3d3bed63cf	designcraft	Integration: drop blank lines at the end of ja.rs's table
+designcraft@9f1f41fb7b	designcraft	Integration: the kenten character test reads the mark from the run style's kenten mark
+designcraft@c0dc1503c8	designcraft	Integration: format the kenten character test (rustfmt)
+designcraft@ba46313fc7	designcraft	Integration: a Jump Object wrap steps by the Aki Below advance
+designcraft@fb727aa1b9	designcraft	Integration: #330's Aki Below test measures the em box tops
+designcraft@2589699057	designcraft	Integration: the em box top/bottom leading test sets the Japanese composer
+designcraft@b98d54ee38	designcraft	Integration: IDML import warns when it repairs a tab list
+designcraft@0cd3a309da	designcraft	Integration: German entries for the ruby, kenten, shatai and grid strings and the drop cap strings
+designcraft@b3cb8ed570	designcraft	Integration: one Em Box Top and Em Box Bottom row in the shared and Japanese tables
+designcraft@d59687bf96	designcraft	Rulers: the page-origin ruler test sets the page origin before it reads the pieces
+designcraft@e2ffa89817	designcraft	UI: the CJK style dialog tests draw with the UI fonts installed
+designcraft@4a9ebd858e	designcraft	QA1: preserve explicit nullable text defaults in native files
+designcraft@dfdc650318	designcraft	Paste: copied objects land on the spread in view (#348)
+designcraft@1194119c3e	designcraft	UI: a context menu on the canvas for objects, text and the page
+designcraft@d7d6fa8302	designcraft	Integration: German entry for Rotate 180°
+designcraft@794d601471	designcraft	DTD: bound parameter-entity expansion, nesting and sequence matching
+designcraft@1fe1ec9cc6	designcraft	UI: canvas context menu reopens on a second right-click; menu keeps both panes' input
+designcraft@10e18bac27	designcraft	QA1: retry missing font fallbacks after a rescan
+designcraft@20d4178c43	designcraft	Tables: cell edge gap colour and tint, all stroke types on cell edges, inner horizontal/vertical edge choice
+designcraft@1b9125ceea	designcraft	Layers: drag layers and objects to reorder them
+designcraft@c1c44a3a2a	designcraft	Integration: German entry for the Layers panel's selection square
+designcraft@57d9761c69	designcraft	Tables: cell strokes in the Stroke panel and Cell Options › Strokes and Fills
+designcraft@cce6f986c5	designcraft	Tables: cell and table style strokes take type, gap colour and gap tint
+designcraft@43d6a5264d	designcraft	Tables: the style test names the [Black] swatch, which style strokes now check
+designcraft@a46da6eff0	designcraft	DTD: memoize content-model matching, let entity names be any length
+designcraft@b84a58391f	designcraft	Layers: group members move with their group; no-op reorders leave history alone; Cmd for locked layers
+designcraft@7f2b5cfa68	designcraft	Layout: text wrap set on a placed graphic wraps text
+designcraft@c28387eaf9	designcraft	Sections: Kanji page numbers
+designcraft@cdd32a5066	designcraft	Layout: right-to-left binding puts parent page items on the right side
+designcraft@70a04944a5	designcraft	Layout: the CLI's performance document builds its graphics with a wrap
+designcraft@fbda023d7f	designcraft	Layout: wrap both sides of an object and around its contour
+designcraft@ac4b83fa39	designcraft	Tables: cell stroke edits and queries start from the drawn edge; bounded dash patterns; closed table corners
+designcraft@971cad3c0f	designcraft	Tools: move a placed graphic inside its frame
+designcraft@bf8c3486f1	designcraft	Swatches and layers: Swatch Options and Layer Options dialogs rename them
+designcraft@11532d961e	designcraft	Documents: Save adds .designcraft, and the OS opens DesignCraft and IDML files
+designcraft@bc357c3885	designcraft	Integration: German entry for Kanji
+designcraft@351ccebe86	designcraft	CJK: smaller runs align to the line's em box centre
+designcraft@279309ad12	designcraft	PDF: small caps and substituted figures keep their text
+designcraft@5d872fbf1e	designcraft	IDML: frames take corners, effects and text wrap from their object style
+designcraft@505e748aac	designcraft	IDML: gradient and directional feathers import and export
+designcraft@0c1d021dfd	designcraft	Integration: macOS menu bar rebuilds when Show CJK Features changes (#397, #336)
+designcraft@ea69df5bff	designcraft	Integration: canvas edits patch only a full-resolution texture (#393)
+designcraft@daf1a0ccb3	designcraft	Assets: one asset per image, and saves leave out unused ones
+designcraft@2b96dffda1	designcraft	PDF: right-to-left text extracts in reading order
+designcraft@6b3d7c4ba8	designcraft	Integration: installed CJK UI faces are read once per process (#394)
+designcraft@75ce3f88e0	designcraft	Integration: placed graphics take text wrap from their object style (#389)
+designcraft@27312c1cf9	designcraft	Integration: feathers inherit from object styles; merge closes its functions (#390)
+designcraft@a386c73d82	designcraft	Integration: PDF crop box is part of an asset's identity; clippings keep anchored graphics (#391)
+designcraft@8806a223fa	designcraft	Integration: shatai glyphs in right-to-left lines draw inside the line span (#392)
+designcraft@ecdb9b2dc2	designcraft	Integration: rustfmt after merging #389-#392, indd 8 and 9
+designcraft@11631cde12	designcraft	CJK: custom mojikumi tables without a base set apply their rules
+designcraft@ef65f39b93	designcraft	Integration: FontDb::system_fonts_cataloged builds on wasm (#394)
+designcraft@91a01a6774	designcraft	Compose: span columns in a one-column frame add no span space
+designcraft@814102ed35	designcraft	Layout: items with soft effects keep their text wrap
+designcraft@c014832572	designcraft	Objects: group siblings inside a group; refuse mixed levels and spreads
+designcraft@833c0ec8d6	designcraft	Fonts: macOS fonts that font services and managers activate are listed
+designcraft@ae50689e27	designcraft	GREP: styles with a pattern that can't compile are rejected, and imports warn
+designcraft@80b9b1d037	designcraft	macOS: the window buttons sit centred in the title bar
+designcraft@aa6446336b	designcraft	Paragraph Style Options: after a later step fails, OK edits the style it created
+designcraft@c537f1ae46	designcraft	UI: Return and Escape in the font menu stay in the menu, never reach the dialog under it
+designcraft@3bda745a52	designcraft	Tools: live corners round a frame's corners by dragging
+designcraft@cffff885bb	designcraft	Integration: GREP lookbehind overlay test passes the drop-cap end (#425)
+designcraft@4b3dca6fff	designcraft	Integration: fonts listed by the platform keep their name aliases (#362)
+designcraft@ff34ad3d14	designcraft	Integration: INDD import follows indd-utils main
+designcraft@ad173006f7	designcraft	Undo: a command that runs another is one undo step (#406)
+designcraft@60f2c597a5	designcraft	macOS: Settings… is in the app menu
+designcraft@94fa7dc2ad	designcraft	macOS: double-clicking the title bar zooms or minimizes, and dragging it moves the window
+designcraft@db2c6a1717	designcraft	Integration: Find/Replace Font search test starts from a set Replace With family
+designcraft@7ad4558560	designcraft	Integration: German row for the macOS app menu's Settings… (#397)
+designcraft@29d8d56e67	designcraft	Integration: no live-corner widget while the text cursor is loaded (#186)
+designcraft@62faa8eee2	designcraft	Text: Optical kerning spaces pairs from their outlines
+designcraft@63375bc84d	designcraft	Tools panel: Selection is the filled arrow, Direct Selection the hollow one
+designcraft@11f34a07f3	designcraft	Files: saves and exports replace the file atomically
+designcraft@1a8df25fdd	designcraft	MCP: exported files replace the target atomically (#436)
+designcraft@45032b527f	designcraft	CJK: mojikumi tables based on Nothing and the one-em line-end set apply their rules
+designcraft@a81fb0be62	designcraft	PDF: glyphs in a right-to-left line's span open no ActualText span of their own
+designcraft@7c6bb39656	designcraft	Integration: close the live-corner test before the pen cursor tests
+designcraft@0d05035e65	designcraft	Integration: thread cursors have system cursors in the tool cursor table
+designcraft@e828cd6c13	designcraft	Integration: indd-utils at 08c6b78b
+designcraft@8f30ba1c55	designcraft	PDF: right-to-left lines carry no line-wide ActualText
+designcraft@7eb3b2ac5a	designcraft	Integration: the Tabs panel floats outside the docking layout
+designcraft@cc12ea576f	designcraft	macOS: the menu bar follows the interface language at once
+designcraft@65f0b37920	designcraft	Fonts: system_fonts_cataloged builds on wasm
+designcraft@d02a220b4e	designcraft	Text: Optical kerning spaces pairs from their outlines
+designcraft@3943e4c8b7	designcraft	Repaint a moved text frame's whole text box
+designcraft@30cbd67e3d	designcraft	Honor IDML SameParaStyleSpacing between same-style paragraphs (#449)
+designcraft@d0120bf6a6	designcraft	Text: Optical kerning leaves dashes and fullwidth forms alone
+designcraft@8547a9fca4	designcraft	CLI: --export writes the file type its extension names (#432)
+designcraft@40e8dbc6fb	designcraft	CLI: --pdf-options that is no JSON object is an error
+designcraft@65db56a471	designcraft	Integration: swatch references bump the story revision with wrapping_add
+designcraft@d5fe4ec201	designcraft	Integration: shatai glyphs in right-to-left lines always take a tagged run
+designcraft@d6309bae32	designcraft	Text: copied text keeps its endnotes and editorial notes
+designcraft@6cf1933a13	designcraft	Text: notes insert into a story whose markers lack payloads
+designcraft@a73d106ab4	designcraft	UI: make the application bar's search field find and run commands
+designcraft@47d17ca6f5	designcraft	IDML: import and wrap around custom text-wrap boundaries
+designcraft@fe8a724da4	designcraft	Text: footnotes insert into a story whose references lack footnotes
+designcraft@fb8d796d37	designcraft	Integration: the application bar's search covers next's languages and CJK-only commands
+designcraft@1daf0a8ec8	designcraft	Integration: custom wrap boundaries with graphic text wrap
+designcraft@44f3f304a5	designcraft	macOS: dragging a title-bar control no longer moves the window
+designcraft@f2f07a9b86	designcraft	UI: set the interface language in Preferences
+designcraft@db55cb7e49	designcraft	Hyphenation: Portuguese text is hyphenated with hyph-utf8's Portuguese patterns
+designcraft@72bdc0a919	designcraft	Place: PDF pages and SVGs keep their exact size
+designcraft@5a1e9de92e	designcraft	Color parsing: one scale per colour, not per component
+designcraft@7b903cf6b1	designcraft	View: leave Presentation mode with Esc or Shift+W
+designcraft@81c073c033	designcraft	contributors: add my own people.toml entry
+designcraft@513c28b2eb	designcraft	UI: Cancel in Preferences restores the interface language
+designcraft@b3d256c817	designcraft	i18n (cs): terminology review fixes
+designcraft@10d32f0b01	designcraft	Integration: Interface Language lives in Preferences on next's Russian and macOS menu bar
+designcraft@68974c0d7d	designcraft	Integration: indd-utils bff0fd4d
+designcraft@933cfb11e6	designcraft	Integration: recovery folders build on Windows without an unused mut (#506)
+designcraft@257fb08dbd	designcraft	Recovery: each running app keeps its own recovery data (#496)
+designcraft@f23fa33e16	designcraft	Parent-page items are composed for their page by index, not page name
+designcraft@c99dbd7d6b	designcraft	Integration: Document Setup margins let matching pages follow their parent page (#469)
+designcraft@a5326169f5	designcraft	Integration: indd-utils 867c967a
+designcraft@0b0a0c717f	designcraft	Integration: German rows for Optical Margin Alignment and Document Setup (#509, #469)
+designcraft@1da2bb9082	designcraft	Place: an image placed into a frame fills it once and leaves Auto-Fit off
+designcraft@fb9da639e7	designcraft	i18n (cs): translate the Activate Panel, Move Panel and Change Panel Layout commands
+designcraft@12647790c8	designcraft	Integration: formatting_affects_text test fills with default swatch names (#520)
+designcraft@13fb00fd08	designcraft	Integration: transform.move on content reports the ids it moved (#521)
+designcraft@83893ba3f0	designcraft	Integration: menu_row matches only buttons that aren't toggles (#524)
+designcraft@3725b90a2a	designcraft	Integration: context menu test expects Paste available with nothing copied (#84 update)
+designcraft@54b607525e	designcraft	Place: the fitting test names its fitting, since a placed image no longer auto-fits
+designcraft@5a7a3ebefd	designcraft	Integration: Control bar tests find the bar's own button when Properties has one with the same name (#524 × object controls)
+designcraft@e24c0190f8	designcraft	i18n (cs): translate labels that were looked up but missing from the catalog
+designcraft@63b0425464	designcraft	i18n (cs): translate the tool names in the Tools panel
+designcraft@314f82eba0	designcraft	i18n (cs): translate status-bar messages
+designcraft@59f358f709	designcraft	i18n (cs): translate remaining dialog, panel, menu and About strings
+designcraft@8119eece43	designcraft	Recovery: `run_dir` passes clippy on Windows (#496)
+designcraft@a8fc6a5219	designcraft	IDML: read and write a spread's view rotation (#484)
+designcraft@3f752312d6	designcraft	Type: Justification dialog for the selected paragraphs (#531)
+designcraft@61504dae48	designcraft	View: draw the document grid (#530)
+designcraft@60f463f03c	designcraft	Undo: a caught panic leaves the outer command's undo step (#406)
+designcraft@bfe6cf8518	designcraft	Integration: format the Paragraph Style Options justification check (#531 × paragraph style sections)
+designcraft@5898c084b6	designcraft	Parent-page composition: the page's name is part of the cache signature
+designcraft@e8d568af98	designcraft	Integration: Czech, German and Russian View submenu paths for the View menu (#527)
+designcraft@fd21bc4f04	designcraft	Integration: Properties › Transform rotate and flip buttons use the Control panel's icons (#541)
+designcraft@49d8d67ae0	designcraft	Integration: format
+designcraft@10546a6e66	designcraft	Assets: files with different paths stay separate assets
+designcraft@6aada5b74a	designcraft	UI: quitting asks to save documents with unsaved changes (#544)
+designcraft@cf22cbe081	designcraft	Integration: Czech, German and Russian for Quit DesignCraft (#544 × cs/de/ru catalogs)
+designcraft@f03b86b850	designcraft	Integration: Find Font on open stays up over the Import Warnings alert
+designcraft@d2a6dd39a2	designcraft	Integration: character fill swatch errors go through known_swatch (#403 × #520)
+designcraft@70fe825045	designcraft	Integration: autoflow page-break test names its command (#266 × #84)
+designcraft@d30cefe166	designcraft	Integration: renaming a swatch reaches endnote text (#84 × #416)
+designcraft@6c52cdbc10	designcraft	Integration: cs/ru/uk Swatches hint for objects or text (#84 × cs/ru/uk catalogs)
+designcraft@dfdf2c3b76	designcraft	Integration: ROADMAP: one progress line each for #520 and #521
+designcraft@9061475831	designcraft	IDML: font family names keep their spaces; FontStyle Nothing inherits (#558)
+designcraft@25c215faf9	designcraft	IDML: anchored objects take unset anchor settings from their object style (#555)
+designcraft@8125f2490b	designcraft	Images: clipping paths from IDML clip the image on screen and in PDF
+designcraft@e111bb74f7	designcraft	Images: declare a graphic's clipping path beside its transform
+designcraft@ab231cde62	designcraft	IDML: a left-aligned anchored object's X offset reads in the layout's direction (#555)
+designcraft@b7b0001cce	designcraft	Integration: IDML AppliedFont keeps a family's spaces through font_family_in (#558 × next's $ID/ handling)
+designcraft@8f60e6349b	designcraft	Integration: idml tests.rs: restore the closing brace of hostile_custom_wrap_boundary_is_dropped
+designcraft@6c1d5b75db	designcraft	Integration: Graphic and Asset literals in tests name the fields both sides added (#450 × next)
+designcraft@3e7cca3a0d	designcraft	Integration: text wrap Same As Clipping follows the graphic's clipping path (#450 × #384)
+designcraft@5284bca791	designcraft	Integration: the Color Picker from the Fill/Stroke box follows Formatting Affects Text (#552 × next's color_target)

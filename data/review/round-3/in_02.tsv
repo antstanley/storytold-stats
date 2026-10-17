@@ -1,0 +1,600 @@
+designcraft@62520485e8	designcraft	Integration: format
+designcraft@6e9517b053	designcraft	Text wrap: anchored objects wrap text (#557)
+designcraft@5f6ee139da	designcraft	Integration: anchored objects wrap through next's wrap_obstacles (#557 × next's wrap sides and contours)
+designcraft@e5c5f043ee	designcraft	Integration: format
+designcraft@11b9a0f104	designcraft	Export explicit SameParaStyleSpacing Ignore so it round-trips (#449)
+designcraft@e3acb8e388	designcraft	Place: an explicit x, y, spread or width puts the image in a new frame
+designcraft@d298555e43	designcraft	Styles: Load Styles from another document or IDML file (#405)
+designcraft@7ddd99ee4c	designcraft	Text wrap: words stay whole beside wrap objects; a segment too narrow for its word stays empty
+designcraft@f1a1f318ba	designcraft	IDML: tracked deleted text takes no room in the layout (#581)
+designcraft@4c296c05bf	designcraft	Groups: a rotated group's bounds follow its children's outlines
+designcraft@957676492a	designcraft	Align panel: add objdistribute-* icons, reuse upstream objalign-*
+designcraft@bc413ef7e2	designcraft	Integration: font menu previews load through the GPU-limit-safe texture loader
+designcraft@9753ced510	designcraft	Integration: one Columns: row per catalog; Step and Repeat labels its grid columns in context
+designcraft@baba5b7d4d	designcraft	Integration: the CJK style dialog's composite-font menu takes #466's FontPick
+designcraft@91a2155cdd	designcraft	Integration: a selected graphic's Transform x/y are measured from the rulers' zero point
+designcraft@22eac72797	designcraft	Fonts: faces without drawable outlines aren't listed; packaged fonts keep a font extension
+designcraft@bc9011863e	designcraft	Integration: format
+designcraft@d0e5181718	designcraft	Integration: one copy of the font-kind test
+designcraft@90eab17186	designcraft	Integration: hyphenation zone applies to both single-line composers
+designcraft@1f90703104	designcraft	Integration: format
+designcraft@3d3e73c590	designcraft	Canvas: arrow keys and Tab keep keyboard focus on the canvas
+designcraft@58d64f8084	designcraft	Integration: Fill/Stroke keys follow Formatting Affects Text (fill-stroke-keys, #84)
+designcraft@b22fb933f8	designcraft	Integration: format
+designcraft@44fde50463	designcraft	Tables: drag row and column borders with the Type tool
+designcraft@bddc70ebe8	designcraft	Tables: a click on a border doesn't resize
+designcraft@99ced6cc0a	designcraft	UI: spring-loaded zoom (Cmd+Space / Cmd+Alt+Space)
+designcraft@67ae415506	designcraft	Text wrap: a line meets the wrap from its top to its baseline
+designcraft@90890e37aa	designcraft	Compose: a deleted break doesn't break
+designcraft@254cc49d1b	designcraft	Text wrap: an image's contour stops at its frame
+designcraft@f8d9f3f3a3	designcraft	IDML: deleted text inside nested paragraphs stays deleted
+designcraft@bfaebb76ee	designcraft	Integration: an explicit SameParaStyleSpacing Ignore survives a native save (#473)
+designcraft@aef8c39a3b	designcraft	Integration: wrap tests use the top-to-baseline band; a clipping path contour stops at its frame (#384, #561, #589, #557)
+designcraft@3e5b7cde67	designcraft	Integration: docs list the Tabs panel as present (#343, #326)
+designcraft@3719470140	designcraft	Integration: format
+designcraft@2a01b80918	designcraft	Label the object Control panel's captions and chips for screen readers
+designcraft@6f75b648da	designcraft	Compact the Advanced object Control panel into aligned rows
+designcraft@38dad0fbde	designcraft	Windows: dragging across monitors with different scales doesn't grow or crash the window
+designcraft@796e9d713d	designcraft	Integration: the Eyedropper matches the clicked frame where no image pixel shows; sampling skips clipped-out pixels and hidden states (#572, #561)
+designcraft@3b295ceed0	designcraft	Integration: drop #402's JSON-parser overflow test (it tests serde_json, not Place)
+designcraft@605513228a	designcraft	Text frames: auto-size grows and shrinks frames to fit their text
+designcraft@4be988f335	designcraft	Integration: format
+designcraft@947b513163	designcraft	Add a Nix flake (NixOS, GNOME and Hyprland)
+designcraft@30ba47211e	designcraft	Text frames: Balance Columns evens out the last frame's columns (#609)
+designcraft@774ecf4fa5	designcraft	Integration: book chapter-number test closes its chapters before Update Numbering (#341 x #615 open-chapter refusal)
+designcraft@4e7b33607e	designcraft	Pages panel: double-clicking a parent shows that parent; parents are identified by id
+designcraft@698a87febc	designcraft	Integration: wgpu errors are logged only after the start-up frames, so a failing adapter still starts the app again on the next one (#612 x adapter restart)
+designcraft@c124e0ebcf	designcraft	Integration: auto-size tests that keep the top edge name the top-centre reference point (#180 x next's centre default)
+designcraft@069fe47b0d	designcraft	Integration: Fit Frame to Content leaves an auto-size text frame as auto-size fitted it (#591 x #180); test fit_frame_to_content_leaves_an_auto_size_frame_as_auto_size_se
+designcraft@cb38862846	designcraft	Autoflow: one frame per column, as the page's columns are set
+designcraft@86a0ce2cf7	designcraft	Type: Alt+Left/Right kerns at the caret and tracks a selection
+designcraft@b20ddf87ec	designcraft	Images: CMYK and profiled photos show in their colours
+designcraft@2cc95c64a3	designcraft	Integration (#618 review): differing SVG fill-opacity and stroke-opacity take the fill's for the object with a warning (items have one opacity); test differing_fill_and_s
+designcraft@7f494e4f3f	designcraft	Color Picker: hex and number fields keep typed text; CMYK colours stay CMYK; the page is not dimmed
+designcraft@d050223b78	designcraft	Colour entry: panel number fields keep typed text; colours are read on a fixed scale
+designcraft@6483a43ba8	designcraft	Integration (docx-lists x #360 list levels): Word levels set list_level (ilvl + 1) and lvlRestart; parent numbers in a label are ^k level references, written as text only
+designcraft@116b3b4ec9	designcraft	Text frames: lines follow an oval or polygon frame's shape (#646)
+designcraft@1ff2e978b2	designcraft	Integration (colour-entry x #552): the Tools panel's Fill/Stroke double-click opens the Color Picker with picker_fields (CMYK stays CMYK); the Formatting Affects Text pic
+designcraft@b234500e9b	designcraft	Integration (#646): wrap_slot's no-progress check reads next <= b (clippy neg_cmp_op_on_partial_ord)
+designcraft@9487b80220	designcraft	Integration: format
+designcraft@52637295f0	designcraft	Colour management on craft-cms: Coated FOGRA39 default CMYK, BPC display, FOGRA39 output intent
+designcraft@1cf1477183	designcraft	Integration (#630): the Pen continuing from a path's first anchor adds anchors before it (path.appendAnchor at: start) instead of reversing the path, so arrowheads stay o
+designcraft@2732f8c2e6	designcraft	Integration (#636): with Direct Selection an anchor under the pointer wins over a type-on-a-path bracket, so the end anchors (where the default brackets sit) can be dragg
+designcraft@8fe4a5021a	designcraft	Integration (#643): the Effects dialog's field setter takes the path with split_last (an empty path changes nothing instead of panicking)
+designcraft@2c7e855d7f	designcraft	Integration (#645): French catalogue test: no duplicate or stale keys, fr.rs disjoint from the shared table, placeholders and edge spaces as in English
+designcraft@5b81bfa9b6	designcraft	Integration: format
+designcraft@13f4c37153	designcraft	Integration (#662 x next): a null spread is absent (spread 0), as Paste in Place forwards its optional spread and file.place documents null as absent
+designcraft@f74664df8d	designcraft	Integration (#636): the Direct Selection end-anchor test checks only Direct Selection (with the default brackets the Selection tool's thread ports sit there too)
+designcraft@6b2e319f96	designcraft	Integration (#636): bracket clamps can't panic on a NaN path length
+designcraft@2e1002cb1b	designcraft	Integration (#653 x #418): one ObjectStyle BasedOn walk; style effects read the chain #418's object_style_chain walks
+designcraft@8d30e0f41b	designcraft	Integration: format
+designcraft@8a6330b170	designcraft	Integration (#653 x #643): the object style round-trip test expects the default drop shadow angle (120°)
+designcraft@f2fc69307b	designcraft	Integration (#667): a character style made at a bare caret captures the typing format
+designcraft@9a07d8a095	designcraft	Integration: format
+designcraft@2bc7bcc7d5	designcraft	Integration (#648): restore the 2026-10-11 and 2026-10-12 progress-log entries the merge dropped
+designcraft@a7eba8a2ad	designcraft	Colour: craft-cms ace3622 (Result APIs, device white is no ink)
+designcraft@e31941afc0	designcraft	Colour: craft-cms fea1712; a document's CMYK profile name resolves through stand_in_for
+designcraft@e8c6518cb2	designcraft	Colour: craft-cms 9e2b2b0 (same source as fea1712)
+designcraft@e1c2265581	designcraft	Integration (new-doc-preview x #616): the recovery timer's file.recovery.save skips the New Document preview
+designcraft@d68b59e538	designcraft	Integrate Windows window controls into the menu bar
+designcraft@9c9f8afc69	designcraft	ROADMAP: progress-log line for anchored settings and rotated group bounds
+designcraft@2d0c2a5fc3	designcraft	Colour: craft-cms from storytold/craft-libs main e9546e1
+designcraft@671c48caed	designcraft	Integration: indd-utils to 7f3060e5
+designcraft@354d1248fa	designcraft	Integration (#702): grouped reading-order test assets and graphics carry pdf_crop/pdf_box and clip/wrap
+designcraft@3d5fe33f6f	designcraft	Integration (#703): drop the links fixture capture
+designcraft@28b6be1a2d	designcraft	Integration (#703): links test assets and graphics carry pdf_crop/pdf_box and clip/wrap
+designcraft@98c4022bf5	designcraft	Integration: format
+designcraft@b6c63d89c2	designcraft	Colour: craft-cms for ICC transforms; Coated FOGRA39 default CMYK, BPC display, FOGRA39 output intent
+designcraft@44e5a28833	designcraft	Integration (movable-dialogs x #683): test that the New Document window drags mostly aside and keeps its preview
+designcraft@18991a8fc2	designcraft	Colour: effects goldens with Coated FOGRA39 swatch colours
+designcraft@4a349ce1c6	designcraft	Integration: format
+designcraft@d9c766dd16	designcraft	Integration (editor-undo): Story Editor test focuses the text input, not its text run; paste test sets its stale selection after Undo restores the selection
+designcraft@a2ec9b46ae	designcraft	Integration (locked-paths): Stroke link test shows Properties, which floating Layers leaves behind Pages
+designcraft@1c82a5b892	designcraft	File › Open Recent: recent documents in the menu and on the start screen (#706)
+designcraft@a7c3e330ec	designcraft	INDD: open .indd and .indt files through indd-utils (#21, #114)
+designcraft@0fb3d677cc	designcraft	Start screen: recent files show a picture of the first page (#706)
+designcraft@68596ea696	designcraft	Refuse command params the description doesn't name
+designcraft@a64c1350f6	designcraft	Preferences: OK without vertical units keeps them (#806)
+designcraft@935741d47c	designcraft	Text frames: opening a file keeps its auto-size frame sizes
+designcraft@c154b4325b	designcraft	pdf: right-to-left tests read UTF-16 units with as_chunks (clippy 1.99)
+designcraft@6409cae252	designcraft	Integration: #785's test builds Asset and Graphic with next's fields
+designcraft@7894699eaf	designcraft	Integration: #818 the document grid setting also drops the background render
+designcraft@8f54d1cce4	designcraft	Integration: #787 refuses bitmap-only fonts for embedding, and styles name the face's numeric weight
+designcraft@5917b24aaa	designcraft	Integration: #819 a pasted missing graphic always gets a fresh asset id from the target
+designcraft@6eae3620ed	designcraft	Integration: #783 reads the cover image with a size cap (256 MiB), devices included
+designcraft@3cb3f342c8	designcraft	Integration: #812's test (overset preflight names the page of a frame in a moved group)
+designcraft@891e29ea92	designcraft	Integration: #816's test (eyedropper ignores inactive states of a multi-state object)
+designcraft@258fd2d7c9	designcraft	Integration: CMYK TIFFs with alpha report their pixel size (from #830)
+designcraft@033611d518	designcraft	Integration: cargo fmt
+designcraft@c3b3927ef2	designcraft	Integration: #780 closes an open list or pre block before a footnote or a table
+designcraft@bc9b89fc68	designcraft	Integration: #782 nests a heading under its parent when it is shallower than the heading before it
+designcraft@0b353c6f57	designcraft	Integration: #791 points note links at the chapter file of their target
+designcraft@99efe4c5ec	designcraft	contributors: add Tomasz Lewandowski
+designcraft@a8e0af254f	designcraft	Integration: #816's test checks for color.sample by name (the tool also passes matchFrom)
+designcraft@694878463c	designcraft	Integration: cargo fmt
+designcraft@0011cfee95	designcraft	Integration: the grouped reading-order test finds its image by alt text (#785 writes no file name)
+designcraft@aad9db158f	designcraft	Integration: #763 New Swatch with nothing selected makes a colour swatch in the engine; the panel sends the Fill/Stroke target
+designcraft@a2e67bd1d9	designcraft	Contributors: credit switch87 as Gert Pellin
+designcraft@ba95ae2dae	designcraft	Integration: #826 grey stops keep their value (model form); a stale ramp drag can't index past the stops
+designcraft@6db40bdbb5	designcraft	Integration: #823 a radial gradient on a box with no width or height is a circle across it
+designcraft@977b4b26f3	designcraft	Integration: #753 Fixed Width columns resize the frame to fit them; columnWidth and firstBaselineMin are range-checked
+designcraft@14e98419ad	designcraft	Integration: #825 PDF table-cell and footnote text lays a gradient across its own lines, as on screen
+designcraft@9b605cecd9	designcraft	Integration: cargo fmt
+designcraft@66146fd866	designcraft	Integration: #754 IDML keeps Basic Feather choke and corners (FeatherSetting ChokeAmount, CornerType); zh Sharp is 锐利
+designcraft@b3551e3ce6	designcraft	Integration: #588 CMYK ink passes cull items to the area they cover
+designcraft@430012cd62	designcraft	Integration: #588's test reads pixels with as_chunks (clippy)
+designcraft@82c94c7270	designcraft	Integration: cargo fmt
+designcraft@72d7ea2e82	designcraft	Integration: #823 a linear gradient across a straight line runs along its length, on screen and in PDF alike
+designcraft@d1fddc0ae8	designcraft	Links: only read a linked text file when its size or time changed
+designcraft@b8a95f357d	designcraft	Links: don't trust a linked text file's time while it is still changing
+designcraft@1917f7b253	designcraft	Integration: #610 a linked text file with a future time is remembered once instead of read on every poll
+designcraft@06f2648958	designcraft	Integration: from #833, paragraph rules inherit unstated settings and style names may end in a space
+designcraft@06cbcc0058	designcraft	Integration: #757 the Plus key standing in for = zooms the canvas under a native menu too (#781)
+designcraft@3e92657a4c	designcraft	Integration: #834 simple EPS: token limit counted while reading, \r line ends, gsave/grestore keep the colour, pop pops, paint budget 4x
+designcraft@946ecf8da8	designcraft	Integration: #829 Polish table columns, grid columns and a selection's group get their own words (pl::CONTEXT)
+designcraft@65f0310fbe	designcraft	Integration: cargo fmt
+designcraft@548d700b9f	designcraft	Integration: #802 a document that can't be serialized fails Save and Save a Copy instead of writing an empty file; Open Recent's alert names the file without an undocumen
+designcraft@acb63fe198	designcraft	Integration: #802 the start screen and Open Recent menu look recent files up on disk at most every 3 s, not every frame
+designcraft@d03b17ef56	designcraft	Integration: #803 guide.add, layout.marginsAndColumns, layout.numberingOptions and file.savePreset describe every param they take
+designcraft@0278f6bbea	designcraft	Integration: cargo fmt
+designcraft@3911c60a24	designcraft	Integration: #610 the web build doesn't import the file fingerprint it never uses
+designcraft@da8a3daa8c	designcraft	Integration: #803 layout.marginsAndColumns' parent note in parentheses, so its description parses
+designcraft@b141bc335f	designcraft	Integration: renaming or deleting a paragraph style also updates the table of contents' entry and title styles (#755)
+designcraft@896929c5c0	designcraft	Integration: remove a stray merge backup of dialogs.rs
+designcraft@f28456d9d3	designcraft	Integration: #836 a grey stop beside a CMYK stop exports as the K ink, keeping the PDF shading in DeviceCMYK
+designcraft@b14e5feae7	designcraft	Integration: #839 previews keep the link's format and pixel size, share one buffer per preview, and preflight still reports their missing links
+designcraft@283d04e14f	designcraft	Integration: #859 drop the control-channel safety note from the editing gap, which lists missing features
+designcraft@a134dbb056	designcraft	Drop the root AGENTS.md docs rule; keep the PR to docs/user/
+designcraft@71309b993e	designcraft	Integration: cargo fmt
+designcraft@e44a9dc2f1	designcraft	Integration: #846 stroke edges of a partly selected merged cell are classified against the selection grown to whole cells, in table.setCell and table.getCellStroke
+designcraft@f0f9a4619c	designcraft	Find/Change: first:true changes only the first match, not one per story
+designcraft@1cd3b38af1	designcraft	Recent files: look them up on disk at most every 3 s, not every frame; Open Recent names the file without an undocumented param (#706)
+designcraft@82ffb692fc	designcraft	INDD: graphics whose linked file is missing show InDesign's preview
+designcraft@7889b25a37	designcraft	Integration: #869 Alt-drag copies a page in one command and one undo step (layout.pages.duplicateSpread takes to)
+designcraft@47b51d6377	designcraft	Integration: #864 drops the Controlled by Parent rule from the menus and the Objects Move with Page checkbox (neither has an effect yet)
+designcraft@9912a386a8	designcraft	Integration: #870 the page menu always offers Delete Page for the clicked page, Delete Spread separately for multi-page spreads
+designcraft@49a5cb87bb	designcraft	Integration: #490 drop its second Quit DesignCraft row (already in the Czech table)
+designcraft@b52b9a99fc	designcraft	Integration: ROADMAP lines for #869 and #870 describe the integration fixes
+designcraft@a6ec09afb2	designcraft	Integration: #643's test (an empty Effects field path sets nothing)
+designcraft@1c3af71eb7	designcraft	Integration: cargo fmt
+designcraft@4ced37c0aa	designcraft	Integration: #869 duplicateSpread's params doc parses (no comma inside the to? text)
+designcraft@41f5099700	designcraft	Integration: #870 i18n rows next already has (pt-BR, Arabic, French Apply Parent to Pages) stay next's, no duplicate keys
+designcraft@8e2c62e08a	designcraft	Integration: #84 control-channel paste and IME use the control queue with keys and clicks; click count 1-255 checked inside the pending-event budget, which counts the con
+designcraft@8403fabeae	designcraft	Integration: #84 renaming a swatch (Add to Swatches, Swatch Options) refuses stories nested deeper than 32 levels before the shared rename_swatch_refs walk
+designcraft@23aeddb354	designcraft	Control panel for the Page tool (W/H, preset, orientation, Liquid Page Rule); Controlled by Parent; Show Parent Page Overlay (blocked by #862)
+designcraft@c1a1970168	designcraft	Page tool: click selects a page; its handles preview the liquid rule, Alt-drag resizes, Shift keeps proportions
+designcraft@a6e7e2a0c7	designcraft	Swatches panel header like InDesign's (Fill/Stroke proxy, container/text, Tint); swatches go to the fill or stroke in front (blocked by #592)
+designcraft@e8a3cda237	designcraft	Gradients between process colours blend as inks (C 50 M 50 halfway), as InDesign shows them
+designcraft@d67fb28456	designcraft	Object › Fitting with InDesign's shortcuts (Fill Frame Proportionally Ctrl+Alt+Shift+C, …)
+designcraft@6ceb57d4f5	designcraft	Respect Find/Change scope and first-match limits
+designcraft@50a6b60072	designcraft	Page tool draws liquid guides from the rulers (dashed), as in InDesign
+designcraft@c8a8a1868d	designcraft	Liquid Layout panel in InDesign's layout (Auto-Fit, Object Constraints); Create Alternate Layout in the Layout menu (blocked by #864)
+designcraft@b8d975b094	designcraft	Page tool: liquid pins and resize locks on the canvas for object-based pages (blocked by #862, #864)
+designcraft@4f193834bd	designcraft	Pages panel menu in InDesign's order (blocked by #869)
+designcraft@0df9238c73	designcraft	Layout: Table of Contents dialog, entry options and IDML TOC styles
+designcraft@e26147470b	designcraft	Styles: selection capture accepts deleted-swatch fills
+designcraft@0e63dcad11	designcraft	MCP: confine file access with --automation-read-root and --automation-write-root
+designcraft@c5643529af	designcraft	Place: with no frame selected, the graphic loads into the place cursor
+designcraft@1495575c19	designcraft	(fix)Small frame wrap for overset small text boxes
+designcraft@54400d8d91	designcraft	Footnotes: notes stack baseline to baseline
+designcraft@b379a5f0a5	designcraft	Gradient feather on a group: fade it on screen, and don't hide it in PDF
+designcraft@7a9570b56e	designcraft	Blend modes don't blend with the paper
+designcraft@f268e17986	designcraft	Sections: the section marker shows the section's marker text
+designcraft@3921c71e65	designcraft	SVG text: find fonts by PostScript name (#430)
+designcraft@bfe0cfe6e8	designcraft	UI: show Tamil, Indic, Southeast Asian and other scripts from installed fonts
+designcraft@a9038cf262	designcraft	Selection tool: Alt and Shift resize around the centre and keep side-handle drags centred
+designcraft@ee6a88aa8c	designcraft	MCP: render_page and screenshot are not read-only because they can write to path (#733)
+designcraft@ebb2322671	designcraft	Fix overset preflight page for frames inside translated groups (#738)
+designcraft@778aaad127	designcraft	Images: reject EPS bounding boxes with nonfinite corners or size (#740)
+designcraft@e6660efb7a	designcraft	macOS: menu-bar commands run at once
+designcraft@3adc568fc3	designcraft	IDML export keeps overridden parent items
+designcraft@a593ae07af	designcraft	Path edits respect locked layers; Properties links open panels when docking is on
+designcraft@a666a9f00a	designcraft	Recovery: an explicit recovery folder never overwrites another instance's checkpoints
+designcraft@4bd1fbab37	designcraft	Radial gradients stretch with the object's box (an ellipse), as InDesign draws them
+designcraft@9f5e8cebf1	designcraft	Scripts: GREP replacements like `$1` stay literal
+designcraft@7b76b28a54	designcraft	Dialogs: drag the title to move the window
+designcraft@650aaf3440	designcraft	Text Wrap panel: four offsets with the link button, and Invert
+designcraft@63c3e36644	designcraft	Effects apply to frames with pasted-in content (Inner Glow, Basic Feather, shadows…)
+designcraft@412ce96ff0	designcraft	Copy a selected placed graphic on its own, so Paste Into puts the whole image in place
+designcraft@8d254120e7	designcraft	Word import: bullets and numbering from numbering.xml
+designcraft@3cdda36680	designcraft	Text: stroke behind fill
+designcraft@4cd3a8fa5e	designcraft	Eyedropper: a sampled colour goes to the stroke when the Stroke box is in front
+designcraft@6c2064ae48	designcraft	Type: let a blank line's hidden paragraph mark take leading immediately
+designcraft@cb3fbde5de	designcraft	Show 100% black as rich black on screen by default, as InDesign does
+designcraft@212eee6d32	designcraft	Layers panel: the selection shows in it, images are listed by file name, double-click renames an object
+designcraft@79a5c52e9d	designcraft	Type tool: a press over a locked empty frame draws a new text frame instead of converting it
+designcraft@d2f2ecc940	designcraft	Linux: build an Arch package (.pkg.tar.zst)
+designcraft@8c5937352b	designcraft	ui_shot: render every script line so long scripts don't time out on the GPU
+designcraft@5839d5c7a4	designcraft	Type menu in InDesign's order; Character ⌘T, Paragraph ⌥⌘T, Current Page Number ⌥⇧⌘N
+designcraft@f4333338b3	designcraft	Facing pages take their side from their section's page numbers (odd on the right), as InDesign shuffles them
+designcraft@411ef4c454	designcraft	Typography panel
+designcraft@9449d6c293	designcraft	Window menu in InDesign's order; Window › Workspace with Essentials Classic
+designcraft@3549d76594	designcraft	Keep a missing graphic missing when it is pasted into another document (#720)
+designcraft@35563d0f2f	designcraft	Find Font: a style that differs only in spacing isn't reported missing
+designcraft@8cbef21444	designcraft	IDML: import and export ruler guides
+designcraft@88fee015ce	designcraft	Pathfinder keeps the frontmost object, as InDesign does (a photo intersected with shapes shows through them)
+designcraft@dd079e1c96	designcraft	Fix the AppStream screenshot URL and caption
+designcraft@e6d6affb37	designcraft	Text recomposes when the baseline grid, a wrap layer's visibility or section numbering changes
+designcraft@290ea6c19c	designcraft	#21: opening or dropping an InDesign file says how to bring it over
+designcraft@3bf5cb58a6	designcraft	Compose: spaces at the end of a paragraph take no room on the line
+designcraft@2dbf60be6f	designcraft	Tools panel as InDesign's: Gradient Feather its own tool, two-column layout, View Options, Apply Color (,) and Apply Gradient (.)
+designcraft@7ed56979c7	designcraft	An empty last paragraph isn't overset text, as in InDesign
+designcraft@f9b4660ca2	designcraft	A line of text is set when its baseline fits in the frame, as in InDesign (descenders may hang below)
+designcraft@ee498ac68f	designcraft	Flex Layout (InDesign 2026): containers that lay out their objects, the Flex Layout panel and Object › Flex Layout
+designcraft@bd023252b2	designcraft	EPUB export includes tables, footnotes and endnotes
+designcraft@072ae1d948	designcraft	IDML: InDesign's default CJK leading model only with a Japanese composer (Western text spaced as InDesign)
+designcraft@131c4f417f	designcraft	Preserve stored IDML page liquid rules
+designcraft@af45138718	designcraft	CMYK blend space: blend modes blend in CMYK on screen
+designcraft@d4a65a5ea5	designcraft	Create Outlines makes one compound path per line, so Ungroup separates the lines
+designcraft@0923c8247a	designcraft	Word import: table cells skip deleted text and field codes; Normal style formatting is kept
+designcraft@528264a4a9	designcraft	Gradient strokes: on screen, in PDF, in IDML and the Gradient panel
+designcraft@47e9e576d4	designcraft	Links: placed Word, RTF and text files can stay linked
+designcraft@94d0c57236	designcraft	Margins and Columns and Create Guides laid out as InDesign's: link button, Preview, arithmetic on leaving a field (blocked by #468)
+designcraft@e7d8d5be62	designcraft	Pathfinder panel laid out as InDesign's: Paths, Pathfinder, Convert Shape, Convert Point (with Join Path and Convert Point commands)
+designcraft@d35887f494	designcraft	Gradient swatches on text, laid across the text frame as in InDesign
+designcraft@067b339991	designcraft	Type tool: dead keys and input-method composition on the canvas
+designcraft@4b88d7d29c	designcraft	Fill with Placeholder Text in paragraphs, as InDesign does
+designcraft@515b689127	designcraft	Paragraph and Character Styles: wire save and delete into the UI (#169)
+designcraft@93d2e212d0	designcraft	Fix needless horizontal scrollbar in the app bar at 115% scale (#481)
+designcraft@742d46446f	designcraft	Show the first parent page behind single-sided pages (#429)
+designcraft@6b9b9205e4	designcraft	Moving a sheared, rotated text frame leaves no text trails
+designcraft@3b7ae9da8f	designcraft	Recover document copies after browser graphics loss
+designcraft@6b70807ac4	designcraft	Fonts: discover Linux user fonts in XDG_DATA_HOME
+designcraft@f79a507486	designcraft	Preserve endnote and editorial payloads in text slices
+designcraft@65cb26e38d	designcraft	UI: document views have scrollbars, and Alt pans while editing text
+designcraft@b6732e10b9	designcraft	UI: the welcome screen's Discord button clears the text beside it
+designcraft@6ac858602f	designcraft	Compose: No Break runs and nonbreaking spaces stretch on justified lines
+designcraft@8e402450b9	designcraft	Fix help buttons disabled when on homepage
+designcraft@b50eb265af	designcraft	Pages panel: parents and pages scroll on their own, a divider resizes them, the footer stays at the bottom
+designcraft@953b411342	designcraft	Layout: parent pages pass margins and guides to their pages
+designcraft@3b6a5f35cb	designcraft	Pen: a click does what the cursor shows over an open path's end point
+designcraft@bfe6172dff	designcraft	Startup: pick the GPU that drives the display, fall back across adapters and backends, and log startup errors
+designcraft@1a6ee2ca70	designcraft	Integration: compile fixes after merging main a184db6f8
+designcraft@0e30ad50d0	designcraft	Integration: cargo fmt
+designcraft@f7e6ba8f1a	designcraft	Integration: the Text Wrap panel test expects next's Wrap To row after the offsets
+designcraft@ad33df4dbe	designcraft	Integration: Georgian rows for next's menu labels (Open Recent, Clear Recent Files, Transparency…, Strokes and Fills…, Show/Hide Document Grid)
+designcraft@af086dc145	designcraft	Integration: the Gradient panel and Swatch Options send CMYK in model form
+designcraft@b1421d53e4	designcraft	Integration: slices give every endnote and editorial marker a payload
+designcraft@a546e371c8	designcraft	Integration: find.find and find.next accept find.change's keys
+designcraft@0209b6781b	designcraft	Integration: .indd and .indt files open through the converter
+designcraft@fa3d13ae5a	designcraft	Integration: a failed script rolls back instead of leaving an undo step
+designcraft@1caf53f40b	designcraft	Integration: keep-lines IDML tests expect the split main's frame gives
+designcraft@ba260c8e39	designcraft	Integration: duplicateSpread's params doc parses as parameters
+designcraft@13d64351fc	designcraft	Integration: book roots test calls paginate and syncStyles without params
+designcraft@67401dae97	designcraft	Integration: MCP roots test expects file.save to add the document extension
+designcraft@02a0023edc	designcraft	Integration: next's file reads go through the checked readers
+designcraft@f419fa2a7a	designcraft	Integration: exported ruler guides are measured from the exported ruler origin
+designcraft@27d7cc87bd	designcraft	Integration: --pdf-options null means no options
+designcraft@c119c809e1	designcraft	Integration: MCP tool schemas list every key their tools forward
+designcraft@a9bf4573b2	designcraft	Integration: cargo fmt
+designcraft@344bc4f1e6	designcraft	Paste vector art from Illustrator, VectorCraft or Figma as editable paths
+designcraft@c50444926b	designcraft	Transform values act on a selected placed graphic, not its frame
+designcraft@a65bbeacb7	designcraft	Tint and Apply To in the Properties Fill and Stroke menus
+designcraft@faa882503a	designcraft	Retry missing font fallbacks after a font rescan
+designcraft@d4e4b9ad13	designcraft	Double-click a frame handle to fit the frame to its content; Fit Frame to Content fits text frames
+designcraft@1061c44763	designcraft	Integration: #325 New Document: mobile presets don't turn on the primary text frame
+designcraft@7747b0d396	designcraft	Units: inches show four decimals, as InDesign's fields (0.1667 in, 8.2677 in)
+designcraft@6d24b64dd5	designcraft	Integration: #1073 the Effects dialog test reads the shadow distance with four inch decimals
+designcraft@bb6b16fedc	designcraft	Add A0, A1 and A2 poster page presets
+designcraft@894bbe17e4	designcraft	Integration: #1099 keep the text-threads status line, progress-log line under Newest first, A0 preset test
+designcraft@44e529ad6f	designcraft	Objects snap to the bleed guide
+designcraft@506fe86464	designcraft	Rulers: the corner where they meet sets both rulers' units; ruler menus as InDesign's
+designcraft@378fe81011	designcraft	Properties: Edit Page takes the Page tool to the page and sets that page's size, as InDesign's
+designcraft@ec3593e4f9	designcraft	Integration: #1034 the canvas draws the bleed from Spread::bleed_rect, which uses the outer pages; ROADMAP line matches the diff
+designcraft@f1406df005	designcraft	Pages: deleting pages that contain objects asks first, with Don't show again
+designcraft@ddac0751ff	designcraft	Integration: #1058 delete_pages keeps its doc comment, page_has_items has its own
+designcraft@6f38f5a7b0	designcraft	Styles: captured text follows later style edits
+designcraft@b950b21a32	designcraft	Eyedropper: with text selected, pick up the clicked text's formatting, as InDesign does
+designcraft@5639ba8203	designcraft	Integration: winit from main's fork, with the macOS Dock Quit opt-in
+designcraft@67d597c416	designcraft	Styles: redefine paragraph and character styles from local formatting
+designcraft@48baff1fe9	designcraft	Integration: #1081 Pen and Pencil paths (path.create) take the colours of new shapes
+designcraft@57d083216a	designcraft	Fill and stroke with nothing selected set the colours of new shapes, as InDesign's document defaults
+designcraft@9dd6064b19	designcraft	Scaling a text frame scales its text, as InDesign's When Scaling: Apply to Content
+designcraft@3896bd2982	designcraft	Integration: #1064 Redefine Style is translated in every UI language
+designcraft@7bff9d36b1	designcraft	Integration: #1007 frames holding tables, anchored objects or footnotes scale as a whole
+designcraft@cf2f01b6fe	designcraft	Selection tool: with a frame's content selected, a drag on it moves the content
+designcraft@44e8a185fb	designcraft	ROADMAP: the Selection tool drags selected content
+designcraft@ca3929d0df	designcraft	Reject threading that would create linked-story ancestor cycles
+designcraft@75875b2e96	designcraft	Styles: show paragraph overrides and clear them from the row menu
+designcraft@f6b74fbcd4	designcraft	Integration: #1060 the Alt-click hint and Apply "name", Clear Overrides are translated in every UI language
+designcraft@5857f2d31e	designcraft	Styles: preview paragraph and character style edits before applying them
+designcraft@141c048289	designcraft	Integration: #1062 style Preview runs the Justification spacing check OK runs, and shows its reason
+designcraft@65cee09c5c	designcraft	Styles: show captured color and spacing in Paragraph Style Settings
+designcraft@37bc88d5ed	designcraft	Canvas: pages show their paper while their render is on its way, not black
+designcraft@b61c7cbcc3	designcraft	UI: Tab, Shift+Tab and Presentation hide the flyout and floating panels too
+designcraft@bb6f6e777d	designcraft	Type tool: a drag after several clicks extends the selection by words, lines or paragraphs (#981)
+designcraft@8d232143ac	designcraft	Integration: #1000 a remembered word, line or paragraph is clamped to the current text before a unit drag
+designcraft@b1b3d086f7	designcraft	Layers: a slow double-click renames an object, a quick one only selects, as InDesign's
+designcraft@27ac9472f7	designcraft	Integration: #1083 rename comments name the slow double-click that starts an object's rename
+designcraft@ca768d0ae4	designcraft	New Workspace: Capture Panel Locations and Menu Customization, as InDesign's
+designcraft@619f9114bd	designcraft	UI: Typography opens with its named panel groups and a clear page
+designcraft@70b3ca22a0	designcraft	Integration: #1063 progress-log lines of #1060-#1065 sit under Newest first; the Typography line ends as usual and the parity doc keeps no done-work paragraph
+designcraft@4aeda523b6	designcraft	Integration: #1027 composite-font scales are checked after the percent conversion
+designcraft@499f5f27c6	designcraft	Importers: XML element nesting and DTD group nesting are bounded (#712)
+designcraft@6f12a98543	designcraft	Layout: First/Previous/Next/Last Page and Next/Previous Spread, with InDesign's shortcuts
+designcraft@1ad5c18ef8	designcraft	Integration: #1011 axes with an inverted range get no slider; a failed edit.preview closes the preview it opened
+designcraft@4a67187758	designcraft	View: Presentation shows one spread fitted to the screen; arrow keys and clicks go through the spreads
+designcraft@904c518efb	designcraft	Integration: #1044 leaving Presentation puts back the view it was entered from
+designcraft@3d0b778f53	designcraft	Text: Digits setting in the Character panel and character styles; page numbers and list numbers follow it
+designcraft@3328e03f32	designcraft	Panel tabs: InDesign's Close, Close Tab Group, Minimize and Collapse to Icons
+designcraft@92819a4d69	designcraft	Integration: #1021 Minimize runs window.panel.layout, so scripts and the control channel reach it too
+designcraft@2d66c3c832	designcraft	Integration: #1012 Digits choices keep the reference names Arabic, Hindi and Farsi with sample figures; parity doc names the Character panel and Character Style Options
+designcraft@b83a9712f0	designcraft	Window > Paragraph Styles opens the floating Character Styles | Paragraph Styles group, as InDesign does
+designcraft@a254f0e6e0	designcraft	Integration: #384 rebreak check (from #1086 by moppeeer)
+designcraft@be8c85705c	designcraft	Integration: #1022 style panels closed from the dock reopen in the dock, not floating
+designcraft@c717492643	designcraft	The status bar's error count opens the Preflight panel
+designcraft@7593799a07	designcraft	UI: double-clicking the status bar's preflight count shows the Preflight panel (builds on #1035)
+designcraft@335f25da06	designcraft	Integration: #1035 Preflight Panel… shows the panel when it is already open instead of closing it; errors go to the status bar
+designcraft@d0caaaf344	designcraft	Integration: #1046 double-clicking the preflight count keeps an open Preflight panel open (show_preflight)
+designcraft@e75664bced	designcraft	Tools: a tool group's flyout closes on Esc and on a click outside it, as InDesign's
+designcraft@ae544f8c05	designcraft	Integration: cargo fmt
+designcraft@746ccad1f3	designcraft	Integration: #1076 a held-open tool flyout survives its release, and Esc closes the flyout without switching tools
+designcraft@eafd6a192e	designcraft	Integration: the progress log keeps one copy of the 2026-10-13 canvas refresh line
+designcraft@21b2e30f93	designcraft	Integration: #1068 Convert Rows descriptions name the table target (story, table, rows/row, cols/col)
+designcraft@7ff9752805	designcraft	Integration: a WWS family that is also the legacy family name finds the optical-size face
+designcraft@3644eb5723	designcraft	Integration: gaps.md keeps the control-channel input safety note
+designcraft@52cf755179	designcraft	Table of Contents: page number and separator character styles, Sort Entries in Alphabetical Order
+designcraft@1e149e38e0	designcraft	Integration: cargo fmt
+designcraft@2f948fa7e2	designcraft	Color Theme: extract a placed image palette and add it to Swatches
+designcraft@51e55fa145	designcraft	Integration: README takes #998's font guidance instead of #701's
+designcraft@30039c75a0	designcraft	Contributors: add Marco Arnulfo
+designcraft@68b24da5c9	designcraft	Integration: #1013 German table drops the 8 rows the branch already has and keeps "Anschnitt:" for Bleed:
+designcraft@d04d4de8fe	designcraft	Integration: coordinates must be finite (#1050)
+designcraft@f649f3cc45	designcraft	Integration: #1099 the New Document preset test scrolls to A4, which sits below the poster sizes
+designcraft@b42f491b32	designcraft	Integration: #988 ROADMAP line sits under "Newest first."; the merge's copies of two existing lines are dropped
+designcraft@4ebcd78a03	designcraft	Integration: #1027 test passes the string slices without a needless borrow (clippy)
+designcraft@7979a417fe	designcraft	Integration: cargo fmt
+designcraft@e082e69b03	designcraft	Integration: #1081 the proxy test fills the Color Picker's rgb, model and edited fields, as the batch's picker reads them
+designcraft@6a22e38b1e	designcraft	Tools: Cmd held with another tool borrows the Selection tool for one gesture (#919)
+designcraft@25aa75a6e5	designcraft	Integration: renaming a character style updates the drop cap style once
+designcraft@bd99e59e81	designcraft	Integration: data merge checks the read roots before the file size
+designcraft@1014d841ac	designcraft	Integration: a dropped file without an extension is recognised from its first bytes
+designcraft@e8aadde385	designcraft	Integration: start-screen previews read only the zip directory and the preview entry
+designcraft@94d21edfa1	designcraft	Integration: sentence selection tests return; selecting around a point drops the pending typing format
+designcraft@dd71077cef	designcraft	Integration: the New Document test checks that Mobile presets have no primary text frame
+designcraft@0132523396	designcraft	Integration: column counts and list numbers have their own captions; pt-BR and Arabic Pages menu rows
+designcraft@b0ed052562	designcraft	Integration: a document preview is bounded by what it inflates to
+designcraft@7e539fee8d	designcraft	Integration: #1002 Cmd borrows the last-used selection tool
+designcraft@635615fd71	designcraft	Integration: #1075 closes gap 27
+designcraft@51f790a092	designcraft	Integration: #1059 canvas menu tests match rows in the canvas, not the Properties panel's Arrange button
+designcraft@eb2b2f1b5f	designcraft	Integration: #1043, #1059, #1074 French strings now in the shared table leave the French catalog
+designcraft@699b5da7dc	designcraft	Integration: #1076 the release that ends a hold opening a tool flyout doesn't pick the tool and close it
+designcraft@06c7ff6117	designcraft	Integration: progress log deduplicated and in date order
+designcraft@bc5799c046	designcraft	Overset marks for text frames inside groups (ports when selected; the red mark always)
+designcraft@5d4834e537	designcraft	Integration: #1036 the overset mark sits at the frame's real out port
+designcraft@dbf495bee9	designcraft	Pages panel: parents and pages scroll on their own, a divider resizes them, the footer stays at the bottom
+designcraft@8f93a48c4d	designcraft	Integration: #1067 Panel Options' parent Show Thumbnails and size drive the parents' rendered thumbnails
+designcraft@763c4fac08	designcraft	Integration: #1067 large parent icons in a short Pages panel don't crash
+designcraft@31d7e8f5ac	designcraft	Resize a selected placed graphic by its own handles (blocked by #415, #550)
+designcraft@a00b77e06a	designcraft	Ungroup leaves frames with pasted-in content whole; name them by their shape
+designcraft@c98202bb7c	designcraft	The Effects dialog: Object › Effects and the panel's fx button, with Preview
+designcraft@3018115fb1	designcraft	Wrap saved story revision increments consistently
+designcraft@199bfcfacb	designcraft	Gradient panel in InDesign's layout; drop swatches from the Swatches panel onto its stops
+designcraft@402935d359	designcraft	New Swatch names a gradient "New Gradient Swatch"; gradient swatches from colour swatches
+designcraft@3921158a12	designcraft	Text Frame Options laid out as InDesign's: columns type and width, inset link, Ignore Text Wrap, Baseline Options
+designcraft@39fe594553	designcraft	Integration: Window › Minimize (⌘M) on macOS
+designcraft@a9e2229cd6	designcraft	Integration: Esc that closes a dialog doesn't reach the canvas
+designcraft@11810ecbfc	designcraft	Integration: panel menus stay reachable in the docking layout
+designcraft@f309b08562	designcraft	Integration: #1036 test that a selected group paints both ports of its text frame
+designcraft@e99783c756	designcraft	Integration: "&" shows in native menu labels
+designcraft@8e18800280	designcraft	Integration: #1075 and #1077 progress log lines
+designcraft@b5cc353c6d	designcraft	Close gap 27 in the work list
+designcraft@cf5b54e72c	designcraft	Record the Greek language in the work list
+designcraft@fc36957fe0	designcraft	Ignore the local outputs/ folder
+effectcraft@41037328a8	effectcraft	Render Queue: resolve a bare project filename against the working directory
+effectcraft@a2c2a1078a	effectcraft	CLI: an argument that is not Unicode is a usage error, not a panic
+effectcraft@eac13d1cf1	effectcraft	Solo: exclude other layers even when the soloed layer is outside its time range
+effectcraft@0953011664	effectcraft	gpu: upload cache drops textures of freed buffers on every insert
+effectcraft@49be0eb6cf	effectcraft	Settings: the page list's rows touch, with no gap between them
+effectcraft@86239e0f0c	effectcraft	Update contributor key: moecr7 -> onlymoein
+effectcraft@1071e57dfd	effectcraft	GPU: stop drawing a frame once the device has failed
+effectcraft@04a60d7747	effectcraft	Scripting: add the missing app.preferences.saveToDisk() so imported scripts like Duik get past startup (#1263)
+effectcraft@57ea7c7886	effectcraft	Contributors: add Marco Arnulfo
+effectcraft@90e68eb6ab	effectcraft	GPU tests: say why the GPU didn't start, and fail with EFFECTCRAFT_REQUIRE_GPU=1 instead of skipping
+effectcraft@e483a1c89c	effectcraft	#1509: Timeline effect rows show the effect's colour label
+effectcraft@c6f6f9b373	effectcraft	Export: render in parallel once the GPU stops for good
+effectcraft@fa5eff7210	effectcraft	Null layers: the Video switch hides them in the Composition viewer, as in After Effects
+figcraft@7a0bd980c6	figcraft	M9: add Russian interface translation
+figcraft@06850b8900	figcraft	M9: Turkish draft catalog
+figcraft@4964910cc9	figcraft	M7: follow system theme from the first frame
+figcraft@dde193cbf4	figcraft	M7: a slice's export preview shows the page content under it
+figcraft@5f3e1e1e6c	figcraft	M9: Turkish catalog reviewed by a native speaker
+figcraft@94ce2a3611	figcraft	M13: make native file dialogs asynchronous
+figcraft@64a54ca408	figcraft	M7: double-clicking a page in the Pages list no longer closes the app (fixes #264)
+figcraft@3405a07d33	figcraft	Contributors: add tylerjenningsw's names
+figcraft@01eb35df25	figcraft	M6: .fig import lays out the layers of resized instances by their constraints (fixes #266)
+figcraft@d5fee489f5	figcraft	M7: recent files notice files deleted while the home screen is open
+figcraft@d8556e8f17	figcraft	M6: .fig import: size overrides keep the constraint placement, nested instances resized again drop their old derived layout (#266)
+figcraft@ce366ea325	figcraft	M6: .fig import: a resized nested instance keeps the non-geometric derived data; resize check with a tolerance (#266)
+figcraft@9404226235	figcraft	M4: vector edit mode keeps the canvas still under the pointer
+figcraft@212438a6e3	figcraft	Set the native window identity to match the desktop entry
+figcraft@310cb40af9	figcraft	M1: open .figcraft files from Finder, Open With and the Dock on macOS (fixes #289)
+figcraft@3e777d2485	figcraft	M7: home screen test waits for the recent-file reader
+figcraft@e92792e3e8	figcraft	M1: a press on a corner handle resizes instead of picking the corner-radius handle (fixes #292)
+figcraft@61def74383	figcraft	M0: finish canvas drags released outside
+figcraft@4193a82dfb	figcraft	Count a recovery revision as copied only after its write succeeds
+figcraft@8b961b980a	figcraft	Recovery: wait for the write in flight before an emergency save and before removing copies (#202)
+figcraft@6eeac4fa04	figcraft	Keep the redo steps when a failed command batch rolls back (#196)
+figcraft@54ba84eddc	figcraft	Text: colour emoji draw from their own colour tables (#268)
+figcraft@de5ba60bc4	figcraft	Text: colour-glyph comments cite the right source and size
+figcraft@00ac44f6ca	figcraft	M1: save files automatically
+figcraft@3917c26802	figcraft	Text: colour-glyph comments say only what the fonts are documented to carry
+figcraft@3c03f370f9	figcraft	M1: Cmd+R rename test sends Ctrl+R only where Ctrl is the command key
+figcraft@ed0e7a9b2d	figcraft	M1: leaving Design ends the pen path and goes back to Move (fixes #307)
+figcraft@f9b7aa03ca	figcraft	M0.9: answer control requests while the window is hidden
+figcraft@8b8825ce68	figcraft	M1: say why when the window can't open (#261)
+figcraft@1aeb5abb74	figcraft	M1: a click on the toolbar no longer reaches the canvas under it (#307)
+figcraft@f1f7da1f40	figcraft	engine: refuse page.move for node ids that are not pages
+figcraft@4f321fb68d	figcraft	M1: creating a variable collection no longer closes the app (#224)
+figcraft@698e249fbf	figcraft	M1: drop shadows under a background blur (#255)
+figcraft@f1e0a758d1	figcraft	Home: file rows no longer draw the path over the name
+figcraft@639c4d7db0	figcraft	Home: test the file row layout on Open files
+figcraft@ebf6045184	figcraft	M1: SVG export keeps a nested frame's fill and stroke inside its parent's clip (fixes #325)
+figcraft@01a0f4f332	figcraft	M3: variables export as a download in the browser
+figcraft@3edb15c417	figcraft	M1: copy and paste through the system clipboard in the browser
+figcraft@15ae2e9115	figcraft	M1: memory budgets for decoded images and a file's images (#203, #189)
+figcraft@d1ac66a803	figcraft	M9: 日本語のテンプレートと編集操作ラベルを補完
+figcraft@64eae8c8c5	figcraft	M0.9: every hidden window answers control requests, not only the main one (#269)
+figcraft@6bd87bccc6	figcraft	M7: the Small caps sample in Type settings draws without a box
+figcraft@30478894fd	figcraft	M0.9: a window on screen draws requests for it while the main window is hidden (#269)
+figcraft@c02e864873	figcraft	Replace every occurrence in edit.findReplace when replacement contains find
+figcraft@a3048770b6	figcraft	M1: deeply nested layers don't run the layout out of stack (#210)
+figcraft@ac8a0a112c	figcraft	M1: keep a recovery copy until this run has its own (#187)
+figcraft@b8043cc2ad	figcraft	M3: renaming a style folder no longer closes the app
+figcraft@2aa3ca3c45	figcraft	Make edit.findReplace replace case-insensitive matches
+figcraft@fa0365470e	figcraft	M9: remove someone from a live session
+figcraft@5e14632207	figcraft	M1: cursor and double-click tests scan the system fonts themselves (#333)
+figcraft@ca2f5dbcee	figcraft	collab: refuse sequence numbers a host cannot advance
+figcraft@90a4606c65	figcraft	M9: a compaction cut short closes the file instead of confirming lost edits (#183)
+figcraft@611fb324b9	figcraft	M7: find Unix user fonts under XDG_DATA_HOME
+figcraft@f387d3f464	figcraft	M9: translate Remove from session
+figcraft@65e52aa7b9	figcraft	engine: long digit strings no longer overflow object.opacityKeys
+figcraft@13691c1cc0	figcraft	Let batch steps reference ids created by earlier steps
+figcraft@996852d15c	figcraft	M4: hanging punctuation test holds for fonts that kern with x offsets
+figcraft@87b9a3a9ce	figcraft	Reject negative or fractional index in effect.set, export.update and export.remove
+figcraft@3c00ea6440	figcraft	Outline stroke on every selected layer, not just the first
+figcraft@fc6f52e852	figcraft	Keep corner resize cursors diagonal on wide and tall layers
+figcraft@d1430e3054	figcraft	Keep text selection highlight inside the box at the end of the text
+figcraft@1199f690ad	figcraft	Fix Send to back leaving layers above siblings across frames
+figcraft@7f2f8ee09a	figcraft	Refuse negative or fractional indexes in page.select and doc.switch
+figcraft@627933ae06	figcraft	M9: Indonesian draft catalog
+figcraft@471694dc48	figcraft	#297: recovery retry tests fail the copy with a folder in its place, so they also run on Windows
+figcraft@8616f3d1c5	figcraft	#305: save a file from a snapshot encoded elsewhere
+figcraft@b75e5bea3b	figcraft	#305: auto-save after a pause, off the UI thread
+figcraft@69de1ee36f	figcraft	#253: a dialog's result goes to the file and window it was opened for; dialogs are parented to the main window
+figcraft@b14a332405	figcraft	#257: keep only Spanish in the must-be-complete list, so new UI strings don't require Russian too
+figcraft@adf96ca2e7	figcraft	#363: a dragged text box keeps the drag's width and height
+figcraft@e11a182afd	figcraft	#400: a nested batch keeps its own step references
+figcraft@477f019737	figcraft	#280: a drag released off the window ends where the pointer was last seen, not mid-canvas; the test follows #278
+figcraft@8bcb0f78dd	figcraft	#338: drop the start/end feat marker comments
+figcraft@b53967b423	figcraft	#313: hidden-window control requests run inside the frame guard
+figcraft@aeeb1a7cde	figcraft	#338: forget a file's barred addresses when its session closes
+figcraft@25beadea65	figcraft	#281: say the asset reference lookup is original code, read from the schema the file embeds
+figcraft@3d112c4b8c	figcraft	#300: a colour PNG strike's size is checked before its pixels are allocated
+figcraft@c230a97cca	figcraft	#326: decode at most the image crate's default 512 MiB per image; a full image cache drops its least recently used images, not all of them
+figcraft@a95f95ae37	figcraft	#361: a replacement that only changes the case replaces every occurrence; the text's chars are collected once
+figcraft@50f1237617	figcraft	#272: refuse page drops released outside the visible pages list
+figcraft@e100c165fb	figcraft	#346: FreeBSD's desktop entry matches the window class there (the binary's name)
+figcraft@dd84097b6d	figcraft	#368: revoke a download's object URL after a delay
+figcraft@42c8e762a0	figcraft	#469: Czech for the alignment hint added since (draft)
+figcraft@62ed3452d6	figcraft	#352: name the font list's height once
+figcraft@b2d5dfecc1	figcraft	#477: Indonesian for the alignment hint added since (draft)
+figcraft@8f58c39bd7	figcraft	#352: keep the highlighted font in view in a shorter list
+figcraft@9894ee0e65	figcraft	#308: pressing Design again keeps the pen path going
+figcraft@6291e43605	figcraft	#322: use widgets::note for the vector edit hints
+figcraft@a89031eab2	figcraft	#300: emoji take a colour face before the symbol fonts, which drew them in one colour on Windows
+figcraft@4dc7c1b59c	figcraft	#317: compute the backdrop once under a casting layer
+figcraft@3d7191f4d3	figcraft	people.toml: one entry per person after the merges
+figcraft@51549f9a60	figcraft	#306: say why the window can't open in the interface language
+figcraft@ff3981de73	figcraft	#300: emoji take a colour face before a style face without colour glyphs (DejaVu Sans on Linux drew them in one colour); the scale test allows faces wider than the em
+figcraft@a7bcc6d6ff	figcraft	#317: compute the backdrop once under a casting layer
+figcraft@3074db1cbb	figcraft	M1: drop shadows under a background blur (#255)
+figcraft@4a2d19f0db	figcraft	#326: decode at most the image crate's default 512 MiB per image; a full image cache drops its least recently used images, not all of them
+figcraft@f4d53a659b	figcraft	M1: memory budgets for decoded images and a file's images (#203, #189)
+figcraft@97f9c2fc5d	figcraft	M1: say why when the window can't open (#261)
+figcraft@916ee3276c	figcraft	#306: say why the window can't open in the interface language
+figcraft@97e422226f	figcraft	Community batch 5: 59 reviewed PRs (#482 and up)
+figcraft@7459cc7f86	figcraft	Community batch 6: 8 reviewed PRs
+figcraft@33d59932f9	figcraft	Community batch 7: Czech plurals and bounded canvas overscan
+figcraft@4ee413acde	figcraft	Community batch 8: drop files anywhere, duplicate fill tests
+figcraft@c1347d28c5	figcraft	Community batch 9: the .fig import series (11 PRs by @Skyfuller1303)
+figcraft@753d073f1b	figcraft	Community batch 10: .fig import and file handling (12 PRs)
+figcraft@e17f58ba85	figcraft	Community batch 11: editor fixes and the Actions palette (9 PRs)
+figcraft@05ecbe8d49	figcraft	Community batch 12: engine checks, server limits, web join links, menus and more (13 PRs)
+figcraft@18b8bc11e9	figcraft	UI: submenu hover fixes (stale state, safe triangle, hover delay)
+figcraft@6cdfe2ab8e	figcraft	M3: layers inside instances keep their resizing overrides (#731)
+figcraft@bb8b809d46	figcraft	Community batch 14: selection colors, spacing, presenter tab, Wayland controls and more (10 PRs)
+lightcraft@08e692f7c9	lightcraft	Add complete Polish (pl) localization
+lightcraft@b764715dc5	lightcraft	Remove accidentally duplicated localization files
+lightcraft@73c61aae44	lightcraft	FreeBSD CI: two flaky ui-egui tests made deterministic
+lightcraft@3b4279fc24	lightcraft	FreeBSD CI: three more flaky tests made deterministic
+lightcraft@618b4c723a	lightcraft	Slideshow overlays: identity plate, rating stars, text with tokens, watermark (LRC-SS-OVERLAYS, stacked on #808)
+lightcraft@6ce8d5a571	lightcraft	Slideshow intro and ending screens (LRC-SS-TITLES, stacked on #821)
+lightcraft@d837ab1455	lightcraft	Slideshow templates: built-ins of our own, user templates, browser with hover preview (LRC-SS-TEMPLATES, stacked on #904)
+lightcraft@e78e165594	lightcraft	Slideshow export to PDF, JPEG sequence and AV1 video (LRC-SS-EXPORT, stacked on #912)
+lightcraft@8735468e81	lightcraft	Rotate left/right turns the crop with the image instead of cutting it (#962)
+lightcraft@cbf3664e4f	lightcraft	LR-EDIT-OPTICS-PROFILE: Sony ILCE-7RM6 embedded lens corrections (distortion applied; CA and vignetting parsed)
+lightcraft@58dc540cc0	lightcraft	LR-EXP-DNGOPT: lossy DNG export
+lightcraft@260a460c11	lightcraft	LR-PROF-CAMERACOLOR: bundled Sony ILCA-99M2 camera profile
+lightcraft@ff66d188e8	lightcraft	Export: "Same folder as original photo" destination (#956)
+lightcraft@e0ed8c0270	lightcraft	LR-MASK-BRUSH: pen pressure scales brush size and flow
+lightcraft@28a6d97434	lightcraft	LR-MASK-EFFECTS: local adjustment presets with Lightroom Classic import
+lightcraft@a993758693	lightcraft	Preview cache: cached thumbnails are no longer taken for the person's photos (#610, #1066)
+lightcraft@89a51be77f	lightcraft	LR-IMP-FORMATS: verify 22 more CR3 bodies; EOS R6 Mark III white balance
+lightcraft@a19cbdb17b	lightcraft	LR-IMP-CAMERA-COVERAGE: verify 117 Nikon and Fujifilm bodies on CC0 files
+lightcraft@381b57dd0b	lightcraft	LR-IMP-CAMERA-COVERAGE: verify 21 Sony and Leica models on CC0 files
+lightcraft@d0d9aa7df9	lightcraft	LR-BEHAV-ACCESS: canvas tools by keyboard (stacked on #1023)
+lightcraft@6ab5e2b0d4	lightcraft	LR-IMP-CAMERA-COVERAGE: verify 17 uncompressed Olympus and Samsung models on CC0 files
+lightcraft@d3edca8000	lightcraft	LR-IMP-CAMERA-COVERAGE: verify 97 Canon CR2, Pentax and Ricoh models on CC0 files
+lightcraft@aba04aaf5c	lightcraft	LR-IMP-FORMATS: decode Epson ERF
+lightcraft@d8b52d9405	lightcraft	LR-IMP-FORMATS: import and decode Mamiya MEF (stacked on #1087)
+lightcraft@cfd14ea7c1	lightcraft	Batch 36: the Polish format catalog (#1100) lists the strings this batch's other PRs add, in English until translated; lockfile at 0.8.0 for the slideshow crate
+lightcraft@da7534a2ed	lightcraft	Batch 36: the slideshow template test drops the cached listing after writing a file by hand (flaky when the write lands in the listing's clock tick)
+lightcraft@9131ff7000	lightcraft	Keywords panel: sections fold, Add keyword offers the library's keywords, and removals say what they touched
+lightcraft@8a406d0dfc	lightcraft	Nix: nix build and nix develop work again on NixOS
+lightcraft@9854ca24cb	lightcraft	LR-EDIT-SECTION-SOLO: Solo Mode for Edit sections
+lightcraft@0bdb55cb4b	lightcraft	KEY-SLIDER-NUDGE: scrolling sideways over a slider adjusts it
+lightcraft@3be25e7559	lightcraft	Import: find sidecars whose photo extension or .xmp differs in case
+lightcraft@5473bf514e	lightcraft	Colour grading wheels: vivid sRGB rim fading evenly to neutral
+lightcraft@32789beade	lightcraft	MCP-CONTROL: validate remote reply framing and IDs (#1716)
+lightcraft@da677cd440	lightcraft	LR-VIEW-BEFOREAFTER: both panes animate together during click zoom (stacked on #1747)
+lightcraft@b985090c90	lightcraft	gpu: init-marker tests use their own scope counter so parallel device tests cannot join them (#1721)
+lightcraft@6cc0072843	lightcraft	Batch 36: the Czech and Polish format catalogs list the strings this batch adds, in English until translated
+lightcraft@327e67af9e	lightcraft	LRC-DEV-LOUPEOVERLAY: a layout image over the loupe (View ▸ Loupe Overlay)
+lightcraft@5e1a951008	lightcraft	LR-META-XMP: radial masks keep their inside/outside from Lightroom (fixes #1815)
+lightcraft@61fa2237f6	lightcraft	LR-EDIT-EFFECTS-DEHAZE: raster::morph square min / max filters (split from #1286)
+lightcraft@1d006f7703	lightcraft	Fix range-mask handle drags and color sampling settings
+lightcraft@65f51751a1	lightcraft	Protect originals and preserve existing files when exporting presets
+lightcraft@43f9d51207	lightcraft	LR-LIB-SMARTALBUM: a view can hold its photos until it is refreshed
+lightcraft@31f1f559dd	lightcraft	PERF-EDIT: an edit is followed from what it touched, not worked out from every photo (stacked on #1656)
+lightcraft@9562532695	lightcraft	PERF-EDIT: a smart album's count follows an edit, asking only the photos it touched (stacked on #1660)
+lightcraft@f8d1585c6f	lightcraft	LR-LIB-PEOPLE: rename a person across the library (#1444)
+lightcraft@5b3856ba2b	lightcraft	LR-MERGE-HDR: merged DNGs declare the white balance their source shows (follow-up to #1123)
+lightcraft@ad23861454	lightcraft	LR-BEHAV-WINDOW: the window opens at the size it was left at, zoomed if it was
+lightcraft@4660e7079e	lightcraft	LR-IMP-LOCAL: browsing a Local folder keeps or picks the active photo (fixes #1447)
+lightcraft@a2784ff9b3	lightcraft	Lightroom import: raise catalog/WAL size limit from 1 GiB to 4 GiB
+lightcraft@32e870d589	lightcraft	LR-IMP-FORMATS: decode EOS R6 Mark II C-RAW with adaptive QP up to 175
+lightcraft@a740c1f390	lightcraft	Batch 36: format catalogs list the strings this batch adds, in English until translated
+lightcraft@211255770f	lightcraft	Batch 36: #1510's rename follows the optional name #1665 gave person_from; #1780's test sets #974's preview_checked; rustfmt
+lightcraft@56022ffc2a	lightcraft	Batch 36: D600/D610 measured areas listed once (#1053 and #1770 both added them, with the same crops)
+lightcraft@851aedc64d	lightcraft	Batch 36: tests and tracker after the merges
+lightcraft@eb4cfe6c56	lightcraft	Batch 36: Canon RP C-RAW sample listed once (#1029 and #1453 both pinned it); the face-tile test waits up to a minute for its pictures on a busy machine
+lightcraft@a0b55e66bb	lightcraft	LRC-LIB-KEYWORDS: the Keyword List holds its place as the Keywords box above it changes
+lightcraft@f613aeba59	lightcraft	LR-EDIT-OPTICS-PROFILE: decode Sony shading, CA and distortion tables (nothing new applied), plus a BigTIFF overflow fix
+lightcraft@1a120a86a2	lightcraft	LR-BEHAV-EMPTY-STATES: an empty library leads to Import
+lightcraft@e3a13438e9	lightcraft	LR-MASK-EFFECTS: local adjustment presets with Lightroom Classic import
+lightcraft@d08d8896b8	lightcraft	LR-VIEW-BEFOREAFTER: both panes animate together during click zoom (stacked on #1747)
+lightcraft@af8843bf01	lightcraft	DNG: fit tone and chroma curves to the embedded preview (#1277)
+lightcraft@1e49095146	lightcraft	Dialogs: the confirm button is on the right, filled when it is the next step
+lightcraft@81a9569301	lightcraft	Batch 36: rustfmt after merging #1802
+lightcraft@f27ca795c7	lightcraft	LR-IMP-CAMERA-COVERAGE: verify 30 more camera models on public raw files
+lightcraft@60b938ab52	lightcraft	Batch 37: format catalogs list the strings this batch adds, in English until translated
+lightcraft@4468917a1b	lightcraft	Buttons: one component with kinds, sizes and icons (stacked on #1802)
+lightcraft@3c489dc408	lightcraft	Batch 37: the print commands (#1215) take the Result that Session::targets returns since #1773
+lightcraft@edfd4bc80a	lightcraft	Batch 37: conflict markers left in three tracker headers by the #1327 merge resolved
+lightcraft@e5cc449bd1	lightcraft	Batch 37: the contact-sheet export and batch-merge tests wait longer on a busy machine (they pass alone, timed out under the full test run)
+lightcraft@52a3b0ed84	lightcraft	Batch 37: #1471's test mosaic sets #1176's lens_metadata
+lightcraft@dec7fd4eb2	lightcraft	LRC-LIB-LIBFOLDERS: drag photos from the grid onto a Folders row to move them there
+lightcraft@b00d7c0267	lightcraft	Batch 37: the contact-sheet export test's deadline is a hang guard (it queues behind other tests' demo scenes)
+lightcraft@2a4b53f86c	lightcraft	Batch 37: parity summary refreshed
+lightcraft@a981538d05	lightcraft	Batch 37: the #1506 What's New entry once
+lightcraft@3c0300fcbb	lightcraft	LR-MERGE-HDR: frame-order independent merges, and no magenta bias next to clipped pixels
+lightcraft@b5733c7649	lightcraft	Show the camera's focus point (Sony α1, A7S III) and zoom to it (#1480)
+lightcraft@73ee54fe62	lightcraft	Batch 38: format catalogs list the strings this batch adds, in English until translated
+lightcraft@e44e7157fc	lightcraft	Batch 38: rustfmt and parity summary after the merges
+lightcraft@a94fc6bc84	lightcraft	Batch 38: What's New lists the Nikon profile and lens-corrected colour notes once
+lightcraft@bc39923608	lightcraft	KEY-SLIDER-SCRUB: drag a slider's value sideways to scrub it
+lightcraft@f0b5f0339a	lightcraft	Batch 39: #1474's hint test expects the value hint #1604 gave the scrubbable value
+lightcraft@a22f9a6d46	lightcraft	Batch 39: hang guards of the slideshow PDF export and slow-import tests allow a loaded machine (both pass in seconds alone)
+lightcraft@d6f63f244f	lightcraft	Batch 39: parity summary refreshed
+lightcraft@4212907656	lightcraft	PERF-SYNC: a Synchronize Folder scan reads off the folder's listing whether a photo and its sidecar are there
+lightcraft@00dced3dae	lightcraft	Batch 39: #1829's straight brush lines carry pen pressure as the author merged them with #1033 (the whole masks.rs from the PR head)
+lightcraft@2179473536	lightcraft	Faces: GPU (wgpu) path for detection and recognition convolutions
+lightcraft@1d7699056e	lightcraft	LR-VIEW-ZOOM: soft proofing gets zoom windows; 1:1 tested equal to export
+lightcraft@e6dceb9f89	lightcraft	Batch 40: #1027's LR-VIEW-ZOOM row (✅, mask and proof zoom windows) kept; parity summary refreshed
+lightcraft@b17483a3ce	lightcraft	Batch 40: tracker rows that earlier batches' doc merges dropped are back
+lightcraft@e8856c828c	lightcraft	Batch 40: raw-parity action 3 (verify popular Nikon, Fujifilm, Canon CR2 and Pentax bodies) is done (#1045, #1081)
+pdfcraft@dbef872ed7	pdfcraft	M2: preserve precision when writing page transforms (#946)
+pdfcraft@039706c437	pdfcraft	Clear image leftovers (#1151)
+pdfcraft@e770c564a8	pdfcraft	COS: resolve xref entries on demand (#1505)
+pdfcraft@f0c877ca23	pdfcraft	audit: harden finding classes with golden tests and docs (#1892)

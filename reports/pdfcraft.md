@@ -1,6 +1,6 @@
 # pdfcraft — changes per release
 
-8 releases, 2026-10-02 → 2026-10-12. Each release is counted as the changes that landed between the previous release tag and its own; the first one is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised. The charts cover released changes; the commentary under them is generated from the same numbers.
+9 releases, 2026-10-02 → 2026-10-14. Each release is counted as the changes that landed between the previous release tag and its own; the first one is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised. The charts cover released changes; the commentary under them is generated from the same numbers.
 
 ## Changes by type
 
@@ -16,14 +16,14 @@
 
 **What this shows**
 
-- pdfcraft has had 8 releases with 827 changes in total, over 10 days.
-- The biggest release was v0.7.1 (12 Oct) with 221 changes, which is 27% of everything released so far.
-- Releases are getting bigger: the first 4 releases averaged 54 changes each and the last 4 releases averaged 153.
-- Overall, fixes make up 47% of changes and features 28%.
-- The work has shifted from building new things to fixing: features went from 48% of changes in the first 4 releases to 21% in the last 4 releases, and fixes from 18% to 57%.
-- Performance work is 3% of changes (26), most of it in v0.5.0 (10 Oct), which had 11.
+- pdfcraft has had 9 releases with 900 changes in total, over 12 days.
+- The biggest release was v0.7.1 (12 Oct) with 221 changes, which is 25% of everything released so far.
+- Releases are getting bigger: the first 4 releases averaged 54 changes each and the last 4 releases averaged 149.
+- Overall, fixes make up 49% of changes and features 27%.
+- The work has shifted from building new things to fixing: features went from 48% of changes in the first 4 releases to 20% in the last 4 releases, and fixes from 18% to 60%.
+- Performance work is 3% of changes (27), most of it in v0.5.0 (10 Oct), which had 11.
 - After features and fixes, the next biggest group is documentation at 5%.
-- Since the last release, 72 more changes have landed on main and not been released yet: 9 features and 56 fixes among them.
+- Since the last release, 215 more changes have landed on main and not been released yet: 54 features and 130 fixes among them.
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -35,19 +35,20 @@
 | [v0.5.0](https://github.com/storytold/pdfcraft/releases/tag/v0.5.0) | 2026-10-10 | 178 | 35 | 101 | 11 | 13 | 1 | 3 | 4 | 3 | 4 | · | 3 | · | · |
 | [v0.6.0](https://github.com/storytold/pdfcraft/releases/tag/v0.6.0) | 2026-10-11 | 124 | 19 | 84 | 2 | 2 | 2 | 9 | 1 | 1 | 3 | · | 1 | · | · |
 | [v0.7.1](https://github.com/storytold/pdfcraft/releases/tag/v0.7.1) | 2026-10-12 | 221 | 58 | 116 | 9 | 9 | 5 | 7 | 8 | 3 | 2 | · | 4 | · | · |
-| _unreleased (main)_ | 2026-10-14 | 72 | 9 | 56 | 1 | · | 3 | · | 1 | · | 1 | · | 1 | · | · |
-| **Released total** |  | **827** | **231** | **388** | **26** | **30** | **45** | **34** | **31** | **15** | **12** | · | **10** | · | **5** |
+| [v0.8.0](https://github.com/storytold/pdfcraft/releases/tag/v0.8.0) | 2026-10-14 | 73 | 9 | 56 | 1 | · | 3 | · | 1 | 1 | 1 | · | 1 | · | · |
+| _unreleased (main)_ | 2026-10-16 | 215 | 54 | 130 | 7 | 4 | 4 | 9 | 2 | · | 3 | · | 2 | · | · |
+| **Released total** |  | **900** | **240** | **444** | **27** | **30** | **48** | **34** | **32** | **16** | **13** | · | **11** | · | **5** |
 
-Share of released changes: feature 28%, fix 47%, perf 3%, i18n 4%, docs 5%, test 4%, build/ci 4%, release 2%, refactor 1%, security 1%, other 1%.
+Share of released changes: feature 27%, fix 49%, perf 3%, i18n 3%, docs 5%, test 4%, build/ci 4%, release 2%, refactor 1%, security 1%, other 1%.
 
 ## How changes landed
 
 **What this shows**
 
-- 80% of changes came in through pull requests; the rest were committed directly.
-- That has grown: pull requests were 26% of changes in the first 4 releases and 99% in the last 4 releases.
-- Of the 660 pull requests, 86% came from people outside the core team.
-- Outside contributions have gone up: 20% of pull requests in the first 4 releases, 92% in the last 4 releases.
+- 81% of changes came in through pull requests; the rest were committed directly.
+- That has grown: pull requests were 26% of changes in the first 4 releases and 98% in the last 4 releases.
+- Of the 728 pull requests, 87% came from people outside the core team.
+- Outside contributions have gone up: 20% of pull requests in the first 4 releases, 95% in the last 4 releases.
 
 | Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -59,8 +60,9 @@ Share of released changes: feature 28%, fix 47%, perf 3%, i18n 4%, docs 5%, test
 | [v0.5.0](https://github.com/storytold/pdfcraft/releases/tag/v0.5.0) | 180 | 1 | 175 | 2 | · | 1 | 1 | 154 | 22 |
 | [v0.6.0](https://github.com/storytold/pdfcraft/releases/tag/v0.6.0) | 124 | · | 124 | · | · | · | · | 122 | 2 |
 | [v0.7.1](https://github.com/storytold/pdfcraft/releases/tag/v0.7.1) | 230 | 2 | 217 | 2 | · | 3 | 6 | 217 | 2 |
-| _unreleased (main)_ | 72 | · | 68 | 4 | · | · | · | 65 | 3 |
-| **Released total** | **891** | **34** | **626** | **167** | **0** | **57** | **7** | **566** | **94** |
+| [v0.8.0](https://github.com/storytold/pdfcraft/releases/tag/v0.8.0) | 73 | · | 68 | 5 | · | · | · | 65 | 3 |
+| _unreleased (main)_ | 220 | 3 | 211 | 1 | · | 3 | 2 | 202 | 12 |
+| **Released total** | **964** | **34** | **694** | **172** | **0** | **57** | **7** | **631** | **97** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
 
@@ -78,13 +80,13 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 178 people have contributed to released changes.
-- The first release had 1 person and the latest had 103.
-- In the latest release, 72 of the 103 people were contributing for the first time.
-- The most active person, @echelon, authored 30% of all changes, and the three most active authored 42% between them.
-- 74% of changes say an AI agent was involved (616 of 827).
-- That share has gone down: 97% in the first 4 releases and 67% in the last 4 releases.
-- The agents named most are Claude (566 changes) and OpenAI Codex / ChatGPT (67).
+- 188 people have contributed to released changes.
+- The first release had 1 person and the latest had 34; the most in one release was 103, in v0.7.1 (12 Oct).
+- In the latest release, 10 of the 34 people were contributing for the first time.
+- The most active person, @echelon, authored 27% of all changes, and the three most active authored 41% between them.
+- 72% of changes say an AI agent was involved (645 of 900).
+- That share has gone down: 97% in the first 4 releases and 61% in the last 4 releases.
+- The agents named most are Claude (588 changes) and OpenAI Codex / ChatGPT (74).
 - These figures only count changes that say so, so the real share may be higher.
 
 | Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
@@ -97,9 +99,10 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.5.0](https://github.com/storytold/pdfcraft/releases/tag/v0.5.0) | 62 | 48 | 150 | 84% | · | Claude, OpenAI Codex / ChatGPT, GLM (Z.ai), GitHub Copilot, Cursor | · |
 | [v0.6.0](https://github.com/storytold/pdfcraft/releases/tag/v0.6.0) | 37 | 22 | 81 | 65% | · | Claude, opencode, OpenAI Codex / ChatGPT, GLM (Z.ai) | · |
 | [v0.7.1](https://github.com/storytold/pdfcraft/releases/tag/v0.7.1) | 103 | 72 | 102 | 46% | · | Claude, OpenAI Codex / ChatGPT, Muse Spark (Meta), GitHub Copilot | · |
-| _unreleased (main)_ | 34 | 10 | 28 | 39% | · | Claude, OpenAI Codex / ChatGPT | · |
-| **Released total** | **178** |  | **616** | 74% | **0** | Claude, OpenAI Codex / ChatGPT, opencode, GLM (Z.ai), GitHub Copilot, Muse Spark (Meta), Cursor | · |
+| [v0.8.0](https://github.com/storytold/pdfcraft/releases/tag/v0.8.0) | 34 | 10 | 29 | 40% | · | Claude, OpenAI Codex / ChatGPT | · |
+| _unreleased (main)_ | 86 | 42 | 161 | 75% | · | Claude, OpenAI Codex / ChatGPT, GLM (Z.ai), Cursor | · |
+| **Released total** | **188** |  | **645** | 72% | **0** | Claude, OpenAI Codex / ChatGPT, opencode, GLM (Z.ai), GitHub Copilot, Muse Spark (Meta), Cursor | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 
-Most active humans in released changes: @echelon (598), @cyfung1031 (87), @jcl-bit (23), @MarekSpodBiedry (21), @earlvanze (20), @DWAA1660 (19), @Streetblock (19), @marcoarnulfo (18), @LloydNicholson (17), @bartalos86 (16).
+Most active humans in released changes: @echelon (612), @cyfung1031 (88), @marcoarnulfo (40), @jcl-bit (24), @MarekSpodBiedry (23), @earlvanze (22), @bartalos86 (19), @DWAA1660 (19), @Streetblock (19), @LloydNicholson (17).

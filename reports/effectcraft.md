@@ -1,6 +1,6 @@
 # effectcraft — changes per release
 
-10 releases, 2026-10-02 → 2026-10-12. Each release is counted as the changes that landed between the previous release tag and its own; the first one is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised. The charts cover released changes; the commentary under them is generated from the same numbers.
+11 releases, 2026-10-02 → 2026-10-14. Each release is counted as the changes that landed between the previous release tag and its own; the first one is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised. The charts cover released changes; the commentary under them is generated from the same numbers.
 
 ## Changes by type
 
@@ -16,14 +16,14 @@
 
 **What this shows**
 
-- effectcraft has had 10 releases with 779 changes in total, over 10 days.
-- The biggest release was v0.9.2 (12 Oct) with 140 changes, which is 18% of everything released so far.
-- Release size has stayed fairly steady: the first 5 releases averaged 75 changes each and the last 5 releases averaged 81.
-- Overall, fixes make up 35% of changes and features 34%.
-- The work has shifted from building new things to fixing: features went from 53% of changes in the first 5 releases to 17% in the last 5 releases, and fixes from 13% to 56%.
-- Performance work is 6% of changes (48), most of it in v0.2.0 (5 Oct), which had 21.
-- After features and fixes, the next biggest group is documentation at 8%.
-- Since the last release, 113 more changes have landed on main and not been released yet: 22 features and 70 fixes among them.
+- effectcraft has had 11 releases with 893 changes in total, over 12 days.
+- The biggest release was v0.9.2 (12 Oct) with 140 changes, which is 16% of everything released so far.
+- Release size has stayed fairly steady: the first 5 releases averaged 75 changes each and the last 5 releases averaged 96.
+- Overall, fixes make up 39% of changes and features 32%.
+- The work has shifted from building new things to fixing: features went from 53% of changes in the first 5 releases to 18% in the last 5 releases, and fixes from 13% to 59%.
+- Performance work is 6% of changes (52), most of it in v0.2.0 (5 Oct), which had 21.
+- After features and fixes, the next biggest group is documentation at 7%.
+- Since the last release, 79 more changes have landed on main and not been released yet: 3 features and 59 fixes among them.
 
 | Release | Published | Changes | Feature | Fix | Perf | i18n | Docs | Test | Build/CI | Release | Refactor | Deps | Security | Revert | Other |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -37,19 +37,20 @@
 | [v0.7.0](https://github.com/storytold/effectcraft/releases/tag/v0.7.0) | 2026-10-10 | 66 | 4 | 42 | · | 9 | 5 | 2 | 2 | 1 | · | · | · | 1 | · |
 | [v0.8.0](https://github.com/storytold/effectcraft/releases/tag/v0.8.0) | 2026-10-11 | 124 | 16 | 74 | 4 | 9 | 2 | 5 | 2 | 1 | 4 | 1 | · | · | 6 |
 | [v0.9.2](https://github.com/storytold/effectcraft/releases/tag/v0.9.2) | 2026-10-12 | 140 | 40 | 73 | 1 | 6 | 2 | 6 | 2 | 4 | 3 | · | 3 | · | · |
-| _unreleased (main)_ | 2026-10-13 | 113 | 22 | 70 | 4 | 6 | 2 | 3 | · | · | 6 | · | · | · | · |
-| **Released total** |  | **779** | **268** | **275** | **48** | **25** | **63** | **29** | **17** | **18** | **19** | **2** | **5** | **1** | **9** |
+| [v0.10.0](https://github.com/storytold/effectcraft/releases/tag/v0.10.0) | 2026-10-14 | 114 | 22 | 70 | 4 | 6 | 2 | 3 | · | 1 | 6 | · | · | · | · |
+| _unreleased (main)_ | 2026-10-17 | 79 | 3 | 59 | 5 | 3 | 3 | 1 | 4 | · | 1 | · | · | · | · |
+| **Released total** |  | **893** | **290** | **345** | **52** | **31** | **65** | **32** | **17** | **19** | **25** | **2** | **5** | **1** | **9** |
 
-Share of released changes: feature 34%, fix 35%, perf 6%, i18n 3%, docs 8%, test 4%, build/ci 2%, release 2%, refactor 2%, security 1%, other 1%.
+Share of released changes: feature 32%, fix 39%, perf 6%, i18n 3%, docs 7%, test 4%, build/ci 2%, release 2%, refactor 3%, security 1%, other 1%.
 
 ## How changes landed
 
 **What this shows**
 
-- 52% of changes came in through pull requests; the rest were committed directly.
-- That has grown: pull requests were 19% of changes in the first 5 releases and 82% in the last 5 releases.
-- Of the 404 pull requests, 61% came from people outside the core team.
-- Outside contributions have gone up: 11% of pull requests in the first 5 releases, 71% in the last 5 releases.
+- 57% of changes came in through pull requests; the rest were committed directly.
+- That has grown: pull requests were 19% of changes in the first 5 releases and 84% in the last 5 releases.
+- Of the 506 pull requests, 69% came from people outside the core team.
+- Outside contributions have gone up: 11% of pull requests in the first 5 releases, 82% in the last 5 releases.
 
 | Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
@@ -63,8 +64,9 @@ Share of released changes: feature 34%, fix 35%, perf 6%, i18n 3%, docs 8%, test
 | [v0.7.0](https://github.com/storytold/effectcraft/releases/tag/v0.7.0) | 170 | 52 | · | 14 | · | 102 | 2 | 28 | 24 |
 | [v0.8.0](https://github.com/storytold/effectcraft/releases/tag/v0.8.0) | 300 | 93 | 2 | · | 29 | 166 | 10 | 82 | 13 |
 | [v0.9.2](https://github.com/storytold/effectcraft/releases/tag/v0.9.2) | 284 | 122 | 1 | 17 | · | 141 | 3 | 119 | 4 |
-| _unreleased (main)_ | 284 | 101 | 1 | 11 | · | 169 | 2 | 102 | · |
-| **Released total** | **1586** | **396** | **8** | **346** | **29** | **630** | **177** | **246** | **158** |
+| [v0.10.0](https://github.com/storytold/effectcraft/releases/tag/v0.10.0) | 285 | 101 | 1 | 12 | · | 169 | 2 | 102 | · |
+| _unreleased (main)_ | 178 | 73 | 6 | · | · | 91 | 8 | 76 | 3 |
+| **Released total** | **1871** | **497** | **9** | **358** | **29** | **799** | **179** | **348** | **158** |
 
 Changes = PR merges + squash merges + direct commits + batch commits. Commits = changes + commits inside PRs + sync merges.
 
@@ -82,14 +84,14 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 66 people have contributed to released changes.
+- 80 people have contributed to released changes.
 - The first release had 1 person and the latest had 27; the most in one release was 33, in v0.8.0 (11 Oct).
-- In the latest release, 13 of the 27 people were contributing for the first time.
-- The most active person, @echelon, authored 49% of all changes, and the three most active authored 70% between them.
-- 89% of changes say an AI agent was involved (696 of 779).
-- That share has gone down: 98% in the first 5 releases and 81% in the last 5 releases.
-- Claude accounts for nearly all of the changes that name an agent; 1 other agent is named on 14 changes between them.
-- In 123 changes the agent is the commit author itself, not only a co-author.
+- In the latest release, 14 of the 27 people were contributing for the first time.
+- The most active person, @echelon, authored 44% of all changes, and the three most active authored 64% between them.
+- 85% of changes say an AI agent was involved (763 of 893).
+- That share has gone down: 98% in the first 5 releases and 76% in the last 5 releases.
+- Claude accounts for nearly all of the changes that name an agent; 1 other agent is named on 15 changes between them.
+- In 126 changes the agent is the commit author itself, not only a co-author.
 - These figures only count changes that say so, so the real share may be higher.
 
 | Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
@@ -104,9 +106,10 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.7.0](https://github.com/storytold/effectcraft/releases/tag/v0.7.0) | 21 | 15 | 52 | 79% | · | Claude, OpenAI Codex / ChatGPT | · |
 | [v0.8.0](https://github.com/storytold/effectcraft/releases/tag/v0.8.0) | 33 | 25 | 117 | 94% | 115 | Claude, OpenAI Codex / ChatGPT | · |
 | [v0.9.2](https://github.com/storytold/effectcraft/releases/tag/v0.9.2) | 27 | 13 | 93 | 66% | · | Claude | · |
-| _unreleased (main)_ | 27 | 14 | 66 | 58% | 3 | Claude, OpenAI Codex / ChatGPT | · |
-| **Released total** | **66** |  | **696** | 89% | **123** | Claude, OpenAI Codex / ChatGPT | · |
+| [v0.10.0](https://github.com/storytold/effectcraft/releases/tag/v0.10.0) | 27 | 14 | 67 | 59% | 3 | Claude, OpenAI Codex / ChatGPT | · |
+| _unreleased (main)_ | 30 | 11 | 37 | 47% | · | Claude, OpenAI Codex / ChatGPT, DeepSeek | · |
+| **Released total** | **80** |  | **763** | 85% | **126** | Claude, OpenAI Codex / ChatGPT | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 
-Most active humans in released changes: @echelon (532), @bflatastic (135), @vangel76 (46), @Ni-zav (25), @MarekSpodBiedry (23), @pravdomil (15), @vbasky (13), @sanyamsingh001 (10), @tylerjenningsw (9), @storybored379 (8).
+Most active humans in released changes: @echelon (643), @bflatastic (135), @vangel76 (62), @pravdomil (29), @Ni-zav (25), @MarekSpodBiedry (23), @vbasky (23), @nanox333 (19), @marcoarnulfo (12), @tylerjenningsw (12).

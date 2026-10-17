@@ -1,57 +1,57 @@
 {
- "generated": "2026-10-14",
+ "generated": "2026-10-17",
  "repos": [
   {
    "name": "cadcraft",
    "people": {
-    "humans": 35,
+    "humans": 57,
     "agents": [
      {
       "name": "Claude",
-      "changes": 319
+      "changes": 403
      }
     ],
     "bots": 0,
     "top": [
      {
       "name": "@vangel76",
-      "changes": 193
-     },
-     {
-      "name": "@MarekSpodBiedry",
-      "changes": 65
+      "changes": 203
      },
      {
       "name": "@echelon",
-      "changes": 50
+      "changes": 115
+     },
+     {
+      "name": "@MarekSpodBiedry",
+      "changes": 66
+     },
+     {
+      "name": "@marcoarnulfo",
+      "changes": 36
+     },
+     {
+      "name": "@aldozar",
+      "changes": 16
+     },
+     {
+      "name": "@codyvogt",
+      "changes": 14
      },
      {
       "name": "@SBaksa",
-      "changes": 11
+      "changes": 14
      },
      {
       "name": "@Tru10",
       "changes": 10
      },
      {
-      "name": "@aldozar",
-      "changes": 9
+      "name": "@LloydNicholson",
+      "changes": 8
      },
      {
       "name": "@Ni-zav",
       "changes": 8
-     },
-     {
-      "name": "@switch87",
-      "changes": 8
-     },
-     {
-      "name": "@DWAA1660",
-      "changes": 7
-     },
-     {
-      "name": "@LloydNicholson",
-      "changes": 7
      }
     ]
    },
@@ -247,15 +247,17 @@
      }
     },
     {
-     "key": "unreleased",
-     "label": "Unreleased",
-     "tags": [],
-     "date": "2026-10-13T10:58:50Z",
-     "url": "",
-     "unreleased": true,
+     "key": "v0.7.0",
+     "label": "v0.7.0",
+     "tags": [
+      "v0.7.0"
+     ],
+     "date": "2026-10-14T15:29:49Z",
+     "url": "https://github.com/storytold/cadcraft/releases/tag/v0.7.0",
+     "unreleased": false,
      "uncategorised": false,
-     "commits": 109,
-     "changes": 109,
+     "commits": 110,
+     "changes": 110,
      "counts": {
       "feature": 25,
       "fix": 64,
@@ -264,7 +266,7 @@
       "docs": 6,
       "test": 3,
       "build-ci": 0,
-      "release": 0,
+      "release": 1,
       "refactor": 3,
       "deps": 0,
       "security": 0,
@@ -278,7 +280,41 @@
        "Claude"
       ],
       "bots": 0,
-      "agentDisclosed": 83,
+      "agentDisclosed": 84,
+      "agentAuthored": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-16T03:26:48Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 3,
+     "changes": 2,
+     "counts": {
+      "feature": 0,
+      "fix": 1,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 1,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     },
+     "contributors": {
+      "humans": 3,
+      "newHumans": 0,
+      "agents": [],
+      "bots": 0,
+      "agentDisclosed": 0,
       "agentAuthored": 0
      }
     }
@@ -287,33 +323,45 @@
   {
    "name": "soundcraft",
    "people": {
-    "humans": 22,
+    "humans": 37,
     "agents": [
      {
       "name": "Claude",
-      "changes": 110
+      "changes": 139
      }
     ],
     "bots": 0,
     "top": [
      {
       "name": "@echelon",
-      "changes": 136
-     },
-     {
-      "name": "@vbasky",
-      "changes": 23
+      "changes": 236
      },
      {
       "name": "@grovebit",
-      "changes": 15
+      "changes": 53
+     },
+     {
+      "name": "@marcoarnulfo",
+      "changes": 26
+     },
+     {
+      "name": "@vbasky",
+      "changes": 24
+     },
+     {
+      "name": "@MarekSpodBiedry",
+      "changes": 7
      },
      {
       "name": "t",
       "changes": 7
      },
      {
-      "name": "@MarekSpodBiedry",
+      "name": "@reoniazx",
+      "changes": 6
+     },
+     {
+      "name": "@Silvertree2010",
       "changes": 6
      },
      {
@@ -321,20 +369,8 @@
       "changes": 5
      },
      {
-      "name": "@reoniazx",
+      "name": "@itrycodinganditsbad",
       "changes": 5
-     },
-     {
-      "name": "@Garygunn94",
-      "changes": 4
-     },
-     {
-      "name": "@Jafz2001",
-      "changes": 4
-     },
-     {
-      "name": "@salignatmoandal",
-      "changes": 3
      }
     ]
    },
@@ -492,24 +528,26 @@
      }
     },
     {
-     "key": "unreleased",
-     "label": "Unreleased",
-     "tags": [],
-     "date": "2026-10-13T10:54:02Z",
-     "url": "",
-     "unreleased": true,
+     "key": "v0.7.0",
+     "label": "v0.7.0",
+     "tags": [
+      "v0.7.0"
+     ],
+     "date": "2026-10-14T16:16:07Z",
+     "url": "https://github.com/storytold/soundcraft/releases/tag/v0.7.0",
+     "unreleased": false,
      "uncategorised": false,
-     "commits": 373,
-     "changes": 100,
+     "commits": 375,
+     "changes": 102,
      "counts": {
       "feature": 33,
-      "fix": 58,
+      "fix": 59,
       "perf": 3,
       "i18n": 0,
       "docs": 3,
       "test": 0,
       "build-ci": 0,
-      "release": 0,
+      "release": 1,
       "refactor": 0,
       "deps": 0,
       "security": 3,
@@ -523,7 +561,43 @@
        "Claude"
       ],
       "bots": 0,
-      "agentDisclosed": 27,
+      "agentDisclosed": 29,
+      "agentAuthored": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-16T03:25:01Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 3,
+     "changes": 2,
+     "counts": {
+      "feature": 0,
+      "fix": 1,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 1,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     },
+     "contributors": {
+      "humans": 3,
+      "newHumans": 1,
+      "agents": [
+       "Claude"
+      ],
+      "bots": 0,
+      "agentDisclosed": 1,
       "agentAuthored": 0
      }
     }
@@ -930,15 +1004,15 @@
      "key": "unreleased",
      "label": "Unreleased",
      "tags": [],
-     "date": "2026-10-14T05:40:50Z",
+     "date": "2026-10-16T02:46:32Z",
      "url": "",
      "unreleased": true,
      "uncategorised": false,
-     "commits": 2,
-     "changes": 2,
+     "commits": 4,
+     "changes": 4,
      "counts": {
-      "feature": 0,
-      "fix": 2,
+      "feature": 1,
+      "fix": 3,
       "perf": 0,
       "i18n": 0,
       "docs": 0,
@@ -952,11 +1026,13 @@
       "other": 0
      },
      "contributors": {
-      "humans": 2,
-      "newHumans": 2,
-      "agents": [],
+      "humans": 4,
+      "newHumans": 3,
+      "agents": [
+       "Claude"
+      ],
       "bots": 0,
-      "agentDisclosed": 0,
+      "agentDisclosed": 1,
       "agentAuthored": 0
      }
     }
@@ -965,18 +1041,18 @@
   {
    "name": "deckcraft",
    "people": {
-    "humans": 17,
+    "humans": 19,
     "agents": [
      {
       "name": "Claude",
-      "changes": 57
+      "changes": 162
      }
     ],
     "bots": 0,
     "top": [
      {
       "name": "@echelon",
-      "changes": 47
+      "changes": 155
      },
      {
       "name": "@alexanderalber",
@@ -991,11 +1067,15 @@
       "changes": 5
      },
      {
-      "name": "@dylanmtaylor",
-      "changes": 2
+      "name": "@MarekSpodBiedry",
+      "changes": 3
      },
      {
-      "name": "@MarekSpodBiedry",
+      "name": "@Silvertree2010",
+      "changes": 3
+     },
+     {
+      "name": "@dylanmtaylor",
       "changes": 2
      },
      {
@@ -1003,15 +1083,11 @@
       "changes": 2
      },
      {
+      "name": "@xmaks82",
+      "changes": 2
+     },
+     {
       "name": "@DimaSmaha",
-      "changes": 1
-     },
-     {
-      "name": "@DWAA1660",
-      "changes": 1
-     },
-     {
-      "name": "@hamzaelkachtaf4-star",
       "changes": 1
      }
     ]
@@ -1208,15 +1284,17 @@
      }
     },
     {
-     "key": "unreleased",
-     "label": "Unreleased",
-     "tags": [],
-     "date": "2026-10-13T12:16:41Z",
-     "url": "",
-     "unreleased": true,
+     "key": "v0.7.0",
+     "label": "v0.7.0",
+     "tags": [
+      "v0.7.0"
+     ],
+     "date": "2026-10-14T15:04:51Z",
+     "url": "https://github.com/storytold/deckcraft/releases/tag/v0.7.0",
+     "unreleased": false,
      "uncategorised": false,
-     "commits": 112,
-     "changes": 112,
+     "commits": 113,
+     "changes": 113,
      "counts": {
       "feature": 18,
       "fix": 85,
@@ -1225,7 +1303,7 @@
       "docs": 7,
       "test": 1,
       "build-ci": 0,
-      "release": 0,
+      "release": 1,
       "refactor": 1,
       "deps": 0,
       "security": 0,
@@ -1239,8 +1317,45 @@
        "Claude"
       ],
       "bots": 0,
-      "agentDisclosed": 104,
+      "agentDisclosed": 105,
       "agentAuthored": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-16T05:13:10Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 721,
+     "changes": 373,
+     "counts": {
+      "feature": 123,
+      "fix": 152,
+      "perf": 6,
+      "i18n": 0,
+      "docs": 2,
+      "test": 5,
+      "build-ci": 4,
+      "release": 0,
+      "refactor": 67,
+      "deps": 0,
+      "security": 13,
+      "revert": 0,
+      "other": 1
+     },
+     "contributors": {
+      "humans": 36,
+      "newHumans": 28,
+      "agents": [
+       "Cursor",
+       "Claude"
+      ],
+      "bots": 0,
+      "agentDisclosed": 234,
+      "agentAuthored": 1
      }
     }
    ]
@@ -1248,11 +1363,11 @@
   {
    "name": "gridcraft",
    "people": {
-    "humans": 44,
+    "humans": 59,
     "agents": [
      {
       "name": "Claude",
-      "changes": 161
+      "changes": 213
      },
      {
       "name": "OpenAI Codex / ChatGPT",
@@ -1263,22 +1378,26 @@
     "top": [
      {
       "name": "@echelon",
-      "changes": 248
-     },
-     {
-      "name": "@vangel76",
-      "changes": 50
-     },
-     {
-      "name": "@nihilist-narwhal",
-      "changes": 29
-     },
-     {
-      "name": "@harrisonoconnorhover",
-      "changes": 20
+      "changes": 411
      },
      {
       "name": "@MarekSpodBiedry",
+      "changes": 84
+     },
+     {
+      "name": "@vangel76",
+      "changes": 61
+     },
+     {
+      "name": "@marcoarnulfo",
+      "changes": 34
+     },
+     {
+      "name": "@nihilist-narwhal",
+      "changes": 34
+     },
+     {
+      "name": "@harrisonoconnorhover",
       "changes": 20
      },
      {
@@ -1287,19 +1406,15 @@
      },
      {
       "name": "@neilcawse",
-      "changes": 10
+      "changes": 15
      },
      {
       "name": "@justinjohn0306",
       "changes": 8
      },
      {
-      "name": "@GhostMitra",
-      "changes": 5
-     },
-     {
-      "name": "@DWAA1660",
-      "changes": 4
+      "name": "@Dejan-Port",
+      "changes": 6
      }
     ]
    },
@@ -1496,15 +1611,17 @@
      }
     },
     {
-     "key": "unreleased",
-     "label": "Unreleased",
-     "tags": [],
-     "date": "2026-10-13T06:04:03Z",
-     "url": "",
-     "unreleased": true,
+     "key": "v0.7.0",
+     "label": "v0.7.0",
+     "tags": [
+      "v0.7.0"
+     ],
+     "date": "2026-10-14T15:36:59Z",
+     "url": "https://github.com/storytold/gridcraft/releases/tag/v0.7.0",
+     "unreleased": false,
      "uncategorised": false,
-     "commits": 407,
-     "changes": 162,
+     "commits": 408,
+     "changes": 163,
      "counts": {
       "feature": 13,
       "fix": 129,
@@ -1513,7 +1630,7 @@
       "docs": 1,
       "test": 8,
       "build-ci": 2,
-      "release": 0,
+      "release": 1,
       "refactor": 3,
       "deps": 0,
       "security": 1,
@@ -1527,8 +1644,44 @@
        "Claude"
       ],
       "bots": 0,
-      "agentDisclosed": 51,
+      "agentDisclosed": 52,
       "agentAuthored": 1
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-16T03:26:45Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 7,
+     "changes": 5,
+     "counts": {
+      "feature": 0,
+      "fix": 3,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 2,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     },
+     "contributors": {
+      "humans": 5,
+      "newHumans": 0,
+      "agents": [
+       "Claude"
+      ],
+      "bots": 0,
+      "agentDisclosed": 1,
+      "agentAuthored": 0
      }
     }
    ]
@@ -1536,42 +1689,54 @@
   {
    "name": "vectorcraft",
    "people": {
-    "humans": 101,
+    "humans": 142,
     "agents": [
      {
       "name": "Claude",
-      "changes": 744
+      "changes": 800
      },
      {
       "name": "OpenAI Codex / ChatGPT",
-      "changes": 6
+      "changes": 21
      },
      {
       "name": "Cursor",
-      "changes": 1
+      "changes": 11
      }
     ],
     "bots": 0,
     "top": [
      {
       "name": "@bflatastic",
-      "changes": 712
-     },
-     {
-      "name": "@echelon",
-      "changes": 153
+      "changes": 1202
      },
      {
       "name": "@dotCooCoo",
-      "changes": 47
+      "changes": 184
+     },
+     {
+      "name": "@echelon",
+      "changes": 154
      },
      {
       "name": "@theironchef",
       "changes": 39
      },
      {
+      "name": "@marcoarnulfo",
+      "changes": 35
+     },
+     {
+      "name": "@switch87",
+      "changes": 35
+     },
+     {
+      "name": "@AyberkA0",
+      "changes": 25
+     },
+     {
       "name": "@imachus",
-      "changes": 23
+      "changes": 24
      },
      {
       "name": "@Ni-zav",
@@ -1580,18 +1745,6 @@
      {
       "name": "@haranishi",
       "changes": 20
-     },
-     {
-      "name": "@IHAGI-c",
-      "changes": 12
-     },
-     {
-      "name": "@Haven-King",
-      "changes": 9
-     },
-     {
-      "name": "@p0lyg0n",
-      "changes": 8
      }
     ]
    },
@@ -2056,15 +2209,17 @@
      }
     },
     {
-     "key": "unreleased",
-     "label": "Unreleased",
-     "tags": [],
-     "date": "2026-10-14T07:12:14Z",
-     "url": "",
-     "unreleased": true,
+     "key": "v0.11.0",
+     "label": "v0.11.0",
+     "tags": [
+      "v0.11.0"
+     ],
+     "date": "2026-10-14T14:54:46Z",
+     "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.11.0",
+     "unreleased": false,
      "uncategorised": false,
-     "commits": 581,
-     "changes": 248,
+     "commits": 582,
+     "changes": 249,
      "counts": {
       "feature": 62,
       "fix": 156,
@@ -2073,7 +2228,7 @@
       "docs": 14,
       "test": 1,
       "build-ci": 2,
-      "release": 0,
+      "release": 1,
       "refactor": 0,
       "deps": 0,
       "security": 4,
@@ -2081,7 +2236,7 @@
       "other": 0
      },
      "contributors": {
-      "humans": 38,
+      "humans": 39,
       "newHumans": 19,
       "agents": [
        "Claude",
@@ -2089,7 +2244,84 @@
        "Cursor"
       ],
       "bots": 0,
-      "agentDisclosed": 21,
+      "agentDisclosed": 22,
+      "agentAuthored": 0
+     }
+    },
+    {
+     "key": "v0.12.0",
+     "label": "v0.12.0",
+     "tags": [
+      "v0.12.0"
+     ],
+     "date": "2026-10-16T12:26:40Z",
+     "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.12.0",
+     "unreleased": false,
+     "uncategorised": false,
+     "commits": 574,
+     "changes": 248,
+     "counts": {
+      "feature": 98,
+      "fix": 125,
+      "perf": 0,
+      "i18n": 7,
+      "docs": 5,
+      "test": 3,
+      "build-ci": 7,
+      "release": 1,
+      "refactor": 2,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     },
+     "contributors": {
+      "humans": 48,
+      "newHumans": 22,
+      "agents": [
+       "Claude",
+       "Cursor",
+       "OpenAI Codex / ChatGPT"
+      ],
+      "bots": 0,
+      "agentDisclosed": 59,
+      "agentAuthored": 1
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-17T13:03:49Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 370,
+     "changes": 160,
+     "counts": {
+      "feature": 42,
+      "fix": 104,
+      "perf": 0,
+      "i18n": 9,
+      "docs": 2,
+      "test": 3,
+      "build-ci": 0,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     },
+     "contributors": {
+      "humans": 23,
+      "newHumans": 8,
+      "agents": [
+       "Claude",
+       "OpenAI Codex / ChatGPT"
+      ],
+      "bots": 0,
+      "agentDisclosed": 44,
       "agentAuthored": 0
      }
     }
@@ -2098,11 +2330,11 @@
   {
    "name": "photocraft",
    "people": {
-    "humans": 255,
+    "humans": 298,
     "agents": [
      {
       "name": "Claude",
-      "changes": 1115
+      "changes": 1328
      },
      {
       "name": "GitHub Copilot",
@@ -2110,15 +2342,15 @@
      },
      {
       "name": "OpenAI Codex / ChatGPT",
-      "changes": 8
+      "changes": 14
+     },
+     {
+      "name": "Cursor",
+      "changes": 3
      },
      {
       "name": "Unnamed agent",
       "changes": 3
-     },
-     {
-      "name": "Cursor",
-      "changes": 2
      },
      {
       "name": "Devin",
@@ -2133,43 +2365,43 @@
     "top": [
      {
       "name": "@echelon",
-      "changes": 680
+      "changes": 825
      },
      {
       "name": "@vangel76",
-      "changes": 131
+      "changes": 153
+     },
+     {
+      "name": "@Ni-zav",
+      "changes": 128
      },
      {
       "name": "@bflatastic",
       "changes": 118
      },
      {
-      "name": "@Ni-zav",
-      "changes": 105
-     },
-     {
       "name": "@davidmann4",
-      "changes": 67
+      "changes": 102
      },
      {
       "name": "@Elvis33LE",
-      "changes": 42
+      "changes": 44
      },
      {
       "name": "@MarekSpodBiedry",
-      "changes": 40
+      "changes": 41
+     },
+     {
+      "name": "@switch87",
+      "changes": 41
      },
      {
       "name": "@kayrockscreenprinting",
-      "changes": 39
+      "changes": 40
      },
      {
       "name": "@itrycodinganditsbad",
-      "changes": 33
-     },
-     {
-      "name": "@agorevski",
-      "changes": 32
+      "changes": 36
      }
     ]
    },
@@ -2528,24 +2760,26 @@
      }
     },
     {
-     "key": "unreleased",
-     "label": "Unreleased",
-     "tags": [],
-     "date": "2026-10-14T08:02:34Z",
-     "url": "",
-     "unreleased": true,
+     "key": "v0.9.0",
+     "label": "v0.9.0",
+     "tags": [
+      "v0.9.0"
+     ],
+     "date": "2026-10-14T16:36:26Z",
+     "url": "https://github.com/storytold/photocraft/releases/tag/v0.9.0",
+     "unreleased": false,
      "uncategorised": false,
-     "commits": 440,
-     "changes": 392,
+     "commits": 442,
+     "changes": 394,
      "counts": {
       "feature": 65,
       "fix": 272,
       "perf": 30,
       "i18n": 10,
       "docs": 8,
-      "test": 6,
+      "test": 7,
       "build-ci": 0,
-      "release": 0,
+      "release": 1,
       "refactor": 1,
       "deps": 0,
       "security": 0,
@@ -2561,7 +2795,45 @@
        "Cursor"
       ],
       "bots": 0,
-      "agentDisclosed": 217,
+      "agentDisclosed": 219,
+      "agentAuthored": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-17T14:39:15Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 277,
+     "changes": 251,
+     "counts": {
+      "feature": 47,
+      "fix": 167,
+      "perf": 15,
+      "i18n": 3,
+      "docs": 5,
+      "test": 2,
+      "build-ci": 8,
+      "release": 0,
+      "refactor": 3,
+      "deps": 0,
+      "security": 1,
+      "revert": 0,
+      "other": 0
+     },
+     "contributors": {
+      "humans": 87,
+      "newHumans": 31,
+      "agents": [
+       "Claude",
+       "Cursor",
+       "DeepSeek"
+      ],
+      "bots": 0,
+      "agentDisclosed": 116,
       "agentAuthored": 0
      }
     }
@@ -2570,15 +2842,15 @@
   {
    "name": "pdfcraft",
    "people": {
-    "humans": 178,
+    "humans": 188,
     "agents": [
      {
       "name": "Claude",
-      "changes": 566
+      "changes": 588
      },
      {
       "name": "OpenAI Codex / ChatGPT",
-      "changes": 67
+      "changes": 74
      },
      {
       "name": "opencode",
@@ -2605,23 +2877,31 @@
     "top": [
      {
       "name": "@echelon",
-      "changes": 598
+      "changes": 612
      },
      {
       "name": "@cyfung1031",
-      "changes": 87
+      "changes": 88
+     },
+     {
+      "name": "@marcoarnulfo",
+      "changes": 40
      },
      {
       "name": "@jcl-bit",
-      "changes": 23
+      "changes": 24
      },
      {
       "name": "@MarekSpodBiedry",
-      "changes": 21
+      "changes": 23
      },
      {
       "name": "@earlvanze",
-      "changes": 20
+      "changes": 22
+     },
+     {
+      "name": "@bartalos86",
+      "changes": 19
      },
      {
       "name": "@DWAA1660",
@@ -2632,16 +2912,8 @@
       "changes": 19
      },
      {
-      "name": "@marcoarnulfo",
-      "changes": 18
-     },
-     {
       "name": "@LloydNicholson",
       "changes": 17
-     },
-     {
-      "name": "@bartalos86",
-      "changes": 16
      }
     ]
    },
@@ -2964,15 +3236,17 @@
      }
     },
     {
-     "key": "unreleased",
-     "label": "Unreleased",
-     "tags": [],
-     "date": "2026-10-14T06:25:22Z",
-     "url": "",
-     "unreleased": true,
+     "key": "v0.8.0",
+     "label": "v0.8.0",
+     "tags": [
+      "v0.8.0"
+     ],
+     "date": "2026-10-14T15:21:59Z",
+     "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.8.0",
+     "unreleased": false,
      "uncategorised": false,
-     "commits": 72,
-     "changes": 72,
+     "commits": 73,
+     "changes": 73,
      "counts": {
       "feature": 9,
       "fix": 56,
@@ -2981,7 +3255,7 @@
       "docs": 3,
       "test": 0,
       "build-ci": 1,
-      "release": 0,
+      "release": 1,
       "refactor": 1,
       "deps": 0,
       "security": 1,
@@ -2996,7 +3270,46 @@
        "OpenAI Codex / ChatGPT"
       ],
       "bots": 0,
-      "agentDisclosed": 28,
+      "agentDisclosed": 29,
+      "agentAuthored": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-16T22:05:39Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 220,
+     "changes": 215,
+     "counts": {
+      "feature": 54,
+      "fix": 130,
+      "perf": 7,
+      "i18n": 4,
+      "docs": 4,
+      "test": 9,
+      "build-ci": 2,
+      "release": 0,
+      "refactor": 3,
+      "deps": 0,
+      "security": 2,
+      "revert": 0,
+      "other": 0
+     },
+     "contributors": {
+      "humans": 86,
+      "newHumans": 42,
+      "agents": [
+       "Claude",
+       "OpenAI Codex / ChatGPT",
+       "GLM (Z.ai)",
+       "Cursor"
+      ],
+      "bots": 0,
+      "agentDisclosed": 161,
       "agentAuthored": 0
      }
     }
@@ -3005,15 +3318,15 @@
   {
    "name": "designcraft",
    "people": {
-    "humans": 34,
+    "humans": 45,
     "agents": [
      {
       "name": "Claude",
-      "changes": 330
+      "changes": 361
      },
      {
       "name": "OpenAI Codex / ChatGPT",
-      "changes": 4
+      "changes": 15
      },
      {
       "name": "Codebuff",
@@ -3024,23 +3337,31 @@
     "top": [
      {
       "name": "@echelon",
-      "changes": 320
+      "changes": 334
      },
      {
       "name": "@aiongg",
+      "changes": 36
+     },
+     {
+      "name": "@skylartaylor",
       "changes": 30
+     },
+     {
+      "name": "@moppeeer",
+      "changes": 29
      },
      {
       "name": "@CameronGilroy",
       "changes": 20
      },
      {
-      "name": "@skylartaylor",
-      "changes": 20
-     },
-     {
       "name": "@japbcoelho",
       "changes": 15
+     },
+     {
+      "name": "@sanyamsingh001",
+      "changes": 11
      },
      {
       "name": "@jahala",
@@ -3051,16 +3372,8 @@
       "changes": 6
      },
      {
-      "name": "@moppeeer",
+      "name": "@marcoarnulfo",
       "changes": 5
-     },
-     {
-      "name": "@ShaoWenbinSaleh",
-      "changes": 5
-     },
-     {
-      "name": "@h-a-n-a-s-h-i",
-      "changes": 4
      }
     ]
    },
@@ -3374,15 +3687,17 @@
      }
     },
     {
-     "key": "unreleased",
-     "label": "Unreleased",
-     "tags": [],
-     "date": "2026-10-14T05:54:43Z",
-     "url": "",
-     "unreleased": true,
+     "key": "v0.8.0",
+     "label": "v0.8.0",
+     "tags": [
+      "v0.8.0"
+     ],
+     "date": "2026-10-14T14:15:00Z",
+     "url": "https://github.com/storytold/designcraft/releases/tag/v0.8.0",
+     "unreleased": false,
      "uncategorised": false,
-     "commits": 112,
-     "changes": 68,
+     "commits": 113,
+     "changes": 69,
      "counts": {
       "feature": 17,
       "fix": 48,
@@ -3391,7 +3706,7 @@
       "docs": 1,
       "test": 1,
       "build-ci": 0,
-      "release": 0,
+      "release": 1,
       "refactor": 0,
       "deps": 0,
       "security": 0,
@@ -3406,8 +3721,47 @@
        "OpenAI Codex / ChatGPT"
       ],
       "bots": 0,
-      "agentDisclosed": 41,
+      "agentDisclosed": 42,
       "agentAuthored": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-17T04:00:52Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 1978,
+     "changes": 973,
+     "counts": {
+      "feature": 231,
+      "fix": 460,
+      "perf": 11,
+      "i18n": 60,
+      "docs": 55,
+      "test": 63,
+      "build-ci": 9,
+      "release": 1,
+      "refactor": 50,
+      "deps": 10,
+      "security": 17,
+      "revert": 5,
+      "other": 1
+     },
+     "contributors": {
+      "humans": 80,
+      "newHumans": 52,
+      "agents": [
+       "Claude",
+       "OpenAI Codex / ChatGPT",
+       "Codebuff",
+       "GitHub Copilot"
+      ],
+      "bots": 0,
+      "agentDisclosed": 282,
+      "agentAuthored": 1
      }
     }
    ]
@@ -3415,19 +3769,23 @@
   {
    "name": "filmcraft",
    "people": {
-    "humans": 96,
+    "humans": 109,
     "agents": [
      {
       "name": "Claude",
-      "changes": 625
+      "changes": 667
      },
      {
       "name": "OpenAI Codex / ChatGPT",
-      "changes": 18
+      "changes": 23
      },
      {
       "name": "Kimi",
       "changes": 2
+     },
+     {
+      "name": "GitHub Copilot",
+      "changes": 1
      },
      {
       "name": "Xiaomi MiMo",
@@ -3438,19 +3796,19 @@
     "top": [
      {
       "name": "@echelon",
-      "changes": 791
+      "changes": 867
      },
      {
       "name": "@vangel76",
-      "changes": 76
+      "changes": 87
      },
      {
       "name": "@MarekSpodBiedry",
-      "changes": 42
+      "changes": 45
      },
      {
       "name": "@vbasky",
-      "changes": 42
+      "changes": 44
      },
      {
       "name": "@punkhop",
@@ -3461,20 +3819,20 @@
       "changes": 25
      },
      {
+      "name": "@haranishi",
+      "changes": 20
+     },
+     {
       "name": "@carlitosteso3",
       "changes": 18
      },
      {
-      "name": "@haranishi",
+      "name": "@marcoarnulfo",
       "changes": 17
      },
      {
       "name": "@Ni-zav",
-      "changes": 15
-     },
-     {
-      "name": "@storybored379",
-      "changes": 15
+      "changes": 16
      }
     ]
    },
@@ -3791,15 +4149,17 @@
      }
     },
     {
-     "key": "unreleased",
-     "label": "Unreleased",
-     "tags": [],
-     "date": "2026-10-13T07:00:25Z",
-     "url": "",
-     "unreleased": true,
+     "key": "v0.8.0",
+     "label": "v0.8.0",
+     "tags": [
+      "v0.8.0"
+     ],
+     "date": "2026-10-14T16:28:45Z",
+     "url": "https://github.com/storytold/filmcraft/releases/tag/v0.8.0",
+     "unreleased": false,
      "uncategorised": false,
-     "commits": 186,
-     "changes": 76,
+     "commits": 187,
+     "changes": 77,
      "counts": {
       "feature": 5,
       "fix": 61,
@@ -3808,7 +4168,7 @@
       "docs": 0,
       "test": 1,
       "build-ci": 1,
-      "release": 0,
+      "release": 1,
       "refactor": 2,
       "deps": 0,
       "security": 0,
@@ -3824,8 +4184,44 @@
        "GitHub Copilot"
       ],
       "bots": 0,
-      "agentDisclosed": 47,
+      "agentDisclosed": 48,
       "agentAuthored": 1
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-16T16:08:51Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 7,
+     "changes": 6,
+     "counts": {
+      "feature": 0,
+      "fix": 4,
+      "perf": 0,
+      "i18n": 0,
+      "docs": 0,
+      "test": 0,
+      "build-ci": 2,
+      "release": 0,
+      "refactor": 0,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     },
+     "contributors": {
+      "humans": 6,
+      "newHumans": 1,
+      "agents": [
+       "OpenAI Codex / ChatGPT"
+      ],
+      "bots": 0,
+      "agentDisclosed": 3,
+      "agentAuthored": 0
      }
     }
    ]
@@ -3833,22 +4229,54 @@
   {
    "name": "figcraft",
    "people": {
-    "humans": 2,
+    "humans": 13,
     "agents": [
      {
       "name": "Claude",
-      "changes": 136
+      "changes": 153
      }
     ],
     "bots": 0,
     "top": [
      {
       "name": "@bflatastic",
-      "changes": 183
+      "changes": 218
      },
      {
       "name": "@echelon",
-      "changes": 31
+      "changes": 33
+     },
+     {
+      "name": "@justinjohn0306",
+      "changes": 7
+     },
+     {
+      "name": "@euisuh",
+      "changes": 4
+     },
+     {
+      "name": "@nathan-fontenele",
+      "changes": 3
+     },
+     {
+      "name": "@JeremyYao",
+      "changes": 2
+     },
+     {
+      "name": "@rcoenen",
+      "changes": 2
+     },
+     {
+      "name": "@YTwsy",
+      "changes": 2
+     },
+     {
+      "name": "@fede9234",
+      "changes": 1
+     },
+     {
+      "name": "@giuseeee88",
+      "changes": 1
      }
     ]
    },
@@ -4042,15 +4470,17 @@
      }
     },
     {
-     "key": "unreleased",
-     "label": "Unreleased",
-     "tags": [],
-     "date": "2026-10-14T05:00:20Z",
-     "url": "",
-     "unreleased": true,
+     "key": "v0.6.0",
+     "label": "v0.6.0",
+     "tags": [
+      "v0.6.0"
+     ],
+     "date": "2026-10-14T14:26:24Z",
+     "url": "https://github.com/storytold/figcraft/releases/tag/v0.6.0",
+     "unreleased": false,
      "uncategorised": false,
-     "commits": 53,
-     "changes": 53,
+     "commits": 54,
+     "changes": 54,
      "counts": {
       "feature": 23,
       "fix": 23,
@@ -4059,7 +4489,7 @@
       "docs": 6,
       "test": 0,
       "build-ci": 1,
-      "release": 0,
+      "release": 1,
       "refactor": 0,
       "deps": 0,
       "security": 0,
@@ -4073,7 +4503,44 @@
        "Claude"
       ],
       "bots": 0,
-      "agentDisclosed": 16,
+      "agentDisclosed": 17,
+      "agentAuthored": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-17T15:38:10Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 765,
+     "changes": 156,
+     "counts": {
+      "feature": 16,
+      "fix": 77,
+      "perf": 7,
+      "i18n": 14,
+      "docs": 14,
+      "test": 7,
+      "build-ci": 7,
+      "release": 0,
+      "refactor": 2,
+      "deps": 0,
+      "security": 8,
+      "revert": 0,
+      "other": 4
+     },
+     "contributors": {
+      "humans": 49,
+      "newHumans": 45,
+      "agents": [
+       "Claude",
+       "Codebuff"
+      ],
+      "bots": 0,
+      "agentDisclosed": 38,
       "agentAuthored": 0
      }
     }
@@ -4082,19 +4549,19 @@
   {
    "name": "lightcraft",
    "people": {
-    "humans": 113,
+    "humans": 142,
     "agents": [
      {
       "name": "Claude",
-      "changes": 711
+      "changes": 788
      },
      {
       "name": "OpenAI Codex / ChatGPT",
-      "changes": 34
+      "changes": 39
      },
      {
       "name": "DeepSeek",
-      "changes": 2
+      "changes": 3
      },
      {
       "name": "opencode",
@@ -4103,49 +4570,53 @@
      {
       "name": "GitHub Copilot",
       "changes": 1
+     },
+     {
+      "name": "GLM (Z.ai)",
+      "changes": 1
      }
     ],
     "bots": 0,
     "top": [
      {
       "name": "@echelon",
-      "changes": 491
-     },
-     {
-      "name": "@radialmonster",
-      "changes": 68
+      "changes": 578
      },
      {
       "name": "@bflatastic",
-      "changes": 28
+      "changes": 125
      },
      {
-      "name": "@bitshiftza",
-      "changes": 22
-     },
-     {
-      "name": "@nledford",
-      "changes": 20
-     },
-     {
-      "name": "@AlexChambers",
-      "changes": 18
+      "name": "@radialmonster",
+      "changes": 71
      },
      {
       "name": "@emmertex",
-      "changes": 12
+      "changes": 26
+     },
+     {
+      "name": "@bitshiftza",
+      "changes": 23
+     },
+     {
+      "name": "@nledford",
+      "changes": 23
+     },
+     {
+      "name": "@AlexChambers",
+      "changes": 21
      },
      {
       "name": "@MarekSpodBiedry",
-      "changes": 11
+      "changes": 21
      },
      {
-      "name": "@Exalted5373",
-      "changes": 9
+      "name": "@endthestart",
+      "changes": 20
      },
      {
-      "name": "@GlemNL",
-      "changes": 9
+      "name": "@marcoarnulfo",
+      "changes": 19
      }
     ]
    },
@@ -4465,24 +4936,26 @@
      }
     },
     {
-     "key": "unreleased",
-     "label": "Unreleased",
-     "tags": [],
-     "date": "2026-10-14T06:04:11Z",
-     "url": "",
-     "unreleased": true,
+     "key": "v0.8.0",
+     "label": "v0.8.0",
+     "tags": [
+      "v0.8.0"
+     ],
+     "date": "2026-10-14T15:30:00Z",
+     "url": "https://github.com/storytold/lightcraft/releases/tag/v0.8.0",
+     "unreleased": false,
      "uncategorised": false,
-     "commits": 395,
-     "changes": 183,
+     "commits": 397,
+     "changes": 185,
      "counts": {
       "feature": 27,
       "fix": 112,
       "perf": 12,
       "i18n": 3,
       "docs": 4,
-      "test": 7,
+      "test": 8,
       "build-ci": 2,
-      "release": 0,
+      "release": 1,
       "refactor": 5,
       "deps": 1,
       "security": 6,
@@ -4499,8 +4972,47 @@
        "DeepSeek"
       ],
       "bots": 0,
-      "agentDisclosed": 82,
+      "agentDisclosed": 84,
       "agentAuthored": 1
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-16T03:34:12Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 561,
+     "changes": 226,
+     "counts": {
+      "feature": 58,
+      "fix": 79,
+      "perf": 9,
+      "i18n": 14,
+      "docs": 9,
+      "test": 10,
+      "build-ci": 7,
+      "release": 0,
+      "refactor": 6,
+      "deps": 0,
+      "security": 1,
+      "revert": 0,
+      "other": 33
+     },
+     "contributors": {
+      "humans": 59,
+      "newHumans": 29,
+      "agents": [
+       "Claude",
+       "OpenAI Codex / ChatGPT",
+       "Cursor",
+       "GitHub Copilot"
+      ],
+      "bots": 0,
+      "agentDisclosed": 119,
+      "agentAuthored": 5
      }
     }
    ]
@@ -4508,22 +5020,22 @@
   {
    "name": "effectcraft",
    "people": {
-    "humans": 66,
+    "humans": 80,
     "agents": [
      {
       "name": "Claude",
-      "changes": 693
+      "changes": 759
      },
      {
       "name": "OpenAI Codex / ChatGPT",
-      "changes": 14
+      "changes": 15
      }
     ],
     "bots": 0,
     "top": [
      {
       "name": "@echelon",
-      "changes": 532
+      "changes": 643
      },
      {
       "name": "@bflatastic",
@@ -4531,7 +5043,11 @@
      },
      {
       "name": "@vangel76",
-      "changes": 46
+      "changes": 62
+     },
+     {
+      "name": "@pravdomil",
+      "changes": 29
      },
      {
       "name": "@Ni-zav",
@@ -4542,24 +5058,20 @@
       "changes": 23
      },
      {
-      "name": "@pravdomil",
-      "changes": 15
-     },
-     {
       "name": "@vbasky",
-      "changes": 13
+      "changes": 23
      },
      {
-      "name": "@sanyamsingh001",
-      "changes": 10
+      "name": "@nanox333",
+      "changes": 19
+     },
+     {
+      "name": "@marcoarnulfo",
+      "changes": 12
      },
      {
       "name": "@tylerjenningsw",
-      "changes": 9
-     },
-     {
-      "name": "@storybored379",
-      "changes": 8
+      "changes": 12
      }
     ]
    },
@@ -4948,15 +5460,17 @@
      }
     },
     {
-     "key": "unreleased",
-     "label": "Unreleased",
-     "tags": [],
-     "date": "2026-10-13T09:34:22Z",
-     "url": "",
-     "unreleased": true,
+     "key": "v0.10.0",
+     "label": "v0.10.0",
+     "tags": [
+      "v0.10.0"
+     ],
+     "date": "2026-10-14T16:16:19Z",
+     "url": "https://github.com/storytold/effectcraft/releases/tag/v0.10.0",
+     "unreleased": false,
      "uncategorised": false,
-     "commits": 284,
-     "changes": 113,
+     "commits": 285,
+     "changes": 114,
      "counts": {
       "feature": 22,
       "fix": 70,
@@ -4965,7 +5479,7 @@
       "docs": 2,
       "test": 3,
       "build-ci": 0,
-      "release": 0,
+      "release": 1,
       "refactor": 6,
       "deps": 0,
       "security": 0,
@@ -4980,8 +5494,46 @@
        "OpenAI Codex / ChatGPT"
       ],
       "bots": 0,
-      "agentDisclosed": 66,
+      "agentDisclosed": 67,
       "agentAuthored": 3
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-17T14:58:56Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 178,
+     "changes": 79,
+     "counts": {
+      "feature": 3,
+      "fix": 59,
+      "perf": 5,
+      "i18n": 3,
+      "docs": 3,
+      "test": 1,
+      "build-ci": 4,
+      "release": 0,
+      "refactor": 1,
+      "deps": 0,
+      "security": 0,
+      "revert": 0,
+      "other": 0
+     },
+     "contributors": {
+      "humans": 30,
+      "newHumans": 11,
+      "agents": [
+       "Claude",
+       "OpenAI Codex / ChatGPT",
+       "DeepSeek"
+      ],
+      "bots": 0,
+      "agentDisclosed": 37,
+      "agentAuthored": 0
      }
     }
    ]
@@ -4989,11 +5541,11 @@
   {
    "name": "wordcraft",
    "people": {
-    "humans": 75,
+    "humans": 88,
     "agents": [
      {
       "name": "Claude",
-      "changes": 353
+      "changes": 381
      },
      {
       "name": "OpenAI Codex / ChatGPT",
@@ -5020,23 +5572,23 @@
     "top": [
      {
       "name": "@echelon",
-      "changes": 326
+      "changes": 358
      },
      {
       "name": "@vangel76",
-      "changes": 127
+      "changes": 128
      },
      {
       "name": "@dkhlapov",
-      "changes": 51
+      "changes": 66
      },
      {
       "name": "@MarekSpodBiedry",
-      "changes": 25
+      "changes": 27
      },
      {
       "name": "@naxvog",
-      "changes": 12
+      "changes": 15
      },
      {
       "name": "@goldsbd",
@@ -5258,15 +5810,17 @@
      }
     },
     {
-     "key": "unreleased",
-     "label": "Unreleased",
-     "tags": [],
-     "date": "2026-10-14T06:05:18Z",
-     "url": "",
-     "unreleased": true,
+     "key": "v0.7.0",
+     "label": "v0.7.0",
+     "tags": [
+      "v0.7.0"
+     ],
+     "date": "2026-10-14T13:56:11Z",
+     "url": "https://github.com/storytold/wordcraft/releases/tag/v0.7.0",
+     "unreleased": false,
      "uncategorised": false,
-     "commits": 55,
-     "changes": 48,
+     "commits": 56,
+     "changes": 49,
      "counts": {
       "feature": 7,
       "fix": 33,
@@ -5275,7 +5829,7 @@
       "docs": 1,
       "test": 2,
       "build-ci": 0,
-      "release": 0,
+      "release": 1,
       "refactor": 0,
       "deps": 0,
       "security": 0,
@@ -5283,13 +5837,50 @@
       "other": 0
      },
      "contributors": {
-      "humans": 22,
-      "newHumans": 14,
+      "humans": 21,
+      "newHumans": 13,
       "agents": [
        "Claude"
       ],
       "bots": 0,
-      "agentDisclosed": 27,
+      "agentDisclosed": 28,
+      "agentAuthored": 0
+     }
+    },
+    {
+     "key": "unreleased",
+     "label": "Unreleased",
+     "tags": [],
+     "date": "2026-10-16T03:24:56Z",
+     "url": "",
+     "unreleased": true,
+     "uncategorised": false,
+     "commits": 274,
+     "changes": 270,
+     "counts": {
+      "feature": 39,
+      "fix": 184,
+      "perf": 2,
+      "i18n": 12,
+      "docs": 7,
+      "test": 0,
+      "build-ci": 17,
+      "release": 0,
+      "refactor": 2,
+      "deps": 2,
+      "security": 5,
+      "revert": 0,
+      "other": 0
+     },
+     "contributors": {
+      "humans": 86,
+      "newHumans": 57,
+      "agents": [
+       "Claude",
+       "OpenAI Codex / ChatGPT"
+      ],
+      "bots": 0,
+      "agentDisclosed": 180,
       "agentAuthored": 0
      }
     }
