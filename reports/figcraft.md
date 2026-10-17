@@ -44,7 +44,7 @@ Share of released changes: feature 61%, fix 19%, perf 2%, i18n 2%, docs 8%, buil
 
 - 73% of changes came in through pull requests; the rest were committed directly.
 - Of the 196 pull requests, 13% came from people outside the core team.
-- Outside contributions have gone up: 0% of pull requests in the first 3 releases, 56% in the last 3 releases.
+- Outside contributions have gone up: none of the pull requests in the first 3 releases, 56% in the last 3 releases.
 
 | Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|

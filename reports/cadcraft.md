@@ -20,7 +20,7 @@
 - The biggest release was v0.5.0 (11 Oct) with 188 changes, which is 39% of everything released so far.
 - Releases are getting bigger: the first 3 releases averaged 9 changes each and the last 3 releases averaged 151.
 - Overall, fixes make up 58% of changes and features 29%.
-- The work has shifted from building new things to fixing: features went from 44% of changes in the first 3 releases to 28% in the last 3 releases, and fixes from 0% to 61%.
+- The work has shifted from building new things to fixing: features went from 44% of changes in the first 3 releases to 28% in the last 3 releases, and fixes from none to 61%.
 - Performance work is rare: 9 changes.
 - Since the last release, 2 more changes have landed on main and not been released yet: 0 features and 1 fix among them.
 
@@ -42,9 +42,9 @@ Share of released changes: feature 29%, fix 58%, perf 2%, i18n 3%, docs 2%, test
 **What this shows**
 
 - 91% of changes came in through pull requests; the rest were committed directly.
-- That has grown: pull requests were 19% of changes in the first 3 releases and 96% in the last 3 releases.
+- That has grown: 19% of changes came in through pull requests in the first 3 releases and 96% in the last 3 releases.
 - Of the 440 pull requests, 98% came from people outside the core team.
-- Outside contributions have gone up: 20% of pull requests in the first 3 releases, 99% in the last 3 releases.
+- Outside contributions have gone up: 20% of pull requests in the first 3 releases, over 99% in the last 3 releases.
 
 | Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|

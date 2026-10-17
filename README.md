@@ -162,7 +162,7 @@ Commits inside an ordinary PR branch and plain sync merges (`Merge branch 'main'
 
 ## Files
 
-- `reports/<repo>.md` — one repo's charts, a short plain-English commentary on its trends, and per-release tables: by change type, by how changes landed, and by contributor
+- `reports/<repo>.md` — one repo's charts, a short plain-English commentary on its trends, and per-release tables: by change type, by how changes landed, and by contributor. The commentary rounds shares to whole percentages but never shows 0% or 100%: a share of zero is "none", a complete one is "all", and anything rounded to either end is "under 1%" or "over 99%"
 - `csv/release_stats.csv` — the same numbers, one row per repo and release
 - `csv/changes.csv` — every change with its release, category, basis, landing type, PR number, contributors (human, co-authors, agents, bots) and title
 - `csv/contributors.csv` — every human, agent and bot with their change counts, per repo and across the org (`repo` = `(all)`)

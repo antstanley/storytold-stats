@@ -46,7 +46,7 @@ Share of released changes: feature 20%, fix 63%, perf 5%, i18n 2%, docs 3%, test
 **What this shows**
 
 - 95% of changes came in through pull requests; the rest were committed directly.
-- That has grown: pull requests were 77% of changes in the first 5 releases and 98% in the last 5 releases.
+- That has grown: 77% of changes came in through pull requests in the first 5 releases and 98% in the last 5 releases.
 - Of the 1,984 pull requests, 84% came from people outside the core team.
 - Outside contributions have gone up: 39% of pull requests in the first 5 releases, 90% in the last 5 releases.
 

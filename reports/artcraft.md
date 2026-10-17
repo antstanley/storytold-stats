@@ -63,7 +63,7 @@ Share of released changes: feature 47%, fix 20%, perf 1%, docs 3%, test 1%, buil
 **What this shows**
 
 - 66% of changes came in through pull requests; the rest were committed directly.
-- That has grown: pull requests were 52% of changes in the first 11 releases and 78% in the last 11 releases.
+- That has grown: 52% of changes came in through pull requests in the first 11 releases and 78% in the last 11 releases.
 - Of the 1,007 pull requests, 5% came from people outside the core team.
 
 | Release | Commits | PR merges | Squash merges | Direct commits | Batch commits | Commits inside PRs | Sync merges | Community PRs | Team PRs |

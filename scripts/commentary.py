@@ -15,8 +15,16 @@ def pct(part, whole):
     return pc(100 * part / whole) if whole else "0%"
 
 def pc(p):
-    """A percentage already worked out, as text, by the same rule as pct()."""
-    return "under 1%" if 0 < p < 1 else f"{p:.0f}%"
+    """A percentage already worked out, as text, by the same rule as pct(); nor is a share short of all 100%."""
+    return "under 1%" if 0 < p < 1 else "over 99%" if 99 < p < 100 else f"{p:.0f}%"
+
+def bare(p):
+    """A share whose noun was given earlier in the sentence: 'none', 'all' or a percentage."""
+    return "none" if p == 0 else "all" if p == 100 else pc(p)
+
+def of(p, noun):
+    """A share with its noun: 'none of the changes', 'all of the changes' or '28% of changes'."""
+    return f"none of the {noun}" if p == 0 else f"all of the {noun}" if p == 100 else f"{pc(p)} of {noun}"
 
 def share(part, whole): return 100 * part / whole if whole else 0.0
 def total(releases, key): return sum(r[key] for r in releases)
@@ -63,7 +71,7 @@ def types(repo, releases, unreleased, left_out=()):
     if h:
         f0, f1 = share(total(early, "feature"), total(early, "changes")), share(total(late, "feature"), total(late, "changes"))
         x0, x1 = share(total(early, "fix"), total(early, "changes")), share(total(late, "fix"), total(late, "changes"))
-        detail = f"features went from {pc(f0)} of changes in {early_name} to {pc(f1)} in {late_name}, and fixes from {pc(x0)} to {pc(x1)}"
+        detail = f"features went from {of(f0, "changes")} in {early_name} to {bare(f1)} in {late_name}, and fixes from {bare(x0)} to {bare(x1)}"
         if f1 - f0 <= -10 and x1 - x0 >= 10: out.append(f"The work has shifted from building new things to fixing: {detail}.")
         elif f1 - f0 >= 10 and x1 - x0 <= -10: out.append(f"The work has shifted from fixing to building new things: {detail}.")
         elif abs(f1 - f0) < 10 and abs(x1 - x0) < 10: out.append(f"The balance between features and fixes has not changed much: {detail}.")
@@ -91,8 +99,8 @@ def landing(releases):
     if h:
         early, late, early_name, late_name = h
         p0, p1 = share(via_pr(early), total(early, "changes")), share(via_pr(late), total(late, "changes"))
-        if p1 - p0 >= 20: out.append(f"That has grown: pull requests were {pc(p0)} of changes in {early_name} and {pc(p1)} in {late_name}.")
-        elif p0 - p1 >= 20: out.append(f"That has dropped: pull requests were {pc(p0)} of changes in {early_name} and {pc(p1)} in {late_name}.")
+        if p1 - p0 >= 20: out.append(f"That has grown: {of(p0, "changes")} came in through pull requests in {early_name} and {bare(p1)} in {late_name}.")
+        elif p0 - p1 >= 20: out.append(f"That has dropped: {of(p0, "changes")} came in through pull requests in {early_name} and {bare(p1)} in {late_name}.")
     prs = total(releases, "community_prs") + total(releases, "team_prs")
     if prs:
         outside = total(releases, "community_prs")
@@ -101,7 +109,7 @@ def landing(releases):
         if h:
             c = lambda rs: share(total(rs, "community_prs"), total(rs, "community_prs") + total(rs, "team_prs"))
             if abs(c(late) - c(early)) >= 20:
-                out.append(f"Outside contributions have gone {'up' if c(late) > c(early) else 'down'}: {pc(c(early))} of pull requests in {early_name}, {pc(c(late))} in {late_name}.")
+                out.append(f"Outside contributions have gone {'up' if c(late) > c(early) else 'down'}: {of(c(early), "pull requests")} in {early_name}, {bare(c(late))} in {late_name}.")
     return out
 
 def contributors(releases, people, changes_total):
@@ -137,9 +145,9 @@ def contributors(releases, people, changes_total):
         early, late, early_name, late_name = h
         d0 = share(total(early, "changes_agent_disclosed"), total(early, "changes")); d1 = share(total(late, "changes_agent_disclosed"), total(late, "changes"))
         if abs(d1 - d0) >= 10:
-            out.append(f"That share has gone {'up' if d1 > d0 else 'down'}: {pc(d0)} in {early_name} and {pc(d1)} in {late_name}.")
+            out.append(f"That share has gone {'up' if d1 > d0 else 'down'}: {bare(d0)} in {early_name} and {bare(d1)} in {late_name}.")
         else:
-            out.append(f"That share has stayed about the same over time ({pc(d0)} in {early_name}, {pc(d1)} in {late_name}).")
+            out.append(f"That share has stayed about the same over time ({bare(d0)} in {early_name}, {bare(d1)} in {late_name}).")
     used = lambda a: a["changes_authored"] + a["changes_coauthored"]
     if agents:
         if len(agents) == 1 or used(agents[0]) >= 0.9 * sum(used(a) for a in agents):

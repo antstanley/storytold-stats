@@ -46,7 +46,7 @@ Share of released changes: feature 31%, fix 39%, perf 6%, i18n 3%, docs 6%, test
 **What this shows**
 
 - 65% of changes came in through pull requests; the rest were committed directly.
-- That has grown: pull requests were 27% of changes in the first 4 releases and 83% in the last 4 releases.
+- That has grown: 27% of changes came in through pull requests in the first 4 releases and 83% in the last 4 releases.
 - Of the 630 pull requests, 81% came from people outside the core team.
 - Outside contributions have gone up: 23% of pull requests in the first 4 releases, 91% in the last 4 releases.
 
@@ -85,7 +85,7 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 - In the latest release, 29 of the 51 people were contributing for the first time.
 - The most active person, @echelon, authored 34% of all changes, and the three most active authored 45% between them.
 - 83% of changes say an AI agent was involved (805 of 973).
-- That share has gone down: 99% in the first 4 releases and 74% in the last 4 releases.
+- That share has gone down: over 99% in the first 4 releases and 74% in the last 4 releases.
 - Claude accounts for nearly all of the changes that name an agent; 5 other agents are named on 46 changes between them.
 - In 264 changes the agent is the commit author itself, not only a co-author.
 - These figures only count changes that say so, so the real share may be higher.
