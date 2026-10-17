@@ -115,7 +115,7 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 - Nobody in the latest release was a first-time contributor.
 - The most active person, @echelon, authored 60% of all changes, and the three most active authored 97% between them.
 - Under 1% of changes say an AI agent was involved (6 of 1,522).
-- That share has stayed about the same over time (0% in the first 11 releases, 1% in the last 11 releases).
+- That share has stayed about the same over time (under 1% in the first 11 releases, under 1% in the last 11 releases).
 - Claude accounts for all of the changes that name an agent.
 - These figures only count changes that say so, so the real share may be higher.
 

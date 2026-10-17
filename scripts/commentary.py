@@ -12,8 +12,10 @@ CATS = list(PLURAL)
 
 def pct(part, whole):
     """A whole-number percentage as text; a small non-zero share is 'under 1%', never 0%."""
-    if not whole: return "0%"
-    p = 100 * part / whole
+    return pc(100 * part / whole) if whole else "0%"
+
+def pc(p):
+    """A percentage already worked out, as text, by the same rule as pct()."""
     return "under 1%" if 0 < p < 1 else f"{p:.0f}%"
 
 def share(part, whole): return 100 * part / whole if whole else 0.0
@@ -61,7 +63,7 @@ def types(repo, releases, unreleased, left_out=()):
     if h:
         f0, f1 = share(total(early, "feature"), total(early, "changes")), share(total(late, "feature"), total(late, "changes"))
         x0, x1 = share(total(early, "fix"), total(early, "changes")), share(total(late, "fix"), total(late, "changes"))
-        detail = f"features went from {f0:.0f}% of changes in {early_name} to {f1:.0f}% in {late_name}, and fixes from {x0:.0f}% to {x1:.0f}%"
+        detail = f"features went from {pc(f0)} of changes in {early_name} to {pc(f1)} in {late_name}, and fixes from {pc(x0)} to {pc(x1)}"
         if f1 - f0 <= -10 and x1 - x0 >= 10: out.append(f"The work has shifted from building new things to fixing: {detail}.")
         elif f1 - f0 >= 10 and x1 - x0 <= -10: out.append(f"The work has shifted from fixing to building new things: {detail}.")
         elif abs(f1 - f0) < 10 and abs(x1 - x0) < 10: out.append(f"The balance between features and fixes has not changed much: {detail}.")
@@ -89,8 +91,8 @@ def landing(releases):
     if h:
         early, late, early_name, late_name = h
         p0, p1 = share(via_pr(early), total(early, "changes")), share(via_pr(late), total(late, "changes"))
-        if p1 - p0 >= 20: out.append(f"That has grown: pull requests were {p0:.0f}% of changes in {early_name} and {p1:.0f}% in {late_name}.")
-        elif p0 - p1 >= 20: out.append(f"That has dropped: pull requests were {p0:.0f}% of changes in {early_name} and {p1:.0f}% in {late_name}.")
+        if p1 - p0 >= 20: out.append(f"That has grown: pull requests were {pc(p0)} of changes in {early_name} and {pc(p1)} in {late_name}.")
+        elif p0 - p1 >= 20: out.append(f"That has dropped: pull requests were {pc(p0)} of changes in {early_name} and {pc(p1)} in {late_name}.")
     prs = total(releases, "community_prs") + total(releases, "team_prs")
     if prs:
         outside = total(releases, "community_prs")
@@ -99,7 +101,7 @@ def landing(releases):
         if h:
             c = lambda rs: share(total(rs, "community_prs"), total(rs, "community_prs") + total(rs, "team_prs"))
             if abs(c(late) - c(early)) >= 20:
-                out.append(f"Outside contributions have gone {'up' if c(late) > c(early) else 'down'}: {c(early):.0f}% of pull requests in {early_name}, {c(late):.0f}% in {late_name}.")
+                out.append(f"Outside contributions have gone {'up' if c(late) > c(early) else 'down'}: {pc(c(early))} of pull requests in {early_name}, {pc(c(late))} in {late_name}.")
     return out
 
 def contributors(releases, people, changes_total):
@@ -135,9 +137,9 @@ def contributors(releases, people, changes_total):
         early, late, early_name, late_name = h
         d0 = share(total(early, "changes_agent_disclosed"), total(early, "changes")); d1 = share(total(late, "changes_agent_disclosed"), total(late, "changes"))
         if abs(d1 - d0) >= 10:
-            out.append(f"That share has gone {'up' if d1 > d0 else 'down'}: {d0:.0f}% in {early_name} and {d1:.0f}% in {late_name}.")
+            out.append(f"That share has gone {'up' if d1 > d0 else 'down'}: {pc(d0)} in {early_name} and {pc(d1)} in {late_name}.")
         else:
-            out.append(f"That share has stayed about the same over time ({d0:.0f}% in {early_name}, {d1:.0f}% in {late_name}).")
+            out.append(f"That share has stayed about the same over time ({pc(d0)} in {early_name}, {pc(d1)} in {late_name}).")
     used = lambda a: a["changes_authored"] + a["changes_coauthored"]
     if agents:
         if len(agents) == 1 or used(agents[0]) >= 0.9 * sum(used(a) for a in agents):
