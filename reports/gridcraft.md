@@ -73,10 +73,10 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 59 people have contributed to released changes.
+- 58 people have contributed to released changes.
 - The first release had 1 person and the latest had 27; the most in one release was 35, in v0.6.1 (12 Oct).
 - In the latest release, 15 of the 27 people were contributing for the first time.
-- The most active person, @echelon, authored 13% of all changes, and the three most active authored 48% between them.
+- The most active person, @echelon, authored 14% of all changes, and the three most active authored 48% between them.
 - 52% of changes say an AI agent was involved (216 of 419).
 - That share has gone down: 96% in the first 3 releases and 49% in the last 3 releases.
 - Claude accounts for nearly all of the changes that name an agent; OpenAI Codex / ChatGPT is named on 3 changes.
@@ -86,14 +86,14 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
 |---|--:|--:|--:|--:|--:|---|--:|
 | [v0.1.0](https://github.com/storytold/gridcraft/releases/tag/v0.1.0) | 1 | 1 | 15 | 94% | · | Claude | · |
-| [v0.3.0](https://github.com/storytold/gridcraft/releases/tag/v0.3.0) | 2 | 1 | 7 | 100% | · | Claude | · |
+| [v0.3.0](https://github.com/storytold/gridcraft/releases/tag/v0.3.0) | 1 | · | 7 | 100% | · | Claude | · |
 | [v0.4.0](https://github.com/storytold/gridcraft/releases/tag/v0.4.0) | 2 | 1 | 2 | 100% | · | Claude | · |
 | [v0.5.0](https://github.com/storytold/gridcraft/releases/tag/v0.5.0) | 14 | 13 | 39 | 45% | · | Claude, OpenAI Codex / ChatGPT | · |
 | [v0.6.1](https://github.com/storytold/gridcraft/releases/tag/v0.6.1) | 35 | 28 | 101 | 70% | · | Claude | · |
 | [v0.7.0](https://github.com/storytold/gridcraft/releases/tag/v0.7.0) | 27 | 15 | 52 | 32% | 1 | Claude | · |
 | _unreleased (main)_ | 5 | · | 1 | 20% | · | Claude | · |
-| **Released total** | **59** |  | **216** | 52% | **1** | Claude, OpenAI Codex / ChatGPT | · |
+| **Released total** | **58** |  | **216** | 52% | **1** | Claude, OpenAI Codex / ChatGPT | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 
-Most active humans in released changes: @echelon (411), @MarekSpodBiedry (84), @vangel76 (61), @marcoarnulfo (34), @nihilist-narwhal (34), @harrisonoconnorhover (20), @LloydNicholson (15), @neilcawse (15), @justinjohn0306 (8), @Dejan-Port (6).
+Most active humans in released changes: @echelon (413), @MarekSpodBiedry (84), @vangel76 (61), @marcoarnulfo (34), @nihilist-narwhal (34), @harrisonoconnorhover (20), @LloydNicholson (15), @neilcawse (15), @justinjohn0306 (8), @Dejan-Port (6).

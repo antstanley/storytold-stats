@@ -80,7 +80,7 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 142 people have contributed to released changes.
+- 141 people have contributed to released changes.
 - The first release had 1 person and the latest had 51.
 - In the latest release, 29 of the 51 people were contributing for the first time.
 - The most active person, @echelon, authored 34% of all changes, and the three most active authored 45% between them.
@@ -96,14 +96,14 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.1.1](https://github.com/storytold/lightcraft/releases/tag/v0.1.1) | 1 | · | 48 | 100% | · | Claude | · |
 | [v0.2.0](https://github.com/storytold/lightcraft/releases/tag/v0.2.0) | 4 | 3 | 49 | 100% | · | Claude | · |
 | [v0.2.1](https://github.com/storytold/lightcraft/releases/tag/v0.2.1) | 4 | 2 | 33 | 100% | · | Claude, OpenAI Codex / ChatGPT | · |
-| [v0.4.0](https://github.com/storytold/lightcraft/releases/tag/v0.4.0) | 27 | 25 | 59 | 87% | 1 | Claude, OpenAI Codex / ChatGPT, opencode, GitHub Copilot, DeepSeek | · |
+| [v0.4.0](https://github.com/storytold/lightcraft/releases/tag/v0.4.0) | 26 | 24 | 59 | 87% | 1 | Claude, OpenAI Codex / ChatGPT, opencode, GitHub Copilot, DeepSeek | · |
 | [v0.5.0](https://github.com/storytold/lightcraft/releases/tag/v0.5.0) | 42 | 32 | 140 | 82% | 109 | Claude, OpenAI Codex / ChatGPT, opencode | · |
 | [v0.6.0](https://github.com/storytold/lightcraft/releases/tag/v0.6.0) | 30 | 18 | 70 | 79% | 1 | Claude, OpenAI Codex / ChatGPT | · |
 | [v0.7.1](https://github.com/storytold/lightcraft/releases/tag/v0.7.1) | 48 | 32 | 154 | 96% | 152 | Claude, OpenAI Codex / ChatGPT, DeepSeek | · |
 | [v0.8.0](https://github.com/storytold/lightcraft/releases/tag/v0.8.0) | 51 | 29 | 84 | 45% | 1 | Claude, OpenAI Codex / ChatGPT, GLM (Z.ai), DeepSeek | · |
 | _unreleased (main)_ | 59 | 29 | 119 | 53% | 5 | Claude, OpenAI Codex / ChatGPT, Cursor, GitHub Copilot | · |
-| **Released total** | **142** |  | **805** | 83% | **264** | Claude, OpenAI Codex / ChatGPT, DeepSeek, opencode, GitHub Copilot, GLM (Z.ai) | · |
+| **Released total** | **141** |  | **805** | 83% | **264** | Claude, OpenAI Codex / ChatGPT, DeepSeek, opencode, GitHub Copilot, GLM (Z.ai) | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 
-Most active humans in released changes: @echelon (578), @bflatastic (125), @radialmonster (71), @emmertex (26), @bitshiftza (23), @nledford (23), @AlexChambers (21), @MarekSpodBiedry (21), @endthestart (20), @marcoarnulfo (19).
+Most active humans in released changes: @echelon (580), @bflatastic (125), @radialmonster (71), @emmertex (26), @bitshiftza (23), @nledford (23), @AlexChambers (21), @MarekSpodBiedry (21), @endthestart (20), @marcoarnulfo (19).

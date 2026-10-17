@@ -80,7 +80,7 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 109 people have contributed to released changes.
+- 108 people have contributed to released changes.
 - The first release had 1 person and the latest had 31; the most in one release was 50, in v0.6.0 (11 Oct).
 - In the latest release, 13 of the 31 people were contributing for the first time.
 - The most active person, @echelon, authored 38% of all changes, and the three most active authored 53% between them.
@@ -96,14 +96,14 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.1.1](https://github.com/storytold/filmcraft/releases/tag/v0.1.1) | 1 | · | 39 | 100% | · | Claude | · |
 | [v0.2.0](https://github.com/storytold/filmcraft/releases/tag/v0.2.0) | 2 | 1 | 49 | 100% | · | Claude | · |
 | [v0.2.1](https://github.com/storytold/filmcraft/releases/tag/v0.2.1) | 2 | · | 11 | 100% | · | Claude, OpenAI Codex / ChatGPT | · |
-| [v0.4.0](https://github.com/storytold/filmcraft/releases/tag/v0.4.0) | 19 | 18 | 92 | 95% | · | Claude, OpenAI Codex / ChatGPT | · |
+| [v0.4.0](https://github.com/storytold/filmcraft/releases/tag/v0.4.0) | 18 | 17 | 92 | 95% | · | Claude, OpenAI Codex / ChatGPT | · |
 | [v0.5.0](https://github.com/storytold/filmcraft/releases/tag/v0.5.0) | 29 | 21 | 52 | 83% | 1 | Claude, OpenAI Codex / ChatGPT | · |
 | [v0.6.0](https://github.com/storytold/filmcraft/releases/tag/v0.6.0) | 50 | 38 | 127 | 64% | · | Claude, OpenAI Codex / ChatGPT, Kimi, Xiaomi MiMo | · |
 | [v0.7.2](https://github.com/storytold/filmcraft/releases/tag/v0.7.2) | 33 | 17 | 87 | 56% | 1 | Claude, OpenAI Codex / ChatGPT | · |
 | [v0.8.0](https://github.com/storytold/filmcraft/releases/tag/v0.8.0) | 31 | 13 | 48 | 62% | 1 | Claude, OpenAI Codex / ChatGPT, GitHub Copilot | · |
 | _unreleased (main)_ | 6 | 1 | 3 | 50% | · | OpenAI Codex / ChatGPT | · |
-| **Released total** | **109** |  | **689** | 78% | **3** | Claude, OpenAI Codex / ChatGPT, Kimi, GitHub Copilot, Xiaomi MiMo | · |
+| **Released total** | **108** |  | **689** | 78% | **3** | Claude, OpenAI Codex / ChatGPT, Kimi, GitHub Copilot, Xiaomi MiMo | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 
-Most active humans in released changes: @echelon (867), @vangel76 (87), @MarekSpodBiedry (45), @vbasky (44), @punkhop (26), @ReReddo (25), @haranishi (20), @carlitosteso3 (18), @marcoarnulfo (17), @Ni-zav (16).
+Most active humans in released changes: @echelon (869), @vangel76 (87), @MarekSpodBiedry (45), @vbasky (44), @punkhop (26), @ReReddo (25), @haranishi (20), @carlitosteso3 (18), @marcoarnulfo (17), @Ni-zav (16).

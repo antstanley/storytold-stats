@@ -1,14 +1,12 @@
 repo,contributor,kind,changes_authored,changes_coauthored,changes_disclosing_agent,releases,first_release,last_release
-(all),@echelon,human,3322,2981,2276,132,,
-(all),@bflatastic,human,1495,812,752,57,,
+(all),@echelon,human,2430,2980,2301,110,,
+(all),@bflatastic,human,1011,800,749,37,,
 (all),@vangel76,human,685,9,685,16,,
 (all),@MarekSpodBiedry,human,349,10,73,37,,
 (all),@marcoarnulfo,human,258,1,24,13,,
 (all),@Ni-zav,human,220,5,102,18,,
 (all),@dotCooCoo,human,190,0,13,8,,
 (all),@vbasky,human,140,2,41,21,,
-(all),@tanish2k09,human,104,13,23,18,,
-(all),@h-a-n-a-s-h-i,human,69,36,26,18,,
 (all),@davidmann4,human,102,0,102,4,,
 (all),@switch87,human,90,9,15,19,,
 (all),@cyfung1031,human,93,2,59,9,,
@@ -23,6 +21,7 @@ repo,contributor,kind,changes_authored,changes_coauthored,changes_disclosing_age
 (all),@haranishi,human,53,2,20,12,,
 (all),@grovebit,human,53,0,17,4,,
 (all),@harrisonoconnorhover,human,44,2,10,4,,
+(all),@tanish2k09,human,34,11,22,7,,
 (all),@wstock,human,45,0,45,9,,
 (all),@Elvis33LE,human,43,1,25,5,,
 (all),@dylanmtaylor,human,38,4,10,24,,
@@ -416,7 +415,6 @@ repo,contributor,kind,changes_authored,changes_coauthored,changes_disclosing_age
 (all),@jsymes21-byte,human,2,0,0,1,,
 (all),@juansebsol,human,2,0,1,2,,
 (all),@Kartik8Dwivedi,human,2,0,2,2,,
-(all),@kasisnu,human,1,1,0,1,,
 (all),@kelanna,human,2,0,2,2,,
 (all),@kijoong-kim,human,2,0,2,2,,
 (all),@kikikikier,human,2,0,2,1,,
@@ -516,7 +514,6 @@ repo,contributor,kind,changes_authored,changes_coauthored,changes_disclosing_age
 (all),@AlissonFA,human,1,0,1,1,,
 (all),@alvarohn,human,1,0,1,1,,
 (all),@amitabhthakur,human,1,0,1,1,,
-(all),@amitkojha05,human,1,0,0,1,,
 (all),@anarion80,human,1,0,1,1,,
 (all),@anders94,human,1,0,0,1,,
 (all),@andrewyao,human,1,0,1,1,,
@@ -597,7 +594,6 @@ repo,contributor,kind,changes_authored,changes_coauthored,changes_disclosing_age
 (all),@flyboy-byte,human,1,0,1,1,,
 (all),@flyyangX,human,1,0,1,1,,
 (all),@fplachecinski,human,1,0,1,1,,
-(all),@frankywashere,human,1,0,1,1,,
 (all),@FrederoxDev,human,1,0,1,1,,
 (all),@gangldiego,human,1,0,1,1,,
 (all),@GarrettGR,human,1,0,0,1,,
@@ -643,7 +639,6 @@ repo,contributor,kind,changes_authored,changes_coauthored,changes_disclosing_age
 (all),@JohnnYoru,human,1,0,0,1,,
 (all),@johnstockertutorial-afk,human,1,0,1,1,,
 (all),@josenbobby,human,1,0,1,1,,
-(all),@jtoy,human,1,0,0,1,,
 (all),@juswus2000,human,1,0,1,1,,
 (all),@jyrkive,human,1,0,1,1,,
 (all),@KazW,human,1,0,1,1,,
@@ -878,7 +873,7 @@ repo,contributor,kind,changes_authored,changes_coauthored,changes_disclosing_age
 (all),Waleed,human,0,1,0,1,,
 (all),Walter Boring,human,0,1,0,1,,
 (all),树洋 陈,human,0,1,0,1,,
-(all),Claude,agent,416,6409,,118,,
+(all),Claude,agent,416,6403,,114,,
 (all),OpenAI Codex / ChatGPT,agent,0,208,,36,,
 (all),GitHub Copilot,agent,0,36,,8,,
 (all),Cursor,agent,0,17,,8,,
@@ -892,9 +887,8 @@ repo,contributor,kind,changes_authored,changes_coauthored,changes_disclosing_age
 (all),Muse Spark (Meta),agent,0,2,,1,,
 (all),Qwen,agent,0,1,,1,,
 (all),Xiaomi MiMo,agent,0,1,,1,,
-(all),dependabot[bot],bot,3,0,,1,,
 cadcraft,@vangel76,human,199,4,199,3,v0.5.0,v0.7.0
-cadcraft,@echelon,human,47,68,46,6,v0.1.0,v0.7.0
+cadcraft,@echelon,human,49,68,48,6,v0.1.0,v0.7.0
 cadcraft,@MarekSpodBiedry,human,62,4,28,3,v0.5.0,v0.7.0
 cadcraft,@marcoarnulfo,human,36,0,17,1,v0.7.0,v0.7.0
 cadcraft,@aldozar,human,16,0,16,2,v0.6.2,v0.7.0
@@ -910,7 +904,6 @@ cadcraft,@dylanmtaylor,human,2,4,1,2,v0.5.0,v0.6.2
 cadcraft,@cyfung1031,human,5,0,2,3,v0.5.0,v0.7.0
 cadcraft,@kaffeochknivar,human,5,0,5,1,v0.5.0,v0.5.0
 cadcraft,Chanthawat Kiriyadee,human,0,5,0,1,v0.7.0,v0.7.0
-cadcraft,@h-a-n-a-s-h-i,human,2,2,2,1,v0.3.0,v0.3.0
 cadcraft,@mattlafy,human,4,0,4,1,v0.7.0,v0.7.0
 cadcraft,@rangoDJ,human,4,0,4,1,v0.6.2,v0.6.2
 cadcraft,@asimfali,human,3,0,3,1,v0.7.0,v0.7.0
@@ -951,7 +944,7 @@ cadcraft,@WladmirJunior,human,1,0,1,1,v0.6.2,v0.6.2
 cadcraft,@XusBadia,human,1,0,1,1,v0.4.0,v0.4.0
 cadcraft,@Zaxaerith,human,1,0,0,1,v0.7.0,v0.7.0
 cadcraft,Claude,agent,0,403,,6,v0.1.0,v0.7.0
-soundcraft,@echelon,human,66,170,64,5,v0.3.0,v0.7.0
+soundcraft,@echelon,human,69,170,67,5,v0.3.0,v0.7.0
 soundcraft,@grovebit,human,53,0,17,4,v0.4.0,v0.7.0
 soundcraft,@marcoarnulfo,human,26,0,2,1,v0.7.0,v0.7.0
 soundcraft,@vbasky,human,24,0,10,4,v0.4.0,v0.7.0
@@ -959,7 +952,6 @@ soundcraft,@MarekSpodBiedry,human,7,0,6,2,v0.4.0,v0.7.0
 soundcraft,t,human,0,7,0,1,v0.4.0,v0.4.0
 soundcraft,@reoniazx,human,6,0,3,3,v0.4.0,v0.7.0
 soundcraft,@Silvertree2010,human,6,0,3,1,v0.7.0,v0.7.0
-soundcraft,@h-a-n-a-s-h-i,human,3,2,3,1,v0.3.0,v0.3.0
 soundcraft,@itrycodinganditsbad,human,5,0,5,2,v0.6.1,v0.7.0
 soundcraft,@Jafz2001,human,5,0,2,2,v0.6.1,v0.7.0
 soundcraft,@Garygunn94,human,4,0,4,1,v0.4.0,v0.4.0
@@ -1026,9 +1018,8 @@ craft-launcher,@skylartaylor,human,0,1,0,1,v0.4.0,v0.4.0
 craft-launcher,@Umid0vic,human,1,0,0,1,v0.4.0,v0.4.0
 craft-launcher,@valenfys,human,1,0,1,1,v0.4.0,v0.4.0
 craft-launcher,Claude,agent,0,77,,9,v0.1.0,v0.4.1
-deckcraft,@echelon,human,142,13,138,6,v0.1.0,v0.7.0
+deckcraft,@echelon,human,144,13,140,6,v0.1.0,v0.7.0
 deckcraft,@alexanderalber,human,9,0,9,2,v0.4.0,v0.5.0
-deckcraft,@h-a-n-a-s-h-i,human,2,3,2,2,v0.3.0,v0.4.0
 deckcraft,@LloydNicholson,human,5,0,5,1,v0.5.0,v0.5.0
 deckcraft,@MarekSpodBiedry,human,3,0,1,2,v0.4.0,v0.7.0
 deckcraft,@Silvertree2010,human,2,1,0,1,v0.7.0,v0.7.0
@@ -1046,7 +1037,7 @@ deckcraft,@XusBadia,human,1,0,1,1,v0.4.0,v0.4.0
 deckcraft,Matthias Weber,human,0,1,0,1,v0.4.0,v0.4.0
 deckcraft,Tayeb,human,0,1,0,1,v0.4.0,v0.4.0
 deckcraft,Claude,agent,0,162,,6,v0.1.0,v0.7.0
-gridcraft,@echelon,human,56,355,55,6,v0.1.0,v0.7.0
+gridcraft,@echelon,human,58,355,57,6,v0.1.0,v0.7.0
 gridcraft,@MarekSpodBiedry,human,84,0,4,3,v0.5.0,v0.7.0
 gridcraft,@vangel76,human,61,0,61,2,v0.6.1,v0.7.0
 gridcraft,@marcoarnulfo,human,34,0,1,1,v0.7.0,v0.7.0
@@ -1062,7 +1053,6 @@ gridcraft,@arcanii,human,4,0,4,2,v0.6.1,v0.7.0
 gridcraft,@derechopiano,human,4,0,0,2,v0.6.1,v0.7.0
 gridcraft,@DWAA1660,human,4,0,4,1,v0.5.0,v0.5.0
 gridcraft,@dylanmtaylor,human,4,0,2,2,v0.5.0,v0.6.1
-gridcraft,@h-a-n-a-s-h-i,human,2,2,2,1,v0.3.0,v0.3.0
 gridcraft,@itrycodinganditsbad,human,4,0,4,2,v0.5.0,v0.6.1
 gridcraft,@Zarvinx,human,4,0,0,1,v0.6.1,v0.6.1
 gridcraft,@alexanderalber,human,3,0,3,1,v0.6.1,v0.6.1
@@ -1109,7 +1099,7 @@ gridcraft,Claude,agent,1,212,,6,v0.1.0,v0.7.0
 gridcraft,OpenAI Codex / ChatGPT,agent,0,3,,1,v0.5.0,v0.5.0
 vectorcraft,@bflatastic,human,519,683,406,13,v0.1.0,v0.12.0
 vectorcraft,@dotCooCoo,human,184,0,12,5,v0.8.0,v0.12.0
-vectorcraft,@echelon,human,121,33,113,12,v0.1.0,v0.11.0
+vectorcraft,@echelon,human,123,33,115,12,v0.1.0,v0.11.0
 vectorcraft,@theironchef,human,38,1,38,4,v0.3.0,v0.5.0
 vectorcraft,@marcoarnulfo,human,35,0,0,2,v0.11.0,v0.12.0
 vectorcraft,@switch87,human,35,0,1,3,v0.5.0,v0.12.0
@@ -1140,7 +1130,6 @@ vectorcraft,@dylanmtaylor,human,5,0,0,3,v0.8.0,v0.12.0
 vectorcraft,@midasmatterhorn,human,5,0,0,1,v0.12.0,v0.12.0
 vectorcraft,@EthanSuquet,human,4,0,4,2,v0.4.0,v0.5.0
 vectorcraft,@FredApps,human,4,0,0,2,v0.10.0,v0.12.0
-vectorcraft,@h-a-n-a-s-h-i,human,2,2,2,2,v0.5.0,v0.6.0
 vectorcraft,@itrycodinganditsbad,human,4,0,4,2,v0.10.0,v0.11.0
 vectorcraft,@jmverges,human,4,0,4,1,v0.8.0,v0.8.0
 vectorcraft,@KnottyDyes,human,4,0,3,2,v0.10.0,v0.11.0
@@ -1252,7 +1241,7 @@ vectorcraft,Sarah Wesker,human,0,1,0,1,v0.5.0,v0.5.0
 vectorcraft,Claude,agent,2,798,,14,v0.1.0,v0.12.0
 vectorcraft,OpenAI Codex / ChatGPT,agent,0,21,,4,v0.8.0,v0.12.0
 vectorcraft,Cursor,agent,0,11,,3,v0.8.0,v0.12.0
-photocraft,@echelon,human,262,563,191,10,v0.1.0,v0.9.0
+photocraft,@echelon,human,265,563,194,10,v0.1.0,v0.9.0
 photocraft,@vangel76,human,152,1,152,3,v0.7.0,v0.9.0
 photocraft,@Ni-zav,human,125,3,60,6,v0.3.0,v0.9.0
 photocraft,@bflatastic,human,115,3,104,3,v0.3.0,v0.6.0
@@ -1304,7 +1293,6 @@ photocraft,@skylartaylor,human,6,2,1,2,v0.8.2,v0.9.0
 photocraft,@bommerts,human,7,0,6,3,v0.3.0,v0.9.0
 photocraft,@fabianghe,human,6,1,6,2,v0.7.0,v0.8.2
 photocraft,@FabioLissi,human,7,0,0,1,v0.9.0,v0.9.0
-photocraft,@h-a-n-a-s-h-i,human,3,4,3,2,v0.5.0,v0.6.0
 photocraft,@imSlicedBread,human,7,0,5,2,v0.8.2,v0.9.0
 photocraft,@Jeremy8776,human,6,1,5,3,v0.6.0,v0.8.2
 photocraft,@shmuelbiller1,human,7,0,4,2,v0.6.0,v0.9.0
@@ -1557,7 +1545,7 @@ photocraft,Cursor,agent,0,3,,3,v0.6.0,v0.9.0
 photocraft,Unnamed agent,agent,0,3,,1,v0.8.2,v0.8.2
 photocraft,Devin,agent,0,1,,1,v0.3.0,v0.3.0
 photocraft,Qwen,agent,0,1,,1,v0.5.0,v0.5.0
-pdfcraft,@echelon,human,247,365,240,9,v0.1.0,v0.8.0
+pdfcraft,@echelon,human,249,365,242,9,v0.1.0,v0.8.0
 pdfcraft,@cyfung1031,human,86,2,57,5,v0.4.0,v0.8.0
 pdfcraft,@marcoarnulfo,human,39,1,0,2,v0.7.1,v0.8.0
 pdfcraft,@jcl-bit,human,20,4,20,5,v0.4.0,v0.8.0
@@ -1599,7 +1587,6 @@ pdfcraft,@rp6186030,human,6,0,5,2,v0.7.1,v0.8.0
 pdfcraft,@edurbs,human,5,0,4,3,v0.5.0,v0.7.1
 pdfcraft,@Flowershangfromthebranches,human,2,3,2,1,v0.5.0,v0.5.0
 pdfcraft,@gyurix,human,3,2,0,2,v0.6.0,v0.7.1
-pdfcraft,@h-a-n-a-s-h-i,human,2,3,2,2,v0.4.0,v0.5.0
 pdfcraft,@RicSchonfelder,human,1,4,1,1,v0.4.0,v0.4.0
 pdfcraft,@skylartaylor,human,4,1,0,3,v0.5.0,v0.8.0
 pdfcraft,@taylorandrew07-lab,human,5,0,5,1,v0.6.0,v0.6.0
@@ -1752,7 +1739,7 @@ pdfcraft,GLM (Z.ai),agent,0,3,,3,v0.2.1,v0.6.0
 pdfcraft,GitHub Copilot,agent,0,2,,2,v0.5.0,v0.7.1
 pdfcraft,Muse Spark (Meta),agent,0,2,,1,v0.7.1,v0.7.1
 pdfcraft,Cursor,agent,0,1,,1,v0.5.0,v0.5.0
-designcraft,@echelon,human,268,66,263,9,v0.1.0,v0.8.0
+designcraft,@echelon,human,270,66,265,9,v0.1.0,v0.8.0
 designcraft,@aiongg,human,36,0,12,4,v0.4.0,v0.8.0
 designcraft,@skylartaylor,human,24,6,5,4,v0.4.0,v0.8.0
 designcraft,@moppeeer,human,29,0,25,3,v0.6.0,v0.8.0
@@ -1764,7 +1751,6 @@ designcraft,@storybored379,human,6,0,6,3,v0.2.0,v0.4.0
 designcraft,@marcoarnulfo,human,5,0,0,1,v0.8.0,v0.8.0
 designcraft,@noah1400,human,5,0,0,1,v0.8.0,v0.8.0
 designcraft,@ShaoWenbinSaleh,human,5,0,3,1,v0.4.0,v0.4.0
-designcraft,@h-a-n-a-s-h-i,human,2,2,2,1,v0.4.0,v0.4.0
 designcraft,@KnottyDyes,human,3,0,0,2,v0.7.1,v0.8.0
 designcraft,@kubuntugamer,human,3,0,3,1,v0.6.0,v0.6.0
 designcraft,@vbasky,human,3,0,1,1,v0.6.0,v0.6.0
@@ -1800,7 +1786,7 @@ designcraft,Seon-Jin Yoon,human,0,1,0,1,v0.8.0,v0.8.0
 designcraft,Claude,agent,0,361,,9,v0.1.0,v0.8.0
 designcraft,OpenAI Codex / ChatGPT,agent,0,15,,4,v0.2.1,v0.8.0
 designcraft,Codebuff,agent,0,3,,1,v0.6.0,v0.6.0
-filmcraft,@echelon,human,334,533,324,9,v0.1.0,v0.8.0
+filmcraft,@echelon,human,336,533,326,9,v0.1.0,v0.8.0
 filmcraft,@vangel76,human,87,0,87,3,v0.6.0,v0.8.0
 filmcraft,@MarekSpodBiedry,human,45,0,6,4,v0.5.0,v0.8.0
 filmcraft,@vbasky,human,44,0,9,3,v0.6.0,v0.8.0
@@ -1827,7 +1813,6 @@ filmcraft,@ossini,human,5,0,3,2,v0.6.0,v0.7.2
 filmcraft,@wstock,human,5,0,5,1,v0.5.0,v0.5.0
 filmcraft,@EthanSuquet,human,4,0,4,1,v0.4.0,v0.4.0
 filmcraft,@gyroninja,human,4,0,2,2,v0.6.0,v0.8.0
-filmcraft,@h-a-n-a-s-h-i,human,2,2,2,1,v0.4.0,v0.4.0
 filmcraft,@maccagnit,human,4,0,4,1,v0.6.0,v0.6.0
 filmcraft,@midasdf,human,4,0,4,2,v0.4.0,v0.5.0
 filmcraft,@mutombopr,human,4,0,4,1,v0.6.0,v0.6.0
@@ -1928,7 +1913,7 @@ figcraft,@LabDennis,human,1,0,0,1,v0.6.0,v0.6.0
 figcraft,@muhammadyusuf-kurbonov,human,1,0,1,1,v0.6.0,v0.6.0
 figcraft,@saadkhantareen,human,1,0,0,1,v0.6.0,v0.6.0
 figcraft,Claude,agent,0,153,,5,v0.2.0,v0.6.0
-lightcraft,@echelon,human,333,245,319,9,v0.1.0,v0.8.0
+lightcraft,@echelon,human,335,245,321,9,v0.1.0,v0.8.0
 lightcraft,@bflatastic,human,36,89,12,3,v0.5.0,v0.8.0
 lightcraft,@radialmonster,human,71,0,56,5,v0.4.0,v0.8.0
 lightcraft,@emmertex,human,26,0,26,2,v0.7.1,v0.8.0
@@ -1957,7 +1942,6 @@ lightcraft,@Hanmo123,human,5,0,5,1,v0.5.0,v0.5.0
 lightcraft,@JordyUSA,human,5,0,5,2,v0.7.1,v0.8.0
 lightcraft,@cookingwithsimon,human,4,0,4,2,v0.5.0,v0.7.1
 lightcraft,@DWAA1660,human,4,0,4,3,v0.4.0,v0.6.0
-lightcraft,@h-a-n-a-s-h-i,human,2,2,2,1,v0.4.0,v0.4.0
 lightcraft,@john01px2022,human,4,0,4,1,v0.7.1,v0.7.1
 lightcraft,@lzjtugjc,human,4,0,4,3,v0.4.0,v0.8.0
 lightcraft,@MarkusFriedel,human,4,0,3,1,v0.8.0,v0.8.0
@@ -2076,7 +2060,7 @@ lightcraft,DeepSeek,agent,0,3,,3,v0.4.0,v0.8.0
 lightcraft,opencode,agent,0,2,,2,v0.4.0,v0.5.0
 lightcraft,GitHub Copilot,agent,0,1,,1,v0.4.0,v0.4.0
 lightcraft,GLM (Z.ai),agent,0,1,,1,v0.8.0,v0.8.0
-effectcraft,@echelon,human,390,253,389,11,v0.1.0,v0.10.0
+effectcraft,@echelon,human,392,253,391,11,v0.1.0,v0.10.0
 effectcraft,@bflatastic,human,118,17,108,8,v0.2.0,v0.9.2
 effectcraft,@vangel76,human,62,0,62,2,v0.9.2,v0.10.0
 effectcraft,@pravdomil,human,29,0,29,2,v0.9.2,v0.10.0
@@ -2095,7 +2079,6 @@ effectcraft,@redonion23,human,6,0,6,2,v0.9.2,v0.10.0
 effectcraft,@itrycodinganditsbad,human,5,0,5,2,v0.8.0,v0.9.2
 effectcraft,@cdinhoo,human,4,0,2,3,v0.7.0,v0.9.2
 effectcraft,@cjcwwww,human,4,0,1,3,v0.7.0,v0.10.0
-effectcraft,@h-a-n-a-s-h-i,human,2,2,2,1,v0.6.0,v0.6.0
 effectcraft,@haranishi,human,4,0,4,1,v0.8.0,v0.8.0
 effectcraft,@KattKnight,human,4,0,4,1,v0.8.0,v0.8.0
 effectcraft,@MatejKozlovsky,human,4,0,1,2,v0.8.0,v0.10.0
@@ -2158,13 +2141,12 @@ effectcraft,@XusBadia,human,1,0,1,1,v0.7.0,v0.7.0
 effectcraft,@zitann2020,human,1,0,0,1,v0.10.0,v0.10.0
 effectcraft,Claude,agent,126,633,,11,v0.1.0,v0.10.0
 effectcraft,OpenAI Codex / ChatGPT,agent,0,15,,4,v0.4.0,v0.10.0
-wordcraft,@echelon,human,69,289,68,6,v0.1.0,v0.7.0
+wordcraft,@echelon,human,71,294,70,6,v0.1.0,v0.7.0
 wordcraft,@vangel76,human,124,4,124,3,v0.5.0,v0.7.0
 wordcraft,@dkhlapov,human,65,1,65,4,v0.4.0,v0.7.0
 wordcraft,@MarekSpodBiedry,human,27,0,3,4,v0.4.0,v0.7.0
 wordcraft,@naxvog,human,14,1,14,3,v0.5.0,v0.7.0
 wordcraft,@goldsbd,human,10,0,10,2,v0.4.0,v0.5.0
-wordcraft,@h-a-n-a-s-h-i,human,2,7,2,2,v0.3.0,v0.4.0
 wordcraft,@LloydNicholson,human,7,1,7,2,v0.5.0,v0.6.1
 wordcraft,@rabis7575,human,7,0,7,1,v0.6.1,v0.6.1
 wordcraft,@edurbs,human,6,0,4,2,v0.5.0,v0.6.1
@@ -2252,13 +2234,3 @@ wordcraft,Cursor,agent,0,2,,1,v0.6.1,v0.6.1
 wordcraft,Devin,agent,0,1,,1,v0.6.1,v0.6.1
 wordcraft,GitHub Copilot,agent,0,1,,1,v0.6.1,v0.6.1
 wordcraft,Unnamed agent,agent,0,1,,1,v0.5.0,v0.5.0
-artcraft,@echelon,human,918,6,1,22,artcraft-v0.2.0,artcraft-v0.41.0
-artcraft,@bflatastic,human,484,12,3,20,artcraft-v0.2.0,artcraft-v0.37.0
-artcraft,@tanish2k09,human,70,2,1,11,artcraft-v0.2.0,artcraft-v0.37.0
-artcraft,@h-a-n-a-s-h-i,human,43,3,0,1,artcraft-v0.37.0,artcraft-v0.37.0
-artcraft,@kasisnu,human,1,1,0,1,artcraft-v0.2.0,artcraft-v0.2.0
-artcraft,@amitkojha05,human,1,0,0,1,artcraft-v0.37.0,artcraft-v0.37.0
-artcraft,@frankywashere,human,1,0,1,1,artcraft-v0.27.0,artcraft-v0.27.0
-artcraft,@jtoy,human,1,0,0,1,artcraft-v0.14.0,artcraft-v0.14.0
-artcraft,Claude,agent,0,6,,4,artcraft-v0.10.0,artcraft-v0.37.0
-artcraft,dependabot[bot],bot,3,0,,1,artcraft-v0.7.0,artcraft-v0.7.0

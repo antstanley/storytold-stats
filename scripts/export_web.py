@@ -13,12 +13,11 @@ for s in csv.DictReader(open(f"{ROOT}/csv/release_stats.csv")):
     unreleased = tag == "(unreleased)"
     repos.setdefault(repo, []).append({
         "key": "unreleased" if unreleased else tag,
-        "label": "Unreleased" if unreleased else tag.replace("artcraft-", ""),
+        "label": "Unreleased" if unreleased else tag,
         "tags": [] if unreleased else tags,
         "date": datetime.datetime.fromisoformat(published.replace("Z", "+00:00")).astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "url": s["url"],
         "unreleased": unreleased,
-        "uncategorised": int(s["uncategorised"]) > 0,
         "commits": int(s["commits"]),
         "changes": int(s["changes"]),
         "counts": {c: int(s[c]) for c in CATS},

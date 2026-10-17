@@ -26,22 +26,21 @@
 	const repo = $derived(data.repo);
 	const sum = $derived(totals(repo));
 	const unreleased = $derived(repo.releases.find((r) => r.unreleased));
-	const uncategorised = $derived(repo.releases.filter((r) => r.uncategorised));
 	const rows = $derived(
 		chartRows(
-			repo.releases.filter((r) => !r.uncategorised && (includeUnreleased || !r.unreleased))
+			repo.releases.filter((r) => includeUnreleased || !r.unreleased)
 		)
 	);
 
 	const charted = $derived(
-		repo.releases.filter((r) => !r.uncategorised && (includeUnreleased || !r.unreleased))
+		repo.releases.filter((r) => includeUnreleased || !r.unreleased)
 	);
 	const peopleRows = $derived(contributorRows(charted));
 	const agentRows = $derived(disclosureRows(charted));
 
 	const disclosed = $derived(
 		repo.releases
-			.filter((r) => !r.unreleased && !r.uncategorised)
+			.filter((r) => !r.unreleased)
 			.reduce((n, r) => n + r.contributors.agentDisclosed, 0)
 	);
 	// A handful out of thousands is not 0%
@@ -268,7 +267,7 @@
 						<td class="px-2 font-medium">{formatCount(r.changes)}</td>
 						{#each CATEGORIES as c (c)}
 							<td class="px-2 {r.counts[c] ? '' : 'text-muted'}">
-								{r.uncategorised ? '–' : r.counts[c] || '·'}
+								{r.counts[c] || '·'}
 							</td>
 						{/each}
 					</tr>
@@ -276,10 +275,4 @@
 			</tbody>
 		</table>
 	</div>
-	{#if uncategorised.length}
-		<p class="mt-3 text-sm text-ink-2">
-			{uncategorised.map((r) => r.label).join(', ')} is left out of the charts and totals: it sits
-			on years of earlier monorepo history that was counted but not categorised.
-		</p>
-	{/if}
 </section>

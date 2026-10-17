@@ -34,7 +34,7 @@ def cap(sentence): return sentence[0].upper() + sentence[1:]
 def name(release):
     """`v0.6.0 (10 Oct)`"""
     d = datetime.date.fromisoformat(release["published"])
-    return f"{release['release_tag'].replace('artcraft-', '')} ({d.day} {d:%b})"
+    return f"{release['release_tag']} ({d.day} {d:%b})"
 
 def halves(releases):
     """The first and last halves of the release list, and how to refer to them."""
@@ -42,15 +42,13 @@ def halves(releases):
     if k < 2: return None
     return releases[:k], releases[-k:], f"the first {k} releases", f"the last {k} releases"
 
-def types(repo, releases, unreleased, left_out=()):
-    """Size of releases and the mix of change types. `left_out` are releases with no categories."""
+def types(repo, releases, unreleased):
+    """Size of releases and the mix of change types."""
     out = []
     changes = total(releases, "changes")
     first = datetime.date.fromisoformat(releases[0]["published"]); last = datetime.date.fromisoformat(releases[-1]["published"])
     days = (last - first).days
     out.append(f"{repo} has had {count(len(releases), 'release')} with {count(changes, 'change')} in total" + (f", over {count(days, 'day')}." if days > 1 else "."))
-    for r in left_out:
-        out.append(f"The first release, {name(r)}, is left out of everything below: its {r['changes']:,} changes of older history were counted but not sorted into types.")
     if len(releases) > 1:
         big = max(releases, key=lambda r: r["changes"])
         out.append(f"The biggest release was {name(big)} with {count(big['changes'], 'change')}, which is {pct(big['changes'], changes)} of everything released so far.")

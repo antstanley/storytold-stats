@@ -87,7 +87,6 @@ export type Release = {
 	date: string;
 	url: string;
 	unreleased: boolean;
-	uncategorised: boolean;
 	commits: number;
 	changes: number;
 	counts: Record<Category, number>;
@@ -200,9 +199,9 @@ export function longRows(
 	);
 }
 
-/** Sum of each category over released, categorised releases. */
+/** Sum of each category over released releases. */
 export function totals(repo: Repo) {
-	const counted = repo.releases.filter((r) => !r.unreleased && !r.uncategorised);
+	const counted = repo.releases.filter((r) => !r.unreleased);
 	const counts = Object.fromEntries(CATEGORIES.map((c) => [c, 0])) as Record<Category, number>;
 	for (const r of counted) for (const c of CATEGORIES) counts[c] += r.counts[c];
 	const released = repo.releases.filter((r) => !r.unreleased);

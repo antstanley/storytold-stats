@@ -73,7 +73,7 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 57 people have contributed to released changes.
+- 56 people have contributed to released changes.
 - The first release had 1 person and the latest had 32.
 - In the latest release, 22 of the 32 people were contributing for the first time.
 - The most active person, @vangel76, authored 41% of all changes, and the three most active authored 64% between them.
@@ -85,14 +85,14 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
 |---|--:|--:|--:|--:|--:|---|--:|
 | [v0.1.0](https://github.com/storytold/cadcraft/releases/tag/v0.1.0) | 1 | 1 | 20 | 95% | · | Claude | · |
-| [v0.3.0](https://github.com/storytold/cadcraft/releases/tag/v0.3.0) | 2 | 1 | 4 | 100% | · | Claude | · |
+| [v0.3.0](https://github.com/storytold/cadcraft/releases/tag/v0.3.0) | 1 | · | 4 | 100% | · | Claude | · |
 | [v0.4.0](https://github.com/storytold/cadcraft/releases/tag/v0.4.0) | 2 | 1 | 2 | 100% | · | Claude | · |
 | [v0.5.0](https://github.com/storytold/cadcraft/releases/tag/v0.5.0) | 14 | 13 | 139 | 74% | · | Claude | · |
 | [v0.6.2](https://github.com/storytold/cadcraft/releases/tag/v0.6.2) | 27 | 19 | 154 | 99% | · | Claude | · |
 | [v0.7.0](https://github.com/storytold/cadcraft/releases/tag/v0.7.0) | 32 | 22 | 84 | 76% | · | Claude | · |
 | _unreleased (main)_ | 3 | · | · | 0% | · | · | · |
-| **Released total** | **57** |  | **403** | 84% | **0** | Claude | · |
+| **Released total** | **56** |  | **403** | 84% | **0** | Claude | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 
-Most active humans in released changes: @vangel76 (203), @echelon (115), @MarekSpodBiedry (66), @marcoarnulfo (36), @aldozar (16), @codyvogt (14), @SBaksa (14), @Tru10 (10), @LloydNicholson (8), @Ni-zav (8).
+Most active humans in released changes: @vangel76 (203), @echelon (117), @MarekSpodBiedry (66), @marcoarnulfo (36), @aldozar (16), @codyvogt (14), @SBaksa (14), @Tru10 (10), @LloydNicholson (8), @Ni-zav (8).

@@ -84,7 +84,7 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 80 people have contributed to released changes.
+- 79 people have contributed to released changes.
 - The first release had 1 person and the latest had 27; the most in one release was 33, in v0.8.0 (11 Oct).
 - In the latest release, 14 of the 27 people were contributing for the first time.
 - The most active person, @echelon, authored 44% of all changes, and the three most active authored 64% between them.
@@ -102,14 +102,14 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.3.0](https://github.com/storytold/effectcraft/releases/tag/v0.3.0) | 2 | · | 22 | 100% | · | Claude | · |
 | [v0.3.1](https://github.com/storytold/effectcraft/releases/tag/v0.3.1) | 5 | 3 | 3 | 50% | · | Claude | · |
 | [v0.4.0](https://github.com/storytold/effectcraft/releases/tag/v0.4.0) | 9 | 5 | 32 | 84% | 2 | Claude, OpenAI Codex / ChatGPT | · |
-| [v0.6.0](https://github.com/storytold/effectcraft/releases/tag/v0.6.0) | 4 | 2 | 35 | 97% | 6 | Claude | · |
+| [v0.6.0](https://github.com/storytold/effectcraft/releases/tag/v0.6.0) | 3 | 1 | 35 | 97% | 6 | Claude | · |
 | [v0.7.0](https://github.com/storytold/effectcraft/releases/tag/v0.7.0) | 21 | 15 | 52 | 79% | · | Claude, OpenAI Codex / ChatGPT | · |
 | [v0.8.0](https://github.com/storytold/effectcraft/releases/tag/v0.8.0) | 33 | 25 | 117 | 94% | 115 | Claude, OpenAI Codex / ChatGPT | · |
 | [v0.9.2](https://github.com/storytold/effectcraft/releases/tag/v0.9.2) | 27 | 13 | 93 | 66% | · | Claude | · |
 | [v0.10.0](https://github.com/storytold/effectcraft/releases/tag/v0.10.0) | 27 | 14 | 67 | 59% | 3 | Claude, OpenAI Codex / ChatGPT | · |
 | _unreleased (main)_ | 30 | 11 | 37 | 47% | · | Claude, OpenAI Codex / ChatGPT, DeepSeek | · |
-| **Released total** | **80** |  | **763** | 85% | **126** | Claude, OpenAI Codex / ChatGPT | · |
+| **Released total** | **79** |  | **763** | 85% | **126** | Claude, OpenAI Codex / ChatGPT | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 
-Most active humans in released changes: @echelon (643), @bflatastic (135), @vangel76 (62), @pravdomil (29), @Ni-zav (25), @MarekSpodBiedry (23), @vbasky (23), @nanox333 (19), @marcoarnulfo (12), @tylerjenningsw (12).
+Most active humans in released changes: @echelon (645), @bflatastic (135), @vangel76 (62), @pravdomil (29), @Ni-zav (25), @MarekSpodBiedry (23), @vbasky (23), @nanox333 (19), @marcoarnulfo (12), @tylerjenningsw (12).

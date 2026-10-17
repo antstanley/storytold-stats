@@ -4,7 +4,7 @@
   {
    "name": "cadcraft",
    "people": {
-    "humans": 57,
+    "humans": 56,
     "agents": [
      {
       "name": "Claude",
@@ -19,7 +19,7 @@
      },
      {
       "name": "@echelon",
-      "changes": 115
+      "changes": 117
      },
      {
       "name": "@MarekSpodBiedry",
@@ -65,7 +65,6 @@
      "date": "2026-10-08T03:07:48Z",
      "url": "https://github.com/storytold/cadcraft/releases/tag/v0.1.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 23,
      "changes": 21,
      "counts": {
@@ -103,7 +102,6 @@
      "date": "2026-10-08T14:41:49Z",
      "url": "https://github.com/storytold/cadcraft/releases/tag/v0.3.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 4,
      "changes": 4,
      "counts": {
@@ -122,8 +120,8 @@
       "other": 0
      },
      "contributors": {
-      "humans": 2,
-      "newHumans": 1,
+      "humans": 1,
+      "newHumans": 0,
       "agents": [
        "Claude"
       ],
@@ -141,7 +139,6 @@
      "date": "2026-10-10T02:51:15Z",
      "url": "https://github.com/storytold/cadcraft/releases/tag/v0.4.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 3,
      "changes": 2,
      "counts": {
@@ -179,7 +176,6 @@
      "date": "2026-10-11T00:11:33Z",
      "url": "https://github.com/storytold/cadcraft/releases/tag/v0.5.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 188,
      "changes": 188,
      "counts": {
@@ -217,7 +213,6 @@
      "date": "2026-10-12T16:40:01Z",
      "url": "https://github.com/storytold/cadcraft/releases/tag/v0.6.2",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 160,
      "changes": 156,
      "counts": {
@@ -255,7 +250,6 @@
      "date": "2026-10-14T15:29:49Z",
      "url": "https://github.com/storytold/cadcraft/releases/tag/v0.7.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 110,
      "changes": 110,
      "counts": {
@@ -291,7 +285,6 @@
      "date": "2026-10-16T03:26:48Z",
      "url": "",
      "unreleased": true,
-     "uncategorised": false,
      "commits": 3,
      "changes": 2,
      "counts": {
@@ -323,7 +316,7 @@
   {
    "name": "soundcraft",
    "people": {
-    "humans": 37,
+    "humans": 36,
     "agents": [
      {
       "name": "Claude",
@@ -334,7 +327,7 @@
     "top": [
      {
       "name": "@echelon",
-      "changes": 236
+      "changes": 239
      },
      {
       "name": "@grovebit",
@@ -365,11 +358,11 @@
       "changes": 6
      },
      {
-      "name": "@h-a-n-a-s-h-i",
+      "name": "@itrycodinganditsbad",
       "changes": 5
      },
      {
-      "name": "@itrycodinganditsbad",
+      "name": "@Jafz2001",
       "changes": 5
      }
     ]
@@ -384,7 +377,6 @@
      "date": "2026-10-08T14:41:51Z",
      "url": "https://github.com/storytold/soundcraft/releases/tag/v0.3.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 57,
      "changes": 57,
      "counts": {
@@ -403,8 +395,8 @@
       "other": 1
      },
      "contributors": {
-      "humans": 2,
-      "newHumans": 2,
+      "humans": 1,
+      "newHumans": 1,
       "agents": [
        "Claude"
       ],
@@ -422,7 +414,6 @@
      "date": "2026-10-10T02:51:45Z",
      "url": "https://github.com/storytold/soundcraft/releases/tag/v0.4.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 80,
      "changes": 27,
      "counts": {
@@ -460,7 +451,6 @@
      "date": "2026-10-11T00:39:19Z",
      "url": "https://github.com/storytold/soundcraft/releases/tag/v0.5.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 31,
      "changes": 13,
      "counts": {
@@ -498,7 +488,6 @@
      "date": "2026-10-12T15:57:05Z",
      "url": "https://github.com/storytold/soundcraft/releases/tag/v0.6.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 139,
      "changes": 44,
      "counts": {
@@ -536,7 +525,6 @@
      "date": "2026-10-14T16:16:07Z",
      "url": "https://github.com/storytold/soundcraft/releases/tag/v0.7.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 375,
      "changes": 102,
      "counts": {
@@ -572,7 +560,6 @@
      "date": "2026-10-16T03:25:01Z",
      "url": "",
      "unreleased": true,
-     "uncategorised": false,
      "commits": 3,
      "changes": 2,
      "counts": {
@@ -667,7 +654,6 @@
      "date": "2026-10-10T04:00:18Z",
      "url": "https://github.com/storytold/craft-launcher/releases/tag/v0.1.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 15,
      "changes": 15,
      "counts": {
@@ -705,7 +691,6 @@
      "date": "2026-10-10T11:02:03Z",
      "url": "https://github.com/storytold/craft-launcher/releases/tag/v0.1.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 5,
      "changes": 5,
      "counts": {
@@ -743,7 +728,6 @@
      "date": "2026-10-10T11:45:22Z",
      "url": "https://github.com/storytold/craft-launcher/releases/tag/v0.1.2",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 1,
      "changes": 1,
      "counts": {
@@ -781,7 +765,6 @@
      "date": "2026-10-10T15:28:59Z",
      "url": "https://github.com/storytold/craft-launcher/releases/tag/v0.1.3",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 5,
      "changes": 5,
      "counts": {
@@ -819,7 +802,6 @@
      "date": "2026-10-10T18:42:06Z",
      "url": "https://github.com/storytold/craft-launcher/releases/tag/v0.2.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 11,
      "changes": 11,
      "counts": {
@@ -857,7 +839,6 @@
      "date": "2026-10-11T14:17:00Z",
      "url": "https://github.com/storytold/craft-launcher/releases/tag/v0.2.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 24,
      "changes": 24,
      "counts": {
@@ -895,7 +876,6 @@
      "date": "2026-10-11T21:28:13Z",
      "url": "https://github.com/storytold/craft-launcher/releases/tag/v0.3.2",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 5,
      "changes": 5,
      "counts": {
@@ -933,7 +913,6 @@
      "date": "2026-10-13T15:35:33Z",
      "url": "https://github.com/storytold/craft-launcher/releases/tag/v0.4.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 34,
      "changes": 34,
      "counts": {
@@ -971,7 +950,6 @@
      "date": "2026-10-13T18:31:57Z",
      "url": "https://github.com/storytold/craft-launcher/releases/tag/v0.4.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 1,
      "changes": 1,
      "counts": {
@@ -1007,7 +985,6 @@
      "date": "2026-10-16T02:46:32Z",
      "url": "",
      "unreleased": true,
-     "uncategorised": false,
      "commits": 4,
      "changes": 4,
      "counts": {
@@ -1041,7 +1018,7 @@
   {
    "name": "deckcraft",
    "people": {
-    "humans": 19,
+    "humans": 18,
     "agents": [
      {
       "name": "Claude",
@@ -1052,15 +1029,11 @@
     "top": [
      {
       "name": "@echelon",
-      "changes": 155
+      "changes": 157
      },
      {
       "name": "@alexanderalber",
       "changes": 9
-     },
-     {
-      "name": "@h-a-n-a-s-h-i",
-      "changes": 5
      },
      {
       "name": "@LloydNicholson",
@@ -1089,6 +1062,10 @@
      {
       "name": "@DimaSmaha",
       "changes": 1
+     },
+     {
+      "name": "@DWAA1660",
+      "changes": 1
      }
     ]
    },
@@ -1102,7 +1079,6 @@
      "date": "2026-10-08T00:23:17Z",
      "url": "https://github.com/storytold/deckcraft/releases/tag/v0.1.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 20,
      "changes": 20,
      "counts": {
@@ -1140,7 +1116,6 @@
      "date": "2026-10-08T14:41:56Z",
      "url": "https://github.com/storytold/deckcraft/releases/tag/v0.3.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 9,
      "changes": 9,
      "counts": {
@@ -1159,8 +1134,8 @@
       "other": 0
      },
      "contributors": {
-      "humans": 2,
-      "newHumans": 1,
+      "humans": 1,
+      "newHumans": 0,
       "agents": [
        "Claude"
       ],
@@ -1178,7 +1153,6 @@
      "date": "2026-10-10T02:51:18Z",
      "url": "https://github.com/storytold/deckcraft/releases/tag/v0.4.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 14,
      "changes": 13,
      "counts": {
@@ -1197,7 +1171,7 @@
       "other": 0
      },
      "contributors": {
-      "humans": 12,
+      "humans": 11,
       "newHumans": 10,
       "agents": [
        "Claude"
@@ -1216,7 +1190,6 @@
      "date": "2026-10-11T01:17:33Z",
      "url": "https://github.com/storytold/deckcraft/releases/tag/v0.5.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 18,
      "changes": 18,
      "counts": {
@@ -1254,7 +1227,6 @@
      "date": "2026-10-12T18:22:34Z",
      "url": "https://github.com/storytold/deckcraft/releases/tag/v0.6.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 4,
      "changes": 4,
      "counts": {
@@ -1292,7 +1264,6 @@
      "date": "2026-10-14T15:04:51Z",
      "url": "https://github.com/storytold/deckcraft/releases/tag/v0.7.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 113,
      "changes": 113,
      "counts": {
@@ -1328,7 +1299,6 @@
      "date": "2026-10-16T05:13:10Z",
      "url": "",
      "unreleased": true,
-     "uncategorised": false,
      "commits": 721,
      "changes": 373,
      "counts": {
@@ -1363,7 +1333,7 @@
   {
    "name": "gridcraft",
    "people": {
-    "humans": 59,
+    "humans": 58,
     "agents": [
      {
       "name": "Claude",
@@ -1378,7 +1348,7 @@
     "top": [
      {
       "name": "@echelon",
-      "changes": 411
+      "changes": 413
      },
      {
       "name": "@MarekSpodBiedry",
@@ -1428,7 +1398,6 @@
      "date": "2026-10-08T00:47:18Z",
      "url": "https://github.com/storytold/gridcraft/releases/tag/v0.1.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 16,
      "changes": 16,
      "counts": {
@@ -1466,7 +1435,6 @@
      "date": "2026-10-08T14:41:54Z",
      "url": "https://github.com/storytold/gridcraft/releases/tag/v0.3.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 7,
      "changes": 7,
      "counts": {
@@ -1485,8 +1453,8 @@
       "other": 0
      },
      "contributors": {
-      "humans": 2,
-      "newHumans": 1,
+      "humans": 1,
+      "newHumans": 0,
       "agents": [
        "Claude"
       ],
@@ -1504,7 +1472,6 @@
      "date": "2026-10-10T02:51:32Z",
      "url": "https://github.com/storytold/gridcraft/releases/tag/v0.4.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 3,
      "changes": 2,
      "counts": {
@@ -1542,7 +1509,6 @@
      "date": "2026-10-10T23:50:05Z",
      "url": "https://github.com/storytold/gridcraft/releases/tag/v0.5.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 222,
      "changes": 86,
      "counts": {
@@ -1581,7 +1547,6 @@
      "date": "2026-10-12T17:07:30Z",
      "url": "https://github.com/storytold/gridcraft/releases/tag/v0.6.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 358,
      "changes": 145,
      "counts": {
@@ -1619,7 +1584,6 @@
      "date": "2026-10-14T15:36:59Z",
      "url": "https://github.com/storytold/gridcraft/releases/tag/v0.7.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 408,
      "changes": 163,
      "counts": {
@@ -1655,7 +1619,6 @@
      "date": "2026-10-16T03:26:45Z",
      "url": "",
      "unreleased": true,
-     "uncategorised": false,
      "commits": 7,
      "changes": 5,
      "counts": {
@@ -1689,7 +1652,7 @@
   {
    "name": "vectorcraft",
    "people": {
-    "humans": 142,
+    "humans": 141,
     "agents": [
      {
       "name": "Claude",
@@ -1716,7 +1679,7 @@
      },
      {
       "name": "@echelon",
-      "changes": 154
+      "changes": 156
      },
      {
       "name": "@theironchef",
@@ -1758,7 +1721,6 @@
      "date": "2026-10-02T22:31:32Z",
      "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.1.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 89,
      "changes": 85,
      "counts": {
@@ -1796,7 +1758,6 @@
      "date": "2026-10-03T14:24:17Z",
      "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.1.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 1,
      "changes": 1,
      "counts": {
@@ -1834,7 +1795,6 @@
      "date": "2026-10-05T07:04:13Z",
      "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.2.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 309,
      "changes": 78,
      "counts": {
@@ -1872,7 +1832,6 @@
      "date": "2026-10-06T01:34:54Z",
      "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.3.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 117,
      "changes": 51,
      "counts": {
@@ -1910,7 +1869,6 @@
      "date": "2026-10-06T12:37:09Z",
      "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.3.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 85,
      "changes": 29,
      "counts": {
@@ -1948,7 +1906,6 @@
      "date": "2026-10-07T10:00:42Z",
      "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.4.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 116,
      "changes": 51,
      "counts": {
@@ -1986,7 +1943,6 @@
      "date": "2026-10-08T13:03:59Z",
      "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.5.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 301,
      "changes": 126,
      "counts": {
@@ -2005,8 +1961,8 @@
       "other": 0
      },
      "contributors": {
-      "humans": 27,
-      "newHumans": 20,
+      "humans": 26,
+      "newHumans": 19,
       "agents": [
        "Claude"
       ],
@@ -2024,7 +1980,6 @@
      "date": "2026-10-08T14:41:38Z",
      "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.6.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 24,
      "changes": 12,
      "counts": {
@@ -2043,7 +1998,7 @@
       "other": 0
      },
      "contributors": {
-      "humans": 5,
+      "humans": 4,
       "newHumans": 1,
       "agents": [
        "Claude"
@@ -2062,7 +2017,6 @@
      "date": "2026-10-08T18:43:46Z",
      "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.7.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 56,
      "changes": 15,
      "counts": {
@@ -2100,7 +2054,6 @@
      "date": "2026-10-10T02:51:48Z",
      "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.8.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 355,
      "changes": 131,
      "counts": {
@@ -2140,7 +2093,6 @@
      "date": "2026-10-11T00:56:53Z",
      "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.9.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 324,
      "changes": 115,
      "counts": {
@@ -2178,7 +2130,6 @@
      "date": "2026-10-12T15:56:13Z",
      "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.10.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 480,
      "changes": 191,
      "counts": {
@@ -2217,7 +2168,6 @@
      "date": "2026-10-14T14:54:46Z",
      "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.11.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 582,
      "changes": 249,
      "counts": {
@@ -2257,7 +2207,6 @@
      "date": "2026-10-16T12:26:40Z",
      "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.12.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 574,
      "changes": 248,
      "counts": {
@@ -2295,7 +2244,6 @@
      "date": "2026-10-17T13:03:49Z",
      "url": "",
      "unreleased": true,
-     "uncategorised": false,
      "commits": 370,
      "changes": 160,
      "counts": {
@@ -2330,7 +2278,7 @@
   {
    "name": "photocraft",
    "people": {
-    "humans": 298,
+    "humans": 297,
     "agents": [
      {
       "name": "Claude",
@@ -2365,7 +2313,7 @@
     "top": [
      {
       "name": "@echelon",
-      "changes": 825
+      "changes": 828
      },
      {
       "name": "@vangel76",
@@ -2416,7 +2364,6 @@
      "date": "2026-10-02T00:09:14Z",
      "url": "https://github.com/storytold/photocraft/releases/tag/v0.1.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 14,
      "changes": 14,
      "counts": {
@@ -2454,7 +2401,6 @@
      "date": "2026-10-02T22:30:31Z",
      "url": "https://github.com/storytold/photocraft/releases/tag/v0.1.1-rc.5",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 18,
      "changes": 18,
      "counts": {
@@ -2492,7 +2438,6 @@
      "date": "2026-10-03T14:24:16Z",
      "url": "https://github.com/storytold/photocraft/releases/tag/v0.1.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 29,
      "changes": 29,
      "counts": {
@@ -2530,7 +2475,6 @@
      "date": "2026-10-05T04:42:21Z",
      "url": "https://github.com/storytold/photocraft/releases/tag/v0.2.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 70,
      "changes": 64,
      "counts": {
@@ -2568,7 +2512,6 @@
      "date": "2026-10-07T10:33:19Z",
      "url": "https://github.com/storytold/photocraft/releases/tag/v0.3.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 187,
      "changes": 187,
      "counts": {
@@ -2608,7 +2551,6 @@
      "date": "2026-10-08T14:52:50Z",
      "url": "https://github.com/storytold/photocraft/releases/tag/v0.5.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 205,
      "changes": 205,
      "counts": {
@@ -2627,8 +2569,8 @@
       "other": 0
      },
      "contributors": {
-      "humans": 51,
-      "newHumans": 36,
+      "humans": 50,
+      "newHumans": 35,
       "agents": [
        "Claude",
        "GitHub Copilot",
@@ -2648,7 +2590,6 @@
      "date": "2026-10-10T02:51:42Z",
      "url": "https://github.com/storytold/photocraft/releases/tag/v0.6.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 566,
      "changes": 521,
      "counts": {
@@ -2667,7 +2608,7 @@
       "other": 0
      },
      "contributors": {
-      "humans": 120,
+      "humans": 119,
       "newHumans": 93,
       "agents": [
        "Claude",
@@ -2689,7 +2630,6 @@
      "date": "2026-10-11T02:12:31Z",
      "url": "https://github.com/storytold/photocraft/releases/tag/v0.7.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 244,
      "changes": 244,
      "counts": {
@@ -2727,7 +2667,6 @@
      "date": "2026-10-12T21:22:47Z",
      "url": "https://github.com/storytold/photocraft/releases/tag/v0.8.2",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 422,
      "changes": 417,
      "counts": {
@@ -2768,7 +2707,6 @@
      "date": "2026-10-14T16:36:26Z",
      "url": "https://github.com/storytold/photocraft/releases/tag/v0.9.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 442,
      "changes": 394,
      "counts": {
@@ -2806,7 +2744,6 @@
      "date": "2026-10-17T14:39:15Z",
      "url": "",
      "unreleased": true,
-     "uncategorised": false,
      "commits": 277,
      "changes": 251,
      "counts": {
@@ -2842,7 +2779,7 @@
   {
    "name": "pdfcraft",
    "people": {
-    "humans": 188,
+    "humans": 187,
     "agents": [
      {
       "name": "Claude",
@@ -2877,7 +2814,7 @@
     "top": [
      {
       "name": "@echelon",
-      "changes": 612
+      "changes": 614
      },
      {
       "name": "@cyfung1031",
@@ -2927,7 +2864,6 @@
      "date": "2026-10-02T22:31:36Z",
      "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.1.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 126,
      "changes": 126,
      "counts": {
@@ -2965,7 +2901,6 @@
      "date": "2026-10-03T14:24:20Z",
      "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.1.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 24,
      "changes": 24,
      "counts": {
@@ -3003,7 +2938,6 @@
      "date": "2026-10-05T07:03:10Z",
      "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.2.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 64,
      "changes": 35,
      "counts": {
@@ -3041,7 +2975,6 @@
      "date": "2026-10-06T12:37:41Z",
      "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.2.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 33,
      "changes": 29,
      "counts": {
@@ -3081,7 +3014,6 @@
      "date": "2026-10-08T14:41:34Z",
      "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.4.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 110,
      "changes": 90,
      "counts": {
@@ -3100,8 +3032,8 @@
       "other": 0
      },
      "contributors": {
-      "humans": 35,
-      "newHumans": 32,
+      "humans": 34,
+      "newHumans": 31,
       "agents": [
        "Claude",
        "OpenAI Codex / ChatGPT"
@@ -3120,7 +3052,6 @@
      "date": "2026-10-10T02:51:38Z",
      "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.5.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 180,
      "changes": 178,
      "counts": {
@@ -3139,7 +3070,7 @@
       "other": 0
      },
      "contributors": {
-      "humans": 62,
+      "humans": 61,
       "newHumans": 48,
       "agents": [
        "Claude",
@@ -3162,7 +3093,6 @@
      "date": "2026-10-11T01:34:01Z",
      "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.6.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 124,
      "changes": 124,
      "counts": {
@@ -3203,7 +3133,6 @@
      "date": "2026-10-12T15:55:32Z",
      "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.7.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 230,
      "changes": 221,
      "counts": {
@@ -3244,7 +3173,6 @@
      "date": "2026-10-14T15:21:59Z",
      "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.8.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 73,
      "changes": 73,
      "counts": {
@@ -3281,7 +3209,6 @@
      "date": "2026-10-16T22:05:39Z",
      "url": "",
      "unreleased": true,
-     "uncategorised": false,
      "commits": 220,
      "changes": 215,
      "counts": {
@@ -3318,7 +3245,7 @@
   {
    "name": "designcraft",
    "people": {
-    "humans": 45,
+    "humans": 44,
     "agents": [
      {
       "name": "Claude",
@@ -3337,7 +3264,7 @@
     "top": [
      {
       "name": "@echelon",
-      "changes": 334
+      "changes": 336
      },
      {
       "name": "@aiongg",
@@ -3387,7 +3314,6 @@
      "date": "2026-10-02T22:31:38Z",
      "url": "https://github.com/storytold/designcraft/releases/tag/v0.1.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 95,
      "changes": 85,
      "counts": {
@@ -3425,7 +3351,6 @@
      "date": "2026-10-03T14:24:21Z",
      "url": "https://github.com/storytold/designcraft/releases/tag/v0.1.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 117,
      "changes": 117,
      "counts": {
@@ -3463,7 +3388,6 @@
      "date": "2026-10-05T06:55:53Z",
      "url": "https://github.com/storytold/designcraft/releases/tag/v0.2.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 55,
      "changes": 44,
      "counts": {
@@ -3501,7 +3425,6 @@
      "date": "2026-10-06T12:15:04Z",
      "url": "https://github.com/storytold/designcraft/releases/tag/v0.2.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 14,
      "changes": 9,
      "counts": {
@@ -3540,7 +3463,6 @@
      "date": "2026-10-08T14:41:43Z",
      "url": "https://github.com/storytold/designcraft/releases/tag/v0.4.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 117,
      "changes": 61,
      "counts": {
@@ -3559,8 +3481,8 @@
       "other": 0
      },
      "contributors": {
-      "humans": 14,
-      "newHumans": 12,
+      "humans": 13,
+      "newHumans": 11,
       "agents": [
        "Claude",
        "OpenAI Codex / ChatGPT"
@@ -3579,7 +3501,6 @@
      "date": "2026-10-10T02:51:21Z",
      "url": "https://github.com/storytold/designcraft/releases/tag/v0.5.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 3,
      "changes": 2,
      "counts": {
@@ -3617,7 +3538,6 @@
      "date": "2026-10-11T00:51:50Z",
      "url": "https://github.com/storytold/designcraft/releases/tag/v0.6.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 71,
      "changes": 71,
      "counts": {
@@ -3657,7 +3577,6 @@
      "date": "2026-10-12T21:22:52Z",
      "url": "https://github.com/storytold/designcraft/releases/tag/v0.7.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 25,
      "changes": 19,
      "counts": {
@@ -3695,7 +3614,6 @@
      "date": "2026-10-14T14:15:00Z",
      "url": "https://github.com/storytold/designcraft/releases/tag/v0.8.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 113,
      "changes": 69,
      "counts": {
@@ -3732,7 +3650,6 @@
      "date": "2026-10-17T04:00:52Z",
      "url": "",
      "unreleased": true,
-     "uncategorised": false,
      "commits": 1978,
      "changes": 973,
      "counts": {
@@ -3769,7 +3686,7 @@
   {
    "name": "filmcraft",
    "people": {
-    "humans": 109,
+    "humans": 108,
     "agents": [
      {
       "name": "Claude",
@@ -3796,7 +3713,7 @@
     "top": [
      {
       "name": "@echelon",
-      "changes": 867
+      "changes": 869
      },
      {
       "name": "@vangel76",
@@ -3846,7 +3763,6 @@
      "date": "2026-10-02T22:31:33Z",
      "url": "https://github.com/storytold/filmcraft/releases/tag/v0.1.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 235,
      "changes": 188,
      "counts": {
@@ -3884,7 +3800,6 @@
      "date": "2026-10-03T14:24:18Z",
      "url": "https://github.com/storytold/filmcraft/releases/tag/v0.1.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 53,
      "changes": 39,
      "counts": {
@@ -3922,7 +3837,6 @@
      "date": "2026-10-05T07:02:01Z",
      "url": "https://github.com/storytold/filmcraft/releases/tag/v0.2.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 90,
      "changes": 49,
      "counts": {
@@ -3960,7 +3874,6 @@
      "date": "2026-10-06T12:18:26Z",
      "url": "https://github.com/storytold/filmcraft/releases/tag/v0.2.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 27,
      "changes": 11,
      "counts": {
@@ -3999,7 +3912,6 @@
      "date": "2026-10-08T14:41:28Z",
      "url": "https://github.com/storytold/filmcraft/releases/tag/v0.4.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 245,
      "changes": 97,
      "counts": {
@@ -4018,8 +3930,8 @@
       "other": 0
      },
      "contributors": {
-      "humans": 19,
-      "newHumans": 18,
+      "humans": 18,
+      "newHumans": 17,
       "agents": [
        "Claude",
        "OpenAI Codex / ChatGPT"
@@ -4038,7 +3950,6 @@
      "date": "2026-10-10T02:51:29Z",
      "url": "https://github.com/storytold/filmcraft/releases/tag/v0.5.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 192,
      "changes": 63,
      "counts": {
@@ -4077,7 +3988,6 @@
      "date": "2026-10-11T00:28:54Z",
      "url": "https://github.com/storytold/filmcraft/releases/tag/v0.6.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 536,
      "changes": 200,
      "counts": {
@@ -4118,7 +4028,6 @@
      "date": "2026-10-12T21:22:57Z",
      "url": "https://github.com/storytold/filmcraft/releases/tag/v0.7.2",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 382,
      "changes": 156,
      "counts": {
@@ -4157,7 +4066,6 @@
      "date": "2026-10-14T16:28:45Z",
      "url": "https://github.com/storytold/filmcraft/releases/tag/v0.8.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 187,
      "changes": 77,
      "counts": {
@@ -4195,7 +4103,6 @@
      "date": "2026-10-16T16:08:51Z",
      "url": "",
      "unreleased": true,
-     "uncategorised": false,
      "commits": 7,
      "changes": 6,
      "counts": {
@@ -4290,7 +4197,6 @@
      "date": "2026-10-10T02:51:26Z",
      "url": "https://github.com/storytold/figcraft/releases/tag/v0.2.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 86,
      "changes": 86,
      "counts": {
@@ -4328,7 +4234,6 @@
      "date": "2026-10-11T02:04:36Z",
      "url": "https://github.com/storytold/figcraft/releases/tag/v0.3.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 48,
      "changes": 48,
      "counts": {
@@ -4366,7 +4271,6 @@
      "date": "2026-10-12T05:39:52Z",
      "url": "https://github.com/storytold/figcraft/releases/tag/v0.4.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 66,
      "changes": 66,
      "counts": {
@@ -4404,7 +4308,6 @@
      "date": "2026-10-12T13:07:53Z",
      "url": "https://github.com/storytold/figcraft/releases/tag/v0.5.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 5,
      "changes": 5,
      "counts": {
@@ -4442,7 +4345,6 @@
      "date": "2026-10-12T15:51:49Z",
      "url": "https://github.com/storytold/figcraft/releases/tag/v0.5.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 9,
      "changes": 9,
      "counts": {
@@ -4478,7 +4380,6 @@
      "date": "2026-10-14T14:26:24Z",
      "url": "https://github.com/storytold/figcraft/releases/tag/v0.6.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 54,
      "changes": 54,
      "counts": {
@@ -4514,7 +4415,6 @@
      "date": "2026-10-17T15:38:10Z",
      "url": "",
      "unreleased": true,
-     "uncategorised": false,
      "commits": 765,
      "changes": 156,
      "counts": {
@@ -4549,7 +4449,7 @@
   {
    "name": "lightcraft",
    "people": {
-    "humans": 142,
+    "humans": 141,
     "agents": [
      {
       "name": "Claude",
@@ -4580,7 +4480,7 @@
     "top": [
      {
       "name": "@echelon",
-      "changes": 578
+      "changes": 580
      },
      {
       "name": "@bflatastic",
@@ -4630,7 +4530,6 @@
      "date": "2026-10-02T22:31:34Z",
      "url": "https://github.com/storytold/lightcraft/releases/tag/v0.1.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 206,
      "changes": 170,
      "counts": {
@@ -4668,7 +4567,6 @@
      "date": "2026-10-03T14:24:19Z",
      "url": "https://github.com/storytold/lightcraft/releases/tag/v0.1.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 48,
      "changes": 48,
      "counts": {
@@ -4706,7 +4604,6 @@
      "date": "2026-10-05T06:49:58Z",
      "url": "https://github.com/storytold/lightcraft/releases/tag/v0.2.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 121,
      "changes": 49,
      "counts": {
@@ -4744,7 +4641,6 @@
      "date": "2026-10-06T12:10:48Z",
      "url": "https://github.com/storytold/lightcraft/releases/tag/v0.2.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 113,
      "changes": 33,
      "counts": {
@@ -4783,7 +4679,6 @@
      "date": "2026-10-08T14:41:31Z",
      "url": "https://github.com/storytold/lightcraft/releases/tag/v0.4.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 169,
      "changes": 68,
      "counts": {
@@ -4802,8 +4697,8 @@
       "other": 0
      },
      "contributors": {
-      "humans": 27,
-      "newHumans": 25,
+      "humans": 26,
+      "newHumans": 24,
       "agents": [
        "Claude",
        "OpenAI Codex / ChatGPT",
@@ -4825,7 +4720,6 @@
      "date": "2026-10-10T02:51:35Z",
      "url": "https://github.com/storytold/lightcraft/releases/tag/v0.5.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 461,
      "changes": 171,
      "counts": {
@@ -4865,7 +4759,6 @@
      "date": "2026-10-11T00:54:31Z",
      "url": "https://github.com/storytold/lightcraft/releases/tag/v0.6.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 436,
      "changes": 89,
      "counts": {
@@ -4904,7 +4797,6 @@
      "date": "2026-10-12T21:22:50Z",
      "url": "https://github.com/storytold/lightcraft/releases/tag/v0.7.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 386,
      "changes": 160,
      "counts": {
@@ -4944,7 +4836,6 @@
      "date": "2026-10-14T15:30:00Z",
      "url": "https://github.com/storytold/lightcraft/releases/tag/v0.8.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 397,
      "changes": 185,
      "counts": {
@@ -4983,7 +4874,6 @@
      "date": "2026-10-16T03:34:12Z",
      "url": "",
      "unreleased": true,
-     "uncategorised": false,
      "commits": 561,
      "changes": 226,
      "counts": {
@@ -5020,7 +4910,7 @@
   {
    "name": "effectcraft",
    "people": {
-    "humans": 80,
+    "humans": 79,
     "agents": [
      {
       "name": "Claude",
@@ -5035,7 +4925,7 @@
     "top": [
      {
       "name": "@echelon",
-      "changes": 643
+      "changes": 645
      },
      {
       "name": "@bflatastic",
@@ -5085,7 +4975,6 @@
      "date": "2026-10-02T22:31:37Z",
      "url": "https://github.com/storytold/effectcraft/releases/tag/v0.1.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 119,
      "changes": 89,
      "counts": {
@@ -5123,7 +5012,6 @@
      "date": "2026-10-03T14:24:20Z",
      "url": "https://github.com/storytold/effectcraft/releases/tag/v0.1.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 217,
      "changes": 135,
      "counts": {
@@ -5161,7 +5049,6 @@
      "date": "2026-10-05T07:11:27Z",
      "url": "https://github.com/storytold/effectcraft/releases/tag/v0.2.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 250,
      "changes": 123,
      "counts": {
@@ -5199,7 +5086,6 @@
      "date": "2026-10-06T02:03:48Z",
      "url": "https://github.com/storytold/effectcraft/releases/tag/v0.3.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 45,
      "changes": 22,
      "counts": {
@@ -5237,7 +5123,6 @@
      "date": "2026-10-06T12:37:20Z",
      "url": "https://github.com/storytold/effectcraft/releases/tag/v0.3.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 13,
      "changes": 6,
      "counts": {
@@ -5275,7 +5160,6 @@
      "date": "2026-10-07T09:30:16Z",
      "url": "https://github.com/storytold/effectcraft/releases/tag/v0.4.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 96,
      "changes": 38,
      "counts": {
@@ -5314,7 +5198,6 @@
      "date": "2026-10-08T14:41:40Z",
      "url": "https://github.com/storytold/effectcraft/releases/tag/v0.6.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 92,
      "changes": 36,
      "counts": {
@@ -5333,8 +5216,8 @@
       "other": 0
      },
      "contributors": {
-      "humans": 4,
-      "newHumans": 2,
+      "humans": 3,
+      "newHumans": 1,
       "agents": [
        "Claude"
       ],
@@ -5352,7 +5235,6 @@
      "date": "2026-10-10T02:51:24Z",
      "url": "https://github.com/storytold/effectcraft/releases/tag/v0.7.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 170,
      "changes": 66,
      "counts": {
@@ -5391,7 +5273,6 @@
      "date": "2026-10-11T02:10:32Z",
      "url": "https://github.com/storytold/effectcraft/releases/tag/v0.8.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 300,
      "changes": 124,
      "counts": {
@@ -5430,7 +5311,6 @@
      "date": "2026-10-12T21:22:55Z",
      "url": "https://github.com/storytold/effectcraft/releases/tag/v0.9.2",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 284,
      "changes": 140,
      "counts": {
@@ -5468,7 +5348,6 @@
      "date": "2026-10-14T16:16:19Z",
      "url": "https://github.com/storytold/effectcraft/releases/tag/v0.10.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 285,
      "changes": 114,
      "counts": {
@@ -5505,7 +5384,6 @@
      "date": "2026-10-17T14:58:56Z",
      "url": "",
      "unreleased": true,
-     "uncategorised": false,
      "commits": 178,
      "changes": 79,
      "counts": {
@@ -5541,7 +5419,7 @@
   {
    "name": "wordcraft",
    "people": {
-    "humans": 88,
+    "humans": 87,
     "agents": [
      {
       "name": "Claude",
@@ -5572,7 +5450,7 @@
     "top": [
      {
       "name": "@echelon",
-      "changes": 358
+      "changes": 365
      },
      {
       "name": "@vangel76",
@@ -5595,10 +5473,6 @@
       "changes": 10
      },
      {
-      "name": "@h-a-n-a-s-h-i",
-      "changes": 9
-     },
-     {
       "name": "@LloydNicholson",
       "changes": 8
      },
@@ -5608,6 +5482,10 @@
      },
      {
       "name": "@edurbs",
+      "changes": 6
+     },
+     {
+      "name": "@marcoarnulfo",
       "changes": 6
      }
     ]
@@ -5622,7 +5500,6 @@
      "date": "2026-10-07T22:35:41Z",
      "url": "https://github.com/storytold/wordcraft/releases/tag/v0.1.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 23,
      "changes": 23,
      "counts": {
@@ -5660,7 +5537,6 @@
      "date": "2026-10-08T14:41:46Z",
      "url": "https://github.com/storytold/wordcraft/releases/tag/v0.3.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 7,
      "changes": 7,
      "counts": {
@@ -5679,8 +5555,8 @@
       "other": 0
      },
      "contributors": {
-      "humans": 2,
-      "newHumans": 1,
+      "humans": 1,
+      "newHumans": 0,
       "agents": [
        "Claude"
       ],
@@ -5698,7 +5574,6 @@
      "date": "2026-10-10T02:51:51Z",
      "url": "https://github.com/storytold/wordcraft/releases/tag/v0.4.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 16,
      "changes": 16,
      "counts": {
@@ -5717,7 +5592,7 @@
       "other": 0
      },
      "contributors": {
-      "humans": 9,
+      "humans": 8,
       "newHumans": 7,
       "agents": [
        "Claude"
@@ -5736,7 +5611,6 @@
      "date": "2026-10-11T00:36:07Z",
      "url": "https://github.com/storytold/wordcraft/releases/tag/v0.5.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 136,
      "changes": 136,
      "counts": {
@@ -5776,7 +5650,6 @@
      "date": "2026-10-12T16:22:15Z",
      "url": "https://github.com/storytold/wordcraft/releases/tag/v0.6.1",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 223,
      "changes": 223,
      "counts": {
@@ -5818,7 +5691,6 @@
      "date": "2026-10-14T13:56:11Z",
      "url": "https://github.com/storytold/wordcraft/releases/tag/v0.7.0",
      "unreleased": false,
-     "uncategorised": false,
      "commits": 56,
      "changes": 49,
      "counts": {
@@ -5854,7 +5726,6 @@
      "date": "2026-10-16T03:24:56Z",
      "url": "",
      "unreleased": true,
-     "uncategorised": false,
      "commits": 274,
      "changes": 270,
      "counts": {
@@ -5881,932 +5752,6 @@
       ],
       "bots": 0,
       "agentDisclosed": 180,
-      "agentAuthored": 0
-     }
-    }
-   ]
-  },
-  {
-   "name": "artcraft",
-   "people": {
-    "humans": 8,
-    "agents": [
-     {
-      "name": "Claude",
-      "changes": 6
-     }
-    ],
-    "bots": 1,
-    "top": [
-     {
-      "name": "@echelon",
-      "changes": 924
-     },
-     {
-      "name": "@bflatastic",
-      "changes": 496
-     },
-     {
-      "name": "@tanish2k09",
-      "changes": 72
-     },
-     {
-      "name": "@h-a-n-a-s-h-i",
-      "changes": 46
-     },
-     {
-      "name": "@kasisnu",
-      "changes": 2
-     },
-     {
-      "name": "@amitkojha05",
-      "changes": 1
-     },
-     {
-      "name": "@frankywashere",
-      "changes": 1
-     },
-     {
-      "name": "@jtoy",
-      "changes": 1
-     }
-    ]
-   },
-   "releases": [
-    {
-     "key": "artcraft-v0.0.1",
-     "label": "v0.0.1",
-     "tags": [
-      "artcraft-v0.0.1",
-      "artcraft-windows-v0.0.1"
-     ],
-     "date": "2025-07-14T15:41:14Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.0.1",
-     "unreleased": false,
-     "uncategorised": true,
-     "commits": 13463,
-     "changes": 10033,
-     "counts": {
-      "feature": 0,
-      "fix": 0,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 0,
-      "test": 0,
-      "build-ci": 0,
-      "release": 0,
-      "refactor": 0,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 0
-     },
-     "contributors": {
-      "humans": 34,
-      "newHumans": 34,
-      "agents": [],
-      "bots": 1,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.2.0",
-     "label": "v0.2.0",
-     "tags": [
-      "artcraft-v0.2.0",
-      "artcraft-windows-v0.2.0"
-     ],
-     "date": "2026-01-16T21:16:56Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.2.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 414,
-     "changes": 414,
-     "counts": {
-      "feature": 189,
-      "fix": 84,
-      "perf": 4,
-      "i18n": 0,
-      "docs": 11,
-      "test": 1,
-      "build-ci": 30,
-      "release": 18,
-      "refactor": 42,
-      "deps": 5,
-      "security": 0,
-      "revert": 1,
-      "other": 29
-     },
-     "contributors": {
-      "humans": 4,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.3.0",
-     "label": "v0.3.0",
-     "tags": [
-      "artcraft-v0.3.0",
-      "artcraft-windows-v0.3.0"
-     ],
-     "date": "2026-01-20T16:15:58Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.3.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 11,
-     "changes": 11,
-     "counts": {
-      "feature": 5,
-      "fix": 0,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 1,
-      "test": 0,
-      "build-ci": 0,
-      "release": 1,
-      "refactor": 2,
-      "deps": 1,
-      "security": 0,
-      "revert": 0,
-      "other": 1
-     },
-     "contributors": {
-      "humans": 2,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.4.0",
-     "label": "v0.4.0",
-     "tags": [
-      "artcraft-v0.4.0",
-      "artcraft-windows-v0.4.0"
-     ],
-     "date": "2026-01-21T19:53:18Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.4.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 8,
-     "changes": 8,
-     "counts": {
-      "feature": 2,
-      "fix": 2,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 0,
-      "test": 0,
-      "build-ci": 1,
-      "release": 2,
-      "refactor": 1,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 0
-     },
-     "contributors": {
-      "humans": 2,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.5.0",
-     "label": "v0.5.0",
-     "tags": [
-      "artcraft-v0.5.0",
-      "artcraft-windows-v0.5.0"
-     ],
-     "date": "2026-01-23T18:32:03Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.5.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 4,
-     "changes": 4,
-     "counts": {
-      "feature": 0,
-      "fix": 0,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 0,
-      "test": 0,
-      "build-ci": 1,
-      "release": 2,
-      "refactor": 0,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 1
-     },
-     "contributors": {
-      "humans": 1,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.7.0",
-     "label": "v0.7.0",
-     "tags": [
-      "artcraft-v0.7.0"
-     ],
-     "date": "2026-02-22T06:22:46Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.7.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 107,
-     "changes": 107,
-     "counts": {
-      "feature": 30,
-      "fix": 11,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 9,
-      "test": 0,
-      "build-ci": 10,
-      "release": 3,
-      "refactor": 7,
-      "deps": 7,
-      "security": 0,
-      "revert": 4,
-      "other": 26
-     },
-     "contributors": {
-      "humans": 3,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 1,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.8.0",
-     "label": "v0.8.0",
-     "tags": [
-      "artcraft-v0.8.0"
-     ],
-     "date": "2026-02-25T00:00:55Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.8.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 7,
-     "changes": 7,
-     "counts": {
-      "feature": 3,
-      "fix": 1,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 0,
-      "test": 0,
-      "build-ci": 0,
-      "release": 2,
-      "refactor": 0,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 1
-     },
-     "contributors": {
-      "humans": 2,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.10.0",
-     "label": "v0.10.0",
-     "tags": [
-      "artcraft-v0.10.0"
-     ],
-     "date": "2026-03-01T07:50:40Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.10.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 16,
-     "changes": 16,
-     "counts": {
-      "feature": 6,
-      "fix": 6,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 0,
-      "test": 0,
-      "build-ci": 0,
-      "release": 2,
-      "refactor": 0,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 2
-     },
-     "contributors": {
-      "humans": 2,
-      "newHumans": 0,
-      "agents": [
-       "Claude"
-      ],
-      "bots": 0,
-      "agentDisclosed": 1,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.11.0",
-     "label": "v0.11.0",
-     "tags": [
-      "artcraft-v0.11.0"
-     ],
-     "date": "2026-03-02T15:56:39Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.11.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 14,
-     "changes": 14,
-     "counts": {
-      "feature": 5,
-      "fix": 3,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 0,
-      "test": 0,
-      "build-ci": 0,
-      "release": 1,
-      "refactor": 3,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 2
-     },
-     "contributors": {
-      "humans": 2,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.12.0",
-     "label": "v0.12.0",
-     "tags": [
-      "artcraft-v0.12.0"
-     ],
-     "date": "2026-03-04T17:19:02Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.12.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 22,
-     "changes": 22,
-     "counts": {
-      "feature": 11,
-      "fix": 6,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 0,
-      "test": 1,
-      "build-ci": 0,
-      "release": 3,
-      "refactor": 1,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 0
-     },
-     "contributors": {
-      "humans": 2,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.14.0",
-     "label": "v0.14.0",
-     "tags": [
-      "artcraft-v0.14.0"
-     ],
-     "date": "2026-03-10T18:43:44Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.14.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 53,
-     "changes": 52,
-     "counts": {
-      "feature": 29,
-      "fix": 8,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 2,
-      "test": 0,
-      "build-ci": 0,
-      "release": 2,
-      "refactor": 1,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 10
-     },
-     "contributors": {
-      "humans": 3,
-      "newHumans": 1,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.15.0",
-     "label": "v0.15.0",
-     "tags": [
-      "artcraft-v0.15.0"
-     ],
-     "date": "2026-03-16T18:49:28Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.15.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 43,
-     "changes": 43,
-     "counts": {
-      "feature": 20,
-      "fix": 9,
-      "perf": 1,
-      "i18n": 0,
-      "docs": 1,
-      "test": 0,
-      "build-ci": 7,
-      "release": 1,
-      "refactor": 1,
-      "deps": 1,
-      "security": 0,
-      "revert": 1,
-      "other": 1
-     },
-     "contributors": {
-      "humans": 3,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.19.0",
-     "label": "v0.19.0",
-     "tags": [
-      "artcraft-v0.19.0"
-     ],
-     "date": "2026-03-24T08:21:50Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.19.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 51,
-     "changes": 51,
-     "counts": {
-      "feature": 20,
-      "fix": 7,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 2,
-      "test": 1,
-      "build-ci": 4,
-      "release": 4,
-      "refactor": 10,
-      "deps": 3,
-      "security": 0,
-      "revert": 0,
-      "other": 0
-     },
-     "contributors": {
-      "humans": 3,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.20.0",
-     "label": "v0.20.0",
-     "tags": [
-      "artcraft-v0.20.0"
-     ],
-     "date": "2026-03-25T03:44:26Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.20.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 8,
-     "changes": 8,
-     "counts": {
-      "feature": 6,
-      "fix": 1,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 0,
-      "test": 0,
-      "build-ci": 0,
-      "release": 1,
-      "refactor": 0,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 0
-     },
-     "contributors": {
-      "humans": 2,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.22.0",
-     "label": "v0.22.0",
-     "tags": [
-      "artcraft-v0.22.0"
-     ],
-     "date": "2026-04-03T16:18:25Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.22.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 75,
-     "changes": 75,
-     "counts": {
-      "feature": 39,
-      "fix": 14,
-      "perf": 1,
-      "i18n": 0,
-      "docs": 6,
-      "test": 1,
-      "build-ci": 2,
-      "release": 3,
-      "refactor": 8,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 1
-     },
-     "contributors": {
-      "humans": 3,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.23.0",
-     "label": "v0.23.0",
-     "tags": [
-      "artcraft-v0.23.0"
-     ],
-     "date": "2026-04-03T23:11:47Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.23.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 9,
-     "changes": 8,
-     "counts": {
-      "feature": 5,
-      "fix": 2,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 0,
-      "test": 0,
-      "build-ci": 0,
-      "release": 1,
-      "refactor": 0,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 0
-     },
-     "contributors": {
-      "humans": 3,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.24.0",
-     "label": "v0.24.0",
-     "tags": [
-      "artcraft-v0.24.0"
-     ],
-     "date": "2026-04-07T21:13:15Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.24.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 9,
-     "changes": 9,
-     "counts": {
-      "feature": 2,
-      "fix": 3,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 0,
-      "test": 0,
-      "build-ci": 0,
-      "release": 2,
-      "refactor": 2,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 0
-     },
-     "contributors": {
-      "humans": 2,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.27.0",
-     "label": "v0.27.0",
-     "tags": [
-      "artcraft-v0.27.0"
-     ],
-     "date": "2026-04-12T09:37:53Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.27.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 27,
-     "changes": 27,
-     "counts": {
-      "feature": 9,
-      "fix": 10,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 0,
-      "test": 2,
-      "build-ci": 0,
-      "release": 3,
-      "refactor": 2,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 1
-     },
-     "contributors": {
-      "humans": 4,
-      "newHumans": 1,
-      "agents": [
-       "Claude"
-      ],
-      "bots": 0,
-      "agentDisclosed": 1,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.28.0",
-     "label": "v0.28.0",
-     "tags": [
-      "artcraft-v0.28.0"
-     ],
-     "date": "2026-04-14T16:59:04Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.28.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 23,
-     "changes": 23,
-     "counts": {
-      "feature": 12,
-      "fix": 6,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 1,
-      "test": 0,
-      "build-ci": 0,
-      "release": 1,
-      "refactor": 2,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 1
-     },
-     "contributors": {
-      "humans": 3,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.29.0",
-     "label": "v0.29.0",
-     "tags": [
-      "artcraft-v0.29.0"
-     ],
-     "date": "2026-04-23T02:24:34Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.29.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 58,
-     "changes": 58,
-     "counts": {
-      "feature": 31,
-      "fix": 12,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 0,
-      "test": 0,
-      "build-ci": 2,
-      "release": 1,
-      "refactor": 9,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 3
-     },
-     "contributors": {
-      "humans": 3,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.32.0",
-     "label": "v0.32.0",
-     "tags": [
-      "artcraft-v0.32.0"
-     ],
-     "date": "2026-05-14T17:05:23Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.32.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 107,
-     "changes": 107,
-     "counts": {
-      "feature": 56,
-      "fix": 22,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 1,
-      "test": 0,
-      "build-ci": 6,
-      "release": 3,
-      "refactor": 9,
-      "deps": 0,
-      "security": 1,
-      "revert": 0,
-      "other": 9
-     },
-     "contributors": {
-      "humans": 3,
-      "newHumans": 0,
-      "agents": [
-       "Claude"
-      ],
-      "bots": 0,
-      "agentDisclosed": 1,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.37.0",
-     "label": "v0.37.0",
-     "tags": [
-      "artcraft-v0.37.0"
-     ],
-     "date": "2026-09-11T05:41:04Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.37.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 447,
-     "changes": 447,
-     "counts": {
-      "feature": 227,
-      "fix": 101,
-      "perf": 8,
-      "i18n": 0,
-      "docs": 5,
-      "test": 7,
-      "build-ci": 17,
-      "release": 6,
-      "refactor": 51,
-      "deps": 2,
-      "security": 1,
-      "revert": 4,
-      "other": 18
-     },
-     "contributors": {
-      "humans": 5,
-      "newHumans": 2,
-      "agents": [
-       "Claude"
-      ],
-      "bots": 0,
-      "agentDisclosed": 3,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "artcraft-v0.41.0",
-     "label": "v0.41.0",
-     "tags": [
-      "artcraft-v0.41.0"
-     ],
-     "date": "2026-09-26T11:14:22Z",
-     "url": "https://github.com/storytold/artcraft/releases/tag/artcraft-v0.41.0",
-     "unreleased": false,
-     "uncategorised": false,
-     "commits": 11,
-     "changes": 11,
-     "counts": {
-      "feature": 2,
-      "fix": 2,
-      "perf": 0,
-      "i18n": 0,
-      "docs": 2,
-      "test": 0,
-      "build-ci": 0,
-      "release": 4,
-      "refactor": 0,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 1
-     },
-     "contributors": {
-      "humans": 1,
-      "newHumans": 0,
-      "agents": [],
-      "bots": 0,
-      "agentDisclosed": 0,
-      "agentAuthored": 0
-     }
-    },
-    {
-     "key": "unreleased",
-     "label": "Unreleased",
-     "tags": [],
-     "date": "2026-10-11T13:47:59Z",
-     "url": "",
-     "unreleased": true,
-     "uncategorised": false,
-     "commits": 15,
-     "changes": 15,
-     "counts": {
-      "feature": 7,
-      "fix": 3,
-      "perf": 2,
-      "i18n": 0,
-      "docs": 1,
-      "test": 0,
-      "build-ci": 1,
-      "release": 1,
-      "refactor": 0,
-      "deps": 0,
-      "security": 0,
-      "revert": 0,
-      "other": 0
-     },
-     "contributors": {
-      "humans": 4,
-      "newHumans": 1,
-      "agents": [
-       "Claude"
-      ],
-      "bots": 0,
-      "agentDisclosed": 4,
       "agentAuthored": 0
      }
     }

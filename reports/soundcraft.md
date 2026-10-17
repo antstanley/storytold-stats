@@ -70,10 +70,10 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 37 people have contributed to released changes.
-- The first release had 2 people and the latest had 23.
+- 36 people have contributed to released changes.
+- The first release had 1 person and the latest had 23.
 - In the latest release, 15 of the 23 people were contributing for the first time.
-- The most active person, @echelon, authored 27% of all changes, and the three most active authored 60% between them.
+- The most active person, @echelon, authored 28% of all changes, and the three most active authored 61% between them.
 - 57% of changes say an AI agent was involved (139 of 243).
 - That share has gone down: 94% in the first 2 releases and 38% in the last 2 releases.
 - Claude accounts for all of the changes that name an agent.
@@ -81,14 +81,14 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 | Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
 |---|--:|--:|--:|--:|--:|---|--:|
-| [v0.3.0](https://github.com/storytold/soundcraft/releases/tag/v0.3.0) | 2 | 2 | 55 | 96% | · | Claude | · |
+| [v0.3.0](https://github.com/storytold/soundcraft/releases/tag/v0.3.0) | 1 | 1 | 55 | 96% | · | Claude | · |
 | [v0.4.0](https://github.com/storytold/soundcraft/releases/tag/v0.4.0) | 13 | 12 | 24 | 89% | · | Claude | · |
 | [v0.5.0](https://github.com/storytold/soundcraft/releases/tag/v0.5.0) | 5 | 1 | 4 | 31% | · | Claude | · |
 | [v0.6.1](https://github.com/storytold/soundcraft/releases/tag/v0.6.1) | 12 | 7 | 27 | 61% | · | Claude | · |
 | [v0.7.0](https://github.com/storytold/soundcraft/releases/tag/v0.7.0) | 23 | 15 | 29 | 28% | · | Claude | · |
 | _unreleased (main)_ | 3 | 1 | 1 | 50% | · | Claude | · |
-| **Released total** | **37** |  | **139** | 57% | **0** | Claude | · |
+| **Released total** | **36** |  | **139** | 57% | **0** | Claude | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 
-Most active humans in released changes: @echelon (236), @grovebit (53), @marcoarnulfo (26), @vbasky (24), @MarekSpodBiedry (7), t (7), @reoniazx (6), @Silvertree2010 (6), @h-a-n-a-s-h-i (5), @itrycodinganditsbad (5).
+Most active humans in released changes: @echelon (239), @grovebit (53), @marcoarnulfo (26), @vbasky (24), @MarekSpodBiedry (7), t (7), @reoniazx (6), @Silvertree2010 (6), @itrycodinganditsbad (5), @Jafz2001 (5).

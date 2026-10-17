@@ -73,10 +73,10 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 88 people have contributed to released changes.
+- 87 people have contributed to released changes.
 - The first release had 2 people and the latest had 21; the most in one release was 49, in v0.6.1 (12 Oct).
 - In the latest release, 13 of the 21 people were contributing for the first time.
-- The most active person, @echelon, authored 15% of all changes, and the three most active authored 57% between them.
+- The most active person, @echelon, authored 16% of all changes, and the three most active authored 57% between them.
 - 85% of changes say an AI agent was involved (384 of 454).
 - That share has stayed about the same over time (78% in the first 3 releases, 85% in the last 3 releases).
 - Claude accounts for nearly all of the changes that name an agent; 5 other agents are named on 9 changes between them.
@@ -85,14 +85,14 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
 |---|--:|--:|--:|--:|--:|---|--:|
 | [v0.1.0](https://github.com/storytold/wordcraft/releases/tag/v0.1.0) | 2 | 2 | 20 | 87% | · | Claude | · |
-| [v0.3.0](https://github.com/storytold/wordcraft/releases/tag/v0.3.0) | 2 | 1 | 7 | 100% | · | Claude | · |
-| [v0.4.0](https://github.com/storytold/wordcraft/releases/tag/v0.4.0) | 9 | 7 | 9 | 56% | · | Claude | · |
+| [v0.3.0](https://github.com/storytold/wordcraft/releases/tag/v0.3.0) | 1 | · | 7 | 100% | · | Claude | · |
+| [v0.4.0](https://github.com/storytold/wordcraft/releases/tag/v0.4.0) | 8 | 7 | 9 | 56% | · | Claude | · |
 | [v0.5.0](https://github.com/storytold/wordcraft/releases/tag/v0.5.0) | 29 | 24 | 126 | 93% | · | Claude, OpenAI Codex / ChatGPT, Unnamed agent | · |
 | [v0.6.1](https://github.com/storytold/wordcraft/releases/tag/v0.6.1) | 49 | 41 | 194 | 87% | · | Claude, Cursor, OpenAI Codex / ChatGPT, GitHub Copilot, Devin | · |
 | [v0.7.0](https://github.com/storytold/wordcraft/releases/tag/v0.7.0) | 21 | 13 | 28 | 57% | · | Claude | · |
 | _unreleased (main)_ | 86 | 57 | 180 | 67% | · | Claude, OpenAI Codex / ChatGPT | · |
-| **Released total** | **88** |  | **384** | 85% | **0** | Claude, OpenAI Codex / ChatGPT, Cursor, Devin, GitHub Copilot, Unnamed agent | · |
+| **Released total** | **87** |  | **384** | 85% | **0** | Claude, OpenAI Codex / ChatGPT, Cursor, Devin, GitHub Copilot, Unnamed agent | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 
-Most active humans in released changes: @echelon (358), @vangel76 (128), @dkhlapov (66), @MarekSpodBiedry (27), @naxvog (15), @goldsbd (10), @h-a-n-a-s-h-i (9), @LloydNicholson (8), @rabis7575 (7), @edurbs (6).
+Most active humans in released changes: @echelon (365), @vangel76 (128), @dkhlapov (66), @MarekSpodBiedry (27), @naxvog (15), @goldsbd (10), @LloydNicholson (8), @rabis7575 (7), @edurbs (6), @marcoarnulfo (6).

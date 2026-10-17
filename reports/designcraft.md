@@ -80,10 +80,10 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 45 people have contributed to released changes.
+- 44 people have contributed to released changes.
 - The first release had 1 person and the latest had 16; the most in one release was 19, in v0.6.0 (11 Oct).
 - In the latest release, 11 of the 16 people were contributing for the first time.
-- The most active person, @echelon, authored 56% of all changes, and the three most active authored 69% between them.
+- The most active person, @echelon, authored 57% of all changes, and the three most active authored 69% between them.
 - 79% of changes say an AI agent was involved (376 of 477).
 - That share has gone down: 98% in the first 4 releases and 58% in the last 4 releases.
 - Claude accounts for nearly all of the changes that name an agent; 2 other agents are named on 18 changes between them.
@@ -95,14 +95,14 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.1.1](https://github.com/storytold/designcraft/releases/tag/v0.1.1) | 1 | · | 117 | 100% | · | Claude | · |
 | [v0.2.0](https://github.com/storytold/designcraft/releases/tag/v0.2.0) | 2 | 1 | 44 | 100% | · | Claude | · |
 | [v0.2.1](https://github.com/storytold/designcraft/releases/tag/v0.2.1) | 3 | 1 | 8 | 89% | · | Claude, OpenAI Codex / ChatGPT | · |
-| [v0.4.0](https://github.com/storytold/designcraft/releases/tag/v0.4.0) | 14 | 12 | 33 | 54% | · | Claude, OpenAI Codex / ChatGPT | · |
+| [v0.4.0](https://github.com/storytold/designcraft/releases/tag/v0.4.0) | 13 | 11 | 33 | 54% | · | Claude, OpenAI Codex / ChatGPT | · |
 | [v0.5.0](https://github.com/storytold/designcraft/releases/tag/v0.5.0) | 2 | 1 | 2 | 100% | · | Claude | · |
 | [v0.6.0](https://github.com/storytold/designcraft/releases/tag/v0.6.0) | 19 | 16 | 44 | 62% | · | Claude, Codebuff, OpenAI Codex / ChatGPT | · |
 | [v0.7.1](https://github.com/storytold/designcraft/releases/tag/v0.7.1) | 8 | 2 | 6 | 32% | · | Claude | · |
 | [v0.8.0](https://github.com/storytold/designcraft/releases/tag/v0.8.0) | 16 | 11 | 42 | 61% | · | Claude, OpenAI Codex / ChatGPT | · |
 | _unreleased (main)_ | 80 | 52 | 282 | 29% | 1 | Claude, OpenAI Codex / ChatGPT, Codebuff, GitHub Copilot | · |
-| **Released total** | **45** |  | **376** | 79% | **0** | Claude, OpenAI Codex / ChatGPT, Codebuff | · |
+| **Released total** | **44** |  | **376** | 79% | **0** | Claude, OpenAI Codex / ChatGPT, Codebuff | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 
-Most active humans in released changes: @echelon (334), @aiongg (36), @skylartaylor (30), @moppeeer (29), @CameronGilroy (20), @japbcoelho (15), @sanyamsingh001 (11), @jahala (8), @storybored379 (6), @marcoarnulfo (5).
+Most active humans in released changes: @echelon (336), @aiongg (36), @skylartaylor (30), @moppeeer (29), @CameronGilroy (20), @japbcoelho (15), @sanyamsingh001 (11), @jahala (8), @storybored379 (6), @marcoarnulfo (5).

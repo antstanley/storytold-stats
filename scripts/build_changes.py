@@ -53,21 +53,7 @@ def releases(repo, commits):
     by_commit = collections.OrderedDict()
     for name in sorted(tags, key=lambda t: (vkey(t), t)):
         by_commit.setdefault(tags[name], []).append(name)
-    # artcraft: macOS + Windows tags for one version are one release
-    rels = []
-    for sha, names in by_commit.items():
-        rels.append(dict(tags=names, sha=sha))
-    if repo == "artcraft":
-        merged = []
-        for r in rels:
-            v = vkey(r["tags"][0])
-            if merged and vkey(merged[-1]["tags"][0]) == v:
-                merged[-1]["tags"] += r["tags"]
-                merged[-1]["extra_tips"] = merged[-1].get("extra_tips", []) + [r["sha"]]
-            else:
-                merged.append(r)
-        rels = merged
-    return rels
+    return [dict(tags=names, sha=sha) for sha, names in by_commit.items()]
 
 def main():
     rows, relrows, pending = [], [], []
@@ -95,8 +81,7 @@ def main():
         rels.append(dict(tags=["(unreleased)"], sha=head))
         done = set()
         for i, rel in enumerate(rels):
-            tips = [rel["sha"]] + rel.get("extra_tips", [])
-            rng = ancestors(commits, tips, stop=done)
+            rng = ancestors(commits, [rel["sha"]], stop=done)
             done |= rng
             if rel["tags"][0] == "(unreleased)" and not rng: continue
             # PR-merge commits and the commits each one brought in

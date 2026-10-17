@@ -73,10 +73,10 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 19 people have contributed to released changes.
-- The first release had 1 person and the latest had 4; the most in one release was 12, in v0.4.0 (10 Oct).
+- 18 people have contributed to released changes.
+- The first release had 1 person and the latest had 4; the most in one release was 11, in v0.4.0 (10 Oct).
 - In the latest release, 2 of the 4 people were contributing for the first time.
-- The most active person, @echelon, authored 80% of all changes, and the three most active authored 86% between them.
+- The most active person, @echelon, authored 81% of all changes, and the three most active authored 89% between them.
 - 92% of changes say an AI agent was involved (162 of 177).
 - That share has stayed about the same over time (88% in the first 3 releases, 93% in the last 3 releases).
 - Claude accounts for all of the changes that name an agent.
@@ -85,14 +85,14 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | Release | Humans | New | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
 |---|--:|--:|--:|--:|--:|---|--:|
 | [v0.1.0](https://github.com/storytold/deckcraft/releases/tag/v0.1.0) | 1 | 1 | 19 | 95% | · | Claude | · |
-| [v0.3.0](https://github.com/storytold/deckcraft/releases/tag/v0.3.0) | 2 | 1 | 9 | 100% | · | Claude | · |
-| [v0.4.0](https://github.com/storytold/deckcraft/releases/tag/v0.4.0) | 12 | 10 | 9 | 69% | · | Claude | · |
+| [v0.3.0](https://github.com/storytold/deckcraft/releases/tag/v0.3.0) | 1 | · | 9 | 100% | · | Claude | · |
+| [v0.4.0](https://github.com/storytold/deckcraft/releases/tag/v0.4.0) | 11 | 10 | 9 | 69% | · | Claude | · |
 | [v0.5.0](https://github.com/storytold/deckcraft/releases/tag/v0.5.0) | 7 | 5 | 17 | 94% | · | Claude | · |
 | [v0.6.1](https://github.com/storytold/deckcraft/releases/tag/v0.6.1) | 2 | · | 3 | 75% | · | Claude | · |
 | [v0.7.0](https://github.com/storytold/deckcraft/releases/tag/v0.7.0) | 4 | 2 | 105 | 93% | · | Claude | · |
 | _unreleased (main)_ | 36 | 28 | 234 | 63% | 1 | Cursor, Claude | · |
-| **Released total** | **19** |  | **162** | 92% | **0** | Claude | · |
+| **Released total** | **18** |  | **162** | 92% | **0** | Claude | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 
-Most active humans in released changes: @echelon (155), @alexanderalber (9), @h-a-n-a-s-h-i (5), @LloydNicholson (5), @MarekSpodBiedry (3), @Silvertree2010 (3), @dylanmtaylor (2), @switch87 (2), @xmaks82 (2), @DimaSmaha (1).
+Most active humans in released changes: @echelon (157), @alexanderalber (9), @LloydNicholson (5), @MarekSpodBiedry (3), @Silvertree2010 (3), @dylanmtaylor (2), @switch87 (2), @xmaks82 (2), @DimaSmaha (1), @DWAA1660 (1).

@@ -7,8 +7,7 @@ import json, os, subprocess, sys
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 rows = [json.loads(l) for l in open(f"{ROOT}/data/changes.jsonl")]
-missing = sorted({(r["repo"], r["pr"]) for r in rows if r["kind"] == "pr-merge" and not r["pr_title"]
-                  and not (r["repo"] == "artcraft" and r["release"] == "artcraft-v0.0.1")})
+missing = sorted({(r["repo"], r["pr"]) for r in rows if r["kind"] == "pr-merge" and not r["pr_title"]})
 os.makedirs(f"{ROOT}/data/prs_extra", exist_ok=True)
 added = 0
 for repo, n in missing:

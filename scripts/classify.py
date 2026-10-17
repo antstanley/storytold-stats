@@ -96,11 +96,8 @@ def main():
     basis = collections.Counter(); cats = collections.Counter()
     for line in open(f"{ROOT}/data/changes.jsonl"):
         r = json.loads(line)
-        if r["repo"] == "artcraft" and r["release"] == "artcraft-v0.0.1":
-            r["category"], r["basis"] = "uncategorised", "pre-release-history"
-        else:
-            r["category"], r["basis"] = classify(r, review)
-            basis[r["basis"]] += 1; cats[r["category"]] += 1
+        r["category"], r["basis"] = classify(r, review)
+        basis[r["basis"]] += 1; cats[r["category"]] += 1
         out.write(json.dumps(r, ensure_ascii=False) + "\n")
     print("basis", dict(basis), file=sys.stderr); print("category", dict(cats), file=sys.stderr)
 

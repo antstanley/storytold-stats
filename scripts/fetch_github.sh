@@ -28,10 +28,10 @@ while read -r repo; do
   scripts/fetch_prs.sh "$repo" || scripts/fetch_prs.sh "$repo"
 done < scripts/repos.txt
 
-# Repos that publish releases but are not covered yet
+# Repos that publish releases but are not covered yet (scripts/excluded_repos.txt are left out on purpose)
 python3 - <<'PY'
 import json
-covered = set(open("scripts/repos.txt").read().split())
+covered = set(open("scripts/repos.txt").read().split()) | set(open("scripts/excluded_repos.txt").read().split())
 new = [r["name"] for r in map(json.loads, open("data/org_repos.jsonl")) if r["releases"] > 0 and r["name"] not in covered]
 if new:
     print("NOT COVERED (has releases, missing from scripts/repos.txt):", ", ".join(new))

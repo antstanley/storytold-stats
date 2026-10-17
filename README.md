@@ -2,7 +2,7 @@
 
 Generated 2026-10-17 from the public repos at https://github.com/storytold.
 
-The org has 66 repos; 15 of them publish GitHub releases, and those are the ones covered here. Their 144 GitHub releases make 138 distinct release points (ArtCraft tags macOS and Windows builds of one version separately, and one PhotoCraft release candidate shares a commit with v0.1.0).
+The org has 66 repos; 15 of them publish GitHub releases, and 14 of those are covered here (artcraft is left out on purpose). Their 116 GitHub releases make 115 distinct release points (one PhotoCraft release candidate shares a commit with v0.1.0).
 Every change that landed in a release is put in one category (feature, fix, perf, …) and one landing type (PR merge, squash merge, direct commit, batch commit).
 
 ## Headline numbers (released changes only)
@@ -23,53 +23,51 @@ Every change that landed in a release is put in one category (feature, fix, perf
 | [lightcraft](reports/lightcraft.md) | 9 | v0.8.0 | 973 | 305 | 381 | 54 | 233 | 31% | 39% | 5.5% |
 | [effectcraft](reports/effectcraft.md) | 11 | v0.10.0 | 893 | 290 | 345 | 52 | 206 | 32% | 39% | 5.8% |
 | [wordcraft](reports/wordcraft.md) | 6 | v0.7.0 | 454 | 152 | 227 | 6 | 69 | 33% | 50% | 1.3% |
-| [artcraft](reports/artcraft.md) | 23 | v0.41.0 | 1522 | 709 | 310 | 14 | 489 | 47% | 20% | 0.9% |
-| **All** | **138** |  | **11263** | **3560** | **5169** | **363** | **2171** | 32% | 46% | 3.2% |
+| **All** | **115** |  | **9741** | **2851** | **4859** | **349** | **1682** | 29% | 50% | 3.6% |
 
 "Everything else" is i18n, docs, tests, build/CI, release housekeeping, refactors, dependency bumps, security hardening, reverts and changes that could not be categorised. Per-release tables for every repo are in [`reports/`](reports/).
 
-A further 2737 changes are on `main` but not yet in a release (621 features, 1427 fixes, 64 perf); they appear as the "unreleased" row in each repo report and are not in the table above.
+A further 2722 changes are on `main` but not yet in a release (614 features, 1424 fixes, 62 perf); they appear as the "unreleased" row in each repo report and are not in the table above.
 
 ### All categories
 
 | Category | Changes | Share |
 |---|--:|--:|
-| Feature | 3560 | 31.6% |
-| Fix | 5169 | 45.9% |
-| Perf | 363 | 3.2% |
-| i18n | 276 | 2.5% |
-| Docs | 495 | 4.4% |
-| Test | 246 | 2.2% |
-| Build/CI | 284 | 2.5% |
-| Release | 259 | 2.3% |
-| Refactor | 318 | 2.8% |
-| Deps | 28 | 0.2% |
-| Security | 59 | 0.5% |
-| Revert | 19 | 0.2% |
-| Other | 187 | 1.7% |
+| Feature | 2851 | 29.3% |
+| Fix | 4859 | 49.9% |
+| Perf | 349 | 3.6% |
+| i18n | 276 | 2.8% |
+| Docs | 454 | 4.7% |
+| Test | 233 | 2.4% |
+| Build/CI | 204 | 2.1% |
+| Release | 193 | 2.0% |
+| Refactor | 167 | 1.7% |
+| Deps | 9 | 0.1% |
+| Security | 57 | 0.6% |
+| Revert | 9 | 0.1% |
+| Other | 80 | 0.8% |
 
 ## Contributors: humans, agents and bots
 
-879 humans contributed to the released changes (811 as the author of at least one change, the rest only as co-authors), alongside 14 disclosed AI agents and 1 bot. 7018 of the 11263 changes (62%) disclose an agent, and 629 of the humans authored at least one change that does.
+874 humans contributed to the released changes (806 as the author of at least one change, the rest only as co-authors), alongside 14 disclosed AI agents and 0 bots. 7012 of the 9741 changes (72%) disclose an agent, and 627 of the humans authored at least one change that does.
 
 | Repo | Humans | Changes disclosing an agent | Share | Agent is git author | Agents disclosed | Bots |
 |---|--:|--:|--:|--:|---|--:|
-| [cadcraft](reports/cadcraft.md) | 57 | 403 | 84% | · | Claude | · |
-| [soundcraft](reports/soundcraft.md) | 37 | 139 | 57% | · | Claude | · |
+| [cadcraft](reports/cadcraft.md) | 56 | 403 | 84% | · | Claude | · |
+| [soundcraft](reports/soundcraft.md) | 36 | 139 | 57% | · | Claude | · |
 | [craft-launcher](reports/craft-launcher.md) | 36 | 77 | 76% | · | Claude | · |
-| [deckcraft](reports/deckcraft.md) | 19 | 162 | 92% | · | Claude | · |
-| [gridcraft](reports/gridcraft.md) | 59 | 216 | 52% | 1 | Claude, OpenAI Codex / ChatGPT | · |
-| [vectorcraft](reports/vectorcraft.md) | 142 | 832 | 60% | 2 | Claude, OpenAI Codex / ChatGPT, Cursor | · |
-| [photocraft](reports/photocraft.md) | 298 | 1368 | 65% | 20 | Claude, GitHub Copilot, OpenAI Codex / ChatGPT, Cursor, Unnamed agent, Devin, Qwen | · |
-| [pdfcraft](reports/pdfcraft.md) | 188 | 645 | 72% | · | Claude, OpenAI Codex / ChatGPT, opencode, GLM (Z.ai), GitHub Copilot, Muse Spark (Meta), Cursor | · |
-| [designcraft](reports/designcraft.md) | 45 | 376 | 79% | · | Claude, OpenAI Codex / ChatGPT, Codebuff | · |
-| [filmcraft](reports/filmcraft.md) | 109 | 689 | 78% | 3 | Claude, OpenAI Codex / ChatGPT, Kimi, GitHub Copilot, Xiaomi MiMo | · |
+| [deckcraft](reports/deckcraft.md) | 18 | 162 | 92% | · | Claude | · |
+| [gridcraft](reports/gridcraft.md) | 58 | 216 | 52% | 1 | Claude, OpenAI Codex / ChatGPT | · |
+| [vectorcraft](reports/vectorcraft.md) | 141 | 832 | 60% | 2 | Claude, OpenAI Codex / ChatGPT, Cursor | · |
+| [photocraft](reports/photocraft.md) | 297 | 1368 | 65% | 20 | Claude, GitHub Copilot, OpenAI Codex / ChatGPT, Cursor, Unnamed agent, Devin, Qwen | · |
+| [pdfcraft](reports/pdfcraft.md) | 187 | 645 | 72% | · | Claude, OpenAI Codex / ChatGPT, opencode, GLM (Z.ai), GitHub Copilot, Muse Spark (Meta), Cursor | · |
+| [designcraft](reports/designcraft.md) | 44 | 376 | 79% | · | Claude, OpenAI Codex / ChatGPT, Codebuff | · |
+| [filmcraft](reports/filmcraft.md) | 108 | 689 | 78% | 3 | Claude, OpenAI Codex / ChatGPT, Kimi, GitHub Copilot, Xiaomi MiMo | · |
 | [figcraft](reports/figcraft.md) | 13 | 153 | 57% | · | Claude | · |
-| [lightcraft](reports/lightcraft.md) | 142 | 805 | 83% | 264 | Claude, OpenAI Codex / ChatGPT, DeepSeek, opencode, GitHub Copilot, GLM (Z.ai) | · |
-| [effectcraft](reports/effectcraft.md) | 80 | 763 | 85% | 126 | Claude, OpenAI Codex / ChatGPT | · |
-| [wordcraft](reports/wordcraft.md) | 88 | 384 | 85% | · | Claude, OpenAI Codex / ChatGPT, Cursor, Devin, GitHub Copilot, Unnamed agent | · |
-| [artcraft](reports/artcraft.md) | 8 | 6 | <1% | · | Claude | 1 |
-| **All** | **879** | **7018** | 62% | **416** | 14 agents | 1 |
+| [lightcraft](reports/lightcraft.md) | 141 | 805 | 83% | 264 | Claude, OpenAI Codex / ChatGPT, DeepSeek, opencode, GitHub Copilot, GLM (Z.ai) | · |
+| [effectcraft](reports/effectcraft.md) | 79 | 763 | 85% | 126 | Claude, OpenAI Codex / ChatGPT | · |
+| [wordcraft](reports/wordcraft.md) | 87 | 384 | 85% | · | Claude, OpenAI Codex / ChatGPT, Cursor, Devin, GitHub Copilot, Unnamed agent | · |
+| **All** | **874** | **7012** | 72% | **416** | 14 agents | · |
 
 A human is counted once per repo here, and once in the **All** row even if they contributed to several repos.
 
@@ -77,7 +75,7 @@ A human is counted once per repo here, and once in the **All** row even if they 
 
 | Agent | Changes | As git author | As co-author | Humans authoring those changes | Repos |
 |---|--:|--:|--:|--:|--:|
-| Claude | 6825 | 416 | 6409 | 608 | 15 |
+| Claude | 6819 | 416 | 6403 | 606 | 14 |
 | OpenAI Codex / ChatGPT | 208 | · | 208 | 51 | 9 |
 | GitHub Copilot | 36 | · | 36 | 5 | 5 |
 | Cursor | 17 | · | 17 | 6 | 4 |
@@ -92,7 +90,7 @@ A human is counted once per repo here, and once in the **All** row even if they 
 | Qwen | 1 | · | 1 | 1 | 1 |
 | Xiaomi MiMo | 1 | · | 1 | 1 | 1 |
 
-"As git author" means the commit's author is the agent itself; "as co-author" means a human is the author and the agent is named in a `Co-authored-by` trailer or a "Generated with" line. A change that discloses two agents counts for both. 100 changes have an agent as git author and no human named at all. The model names seen most often: Claude Opus 5.5 (6304), Claude (484), Claude Sonnet 5.5 (185), Codex (152), Claude Fable 5.1 (79), Claude Opus 4.8 (63), Claude Haiku 5.5 (43), OpenAI Codex (36).
+"As git author" means the commit's author is the agent itself; "as co-author" means a human is the author and the agent is named in a `Co-authored-by` trailer or a "Generated with" line. A change that discloses two agents counts for both. 97 changes have an agent as git author and no human named at all. The model names seen most often: Claude Opus 5.5 (6304), Claude (482), Claude Sonnet 5.5 (185), Codex (152), Claude Fable 5.1 (79), Claude Opus 4.8 (62), Claude Haiku 5.5 (43), OpenAI Codex (36).
 
 `csv/contributors.csv` lists every human, agent and bot per repo and across the org.
 
@@ -105,8 +103,8 @@ A human is counted once per repo here, and once in the **All** row even if they 
 | Landing type | Changes | What it is |
 |---|--:|---|
 | PR merge | 4535 | a `Merge pull request #N` / `Merge PR #N` merge commit, at any depth of the history (PRs merged into an integration branch count too). The PR's own commits are folded into it. |
-| Squash merge | 5861 | a single commit that is the squash of PR #N. |
-| Direct commit | 2738 | a non-merge commit pushed straight to the mainline (or brought in by a plain branch merge) with no PR behind it. |
+| Squash merge | 4839 | a single commit that is the squash of PR #N. |
+| Direct commit | 2223 | a non-merge commit pushed straight to the mainline (or brought in by a plain branch merge) with no PR behind it. |
 | Batch commit | 866 | a commit made directly on an integration-batch PR branch (follow-up fixes, formatting, conflict clean-up after merging a batch of contributor PRs). |
 
 Commits inside an ordinary PR branch and plain sync merges (`Merge branch 'main' into …`) are not changes; they are reported separately in each repo's "By how it landed" table. Counts are counts of changes, not of lines or effort: a one-line fix and a whole new subsystem each count once.
@@ -139,23 +137,21 @@ Commits inside an ordinary PR branch and plain sync merges (`Merge branch 'main'
 
 | How the category was decided | Changes | Share |
 |---|--:|--:|
-| Title read and labelled by an LLM (Claude Haiku), for titles with no prefix, branch or label signal | 6486 | 46.3% |
-| PR branch name (`fix/…`, `feat/…`, `perf/…`, `docs/…`) | 5157 | 36.8% |
-| Conventional-commit prefix on the title (`fix(...)`, `feat:`, `perf:` …) | 2075 | 14.8% |
-| Keyword rules on the title: version bumps, release prep and reverts, plus any title not yet read by the LLM | 200 | 1.4% |
-| Integration-batch PR that only bundles other PRs (counted as Other) | 73 | 0.5% |
+| Title read and labelled by an LLM (Claude Haiku), for titles with no prefix, branch or label signal | 5298 | 42.5% |
+| PR branch name (`fix/…`, `feat/…`, `perf/…`, `docs/…`) | 4863 | 39.0% |
+| Conventional-commit prefix on the title (`fix(...)`, `feat:`, `perf:` …) | 2052 | 16.5% |
+| Keyword rules on the title: version bumps, release prep and reverts, plus any title not yet read by the LLM | 168 | 1.3% |
+| Integration-batch PR that only bundles other PRs (counted as Other) | 73 | 0.6% |
 | `bug` / `enhancement` label on the PR or the issue it closes | 9 | 0.1% |
 
 ## Things to know before quoting these
 
-- **The feature/fix split is partly a judgment call.** Roughly half of the changes have no prefix, branch name or label saying what they are; those were labelled from their title alone by an LLM (Claude Haiku, in 8 batches, plus one batch of 217 titles in a later refresh and three batches of 1,394 titles in the refresh after that). The labels were spot-checked against the titles and checked for row alignment; one run of 53 shifted labels was found and repaired. The 217-title batch was read against its titles in full and had no shifts; the three later batches were sampled against their titles, and the one run the alignment check flagged (40 rows) was read in full and found not to be shifted. No human has reviewed them one by one. Titles in these repos often just state the new behaviour ("Layers: the active layer falls back to the top layer when it is removed"), which reads as a fix but could be argued either way. Treat the split as indicative, not exact.
+- **The feature/fix split is partly a judgment call.** Roughly half of the changes have no prefix, branch name or label saying what they are; those were labelled from their title alone by an LLM (Claude Haiku, in 7 batches, plus one batch of 217 titles in a later refresh and three batches of 1,394 titles in the refresh after that). The labels were spot-checked against the titles and checked for row alignment; one run of 53 shifted labels was found and repaired. The 217-title batch was read against its titles in full and had no shifts; the three later batches were sampled against their titles, and the one run the alignment check flagged (40 rows) was read in full and found not to be shifted. No human has reviewed them one by one. Titles in these repos often just state the new behaviour ("Layers: the active layer falls back to the top layer when it is removed"), which reads as a fix but could be argued either way. Treat the split as indicative, not exact.
 - **Agent figures are a floor.** They count what the history discloses. A change written with an agent but committed without a trailer looks human-only, and squash merges keep trailers only if the person merging left them in.
 - **"Human" means "not a recognised agent or bot".** An account that is run by an agent but does not say so, or an agent whose name is not in the table yet, is counted as a human.
-- **A few people may be counted twice.** 61 of the 879 humans could not be tied to a GitHub login and are identified by git name only; some of them may be the same person as a login.
+- **A few people may be counted twice.** 61 of the 874 humans could not be tied to a GitHub login and are identified by git name only; some of them may be the same person as a login.
 - **GitHub labels were of no use.** Only a handful of PRs or linked issues carry `bug`/`enhancement` labels.
 - **"fixes #123" is not treated as a bug-fix signal.** It is GitHub's issue-closing keyword and is used on feature PRs too.
-- **ArtCraft's first release (`artcraft-v0.0.1`) is not categorised.** It sits on about 13,400 commits of earlier monorepo history going back to 2015. It is counted, not labelled, and is left out of every total above.
-- **ArtCraft's history was reset before v0.41.0.** `main` was restarted on 2026-09-11, so v0.41.0 covers only the 11 commits on the new history. ArtCraft's macOS and Windows tags for the same version are treated as one release.
 - **Not every version number has a release.** Several repos skip versions (e.g. v0.5.0 → v0.6.2); a row covers everything since the previous published release.
 - **PhotoCraft `v0.1.0` and `v0.1.1-rc.4` are the same commit** and are shown as one row.
 - **Community vs team PRs** uses GitHub's author association at the time of fetching (member/owner/collaborator = team).

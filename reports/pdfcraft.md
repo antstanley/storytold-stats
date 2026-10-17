@@ -80,10 +80,10 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 188 people have contributed to released changes.
+- 187 people have contributed to released changes.
 - The first release had 1 person and the latest had 34; the most in one release was 103, in v0.7.1 (12 Oct).
 - In the latest release, 10 of the 34 people were contributing for the first time.
-- The most active person, @echelon, authored 27% of all changes, and the three most active authored 41% between them.
+- The most active person, @echelon, authored 28% of all changes, and the three most active authored 42% between them.
 - 72% of changes say an AI agent was involved (645 of 900).
 - That share has gone down: 97% in the first 4 releases and 61% in the last 4 releases.
 - The agents named most are Claude (588 changes) and OpenAI Codex / ChatGPT (74).
@@ -95,14 +95,14 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.1.1](https://github.com/storytold/pdfcraft/releases/tag/v0.1.1) | 1 | · | 24 | 100% | · | Claude | · |
 | [v0.2.0](https://github.com/storytold/pdfcraft/releases/tag/v0.2.0) | 2 | 1 | 35 | 100% | · | Claude | · |
 | [v0.2.1](https://github.com/storytold/pdfcraft/releases/tag/v0.2.1) | 4 | 2 | 28 | 97% | · | Claude, OpenAI Codex / ChatGPT, GLM (Z.ai) | · |
-| [v0.4.0](https://github.com/storytold/pdfcraft/releases/tag/v0.4.0) | 35 | 32 | 76 | 84% | · | Claude, OpenAI Codex / ChatGPT | · |
-| [v0.5.0](https://github.com/storytold/pdfcraft/releases/tag/v0.5.0) | 62 | 48 | 150 | 84% | · | Claude, OpenAI Codex / ChatGPT, GLM (Z.ai), GitHub Copilot, Cursor | · |
+| [v0.4.0](https://github.com/storytold/pdfcraft/releases/tag/v0.4.0) | 34 | 31 | 76 | 84% | · | Claude, OpenAI Codex / ChatGPT | · |
+| [v0.5.0](https://github.com/storytold/pdfcraft/releases/tag/v0.5.0) | 61 | 48 | 150 | 84% | · | Claude, OpenAI Codex / ChatGPT, GLM (Z.ai), GitHub Copilot, Cursor | · |
 | [v0.6.0](https://github.com/storytold/pdfcraft/releases/tag/v0.6.0) | 37 | 22 | 81 | 65% | · | Claude, opencode, OpenAI Codex / ChatGPT, GLM (Z.ai) | · |
 | [v0.7.1](https://github.com/storytold/pdfcraft/releases/tag/v0.7.1) | 103 | 72 | 102 | 46% | · | Claude, OpenAI Codex / ChatGPT, Muse Spark (Meta), GitHub Copilot | · |
 | [v0.8.0](https://github.com/storytold/pdfcraft/releases/tag/v0.8.0) | 34 | 10 | 29 | 40% | · | Claude, OpenAI Codex / ChatGPT | · |
 | _unreleased (main)_ | 86 | 42 | 161 | 75% | · | Claude, OpenAI Codex / ChatGPT, GLM (Z.ai), Cursor | · |
-| **Released total** | **188** |  | **645** | 72% | **0** | Claude, OpenAI Codex / ChatGPT, opencode, GLM (Z.ai), GitHub Copilot, Muse Spark (Meta), Cursor | · |
+| **Released total** | **187** |  | **645** | 72% | **0** | Claude, OpenAI Codex / ChatGPT, opencode, GLM (Z.ai), GitHub Copilot, Muse Spark (Meta), Cursor | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 
-Most active humans in released changes: @echelon (612), @cyfung1031 (88), @marcoarnulfo (40), @jcl-bit (24), @MarekSpodBiedry (23), @earlvanze (22), @bartalos86 (19), @DWAA1660 (19), @Streetblock (19), @LloydNicholson (17).
+Most active humans in released changes: @echelon (614), @cyfung1031 (88), @marcoarnulfo (40), @jcl-bit (24), @MarekSpodBiedry (23), @earlvanze (22), @bartalos86 (19), @DWAA1660 (19), @Streetblock (19), @LloydNicholson (17).

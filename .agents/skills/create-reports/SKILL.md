@@ -44,7 +44,7 @@ Export the charts whenever the numbers changed, even if the reports' text did no
 
 ## Check the result
 
-Read at least three reports from top to bottom: the largest repo, the smallest, and `artcraft`, which is the odd one (a long history, a first release that is left out, very little agent disclosure). For each:
+Read at least three reports from top to bottom: the largest repo, the smallest, and one whose releases all fall within a few days. For each:
 
 - **Commentary against tables.** Every figure in a bullet can be checked against the table under it. Check a few.
 - **Commentary against charts.** If a bullet says releases are getting bigger, the bars should show it.
@@ -69,7 +69,7 @@ When you add or change a sentence, hold it to these:
 - **One fact per sentence, with its numbers.** "Releases are getting bigger: the first 4 releases averaged 31 changes each and the last 4 averaged 347." The reader should be able to find both numbers in the table.
 - **Plain words.** "Fixing" and "building new things", not "maintenance burden" or "feature velocity". Write "people", "changes", "pull requests". Name a release as `v0.6.0 (10 Oct)`; `name()` does this.
 - **Only claim a trend the numbers clear a bar for.** The existing bars: a size change needs the later average to be at least 1.5 times the earlier one (or two thirds of it); a shift in a share needs 10 percentage points; a shift in where pull requests come from needs 20. Below the bar, say it has stayed about the same, or say nothing.
-- **Make it right for every repo, not the one in front of you.** The same rule writes all the reports. Before keeping a change, regenerate and read the sentence in every report: `grep -h "<a few words of it>" reports/*.md`. The repos that break rules are the small ones (two contributors, four releases), the ones whose releases all fall within two days, and `artcraft`.
+- **Make it right for every repo, not the one in front of you.** The same rule writes all the reports. Before keeping a change, regenerate and read the sentence in every report: `grep -h "<a few words of it>" reports/*.md`. The repos that break rules are the small ones (two contributors, four releases), and the ones whose releases all fall within two days.
 - **Mind the small numbers.** Use `count()` so that one release is not "1 releases". Use `pct()` so that 6 of 1,522 is "under 1%" and not "0%". Say "none" and "all" where a percentage would read as 0% or 100%. For a share already worked out as a number, such as the two halves in a trend sentence, use `of(p, "changes")` for the first mention and `bare(p)` after it; both say "none", "all", "under 1%" and "over 99%" for you.
 - **Keep a pronoun next to what it refers to.** A sentence that starts "That share…" must directly follow the sentence that gives the share.
 

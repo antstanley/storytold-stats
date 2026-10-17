@@ -88,7 +88,7 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 142 people have contributed to released changes.
+- 141 people have contributed to released changes.
 - The first release had 2 people and the latest had 48.
 - In the latest release, 22 of the 48 people were contributing for the first time.
 - The most active person, @bflatastic, authored 38% of all changes, and the three most active authored 60% between them.
@@ -106,8 +106,8 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.3.0](https://github.com/storytold/vectorcraft/releases/tag/v0.3.0) | 3 | 1 | 51 | 100% | · | Claude | · |
 | [v0.3.1](https://github.com/storytold/vectorcraft/releases/tag/v0.3.1) | 4 | 1 | 29 | 100% | · | Claude | · |
 | [v0.4.0](https://github.com/storytold/vectorcraft/releases/tag/v0.4.0) | 11 | 8 | 49 | 96% | · | Claude | · |
-| [v0.5.0](https://github.com/storytold/vectorcraft/releases/tag/v0.5.0) | 27 | 20 | 121 | 96% | · | Claude | · |
-| [v0.6.0](https://github.com/storytold/vectorcraft/releases/tag/v0.6.0) | 5 | 1 | 12 | 100% | · | Claude | · |
+| [v0.5.0](https://github.com/storytold/vectorcraft/releases/tag/v0.5.0) | 26 | 19 | 121 | 96% | · | Claude | · |
+| [v0.6.0](https://github.com/storytold/vectorcraft/releases/tag/v0.6.0) | 4 | 1 | 12 | 100% | · | Claude | · |
 | [v0.7.0](https://github.com/storytold/vectorcraft/releases/tag/v0.7.0) | 7 | 4 | 15 | 100% | · | Claude | · |
 | [v0.8.0](https://github.com/storytold/vectorcraft/releases/tag/v0.8.0) | 28 | 21 | 109 | 83% | 1 | Claude, OpenAI Codex / ChatGPT, Cursor | · |
 | [v0.9.0](https://github.com/storytold/vectorcraft/releases/tag/v0.9.0) | 24 | 14 | 109 | 95% | · | Claude | · |
@@ -115,8 +115,8 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.11.0](https://github.com/storytold/vectorcraft/releases/tag/v0.11.0) | 39 | 19 | 22 | 9% | · | Claude, OpenAI Codex / ChatGPT, Cursor | · |
 | [v0.12.0](https://github.com/storytold/vectorcraft/releases/tag/v0.12.0) | 48 | 22 | 59 | 24% | 1 | Claude, Cursor, OpenAI Codex / ChatGPT | · |
 | _unreleased (main)_ | 23 | 8 | 44 | 28% | · | Claude, OpenAI Codex / ChatGPT | · |
-| **Released total** | **142** |  | **832** | 60% | **2** | Claude, OpenAI Codex / ChatGPT, Cursor | · |
+| **Released total** | **141** |  | **832** | 60% | **2** | Claude, OpenAI Codex / ChatGPT, Cursor | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 
-Most active humans in released changes: @bflatastic (1202), @dotCooCoo (184), @echelon (154), @theironchef (39), @marcoarnulfo (35), @switch87 (35), @AyberkA0 (25), @imachus (24), @Ni-zav (21), @haranishi (20).
+Most active humans in released changes: @bflatastic (1202), @dotCooCoo (184), @echelon (156), @theironchef (39), @marcoarnulfo (35), @switch87 (35), @AyberkA0 (25), @imachus (24), @Ni-zav (21), @haranishi (20).

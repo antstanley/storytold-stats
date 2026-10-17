@@ -12,4 +12,3 @@ figcraft
 lightcraft
 effectcraft
 wordcraft
-artcraft

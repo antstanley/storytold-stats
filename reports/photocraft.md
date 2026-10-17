@@ -81,8 +81,8 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 
 **What this shows**
 
-- 298 people have contributed to released changes.
-- The first release had 1 person and the latest had 105; the most in one release was 120, in v0.6.0 (10 Oct).
+- 297 people have contributed to released changes.
+- The first release had 1 person and the latest had 105; the most in one release was 119, in v0.6.0 (10 Oct).
 - In the latest release, 43 of the 105 people were contributing for the first time.
 - The most active person, @echelon, authored 13% of all changes, and the three most active authored 26% between them.
 - 65% of changes say an AI agent was involved (1,368 of 2,093).
@@ -98,14 +98,14 @@ Changes = PR merges + squash merges + direct commits + batch commits. Commits = 
 | [v0.1.1](https://github.com/storytold/photocraft/releases/tag/v0.1.1) | 1 | · | 29 | 100% | · | Claude | · |
 | [v0.2.0](https://github.com/storytold/photocraft/releases/tag/v0.2.0) | 6 | 5 | 60 | 94% | · | Claude | · |
 | [v0.3.0](https://github.com/storytold/photocraft/releases/tag/v0.3.0) | 35 | 30 | 72 | 39% | · | Claude, GitHub Copilot, Devin | · |
-| [v0.5.0](https://github.com/storytold/photocraft/releases/tag/v0.5.0) | 51 | 36 | 154 | 75% | · | Claude, GitHub Copilot, Qwen | · |
-| [v0.6.0](https://github.com/storytold/photocraft/releases/tag/v0.6.0) | 120 | 93 | 371 | 71% | 19 | Claude, OpenAI Codex / ChatGPT, Cursor, GitHub Copilot | · |
+| [v0.5.0](https://github.com/storytold/photocraft/releases/tag/v0.5.0) | 50 | 35 | 154 | 75% | · | Claude, GitHub Copilot, Qwen | · |
+| [v0.6.0](https://github.com/storytold/photocraft/releases/tag/v0.6.0) | 119 | 93 | 371 | 71% | 19 | Claude, OpenAI Codex / ChatGPT, Cursor, GitHub Copilot | · |
 | [v0.7.0](https://github.com/storytold/photocraft/releases/tag/v0.7.0) | 75 | 35 | 149 | 61% | · | Claude | · |
 | [v0.8.2](https://github.com/storytold/photocraft/releases/tag/v0.8.2) | 108 | 55 | 297 | 71% | 1 | Claude, OpenAI Codex / ChatGPT, Unnamed agent, Cursor | · |
 | [v0.9.0](https://github.com/storytold/photocraft/releases/tag/v0.9.0) | 105 | 43 | 219 | 56% | · | Claude, OpenAI Codex / ChatGPT, Cursor | · |
 | _unreleased (main)_ | 87 | 31 | 116 | 46% | · | Claude, Cursor, DeepSeek | · |
-| **Released total** | **298** |  | **1368** | 65% | **20** | Claude, GitHub Copilot, OpenAI Codex / ChatGPT, Cursor, Unnamed agent, Devin, Qwen | · |
+| **Released total** | **297** |  | **1368** | 65% | **20** | Claude, GitHub Copilot, OpenAI Codex / ChatGPT, Cursor, Unnamed agent, Devin, Qwen | · |
 
 Humans are unique people per release, authors and co-authors together; New is how many of them had not appeared in an earlier release of this repo. The total row counts each person once. An agent is disclosed when it is a commit's git author, is named in a `Co-authored-by` trailer, or the message says it was generated with one.
 
-Most active humans in released changes: @echelon (825), @vangel76 (153), @Ni-zav (128), @bflatastic (118), @davidmann4 (102), @Elvis33LE (44), @MarekSpodBiedry (41), @switch87 (41), @kayrockscreenprinting (40), @itrycodinganditsbad (36).
+Most active humans in released changes: @echelon (828), @vangel76 (153), @Ni-zav (128), @bflatastic (118), @davidmann4 (102), @Elvis33LE (44), @MarekSpodBiedry (41), @switch87 (41), @kayrockscreenprinting (40), @itrycodinganditsbad (36).

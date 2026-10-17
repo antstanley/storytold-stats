@@ -39,7 +39,7 @@ def stats(rel):
     a = next((api[(rel["repo"], t)] for t in rel["tags"] if (rel["repo"], t) in api), None)
     return dict(repo=rel["repo"], release_tag=rel["release"], tags=", ".join(rel["tags"]),
                 published=(a["published_at"][:10] if a else rel["date"][:10]), url=(a["url"] if a else ""),
-                commits=rel["commits"], changes=len(ch), uncategorised=cat.get("uncategorised", 0),
+                commits=rel["commits"], changes=len(ch),
                 **{c: cat.get(c, 0) for c in CATS}, **{k: kind.get(k, 0) for k in KINDS},
                 folded_pr_commits=rel["folded_pr_commits"], sync_merges=rel["sync_merges"],
                 community_prs=sum(1 for r in prs if r["assoc"] and r["assoc"] not in TEAM),
@@ -55,12 +55,12 @@ S = [stats(r) for r in rels]
 # Every change is in exactly one category and one landing type, and every commit is accounted for
 for s in S:
     where = f"{s['repo']} {s['release_tag']}"
-    assert s["changes"] == sum(s[c] for c in CATS) + s["uncategorised"], f"category counts do not add up for {where}"
+    assert s["changes"] == sum(s[c] for c in CATS), f"category counts do not add up for {where}"
     assert s["changes"] == sum(s[k] for k in KINDS), f"landing-type counts do not add up for {where}"
     assert s["commits"] == s["changes"] + s["folded_pr_commits"] + s["sync_merges"], f"commit counts do not add up for {where}"
 assert sum(s["changes"] for s in S) == len(rows), "release totals do not match the number of changes"
 
-fields = ["repo", "release_tag", "tags", "published", "commits", "changes"] + CATS + ["uncategorised"] + KINDS + ["folded_pr_commits", "sync_merges", "community_prs", "team_prs", "humans", "new_humans", "agents", "agent_names", "bots", "changes_agent_disclosed", "changes_agent_authored", "changes_no_human", "url"]
+fields = ["repo", "release_tag", "tags", "published", "commits", "changes"] + CATS + KINDS + ["folded_pr_commits", "sync_merges", "community_prs", "team_prs", "humans", "new_humans", "agents", "agent_names", "bots", "changes_agent_disclosed", "changes_agent_authored", "changes_no_human", "url"]
 with open(f"{ROOT}/csv/release_stats.csv", "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=fields); w.writeheader(); w.writerows(S)
 with open(f"{ROOT}/csv/changes.csv", "w", newline="") as f:
@@ -69,8 +69,8 @@ with open(f"{ROOT}/csv/changes.csv", "w", newline="") as f:
     for r in rows:
         w.writerow({**r, **{k: "; ".join(r[k]) for k in ("coauthors", "agents_author", "agents_coauthor", "agent_models", "bots")}})
 
-# ---- contributors: released, categorised changes only, like the headline numbers
-released = [r for r in rows if r["category"] != "uncategorised" and r["release"] != "(unreleased)"]
+# ---- contributors: released changes only, like the headline numbers
+released = [r for r in rows if r["release"] != "(unreleased)"]
 rel_order = {(x["repo"], x["release"]): i for i, x in enumerate(rels)}
 
 def contributor_rows(changes, scope):
@@ -124,24 +124,20 @@ def bullets(sentences): return ["**What this shows**", ""] + [f"- {x}" for x in 
 for repo in repos:
     ss = [s for s in S if s["repo"] == repo]
     tagged = [s for s in ss if s["release_tag"] != "(unreleased)"]
-    cs = [s for s in tagged if not s["uncategorised"]]
+    cs = tagged
     unreleased = next((s for s in ss if s["release_tag"] == "(unreleased)"), None)
     out = [f"# {repo} — changes per release", "",
            f"{len(tagged)} releases, {tagged[0]['published']} → {tagged[-1]['published']}. Each release is counted as the changes that landed between the previous release tag and its own; the first one is everything up to the first tag. See [../README.md](../README.md) for how changes are counted and categorised. The charts cover released changes; the commentary under them is generated from the same numbers.", ""]
     out += ["## Changes by type", "",
             picture(repo, "changes-line", f"{repo}: changes per release, stacked by type, as lines"), "",
             picture(repo, "changes-bar", f"{repo}: changes per release, stacked by type, as bars"), ""]
-    out += bullets(commentary.types(repo, cs, unreleased, [x for x in tagged if x["uncategorised"]]))
+    out += bullets(commentary.types(repo, cs, unreleased))
     lines = []
     for s in ss:
-        if s["uncategorised"]:
-            lines.append([label(s), s["published"], n(s["changes"])] + ["–"] * len(CATS)); continue
         lines.append([label(s), s["published"], n(s["changes"])] + [n(s[c]) for c in CATS])
     t = total(cs, ["changes"] + CATS)
     lines.append(["**Released total**", "", f"**{t['changes']}**"] + [f"**{t[c]}**" if t[c] else "·" for c in CATS])
     out += [table(["Release", "Published", "Changes"] + [HEAD[c] for c in CATS], lines), ""]
-    if any(s["uncategorised"] for s in ss):
-        out += ["`–` = not categorised: the first ArtCraft release sits on top of ~13,400 commits of earlier monorepo history (2015–2025), which is counted but not labelled.", ""]
     if t["changes"]:
         out += ["Share of released changes: " + ", ".join(f"{HEAD[c].lower()} {100 * t[c] / t['changes']:.0f}%" for c in CATS if t[c] / t["changes"] >= 0.005) + ".", ""]
     out += ["## How changes landed", ""]
@@ -172,20 +168,20 @@ for repo in repos:
         if not os.path.exists(os.path.join(ROOT, "reports", ref)): print(f"missing chart: reports/{repo}.md embeds {ref}", file=sys.stderr)
 
 # README
-cs = [s for s in S if s["release_tag"] != "(unreleased)" and not s["uncategorised"]]
+cs = [s for s in S if s["release_tag"] != "(unreleased)"]
 lines = []
 for repo in repos:
     ss = [s for s in cs if s["repo"] == repo]; t = total(ss, ["changes"] + CATS)
     nrel = len([s for s in S if s["repo"] == repo and s["release_tag"] != "(unreleased)"])
     rest = t["changes"] - t["feature"] - t["fix"] - t["perf"]
-    lines.append([f"[{repo}](reports/{repo}.md)", n(nrel), ss[-1]["release_tag"].replace("artcraft-", ""), n(t["changes"]), n(t["feature"]), n(t["fix"]), n(t["perf"]), n(rest),
+    lines.append([f"[{repo}](reports/{repo}.md)", n(nrel), ss[-1]["release_tag"], n(t["changes"]), n(t["feature"]), n(t["fix"]), n(t["perf"]), n(rest),
                   f"{100 * t['feature'] / t['changes']:.0f}%", f"{100 * t['fix'] / t['changes']:.0f}%", f"{100 * t['perf'] / t['changes']:.1f}%"])
 T = total(cs, ["changes"] + CATS)
 lines.append(["**All**", f"**{len([s for s in S if s['release_tag'] != '(unreleased)'])}**", "", f"**{T['changes']}**", f"**{T['feature']}**", f"**{T['fix']}**", f"**{T['perf']}**", f"**{T['changes'] - T['feature'] - T['fix'] - T['perf']}**",
               f"{100 * T['feature'] / T['changes']:.0f}%", f"{100 * T['fix'] / T['changes']:.0f}%", f"{100 * T['perf'] / T['changes']:.1f}%"])
 summary = table(["Repo", "Releases", "Latest", "Changes", "Feature", "Fix", "Perf", "Everything else", "Feature %", "Fix %", "Perf %"], lines)
 allcat = table(["Category", "Changes", "Share"], [[HEAD[c], n(T[c]), f"{100 * T[c] / T['changes']:.1f}%"] for c in CATS])
-cl = [r for r in rows if r["category"] != "uncategorised"]
+cl = rows
 basis = collections.Counter(r["basis"] for r in cl); kinds = collections.Counter(r["kind"] for r in cl)
 BASIS = {"prefix": "Conventional-commit prefix on the title (`fix(...)`, `feat:`, `perf:` …)", "branch": "PR branch name (`fix/…`, `feat/…`, `perf/…`, `docs/…`)",
          "label": "`bug` / `enhancement` label on the PR or the issue it closes", "review": "Title read and labelled by an LLM (Claude Haiku), for titles with no prefix, branch or label signal",
@@ -221,7 +217,9 @@ agent_t = table(["Agent", "Changes", "As git author", "As co-author", "Humans au
                   n(len(fam_people[d["contributor"]])), n(len(fam_repos[d["contributor"]]))] for d in C_ALL if d["kind"] == "agent"])
 models = collections.Counter(m for r in released for m in r["agent_models"])
 model_line = ", ".join(f"{m} ({c})" for m, c in models.most_common(8))
-n_org = sum(1 for _ in open(f"{ROOT}/data/org_repos.jsonl"))
+org = [json.loads(l) for l in open(f"{ROOT}/data/org_repos.jsonl")]
+n_org, n_publish = len(org), sum(1 for r in org if r["releases"] > 0)
+excluded = open(f"{ROOT}/scripts/excluded_repos.txt").read().split()
 n_gh = sum(len(json.load(open(f"{ROOT}/data/releases_api/{r}.json"))) for r in repos)
 n_points = len([s for s in S if s["release_tag"] != "(unreleased)"])
 U = [s for s in S if s["release_tag"] == "(unreleased)"]
@@ -236,7 +234,7 @@ readme = f"""# storytold — changes per release
 
 Generated {datetime.date.today().isoformat()} from the public repos at https://github.com/storytold.
 
-The org has {n_org} repos; {len(repos)} of them publish GitHub releases, and those are the ones covered here. Their {n_gh} GitHub releases make {n_points} distinct release points (ArtCraft tags macOS and Windows builds of one version separately, and one PhotoCraft release candidate shares a commit with v0.1.0).
+The org has {n_org} repos; {n_publish} of them publish GitHub releases, and {len(repos)} of those are covered here ({", ".join(excluded)} is left out on purpose). Their {n_gh} GitHub releases make {n_points} distinct release points (one PhotoCraft release candidate shares a commit with v0.1.0).
 Every change that landed in a release is put in one category (feature, fix, perf, …) and one landing type (PR merge, squash merge, direct commit, batch commit).
 
 ## Headline numbers (released changes only)
@@ -307,14 +305,12 @@ Commits inside an ordinary PR branch and plain sync merges (`Merge branch 'main'
 
 ## Things to know before quoting these
 
-- **The feature/fix split is partly a judgment call.** Roughly half of the changes have no prefix, branch name or label saying what they are; those were labelled from their title alone by an LLM (Claude Haiku, in 8 batches, plus one batch of 217 titles in a later refresh and three batches of 1,394 titles in the refresh after that). The labels were spot-checked against the titles and checked for row alignment; one run of 53 shifted labels was found and repaired. The 217-title batch was read against its titles in full and had no shifts; the three later batches were sampled against their titles, and the one run the alignment check flagged (40 rows) was read in full and found not to be shifted. No human has reviewed them one by one. Titles in these repos often just state the new behaviour ("Layers: the active layer falls back to the top layer when it is removed"), which reads as a fix but could be argued either way. Treat the split as indicative, not exact.
+- **The feature/fix split is partly a judgment call.** Roughly half of the changes have no prefix, branch name or label saying what they are; those were labelled from their title alone by an LLM (Claude Haiku, in 7 batches, plus one batch of 217 titles in a later refresh and three batches of 1,394 titles in the refresh after that). The labels were spot-checked against the titles and checked for row alignment; one run of 53 shifted labels was found and repaired. The 217-title batch was read against its titles in full and had no shifts; the three later batches were sampled against their titles, and the one run the alignment check flagged (40 rows) was read in full and found not to be shifted. No human has reviewed them one by one. Titles in these repos often just state the new behaviour ("Layers: the active layer falls back to the top layer when it is removed"), which reads as a fix but could be argued either way. Treat the split as indicative, not exact.
 - **Agent figures are a floor.** They count what the history discloses. A change written with an agent but committed without a trailer looks human-only, and squash merges keep trailers only if the person merging left them in.
 - **"Human" means "not a recognised agent or bot".** An account that is run by an agent but does not say so, or an agent whose name is not in the table yet, is counted as a human.
 - **A few people may be counted twice.** {sum(1 for d in humans_all if not d["contributor"].startswith("@"))} of the {kinds_all['human']} humans could not be tied to a GitHub login and are identified by git name only; some of them may be the same person as a login.
 - **GitHub labels were of no use.** Only a handful of PRs or linked issues carry `bug`/`enhancement` labels.
 - **"fixes #123" is not treated as a bug-fix signal.** It is GitHub's issue-closing keyword and is used on feature PRs too.
-- **ArtCraft's first release (`artcraft-v0.0.1`) is not categorised.** It sits on about 13,400 commits of earlier monorepo history going back to 2015. It is counted, not labelled, and is left out of every total above.
-- **ArtCraft's history was reset before v0.41.0.** `main` was restarted on 2026-09-11, so v0.41.0 covers only the 11 commits on the new history. ArtCraft's macOS and Windows tags for the same version are treated as one release.
 - **Not every version number has a release.** Several repos skip versions (e.g. v0.5.0 → v0.6.2); a row covers everything since the previous published release.
 - **PhotoCraft `v0.1.0` and `v0.1.1-rc.4` are the same commit** and are shown as one row.
 - **Community vs team PRs** uses GitHub's author association at the time of fetching (member/owner/collaborator = team).
